@@ -1,0 +1,76 @@
+{
+  "settings": {
+    "service": "music",
+    "rat_id": "msc",
+    "tone": "red"
+  },
+  "top": {
+    "title": "楽天ミュージック トップ",
+    "url": "https://music.rakuten.co.jp/",
+    "rat_id": "top"
+  },
+  "sections": [
+    {
+      "title": "メニュー",
+      "rat_id": "menu",
+      "contents": [
+        {
+          "title": "キャンペーン",
+          "url": "https://music.rakuten.co.jp/campaign/",
+          "rat_id": "campaign"
+        },
+        {
+          "title": "料金プラン",
+          "url": "https://music.rakuten.co.jp/plan/",
+          "rat_id": "plan"
+        },
+        {
+          "title": "Webプレイヤー(BETA)",
+          "url": "https://music.rakuten.co.jp/link/web-player/",
+          "rat_id": "web-player"
+        },
+        {
+          "title": "Rakuten Musicランク",
+          "url": "https://music.rakuten.co.jp/rank/",
+          "rat_id": "rank"
+        },
+        {
+          "title": "ポイント貯まる",
+          "url": "https://music.rakuten.co.jp/reward/",
+          "rat_id": "reward"
+        },
+        {
+          "title": "特集",
+          "url": "https://music.rakuten.co.jp/news/",
+          "rat_id": "news"
+        },
+        {
+          "title": "使い方",
+          "url": "https://music.rakuten.co.jp/howto/app/toppage/",
+          "rat_id": "howto"
+        },
+        {
+          "title": "ヘルプ",
+          "url": "https://music.faq.rakuten.net/s/",
+          "rat_id": "help"
+        }
+      ]
+    },
+    {
+      "title": "アプリ",
+      "rat_id": "app",
+      "contents": [
+        {
+          "icon_image": "https://music.rakuten.co.jp/assets/top/img/20241129/Icon_new_music.svg",
+          "title": "楽天ミュージック",
+          "url": {
+            "ios": "https://itunes.apple.com/jp/app/id1073815664?mt=8",
+            "default": "https://play.google.com/store/apps/details?id=jp.co.rakuten.music&hl=ja&pli=1"
+          },
+          "rat_id": "app_music",
+          "pop_out": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rakutenmusic/rakuten-music-section-groupservices",
+  "title": "楽天グループサービス",
+  "category": "rakutenmusic",
+  "icon": "align-wide",
+  "description": "楽天ミュージック汎用テンプレート用セクション: 楽天グループサービス",
+  "keywords": ["楽天", "ミュージック", "グループ"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "render": "file:./render.php"
+}

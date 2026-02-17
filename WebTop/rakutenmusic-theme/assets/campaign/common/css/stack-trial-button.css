@@ -1,0 +1,59 @@
+#page .l-content .btn-apply {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: stretch;
+}
+#page .l-content .btn-apply a {
+  color: #ffffff;
+}
+#page .l-content .btn-apply a.trial-btn, #page .l-content .btn-apply a.iap-store-link {
+  display: flex;
+  padding: 24px 8px 24px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 74px;
+  background: #bf0000;
+}
+#page .l-content .btn-apply a.trial-btn .txt, #page .l-content .btn-apply a.iap-store-link .txt {
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+#page .l-content .btn-apply .btn-apply--caption {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+#page .l-content .btn-apply .btn-apply--caption a {
+  color: #006497;
+}
+
+@media screen and (min-width: 767px) {
+  #page .l-content .btn-apply {
+    width: 400px;
+    margin: 0 auto;
+  }
+  #page .l-content .btn-apply a.trial-btn, #page .l-content .btn-apply a.iap-store-link {
+    transition: all 0.2s ease-in;
+  }
+  #page .l-content .btn-apply a.trial-btn .txt, #page .l-content .btn-apply a.iap-store-link .txt {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page .l-content .btn-apply a.trial-btn:hover, #page .l-content .btn-apply a.iap-store-link:hover {
+    background: #ff1212;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  #page .l-content .btn-apply .btn-apply--caption {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}/*# sourceMappingURL=stack-trial-button.css.map */

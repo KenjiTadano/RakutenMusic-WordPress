@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rakutenmusic/rakuten-music-section-price",
+  "title": "料金プラン",
+  "category": "rakutenmusic",
+  "icon": "align-wide",
+  "description": "楽天ミュージック汎用テンプレート用セクション: 料金プラン",
+  "keywords": ["楽天", "ミュージック", "料金", "プラン"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "render": "file:./render.php"
+}

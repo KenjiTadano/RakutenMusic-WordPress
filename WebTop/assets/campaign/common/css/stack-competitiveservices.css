@@ -1,0 +1,133 @@
+#page #stack-competitive-services .l-inner table {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#page #stack-competitive-services .l-inner table .red-bold {
+  font-weight: bold;
+  color: #bf0000;
+}
+
+#page #stack-competitive-services .l-inner table th {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #686868;
+  width: 76px;
+  background: white;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  padding: 8px;
+}
+
+#page #stack-competitive-services .l-inner table td {
+  padding: 12px;
+}
+
+#page #stack-competitive-services .l-inner table thead tr th,
+#page #stack-competitive-services .l-inner table thead tr td {
+  border-bottom: 4px solid #bf0000;
+}
+
+#page #stack-competitive-services .l-inner table thead tr td {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#page #stack-competitive-services .l-inner table thead tr td:first-child {
+  color: #bf0000;
+}
+
+#page #stack-competitive-services .l-inner table tbody tr:nth-child(even) th,
+#page #stack-competitive-services .l-inner table tbody tr:nth-child(even) td {
+  background: #f7f7f7;
+}
+
+#page #stack-competitive-services .l-inner table tbody tr:last-child th,
+#page #stack-competitive-services .l-inner table tbody tr:last-child td {
+  border-bottom: 1px solid #686868;
+}
+
+#page #stack-competitive-services .l-inner table tbody tr:last-child td {
+  vertical-align: top;
+}
+
+#page #stack-competitive-services .l-inner table tbody tr td {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page #stack-competitive-services .l-inner table tbody tr td p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page #stack-competitive-services .l-inner table tbody tr td p strong {
+  font-size: 30px;
+  line-height: 100%;
+  font-weight: normal;
+}
+
+#page #stack-competitive-services .l-inner table tbody tr td p small {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+#page #stack-competitive-services .l-inner table + div {
+  padding: 10px;
+  background: #f7f7f7;
+  margin-top: 24px;
+}
+
+#page #stack-competitive-services .l-inner table + div small {
+  font-size: 12px;
+  line-height: 16px;
+  display: inline-block;
+}
+
+#page #stack-competitive-services .l-inner table + div small a {
+  color: #006497;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  #page #stack-competitive-services .l-inner table th {
+    width: 131px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #stack-competitive-services .l-inner table td {
+    width: 188px;
+  }
+  #page #stack-competitive-services .l-inner table thead tr td {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page #stack-competitive-services .l-inner table tbody tr:last-child td {
+    padding-top: 24px;
+  }
+  #page #stack-competitive-services .l-inner table tbody tr td {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #stack-competitive-services .l-inner table tbody tr td p small {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  #page #stack-competitive-services .l-inner table + div {
+    display: inline-block;
+  }
+  #page #stack-competitive-services .l-inner table + div small {
+    text-align: left;
+  }
+  #page #stack-competitive-services .l-inner table + div small a:hover {
+    text-decoration: none;
+  }
+}
+/*# sourceMappingURL=stack-competitiveservices.css.map */

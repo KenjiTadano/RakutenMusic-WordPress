@@ -1,0 +1,61 @@
+/* デフォルト（デスクトップ）のスタイル */
+#page .scroll-container {
+  width: 100vw;
+  height: 105px; /* デスクトップ時の画像の高さ */
+  overflow: hidden;
+  position: relative;
+}
+
+#page .scroll-content {
+  display: flex;
+  position: absolute;
+  left: 0;
+  animation: scrollAnimation linear infinite;
+  /* animation-duration は JavaScript で設定 */
+}
+
+#page .scroll-content img {
+  height: 105px; /* デスクトップ時の画像の高さ */
+  width: 4096px; /* デスクトップ時の画像の幅 */
+  flex-shrink: 0;
+  display: block; /* 画像の下の余白をなくす */
+}
+
+/* デスクトップ用アニメーション */
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  /* JavaScriptで計算されたデスクトップ時のスクロール距離が適用されるため、
+       ここでは基準値として-2048pxを記述します。
+       もしJavaScriptが動かない場合でも、この値で最低限動作します。 */
+  100% {
+    transform: translateX(calc(-1 * var(--desktop-scroll-distance, 2048px)));
+  }
+}
+
+/* --- モバイル用のスタイル --- */
+/* 画面幅が768px以下の場合に適用 */
+@media (max-width: 768px) {
+  #page .scroll-container {
+    height: 50px; /* モバイル時の画像の高さ */
+  }
+
+  #page .scroll-content img {
+    height: 50px; /* モバイル時の画像の高さ */
+    width: 2000px; /* モバイル時の画像の幅 (例: デスクトップの約半分) */
+  }
+
+  /* モバイル用アニメーション
+       アニメーション名は変えず、transform の値を上書きします */
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    /* JavaScriptで計算されたモバイル時のスクロール距離が適用されるため、
+           ここでは基準値として-1000pxを記述します。 */
+    100% {
+      transform: translateX(calc(-1 * var(--mobile-scroll-distance, 1000px)));
+    }
+  }
+}

@@ -1,0 +1,160 @@
+#page .l-content .reward-mission-list {
+  display: flex;
+  padding: 0px 24px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+#page .l-content .reward-mission-list > li {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 8px;
+  border-radius: 8px;
+}
+#page .l-content .reward-mission-list > li .reward-mission-list-main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+#page .l-content .reward-mission-list > li .reward-mission-list-main > i img {
+  width: 48px;
+  height: 48px;
+}
+#page .l-content .reward-mission-list > li .reward-mission-list-main p.mission-ttl {
+  flex: 1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+#page .l-content .reward-mission-list > li .reward-mission-list-main p.reward-points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+#page .l-content .reward-mission-list > li .reward-mission-list-main p.reward-points span.point {
+  font-size: 20px;
+}
+#page .l-content .reward-mission-list > li p.caption {
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+#page .l-content .reward-mission-list + p.caption {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 0 24px;
+}
+#page .l-content .reward-mission-list + p.caption a {
+  text-decoration-line: underline;
+}
+
+#page .l-content .bg-light .reward-mission-list > li {
+  background: #f7f7f7;
+}
+#page .l-content .bg-light .reward-mission-list + p.caption a {
+  color: #d80000;
+}
+#page .l-content .bg-dark .reward-mission-list > li {
+  background: #212331;
+}
+#page .l-content .bg-dark .reward-mission-list > li svg path {
+  fill: white;
+}
+#page .l-content .bg-dark .reward-mission-list > li p {
+  color: white;
+}
+#page .l-content .bg-dark .reward-mission-list + p.caption {
+  color: white;
+}
+#page .l-content .bg-dark .reward-mission-list + p.caption a {
+  color: #f53a3a;
+}
+#page .l-content .bg-dark p.caption a {
+  color: #f53a3a;
+}
+#page .l-content .plan-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+}
+#page .l-content .plan-subsc {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#page .l-content .planName {
+  padding: 6px 12px;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 8px;
+}
+
+#page .point-caption {
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  padding: 0 24px;
+}
+#page .point-caption a {
+  text-decoration-line: underline;
+  color: #d80000;
+}
+
+@media screen and (min-width: 768px) {
+  #page .l-content .reward-mission-list {
+    flex-direction: row;
+    padding: 0;
+    height: 100%;
+  }
+  #page .l-content .reward-mission-list > li {
+    justify-content: flex-start;
+    gap: 24px;
+    flex: 1;
+    max-width: 180px;
+  }
+  #page .l-content .reward-mission-list > li .reward-mission-list-main {
+    display: block;
+    text-align: center;
+  }
+  #page .l-content .reward-mission-list > li .reward-mission-list-main p.mission-ttl {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 140%;
+    height: 44px;
+    margin: 16px auto;
+    justify-content: center;
+  }
+  #page .l-content .reward-mission-list > li .reward-mission-list-main p.reward-points {
+    font-size: 40px;
+  }
+  #page .l-content .reward-mission-list + p.caption a:hover {
+    text-decoration: none;
+  }
+  #page .l-content .plan-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px;
+    gap: 12px;
+  }
+} /*# sourceMappingURL=stack-reward.css.map */

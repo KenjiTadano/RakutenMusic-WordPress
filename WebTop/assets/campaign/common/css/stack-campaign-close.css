@@ -1,0 +1,28 @@
+.campaign-close {
+  width: 950px;
+  text-align: center;
+  border: 3px solid #bf0000;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px 0;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #bf0000;
+  box-sizing: border-box;
+  margin: 32px auto ;
+}
+
+#page .campaign-close .l-inner {
+ width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .campaign-close {
+    width: 90vw;
+    margin: 48w auto;
+    border: 2px solid #BF0001;
+    border-radius: 4vw;
+    padding: 10vw 0;
+    font-size: medium;
+  }
+}

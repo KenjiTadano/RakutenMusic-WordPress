@@ -1,0 +1,15 @@
+#page #ranks-songs ul li figure {
+  height: 100px;
+}
+
+#page #ranks-songs ul li figure img {
+  width: initial;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  #page #ranks-songs li.slick-slide figure img {
+    margin: 0 auto;
+  }
+}

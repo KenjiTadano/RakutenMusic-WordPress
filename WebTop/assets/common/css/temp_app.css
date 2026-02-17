@@ -1,0 +1,50 @@
+/* Header
+   ========================================================================== */
+/* Layout
+--------------------------------------------------------*/
+#page .header--sp {
+  padding: 0 !important;
+}
+
+/* Modules
+--------------------------------------------------------*/
+#page .header-logo .header-newlogo {
+  display: block;
+  margin-left: 64px;
+  width: 77px;
+  height: 40px;
+}
+
+#page .header-logo .header-newlogo span {
+  display: none;
+}
+
+#page .header-logo .header-newlogo__image--color, #page .header-logo .header-newlogo__image--mono {
+  width: 77px;
+  height: 40px;
+}
+
+#page .header-logo .header-newlogo__image--color {
+  background: url("../../../assets/common/img/newlogo_rakuten_music_sp.svg") no-repeat left center;
+  background-size: 77px 40px;
+}
+
+#page .header-logo .header-newlogo__image--mono {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #page .header-logo .header-newlogo {
+    margin: 5px auto 0;
+    width: 182px;
+    height: 32px;
+  }
+  #page .header-logo .header-newlogo__image--color, #page .header-logo .header-newlogo__image--mono {
+    width: 182px;
+    height: 32px;
+  }
+  #page .header-logo .header-newlogo__image--color {
+    background: url("../../../assets/common/img/newlogo_rakuten_music.svg") no-repeat left center;
+    background-size: 182px 32px;
+  }
+}

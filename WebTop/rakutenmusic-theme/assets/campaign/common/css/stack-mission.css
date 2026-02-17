@@ -1,0 +1,55 @@
+#page #point-mission {
+  margin: 36px auto;
+}
+
+#page #point-mission .l-inner {
+  padding: 0 24px;
+}
+
+#page #point-mission .l-inner h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 24px;
+}
+
+#page #point-mission .l-inner p.point-mission--body {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  margin: 24px 0px;
+}
+
+#page #point-mission .l-inner p.point-mission--caption {
+  background: #f7f7f7;
+  padding: 12px;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+#page #point-mission .l-inner p.point-mission--caption .point-mission--caption--red {
+  color: #d80000;
+}
+
+@media screen and (min-width: 768px) {
+  #page #point-mission .l-inner h1 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 36px;
+  }
+  #page #point-mission .l-inner figure {
+    text-align: center;
+  }
+  #page #point-mission .l-inner p.point-mission--body {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  #page #point-mission .l-inner p.point-mission--caption {
+    font-size: 21px;
+    line-height: 26px;
+    width: 961px;
+    margin: 0 auto;
+  }
+}

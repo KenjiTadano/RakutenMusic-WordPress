@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rakutenmusic/rakuten-music-section-others",
+  "title": "その他キャンペーン",
+  "category": "rakutenmusic",
+  "icon": "align-wide",
+  "description": "楽天ミュージック汎用テンプレート用セクション: その他キャンペーン",
+  "keywords": ["楽天", "ミュージック", "その他"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "render": "file:./render.php"
+}

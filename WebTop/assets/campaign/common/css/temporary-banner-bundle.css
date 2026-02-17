@@ -1,0 +1,23 @@
+#page figure.temporary-banner-bundle {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+#page figure.temporary-banner-bundle a img {
+  transition: all 0.2s ease-in;
+}
+#page figure.temporary-banner-bundle a:hover img {
+  opacity: 0.8;
+}
+#page figure.temporary-banner-bundle p {
+  text-align: center;
+  padding: 8px;
+}
+
+@media (max-width: 767px) {
+  #page figure.temporary-banner-bundle p {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=temporary-banner-bundle.css.map */

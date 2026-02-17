@@ -1,0 +1,58 @@
+#page #stack-90daystrial-services .l-inner section.lead {
+  margin: 6rem 0 0;
+  padding: 4rem 0;
+  border-top: 2px dashed darkgray;
+  border-bottom: 2px dashed darkgray;
+}
+
+#page #stack-90daystrial-services .l-inner section.lead p {
+  text-align: center;
+  line-height: 1.75;
+}
+
+#page #stack-90daystrial-services .l-inner section.lead p strong {
+  background: linear-gradient(transparent 75%, #ffdc00 75%);
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+#page #stack-90daystrial-services .l-inner section.service-list {
+  padding: 2rem 0 0;
+}
+
+#page #stack-90daystrial-services .l-inner section.service-list ul li {
+  width: 100%;
+  margin: 0 0 2.4rem;
+  border: 1px solid gainsboro;
+  border-radius: 1.2rem;
+  padding: 2.4rem 4rem 1.6rem;
+  text-align: center;
+  transition: all 0.2s ease-in;
+}
+
+#page #stack-90daystrial-services .l-inner section.service-list ul li a {
+  color: black;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  #page #stack-90daystrial-services .l-inner section.service-list {
+    padding: 4rem 0 0;
+  }
+  #page #stack-90daystrial-services .l-inner section.service-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #page #stack-90daystrial-services .l-inner section.service-list ul li {
+    width: 40%;
+    margin: 0 1.2rem 2.4rem;
+    transition: all 0.2s ease-in;
+  }
+  #page #stack-90daystrial-services .l-inner section.service-list ul li a figure img {
+    width: 100%;
+  }
+  #page #stack-90daystrial-services .l-inner section.service-list ul li:hover {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+}

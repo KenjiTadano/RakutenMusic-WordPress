@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rakutenmusic/rakuten-music-section-rakutenmusicrank",
+  "title": "Rakuten Musicランク",
+  "category": "rakutenmusic",
+  "icon": "align-wide",
+  "description": "楽天ミュージック汎用テンプレート用セクション: Rakuten Musicランク",
+  "keywords": ["楽天", "ミュージック", "ランク"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "render": "file:./render.php"
+}

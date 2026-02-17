@@ -1,0 +1,67 @@
+/* エントリーボタン調整 */
+.CampaignEntryButton_campaignButton__n6hK5 .CampaignEntryButton_rexButton__VH0Gh .CampaignEntryButton_rexButtonMessage__o1qbU {
+  font-size: 24px;
+}
+.Message_message__FuD4t.Message_red__mgP-C a {
+  color: #bf0000 !important;
+}
+#page .CampaignButton-success span.RexButton-message,
+#page .CampaignButton-loading span.RexButton-message {
+  color: #047205;
+}
+.anchor-llink a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #00a0f0 !important;
+}
+#page .entry-btn a {
+  color: #ffffff;
+}
+#page .entry-btn a:hover {
+  color: #ffffff;
+}
+#page .entry-btn section {
+  display: flex;
+  padding: 0 !important;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page .entry {
+  display: flex;
+  padding: 36px 12px;
+  align-items: center;
+  justify-content: center;
+
+  background: url(/assets/plan/bundle/img/20251101/bg-entry-sp.webp) lightgray 50% / cover no-repeat;
+}
+#page .entry-container {
+  display: flex;
+  padding: 24px 8px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 16px;
+  border: 1px solid #efefef;
+  background: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.BelowBlock_below__\+mukh{
+  margin-top: 16px !important;
+  }
+
+/* ----------------------------PC画面設定---------------------------- */
+@media screen and (min-width: 768px) {
+  #page .entry {
+    background: url(/assets/plan/bundle/img/20251101/bg-entry-pc.webp) lightgray 50% / cover no-repeat;
+  }
+  #page .entry-container {
+    max-width: 800px;
+    padding: 24px 24px;
+    justify-content: center;
+  }
+}

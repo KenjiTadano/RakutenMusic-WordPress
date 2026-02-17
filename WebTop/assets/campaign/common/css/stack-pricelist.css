@@ -1,0 +1,147 @@
+#page #price {
+  margin: 36px auto;
+  text-align: center;
+}
+
+#page #price > .l-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 24px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#page #price > .l-inner .price-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+#page #price > .l-inner .price-tab li {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  padding: 12px 0;
+  border-radius: 8px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+#page #price > .l-inner .price-tab li.price-tab--selected {
+  color: #006497;
+  background: #EBF7FE;
+  border: 2px solid #006497;
+}
+
+#page #price > .l-inner .price-tab li.price-tab--disabled {
+  color: black;
+  background: #EBEBEB;
+  border: 2px solid #EBEBEB;
+}
+
+#page #price > .l-inner > .is-hidden--pc {
+  width: 100%;
+}
+
+#page #price > .l-inner .price-list-wrapper {
+  width: 100%;
+  overflow-x: scroll;
+  margin-top: 16px;
+}
+
+#page #price > .l-inner .price-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+#page #price > .l-inner .price-monthly {
+  width: 600px;
+}
+
+#page #price > .l-inner .price-monthly > li {
+  width: 194px;
+}
+
+#page #price > .l-inner .price-yearly > li {
+  width: calc(100% - 8px / 2);
+}
+
+#page #price > .l-inner .price-lead {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+#page #price > .l-inner .price-lead + p.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #686868;
+}
+
+#page #price > .l-inner .price-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 8px;
+  background: #F7F7F7;
+}
+
+#page #price > .l-inner .price-caption p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #686868;
+  text-align: left;
+}
+
+#page #price > .l-inner .price-caption p a {
+  color: #006497;
+}
+
+#page #price > .l-inner .price-caption p.bold {
+  font-weight: bold;
+}
+
+#page #price > .l-inner .price-caption p.red {
+  color: #D80000;
+}
+
+@media screen and (min-width: 768px) {
+  #page #price > .l-inner .price-lead {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page #price > .l-inner .price-caption {
+    width: 997px;
+  }
+}
+/*# sourceMappingURL=stack-pricelist.css.map */

@@ -1,0 +1,44 @@
+#page #stack-section-rakutenmusicrank .rakutenmusic-rank-system {
+  padding: 0 24px;
+}
+#page #stack-section-rakutenmusicrank a.rank-nintendo-prepaidcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 0 24px;
+}
+#page #stack-section-rakutenmusicrank a.rank-nintendo-prepaidcard span {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 19.6px */
+  text-decoration-line: underline;
+}
+#page #stack-section-rakutenmusicrank.bg-light a.rank-nintendo-prepaidcard span {
+  color: #d80000;
+}
+#page #stack-section-rakutenmusicrank.bg-dark a.rank-nintendo-prepaidcard span {
+  color: #F53A3A;
+}
+
+@media screen and (min-width: 768px) {
+  #page #stack-section-rakutenmusicrank a.rank-nintendo-prepaidcard {
+    transition: all 0.2s ease-in;
+  }
+  #page #stack-section-rakutenmusicrank a.rank-nintendo-prepaidcard:hover {
+    opacity: 0.8;
+  }
+  #page #stack-section-rakutenmusicrank a.rank-nintendo-prepaidcard:hover span {
+    text-decoration: none;
+  }
+  #page #stack-section-rakutenmusicrank a.rank-nintendo-prepaidcard span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+  }
+}/*# sourceMappingURL=stack-rakutenmusicrank.css.map */

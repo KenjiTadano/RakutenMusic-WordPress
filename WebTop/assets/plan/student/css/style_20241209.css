@@ -1,0 +1,540 @@
+/*エントリーボタン調整*/
+#page .App {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+#page .InfoText {
+  margin: 0;
+}
+
+#page .Below {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+
+#page .CampaignButton-success span.RexButton-message,
+#page .CampaignButton-loading span.RexButton-message {
+  color: #047205;
+}
+
+#page .CampaignButton {
+  margin: 0;
+}
+
+#page .agreement-message strong {
+  color: black;
+}
+
+.Message_message__FuD4t.Message_red__mgP-C a {
+  color: #BF0000 !important;
+}
+
+#page .l-content #top-section-step .summary-group>h3>strong {
+  color: #BF0000;
+}
+
+#page .l-content #top-section-step .multi-step .multi-step-content p.lead .strong {
+  font-weight: 700;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+
+#page .l-content .summary-group p.small {
+  padding-top: 8px;
+  font-size: 12px;
+}
+
+#page #overview div.l-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+}
+
+#page #top-section-step {
+  background-color: #F6E3D7;
+  gap: 24px;
+}
+
+#page .l-content .multi-step .multi-step-content {
+  gap: 16px;
+}
+
+#page .l-content .multi-step .multi-step-content p.small {
+  font-size: 12px;
+  text-align: center;
+}
+
+#page .l-content .multi-step .multi-step-content a.detail {
+  text-decoration: underline;
+  color: inherit;
+}
+
+#page .l-content .gakuwari-caption {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  background: #F7F7F7;
+}
+
+#page .l-content .gakuwari-caption p {
+  text-align: justify;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+#page .l-content .gakuwari-caption p.bold {
+  font-weight: 700;
+}
+
+#page .l-content .gakuwari-caption p a {
+  color: inherit;
+  text-decoration-line: underline;
+  word-spacing: -0.05em;
+}
+
+#page .l-content #overview.bg-light .ttl-group sub {
+  color: #F56611;
+}
+
+#page #overview .overview-main .txt .price,
+#page #overview .overview-main .txt .feature {
+  color: #F56611;
+}
+
+#page #overview .overview-feature-list {
+  display: flex;
+  width: 327px;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+#page #overview .overview-feature-list>li:first-child {
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+#page #overview .overview-feature-list>li .list-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#page #overview .overview-feature-list>li:not(:first-child) {
+  flex: 1;
+  flex-direction: column;
+}
+
+#page #overview .overview-feature-list>li {
+  background: #FFF5EF;
+}
+
+#page #overview .overview-feature-list>li:not(:first-child) {
+  flex: 1;
+  flex-direction: column;
+}
+
+#page #overview .popular-artist-list .artist-name-list ul.artist-name-list-pickup>li {
+  color: #F56611;
+}
+
+#page .l-content #overview.bg-student .ttl-group sub {
+  color: #F56611;
+}
+
+#page .l-content #top-section-scene.bg-dark .ttl-group sub {
+  color: #FF731F;
+}
+
+#page #overview .overview-main .txt .price strong {
+  line-height: 1;
+}
+
+#page #usage-steps .usage-steps-group--student .btn-apply a.student-link-btn {
+  background: #F56611;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group .tokuten .service_student {
+  color: #F56611;
+}
+
+#page #usage-steps .icon-plus {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#page #usage-steps .usage-steps-group--student {
+  display: flex;
+  width: 327px;
+  padding: 24px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 16px auto;
+  border-radius: 32px;
+  background: #FFF5EF;
+}
+
+#page #usage-steps .usage-steps-group--ex {
+  margin-top: 16px;
+}
+
+#page #usage-steps .usage-steps-group--new {
+  margin-top: 16px;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group .term {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group .tokuten {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group .usage {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group .usage .usage_bold {
+  font-weight: 700;
+}
+
+#page #usage-steps .usage-steps-group--student .btn-apply a.student-link-btn {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 72px;
+  background: #F56611;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  width: 263px;
+  white-space: nowrap;
+}
+
+#page #about_rakuten_gakuwari {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  border-radius: 16px;
+  border: 3px solid #F56611;
+  padding: 0 16px;
+}
+
+#page #about_rakuten_gakuwari .about_rakuten_gakuwari__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+#page #about_rakuten_gakuwari .about_rakuten_gakuwari__header img {
+  width: 221px;
+}
+
+#page #about_rakuten_gakuwari .about_rakuten_gakuwari__header h2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: normal
+}
+
+#page #about_rakuten_gakuwari>p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+#page .pr_bnr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 24px;
+  gap: 24px;
+}
+
+#page .pr_bnr p {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+#page .ttl_steps_apply_student_plan__caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  background: #EBF7FE;
+  border-radius: 16px;
+  margin-top: 32px;
+}
+
+#page .ttl_steps_apply_student_plan__caption .ttl_steps_apply_student_plan__caption__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page .ttl_steps_apply_student_plan__caption p.small {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+
+#page .ttl_steps_apply_student_plan__caption p {
+  color: #006497;
+}
+
+#page .ttl_steps_apply_student_plan__caption .ttl_steps_apply_student_plan__caption__header i img {
+  width: 22px;
+}
+
+
+@media screen and (min-width: 767px) {
+
+  /*エントリーボタン調整*/
+  #page .App {
+    width: 600px;
+    gap: 24px;
+  }
+
+  #page .CampaignButton a {
+    max-width: none;
+  }
+
+  #page #top-section-step {
+    gap: 32px;
+  }
+
+  #page .l-content .gakuwari-caption {
+    align-items: center;
+  }
+
+  #page .l-content .gakuwari-caption p {
+    width: 886px;
+  }
+
+  #page #overview .overview-feature-list {
+    width: fit-content;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #page #overview .overview-feature-list>li:first-child {
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  #page #usage-steps .icon-plus {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #page #usage-steps .usage-steps-group--student {
+    margin: 32px auto;
+    width: 950px;
+    padding: 64px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #page #usage-steps .usage-steps-group--new {
+    margin-top: 32px;
+  }
+
+  #page #usage-steps .usage-steps-group--ex {
+    margin-top: 32px;
+  }
+
+  #page #usage-steps .usage-steps-group--student .txt-group {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #page #usage-steps .usage-steps-group--student .txt-group .term {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #page #usage-steps .usage-steps-group--student .txt-group .tokuten {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #page #usage-steps .usage-steps-group--student .txt-group .usage {
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  #page #usage-steps .usage-steps-group--student .btn-apply a.student-link-btn {
+    padding: 16px 24px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    transition: all 0.2s ease-in;
+    width: 336px;
+  }
+
+  #page #usage-steps .usage-steps-group--student .btn-apply a.student-link-btn:hover {
+    background: #FD7F33;
+  }
+
+  #page #about_rakuten_gakuwari {
+    gap: 32px;
+    border-radius: 32px;
+    padding: 0 32px;
+    margin: 0 8px;
+    width: 950px;
+  }
+
+  #page #about_rakuten_gakuwari .about_rakuten_gakuwari__header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  #page #about_rakuten_gakuwari .about_rakuten_gakuwari__header img {
+    width: 233px;
+    padding-top: .4em;
+  }
+
+  #page #about_rakuten_gakuwari .about_rakuten_gakuwari__header h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  #page .pr_bnr {
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  #page .pr_bnr p {
+    font-size: 16px;
+  }
+
+  #page .ttl_steps_apply_student_plan__caption {
+    padding: 36px;
+    gap: 16px;
+    width: 950px;
+  }
+
+  #page .ttl_steps_apply_student_plan__caption .ttl_steps_apply_student_plan__caption__header i img {
+    width: 24px;
+  }
+}
+
+
+
+/*# sourceMappingURL=style_20240701.css.map */

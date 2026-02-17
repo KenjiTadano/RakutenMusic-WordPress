@@ -1,0 +1,35 @@
+#page #best-value-music-app {
+    display: flex;
+    padding: 24px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+#page #best-value-music-app h2 {
+    color: #000;
+    text-align: justify;
+    /* JP Header Small 20px/Bold */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 140% */
+}
+
+#page #best-value-music-app h3 img {
+    width: 182px;
+    height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    #page #best-value-music-app {
+        padding: 32px 0;
+    }
+
+    #page #best-value-music-app h3 img {
+        width: 273px;
+        height: 48px;
+    }
+}

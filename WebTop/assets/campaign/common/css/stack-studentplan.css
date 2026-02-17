@@ -1,0 +1,161 @@
+#page #stack_about_student_plan p.caution {
+  padding: 8px;
+  background: #FEF0DD;
+  border-radius: 8px;
+  color: #a35e04;
+}
+
+#page #stack_about_student_plan p.small {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page #stack_about_student_plan p.small small {
+  font-size: 100%;
+}
+
+#page #stack_about_student_plan .flx-24 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+
+#page #stack_about_student_plan .flx-32 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+
+#page #stack_about_student_plan .about_student_plan_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 36px;
+}
+
+#page #stack_about_student_plan .about_student_plan_body__content {
+  padding: 0 16px;
+}
+
+#page #stack_about_student_plan .about_student_plan_body__content__lead {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+#page #stack_about_student_plan .about_student_plan_body__content__lead + img {
+  width: 200px;
+}
+
+#page #stack_about_student_plan .about_student_plan_body__content__main + table tr td {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+#page #stack_about_student_plan .about_student_plan_body__content__main + table tr td:first-child {
+  width: 126px;
+}
+
+#page #stack_about_student_plan .list_anchor_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  border-bottom: 1px solid #D08667;
+}
+
+#page #stack_about_student_plan .list_anchor_link li {
+  width: 100%;
+  border-top: 1px solid #D08667;
+}
+
+#page #stack_about_student_plan .list_anchor_link li a {
+  padding: 12px 8px;
+  color: #D08667;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+
+#page #stack_about_student_plan .list_anchor_link li a::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(/assets/plan/student/img/icon_circle-question-regular.png) no-repeat center/cover;
+}
+
+@media screen and (min-width: 767px) {
+  #page #stack_about_student_plan .about_student_plan_body {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 1024px;
+    margin: 0 auto;
+  }
+  #page #stack_about_student_plan .about_student_plan_body__content__lead + img {
+    width: 318px;
+  }
+  #page #stack_about_student_plan .about_student_plan_body__content__main + table tr td {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #stack_about_student_plan .about_student_plan_body__content__main + table tr td:first-child {
+    width: 148px;
+  }
+  #page #stack_about_student_plan .list_anchor_link {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    border-bottom: none;
+  }
+  #page #stack_about_student_plan .list_anchor_link li {
+    border-top: none;
+  }
+  #page #stack_about_student_plan .list_anchor_link li a {
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #stack_about_student_plan .list_anchor_link li a:hover {
+    opacity: 0.8;
+  }
+}
+/*# sourceMappingURL=stack-studentplan.css.map */

@@ -1,0 +1,392 @@
+#page #fv-captions p.small {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+#page #usage-steps .usage-steps-group--new .txt-group .usage {
+  text-align: center;
+  white-space: nowrap;
+}
+
+#page .l-content #overview.bg-light .ttl-group sub {
+  color: #EF0AA1;
+}
+
+#page #overview .overview-main .txt .price,
+#page #overview .overview-main .txt .feature {
+  color: #EF0AA1;
+}
+
+#page #usage-steps {
+  display: flex;
+  padding: 48px 0px 0px;
+}
+
+#page #usage-steps .usage-steps-tab {
+  margin: 0px;
+}
+
+#page #overview .overview-feature-list {
+  display: flex;
+  width: 327px;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+#page #overview .overview-feature-list>li:first-child {
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+#page #overview .overview-feature-list>li .list-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#page #overview .overview-feature-list>li:not(:first-child) {
+  flex: 1;
+  flex-direction: column;
+}
+
+#page #overview .overview-feature-list>li {
+  background: #FFF4FB;
+}
+
+#page #overview .popular-artist-list .artist-name-list ul.artist-name-list-pickup>li {
+  color: #EF0AA1;
+}
+
+#page .l-content #overview.bg-cardmobile .ttl-group sub {
+  color: #EF0AA1;
+}
+
+#page .l-content #top-section-scene.bg-dark .ttl-group sub {
+  color: #EF0AA1;
+}
+
+#page #overview .overview-main .txt .price strong {
+  line-height: 1;
+}
+
+#page #usage-steps .usage-steps-group--new {
+  margin: 0px;
+}
+
+#page #usage-steps .usage-steps-group--cardmobile .btn-apply a.cardmobile-link-btn {
+  background: #EF0AA1;
+}
+
+#page #usage-steps .usage-steps-group--cardmobile .txt-group .tokuten .service_cardmobile {
+  color: #EF0AA1;
+}
+
+#page #usage-steps .usage-steps-group--cardmobile .txt-group .tokuten span.small {
+  font-size: 12px;
+}
+
+
+#page #usage-steps .icon-plus {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#page #usage-steps .usage-steps-group--cardmobile {
+  display: flex;
+  width: 327px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 32px;
+  background: #FFF4FB;
+}
+
+#page #usage-steps .usage-steps-group--ex {
+  margin-top: 16px;
+}
+
+#page #usage-steps .usage-steps-group--cardmobile .usage-steps-group-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#page #usage-steps .usage-steps-group--cardmobile .txt-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#page #usage-steps .usage-steps-group--cardmobile .txt-group .term {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#page #usage-steps .usage-steps-group--cardmobile .txt-group .tokuten {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+#page #usage-steps .usage-steps-group--cardmobile .txt-group .usage {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#page #usage-steps .usage-steps-group--cardmobile .btn-apply a.cardmobile-link-btn {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 72px;
+  background: #EF0AA1;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  width: 263px;
+  white-space: nowrap;
+}
+
+#page .l-campaign-02 section.s-campaign-detail {
+  padding: 24px 0 32px;
+}
+
+#page .pr_bnr {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+#page .pr_bnr p {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+#page .ttl_steps_apply_cardmobile_plan__caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  background: #F7F7F7;
+  align-self: stretch;
+}
+
+#page .ttl_steps_apply_cardmobile_plan__caption .ttl_steps_apply_cardmobile_plan__caption__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page .ttl_steps_apply_cardmobile_plan__caption p.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+}
+
+#page .ttl_steps_apply_cardmobile_plan__caption .ttl_steps_apply_cardmobile_plan__caption__header i img {
+  width: 22px;
+}
+
+#page #common-banner-mno img {
+  width: 100%;
+  height: auto;
+}
+
+#page #common-banner-mno {
+  padding-bottom: 48px;
+}
+
+@media screen and (min-width: 767px) {
+  #page #fv-captions {
+    width: 950px;
+  }
+
+  #page #usage-steps .usage-steps-group--new .txt-group .usage {
+    text-align: left;
+  }
+
+  #page #overview .overview-feature-list {
+    width: fit-content;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #page #overview .overview-feature-list>li:first-child {
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  #page #usage-steps {
+    padding: 64px 0px 0px;
+  }
+
+  #page #usage-steps .icon-plus {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #page #usage-steps .usage-steps-group--cardmobile {
+    width: 950px;
+    padding: 64px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #page #usage-steps .usage-steps-group--cardmobile .usage-steps-group-btn {
+    gap: 16px;
+  }
+
+  #page #usage-steps .usage-steps-group--ex {
+    margin-top: 32px;
+  }
+
+
+  #page #usage-steps .usage-steps-group--cardmobile .txt-group {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #page #usage-steps .usage-steps-group--cardmobile .txt-group .term {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #page #usage-steps .usage-steps-group--cardmobile .txt-group .tokuten {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+  }
+
+  #page #usage-steps .usage-steps-group--cardmobile .txt-group .usage {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #page #usage-steps .usage-steps-group--cardmobile .btn-apply a.cardmobile-link-btn {
+    padding: 16px 24px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    transition: all 0.2s ease-in;
+    width: 336px;
+  }
+
+  #page #usage-steps .usage-steps-group--cardmobile .btn-apply a.cardmobile-link-btn:hover {
+    background: #F24BB9;
+  }
+
+  #page #about_rakuten_gakuwari {
+    gap: 32px;
+    border-radius: 32px;
+    padding: 0 32px;
+  }
+
+  #page #about_rakuten_gakuwari .about_rakuten_gakuwari__header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  #page #about_rakuten_gakuwari .about_rakuten_gakuwari__header img {
+    width: 233px;
+    padding-top: .4em;
+  }
+
+  #page #about_rakuten_gakuwari .about_rakuten_gakuwari__header h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  #page .pr_bnr p {
+    font-size: 16px;
+  }
+
+  #page .ttl_steps_apply_cardmobile_plan__caption {
+    padding: 32px;
+    gap: 16px;
+  }
+
+
+  #page .ttl_steps_apply_cardmobile_plan__caption p.small {
+    width: 950px;
+  }
+
+  #page .l-campaign-02 section.s-campaign-detail {
+    padding: 24px 0 40px;
+  }
+
+  #page .pr_bnr {
+    margin-bottom: 32px;
+  }
+
+}
+
+
+
+/*# sourceMappingURL=style_20240701.css.map */

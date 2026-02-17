@@ -1,0 +1,44 @@
+#page section {
+    padding-top: 32px;
+}
+
+#page .l-inner {
+    width: 950px;
+}
+
+
+/*---- 獲得ポイント ----*/
+
+#page #point {
+    margin: 3.2rem auto;
+    text-align: center;
+}
+
+#page #point .l-inner>h2 {
+    margin-bottom: 3.2rem;
+}
+
+#page #point .l-inner>figure {
+    margin: 3.2rem auto;
+}
+
+#page #point .l-inner>p {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+@media screen and (max-width: 950px) {
+    #page .l-inner {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #page #point .l-inner>p {
+        text-align: left;
+    }
+    #page #point .l-inner>h2 {
+        font-size: 2.2rem;
+    }
+}

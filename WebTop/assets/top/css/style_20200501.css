@@ -1,0 +1,1476 @@
+#page .lato {
+  font-family: "Lato", sans-serif;
+}
+
+#page .wrapper {
+  background: white;
+}
+
+#page .signup {
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+  padding: 4rem 0;
+}
+
+#page .signup .s-entry-form {
+  padding: 0 0 1em;
+}
+
+#page .signup .s-entry-form + p {
+  color: #2a4a71;
+  font-size: 12px;
+}
+
+#page .signup .s-entry-form + p + ul {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#page .signup .s-entry-form + p + ul li {
+  margin: 0 2rem;
+}
+
+#page .signup .s-entry-form + p + ul li:nth-child(1) i {
+  color: #a3aaae;
+}
+
+#page .signup .s-entry-form + p + ul li:nth-child(2) i {
+  color: #78c257;
+}
+
+#page .signup .s-entry-form + p + ul li i {
+  font-size: 6rem;
+}
+
+#page #top {
+  position: relative;
+}
+
+#page #top .main_visual {
+  width: 100%;
+  height: 400px;
+  background: url(https://music.r10s.jp/external/prod/assets/top/img/kv_20200501.jpg) center top/cover;
+}
+
+#page #top .main_visual > div {
+  width: 876px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#page #top .main_visual > div p {
+  text-shadow: 0px 4px 10px #d76c0e;
+  color: white;
+  margin-bottom: 12px;
+}
+
+#page #top .main_visual > div p.lead {
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+#page #top .main_visual > div p small {
+  font-size: 12px;
+}
+
+#page #top .main_visual > div p a {
+  color: white;
+  text-decoration: underline;
+}
+
+#page #top .main_visual > div p a:hover {
+  text-decoration: none;
+}
+
+#page #top .main_text {
+  text-align: center;
+  padding: 16px 0;
+  margin: -130px 0 0;
+}
+
+#page #top .main_text p:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#page #top .main_text p:nth-of-type(2) {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 88px;
+  color: #bf0000;
+  margin-top: -12px;
+}
+
+#page #top .main_text p:nth-of-type(3) {
+  margin: 12px 0 0;
+}
+
+#page #top .main_text div a {
+  padding: 8px 24px;
+  border: 2px solid #bf0000;
+  color: #bf0000;
+  font-weight: bold;
+  border-radius: 48px;
+  transition: all 0.2s ease-in;
+}
+
+#page #top .main_text div a:hover {
+  background: #bf0000;
+  color: white;
+}
+
+#page #top > * {
+  position: relative;
+}
+
+#page #top .heading {
+  font-size: 82px;
+  font-family: "Raleway", sans-serif;
+}
+
+#page #top .text-box {
+  font-size: 28px;
+}
+
+#page #top .text-box p br {
+  display: none;
+}
+
+#page #top .s-entry-form {
+  padding: 40px 0 0;
+}
+
+#page #trial90days {
+  margin: 36px 0 0;
+}
+
+#page #trial90days .l-inner p {
+  text-align: center;
+}
+
+#page #trial90days .l-inner p strong {
+  color: #bf0000;
+  font-size: 1.2em;
+}
+
+#page #trial90days .l-inner ul {
+  margin: 8px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+#page #trial90days .l-inner ul li {
+  margin: 0 12px;
+}
+
+#page #trial90days .l-inner ul li a {
+  color: #bf0000;
+  text-decoration: underline;
+}
+
+#page #trial90days .l-inner ul li a:hover {
+  text-decoration: none;
+}
+
+#page section.s-campaign-list {
+  padding: 0;
+}
+
+#page section.s-campaign-list .l-inner h2,
+#page section.s-campaign-list .l-inner ul.campaign-list li.campaign__item div.campaign__card figcaption.campaign__title {
+  display: none;
+}
+
+#page .slide-bnr {
+  background: white;
+  padding: 20px 0 5px;
+}
+
+#page .slide-bnr .slick-list li {
+  margin: 0 10px;
+}
+
+#page .slick-dots {
+  bottom: 0;
+  margin: 0;
+}
+
+#page .slick-dots li button::before {
+  content: none;
+}
+
+#page .slick-prev {
+  left: 25px;
+  z-index: 1;
+}
+
+#page .slick-next {
+  right: 25px;
+  z-index: 1;
+}
+
+#page #songs .inner {
+  width: 950px;
+  padding: 30px 0 60px;
+  margin: 0 auto;
+}
+
+#page #songs .inner > ol {
+  display: flex;
+}
+
+#page #songs .inner > ol li {
+  width: calc(100% / 3);
+  height: 58px;
+  position: relative;
+  text-align: center;
+  line-height: 58px;
+  font-weight: bold;
+  color: #2a4a71;
+}
+
+#page #songs .inner > ol li:hover {
+  cursor: pointer;
+}
+
+#page #songs .inner > ol li:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  background: #2a4a71;
+}
+
+#page #songs .inner > ol li.on:after {
+  height: 3px;
+  background: #ff1a1a;
+}
+
+#page #songs .inner > div > ol {
+  height: 610px;
+  position: relative;
+}
+
+#page #songs .inner > div > ol > li {
+  width: 100%;
+  height: 560px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+}
+
+#page #songs .inner > div > ol > li:not(:nth-child(2)) {
+  display: none;
+}
+
+#page #songs .inner > div > ol > li .song {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#page #songs .inner > div > ol > li .song li {
+  width: calc(100% / 5);
+  padding: 0 10px;
+  margin: 20px 0 0;
+  box-sizing: border-box;
+}
+
+#page #songs .inner > div > ol > li .song li figure {
+  width: 162px;
+  height: 162px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#page #songs .inner > div > ol > li .song li figure img {
+  width: 100%;
+}
+
+#page #songs .inner > div > ol > li .song li figure + p {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#page #songs .inner > div > ol > li .song li figure + p strong {
+  color: #ff1a1a;
+  font-size: 1.2em;
+  padding-right: 0.5em;
+}
+
+#page #songs .inner > div > ol > li .song li p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 5px 0 0;
+  font-size: 12px;
+  color: #2a4a71;
+  line-height: 1.5;
+}
+
+#page #songs .inner > div > ol > li .songs-tab {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#page #songs .inner > div > ol > li .songs-tab li {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 40px;
+  opacity: 0.5;
+}
+
+#page #songs .inner > div > ol > li .songs-tab li:hover, #page #songs .inner > div > ol > li .songs-tab li.on {
+  opacity: 1;
+}
+
+#page #songs .inner > div > ol > li .songs-tab li:hover a,
+#page #songs .inner > div > ol > li .songs-tab li.on a {
+  color: #ff1a1a;
+}
+
+#page #songs .inner > div > ol > li .songs-tab li a {
+  color: #2a4a71;
+  text-decoration: none;
+}
+
+#page #songs .inner > div > ol > li.songs-artist .songs-tab li {
+  padding: 10px 20px;
+}
+
+#page #songs .inner > div > ol > li.songs-artist .artist-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 400px;
+  overflow-y: scroll;
+  margin: 20px 0 40px;
+}
+
+#page #songs .inner > div > ol > li.songs-artist .artist-list li {
+  width: calc(100% / 3);
+  padding: 10px 0;
+  font-size: 12px;
+  color: #2a4a71;
+}
+
+#page #songs .inner > div > ol > li.songs-artist .artist-list + div {
+  border-top: 1px solid #2a4a71;
+  padding: 20px 0 0;
+}
+
+#page #songs .inner > div > ol > li.songs-artist .artist-list + div p {
+  font-size: 12px;
+  line-height: 2;
+  color: #2a4a71;
+  text-align: center;
+}
+
+#page #songs .inner > div > ol > li.songs-artist .artist-list + div p strong {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#page #mission {
+  background: #f7f7f7;
+}
+
+#page #mission .l-inner {
+  padding: 48px 0;
+}
+
+#page #mission .l-inner h1.heading {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#page #mission .l-inner h2.heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#page #mission .l-inner section {
+  padding: 0;
+}
+
+#page #mission .l-inner > section > * {
+  margin: 36px auto;
+}
+
+#page #mission .l-inner > section > *:first-child {
+  margin: 0 auto 36px;
+}
+
+#page #mission .l-inner > section.save {
+  margin-bottom: 36px;
+}
+
+#page #mission .l-inner > section.save > figure {
+  width: 239px;
+  height: auto;
+}
+
+#page #mission .l-inner > section.save > figure img {
+  width: 100%;
+}
+
+#page #mission .l-inner > section.save > figure + p {
+  text-align: center;
+}
+
+#page #mission .l-inner > section.save .mission-sample {
+  border-radius: 24px;
+  background: white;
+  padding: 36px 24px;
+}
+
+#page #mission .l-inner > section.save .mission-sample > ul {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 !important;
+}
+
+#page #mission .l-inner > section.save .mission-sample > ul > li {
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+#page #mission .l-inner > section.save .mission-sample > ul > li:not(:last-child) {
+  border-right: 1px dashed #d1d1d1;
+}
+
+#page #mission .l-inner > section.save .mission-sample > ul > li p small {
+  font-size: 12px;
+  color: #686868;
+}
+
+#page #mission .l-inner > section.save .mission-sample > ul + p {
+  text-align: center;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction > figure {
+  width: 192px;
+  height: 192px;
+  margin: 0 auto 24px;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction > figure img {
+  width: 100%;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph {
+  width: 500px;
+  height: 32px;
+  margin: 0 auto 12px;
+  display: flex;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph > div {
+  font-size: 12px;
+  line-height: 32px;
+  padding-left: 12px;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph > div:nth-of-type(1) {
+  width: 44.7%;
+  background: #00a0f0;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph > div:nth-of-type(2) {
+  width: 36.9%;
+  background: #4dc4ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph > div:nth-of-type(3) {
+  width: 16.5%;
+  background: #7bd3ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph > div:nth-of-type(4) {
+  width: 1.9%;
+  background: #aee4ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description {
+  width: 500px;
+  margin: 0 auto 12px;
+  display: flex;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p {
+  font-size: 12px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-right: 12px;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:nth-of-type(1):before {
+  background: #00a0f0;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:nth-of-type(2):before {
+  background: #4dc4ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:nth-of-type(3):before {
+  background: #7bd3ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:nth-of-type(4):before {
+  background: #aee4ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:nth-of-type(5):before {
+  background: white;
+  border: 1px dashed #828282;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction > p {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#page #mission .l-inner > section.use > figure {
+  width: 212px;
+  height: 159px;
+}
+
+#page #mission .l-inner > section.use > figure img {
+  width: 100%;
+}
+
+#page #mission .l-inner > section.use > p {
+  text-align: center;
+}
+
+#page #mission .l-inner > section.use > p strong {
+  color: #bf0000;
+}
+
+#page #mission .l-inner > section.use > p:last-of-type {
+  left: 253px;
+  top: 375px;
+  color: #686868;
+}
+
+#page #bnr-full {
+  background: white;
+  padding: 0;
+  margin: 48px 0 0;
+}
+
+#page #bnr-full .l-inner div.bnr a:hover {
+  opacity: 0.8;
+}
+
+#page #bnr-full .l-inner div.bnr a img {
+  width: 100%;
+}
+
+#page #price {
+  background: white;
+  padding-bottom: 4rem;
+}
+
+#page #price .heading {
+  margin: 0;
+  color: #2a4a71;
+}
+
+#page #price .l-inner .card {
+  padding: 0 46px 46px;
+  position: relative;
+  border-top: 6px solid #2a4a71;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+  text-align: center;
+  color: #2a4a71;
+}
+
+#page #price .l-inner .card p.price {
+  color: #d80000;
+  font-size: 2.4rem;
+}
+
+#page #price .l-inner .card p.price strong {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#page #price .l-inner .card p.price small {
+  font-size: 0.5em;
+}
+
+#page #price .l-inner .card div.border {
+  border-top: 2px solid #004e76;
+  border-bottom: 2px solid #004e76;
+  padding: 24px 0;
+  margin: 2.4rem auto;
+}
+
+#page #price .l-inner .card div.border p {
+  font-weight: bold;
+}
+
+#page #price .l-inner .card div.border p strong {
+  color: #d80000;
+}
+
+#page #price .l-inner .card > ul {
+  margin: 2.4rem auto;
+}
+
+#page #price .l-inner .card > ul > li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+#page #price .l-inner .card > ul > li > div:first-of-type {
+  width: 140px;
+  height: 60px;
+  line-height: 60px;
+  background: #004e76;
+  border-radius: 12px 0px 0px 0px;
+  color: white;
+  font-weight: bold;
+}
+
+#page #price .l-inner .card > ul > li > div:last-of-type {
+  flex: 1;
+  margin-left: 24px;
+  text-align: left;
+}
+
+#page #price .l-inner .card > ul > li > div:last-of-type small {
+  color: #a3aaae;
+}
+
+#page #price .l-inner .card p.btn-container {
+  margin: 0 0 12px;
+}
+
+#page #price .l-inner .card p.btn-container + p {
+  font-size: 1.2rem;
+}
+
+#page #price .l-inner .card .signup {
+  padding: 24px 0 0;
+}
+
+#page #price .l-inner .card .signup .s-entry-form {
+  padding: 0;
+}
+
+#page #price .l-inner .card .signup .s-entry-form + p + ul {
+  margin: 20px 0 0;
+}
+
+#page #value.wrapper {
+  background: #ff1a1a;
+  padding: 40px 0 80px;
+}
+
+#page #value h3,
+#page #value p {
+  color: white;
+}
+
+#page #value h3 {
+  font-size: 28px;
+}
+
+#page #value p {
+  font-size: 16px;
+}
+
+#page #value p small {
+  font-size: 12px;
+}
+
+#page #value .content-box {
+  padding: 40px 0 0;
+}
+
+#page #value .content-box__image-left .l-inner {
+  display: flex;
+  width: 900px;
+}
+
+#page #value .content-box__image-left .content-box__image {
+  float: none;
+  width: 320px;
+  margin: 0 40px 0 0;
+}
+
+#page #campaign.wrapper {
+  background: #2a4a71;
+  padding: 40px 0 80px;
+}
+
+#page #campaign .heading {
+  margin: 0 0 20px;
+  color: white;
+}
+
+#page #campaign > .l-inner {
+  display: flex;
+  width: 950px;
+  margin: 0 auto;
+}
+
+#page #campaign > .l-inner .campaign-list {
+  display: block;
+  width: 455px;
+  margin: 0 40px 0 0;
+}
+
+#page #campaign > .l-inner .campaign-list > li {
+  background: white;
+  box-sizing: border-box;
+  margin: 0 0 20px;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition-duration: 0.25s;
+}
+
+#page #campaign > .l-inner .campaign-list > li:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 10px 20px rgba(0, 0, 0, 0.24);
+}
+
+#page #campaign > .l-inner .campaign-list > li:first-child {
+  margin-bottom: 2rem;
+}
+
+#page #campaign > .l-inner .campaign-list > li:last-child {
+  margin: 0;
+}
+
+#page #campaign > .l-inner .campaign-list > li a > div > div {
+  color: #ff1a1a;
+  font-size: 16px;
+  text-align: center;
+}
+
+#page #campaign > .l-inner .campaign-list > li a > div > div:first-child {
+  padding: 0 0 10px;
+  color: #2a4a71;
+  border-bottom: 1px solid #2a4a71;
+}
+
+#page #campaign > .l-inner .campaign-list > li a > div > div:nth-child(2) span {
+  font-size: 60px;
+}
+
+#page #campaign > .l-inner .campaign-list > li a > div > div.button {
+  background: #ff1a1a;
+  position: relative;
+  padding: 5px 0;
+  color: white;
+  line-height: 1.5;
+}
+
+#page #campaign > .l-inner .campaign-list > li a > div > div.button i {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  margin-top: -8px;
+}
+
+#page #campaign + .signup {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+}
+
+#page #feature li .scene {
+  height: 400px;
+  font-size: 0;
+  position: relative;
+}
+
+#page #feature li .scene::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(236, 239, 241, 0.7);
+}
+
+#page #feature li .desc-outer {
+  height: 400px;
+  background: white;
+}
+
+#page #feature li .desc-outer > div {
+  position: relative;
+  width: 950px;
+  margin: 0 auto;
+}
+
+#page #feature li .desc-outer h3 {
+  font-size: 28px;
+  color: #2a4a71;
+  margin: 0;
+  padding: 120px 0 0;
+}
+
+#page #feature li .desc-outer .vi-mobile {
+  width: 500px;
+  height: 800px;
+  position: absolute;
+  top: -400px;
+  right: -70px;
+  font-size: 0;
+}
+
+#page #feature li .desc-outer .vi-mobile .vi-device {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://music.r10s.jp/external/prod/imgs/parts_phone.png") no-repeat;
+  background-size: contain;
+}
+
+#page #feature li:nth-child(1) .scene {
+  background: url("https://music.r10s.jp/external/prod/assets/top/img/bg_feature_1.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#page #feature li:nth-child(2) .scene {
+  background: url("https://music.r10s.jp/external/prod/assets/top/img/bg_feature_2.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#page #feature li:nth-child(3) .scene {
+  background: url("https://music.r10s.jp/external/prod/assets/top/img/bg_feature_3.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#page #feature li .desc-outer .vi-mobile .vi-screen {
+  position: absolute;
+  left: 50%;
+  margin-left: -140px;
+  top: 130px;
+  width: 280px;
+  height: 476px;
+  border: 1px solid gray;
+  background-size: 100% auto;
+  overflow: hidden;
+}
+
+#page #feature li .desc-outer .vi-mobile .vi-screen img {
+  width: 100%;
+}
+
+#page #feature + .wrapper .signup {
+  margin: 0 auto;
+}
+
+#page .s-other-service {
+  background: white;
+}
+
+#page .s-other-service .heading {
+  margin: 0 0 20px;
+  color: #2a4a71;
+}
+
+#page #feature-artwork {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#page #feature-artwork > div {
+  width: calc(100% / 10);
+}
+
+#page #feature-artwork > div img {
+  width: 100%;
+}
+
+#page #twitter-widget-wrap {
+  height: 577px;
+  overflow: hidden;
+}
+
+#page #top .txt-container {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#page #top .txt-container a {
+  text-decoration: underline;
+  color: navy;
+}
+
+#page #top .txt-container a:hover {
+  color: #ff1212;
+  text-decoration: none;
+}
+
+#page .txt-container {
+  text-align: center;
+  margin: 1rem 0 0;
+}
+
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.mfp-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045;
+}
+
+.mfp-bg {
+  background: rgba(42, 74, 113, 0.8);
+}
+
+#container-popup {
+  padding: 84px;
+}
+
+#container-popup-inn {
+  background: white;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  padding: 24px;
+}
+
+#container-popup-inn > * {
+  color: #2a4a71;
+  line-height: 1.5;
+}
+
+#container-popup-inn h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#container-popup-inn h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#container-popup-inn p {
+  font-size: 12px;
+}
+
+#container-popup-inn ol#ichiba-3x-howtoentry {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#container-popup-inn ol#ichiba-3x-howtoentry li {
+  list-style: none;
+  width: 300px;
+  margin: 0 20px 0 0;
+}
+
+#container-popup-inn ol#ichiba-3x-howtoentry li img {
+  width: 100%;
+}
+
+#container-popup-inn .btn-primary {
+  width: 400px;
+  height: 60px;
+  line-height: 60px;
+  display: block;
+  background: red;
+  color: white;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.4);
+  transition: all 0.1s ease-in;
+  margin: 30px 0;
+}
+
+#container-popup-inn .btn-primary .icon-48 {
+  position: absolute;
+  top: 22px;
+  right: 10px;
+}
+
+#container-popup-inn .btn-primary:hover {
+  box-shadow: 0px 8px 12px 0px rgba(50, 50, 50, 0.4);
+}
+
+#container-popup-inn .btn-close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  padding: 0;
+  opacity: 1;
+  color: #2a4a71;
+}
+
+#container-popup-inn .btn-close-popup-txt {
+  text-align: right;
+  cursor: pointer;
+}
+
+#list-artist {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #page .slider {
+    padding: 0;
+  }
+  #page .heading {
+    margin: 6vw 0;
+    font-size: 7vw;
+  }
+  #page .text-box {
+    font-size: 4vw;
+  }
+  #page .signup {
+    margin: 0;
+    padding: 0 0 4rem;
+  }
+  #page .signup .s-entry-form {
+    padding: 4vw 0 0;
+    width: 86vw;
+    margin: 0 auto 4vw;
+  }
+  #page .signup .s-entry-form + p {
+    width: 86vw;
+    font-size: 3vw;
+    margin: 0 auto;
+  }
+  #page .signup .s-entry-form + p + ul {
+    margin: 4vw 2vw;
+  }
+  #page .l-inner {
+    padding: 0 4vw;
+  }
+  #page #trial90days {
+    margin: 36px 0 18px;
+  }
+  #page #top .main_text {
+    text-align: center;
+    padding: 24px 0 16px;
+    margin: 0;
+  }
+  #page #top .main_text p:nth-of-type(1) {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  #page #top .main_text p:nth-of-type(2) {
+    font-size: 40px;
+    margin: 0 0 12px;
+  }
+  #page #top .main_visual {
+    width: 100%;
+    height: auto;
+    background: url(https://music.r10s.jp/external/prod/assets/top/img/kv_sp_20200501.jpg) center top/cover;
+  }
+  #page #top .main_visual > div {
+    width: 100%;
+    height: 200px;
+    padding: 2.5em 0 0 24px;
+  }
+  #page #top .main_visual > div p {
+    line-height: 1.2;
+  }
+  #page #top .main_visual > div p.lead {
+    font-size: 5vw;
+    line-height: 1.5;
+  }
+  #page #top .main_visual > div p small {
+    font-size: 3vw;
+  }
+  #page #top .heading {
+    font-size: 12vw;
+  }
+  #page #top .text-box {
+    font-size: 6vw;
+  }
+  #page #top .text-box p br {
+    display: inline;
+  }
+  #page #top .s-entry-form {
+    padding: 4vw 0 0;
+    width: 86vw;
+    margin: 0 auto;
+  }
+  #page #top .s-entry-form .btn--default {
+    font-size: 4vw;
+  }
+  #page .slide-bnr {
+    padding: 0;
+  }
+  #page .slide-bnr .slick-list li {
+    margin: 0;
+  }
+  #page .slide-bnr .slick-list li .campaign__card {
+    padding: 4vw 4vw 0;
+  }
+  #page #mission .l-inner {
+    padding: 36px 24px;
+  }
+  #page #mission .l-inner h1.heading {
+    font-size: 20px;
+  }
+  #page #mission .l-inner h2.heading {
+    font-size: 16px;
+  }
+  #page #mission .l-inner > section.save .mission-sample {
+    padding: 36px 24px;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul {
+    display: block;
+    padding: 0 0 24px !important;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul > li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul > li:not(:last-child) {
+    border-bottom: 1px dashed #d1d1d1;
+    border-right: none;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul > li > i {
+    width: 64px;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul > li > p {
+    flex: 1;
+    text-align: left;
+    font-size: 14px;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul + p {
+    font-size: 14px;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction .graph {
+    width: 100%;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction .graph > div {
+    font-size: 10px;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction .description {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction .description > p {
+    font-size: 10px;
+    margin: 0 8px 8px 0;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction > p {
+    width: 100%;
+    line-height: 1.5em;
+    font-size: 10px;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction > p small {
+    font-size: 100%;
+  }
+  #page #bnr-full {
+    padding: 0 0 3rem;
+  }
+  #page #price .l-inner .card {
+    padding: 0 20px 42px;
+  }
+  #page #price .l-inner .card ul > li > div:first-of-type {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px 0px 0px 0px;
+  }
+  #page #price .l-inner .card ul > li > div:last-of-type {
+    margin-left: 12px;
+    font-size: 14px;
+  }
+  #page #price .l-inner .card .signup .s-entry-form {
+    width: 100%;
+  }
+  #page #price .l-inner .card .signup .s-entry-form + p {
+    width: 100%;
+  }
+  #page #price .l-inner .card p.btn-container a {
+    padding: 8px 0;
+  }
+  #page #price .l-inner .card p.btn-container + p {
+    font-size: 1.4rem;
+  }
+  #page #value h3 {
+    font-size: 7vw;
+  }
+  #page #value p {
+    font-size: 4vw;
+  }
+  #page #value p small {
+    font-size: 3vw;
+  }
+  #page #value.wrapper {
+    padding: 6vw 4vw 12vw;
+  }
+  #page #value .content-box {
+    padding: 6vw 0;
+  }
+  #page #value .content-box__image-left .l-inner {
+    width: 100%;
+    display: block;
+  }
+  #page #value .content-box__image-left .content-box__image {
+    width: 100%;
+    margin: 0 6vw 0 0;
+  }
+  #page #campaign.wrapper {
+    padding: 4rem 0;
+  }
+  #page #campaign > .l-inner {
+    width: 100%;
+    display: block;
+  }
+  #page #campaign > .l-inner .campaign-list {
+    width: 86vw;
+    margin: 6vw auto;
+  }
+  #page #campaign > .l-inner .campaign-list li {
+    padding: 2vw;
+  }
+  #page #campaign > .l-inner .campaign-list li a > div div {
+    font-size: 4vw;
+  }
+  #page #campaign > .l-inner .campaign-list li a > div div:nth-child(2) span {
+    font-size: 12vw;
+  }
+  #page #campaign > .l-inner .campaign-list li a > div div.button {
+    padding: 2vw 0;
+  }
+  #page #campaign > .l-inner > div:last-child {
+    width: 86vw;
+    margin: 0 auto;
+    height: 300px;
+  }
+  #page #feature li:nth-child(1) .scene {
+    background: url("https://music.r10s.jp/external/prod/assets/top/img/bg-sp-20181111.jpg") no-repeat center;
+    background-size: cover;
+  }
+  #page #feature li:nth-child(2) .scene {
+    background: url("https://music.r10s.jp/external/prod/assets/top/img/bg_feature_2_sp.jpg") no-repeat center;
+    background-size: cover;
+  }
+  #page #feature li:nth-child(3) .scene {
+    background: url("https://music.r10s.jp/external/prod/assets/top/img/bg_feature_3_sp.jpg") no-repeat center;
+    background-size: cover;
+  }
+  #page #feature li:nth-child(1) .desc-outer,
+  #page #feature li:nth-child(2) .desc-outer,
+  #page #feature li:nth-child(3) .desc-outer {
+    height: 120vw;
+  }
+  #page #feature li:nth-child(1) .desc-outer > div,
+  #page #feature li:nth-child(2) .desc-outer > div,
+  #page #feature li:nth-child(3) .desc-outer > div {
+    width: 100%;
+    height: 100%;
+  }
+  #page #feature li:nth-child(1) .desc-outer h3,
+  #page #feature li:nth-child(2) .desc-outer h3,
+  #page #feature li:nth-child(3) .desc-outer h3 {
+    width: 100%;
+    padding: 0 0 12vw;
+    text-align: center;
+    font-size: 6vw;
+    position: absolute;
+    bottom: 0;
+  }
+  #page #feature li:nth-child(1) .desc-outer .vi-mobile,
+  #page #feature li:nth-child(2) .desc-outer .vi-mobile,
+  #page #feature li:nth-child(3) .desc-outer .vi-mobile {
+    width: 100%;
+    height: 160vw;
+    top: -70vw;
+    left: 0;
+    right: 0;
+  }
+  #page #feature li:nth-child(1) .desc-outer .vi-mobile .vi-screen,
+  #page #feature li:nth-child(2) .desc-outer .vi-mobile .vi-screen,
+  #page #feature li:nth-child(3) .desc-outer .vi-mobile .vi-screen {
+    width: 56vw;
+    height: 96vw;
+    top: 25vw;
+    margin-left: -28vw;
+  }
+  #page #songs.wrapper {
+    padding: 4vw 0;
+  }
+  #page #songs .inner {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  #page #songs .inner > ol > li {
+    height: 12vw;
+    line-height: 12vw;
+    font-size: 3.5vw;
+  }
+  #page #songs .inner div > ol {
+    height: auto;
+  }
+  #page #songs .inner div > ol > li {
+    height: auto;
+    padding: 0;
+  }
+  #page #songs .inner div > ol > li .songs-tab {
+    flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+    overflow-x: scroll;
+    padding: 3vw;
+    justify-content: left;
+  }
+  #page #songs .inner div > ol > li .songs-tab li {
+    padding: 2vw 4vw;
+    font-size: 3.5vw;
+    white-space: nowrap;
+  }
+  #page #songs .inner div > ol > li .song {
+    flex-wrap: nowrap;
+    width: auto;
+    justify-content: left;
+    overflow-x: scroll;
+  }
+  #page #songs .inner div > ol > li .song li {
+    min-width: 36vw;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding-right: 4vw;
+  }
+  #page #songs .inner div > ol > li .song li:first-child {
+    margin-left: 4vw;
+  }
+  #page #songs .inner div > ol > li .song li p {
+    padding: 1vw 0 0;
+  }
+  #page #songs .inner div > ol > li .song li figure {
+    width: 32vw;
+    height: 32vw;
+  }
+  #page #songs .inner div > ol > li .song li figure + p strong {
+    color: #ff1a1a;
+    padding-right: 0.5em;
+    font-size: 1.2em;
+  }
+  #page #songs .inner div > ol > li.songs-artist .artist-list {
+    display: block;
+    margin: 0;
+    padding: 0 4vw;
+    height: calc(100vh / 3);
+  }
+  #page #songs .inner div > ol > li.songs-artist .artist-list::-webkit-scrollbar {
+    width: 4vw;
+  }
+  #page #songs .inner div > ol > li.songs-artist .artist-list::-webkit-scrollbar-track {
+    background: #f2f2f2;
+  }
+  #page #songs .inner div > ol > li.songs-artist .artist-list::-webkit-scrollbar-thumb {
+    background: #2a4a71;
+  }
+  #page #songs .inner div > ol > li.songs-artist .artist-list li {
+    width: 100%;
+    font-size: 3.5vw;
+    padding: 0.75em 0;
+  }
+  #page #songs .inner div > ol > li.songs-artist .artist-list + div {
+    padding: 4vw 0 0;
+  }
+  #page #songs .inner div > ol > li.songs-artist .artist-list + div p {
+    font-size: 3.5vw;
+    padding: 0 3vw;
+    text-align: justify;
+    line-height: 1.75;
+  }
+  #page #twitter-widget-wrap {
+    height: 80vw;
+    overflow: none;
+  }
+  #page #twitter-widget-wrap iframe {
+    height: 80vw !important;
+  }
+  #container-popup {
+    padding: 6vw;
+  }
+  #container-popup-inn {
+    padding: 4vw 6vw;
+  }
+  #container-popup-inn h3 {
+    font-size: 5vw;
+  }
+  #container-popup-inn h4 {
+    font-size: 4vw;
+  }
+  #container-popup-inn p {
+    font-size: 3.5vw;
+  }
+  #container-popup-inn #ichiba-3x-howtoentry > li {
+    width: calc(100% / 2);
+    margin: 0;
+  }
+  #container-popup-inn #ichiba-3x-howtoentry > li:nth-child(1) {
+    padding-right: 4vw;
+  }
+  #container-popup-inn #ichiba-3x-howtoentry > li p {
+    font-size: 3.5vw;
+    margin: 1vw 0;
+  }
+  #container-popup-inn .btn-primary {
+    width: 100%;
+    height: 16vw;
+    line-height: 16vw;
+    margin: 6vw 0;
+  }
+  #container-popup-inn .btn-primary .icon-48 {
+    position: absolute;
+    top: 6vw;
+    right: 3vw;
+  }
+  #container-popup-inn .btn-close-popup-txt {
+    text-align: right;
+    cursor: pointer;
+  }
+}

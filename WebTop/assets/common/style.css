@@ -1,0 +1,963 @@
+#page p.caution {
+  padding: 8px;
+  background: #fef0dd;
+  border-radius: 8px;
+  color: #a35e04;
+}
+#page p.small {
+  font-size: 12px;
+  line-height: 16px;
+}
+#page p.small small {
+  font-size: 100%;
+}
+#page .flx-24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+#page .flx-32 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+#page #fv-cta {
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 24px;
+  align-self: stretch;
+}
+#page #fv-cta .campaign-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#page #fv-cta .campaign-code p.campaign-code--code {
+  color: #bf0000;
+  text-align: center;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+#page #fv-cta .campaign-code button.btn-copy-code {
+  display: flex;
+  padding: 4px 16px;
+  border-radius: 32px;
+  border: 1px solid #bf0000;
+  background: #fff;
+  color: #bf0000;
+  text-align: center;
+  /* JP Body Medium 14px/Bold */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+}
+#page #fv-cta .btn-apply {
+  margin: 0;
+}
+#page .btn-apply + p {
+  font-size: 12px;
+  line-height: 16px;
+}
+#page section {
+  padding: 0;
+}
+#page h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+}
+#page h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+#page strong {
+  color: #bf0000;
+}
+#page .l-content .btn-apply {
+  margin: 0 auto 16px;
+}
+#page .l-content #top-section-step {
+  background: #f7f7f7;
+}
+#page .l-content #top-section-step .multi-step .multi-step-content.display-block {
+  display: block;
+}
+#page .l-content #top-section-step .multi-step .multi-step-content.display-block p.lead {
+  margin-bottom: 16px;
+}
+#page .l-content #top-section-step .ccode {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #f7f7f7;
+}
+#page .l-content #top-section-step .ccode p.txt {
+  color: #686868;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 19.6px */
+}
+#page .l-content #top-section-step .ccode p.code {
+  color: #bf0000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+}
+#page .l-content #top-section-step button.btn-copy-code {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 80px;
+  border: 2px solid #bf0000;
+  background: #ffffff;
+  color: #bf0000;
+  text-align: center;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+#page .l-content #top-section-step .btn-apply {
+  margin: 0;
+  align-self: stretch;
+}
+#page .l-content #top-section-step .btn-apply a.trial-btn .txt {
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 162.5% */
+}
+#page .l-content #top-section-step .btn-apply .btn-apply--caption {
+  color: black;
+  text-align: center;
+  /* JP Overline 10px/Regular */
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 160% */
+}
+#page .l-content #top-section-step a.apply-ccode {
+  color: #006497;
+  text-align: center;
+  /* JP Body Medium 14px/Regular */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  text-decoration-line: underline;
+  display: block;
+  margin: 0 auto;
+}
+#page .l-content .step-overview ul li p.step-overview-number {
+  color: #7a4e07;
+}
+#page .l-content .multi-step > h3 {
+  background: #7a4e07;
+  color: #ffffff;
+}
+#page p.lead {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+#page .txt-center {
+  text-align: center;
+}
+#page .slick-dots {
+  top: 0;
+  margin-top: 24px;
+}
+#page .bg-pale-pink {
+  background: #f8ede4;
+  padding: 36px 0px;
+}
+#page .bg-pale-pink h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #6a4b35;
+  margin-bottom: 24px;
+}
+#page .article--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+#page .article--wrapper .article--image {
+  width: 160px;
+}
+#page .article--wrapper .article--text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+#page .article--wrapper .article--text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #6a4b35;
+}
+#page .l-campaign-03 {
+  margin-bottom: 36px;
+}
+#page section#ad-nav .l-inner::after {
+  content: none;
+}
+#page section#ad-nav .l-inner > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 24px auto;
+}
+#page section#ad-nav .l-inner > ul > li {
+  flex: 1;
+  border: 1px solid #b6b6b6;
+}
+#page section#ad-nav .l-inner > ul > li a {
+  padding: 12px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: black;
+}
+#page section#ad-nav .l-inner > ul > li a img {
+  width: 60px;
+}
+#page section#ad-nav .l-inner > ul > li a p {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6a4b35;
+}
+#page section#ad-nav .l-inner > ul > li a::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/ad/img/20220926/icon_chevron_down.png) no-repeat center/cover;
+}
+#page section#fv {
+  margin: 24px auto;
+}
+#page section#fv .l-inner > p a {
+  color: #bf0000;
+  text-decoration: underline;
+}
+#page section#ad-point-steps .l-inner .campaign-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  border: 2px solid #d08667;
+  border-radius: 8px;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  background: white;
+}
+#page section#ad-point-steps .l-inner .campaign-code p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d08667;
+}
+#page section#ad-point-steps .l-inner .campaign-code p.campaign-code--code {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+#page section#ad-point-steps .l-inner .campaign-code .btn-copy-code {
+  padding: 4px 16px;
+  background: #d08667;
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+}
+#page section#ad-point-steps .l-inner .white-wrapper {
+  margin-top: 24px;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 24px;
+}
+#page section#ad-point-steps .l-inner .white-wrapper .trial-btn a {
+  background: #bf0000;
+  border-radius: 12px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#page section#ad-point-steps .l-inner .white-wrapper .trial-btn + p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 12px auto;
+}
+#page #newplan-release {
+  margin: 24px auto;
+}
+#page #ad-otoku h2 {
+  padding: 8px 16px;
+  margin: 24px auto 16px;
+}
+#page #campaign-merit {
+  margin: 24px auto;
+}
+#page #campaign-merit .l-inner h2 {
+  padding: 0;
+  background: none;
+}
+#page #stack-playback-campaign {
+  margin: 24px auto;
+}
+#page #stack-competitive-services strong {
+  color: black;
+}
+#page #price {
+  margin: 24px auto;
+}
+#page #price .l-inner .price-lead {
+  display: none;
+}
+#page #price .l-inner strong {
+  color: black;
+}
+
+/* エントリーボンタン設定 */
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+
+#page .CampaignButton-success span.RexButton-message,
+#page .CampaignButton-loading span.RexButton-message {
+  color: #047205;
+}
+
+#page .CampaignButton {
+  margin: 0;
+}
+
+#page .agreement-message strong {
+  color: black;
+}
+
+.Message_message__FuD4t.Message_red__mgP-C a {
+  color: #bf0000 !important;
+}
+
+#page .l-content #top-section-step .summary-group > h3 > strong {
+  color: #bf0000;
+}
+
+#page .l-content #top-section-step .multi-step .multi-step-content p.lead .strong {
+  font-weight: 700;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+#page .column-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* キャンペーンボタンのフォント設定(Rakutenオフィシャル) */
+#page .CampaignButton-enabled span.RexButton-message,
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message,
+#page .CampaignButton-success span.RexButton-message {
+  font-size: 18px;
+}
+/* キャンペーンボタンのフォント設定(Rakutenオフィシャル) */
+#page .rex-button {
+  width: 320px;
+  height: 79px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* STEP1の調整 */
+#page .App {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin-top: 16px;
+}
+#page .Below {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+#page .BelowBlock_below__\+mukh {
+  margin-top: 0px !important;
+}
+.Caution_caution__u5aXM {
+  border: 1px solid #ebf7fe;
+}
+#page .s-campaign-hero .campaign-hero__schedule {
+  background-color: #7a4e07 !important;
+  position: relative;
+  z-index: 1;
+}
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓共通設定↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/* 横並び　センター */
+.row-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-direction: row;
+  margin: 0 auto;
+}
+/* 縦並びセンター */
+.column-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: stretch;
+  flex-direction: column;
+}
+/* SP横-PC縦並び */
+.row-break {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+/* SP縦-PC横　並び */
+.column-break {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+/* テキストレスポンシブ改行用 */
+#page .sp_break {
+  display: block;
+  gap: 12px;
+}
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑共通設定ここまで↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+/* キャンペーン独自部分 */
+
+#page .x-campaign-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 21px;
+}
+#page .x-campaign-step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+#page .x-campaign-textArea {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 12px;
+  justify-content: start;
+  align-items: center;
+  gap: 6px;
+
+  align-self: stretch;
+  border-radius: 0px 0px 8px 8px;
+  border: 1px solid #bf0000;
+  background: #fff;
+  text-align: center;
+}
+#page .x-campaign-textArea img {
+  width: 75px;
+}
+#page .x-campaign-desc {
+  font-size: 20px;
+  line-height: 120%;
+  white-space: nowrap;
+}
+
+#page .x-campaign-desc strong {
+  color: #bf0000;
+  font-weight: 700;
+}
+#page .x-campaign-num {
+  display: flex;
+  width: 100%;
+  padding: 8px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px 8px 0px 0px;
+  background: #bf0000;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#page .rewardArea {
+  background-image: url(/assets/campaign/2025/9th-anniversary/img/bg_overview.jpg);
+  background-size: cover;
+  padding: 48px 0px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+#page .rewardArea .ttl-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+#page .rewardArea .font-rakuten-b {
+  color: #bf0000;
+  font-weight: 700;
+  font-size: 16px;
+}
+/* Step3 プレイリスト */
+#page .playlistArea {
+  display: flex;
+  padding: 12px 6px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #f53a3a;
+
+  background: #ffebeb;
+}
+#page .playList-title {
+  color: #d80000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+}
+#page .playList-btn {
+}
+#page .playList-btn a {
+  color: white;
+}
+#page .playList-Link {
+  display: flex;
+  padding-left: 24px;
+  align-items: center;
+  gap: 8px;
+  width: 260px;
+  height: 40px;
+  border-radius: 8px;
+  background: var(--Red-700, #d80000);
+}
+#page .playList-Link:hover {
+  background: #eb1414;
+}
+
+/* ---------PC設定 --------------- */
+@media screen and (min-width: 767px) {
+  /* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓共通設定↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+  #page .sp_break {
+    display: none;
+  }
+  /* SP横-PC縦並び */
+  .row-break {
+    flex-direction: column;
+  }
+  /* SP縦-PC横　並び */
+  .column-break {
+    flex-direction: row;
+  }
+
+  /* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑共通設定ここまで↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+  /* キャンペーンボタンのフォント設定(Rakutenオフィシャル) */
+  #page .CampaignButton-enabled span.RexButton-message,
+  #page .CampaignButton-disabled span.RexButton-message,
+  #page .CampaignButton-applied span.RexButton-message,
+  #page .CampaignButton-success span.RexButton-message {
+    font-size: 24px;
+  }
+  /* キャンペーンボタンのフォント設定(Rakutenオフィシャル) */
+  #page .rex-button {
+    width: 400px;
+  }
+
+  #page .l-content .btn-apply a.trial-btn .txt,
+  #page .l-content .btn-apply a.iap-store-link .txt {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 129.167% */
+  }
+  #page .l-content .btn-apply a.trial-btn svg,
+  #page .l-content .btn-apply a.iap-store-link svg {
+    width: 24px;
+    height: 24px;
+  }
+  #page .l-content #top-section-step .ccode {
+    flex-direction: row;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+  }
+  #page .l-content #top-section-step .ccode p.txt {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+  }
+  #page .l-content #top-section-step .ccode p.code {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 33.6px */
+  }
+  #page .l-content #top-section-step button.btn-copy-code {
+    width: 400px;
+    align-items: center;
+    margin: 0 auto;
+    transition: all 0.2s ease-in;
+  }
+  #page .l-content #top-section-step button.btn-copy-code:hover {
+    cursor: pointer;
+    background: #bf0000;
+    color: white;
+  }
+  #page .l-content #top-section-step .btn-apply {
+    margin: 0 auto;
+  }
+  #page .l-content #top-section-step .btn-apply a.trial-btn .txt {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 129.167% */
+  }
+  #page .l-content #top-section-step .btn-apply .btn-apply--caption {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+  #page .l-content #top-section-step a.apply-ccode {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+  #page .l-content #top-section-step a.apply-ccode:hover {
+    text-decoration: none;
+  }
+  #page .l-content #top-section-step ul.campaign-code-steps {
+    margin-top: 24px;
+  }
+  #page .jsha-carousel img {
+    width: 100%;
+  }
+  #page #fv-cta {
+    align-items: center;
+  }
+  #page #fv-cta .campaign-code {
+    gap: 16px;
+  }
+  #page #fv-cta .campaign-code p.campaign-code--code {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 142.857% */
+  }
+  #page #fv-cta .campaign-code button.btn-copy-code {
+    padding: 8px 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    transition: all 0.2s ease-in;
+  }
+  #page #fv-cta .campaign-code button.btn-copy-code:hover {
+    cursor: pointer;
+    background: #bf0000;
+    color: white;
+  }
+  #page .btn-apply + p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #page .s-campaign-hero {
+    position: relative;
+    background: #bf0000;
+  }
+  #page .s-campaign-hero::after {
+    content: "";
+    width: 100%;
+    height: 0px;
+
+    background: var(--BlueGradation, linear-gradient(180deg, #ff008c 0%, #d30074 100%));
+    position: absolute;
+    bottom: 0;
+  }
+
+  #page #sticky-apply-btn .btn-apply .trial-btn {
+    font-size: 24px;
+  }
+  #page #sticky-apply-btn .btn-apply .iap-store-link {
+    font-size: 24px;
+  }
+  #page #sticky-apply-btn .btn-copy-code:hover {
+    background-color: #d08667;
+  }
+  #page .bg-pale-pink h1 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page .article--wrapper {
+    flex-direction: row;
+  }
+  #page .article--wrapper .article--image {
+    width: 240px;
+  }
+  #page .article--wrapper .article--image img {
+    width: 100%;
+  }
+  #page .article--wrapper .article--text {
+    align-items: flex-start;
+  }
+  #page .article--wrapper .article--text p {
+    text-align: left;
+  }
+  #page section#ad-nav .l-inner > ul {
+    gap: 16px;
+    margin: 36px auto;
+  }
+  #page section#ad-nav .l-inner > ul > li {
+    width: 200px;
+    flex: none;
+    transition: all 0.2s ease-in;
+  }
+  #page section#ad-nav .l-inner > ul > li:hover {
+    background: #f7f7f7;
+    transform: translateY(2px);
+  }
+  #page section#ad-nav .l-inner > ul > li:hover a p {
+    color: #d08667;
+  }
+  #page section#ad-nav .l-inner > ul > li a img {
+    width: 80px;
+  }
+  #page section#ad-nav .l-inner > ul > li a p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+  }
+  #page section#fv {
+    margin: 36px auto 0;
+  }
+  #page section#fv .l-inner {
+    margin: 36px auto;
+  }
+  #page section#fv .l-inner a:hover {
+    text-decoration: none;
+  }
+  #page section#ad-point-steps .l-inner .campaign-code {
+    flex-direction: row;
+    padding: 8px 12px;
+  }
+  #page section#ad-point-steps .l-inner .campaign-code .btn-copy-code:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  #page section#ad-point-steps .l-inner .white-wrapper {
+    padding: 36px;
+  }
+  #page section#ad-point-steps .l-inner .white-wrapper .trial-btn a {
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page section#ad-point-steps .l-inner .white-wrapper .trial-btn + p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  #page #ad-otoku {
+    padding: 0;
+  }
+  #page #ad-otoku h2 {
+    padding: 18px 0 12px;
+  }
+  #page #stack-competitive-services {
+    text-align: center;
+  }
+  #page #campaign-merit {
+    margin: 36px auto;
+  }
+  #page #stack-playback-campaign {
+    margin: 36px auto;
+  }
+  #page #price {
+    margin: 36px auto;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2025/9th-anniversary/img/bg.jpg) no-repeat center top/auto 86.2% #7a4e07;
+  }
+
+  /* キャンペーン独自部分 */
+
+  #page .x-campaign-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 21px;
+  }
+  #page .x-campaign-step {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+  }
+  #page .x-campaign-textArea {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 12px;
+    justify-content: start;
+    align-items: center;
+    gap: 32px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 0px 8px 8px 0px;
+    max-width: 800px;
+  }
+  #page .x-campaign-desc {
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  #page .x-campaign-num {
+    display: flex;
+    width: 80px;
+    padding: 16px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px 0px 0px 8px;
+    background: #bf0000;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 100px;
+  }
+
+  #page .rewardArea {
+    padding: 64px 32px;
+  }
+  #page .playlistArea {
+    flex-direction: column;
+    padding: 24px 6px;
+  }
+  #page .playList-title {
+    font-size: 20px;
+  }
+  #page .playList-Link {
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    padding: 0;
+  }
+} /*# sourceMappingURL=style.css.map */

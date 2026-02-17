@@ -1,0 +1,136 @@
+#page .l-content {
+  margin: 32px auto;
+}
+
+#page h1.heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+#page .bold {
+  font-weight: 700 !important;
+}
+
+#page #form dl {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+#page #form dl dt {
+  padding: 8px;
+  background: whitesmoke;
+}
+
+#page #form dl dd {
+  margin: 0;
+}
+
+#page #form dl + p.bold {
+  text-align: center;
+  margin: 32px auto;
+}
+
+#page #form .required {
+  color: #D80000;
+}
+
+#page #form input[type=submit] {
+  display: block;
+  width: 100%;
+  height: 44px;
+  margin: 32px auto;
+  background: #D80000;
+  border-radius: 44px;
+  border: none;
+  color: white;
+}
+
+#page #form input[type=text] {
+  width: 100%;
+  height: 44px;
+}
+
+#page #form textarea {
+  width: 100%;
+}
+
+#page #form .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+#page #form .checkbox label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: relative;
+}
+
+#page #form .checkbox label::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: #FFFFFF;
+  border: 2px solid #BF0000;
+  border-radius: 4px;
+}
+
+#page #form .checkbox label input[type=checkbox] {
+  display: none;
+}
+
+#page #form .checkbox label.checked::before {
+  background: #BF0000;
+}
+
+#page #form .checkbox label.checked::after {
+  content: '';
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  width: 12px;
+  height: 6px;
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 6px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+@media screen and (min-width: 767px) {
+  #page #form input[type=submit] {
+    width: 400px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #form input[type=submit]:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=style-enen.css.map */

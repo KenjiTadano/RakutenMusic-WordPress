@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+#page .floating-cta-button {
+  display: flex;
+  width: 100%;
+  padding: 16px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  bottom: 0;
+  z-index: 96;
+}
+
+#page .floating-cta-button .btn-apply>a {
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 74px;
+  background: #d80000;
+}
+
+#page .floating-cta-button .btn-test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page .floating-cta-button .btn-apply>a .txt {
+  color: white;
+  /* JP Body Large 16px/Bold */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+
+#page .floating-cta-button .btn-apply>a .txt-small {
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+  #page .floating-cta-button .btn-apply>a {
+    width: 400px;
+    padding: 16px 24px;
+    gap: 16px;
+    transition: all 0.2s ease-in;
+  }
+
+  #page .floating-cta-button .btn-apply>a:hover {
+    background-color: #ff1212;
+  }
+
+  #page .floating-cta-button .btn-apply>a .txt {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  #page .floating-cta-button .btn-apply>a .txt-small {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+  }
+
+  #page .floating-cta-button .btn-apply>a .txt+svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+
+
+
+/*# sourceMappingURL=app.css.map */
