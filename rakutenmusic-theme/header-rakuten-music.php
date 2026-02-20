@@ -24,6 +24,12 @@ if ( file_exists( $part ) ) {
 	$html = str_replace( '{{T}}', $t, $html );
 	$html = str_replace( '{{HOME}}', $h, $html );
 	$html = str_replace( '{{FLOATING_CTA_HTML}}', rakutenmusic_render_floating_cta_html( $t, $h ), $html );
+	// ローカル環境ではバナー用 create.js を読まない（CORS エラー回避）
+	$is_local = ( strpos( home_url(), 'local' ) !== false || strpos( home_url(), 'localhost' ) !== false );
+	$banner_block = $is_local
+		? '<div id="mkdiv_header_pitari"></div>'
+		: '<script src="//jp.rakuten-static.com/1/grp/banner/js/create.js"></script>' . "\n  " . '<div id="mkdiv_header_pitari"></div>';
+	$html = str_replace( '{{BANNER_BLOCK}}', $banner_block, $html );
 	echo $html;
 }
 ?>

@@ -1,6 +1,6 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
-  "apiVersion": 2,
+  "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-saikyo-cost-performance",
   "title": "コスパ最強な理由",
   "category": "rakutenmusic",

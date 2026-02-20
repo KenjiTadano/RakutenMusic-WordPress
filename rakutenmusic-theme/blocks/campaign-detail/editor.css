@@ -1,0 +1,33 @@
+/* キャンペーン詳細ブロック：編集画面用 */
+.campaign-detail-table-editor {
+  margin-bottom: 24px;
+}
+.campaign-detail__table--edit {
+  width: 100%;
+  border-collapse: collapse;
+}
+.campaign-detail__table--edit caption {
+  display: table-caption;
+  text-align: left;
+}
+.campaign-detail__table--edit .campaign-detail__title {
+  padding: 16px;
+  background-color: #4d4d4d;
+  color: #fff;
+}
+.campaign-detail__table--edit th,
+.campaign-detail__table--edit td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+.campaign-detail__table--edit th {
+  background: #f5f5f5;
+  width: 30%;
+}
+.campaign-detail__table-actions {
+  white-space: nowrap;
+}
+.campaign-detail__table-actions .components-button {
+  margin-right: 4px;
+}

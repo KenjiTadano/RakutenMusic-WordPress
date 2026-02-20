@@ -1,6 +1,6 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
-  "apiVersion": 2,
+  "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-price",
   "title": "料金プラン",
   "category": "rakutenmusic",

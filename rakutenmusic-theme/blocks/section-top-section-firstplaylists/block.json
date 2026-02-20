@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/rakuten-music-section-top-section-firstplaylists",
+  "title": "バンドル：FIRST PLAYLISTS",
+  "category": "rakutenmusic",
+  "icon": "playlist-audio",
+  "description": "バンドルプラン：FIRST PLAYLISTS セクション",
+  "keywords": ["楽天", "ミュージック", "バンドル", "プレイリスト"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "render": "file:./render.php"
+}

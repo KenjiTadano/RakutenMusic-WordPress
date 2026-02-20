@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/campaign-detail",
+  "title": "キャンペーン詳細",
+  "category": "rakutenmusic",
+  "icon": "list-view",
+  "description": "キャンペーン詳細セクション（テーブルの追加・削除・並べ替えが可能）",
+  "keywords": ["キャンペーン", "詳細", "テーブル"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true }
+}
