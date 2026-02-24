@@ -103,6 +103,26 @@ var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bi,
     #page .s-campaign-hero+.btn-apply>a {
         background: #0BA90B;
     }
+    /* キャンペーンリストブロック編集UI */
+    .campaign-list-editor-wrap { margin-bottom: 1.5rem; }
+    .campaign-list-editor { background: #f5f5f5; border: 1px solid #ccc; border-radius: 8px; padding: 1rem; }
+    .campaign-list-editor__header { font-weight: bold; margin-bottom: 0.75rem; color: #333; }
+    .campaign-list-editor__list { display: flex; flex-direction: column; gap: 0.75rem; }
+    .campaign-list-editor__row { display: flex; align-items: flex-start; gap: 0.75rem; flex-wrap: wrap; background: #fff; padding: 0.75rem; border-radius: 6px; border: 1px solid #ddd; }
+    .campaign-list-editor__order { display: flex; align-items: center; gap: 0.25rem; flex-shrink: 0; }
+    .campaign-list-editor__btn { padding: 0.35em 0.6em; cursor: pointer; border: 1px solid #999; border-radius: 4px; background: #fff; font-size: 12px; }
+    .campaign-list-editor__btn:hover { background: #eee; }
+    .campaign-list-editor__btn--up, .campaign-list-editor__btn--down { min-width: 2em; }
+    .campaign-list-editor__btn--del { color: #c00; border-color: #c00; }
+    .campaign-list-editor__btn--add { margin-top: 0.5rem; padding: 0.5em 1em; background: #0BA90B; color: #fff; border-color: #0BA90B; }
+    .campaign-list-editor__btn--add:hover { background: #099909; color: #fff; }
+    .campaign-list-editor__num { font-weight: bold; min-width: 1.5em; }
+    .campaign-list-editor__fields { flex: 1; min-width: 200px; display: flex; flex-direction: column; gap: 0.35rem; }
+    .campaign-list-editor__fields label { display: flex; flex-direction: column; gap: 0.15rem; font-size: 12px; color: #555; }
+    .campaign-list-editor__input { width: 100%; max-width: 400px; padding: 0.35em 0.5em; border: 1px solid #ccc; border-radius: 4px; font-size: 13px; }
+    .campaign-list-editor__input--url { font-family: monospace; }
+    .campaign-list-editor__actions { flex-shrink: 0; }
+    .campaign-list-editor__tip { margin-top: 0.75rem; font-size: 12px; color: #666; }
 </style>
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://music.r10s.jp/external/prod/assets/plan/lite/img/20240601/ogp.jpg">
@@ -1229,97 +1249,209 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <div class="btn-secondaly-dark"><a href="https://music.faq.rakuten.net/s/">そのほかの質問を見る</a></div>
 </section>
-<section class="s-campaign-list">
+<section class="s-campaign-list" id="campaign-list-block">
 	<div class="l-inner">
 		<h2 class="heading heading--m">開催中のお得なキャンペーン</h2>
-		<ul class="campaign-list campaign-list--sp-s">
-									<li class="campaign__item">
-							<div class="campaign__card">
-								<figure class="campaign__image">
-									<a href="https://music.rakuten.co.jp/link/album/32444014?scid=wi_msc_topslider_kawaiilab" onclick="s.lidTrack('music-bnr-600x100-22889')">
-										<img src="//music.r10s.jp/external/prod/assets/top/img/bnr/20260211_KAWAIILAB_600x200.png" alt="Rakuten Musicにて「KAWAII LAB. BEST ALBUM」を全曲再生した方から抽選で10名様に、楽天ポイント1,000ポイント進呈">
-									</a>
-									<figcaption class="campaign__title">
-										<a href="https://music.rakuten.co.jp/link/album/32444014?scid=wi_msc_topslider_kawaiilab" onclick="s.lidTrack('music-bnr-600x100-22889')">KAWAII LAB.再生キャンペーン開催中！</a>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-																<li class="campaign__item">
-							<div class="campaign__card">
-								<figure class="campaign__image">
-									<a href="/campaign/2026/annual-plan-campaign/" onclick="s.lidTrack('music-bnr-600x100-22889')">
-										<img src="//music.r10s.jp/external/prod/assets/campaign/2026/annual-plan-campaign/img/bnr/600x200.png" alt="年額スタンダード　初回課金で半額分ポイント還元">
-									</a>
-									<figcaption class="campaign__title">
-										<a href="/campaign/2026/annual-plan-campaign/" onclick="s.lidTrack('music-bnr-600x100-22889')">年額スタンダード　初回課金で半額分ポイント還元</a>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-																<li class="campaign__item">
-							<div class="campaign__card">
-								<figure class="campaign__image">
-									<a href="/campaign/referral/" onclick="s.lidTrack('music-bnr-600x100-22889')">
-										<img src="//music.r10s.jp/external/prod/assets/campaign/referral/img/bnr/20250324/600x200.png" alt="友達紹介キャンペーン">
-									</a>
-									<figcaption class="campaign__title">
-										<a href="/campaign/referral/" onclick="s.lidTrack('music-bnr-600x100-22889')">友達紹介キャンペーン</a>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-																<li class="campaign__item">
-							<div class="campaign__card">
-								<figure class="campaign__image">
-									<a href="/campaign/2025/referral_bundle/" onclick="s.lidTrack('music-bnr-600x100-22889')">
-										<img src="//music.r10s.jp/external/prod/assets/campaign/2025/referral_bundle/img/bnr/600x200.png" alt="バンドルプラン紹介キャンペーン">
-									</a>
-									<figcaption class="campaign__title">
-										<a href="/campaign/2025/referral_bundle/" onclick="s.lidTrack('music-bnr-600x100-22889')">バンドルプラン紹介キャンペーン</a>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-																<li class="campaign__item">
-							<div class="campaign__card">
-								<figure class="campaign__image">
-									<a href="/campaign/group/bank/" onclick="s.lidTrack('music-bnr-600x100-22889')">
-										<img src="//music.r10s.jp/external/prod/assets/campaign/group/bank/img/20240228/600x200_music.png" alt="【楽天銀行をご利用のお客様】新規入会+1回目のお支払いで250ポイント">
-									</a>
-									<figcaption class="campaign__title">
-										<a href="/campaign/group/bank/" onclick="s.lidTrack('music-bnr-600x100-22889')">【楽天銀行をご利用のお客様】新規入会+1回目のお支払いで250ポイント</a>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-																<li class="campaign__item">
-							<div class="campaign__card">
-								<figure class="campaign__image">
-									<a href="https://music.rakuten.co.jp/link/album/32436069/?scid=wi_msc_topslider_snowman_stars" onclick="s.lidTrack('music-bnr-600x100-22889')">
-										<img src="//music.r10s.jp/external/prod/assets/top/img/bnr/20260202_SnowMan_STARS_600x200.png" alt="Snow Man「STARS」配信開始！">
-									</a>
-									<figcaption class="campaign__title">
-										<a href="https://music.rakuten.co.jp/link/album/32436069/?scid=wi_msc_topslider_snowman_stars" onclick="s.lidTrack('music-bnr-600x100-22889')">Snow Man「STARS」配信開始！</a>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-																<li class="campaign__item">
-							<div class="campaign__card">
-								<figure class="campaign__image">
-									<a href="https://event.rakuten.co.jp/group/collab/mnoreferral_books/?scid=wi_msc_campaignbannerlist" target="_blank" onclick="s.lidTrack('music-bnr-600x100-22889')">
-										<img src="//music.r10s.jp/external/prod/assets/top/img/bnr/20250530_books_600x200.png" alt="【楽天ブックス】楽天モバイルの紹介キャンペーン拡散でクーポン進呈">
-									</a>
-									<figcaption class="campaign__title">
-										<a href="https://event.rakuten.co.jp/group/collab/mnoreferral_books/?scid=wi_msc_campaignbannerlist" target="_blank" onclick="s.lidTrack('music-bnr-600x100-22889')">【楽天ブックス】楽天モバイルの紹介キャンペーン拡散でクーポン進呈</a>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-															</ul>
+		<div id="campaign-list-editor-wrap" class="campaign-list-editor-wrap" style="display:none;"></div>
+		<ul class="campaign-list campaign-list--sp-s" id="campaign-list-container" aria-label="キャンペーン一覧"></ul>
 	</div><!-- l-inner -->
+	<script type="application/json" id="campaign-list-data">
+	[
+		{"link":"https://music.rakuten.co.jp/link/album/32444014?scid=wi_msc_topslider_kawaiilab","imageUrl":"//music.r10s.jp/external/prod/assets/top/img/bnr/20260211_KAWAIILAB_600x200.png","imageAlt":"Rakuten Musicにて「KAWAII LAB. BEST ALBUM」を全曲再生した方から抽選で10名様に、楽天ポイント1,000ポイント進呈","title":"KAWAII LAB.再生キャンペーン開催中！"},
+		{"link":"/campaign/2026/annual-plan-campaign/","imageUrl":"//music.r10s.jp/external/prod/assets/campaign/2026/annual-plan-campaign/img/bnr/600x200.png","imageAlt":"年額スタンダード　初回課金で半額分ポイント還元","title":"年額スタンダード　初回課金で半額分ポイント還元"},
+		{"link":"/campaign/referral/","imageUrl":"//music.r10s.jp/external/prod/assets/campaign/referral/img/bnr/20250324/600x200.png","imageAlt":"友達紹介キャンペーン","title":"友達紹介キャンペーン"},
+		{"link":"/campaign/2025/referral_bundle/","imageUrl":"//music.r10s.jp/external/prod/assets/campaign/2025/referral_bundle/img/bnr/600x200.png","imageAlt":"バンドルプラン紹介キャンペーン","title":"バンドルプラン紹介キャンペーン"},
+		{"link":"/campaign/group/bank/","imageUrl":"//music.r10s.jp/external/prod/assets/campaign/group/bank/img/20240228/600x200_music.png","imageAlt":"【楽天銀行をご利用のお客様】新規入会+1回目のお支払いで250ポイント","title":"【楽天銀行をご利用のお客様】新規入会+1回目のお支払いで250ポイント"},
+		{"link":"https://music.rakuten.co.jp/link/album/32436069/?scid=wi_msc_topslider_snowman_stars","imageUrl":"//music.r10s.jp/external/prod/assets/top/img/bnr/20260202_SnowMan_STARS_600x200.png","imageAlt":"Snow Man「STARS」配信開始！","title":"Snow Man「STARS」配信開始！"},
+		{"link":"https://event.rakuten.co.jp/group/collab/mnoreferral_books/?scid=wi_msc_campaignbannerlist","imageUrl":"//music.r10s.jp/external/prod/assets/top/img/bnr/20250530_books_600x200.png","imageAlt":"【楽天ブックス】楽天モバイルの紹介キャンペーン拡散でクーポン進呈","title":"【楽天ブックス】楽天モバイルの紹介キャンペーン拡散でクーポン進呈","target":"_blank"}
+	]
+	</script>
 </section><!-- s-campaign-list -->
+
+<script>
+(function() {
+	var SECTION_ID = 'campaign-list-block';
+	var DATA_ID = 'campaign-list-data';
+	var CONTAINER_ID = 'campaign-list-container';
+	var EDITOR_WRAP_ID = 'campaign-list-editor-wrap';
+	var LID_TRACK = "s.lidTrack('music-bnr-600x100-22889')";
+
+	function getData() {
+		var el = document.getElementById(DATA_ID);
+		if (!el || !el.textContent) return [];
+		try {
+			var list = JSON.parse(el.textContent.trim());
+			return Array.isArray(list) ? list : [];
+		} catch (e) {
+			return [];
+		}
+	}
+
+	function setData(list) {
+		var el = document.getElementById(DATA_ID);
+		if (el) el.textContent = '\n\t' + JSON.stringify(list, null, '\t').replace(/\n/g, '\n\t') + '\n\t';
+	}
+
+	function escapeHtml(s) {
+		if (s == null) return '';
+		var div = document.createElement('div');
+		div.textContent = s;
+		return div.innerHTML;
+	}
+
+	function renderItem(item) {
+		var link = item.link || '#';
+		var imgSrc = item.imageUrl || '';
+		var imgAlt = item.imageAlt != null ? item.imageAlt : '';
+		var title = item.title != null ? item.title : '';
+		var target = item.target === '_blank' ? ' target="_blank"' : '';
+		var onclick = "onclick=\"" + LID_TRACK + "\"";
+		return '<li class="campaign__item">' +
+			'<div class="campaign__card">' +
+			'<figure class="campaign__image">' +
+			'<a href="' + escapeHtml(link) + '"' + target + ' ' + onclick + '>' +
+			'<img src="' + escapeHtml(imgSrc) + '" alt="' + escapeHtml(imgAlt) + '">' +
+			'</a>' +
+			'<figcaption class="campaign__title">' +
+			'<a href="' + escapeHtml(link) + '"' + target + ' ' + onclick + '>' + escapeHtml(title) + '</a>' +
+			'</figcaption>' +
+			'</figure>' +
+			'</div>' +
+			'</li>';
+	}
+
+	function render(list) {
+		var container = document.getElementById(CONTAINER_ID);
+		if (!container) return;
+		container.innerHTML = list.map(renderItem).join('');
+	}
+
+	function isEditMode() {
+		return /[?&]campaign-list-edit=1/.test(location.search);
+	}
+
+	function buildEditor(list, onUpdate) {
+		var wrap = document.getElementById(EDITOR_WRAP_ID);
+		if (!wrap) return;
+
+		function updatePreview() {
+			render(list);
+			onUpdate(list);
+		}
+
+		function move(index, delta) {
+			var next = index + delta;
+			if (next < 0 || next >= list.length) return;
+			var t = list[index];
+			list[index] = list[next];
+			list[next] = t;
+			rebuildEditorForm();
+			updatePreview();
+		}
+
+		function remove(index) {
+			list.splice(index, 1);
+			rebuildEditorForm();
+			updatePreview();
+		}
+
+		function add() {
+			list.push({ link: '#', imageUrl: '', imageAlt: '', title: '' });
+			rebuildEditorForm();
+			updatePreview();
+		}
+
+		function change(index, key, value) {
+			list[index] = list[index] || {};
+			list[index][key] = value;
+			updatePreview();
+		}
+
+		function rebuildEditorForm() {
+			wrap.innerHTML = '';
+			wrap.appendChild((function() {
+				var box = document.createElement('div');
+				box.className = 'campaign-list-editor';
+				box.innerHTML = '<div class="campaign-list-editor__header">キャンペーンリスト編集（プレビューは下に表示されます）</div>';
+				var listEl = document.createElement('div');
+				listEl.className = 'campaign-list-editor__list';
+				for (var i = 0; i < list.length; i++) {
+					(function(idx) {
+						var item = list[idx];
+						var row = document.createElement('div');
+						row.className = 'campaign-list-editor__row';
+						row.innerHTML =
+							'<div class="campaign-list-editor__order">' +
+								'<button type="button" class="campaign-list-editor__btn campaign-list-editor__btn--up" title="上へ">↑</button>' +
+								'<button type="button" class="campaign-list-editor__btn campaign-list-editor__btn--down" title="下へ">↓</button>' +
+								'<span class="campaign-list-editor__num">' + (idx + 1) + '</span>' +
+							'</div>' +
+							'<div class="campaign-list-editor__fields">' +
+								'<label>リンクURL <input type="text" class="campaign-list-editor__input campaign-list-editor__input--link" value="' + escapeHtml(item.link || '') + '"></label>' +
+								'<label>バナーURL <input type="text" class="campaign-list-editor__input campaign-list-editor__input--url" value="' + escapeHtml(item.imageUrl || '') + '"></label>' +
+								'<label>バナーalt <input type="text" class="campaign-list-editor__input campaign-list-editor__input--alt" value="' + escapeHtml(item.imageAlt || '') + '"></label>' +
+								'<label>タイトル <input type="text" class="campaign-list-editor__input campaign-list-editor__input--title" value="' + escapeHtml(item.title || '') + '"></label>' +
+							'</div>' +
+							'<div class="campaign-list-editor__actions">' +
+								'<button type="button" class="campaign-list-editor__btn campaign-list-editor__btn--del" title="削除">削除</button>' +
+							'</div>';
+						var up = row.querySelector('.campaign-list-editor__btn--up');
+						var down = row.querySelector('.campaign-list-editor__btn--down');
+						var del = row.querySelector('.campaign-list-editor__btn--del');
+						var linkInput = row.querySelector('.campaign-list-editor__input--link');
+						var urlInput = row.querySelector('.campaign-list-editor__input--url');
+						var altInput = row.querySelector('.campaign-list-editor__input--alt');
+						var titleInput = row.querySelector('.campaign-list-editor__input--title');
+						up.addEventListener('click', function() { move(idx, -1); });
+						down.addEventListener('click', function() { move(idx, 1); });
+						del.addEventListener('click', function() { remove(idx); });
+						linkInput.addEventListener('input', function() { change(idx, 'link', linkInput.value); });
+						urlInput.addEventListener('input', function() { change(idx, 'imageUrl', urlInput.value); });
+						altInput.addEventListener('input', function() { change(idx, 'imageAlt', altInput.value); });
+						titleInput.addEventListener('input', function() { change(idx, 'title', titleInput.value); });
+						listEl.appendChild(row);
+					})(i);
+				}
+				box.appendChild(listEl);
+				var addBtn = document.createElement('button');
+				addBtn.type = 'button';
+				addBtn.className = 'campaign-list-editor__btn campaign-list-editor__btn--add';
+				addBtn.textContent = '＋ リストを追加';
+				addBtn.addEventListener('click', add);
+				box.appendChild(addBtn);
+				var saveTip = document.createElement('p');
+				saveTip.className = 'campaign-list-editor__tip';
+				saveTip.textContent = '編集内容はその場でプレビューに反映されます。保存する場合はこのページのHTML内の campaign-list-data のJSONを更新してください。';
+				box.appendChild(saveTip);
+				return box;
+			})());
+		}
+
+		rebuildEditorForm();
+	}
+
+	function init() {
+		var list = getData();
+		render(list);
+
+		if (isEditMode()) {
+			var wrap = document.getElementById(EDITOR_WRAP_ID);
+			if (wrap) {
+				wrap.style.display = 'block';
+				buildEditor(list, function(updated) {
+					setData(updated);
+				});
+			}
+		}
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', init);
+	} else {
+		init();
+	}
+})();
+</script>
 
 <!-- <div id="common-banner-mno">
     <a href="https://ac.ebis.ne.jp/tr_set.php?argument=ZMhPE4GP&ai=rgp_mno_003692" target="_blank">

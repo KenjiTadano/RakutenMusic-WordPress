@@ -1,0 +1,60 @@
+/* キャンペーンリストブロック：編集画面用 */
+.s-campaign-list--editor {
+  margin: 0 0 1.5rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+}
+
+.s-campaign-list--editor .l-inner {
+  max-width: 100%;
+}
+
+.s-campaign-list--editor .heading--m {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.campaign-list--editor-preview {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.campaign-list--editor-preview .campaign__item {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.campaign-list--editor-preview .campaign__image {
+  margin: 0;
+}
+
+.campaign-list--editor-preview .campaign__image img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.campaign-list--editor-preview .campaign__title {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* サイドバー編集エリア */
+.campaign-list-editor__row .components-base-control {
+  margin-bottom: 8px;
+}
+
+.campaign-list-editor__row .components-base-control:last-child {
+  margin-bottom: 0;
+}

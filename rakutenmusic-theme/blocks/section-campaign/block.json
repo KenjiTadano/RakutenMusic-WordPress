@@ -5,9 +5,10 @@
   "title": "キャンペーン",
   "category": "rakutenmusic",
   "icon": "align-wide",
-  "description": "楽天ミュージック汎用テンプレート用セクション: キャンペーン",
+  "description": "楽天ミュージック汎用テンプレート用セクション: キャンペーン（スライダー・リスト編集可能）",
   "keywords": ["楽天", "ミュージック", "キャンペーン"],
   "textdomain": "rakutenmusic-theme",
   "supports": { "inserter": true },
+  "attributes": { "items": { "type": "string", "default": "" } },
   "render": "file:./render.php"
 }

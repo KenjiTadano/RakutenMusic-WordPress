@@ -5,9 +5,10 @@
   "title": "楽天グループサービス",
   "category": "rakutenmusic",
   "icon": "align-wide",
-  "description": "楽天ミュージック汎用テンプレート用セクション: 楽天グループサービス",
+  "description": "楽天ミュージック汎用テンプレート用セクション: 楽天グループサービス（スライダー・リスト編集可能）",
   "keywords": ["楽天", "ミュージック", "グループ"],
   "textdomain": "rakutenmusic-theme",
   "supports": { "inserter": true },
+  "attributes": { "items": { "type": "string", "default": "" } },
   "render": "file:./render.php"
 }

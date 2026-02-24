@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/rakuten-music-section-campaign-list",
+  "title": "キャンペーンリスト",
+  "category": "rakutenmusic",
+  "icon": "list-view",
+  "description": "開催中のお得なキャンペーン一覧（リスト数・順番・バナーURL/alt・タイトルを編集可能）",
+  "keywords": ["楽天", "ミュージック", "キャンペーン", "リスト", "ライト"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "attributes": { "items": { "type": "string", "default": "" } },
+  "render": "file:./render.php"
+}
