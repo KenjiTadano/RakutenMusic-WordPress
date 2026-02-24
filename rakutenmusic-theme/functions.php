@@ -683,7 +683,127 @@ function rakutenmusic_register_others_block() {
 add_action( 'init', 'rakutenmusic_register_others_block', 20 );
 
 /**
- * ブロックエディターでキャンペーン・キャンペーンリスト・楽天グループサービス・その他キャンペーンのスクリプトを確実に読み込む
+ * キャンペーンヒーローブロック（編集パネル・プレビュー付き）を登録
+ */
+function rakutenmusic_register_campaign_hero_block() {
+	$dir       = get_template_directory();
+	$uri       = get_template_directory_uri();
+	$block_dir = $dir . '/blocks/campaign-hero';
+	$editor_js = $block_dir . '/editor.js';
+	$editor_css = $block_dir . '/editor.css';
+
+	if ( ! file_exists( $editor_js ) ) {
+		return;
+	}
+
+	$version = wp_get_theme()->get( 'Version' ) . '-' . filemtime( $editor_js );
+	wp_register_script(
+		'rakutenmusic-campaign-hero-editor',
+		$uri . '/blocks/campaign-hero/editor.js',
+		array( 'wp-blocks', 'wp-element', 'wp-block-editor', 'wp-components', 'wp-i18n' ),
+		$version
+	);
+
+	if ( file_exists( $editor_css ) ) {
+		wp_register_style(
+			'rakutenmusic-campaign-hero-editor-style',
+			$uri . '/blocks/campaign-hero/editor.css',
+			array(),
+			filemtime( $editor_css )
+		);
+	}
+
+	register_block_type( $block_dir, array(
+		'editor_script' => 'rakutenmusic-campaign-hero-editor',
+		'editor_style'  => 'rakutenmusic-campaign-hero-editor-style',
+	) );
+}
+add_action( 'init', 'rakutenmusic_register_campaign_hero_block', 20 );
+
+/**
+ * ジャケ写カルーセルブロックを登録（Slick 依存含む）
+ */
+function rakutenmusic_register_jsha_carousel_block() {
+	$dir       = get_template_directory();
+	$uri       = get_template_directory_uri();
+	$block_dir = $dir . '/blocks/jsha-carousel';
+	$editor_js  = $block_dir . '/editor.js';
+	$editor_css = $block_dir . '/editor.css';
+	$view_js   = $block_dir . '/view.js';
+
+	if ( ! file_exists( $editor_js ) || ! file_exists( $view_js ) ) {
+		return;
+	}
+
+	$version = wp_get_theme()->get( 'Version' ) . '-' . filemtime( $editor_js );
+
+	// Slick（カルーセル用）※ブロック使用時のみフロントで読み込む
+	wp_register_style(
+		'rakutenmusic-slick-base',
+		'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css',
+		array(),
+		'1.8.1'
+	);
+	wp_register_script(
+		'rakutenmusic-slick',
+		'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js',
+		array( 'jquery' ),
+		'1.8.1',
+		true
+	);
+
+	wp_register_script(
+		'rakutenmusic-jsha-carousel-view',
+		$uri . '/blocks/jsha-carousel/view.js',
+		array( 'jquery', 'rakutenmusic-slick' ),
+		wp_get_theme()->get( 'Version' ) . '-' . filemtime( $view_js ),
+		true
+	);
+
+	wp_register_script(
+		'rakutenmusic-jsha-carousel-editor',
+		$uri . '/blocks/jsha-carousel/editor.js',
+		array( 'wp-blocks', 'wp-element', 'wp-block-editor', 'wp-components', 'wp-i18n' ),
+		$version
+	);
+
+	if ( file_exists( $editor_css ) ) {
+		wp_register_style(
+			'rakutenmusic-jsha-carousel-editor-style',
+			$uri . '/blocks/jsha-carousel/editor.css',
+			array(),
+			filemtime( $editor_css )
+		);
+	}
+
+	register_block_type( $block_dir, array(
+		'editor_script'        => 'rakutenmusic-jsha-carousel-editor',
+		'editor_style'        => 'rakutenmusic-jsha-carousel-editor-style',
+		'view_script_handles' => array( 'rakutenmusic-jsha-carousel-view' ),
+	) );
+}
+add_action( 'init', 'rakutenmusic_register_jsha_carousel_block', 20 );
+
+/**
+ * ジャケ写カルーセルブロック使用時に Slick の CSS をフロントで読み込む
+ */
+function rakutenmusic_enqueue_jsha_carousel_front_assets() {
+	if ( ! is_singular() ) {
+		return;
+	}
+	$post = get_queried_object();
+	if ( ! $post || ! ( $post instanceof WP_Post ) ) {
+		return;
+	}
+	if ( ! has_block( 'rakutenmusic/jsha-carousel', $post ) ) {
+		return;
+	}
+	wp_enqueue_style( 'rakutenmusic-slick-base' );
+}
+add_action( 'wp_enqueue_scripts', 'rakutenmusic_enqueue_jsha_carousel_front_assets', 25 );
+
+/**
+ * ブロックエディターでキャンペーン・キャンペーンリスト・楽天グループサービス・その他キャンペーン・キャンペーンヒーローのスクリプトを確実に読み込む
  */
 function rakutenmusic_enqueue_campaign_list_block_editor_assets() {
 	$screen = get_current_screen();
@@ -698,6 +818,10 @@ function rakutenmusic_enqueue_campaign_list_block_editor_assets() {
 	wp_enqueue_style( 'rakutenmusic-section-groupservices-editor-style' );
 	wp_enqueue_script( 'rakutenmusic-section-others-editor' );
 	wp_enqueue_style( 'rakutenmusic-section-others-editor-style' );
+	wp_enqueue_script( 'rakutenmusic-campaign-hero-editor' );
+	wp_enqueue_style( 'rakutenmusic-campaign-hero-editor-style' );
+	wp_enqueue_script( 'rakutenmusic-jsha-carousel-editor' );
+	wp_enqueue_style( 'rakutenmusic-jsha-carousel-editor-style' );
 }
 add_action( 'enqueue_block_editor_assets', 'rakutenmusic_enqueue_campaign_list_block_editor_assets', 15 );
 

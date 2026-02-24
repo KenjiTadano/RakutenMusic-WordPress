@@ -1,0 +1,57 @@
+/* キャンペーンヒーローブロック：編集画面用 */
+.campaign-hero-block-editor {
+  margin: 0 0 1.5rem;
+  padding: 1rem;
+  border: 1px dashed #999;
+  border-radius: 4px;
+  position: relative;
+}
+
+.campaign-hero-block-editor .l-inner {
+  max-width: 100%;
+}
+
+.campaign-hero-block-editor .campaign-hero__image {
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+.campaign-hero-block-editor .campaign-hero__image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.campaign-hero-block-editor .campaign-hero__schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 1.4;
+  min-height: 2.8em;
+}
+
+.campaign-hero-block-editor .campaign-hero__schedule p,
+.campaign-hero-block-editor .campaign-hero__schedule .campaign-hero__schedule__note {
+  margin: 0;
+  font-size: 14px;
+}
+.campaign-hero-block-editor .campaign-hero__schedule > p:first-child {
+  margin-top: var(--schedule-text-offset-y, 0);
+}
+.campaign-hero-block-editor .campaign-hero__schedule .campaign-hero__schedule__note {
+  margin-top: var(--schedule-note-offset-y, 0);
+}
+
+.campaign-hero-block-editor .campaign-hero__schedule__note {
+  font-size: 12px;
+}
+
+.campaign-hero-block-editor .campaign-hero__schedule__note a {
+  text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+/**
+ * キャンペーンヒーローブロック フロント用スタイル
+ * PC/SP看板は 767px を境に表示切り替え
+ */
+
+/* PC用画像・テキストは中央揃え */
+.s-campaign-hero .campaign-hero__image {
+  text-align: center;
+}
+.s-campaign-hero .campaign-hero__image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.s-campaign-hero .campaign-hero__schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.4;
+  min-height: 2.8em;
+}
+.s-campaign-hero .campaign-hero__schedule p,
+.s-campaign-hero .campaign-hero__schedule .campaign-hero__schedule__note {
+  margin: 0;
+}
+.s-campaign-hero .campaign-hero__schedule > p:first-child {
+  margin-top: var(--schedule-text-offset-y, 0);
+}
+.s-campaign-hero .campaign-hero__schedule .campaign-hero__schedule__note {
+  margin-top: var(--schedule-note-offset-y, 0);
+}
+
+/* 767px以下: SP看板を表示・PC看板を非表示 */
+@media screen and (max-width: 767px) {
+  .s-campaign-hero .is-hidden--sp {
+    display: none !important;
+  }
+}
+
+/* 768px以上: PC看板を表示・SP看板を非表示 */
+@media screen and (min-width: 768px) {
+  .s-campaign-hero .is-hidden--pc {
+    display: none !important;
+  }
+}

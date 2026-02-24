@@ -1,0 +1,15 @@
+/* ジャケ写カルーセルブロック：編集画面用 */
+.jsha-carousel-block-editor {
+  margin: 0 0 1rem;
+  padding: 0.5rem;
+  border: 1px dashed #999;
+  border-radius: 4px;
+}
+
+.jsha-carousel-editor-preview {
+  -webkit-overflow-scrolling: touch;
+}
+
+.jsha-carousel-editor-preview img {
+  border-radius: 4px;
+}

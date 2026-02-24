@@ -1,0 +1,13 @@
+/**
+ * ジャケ写カルーセルブロック フロント用スタイル
+ * （stack-jsya-scroll.css 相当）
+ */
+.jsha-carousel {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .jsha-carousel img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/jsha-carousel",
+  "title": "ジャケ写カルーセル",
+  "category": "rakutenmusic",
+  "icon": "images-alt2",
+  "description": "画像が横にスライドするカルーセル。各画像のURL・altを編集できます。",
+  "keywords": ["楽天", "ミュージック", "カルーセル", "ジャケ写", "slick"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "attributes": {
+    "items": {
+      "type": "array",
+      "default": [
+        { "src": "https://image.music.rakuten.net/0/3/03b6/63ca/1b61/3eb6/f99f/a7ca/708c/7091.s2.jpg", "alt": "aiko" },
+        { "src": "https://image.music.rakuten.net/1/c/1ccf/87d9/c783/eaed/b30a/4d21/cadf/181f.s2.jpg", "alt": "Official髭男dism" },
+        { "src": "https://image.music.rakuten.net/2/2/22ea/0119/06c3/bbd5/ec21/bee9/9739/3548.s2.jpg", "alt": "BE:FIRST" },
+        { "src": "https://image.music.rakuten.net/9/f/9f0c/22b9/267f/9040/94b5/b0c4/2675/6be6.s2.jpg", "alt": "Number_i" },
+        { "src": "https://image.music.rakuten.net/5/1/51e8/9aba/46f7/8ff3/74e6/144a/071c/d0e4.s2.jpg", "alt": "20th Century" }
+      ]
+    }
+  },
+  "style": "file:./style.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}
