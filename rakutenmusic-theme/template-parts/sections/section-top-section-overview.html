@@ -251,13 +251,15 @@
                   </div>
                 </div>
                 <div class="btn-app-dl-wrapper">
-                  <!-- for SP -->
+                  <!-- PC: モーダルでQR表示 / SP: ストアURLへ遷移（data-qr-url / data-store-url は render で置換） -->
                   <a
-                    href="https://app.adjust.com/1aqkqyt4"
+                    href="{{APP_STORE_URL}}"
                     data-ratid="download-btn"
                     data-ratevent="click"
                     data-ratparam="all"
-                    class="btn-app-dl is-hidden--pc"
+                    class="btn-app-dl iap-store-link"
+                    data-qr-url="{{APP_QR_URL}}"
+                    data-store-url="{{APP_STORE_URL}}"
                   >
                     <span class="txt">アプリをダウンロード</span>
                     <svg
@@ -275,29 +277,6 @@
                       ></path>
                     </svg>
                   </a>
-                  <!-- for PC -->
-                  <button
-                    data-ratid="download-btn"
-                    data-ratevent="click"
-                    data-ratparam="all"
-                    class="btn-app-dl is-hidden--sp btn-app-dl-pc"
-                  >
-                    <span class="txt">アプリをダウンロード</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="17"
-                      height="17"
-                      viewBox="0 0 17 17"
-                      fill="none"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M5.707 1.76709L5 2.47409L10.793 8.26709L5 14.0601L5.707 14.7671L12.207 8.26709L5.707 1.76709Z"
-                        fill="white"
-                      ></path>
-                    </svg>
-                  </button>
                 </div>
               </section>
             </div>

@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "rakutenmusic/campaign-detail",
-  "title": "キャンペーン詳細",
+  "title": "キャンペーン詳細（テーブル）",
   "category": "rakutenmusic",
   "icon": "list-view",
   "description": "キャンペーン詳細セクション（テーブルの追加・削除・並べ替えが可能）",

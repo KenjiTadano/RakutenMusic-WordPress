@@ -62,6 +62,24 @@
           props.setAttributes( { items: next } );
         }
 
+        function duplicateItem( index ) {
+          var item = items[ index ];
+          if ( ! item ) return;
+          var copy = { src: item.src || '', alt: item.alt || '' };
+          var next = items.concat( [ copy ] );
+          props.setAttributes( { items: next } );
+        }
+
+        function moveItem( index, delta ) {
+          var j = index + delta;
+          if ( j < 0 || j >= items.length ) return;
+          var next = items.slice();
+          var t = next[ index ];
+          next[ index ] = next[ j ];
+          next[ j ] = t;
+          props.setAttributes( { items: next } );
+        }
+
         function addItem() {
           props.setAttributes( { items: items.concat( [ { src: '', alt: '' } ] ) } );
         }
@@ -90,11 +108,30 @@
                     value: item.alt || '',
                     onChange: function ( v ) { updateItem( i, 'alt', v ); }
                   } ),
-                  el( Button, {
-                    isDestructive: true,
-                    isSmall: true,
-                    onClick: function () { removeItem( i ); }
-                  }, __( 'この画像を削除', 'rakutenmusic-theme' ) )
+                  el( 'div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '8px' } },
+                    el( Button, {
+                      isSmall: true,
+                      variant: 'secondary',
+                      onClick: function () { moveItem( i, -1 ); },
+                      disabled: i === 0
+                    }, '↑ ' + __( '上へ', 'rakutenmusic-theme' ) ),
+                    el( Button, {
+                      isSmall: true,
+                      variant: 'secondary',
+                      onClick: function () { moveItem( i, 1 ); },
+                      disabled: i === items.length - 1
+                    }, '↓ ' + __( '下へ', 'rakutenmusic-theme' ) ),
+                    el( Button, {
+                      isSmall: true,
+                      variant: 'secondary',
+                      onClick: function () { duplicateItem( i ); }
+                    }, __( '複製', 'rakutenmusic-theme' ) ),
+                    el( Button, {
+                      isDestructive: true,
+                      isSmall: true,
+                      onClick: function () { removeItem( i ); }
+                    }, __( '削除', 'rakutenmusic-theme' ) )
+                  )
                 );
               } ),
               el( Button, { isPrimary: true, onClick: addItem, style: { marginTop: '8px' } }, __( '画像を追加', 'rakutenmusic-theme' ) )

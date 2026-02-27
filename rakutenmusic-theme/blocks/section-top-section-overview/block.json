@@ -5,7 +5,7 @@
   "title": "バンドル：OVERVIEW",
   "category": "rakutenmusic",
   "icon": "visibility",
-  "description": "バンドルプラン：OVERVIEW セクション（バンドルとは）",
+  "description": "バンドルプラン：OVERVIEW セクション（バンドルとは）。「アプリをダウンロード」ボタンは固定ページのフローティングCTAで設定したQR・ストアURLを使用します。",
   "keywords": ["楽天", "ミュージック", "バンドル", "overview", "概要"],
   "textdomain": "rakutenmusic-theme",
   "supports": { "inserter": true },

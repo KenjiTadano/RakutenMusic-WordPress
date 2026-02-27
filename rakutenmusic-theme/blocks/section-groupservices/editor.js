@@ -57,7 +57,7 @@
     } catch ( e ) {}
 
     wp.blocks.registerBlockType( BLOCK_NAME, {
-      title: __( '楽天グループサービス', 'rakutenmusic-theme' ),
+      title: __( '楽天グループサービス（スライダー）', 'rakutenmusic-theme' ),
       category: 'rakutenmusic',
       icon: 'align-wide',
       description: __( '楽天ミュージック汎用テンプレート用セクション: 楽天グループサービス（スライダー・リスト編集可能）', 'rakutenmusic-theme' ),

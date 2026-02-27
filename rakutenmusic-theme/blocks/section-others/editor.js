@@ -44,7 +44,7 @@
     } catch ( e ) {}
 
     wp.blocks.registerBlockType( BLOCK_NAME, {
-      title: __( 'その他キャンペーン', 'rakutenmusic-theme' ),
+      title: __( 'その他キャンペーン（スライダー）', 'rakutenmusic-theme' ),
       category: 'rakutenmusic',
       icon: 'align-wide',
       description: __( '楽天ミュージック汎用テンプレート用セクション: その他キャンペーン（スライダー・リスト編集可能）', 'rakutenmusic-theme' ),

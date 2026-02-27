@@ -400,16 +400,16 @@ function rakutenmusic_get_section_blocks() {
 	return array(
 		array( 'name' => 'top-main-fv', 'title' => 'トップFV（ヒーロー）', 'keywords' => array( 'FV', 'ヒーロー', 'ファーストビュー', 'top-main-fv' ) ),
 		array( 'name' => 'saikyo-cost-performance', 'title' => 'コスパ最強な理由', 'keywords' => array( 'コスパ', '最強', 'top-section-saikyo_cost_performance' ) ),
-		array( 'name' => 'campaign', 'title' => 'キャンペーン', 'keywords' => array( 'キャンペーン', 'top-section-campaign' ) ),
-		array( 'name' => 'campaign-list', 'title' => 'キャンペーンリスト', 'keywords' => array( 'キャンペーン', 'リスト', 'ライト', '開催中' ) ),
+		array( 'name' => 'campaign', 'title' => 'キャンペーン（スライダー）', 'keywords' => array( 'キャンペーン', 'top-section-campaign' ) ),
+		array( 'name' => 'campaign-list', 'title' => 'キャンペーンリスト（一覧）', 'keywords' => array( 'キャンペーン', 'リスト', 'ライト', '開催中' ) ),
 		array( 'name' => 'feature', 'title' => '便利な機能', 'keywords' => array( '機能' ) ),
-		array( 'name' => 'price', 'title' => '料金プラン', 'keywords' => array( '料金', 'プラン', 'stack-section-price' ) ),
+		array( 'name' => 'price', 'title' => '料金プラン（メイン）', 'keywords' => array( '料金', 'プラン', 'stack-section-price' ) ),
 		array( 'name' => 'reward', 'title' => 'リワード', 'keywords' => array( 'リワード', 'ポイント', 'stack-section-reward' ) ),
 		array( 'name' => 'rakutenmusicrank', 'title' => 'Rakuten Musicランク', 'keywords' => array( 'ランク' ) ),
 		array( 'name' => 'faq', 'title' => 'よくあるご質問', 'keywords' => array( 'FAQ', '質問' ) ),
-		array( 'name' => 'others', 'title' => 'その他キャンペーン', 'keywords' => array( 'その他' ) ),
-		array( 'name' => 'groupservices', 'title' => '楽天グループサービス', 'keywords' => array( 'グループ' ) ),
-		array( 'name' => 'top-section-price', 'title' => '料金プラン（トップセクション）', 'keywords' => array( '料金', 'プラン', '診断', 'top-section-price' ) ),
+		array( 'name' => 'others', 'title' => 'その他キャンペーン（スライダー）', 'keywords' => array( 'その他' ) ),
+		array( 'name' => 'groupservices', 'title' => '楽天グループサービス（スライダー）', 'keywords' => array( 'グループ' ) ),
+		array( 'name' => 'top-section-price', 'title' => '料金プラン（トップ用）', 'keywords' => array( '料金', 'プラン', '診断', 'top-section-price' ) ),
 		// バンドルプラン用（plan/bundle からブロック化）
 		array( 'name' => 'top-section-overview', 'title' => 'バンドル：OVERVIEW', 'keywords' => array( 'バンドル', 'overview', '概要' ) ),
 		array( 'name' => 'top-section-firstplaylists', 'title' => 'バンドル：FIRST PLAYLISTS', 'keywords' => array( 'バンドル', 'プレイリスト' ) ),
@@ -432,8 +432,8 @@ function rakutenmusic_register_rakuten_music_section_blocks() {
 		if ( ! $slug ) {
 			continue;
 		}
-		// キャンペーン・キャンペーンリスト・楽天グループサービス・その他キャンペーンは editor 付きで別途登録するためスキップ
-		if ( in_array( $slug, array( 'campaign', 'campaign-list', 'groupservices', 'others' ), true ) ) {
+		// キャンペーン・キャンペーンリスト・楽天グループサービス・その他キャンペーン・バンドルOVERVIEW は editor 付きで別途登録するためスキップ
+		if ( in_array( $slug, array( 'campaign', 'campaign-list', 'groupservices', 'others', 'top-section-overview' ), true ) ) {
 			continue;
 		}
 		$path = $blocks_path . 'section-' . $slug;
@@ -473,6 +473,7 @@ add_action( 'init', 'rakutenmusic_register_rakuten_music_section_blocks' );
 
 /**
  * ブロックに preview.png がある場合、インサーターのアイコンをその画像にする
+ * セクションブロックには edit 用の共通スクリプトを付与（インサーターのプレビュー表示のため）
  */
 function rakutenmusic_block_type_args_preview_icon( $args, $block_type ) {
 	static $preview_urls = null;
@@ -483,10 +484,35 @@ function rakutenmusic_block_type_args_preview_icon( $args, $block_type ) {
 		if ( ! empty( $preview_urls[ $block_type->name ] ) ) {
 			$args['icon'] = array( 'src' => $preview_urls[ $block_type->name ] );
 		}
+		// セクションブロックに edit 用スクリプトを付与（「プレビューが利用できません」を防ぐ）
+		// バンドル：OVERVIEW は独自の editorScript（サイドバーでアプリDL設定）を持つため除外
+		if ( strpos( $block_type->name, 'rakutenmusic/rakuten-music-section-' ) === 0
+			&& $block_type->name !== 'rakutenmusic/rakuten-music-section-top-section-overview' ) {
+			$args['editor_script'] = 'rakutenmusic-section-blocks-edit';
+		}
 	}
 	return $args;
 }
 add_filter( 'register_block_type_args', 'rakutenmusic_block_type_args_preview_icon', 10, 2 );
+
+/**
+ * セクションブロック用 edit スクリプトを登録（register_block_type_args で参照される）
+ */
+function rakutenmusic_register_section_blocks_edit_script() {
+	$dir = get_template_directory();
+	$uri = get_template_directory_uri();
+	$script_path = $dir . '/assets/js/section-blocks-edit.js';
+	if ( ! file_exists( $script_path ) ) {
+		return;
+	}
+	wp_register_script(
+		'rakutenmusic-section-blocks-edit',
+		$uri . '/assets/js/section-blocks-edit.js',
+		array( 'wp-blocks', 'wp-element', 'wp-block-editor' ),
+		wp_get_theme()->get( 'Version' ) . '-' . filemtime( $script_path )
+	);
+}
+add_action( 'init', 'rakutenmusic_register_section_blocks_edit_script', 5 );
 
 /**
  * キャンペーン詳細ブロック（編集可能テーブル）を登録
@@ -683,6 +709,18 @@ function rakutenmusic_register_others_block() {
 add_action( 'init', 'rakutenmusic_register_others_block', 20 );
 
 /**
+ * バンドル：OVERVIEW ブロックを登録（「アプリをダウンロード」は固定ページのフローティングCTA設定を流用）
+ */
+function rakutenmusic_register_overview_block() {
+	$block_dir = get_template_directory() . '/blocks/section-top-section-overview';
+	if ( ! file_exists( $block_dir . '/block.json' ) ) {
+		return;
+	}
+	register_block_type( $block_dir );
+}
+add_action( 'init', 'rakutenmusic_register_overview_block', 5 );
+
+/**
  * キャンペーンヒーローブロック（編集パネル・プレビュー付き）を登録
  */
 function rakutenmusic_register_campaign_hero_block() {
@@ -724,12 +762,13 @@ add_action( 'init', 'rakutenmusic_register_campaign_hero_block', 20 );
  * ジャケ写カルーセルブロックを登録（Slick 依存含む）
  */
 function rakutenmusic_register_jsha_carousel_block() {
-	$dir       = get_template_directory();
-	$uri       = get_template_directory_uri();
-	$block_dir = $dir . '/blocks/jsha-carousel';
+	$dir        = get_template_directory();
+	$uri        = get_template_directory_uri();
+	$block_dir  = $dir . '/blocks/jsha-carousel';
 	$editor_js  = $block_dir . '/editor.js';
 	$editor_css = $block_dir . '/editor.css';
-	$view_js   = $block_dir . '/view.js';
+	$view_js    = $block_dir . '/view.js';
+	$style_css  = $block_dir . '/style.css';
 
 	if ( ! file_exists( $editor_js ) || ! file_exists( $view_js ) ) {
 		return;
@@ -751,6 +790,16 @@ function rakutenmusic_register_jsha_carousel_block() {
 		'1.8.1',
 		true
 	);
+
+	// フロント用スタイル（block.json の style を PHP で明示登録し確実に読み込む）
+	if ( file_exists( $style_css ) ) {
+		wp_register_style(
+			'rakutenmusic-jsha-carousel-style',
+			$uri . '/blocks/jsha-carousel/style.css',
+			array(),
+			filemtime( $style_css )
+		);
+	}
 
 	wp_register_script(
 		'rakutenmusic-jsha-carousel-view',
@@ -776,16 +825,41 @@ function rakutenmusic_register_jsha_carousel_block() {
 		);
 	}
 
-	register_block_type( $block_dir, array(
+	// stack-jsya-scroll.css / stack-jsya-scroll.js（ジャケ写カルーセル用・#page スコープのスタイル等）
+	$stack_jsya_css = $dir . '/assets/common/css/stack-jsya-scroll.css';
+	$stack_jsya_js  = $dir . '/assets/common/js/stack-jsya-scroll.js';
+	if ( file_exists( $stack_jsya_css ) ) {
+		wp_register_style(
+			'rakutenmusic-stack-jsya-scroll',
+			$uri . '/assets/common/css/stack-jsya-scroll.css',
+			array(),
+			filemtime( $stack_jsya_css )
+		);
+	}
+	if ( file_exists( $stack_jsya_js ) ) {
+		wp_register_script(
+			'rakutenmusic-stack-jsya-scroll',
+			$uri . '/assets/common/js/stack-jsya-scroll.js',
+			array( 'jquery', 'rakutenmusic-slick' ),
+			filemtime( $stack_jsya_js ),
+			true
+		);
+	}
+
+	$block_args = array(
 		'editor_script'        => 'rakutenmusic-jsha-carousel-editor',
 		'editor_style'        => 'rakutenmusic-jsha-carousel-editor-style',
 		'view_script_handles' => array( 'rakutenmusic-jsha-carousel-view' ),
-	) );
+	);
+	if ( file_exists( $style_css ) ) {
+		$block_args['style'] = 'rakutenmusic-jsha-carousel-style';
+	}
+	register_block_type( $block_dir, $block_args );
 }
 add_action( 'init', 'rakutenmusic_register_jsha_carousel_block', 20 );
 
 /**
- * ジャケ写カルーセルブロック使用時に Slick の CSS をフロントで読み込む
+ * ジャケ写カルーセルブロック使用時に Slick / stack-jsya-scroll の CSS・JS をフロントで読み込む
  */
 function rakutenmusic_enqueue_jsha_carousel_front_assets() {
 	if ( ! is_singular() ) {
@@ -799,6 +873,8 @@ function rakutenmusic_enqueue_jsha_carousel_front_assets() {
 		return;
 	}
 	wp_enqueue_style( 'rakutenmusic-slick-base' );
+	wp_enqueue_style( 'rakutenmusic-stack-jsya-scroll' );
+	wp_enqueue_script( 'rakutenmusic-stack-jsya-scroll' );
 }
 add_action( 'wp_enqueue_scripts', 'rakutenmusic_enqueue_jsha_carousel_front_assets', 25 );
 
@@ -886,25 +962,35 @@ function rakutenmusic_get_block_preview_urls() {
 }
 
 /**
- * ブロックエディターでセクションブロックをクライアント登録（インサーターに表示するため必須）
+ * ブロックエディター：セクションブロックをインラインで登録（インサーターに必ず表示するため）
  * 各ブロックフォルダに preview.png を置くとインサーターのプレビューに表示される
  */
 function rakutenmusic_enqueue_block_editor_assets() {
 	$blocks = rakutenmusic_get_section_blocks();
-	$json   = wp_json_encode( $blocks, JSON_UNESCAPED_UNICODE );
-	$b64    = base64_encode( $json );
-
+	// インサーターに表示するため全セクション（OVERVIEW 含む）をインラインで登録。OVERVIEW は後から overview editor.js で上書きしサイドバーを付与
 	$preview_urls = rakutenmusic_get_block_preview_urls();
 	$preview_json = wp_json_encode( $preview_urls, JSON_UNESCAPED_SLASHES );
-	// インライン内で確実に参照できるよう URL を直接埋め込む（ローカルライズの読み込み順に依存しない）
-	$inline  = 'window.rakutenmusicBlockPreviewUrls={urls:' . $preview_json . '};';
-	$inline .= 'var _r=function(){var w=window.wp;if(!w||!w.blocks||!w.element)return;var u=w.blockEditor&&w.blockEditor.useBlockProps,r=w.blocks.registerBlockType,e=w.element.createElement,useEffect=w.element.useEffect;var raw=atob("' . $b64 . '"),s;try{s=new TextDecoder("utf-8").decode(new Uint8Array([].map.call(raw,function(c){return c.charCodeAt(0);})));}catch(_){s=decodeURIComponent(escape(raw));}var d;try{d=JSON.parse(s);}catch(err){return;}';
-	$inline .= 'var previewUrls=(window.rakutenmusicBlockPreviewUrls&&window.rakutenmusicBlockPreviewUrls.urls)||{};';
-	$inline .= 'function PreviewEdit(r){var blockTitle=r.blockTitle,previewUrl=r.previewUrl,props=r.props;if(useEffect&&props.attributes.__preview){useEffect(function(){props.setAttributes({__preview:false});},[]);}if(props.attributes.__preview&&previewUrl){return e("img",{src:previewUrl,alt:blockTitle,style:{width:"100%",maxHeight:"200px",objectFit:"cover",display:"block"}});}var o={className:"rakutenmusic-section-placeholder",style:{padding:"16px",background:"#f0f0f0",border:"1px dashed #999",borderRadius:"4px",textAlign:"center"}};var p=u?u(o):o;return e("div",p,e("strong",null,blockTitle));}';
-	$inline .= 'd.forEach(function(b){try{var blockName="rakutenmusic/rakuten-music-section-"+b.name;var previewUrl=previewUrls[blockName]||null;r(blockName,{title:"[楽天ミュージック] "+b.title,category:"rakutenmusic",keywords:["楽天","ミュージック"].concat(b.keywords||[]),icon:previewUrl?{src:previewUrl}:"align-wide",description:"楽天ミュージック: "+b.title,attributes:{__preview:{type:"boolean",default:false}},example:{attributes:{__preview:true}},edit:function(props){return e(PreviewEdit,{blockTitle:b.title,previewUrl:previewUrl,props:props});},save:function(){return null;}});}catch(err){}});};';
-	$inline .= 'if(window.wp&&window.wp.blocks)_r();else document.addEventListener("DOMContentLoaded",_r);';
+	$blocks_json  = wp_json_encode( $blocks, JSON_UNESCAPED_UNICODE );
+	$b64          = base64_encode( $blocks_json );
 
+	// wp-blocks 直後にインラインで登録（別スクリプトの読み込み順に依存せず確実にリストに出す）
+	$inline  = 'window.rakutenmusicBlockPreviewUrls={urls:' . $preview_json . '};';
+	$inline .= 'var _r=function(){var w=window.wp;if(!w||!w.blocks||!w.element)return;var u=w.blockEditor&&w.blockEditor.useBlockProps,r=w.blocks.registerBlockType,unreg=w.blocks.unregisterBlockType,e=w.element.createElement;var raw=atob("' . $b64 . '"),s;try{s=new TextDecoder("utf-8").decode(new Uint8Array([].map.call(raw,function(c){return c.charCodeAt(0);})));}catch(_){s=decodeURIComponent(escape(raw));}var d;try{d=JSON.parse(s);}catch(err){return;}';
+	$inline .= 'var previewUrls=(window.rakutenmusicBlockPreviewUrls&&window.rakutenmusicBlockPreviewUrls.urls)||{};';
+	$inline .= 'function PreviewEdit(r){var blockTitle=r.blockTitle,previewUrl=r.previewUrl;if(previewUrl){return e("img",{src:previewUrl,alt:blockTitle,style:{width:"100%",maxHeight:"200px",objectFit:"cover",display:"block"}});}var o={className:"rakutenmusic-section-placeholder",style:{padding:"16px",background:"#f0f0f0",border:"1px dashed #999",borderRadius:"4px",textAlign:"center"}};return e("div",o,e("strong",null,blockTitle));}';
+	$inline .= 'd.forEach(function(b){try{var blockName="rakutenmusic/rakuten-music-section-"+b.name;var previewUrl=previewUrls[blockName]||null;if(unreg){try{unreg(blockName);}catch(_){}}r(blockName,{title:"[楽天ミュージック] "+b.title,category:"rakutenmusic",keywords:["楽天","ミュージック"].concat(b.keywords||[]),icon:previewUrl?{src:previewUrl}:"align-wide",description:"楽天ミュージック: "+b.title,attributes:{},example:{attributes:{}},edit:function(props){return e(PreviewEdit,{blockTitle:b.title,previewUrl:previewUrl,props:props});},save:function(){return null;}});}catch(err){}});};';
+	$inline .= 'if(window.wp&&window.wp.blocks)_r();else document.addEventListener("DOMContentLoaded",function(){if(window.wp&&window.wp.blocks)_r();});';
 	wp_add_inline_script( 'wp-blocks', $inline, 'after' );
+
+	wp_localize_script(
+		'rakutenmusic-section-blocks-edit',
+		'rakutenmusicSectionBlocksData',
+		array(
+			'blocks'      => $blocks,
+			'previewUrls' => $preview_urls,
+		)
+	);
+	wp_enqueue_script( 'rakutenmusic-section-blocks-edit' );
 }
 
 add_action( 'enqueue_block_editor_assets', 'rakutenmusic_enqueue_block_editor_assets' );
@@ -929,13 +1015,20 @@ add_action( 'add_meta_boxes', 'rakutenmusic_add_floating_cta_meta_box' );
 function rakutenmusic_floating_cta_meta_box_cb( $post ) {
 	wp_nonce_field( 'rakutenmusic_floating_cta_save', 'rakutenmusic_floating_cta_nonce' );
 	$defaults = rakutenmusic_floating_cta_defaults();
-	$visible    = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_visible', true );
-	$text       = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_text', true );
-	$text_line2 = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_text_line2', true );
-	$font_size  = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_font_size', true );
-	$color      = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_color', true );
+	$visible       = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_visible', true );
+	$type          = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_type', true );
+	$text          = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_text', true );
+	$text_line2    = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_text_line2', true );
+	$font_size     = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_font_size', true );
+	$color         = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_color', true );
+	$link          = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_link', true );
+	$app_qr_url    = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_app_qr_url', true );
+	$app_store_url = get_post_meta( $post->ID, 'rakutenmusic_floating_cta_app_store_url', true );
 	if ( $visible === '' ) {
 		$visible = $defaults['visible'];
+	}
+	if ( $type === '' || ! in_array( $type, array( 'trial', 'app_download' ), true ) ) {
+		$type = $defaults['type'];
 	}
 	if ( $text === '' ) {
 		$text = $defaults['text'];
@@ -949,6 +1042,12 @@ function rakutenmusic_floating_cta_meta_box_cb( $post ) {
 	if ( $color === '' ) {
 		$color = $defaults['color'];
 	}
+	if ( $link === '' && array_key_exists( 'link', $defaults ) ) {
+		$link = $defaults['link'];
+	}
+	if ( $app_store_url === '' && array_key_exists( 'app_store_url', $defaults ) ) {
+		$app_store_url = $defaults['app_store_url'];
+	}
 	$checked = ( $visible === 'show' || $visible === '1' ) ? ' checked="checked"' : '';
 	$ajax_url = admin_url( 'admin-ajax.php' );
 	$ajax_nonce = wp_create_nonce( 'rakutenmusic_floating_cta_ajax' );
@@ -961,20 +1060,37 @@ function rakutenmusic_floating_cta_meta_box_cb( $post ) {
 		</label>
 	</p>
 	<p>
-		<label for="rakutenmusic_fcta_text"><?php esc_html_e( 'ボタンの文字（1行目）', 'rakutenmusic-theme' ); ?></label>
-		<input type="text" id="rakutenmusic_fcta_text" name="rakutenmusic_floating_cta_text" value="<?php echo esc_attr( $text ); ?>" class="widefat" placeholder="<?php echo esc_attr( $defaults['text'] ); ?>" />
+		<strong><?php esc_html_e( 'ボタン種類', 'rakutenmusic-theme' ); ?></strong><br>
+		<label><input type="radio" name="rakutenmusic_floating_cta_type" value="trial" <?php checked( $type, 'trial' ); ?> /> <?php esc_html_e( '①会員登録ボタン', 'rakutenmusic-theme' ); ?></label><br>
+		<label><input type="radio" name="rakutenmusic_floating_cta_type" value="app_download" <?php checked( $type, 'app_download' ); ?> /> <?php esc_html_e( '②アプリダウンロードボタン', 'rakutenmusic-theme' ); ?></label>
 	</p>
-	<p>
-		<label for="rakutenmusic_fcta_text_line2"><?php esc_html_e( '補足テキスト（※楽天会員...の部分）', 'rakutenmusic-theme' ); ?></label>
-		<input type="text" id="rakutenmusic_fcta_text_line2" name="rakutenmusic_floating_cta_text_line2" value="<?php echo esc_attr( $text_line2 ); ?>" class="widefat" placeholder="※楽天会員ログインに遷移します" />
-	</p>
-	<p>
-		<label for="rakutenmusic_fcta_font_size"><?php esc_html_e( 'フォントサイズ（px）', 'rakutenmusic-theme' ); ?></label>
-		<input type="number" id="rakutenmusic_fcta_font_size" name="rakutenmusic_floating_cta_font_size" value="<?php echo esc_attr( $font_size ); ?>" class="small-text" min="10" max="32" step="1" />
-	</p>
-	<p>
-		<label for="rakutenmusic_fcta_color"><?php esc_html_e( 'ボタンの色', 'rakutenmusic-theme' ); ?></label>
-		<input type="text" id="rakutenmusic_fcta_color" name="rakutenmusic_floating_cta_color" value="<?php echo esc_attr( $color ); ?>" class="widefat" placeholder="#bf0000" />
+	<div class="rakutenmusic-fcta-trial-fields" style="<?php echo ( $type !== 'trial' ) ? 'display:none;' : ''; ?>">
+		<p>
+			<label for="rakutenmusic_fcta_link"><?php esc_html_e( 'ボタンURL', 'rakutenmusic-theme' ); ?></label>
+			<input type="url" id="rakutenmusic_fcta_link" name="rakutenmusic_floating_cta_link" value="<?php echo esc_attr( $link ); ?>" class="widefat" placeholder="<?php echo esc_attr( $defaults['link'] ); ?>" />
+		</p>
+		<p>
+			<label for="rakutenmusic_fcta_text"><?php esc_html_e( '1行目テキスト', 'rakutenmusic-theme' ); ?></label>
+			<input type="text" id="rakutenmusic_fcta_text" name="rakutenmusic_floating_cta_text" value="<?php echo esc_attr( $text ); ?>" class="widefat" placeholder="<?php echo esc_attr( $defaults['text'] ); ?>" />
+		</p>
+		<p>
+			<label for="rakutenmusic_fcta_text_line2"><?php esc_html_e( '2行目テキスト', 'rakutenmusic-theme' ); ?></label>
+			<input type="text" id="rakutenmusic_fcta_text_line2" name="rakutenmusic_floating_cta_text_line2" value="<?php echo esc_attr( $text_line2 ); ?>" class="widefat" placeholder="<?php echo esc_attr( $defaults['text_line2'] ); ?>" />
+		</p>
+	</div>
+	<div class="rakutenmusic-fcta-app-fields" style="<?php echo ( $type !== 'app_download' ) ? 'display:none;' : ''; ?>">
+		<p>
+			<label for="rakutenmusic_fcta_app_qr_url"><?php esc_html_e( 'QRコード画像URL（PC時モーダル用）', 'rakutenmusic-theme' ); ?></label>
+			<input type="url" id="rakutenmusic_fcta_app_qr_url" name="rakutenmusic_floating_cta_app_qr_url" value="<?php echo esc_attr( $app_qr_url ); ?>" class="widefat" />
+		</p>
+		<p>
+			<label for="rakutenmusic_fcta_app_store_url"><?php esc_html_e( 'ストアリンクURL（スマホ時）', 'rakutenmusic-theme' ); ?></label>
+			<input type="url" id="rakutenmusic_fcta_app_store_url" name="rakutenmusic_floating_cta_app_store_url" value="<?php echo esc_attr( $app_store_url ); ?>" class="widefat" placeholder="<?php echo esc_attr( $defaults['app_store_url'] ); ?>" />
+		</p>
+	</div>
+	<p class="rakutenmusic-fcta-hidden-fields" style="display:none;">
+		<input type="hidden" id="rakutenmusic_fcta_font_size" name="rakutenmusic_floating_cta_font_size" value="<?php echo esc_attr( $font_size ); ?>" />
+		<input type="hidden" id="rakutenmusic_fcta_color" name="rakutenmusic_floating_cta_color" value="<?php echo esc_attr( $color ); ?>" />
 	</p>
 	<script>
 	(function(){
@@ -984,33 +1100,46 @@ function rakutenmusic_floating_cta_meta_box_cb( $post ) {
 		var ajaxUrl = w.getAttribute('data-ajax-url');
 		var nonce = w.getAttribute('data-nonce');
 		var visibleEl = document.getElementById('rakutenmusic_fcta_visible');
+		var typeRadios = w.querySelectorAll('input[name="rakutenmusic_floating_cta_type"]');
 		var textEl = document.getElementById('rakutenmusic_fcta_text');
 		var text2El = document.getElementById('rakutenmusic_fcta_text_line2');
 		var fontSizeEl = document.getElementById('rakutenmusic_fcta_font_size');
 		var colorEl = document.getElementById('rakutenmusic_fcta_color');
-		if(!visibleEl || !textEl || !colorEl || !ajaxUrl || !nonce || !postId) return;
+		var linkEl = document.getElementById('rakutenmusic_fcta_link');
+		var appQrEl = document.getElementById('rakutenmusic_fcta_app_qr_url');
+		var appStoreEl = document.getElementById('rakutenmusic_fcta_app_store_url');
+		var trialDiv = w.querySelector('.rakutenmusic-fcta-trial-fields');
+		var appDiv = w.querySelector('.rakutenmusic-fcta-app-fields');
+		if(!visibleEl || !ajaxUrl || !nonce || !postId) return;
+		function getType(){ var r = w.querySelector('input[name="rakutenmusic_floating_cta_type"]:checked'); return r ? r.value : 'trial'; }
+		function toggleFields(){ var t = getType(); if(trialDiv) trialDiv.style.display = t === 'trial' ? '' : 'none'; if(appDiv) appDiv.style.display = t === 'app_download' ? '' : 'none'; }
 		function save(){
 			var fd = new FormData();
 			fd.append('action','rakutenmusic_save_floating_cta_meta');
 			fd.append('nonce',nonce);
 			fd.append('post_id',postId);
 			fd.append('visible', visibleEl.checked ? 'show' : 'hidden');
-			fd.append('text', textEl.value || '');
+			fd.append('type', getType());
+			fd.append('text', textEl ? textEl.value || '' : '');
 			fd.append('text_line2', text2El ? text2El.value || '' : '');
 			fd.append('font_size', fontSizeEl ? (fontSizeEl.value || '16') : '16');
-			fd.append('color', colorEl.value || '');
+			fd.append('color', colorEl ? colorEl.value || '' : '');
+			fd.append('link', linkEl ? (linkEl.value || '') : '');
+			fd.append('app_qr_url', appQrEl ? (appQrEl.value || '') : '');
+			fd.append('app_store_url', appStoreEl ? (appStoreEl.value || '') : '');
 			var xhr = new XMLHttpRequest();
 			xhr.open('POST', ajaxUrl);
 			xhr.setRequestHeader('X-Requested-With','XMLHttpRequest');
 			xhr.send(fd);
 		}
+		toggleFields();
+		[].forEach.call(typeRadios || [], function(r){ r.addEventListener('change', function(){ toggleFields(); save(); }); });
 		visibleEl.addEventListener('change', save);
-		textEl.addEventListener('input', function(){ clearTimeout(window._rakutenmusicFctaT); window._rakutenmusicFctaT = setTimeout(save, 500); });
-		textEl.addEventListener('blur', save);
+		if(textEl){ textEl.addEventListener('input', function(){ clearTimeout(window._rakutenmusicFctaT); window._rakutenmusicFctaT = setTimeout(save, 500); }); textEl.addEventListener('blur', save); }
 		if(text2El){ text2El.addEventListener('input', function(){ clearTimeout(window._rakutenmusicFctaT); window._rakutenmusicFctaT = setTimeout(save, 500); }); text2El.addEventListener('blur', save); }
-		if(fontSizeEl){ fontSizeEl.addEventListener('change', save); fontSizeEl.addEventListener('input', function(){ clearTimeout(window._rakutenmusicFctaT); window._rakutenmusicFctaT = setTimeout(save, 500); }); }
-		colorEl.addEventListener('input', function(){ clearTimeout(window._rakutenmusicFctaT); window._rakutenmusicFctaT = setTimeout(save, 500); });
-		colorEl.addEventListener('blur', save);
+		if(linkEl){ linkEl.addEventListener('input', function(){ clearTimeout(window._rakutenmusicFctaT); window._rakutenmusicFctaT = setTimeout(save, 500); }); linkEl.addEventListener('blur', save); }
+		if(appQrEl){ appQrEl.addEventListener('input', function(){ clearTimeout(window._rakutenmusicFctaT); window._rakutenmusicFctaT = setTimeout(save, 500); }); appQrEl.addEventListener('blur', save); }
+		if(appStoreEl){ appStoreEl.addEventListener('input', function(){ clearTimeout(window._rakutenmusicFctaT); window._rakutenmusicFctaT = setTimeout(save, 500); }); appStoreEl.addEventListener('blur', save); }
 	})();
 	</script>
 	</div>
@@ -1052,6 +1181,23 @@ function rakutenmusic_save_floating_cta_meta( $post_id ) {
 	if ( isset( $_POST['rakutenmusic_floating_cta_color'] ) ) {
 		$c = sanitize_hex_color( wp_unslash( $_POST['rakutenmusic_floating_cta_color'] ) );
 		update_post_meta( $post_id, 'rakutenmusic_floating_cta_color', $c ? $c : '#bf0000' );
+	}
+	if ( isset( $_POST['rakutenmusic_floating_cta_link'] ) ) {
+		$url = esc_url_raw( wp_unslash( $_POST['rakutenmusic_floating_cta_link'] ) );
+		$defaults = rakutenmusic_floating_cta_defaults();
+		update_post_meta( $post_id, 'rakutenmusic_floating_cta_link', $url ? $url : $defaults['link'] );
+	}
+	if ( isset( $_POST['rakutenmusic_floating_cta_type'] ) ) {
+		$val = sanitize_text_field( wp_unslash( $_POST['rakutenmusic_floating_cta_type'] ) );
+		update_post_meta( $post_id, 'rakutenmusic_floating_cta_type', ( $val === 'app_download' ) ? 'app_download' : 'trial' );
+	}
+	if ( isset( $_POST['rakutenmusic_floating_cta_app_qr_url'] ) ) {
+		update_post_meta( $post_id, 'rakutenmusic_floating_cta_app_qr_url', esc_url_raw( wp_unslash( $_POST['rakutenmusic_floating_cta_app_qr_url'] ) ) );
+	}
+	if ( isset( $_POST['rakutenmusic_floating_cta_app_store_url'] ) ) {
+		$url = esc_url_raw( wp_unslash( $_POST['rakutenmusic_floating_cta_app_store_url'] ) );
+		$defaults = rakutenmusic_floating_cta_defaults();
+		update_post_meta( $post_id, 'rakutenmusic_floating_cta_app_store_url', $url ? $url : $defaults['app_store_url'] );
 	}
 }
 add_action( 'save_post_page', 'rakutenmusic_save_floating_cta_meta' );
@@ -1114,6 +1260,21 @@ function rakutenmusic_ajax_save_floating_cta_meta() {
 		$c = sanitize_hex_color( wp_unslash( $_POST['color'] ) );
 		update_post_meta( $post_id, 'rakutenmusic_floating_cta_color', $c ? $c : $defaults['color'] );
 	}
+	if ( isset( $_POST['link'] ) ) {
+		$url = esc_url_raw( wp_unslash( $_POST['link'] ) );
+		update_post_meta( $post_id, 'rakutenmusic_floating_cta_link', $url ? $url : $defaults['link'] );
+	}
+	if ( isset( $_POST['type'] ) ) {
+		$val = sanitize_text_field( wp_unslash( $_POST['type'] ) );
+		update_post_meta( $post_id, 'rakutenmusic_floating_cta_type', ( $val === 'app_download' ) ? 'app_download' : 'trial' );
+	}
+	if ( isset( $_POST['app_qr_url'] ) ) {
+		update_post_meta( $post_id, 'rakutenmusic_floating_cta_app_qr_url', esc_url_raw( wp_unslash( $_POST['app_qr_url'] ) ) );
+	}
+	if ( isset( $_POST['app_store_url'] ) ) {
+		$url = esc_url_raw( wp_unslash( $_POST['app_store_url'] ) );
+		update_post_meta( $post_id, 'rakutenmusic_floating_cta_app_store_url', $url ? $url : $defaults['app_store_url'] );
+	}
 	wp_send_json_success();
 }
 add_action( 'wp_ajax_rakutenmusic_save_floating_cta_meta', 'rakutenmusic_ajax_save_floating_cta_meta' );
@@ -1123,11 +1284,15 @@ add_action( 'wp_ajax_rakutenmusic_save_floating_cta_meta', 'rakutenmusic_ajax_sa
  */
 function rakutenmusic_floating_cta_defaults() {
 	return array(
-		'visible'    => 'show',
-		'text'       => 'いますぐ始める(無料)',
-		'text_line2' => '※楽天会員ログインに遷移します', // 補足テキスト（.txt-small の文言）
-		'font_size'  => '16',
-		'color'      => '#bf0000',
+		'visible'       => 'show',
+		'type'          => 'trial', // 'trial' = 会員登録ボタン, 'app_download' = アプリダウンロードボタン
+		'text'          => 'いますぐ始める(無料)',
+		'text_line2'    => '※楽天会員ログインに遷移します',
+		'font_size'     => '16',
+		'color'         => '#bf0000',
+		'link'          => 'https://member.music.rakuten.co.jp/mypage',
+		'app_qr_url'    => '',   // PC時モーダル用QR画像URL
+		'app_store_url' => 'https://music.rakuten.co.jp/link/app/app_inflow.html', // スマホ時ストアリンク
 	);
 }
 
@@ -1144,10 +1309,14 @@ function rakutenmusic_register_floating_cta_meta() {
 	);
 	// アンダースコアなしにすると REST API で保存・取得できる（ブロックエディター用）
 	register_post_meta( 'page', 'rakutenmusic_floating_cta_visible', array_merge( $args, array( 'default' => 'show' ) ) );
+	register_post_meta( 'page', 'rakutenmusic_floating_cta_type', array_merge( $args, array( 'default' => $defaults['type'] ) ) );
 	register_post_meta( 'page', 'rakutenmusic_floating_cta_text', array_merge( $args, array( 'default' => $defaults['text'] ) ) );
 	register_post_meta( 'page', 'rakutenmusic_floating_cta_text_line2', array_merge( $args, array( 'default' => $defaults['text_line2'] ) ) );
 	register_post_meta( 'page', 'rakutenmusic_floating_cta_font_size', array_merge( $args, array( 'default' => $defaults['font_size'] ) ) );
 	register_post_meta( 'page', 'rakutenmusic_floating_cta_color', array_merge( $args, array( 'default' => $defaults['color'] ) ) );
+	register_post_meta( 'page', 'rakutenmusic_floating_cta_link', array_merge( $args, array( 'default' => $defaults['link'] ) ) );
+	register_post_meta( 'page', 'rakutenmusic_floating_cta_app_qr_url', array_merge( $args, array( 'default' => $defaults['app_qr_url'] ) ) );
+	register_post_meta( 'page', 'rakutenmusic_floating_cta_app_store_url', array_merge( $args, array( 'default' => $defaults['app_store_url'] ) ) );
 }
 add_action( 'init', 'rakutenmusic_register_floating_cta_meta' );
 
@@ -1192,6 +1361,21 @@ function rakutenmusic_rest_save_floating_cta_meta( $post, $request, $creating ) 
 		$c = sanitize_hex_color( (string) $meta['rakutenmusic_floating_cta_color'] );
 		update_post_meta( $post->ID, 'rakutenmusic_floating_cta_color', $c ? $c : $defaults['color'] );
 	}
+	if ( array_key_exists( 'rakutenmusic_floating_cta_link', $meta ) ) {
+		$url = esc_url_raw( (string) $meta['rakutenmusic_floating_cta_link'] );
+		update_post_meta( $post->ID, 'rakutenmusic_floating_cta_link', $url ? $url : $defaults['link'] );
+	}
+	if ( array_key_exists( 'rakutenmusic_floating_cta_type', $meta ) ) {
+		$val = (string) $meta['rakutenmusic_floating_cta_type'];
+		update_post_meta( $post->ID, 'rakutenmusic_floating_cta_type', ( $val === 'app_download' ) ? 'app_download' : 'trial' );
+	}
+	if ( array_key_exists( 'rakutenmusic_floating_cta_app_qr_url', $meta ) ) {
+		update_post_meta( $post->ID, 'rakutenmusic_floating_cta_app_qr_url', esc_url_raw( (string) $meta['rakutenmusic_floating_cta_app_qr_url'] ) );
+	}
+	if ( array_key_exists( 'rakutenmusic_floating_cta_app_store_url', $meta ) ) {
+		$url = esc_url_raw( (string) $meta['rakutenmusic_floating_cta_app_store_url'] );
+		update_post_meta( $post->ID, 'rakutenmusic_floating_cta_app_store_url', $url ? $url : $defaults['app_store_url'] );
+	}
 }
 add_action( 'rest_after_insert_page', 'rakutenmusic_rest_save_floating_cta_meta', 10, 3 );
 
@@ -1203,51 +1387,70 @@ add_action( 'rest_after_insert_page', 'rakutenmusic_rest_save_floating_cta_meta'
  * @return string
  */
 function rakutenmusic_render_floating_cta_html( $t, $h ) {
-	$defaults  = rakutenmusic_floating_cta_defaults();
-	$page_id   = get_queried_object_id();
-	$visible   = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_visible', true ) : '';
-	$text      = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_text', true ) : '';
-	$text_line2 = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_text_line2', true ) : '';
-	$font_size  = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_font_size', true ) : '';
-	$color      = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_color', true ) : '';
+	$defaults     = rakutenmusic_floating_cta_defaults();
+	$page_id      = get_queried_object_id();
+	$visible      = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_visible', true ) : '';
+	$type         = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_type', true ) : '';
+	$text         = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_text', true ) : '';
+	$text_line2   = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_text_line2', true ) : '';
+	$link         = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_link', true ) : '';
+	$app_qr_url   = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_app_qr_url', true ) : '';
+	$app_store_url = $page_id ? get_post_meta( $page_id, 'rakutenmusic_floating_cta_app_store_url', true ) : '';
 
 	$visible = ( $visible === 'show' || $visible === '1' );
-	$text    = $text !== '' ? $text : $defaults['text'];
-	// 補足テキスト：空白の場合はキャプションを出さない
-	$caption = $text_line2 !== '' ? $text_line2 : '';
-	$font_size  = $font_size !== '' ? absint( $font_size ) : (int) $defaults['font_size'];
-	if ( $font_size < 10 || $font_size > 32 ) {
-		$font_size = 16;
+	if ( $type !== 'trial' && $type !== 'app_download' ) {
+		$type = $defaults['type'];
 	}
-	$color = $color !== '' ? sanitize_hex_color( $color ) : $defaults['color'];
-	if ( ! $color ) {
-		$color = $defaults['color'];
+	$text       = $text !== '' ? $text : $defaults['text'];
+	$caption   = $text_line2 !== '' ? $text_line2 : '';
+	$link       = $link !== '' ? esc_url( $link ) : $defaults['link'];
+	if ( ! $link ) {
+		$link = $defaults['link'];
 	}
+	$app_store_url = $app_store_url !== '' ? esc_url( $app_store_url ) : $defaults['app_store_url'];
+	if ( ! $app_store_url ) {
+		$app_store_url = $defaults['app_store_url'];
+	}
+	$app_qr_url = $app_qr_url !== '' ? esc_url( $app_qr_url ) : '';
 
-	// 非表示のときは HTML を出さない（JS の inview が display を上書きするため）
 	if ( ! $visible ) {
 		return '';
 	}
 
-	$btn_style = sprintf( 'background-color: %s;', esc_attr( $color ) );
-	$txt_style = sprintf( 'font-size: %dpx;', $font_size );
+	$svg_arrow = '<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.707 1.76709L5 2.47409L10.793 8.26709L5 14.0601L5.707 14.7671L12.207 8.26709L5.707 1.76709Z" fill="white"></path></svg>';
 
 	ob_start();
-	?>
-  <div class="floating-cta-button">
+	if ( $type === 'app_download' ) {
+		$btn_style = 'background-color: #FF008C;';
+		?>
+  <div class="floating-cta-button floating-cta-button--app">
     <div id="cta-btn-txt" class="btn-apply">
-      <a class="trial-btn" href="https://member.music.rakuten.co.jp/mypage" target="_blank" data-ratid="trial-btn-floating" data-ratevent="click" data-ratparam="all" style="<?php echo esc_attr( $btn_style ); ?>">
-        <div class="cta-btn-txt" style="<?php echo esc_attr( $txt_style ); ?>">
-		<span class="txt"><?php echo esc_html( $text ); ?></span>
-		<?php if ( $caption !== '' ) : ?><span class="txt-small"><?php echo esc_html( $caption ); ?></span><?php endif; ?></div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.707 1.76709L5 2.47409L10.793 8.26709L5 14.0601L5.707 14.7671L12.207 8.26709L5.707 1.76709Z" fill="white"></path></svg>
-      </a>
-      <a class="iap-store-link is-hidden" href="https://music.rakuten.co.jp/link/app/app_inflow.html" target="_blank" data-ratid="download-btn-floating" data-ratevent="click" data-ratparam="all" style="<?php echo esc_attr( $btn_style ); ?>">
-        <span class="txt">アプリをダウンロード</span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.707 1.76709L5 2.47409L10.793 8.26709L5 14.0601L5.707 14.7671L12.207 8.26709L5.707 1.76709Z" fill="white"></path></svg>
+      <a class="floating-cta-app-btn iap-store-link" href="<?php echo esc_url( $app_store_url ); ?>" target="_blank" rel="noopener" data-qr-url="<?php echo esc_attr( $app_qr_url ); ?>" data-store-url="<?php echo esc_attr( $app_store_url ); ?>" data-ratid="download-btn-floating" data-ratevent="click" data-ratparam="all" style="<?php echo esc_attr( $btn_style ); ?>">
+        <span class="txt" style="font-size: 16px;">アプリをダウンロード</span>
+        <?php echo $svg_arrow; ?>
       </a>
     </div>
   </div>
+		<?php
+	} else {
+		$btn_style = 'background-color: #BF0000;';
+		$txt_style = 'font-size: 16px;';
+		$txt_small_style = 'font-size: 14px;';
+		?>
+  <div class="floating-cta-button">
+    <div id="cta-btn-txt" class="btn-apply">
+      <a class="trial-btn" href="<?php echo esc_url( $link ); ?>" target="_blank" rel="noopener" data-ratid="trial-btn-floating" data-ratevent="click" data-ratparam="all" style="<?php echo esc_attr( $btn_style ); ?>">
+        <div class="cta-btn-txt" style="<?php echo esc_attr( $txt_style ); ?>">
+          <span class="txt"><?php echo esc_html( $text ); ?></span>
+          <?php if ( $caption !== '' ) : ?><span class="txt-small" style="<?php echo esc_attr( $txt_small_style ); ?>"><?php echo esc_html( $caption ); ?></span><?php endif; ?>
+        </div>
+        <?php echo $svg_arrow; ?>
+      </a>
+    </div>
+  </div>
+		<?php
+	}
+	?>
   <script type="text/javascript" src="<?php echo esc_url( $t ); ?>/assets/common/js/jquery.inview.min.js"></script>
   <script>
     (function($){$(function(){ $(".l-footer").on("inview",function(e,isInView){ $("#page .floating-cta-button").toggle(!isInView); }); }); })(window.jQuery);
@@ -1255,3 +1458,71 @@ function rakutenmusic_render_floating_cta_html( $t, $h ) {
 	<?php
 	return ob_get_clean();
 }
+
+/**
+ * アプリDL用モーダル＋クリック処理（.iap-store-link / .floating-cta-app-btn をイベント委譲で共通処理）
+ * バンドル：OVERVIEW の「アプリをダウンロード」ボタンとフローティングCTAで利用
+ */
+function rakutenmusic_render_app_dl_modal() {
+	ob_start();
+	?>
+  <div id="rakutenmusic-app-dl-modal" class="rakutenmusic-app-dl-modal" role="dialog" aria-modal="true" aria-labelledby="rakutenmusic-app-dl-modal-title" style="display:none; position:fixed; inset:0; z-index:99999; background:rgba(0,0,0,.5); align-items:center; justify-content:center;">
+    <div class="rakutenmusic-app-dl-modal__inner" style="background:#fff; border-radius:12px; box-shadow:0 4px 24px rgba(0,0,0,.2); padding:24px; max-width:320px; text-align:center;">
+      <h2 id="rakutenmusic-app-dl-modal-title" style="margin:0 0 16px; font-size:18px;">アプリをダウンロードする</h2>
+      <div class="rakutenmusic-app-dl-modal__qr" style="margin:0 0 20px;">
+        <img id="rakutenmusic-app-dl-modal-qr" src="" alt="QRコード" style="max-width:100%; height:auto; display:block; margin:0 auto;" />
+      </div>
+      <button type="button" class="rakutenmusic-app-dl-modal__close" style="display:inline-flex; align-items:center; gap:6px; padding:8px 16px; font-size:14px; cursor:pointer; border:1px solid #ccc; border-radius:6px; background:#fff;">
+        <span aria-hidden="true">×</span> 閉じる
+      </button>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var modal = document.getElementById('rakutenmusic-app-dl-modal');
+    var qrImg = document.getElementById('rakutenmusic-app-dl-modal-qr');
+    var closeBtn = modal && modal.querySelector('.rakutenmusic-app-dl-modal__close');
+    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    function openModal(qrUrl){ if(modal && qrImg && qrUrl){ qrImg.src = qrUrl; qrImg.alt = 'QRコード'; modal.style.display = 'flex'; document.body.style.overflow = 'hidden'; } }
+    function closeModal(){ if(modal){ modal.style.display = 'none'; document.body.style.overflow = ''; } }
+    if(closeBtn) closeBtn.addEventListener('click', closeModal);
+    if(modal) modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+    document.addEventListener('click', function(e){
+      var btn = e.target && e.target.closest ? e.target.closest('.iap-store-link, .floating-cta-app-btn') : null;
+      if(!btn) return;
+      var qrUrl = btn.getAttribute('data-qr-url');
+      var storeUrl = btn.getAttribute('data-store-url') || btn.getAttribute('href');
+      if(isMobile) return;
+      e.preventDefault();
+      if(qrUrl){ openModal(qrUrl); } else { if(storeUrl) window.open(storeUrl, '_blank'); }
+    }, true);
+  })();
+  </script>
+	<?php
+	return ob_get_clean();
+}
+
+/**
+ * 固定ページで OVERVIEW ブロック or フローティングCTA（アプリDL）がある場合にアプリDLモーダルをフッターに出力
+ */
+function rakutenmusic_maybe_output_app_dl_modal() {
+	if ( ! is_singular( 'page' ) ) {
+		return;
+	}
+	$post_id = get_queried_object_id();
+	if ( ! $post_id ) {
+		return;
+	}
+	$post = get_post( $post_id );
+	if ( ! $post || ! ( $post instanceof WP_Post ) ) {
+		return;
+	}
+	$has_overview = has_block( 'rakutenmusic/rakuten-music-section-top-section-overview', $post );
+	$fcta_visible = get_post_meta( $post_id, 'rakutenmusic_floating_cta_visible', true );
+	$fcta_type   = get_post_meta( $post_id, 'rakutenmusic_floating_cta_type', true );
+	$need_modal = $has_overview || ( ( $fcta_visible === 'show' || $fcta_visible === '1' ) && $fcta_type === 'app_download' );
+	if ( $need_modal ) {
+		echo rakutenmusic_render_app_dl_modal(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	}
+}
+add_action( 'wp_footer', 'rakutenmusic_maybe_output_app_dl_modal' );

@@ -26,15 +26,33 @@
 		return !!(ajaxUrl && nonce && postId);
 	}
 
+	function getType() {
+		var w = getEl('rakutenmusic_fcta_wrapper');
+		if (!w) return 'trial';
+		var r = w.querySelector('input[name="rakutenmusic_floating_cta_type"]:checked');
+		return r ? r.value : 'trial';
+	}
+
 	function getFormValues() {
 		var visibleEl = getEl('rakutenmusic_fcta_visible');
 		var textEl = getEl('rakutenmusic_fcta_text');
+		var text2El = getEl('rakutenmusic_fcta_text_line2');
+		var fontSizeEl = getEl('rakutenmusic_fcta_font_size');
 		var colorEl = getEl('rakutenmusic_fcta_color');
-		if (!visibleEl || !textEl || !colorEl) return null;
+		var linkEl = getEl('rakutenmusic_fcta_link');
+		var appQrEl = getEl('rakutenmusic_fcta_app_qr_url');
+		var appStoreEl = getEl('rakutenmusic_fcta_app_store_url');
+		if (!visibleEl) return null;
 		return {
 			visible: visibleEl.checked ? 'show' : 'hidden',
-			text: textEl.value || '',
-			color: colorEl.value || ''
+			type: getType(),
+			text: textEl ? textEl.value || '' : '',
+			text_line2: text2El ? text2El.value || '' : '',
+			font_size: fontSizeEl ? (fontSizeEl.value || '16') : '16',
+			color: colorEl ? colorEl.value || '' : '',
+			link: linkEl ? linkEl.value || '' : '',
+			app_qr_url: appQrEl ? appQrEl.value || '' : '',
+			app_store_url: appStoreEl ? appStoreEl.value || '' : ''
 		};
 	}
 
@@ -48,8 +66,14 @@
 		form.append('nonce', nonce);
 		form.append('post_id', String(postId));
 		form.append('visible', values.visible);
+		form.append('type', values.type);
 		form.append('text', values.text);
+		form.append('text_line2', values.text_line2);
+		form.append('font_size', values.font_size);
 		form.append('color', values.color);
+		form.append('link', values.link);
+		form.append('app_qr_url', values.app_qr_url);
+		form.append('app_store_url', values.app_store_url);
 		fetch(ajaxUrl, {
 			method: 'POST',
 			body: form,
@@ -74,29 +98,62 @@
 
 	function run() {
 		var visibleEl = getEl('rakutenmusic_fcta_visible');
+		var wrapper = getEl('rakutenmusic_fcta_wrapper');
 		var textEl = getEl('rakutenmusic_fcta_text');
-		var colorEl = getEl('rakutenmusic_fcta_color');
-		if (!visibleEl || !textEl || !colorEl) return false;
+		var text2El = getEl('rakutenmusic_fcta_text_line2');
+		var linkEl = getEl('rakutenmusic_fcta_link');
+		var appQrEl = getEl('rakutenmusic_fcta_app_qr_url');
+		var appStoreEl = getEl('rakutenmusic_fcta_app_store_url');
+		if (!visibleEl || !wrapper) return false;
 
 		readConfigFromDom();
 
 		visibleEl.addEventListener('change', function () {
 			saveViaAjax();
 		});
-		textEl.addEventListener('input', scheduleSave);
-		textEl.addEventListener('change', scheduleSave);
-		textEl.addEventListener('blur', function () {
-			if (saveTimer) clearTimeout(saveTimer);
-			saveTimer = null;
-			saveViaAjax();
+		[].forEach.call(wrapper.querySelectorAll('input[name="rakutenmusic_floating_cta_type"]') || [], function (r) {
+			r.addEventListener('change', saveViaAjax);
 		});
-		colorEl.addEventListener('input', scheduleSave);
-		colorEl.addEventListener('change', scheduleSave);
-		colorEl.addEventListener('blur', function () {
-			if (saveTimer) clearTimeout(saveTimer);
-			saveTimer = null;
-			saveViaAjax();
-		});
+		if (textEl) {
+			textEl.addEventListener('input', scheduleSave);
+			textEl.addEventListener('blur', function () {
+				if (saveTimer) clearTimeout(saveTimer);
+				saveTimer = null;
+				saveViaAjax();
+			});
+		}
+		if (text2El) {
+			text2El.addEventListener('input', scheduleSave);
+			text2El.addEventListener('blur', function () {
+				if (saveTimer) clearTimeout(saveTimer);
+				saveTimer = null;
+				saveViaAjax();
+			});
+		}
+		if (linkEl) {
+			linkEl.addEventListener('input', scheduleSave);
+			linkEl.addEventListener('blur', function () {
+				if (saveTimer) clearTimeout(saveTimer);
+				saveTimer = null;
+				saveViaAjax();
+			});
+		}
+		if (appQrEl) {
+			appQrEl.addEventListener('input', scheduleSave);
+			appQrEl.addEventListener('blur', function () {
+				if (saveTimer) clearTimeout(saveTimer);
+				saveTimer = null;
+				saveViaAjax();
+			});
+		}
+		if (appStoreEl) {
+			appStoreEl.addEventListener('input', scheduleSave);
+			appStoreEl.addEventListener('blur', function () {
+				if (saveTimer) clearTimeout(saveTimer);
+				saveTimer = null;
+				saveViaAjax();
+			});
+		}
 
 		document.addEventListener('mousedown', function (e) {
 			var node = e.target;
