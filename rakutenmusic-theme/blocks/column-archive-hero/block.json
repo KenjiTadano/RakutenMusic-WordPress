@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/column-archive-hero",
+  "title": "読む音楽ガイド：メイン看板",
+  "category": "rakutenmusic",
+  "icon": "cover-image",
+  "description": "読む音楽ガイドアーカイブページのヒーロー（メイン看板）部分",
+  "keywords": ["楽天", "ミュージック", "コラム", "アーカイブ", "ヒーロー"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "attributes": {
+    "title": { "type": "string", "default": "読む音楽ガイド" },
+    "subtitle": { "type": "string", "default": "新しい発見がここに" },
+    "description": { "type": "string", "default": "楽天ミュージックが贈る、聴いても読んでも楽しめる音楽記事をお届け" },
+    "topImageUrl": { "type": "string", "default": "" },
+    "bottomImageUrl": { "type": "string", "default": "" }
+  },
+  "editorScript": "file:./editor.js",
+  "render": "file:./render.php"
+}

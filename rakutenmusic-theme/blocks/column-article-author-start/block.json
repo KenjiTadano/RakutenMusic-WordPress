@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/column-article-author-start",
+  "title": "記事：サイン情報",
+  "category": "rakutenmusic",
+  "icon": "admin-users",
+  "description": "公開日・X・Facebookシェアボタン。表示/非表示の切り替え可。",
+  "keywords": ["楽天", "ミュージック", "コラム", "記事", "サイン", "SNS"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "attributes": {
+    "date": { "type": "string", "default": "" },
+    "twitterHref": { "type": "string", "default": "" },
+    "facebookHref": { "type": "string", "default": "" },
+    "hideTwitter": { "type": "boolean", "default": false },
+    "hideFacebook": { "type": "boolean", "default": false },
+    "spacingTop": { "type": "string", "default": "" },
+    "spacingBottom": { "type": "string", "default": "" }
+  },
+  "editorScript": "file:./editor.js",
+  "render": "file:./render.php"
+}

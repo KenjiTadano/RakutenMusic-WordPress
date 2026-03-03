@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/column-article-spacer",
+  "title": "記事：余白",
+  "category": "rakutenmusic",
+  "icon": "image-filter",
+  "description": "透明画像で縦方向の余白を挿入します。",
+  "keywords": ["楽天", "ミュージック", "コラム", "記事", "余白", "スペーサー"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "attributes": {
+    "height": { "type": "string", "default": "16" }
+  },
+  "editorScript": "file:./editor.js",
+  "render": "file:./render.php"
+}

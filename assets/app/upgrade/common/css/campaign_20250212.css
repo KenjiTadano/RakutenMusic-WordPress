@@ -1,0 +1,242 @@
+#page .js-toggle.is-open .js-toggle__panel {
+  max-height: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#page p.cpn-text {
+  color: #fff;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+
+#page p.cpn-text span.limited {
+  color: #F2E205;
+}
+
+#page .cpn-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 24px;
+  background: #212331;
+  padding: 12px;
+}
+
+#page .cpn-group .limited_announcement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+  background-color: #f2e205;
+}
+
+#page .cpn-group .limited_announcement p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#page .cpn-group .cpn-group-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 24px;
+}
+
+#page .cpn-group .cpn-group-text p {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#page .cpn-group .limited_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+  padding: 16px;
+  background-color: #4d4f5a;
+}
+
+#page .cpn-group .limited_text p {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#page .cpn-group .limited_text img {
+  height: auto;
+  width: 300px;
+}
+
+#page #subscribe.bg-dark {
+  padding: 32px 0;
+}
+
+#page #subscribe ul.apply-steps li {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#page #subscribe ul.apply-steps li .txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+#page #subscribe ul.apply-steps li .txt p.second {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page .enable-upgrade-titile {
+  border-radius: 60px;
+  border: 1px solid #fff;
+  color: white;
+  display: flex;
+  padding: 5px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#page .enable-upgrade-list li {
+  color: #f53a3a;
+  font-weight: 700;
+}
+
+#page .apply-steps .caption {
+  font-size: 14px !important;
+}
+
+#page .step-imageArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+/* 最下部のボタングループ */
+#page .upgrade-btn-section {
+  display: flex;
+  width: 100%;
+  padding: 34px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#page .upgrade-btn-container {
+  position: relative;
+  display: flex;
+  padding: 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 17px;
+  border: 1px solid #fff;
+  min-height: 100px;
+}
+
+#page .upgrade-btn-gruop {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+#page .upgrade-button-titile {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: -8px;
+  background: #020717;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  white-space: nowrap;
+  padding: 0 12px;
+}
+
+#page .upgrade-btn-gruop .btn {
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--transparency-light-200, rgba(255, 255, 255, 0.2));
+  color: #fff;
+  /* JP Body Medium 14px/Bold */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#myDialog {
+  border-width: 0;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* 黒色の半透明の背景 */
+  /* 他のスタイルも追加可能 (例: opacity, filter, etc.) */
+}
+
+#myDialog .flex-24 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  padding: 24px;
+
+  align-items: stretch;
+}
+
+#myDialog .flex-24 p.lead {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#closeDialog {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border: none;
+  border-radius: 4px;
+  background: #d80000;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+/*# sourceMappingURL=campaign.css.map */

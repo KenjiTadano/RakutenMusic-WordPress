@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/column-article-body",
+  "title": "記事：本文",
+  "category": "rakutenmusic",
+  "icon": "editor-alignleft",
+  "description": "記事の冒頭テキスト（色・サイズ・太字など編集可）",
+  "keywords": ["楽天", "ミュージック", "コラム", "記事", "本文"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "attributes": {
+    "content": { "type": "string", "default": "" },
+    "spacingTop": { "type": "string", "default": "" },
+    "spacingBottom": { "type": "string", "default": "" }
+  },
+  "editorScript": "file:./editor.js",
+  "render": "file:./render.php"
+}

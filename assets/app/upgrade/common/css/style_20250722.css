@@ -1,0 +1,832 @@
+@charset "UTF-8";
+
+html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#page .l-container.is-fixed {
+  padding-top: 0;
+}
+
+#page .bg-dark,
+#page .bg-light {
+  padding: 32px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+#page .bg-dark {
+  background: #020717;
+}
+
+#page .bg-dark .bg-dark-txt {
+  color: rgba(255, 255, 255, 0.05);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: absolute;
+  top: -16px;
+  left: 0;
+}
+
+#page .bg-dark h2 {
+  color: #fff;
+}
+
+#page .bg-light .bg-light-txt {
+  color: rgba(0, 0, 0, 0.03);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: absolute;
+  top: -16px;
+  left: 0;
+}
+
+#page .bg-light h2 {
+  color: #000;
+}
+
+#page .flex-16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#page .flex-16 h2 {
+  text-align: center;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+
+#page .flex-16 p.lead {
+  color: #000;
+  text-align: center;
+  /* JP Body Medium 14px/Regular */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page .flex-24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#page .trial-group {
+  display: flex;
+  width: 327px;
+  padding: 24px 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 32px;
+  background: #212331;
+}
+
+#page .trial-group .trial-txt-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#page .trial-group .trial-txt-group p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#page .trial-group .trial-txt-group p strong {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#page .trial-group .btn-apply .trial-btn--inapp {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 72px;
+  background: #f53a3a;
+  color: #020717;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+#page #kv {
+  background: url(/assets/app/upgrade/common/img/colour.png) no-repeat center top/cover;
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#page #kv h1 {
+  color: var(--core-content-interactive-white, #fff);
+  /* JP Header Large 28px/Bold */
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  /* 142.857% */
+}
+
+#page #kv p small {
+  color: var(--core-content-interactive-white, #fff);
+  /* JP Body Small 12px/Regular */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+#page #upgrade {
+  /* アコーディオン表示制御フラグがOFFのときのアコーディオン表示エリア */
+  /* アコーディオン表示制御フラグがONのときのアコーディオン表示エリア */
+  /* アコーディオン表示切替スイッチ */
+}
+
+#page #upgrade .flex-16 {
+  padding: 0 24px;
+  align-items: stretch;
+}
+
+#page #upgrade .features-list {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+
+#page #upgrade .features-list .item {
+  display: flex;
+  padding-top: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #212331;
+  overflow: hidden;
+}
+
+#page #upgrade .features-list .item > p {
+  color: var(--core-content-interactive-white, #fff);
+  text-align: center;
+  /* JP Body Large 16px/Bold */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+
+#page #upgrade .features-list .item > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+
+#page #upgrade .features-list .item > div > div {
+  display: flex;
+}
+
+#page #upgrade .features-list .item > div > div p {
+  color: var(--core-background-system, #fff);
+  text-align: center;
+  /* JP Body Medium 14px/Regular */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #upgrade .features-list .item > div > div i {
+  height: 20px;
+}
+
+#page #upgrade .features-list .item > div > div:nth-child(2) {
+  margin: 0 -0.5px;
+  background: #373946;
+}
+
+#page #upgrade .features-list .item > div > div:first-child {
+  padding: 8px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  background: var(--transparency-light-100, rgba(255, 255, 255, 0.1));
+}
+
+#page #upgrade .features-list .item > div > div:last-child {
+  padding: 8px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  background: var(--color-brand-500, #f53a3a);
+}
+
+#page #upgrade .accordion-area {
+  height: 0px;
+  margin: 0px;
+  opacity: 0;
+  overflow: hidden;
+  transition: padding 0.5s linear, opacity 0.5s linear 0s;
+}
+
+#page #upgrade .accordion-flag {
+  display: none;
+}
+
+#page #upgrade .accordion-flag:checked + .accordion-area {
+  height: auto;
+  opacity: 1;
+  padding: 0;
+}
+
+#page #upgrade .accordion-flag:checked + .accordion-area + .accordion-switch {
+  margin-top: 0;
+}
+
+#page #upgrade .accordion-flag:checked + .accordion-area + .accordion-switch i {
+  transform: rotate(180deg);
+}
+
+#page #upgrade .accordion-switch {
+  margin-top: -16px;
+  display: flex;
+  padding: var(--global-md, 16px) 24px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  gap: 10px;
+  border-radius: 72px;
+  border: 1px solid var(--color-brand-500, #f53a3a);
+  color: var(--color-brand-500, #f53a3a);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 19.6px */
+}
+
+#page #upgrade .accordion-switch i {
+  display: flex;
+  transition: all 0.5s ease-in;
+}
+
+#page #price.bg-light {
+  padding: 32px 0 0;
+}
+
+#page #price p.lead {
+  padding: 0 24px;
+}
+
+#page #price .plan-monthly-group,
+#page #price .plan-yearly-group {
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 32px;
+  align-self: stretch;
+  background: #f7f7f7;
+}
+
+#page #price .plan-monthly-group .ttl-group,
+#page #price .plan-yearly-group .ttl-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  flex-direction: row;
+}
+
+#page #price .plan-monthly-group .ttl-group h2,
+#page #price .plan-yearly-group .ttl-group h2 {
+  color: #000;
+  text-align: center;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+
+#page #price .plan-monthly-group .ttl-group .caption,
+#page #price .plan-yearly-group .ttl-group .caption {
+  color: #686868;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+#page #price .plan-monthly-group .plan-recommended .plan-item.cardmobile,
+#page #price .plan-yearly-group .plan-recommended .plan-item.cardmobile {
+  border-left: 0;
+  border-top: 8px solid;
+  border-color: #ef0aa1;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 0 16px;
+}
+
+#page #price .plan-monthly-group .plan-recommended .plan-item.cardmobile .plan-item-lead p,
+#page #price .plan-yearly-group .plan-recommended .plan-item.cardmobile .plan-item-lead p {
+  color: #ef0aa1;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+#page #price .plan-monthly-group .plan-recommended .plan-item.cardmobile .plan-item-lead p strong,
+#page #price .plan-yearly-group .plan-recommended .plan-item.cardmobile .plan-item-lead p strong {
+  font-size: 16px;
+}
+
+#page #price .plan-monthly-group .plan-recommended .plan-item.cardmobile .plan-item-group,
+#page #price .plan-yearly-group .plan-recommended .plan-item.cardmobile .plan-item-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+#page #price .plan-monthly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-txt-group,
+#page #price .plan-monthly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-price,
+#page #price .plan-yearly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-txt-group,
+#page #price .plan-yearly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-price {
+  padding: 0;
+}
+
+#page #price .plan-monthly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-txt-group .plan-name,
+#page #price .plan-yearly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-txt-group .plan-name {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+#page #price .plan-monthly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-price,
+#page #price .plan-yearly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-price {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#page #price .plan-monthly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-price span.cancel-txt,
+#page #price .plan-yearly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-price span.cancel-txt {
+  color: #686868;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 19.6px */
+  text-decoration-line: line-through;
+}
+
+#page #price .plan-monthly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-price span.yen,
+#page #price .plan-yearly-group .plan-recommended .plan-item.cardmobile .plan-item-group .plan-item-price span.yen {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#page #price .plan-monthly-group .plan-group-outer,
+#page #price .plan-yearly-group .plan-group-outer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#page #price .plan-monthly-group .plan-yearly-ttl-group,
+#page #price .plan-yearly-group .plan-yearly-ttl-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+#page #price .plan-monthly-group .plan-yearly-ttl-group p,
+#page #price .plan-yearly-group .plan-yearly-ttl-group p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+#page #price .plan-monthly-group .plan-yearly-ttl-group p span.difference,
+#page #price .plan-yearly-group .plan-yearly-ttl-group p span.difference {
+  font-size: 20px;
+}
+
+#page #price .plan-monthly-group .plan-group,
+#page #price .plan-yearly-group .plan-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+
+#page #price .plan-monthly-group .plan-group h3,
+#page #price .plan-yearly-group .plan-group h3 {
+  color: #686868;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+#page #price .plan-monthly-group .plan-group .plan-item-group,
+#page #price .plan-yearly-group .plan-group .plan-item-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+}
+
+#page #price .plan-monthly-group .plan-item,
+#page #price .plan-yearly-group .plan-item {
+  display: flex;
+  align-items: center;
+  border-left: 8px solid;
+  border-radius: 8px;
+  background: #fff;
+}
+
+#page #price .plan-monthly-group .plan-item .plan-item-txt-group,
+#page #price .plan-yearly-group .plan-item .plan-item-txt-group {
+  display: flex;
+  padding: 8px 0 8px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+#page #price .plan-monthly-group .plan-item .plan-item-txt-group .plan-name,
+#page #price .plan-yearly-group .plan-item .plan-item-txt-group .plan-name {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+#page #price .plan-monthly-group .plan-item .plan-item-txt-group .caption,
+#page #price .plan-yearly-group .plan-item .plan-item-txt-group .caption {
+  color: #686868;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#page #price .plan-monthly-group .plan-item .plan-item-yearly-price-group,
+#page #price .plan-yearly-group .plan-item .plan-item-yearly-price-group {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#page #price .plan-monthly-group .plan-item .plan-item-price,
+#page #price .plan-yearly-group .plan-item .plan-item-price {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 16px;
+  display: flex;
+  align-items: baseline;
+}
+
+#page #price .plan-monthly-group .plan-item .plan-item-price .yearly-to-monthly,
+#page #price .plan-yearly-group .plan-item .plan-item-price .yearly-to-monthly {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#page #price .plan-monthly-group .plan-item .plan-item-price span.yen,
+#page #price .plan-yearly-group .plan-item .plan-item-price span.yen {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#page #price .plan-monthly-group .plan-item.standard,
+#page #price .plan-yearly-group .plan-item.standard {
+  border-color: #d80000;
+}
+
+#page #price .plan-monthly-group .plan-item.standard .plan-name,
+#page #price .plan-yearly-group .plan-item.standard .plan-name {
+  color: #8c0000;
+}
+
+#page #price .plan-monthly-group .plan-item.cardmobile,
+#page #price .plan-yearly-group .plan-item.cardmobile {
+  border-color: #ef0aa1;
+}
+
+#page #price .plan-monthly-group .plan-item.cardmobile .plan-name,
+#page #price .plan-yearly-group .plan-item.cardmobile .plan-name {
+  color: #830056;
+}
+
+#page #price .plan-monthly-group .plan-item.student,
+#page #price .plan-yearly-group .plan-item.student {
+  border-color: #f59600;
+}
+
+#page #price .plan-monthly-group .plan-item.student .plan-name,
+#page #price .plan-yearly-group .plan-item.student .plan-name {
+  color: #7b4b00;
+}
+
+#page #price .plan-monthly-group .plan-item.lite,
+#page #price .plan-yearly-group .plan-item.lite {
+  border-color: #00b900;
+}
+
+#page #price .plan-monthly-group .plan-item.lite .plan-name,
+#page #price .plan-yearly-group .plan-item.lite .plan-name {
+  color: #005300;
+}
+
+#page #price .plan-monthly-group .plan-item.yearly,
+#page #price .plan-yearly-group .plan-item.yearly {
+  border-color: #9b00ec;
+}
+
+#page #price .plan-monthly-group .plan-item.yearly .plan-name,
+#page #price .plan-yearly-group .plan-item.yearly .plan-name {
+  color: #4b0071;
+}
+
+#page #price .price-caption {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  background: #f7f7f7;
+}
+
+#page #price .price-caption p {
+  text-align: justify;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+#page #price .price-caption p.red {
+  color: #d80000;
+}
+
+#page #price .price-caption p.bold {
+  font-weight: 700;
+}
+
+#page #price .price-caption p a {
+  color: #d80000;
+  text-decoration-line: underline;
+}
+
+#page #price .caption {
+  text-align: center;
+  color: #686868;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  /* 120% */
+}
+
+#page #subscribe .cpn-group img.cpn-img {
+  width: auto;
+}
+
+#page #subscribe.bg-dark {
+  padding: 32px 0 68px;
+}
+
+#page #subscribe .flex-16 {
+  padding: 0 24px;
+}
+
+#page #subscribe ul.apply-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--global-md, 16px);
+  align-self: stretch;
+}
+
+#page #subscribe ul.apply-steps li {
+  display: flex;
+  padding: var(--global-md, 16px);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: var(--global-md, 16px);
+  align-self: stretch;
+  border-radius: var(--global-md, 16px);
+  background: #212331;
+}
+
+#page #subscribe ul.apply-steps li .number {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 110%;
+  /* 35.2px */
+}
+
+#page #subscribe ul.apply-steps li .txt p {
+  color: #fff;
+  /* JP Body Large 16px/Bold */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+#page #subscribe ul.apply-steps li .txt p strong {
+  color: #f53a3a;
+}
+
+#page #subscribe ul.apply-steps li .btn {
+  display: flex;
+  padding: 4px 8px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--transparency-light-200, rgba(255, 255, 255, 0.2));
+  color: #fff;
+  /* JP Body Medium 14px/Bold */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #copied {
+  display: none;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 24px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
+}
+
+#page #copied.show {
+  opacity: 1;
+}
+
+#page #copied > div.flex-24 {
+  border-radius: 4px;
+  background: white;
+  padding: 24px;
+  box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  align-items: stretch;
+}
+
+#page #copied > div.flex-24 p {
+  color: #656565;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  text-align: center;
+}
+
+#page #copied > div.flex-24 p.lead {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+#page #copied > div.flex-24 button#close-modal {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border: none;
+  border-radius: 4px;
+  background: #d80000;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+#page a.anchor {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f2e205;
+  text-decoration: underline;
+  text-decoration-color: #f2e205;
+}
+
+#page .feature-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+#page .featureImage {
+  width: 100%;
+  height: auto;
+  max-width: 420px;
+}
+.noticeArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: #ffffff;
+}
+.noticeTitle {
+  font-size: 24px;
+  color: #bf0000;
+  line-height: normal;
+  margin: 0;
+}
+.noticeDesc {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */

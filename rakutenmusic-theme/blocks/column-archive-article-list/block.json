@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/column-archive-article-list",
+  "title": "読む音楽ガイド：記事一覧",
+  "category": "rakutenmusic",
+  "icon": "list-view",
+  "description": "読む音楽ガイドアーカイブの過去記事サムネイルリスト。サイドバーで追加・編集・削除・並べ替えができます。",
+  "keywords": ["楽天", "ミュージック", "コラム", "アーカイブ", "記事一覧"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "attributes": {
+    "items": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./editor.js",
+  "render": "file:./render.php"
+}

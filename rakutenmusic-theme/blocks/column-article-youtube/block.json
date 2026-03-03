@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/column-article-youtube",
+  "title": "記事：YouTube",
+  "category": "rakutenmusic",
+  "icon": "video-alt3",
+  "description": "YouTubeエリア（iframeまたは画像リンク）・楽曲名・説明文",
+  "keywords": ["楽天", "ミュージック", "コラム", "記事", "YouTube"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true },
+  "attributes": {
+    "videoType": { "type": "string", "default": "iframe" },
+    "iframeSrc": { "type": "string", "default": "" },
+    "imageUrl": { "type": "string", "default": "" },
+    "linkUrl": { "type": "string", "default": "" },
+    "songName": { "type": "string", "default": "" },
+    "artistName": { "type": "string", "default": "" },
+    "description": { "type": "string", "default": "" }
+  },
+  "editorScript": "file:./editor.js",
+  "render": "file:./render.php"
+}
