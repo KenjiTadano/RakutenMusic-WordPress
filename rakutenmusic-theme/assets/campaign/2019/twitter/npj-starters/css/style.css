@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:800i");
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+1p:900");
+#page .heading--m {
+  background: #333;
+  color: white;
+  padding: 2rem;
+  margin: 0 0 5rem;
+}
+
+#page .s-campaign-hero {
+  padding: 0;
+  background: url("https://music.r10s.jp/external/prod/assets/campaign/2019/twitter/npj-starters/img/bg.gif") repeat-x center top/auto 85.62%;
+  position: relative;
+}
+
+#page .s-campaign-hero:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: #e6e6e6;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+#page .s-campaign-hero .campaign-hero__schedule {
+  color: #333;
+}
+
+#page #application ol {
+  display: flex;
+  justify-content: center;
+}
+
+#page #application ol li {
+  background: white;
+  width: calc(100% / 3);
+  padding: 0 1rem;
+  position: relative;
+}
+
+#page #application ol li:nth-child(1)::before {
+  content: "STEP 1";
+}
+
+#page #application ol li:nth-child(2)::before {
+  content: "STEP 2";
+}
+
+#page #application ol li:nth-child(3)::before {
+  content: "STEP 3";
+}
+
+#page #application ol li::before {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  position: absolute;
+  top: -1.5rem;
+  left: 3rem;
+  display: block;
+  background: #333;
+  color: white;
+  padding: 0 1rem;
+}
+
+#page #application ol li:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3rem 0 3rem 3rem;
+  border-color: transparent transparent transparent black;
+  position: absolute;
+  top: 50%;
+  margin-top: -3rem;
+  right: -2rem;
+  z-index: 1;
+}
+
+#page #application ol li > div {
+  border: 0.25rem solid black;
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  display: table;
+}
+
+#page #application ol li > div p {
+  color: #333;
+  text-align: center;
+}
+
+#page #application ol li > div p.finishtxt {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 4rem;
+}
+
+#page #application ol li .snsBtn {
+  margin-top: 10px;
+}
+
+#page #application ol li .snsBtn a {
+  background: #1da1f2;
+  color: white;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  border-radius: 3rem;
+  box-shadow: 0 0.5rem 0 0 #1780c2;
+  transition: all 0.1s ease-in;
+}
+
+#page #application ol li .snsBtn a img {
+  display: inline-block;
+  height: 1.4rem;
+  vertical-align: baseline;
+  margin-right: 0.5rem;
+}
+
+#page #application ol li .snsBtn a:hover {
+  box-shadow: 0 0.2rem 0 0 #1780c2;
+  transform: translateY(0.3rem);
+}
+
+#page #application .notes {
+  text-align: center;
+  padding: 2rem 0;
+  margin: 1rem 0 4rem;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+#page #application .cpnLink {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#page #application .cpnLink a {
+  color: #545454;
+  border-bottom: 1px solid;
+}
+
+#page #application .cpnLink a:hover {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+#page .starters li {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+#page .starters li figure {
+  margin: 0 2rem;
+  display: inline-table;
+}
+
+#page .starters li > div > p {
+  line-height: 1.75em;
+}
+
+#page .starters li > div > p:first-of-type {
+  font-size: 4rem;
+  font-family: "Montserrat", "M PLUS 1p", sans-serif;
+}
+
+#page .starters li:nth-child(odd) figure {
+  box-shadow: -1rem -1rem 0 0 #333;
+}
+
+#page .starters li:nth-child(even) figure {
+  order: 2;
+  box-shadow: 1rem 1rem 0 0 #e60013;
+}
+
+#page .starters li:nth-child(even) > div {
+  order: 1;
+}
+
+#page .starters li:nth-child(even) > div > p:first-of-type {
+  color: #e60013;
+}
+
+#page .text-box {
+  margin: 1rem 0 4rem;
+}
+
+#page section .heading {
+  padding: 2rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  #page #application ol {
+    display: block;
+  }
+  #page #application ol li {
+    width: 100%;
+    padding: 0;
+  }
+  #page #application ol li::before {
+    left: 1.5rem;
+  }
+  #page #application ol li:not(:last-child) {
+    margin: 0 0 3rem;
+  }
+  #page #application ol li:not(:last-child)::after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 3rem 3rem 0 3rem;
+    border-color: #333 transparent transparent transparent;
+    top: initial;
+    right: initial;
+    bottom: -2.75rem;
+    left: 50%;
+    margin-left: -3rem;
+    margin-top: initial;
+  }
+  #page #application ol li .snsBtn a img {
+    width: initial;
+  }
+  #page #application .notes {
+    text-align: justify;
+  }
+  #page .starters li {
+    display: block;
+  }
+  #page .starters li figure {
+    margin: 0 2rem 1rem;
+  }
+  #page .starters li > div > p:first-of-type {
+    font-size: 2.75rem;
+  }
+}

@@ -1,0 +1,92 @@
+#page .display-none {
+  display: none !important;
+}
+#page #sticky-apply-btn {
+  width: 100%;
+  padding: 12px 16px 24px;
+  position: fixed;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  justify-content: stretch;
+  gap: 8px;
+  z-index: 99;
+}
+#page #sticky-apply-btn .btn-copy-code {
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 48px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: black;
+  width: 116px;
+  height: 36px;
+  background: white;
+}
+#page #sticky-apply-btn .btn-apply {
+  flex: 1;
+}
+#page #sticky-apply-btn .trial-btn {
+  height: 36px;
+  flex: 1;
+  background: #bf0000;
+  border-radius: 48px;
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+  align-items: center;
+  gap: 12px;
+}
+#page #sticky-apply-btn .trial-btn span.txt {
+  color: #ffffff;
+}
+#page #sticky-apply-btn .btn-copy-code + .trial-btn a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  #page #sticky-apply-btn {
+    justify-content: center;
+    padding: 16px 0;
+  }
+  #page #sticky-apply-btn .btn-copy-code {
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    padding: 16px 24px;
+    transition: all 0.2s ease-in;
+  }
+  #page #sticky-apply-btn .btn-copy-code:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+  }
+  #page #sticky-apply-btn .trial-btn {
+    margin: 0 auto;
+    flex: none;
+    width: 400px;
+    height: 58px;
+    transition: all 0.2s ease-in;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #page #sticky-apply-btn .trial-btn:hover {
+    background: #ff1212;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  #page #sticky-apply-btn .trial-btn a {
+    font-size: 20px;
+    height: 100%;
+    line-height: 58px;
+  }
+  #page #sticky-apply-btn .btn-copy-code + .trial-btn a {
+    font-size: 20px;
+    line-height: 58px;
+  }
+}/*# sourceMappingURL=style-sticky-apply-btn.css.map */

@@ -1,0 +1,247 @@
+.chain-offer-ddt_cta_btn_disabled,
+.chain-offer-ddt_conversion_btn_disabled {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  background: #ebebeb;
+  border: 1px solid #686868;
+  border-radius: 8px;
+}
+
+#page h1.disp1 {
+  background: black;
+  margin: 0 auto;
+}
+
+#page ul.campaign-code-steps li.slick-slide figure + p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page .slick-dots {
+  top: 0;
+  margin-top: 12px;
+}
+
+#page #chain-offer-ddt .chain-offer-ddt_footer .chain-offer-ddt_cta_btn a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page #chain-offer-ddt + div p {
+  text-align: center;
+  margin: 16px auto 0;
+}
+
+#page section#chainoffer-campaign-steps {
+  background: #65C03A;
+  margin: 24px auto 0;
+  padding: 0;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  padding: 24px 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner {
+  padding: 24px 16px;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner h2,
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner h2 span.txt-color--green,
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner h3 span.txt-color--green {
+  color: #65C03A;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner .btn-apply {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner .btn-apply .l-inner > * {
+  width: 100%;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner .btn-apply .l-inner .trial-btn + p {
+  margin: 12px auto 0;
+  line-height: 1.5;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner .lite-cnp--cnpcode {
+  border: 3px dashed #65C03A;
+  border-radius: 8px;
+  padding: 16px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 4px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner .lite-cnp--cnpcode .code {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 60px;
+  color: #65C03A;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner .lite-cnp--cnpcode .btn-copy-code {
+  padding: 4px 12px;
+  background: #65C03A;
+  border-radius: 36px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner > p {
+  text-align: center;
+}
+
+#page section#chainoffer-campaign-steps > .l-inner > p a {
+  color: white;
+}
+
+#page #lite-otoku h1.disp1 {
+  margin: 24px auto;
+}
+
+#page .s-campaign-list {
+  margin-top: 0;
+  padding: 24px 0 0;
+}
+
+#page .s-campaign-list .l-inner > h2 {
+  display: none;
+}
+
+#page .s-campaign-detail table p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page .s-campaign-detail table td {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+}
+
+@media screen and (min-width: 767px) {
+  #page #chain-offer-ddt .chain-offer-ddt_footer .chain-offer-ddt_cta_btn a {
+    font-size: 20px;
+    line-height: 1.25;
+  }
+  #page section#chainoffer-campaign-steps > .l-inner {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 36px;
+    padding: 48px 0 12px;
+  }
+  #page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner {
+    padding: 36px;
+    width: 848px;
+  }
+  #page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner .lite-cnp--cnpcode .btn-copy-code {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner .lite-cnp--cnpcode .btn-copy-code:hover {
+    background: #76DB46;
+    cursor: pointer;
+  }
+  #page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner h2 {
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner .btn-apply .l-inner {
+    width: 100%;
+  }
+  #page section#chainoffer-campaign-steps > .l-inner .chainoffer-campaign-steps--inner .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+  #page section#chainoffer-campaign-steps > .l-inner > p a:hover {
+    text-decoration: underline;
+  }
+  #page #lite-feature h1.disp1 {
+    margin-bottom: 36px;
+  }
+  #page #lite-otoku h1.disp1 {
+    margin: 36px auto;
+  }
+  #page .s-campaign-list {
+    padding: 48px 0 0;
+  }
+  #page .l-campaign-03 h1.disp1 {
+    margin-top: 48px;
+  }
+  #page .s-campaign-detail table p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page .s-campaign-detail table td {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 16px;
+  }
+}
+/*# sourceMappingURL=style_20220726.css.map */

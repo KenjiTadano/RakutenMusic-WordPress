@@ -1,0 +1,276 @@
+#page .s-campaign-hero {
+  padding: 0;
+  background: url(https://music.r10s.jp/external/prod/assets/news/festival/2019/img/bg.jpg) repeat-x center top/cover;
+}
+
+#page #tab {
+  margin: 0 auto;
+  background: black;
+  padding: 2rem 0;
+}
+
+#page #tab .l-inner h3 {
+  color: white;
+  border-bottom: 1px solid white;
+  padding: 0 0 1rem;
+  margin: 0 0 1rem;
+}
+
+#page #tab .l-inner ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#page #tab .l-inner ul li {
+  width: calc(94% / 3);
+  margin: 1rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+  opacity: 0.8;
+}
+
+#page #tab .l-inner ul li:hover, #page #tab .l-inner ul li.on {
+  opacity: 1;
+}
+
+#page #tab .l-inner ul li a img {
+  width: 100%;
+}
+
+#page > #tab {
+  display: none;
+  position: fixed;
+  width: 100%;
+}
+
+#page #bnr-600x100 {
+  padding: 0;
+  margin: 6rem 0;
+}
+
+#page #bnr-600x100 .content-box__image {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#page #playlist .l-inner {
+  box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3rem;
+  padding: 6rem;
+  margin: 6rem auto;
+}
+
+#page #playlist .l-inner > div.title {
+  display: flex;
+}
+
+#page #playlist .l-inner > div.title figure {
+  width: 180px;
+  height: 180px;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#page #playlist .l-inner > div.title figure > div {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+#page #playlist .l-inner > div.title figure > div:nth-child(1) {
+  border-top-left-radius: 20px;
+}
+
+#page #playlist .l-inner > div.title figure > div:nth-child(2) {
+  border-top-right-radius: 20px;
+}
+
+#page #playlist .l-inner > div.title figure > div:nth-child(3) {
+  border-bottom-left-radius: 20px;
+}
+
+#page #playlist .l-inner > div.title figure > div:nth-child(4) {
+  border-bottom-right-radius: 20px;
+}
+
+#page #playlist .l-inner > div.title figure > div img {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  margin: auto;
+}
+
+#page #playlist .l-inner > div.title figure:before {
+  content: "";
+  display: block;
+  width: 144px;
+  height: 144px;
+  background: black;
+  border-radius: 144px;
+  position: absolute;
+  top: 18px;
+  left: 100px;
+  z-index: -1;
+}
+
+#page #playlist .l-inner > div.title figure:after {
+  content: "";
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: #464646;
+  border-radius: 44px;
+  position: absolute;
+  top: 68px;
+  left: 150px;
+  z-index: -1;
+}
+
+#page #playlist .l-inner > div.title > div {
+  margin-left: 100px;
+}
+
+#page #playlist .l-inner > div.title > div h1 {
+  font-size: 1.6rem;
+}
+
+#page #playlist .l-inner > div.title > div .btn {
+  background: #bf0000;
+  margin: 1.5rem 0 0;
+}
+
+#page #playlist .l-inner > div.title > div .btn a {
+  color: white;
+  display: block;
+}
+
+#page #playlist .l-inner > div.title > div .btn a:hover {
+  color: white;
+}
+
+#page #playlist .l-inner > div.songs h2 {
+  font-size: 1.6rem;
+  margin: 3rem 0 1.5rem;
+  display: none;
+}
+
+#page #playlist .l-inner > div.songs ul {
+  margin: 3rem 0 0;
+}
+
+#page #playlist .l-inner > div.songs ul li {
+  border-top: 1px solid #d7d7d7;
+  display: flex;
+  padding: 2rem;
+}
+
+#page #playlist .l-inner > div.songs ul li:last-child {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+#page #playlist .l-inner > div.songs ul li p {
+  width: 50%;
+}
+
+#page #playlist .l-inner > div.songs ul li p:last-of-type {
+  font-size: 1.2rem;
+  color: #707070;
+  padding-left: 1.2rem;
+}
+
+#page #playlist .l-inner > div.songs ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+#page #playlist .l-inner > div.songs ol li {
+  background: whitesmoke;
+  padding: 0.5em 1.5em;
+  border-radius: 100px;
+  margin: 0 1rem 1rem 0;
+}
+
+#page .content-box .l-inner figure.content-box__image {
+  width: 600px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  #page #tab .l-inner {
+    padding: 0;
+  }
+  #page #tab .l-inner h3 {
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 0 0 1rem;
+    margin: 0 0 1rem;
+  }
+  #page #tab .l-inner div {
+    overflow-x: scroll;
+  }
+  #page #tab .l-inner div ul {
+    width: 350vw;
+    flex-wrap: initial;
+  }
+  #page #bnr-600x100 {
+    margin: 3rem 0;
+  }
+  #page #bnr-600x100 .content-box__image {
+    width: 86vw;
+  }
+  #page #playlist .l-inner {
+    margin: 3rem auto;
+    width: 86vw;
+    padding: 3rem;
+  }
+  #page #playlist .l-inner > div.title {
+    display: block;
+  }
+  #page #playlist .l-inner > div.title figure {
+    width: 50vw;
+    height: 50vw;
+  }
+  #page #playlist .l-inner > div.title figure:before {
+    width: 40vw;
+    height: 40vw;
+    top: 5vw;
+    left: 30vw;
+  }
+  #page #playlist .l-inner > div.title figure:after {
+    width: 10vw;
+    height: 10vw;
+    top: 20vw;
+    left: 46vw;
+  }
+  #page #playlist .l-inner > div.title > div {
+    margin: 1.6rem 0 0;
+  }
+  #page #playlist .l-inner > div.songs ul li {
+    display: block;
+    padding: 1.6rem 0;
+  }
+  #page #playlist .l-inner > div.songs ul li p {
+    width: 100%;
+  }
+  #page #playlist .l-inner > div.songs ul li p:last-of-type {
+    padding: 0;
+  }
+  #page #playlist .l-inner > div.songs ol li {
+    margin: 0 0 1rem;
+    font-size: 1.2rem;
+  }
+  #page .content-box .l-inner figure.content-box__image {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

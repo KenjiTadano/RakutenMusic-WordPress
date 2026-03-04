@@ -1,0 +1,585 @@
+#page .campaign-detail__table .js-toggle.is-open .js-toggle__panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+#page #anchor-links .anchor-links {
+  margin: 32px auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 0 16px;
+}
+
+#page #anchor-links .anchor-links::-webkit-scrollbar {
+  display: none;
+}
+
+#page #anchor-links .anchor-links > ul {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page #anchor-links .anchor-links > ul > li {
+  width: 128px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#page #anchor-links .anchor-links > ul > li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  color: #333333;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#page #anchor-links .anchor-links > ul > li a span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+}
+
+#page #anchor-links .anchor-links > ul > li a::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/2023/group/rchannel/img/20230401/icon_chevron_down_red.png) no-repeat center/cover;
+}
+
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+
+#page #ttl_playlist .ttl_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 24px;
+}
+
+#page #ttl_playlist .ttl_inner .btn-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 24px;
+  background: #FFFFFF;
+  border: 3px solid #BF0000;
+  border-radius: 72px;
+  width: calc(100% - 32px);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #BF0000;
+}
+
+#page #ttl_playlist .ttl_inner iframe {
+  width: 320px;
+}
+
+#page p.small {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page p.small small {
+  font-size: 100%;
+}
+
+#page p.lead {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page .l-campaign-01 > h2.heading {
+  padding: 16px;
+  background: #000000;
+  color: white;
+  margin: 24px auto;
+}
+
+#page .l-campaign-01 .content-box {
+  padding: 0;
+}
+
+#page .l-campaign-02 {
+  background-color: white !important;
+}
+
+#page .l-campaign-02 #stack-characteristic + h2 {
+  padding: 16px;
+  background: #000000;
+  color: white;
+  margin: 24px auto;
+}
+
+#page #fv-contents {
+  padding: 24px 0;
+}
+
+#page #fv-contents .l-inner p.small {
+  text-align: center;
+  margin: 12px auto;
+}
+
+#page #anchor-link {
+  background: #ebebeb;
+}
+
+#page #anchor-link div.inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px 16px 0;
+}
+
+#page #anchor-link div.inner .anchor-link--screenshot {
+  width: 80px;
+}
+
+#page #anchor-link div.inner .anchor-link--text .txt1 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page #anchor-link div.inner .anchor-link--text .txt3 p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #870011;
+}
+
+#page #anchor-link div.inner .anchor-link--text .txt3 div {
+  width: 73px;
+  margin-top: 4px;
+}
+
+#page #campaign-steps .l-inner > p {
+  text-align: center;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li h3 {
+  margin: 0;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li:not(:last-child):after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 36px 41px 0 41px;
+  border-color: #000000 transparent transparent transparent;
+  margin: 24px auto;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li .list-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px 16px;
+  gap: 24px;
+  background: #FFE8E8;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li .list-inner p {
+  text-align: center;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li .list-inner > p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li .list-inner > p.lead {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li .list-inner .btn-apply {
+  margin: 0 auto;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li .list-inner .btn-download {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px;
+  background: #BF0000;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li form div {
+  display: block;
+  margin: 16px auto;
+  position: relative;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li form div input[type="radio"] {
+  display: none;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li form div input[type="radio"]:checked + label {
+  color: #870011;
+  border: 3px solid #870011;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li form div input[type="radio"]:checked + label:before {
+  opacity: 1;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li form div input[type="radio"]:checked + label::after {
+  border: 3px solid #870011;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li form div label {
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: block;
+  padding: 16px 16px 16px 56px;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li form div label:after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 16px;
+  margin-top: -12px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li form div label:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 24px;
+  margin-top: -4px;
+  width: 8px;
+  height: 8px;
+  background: #870011;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li form .btn-entry {
+  display: block;
+  width: 100%;
+  height: 60px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+  background: #bf0000;
+  border: none;
+  border-radius: 60px;
+  margin: 24px auto -12px;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li .btn-apply {
+  margin: 24px auto;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li .btn-apply .l-inner > * {
+  width: 100%;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li .btn-apply .l-inner > p {
+  text-align: justify;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li ul.bnr-dl > li {
+  width: 256px;
+  margin: 0 auto 16px;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li iframe {
+  width: 100%;
+}
+
+#page #cnp_entry_complete h2 {
+  text-align: center;
+  padding: 24px 0;
+  background: #097543;
+  margin-bottom: 24px;
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page #cnp_entry_complete h2 strong {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: #ffcc00;
+  display: block;
+  margin-top: 12px;
+}
+
+#page #cnp_entry_complete .l-inner {
+  padding: 16px;
+  background: #f7f7f7;
+}
+
+#page #cnp_entry_complete .l-inner ul li {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  #page #anchor-links .anchor-links {
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-left: 0;
+  }
+  #page #anchor-links .anchor-links > ul {
+    margin: 0 auto;
+  }
+  #page #anchor-links .anchor-links > ul > li {
+    width: auto;
+  }
+  #page #anchor-links .anchor-links > ul > li a {
+    width: 232px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #anchor-links .anchor-links > ul > li a:hover {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+    background: whitesmoke;
+  }
+  #page #ttl_playlist .ttl_inner {
+    width: 700px;
+    margin: 0 auto;
+  }
+  #page #ttl_playlist .ttl_inner iframe:first-child {
+    width: 700px;
+  }
+  #page #ttl_playlist .ttl_inner .btn-secondary {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 20px;
+    line-height: 26px;
+    background: white;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #ttl_playlist .ttl_inner .btn-secondary:hover {
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  #page .fv-contents--steps {
+    width: 343px;
+    margin: 0 auto;
+  }
+  #page .fv-contents--steps img {
+    width: 100%;
+  }
+  #page .s-delivery-list {
+    border: none;
+  }
+  #page .l-campaign-01 > h2.heading {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  #page .l-campaign-01 > h2.heading + .content-box .content-box__image {
+    width: 797px;
+    margin: 24px auto 0;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2023/group/rakuteneagles/img/bg.jpg) no-repeat center top/auto 86.3% black;
+  }
+  #page #fv-contents {
+    text-align: center;
+    padding: 36px 0 24px;
+  }
+  #page #anchor-link div.inner .anchor-link--text .txt1 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page #anchor-link div.inner .anchor-link--text .txt3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  #page #anchor-link div.inner .anchor-link--text .txt3 p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page #anchor-link div.inner .anchor-link--text .txt3 div {
+    width: auto;
+    margin: 0;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  #page #anchor-link div.inner .anchor-link--text .txt3 div:hover {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list {
+    width: 704px;
+    margin: 0 auto;
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list > li > h3 {
+    text-align: center;
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list > li .btn-apply .l-inner {
+    width: 100%;
+    padding: 0;
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list > li .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list > li .btn-apply .l-inner .trial-btn + p {
+    text-align: center;
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list > li form div {
+    width: 500px;
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list > li form div:hover {
+    cursor: pointer;
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list > li form .btn-entry {
+    width: 400px;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list > li form .btn-entry:hover {
+    cursor: pointer;
+    background: #ff1212;
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list > li ul.bnr-dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 16px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list > li ul.bnr-dl > li {
+    width: 260px;
+    margin: 0;
+  }
+  #page #campaign-steps .l-inner ol.campaign-steps--list > li ul.bnr-dl > li a img {
+    width: 100%;
+  }
+  #page #cnp_entry_complete h2 strong {
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page #cnp_entry_complete h2 + .l-inner {
+    width: 633px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

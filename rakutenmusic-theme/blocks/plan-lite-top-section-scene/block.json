@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/plan-lite-top-section-scene",
+  "title": "ライトプラン：SCENE（こんな方におすすめ）",
+  "category": "rakutenmusic-plan-lite",
+  "icon": "format-gallery",
+  "description": "ライトプラン用 利用シーンセクション（COMMUTE / RELAX）",
+  "keywords": ["楽天", "ミュージック", "ライトプラン", "SCENE", "シーン"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "render": "file:./render.php"
+}

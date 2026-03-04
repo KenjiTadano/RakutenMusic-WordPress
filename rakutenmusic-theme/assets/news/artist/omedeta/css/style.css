@@ -1,0 +1,248 @@
+#page .s-campaign-hero {
+  padding: 0;
+  background: url(https://music.r10s.jp/external/prod/assets/news/artist/omedeta/img/bg.gif) center top;
+  position: relative;
+}
+
+#page .s-campaign-hero::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#page .s-campaign-hero .campaign-hero__schedule {
+  position: relative;
+  z-index: 1;
+}
+
+#page .l-content {
+  background: url(https://music.r10s.jp/external/prod/assets/news/artist/omedeta/img/bg.gif) center top;
+}
+
+#page #albums .l-inner h3 {
+  margin: 2rem 0 1rem;
+}
+
+#page #albums .l-inner ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#page #albums .l-inner ul li {
+  width: 20%;
+  padding: 0 1rem;
+  margin: 0 0 3rem;
+}
+
+#page #albums .l-inner ul li figure {
+  display: flex;
+  flex-direction: column;
+  height: 184px;
+}
+
+#page #albums .l-inner ul li figure img {
+  width: 100%;
+  margin-top: auto;
+  border: 1px solid whitesmoke;
+}
+
+#page #albums .l-inner ul li div {
+  margin: 0.5em 0 0;
+}
+
+#page #albums .l-inner ul li div p:last-of-type {
+  font-size: 1.2rem;
+}
+
+#page #HTMLBlock4281 .btn-apply {
+  margin: 2rem auto;
+}
+
+#page #HTMLBlock4281 + .text-box:before {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 4rem;
+  text-align: center;
+  display: block;
+}
+
+#page #HTMLBlock4281 + .text-box .l-inner p:nth-of-type(3) {
+  border: 1px solid black;
+  padding: 0.75em 0;
+}
+
+#page .item-list .item__card__image > a {
+  display: flex;
+  flex-direction: column;
+}
+
+#page .item-list .item__card__image > a img {
+  width: 100%;
+  height: auto;
+  max-width: initial;
+  max-height: initial;
+  margin-top: auto;
+  transition: all 0.2s ease-in;
+}
+
+#page .item-list .item__card__image > a:hover {
+  -webkit-box-shadow: initial;
+  box-shadow: initial;
+}
+
+#page .item-list .item__card__image > a:hover img {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#page .item-list .item__card__image > a:hover:after {
+  content: initial;
+}
+
+#page #howtobox .l-inner {
+  margin: 4rem auto;
+}
+
+#page #howtobox .l-inner ul {
+  display: flex;
+  justify-content: center;
+}
+
+#page #howtobox .l-inner ul li {
+  width: 300px;
+  margin: 0 4rem;
+  position: relative;
+}
+
+#page #howtobox .l-inner ul li:first-child:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0da";
+  font-weight: 900;
+  font-size: 6rem;
+  position: absolute;
+  top: 40%;
+  right: -5.5rem;
+}
+
+#page #howtobox .l-inner ul li div img {
+  width: 100%;
+}
+
+#page #howtobox .l-inner ul li p {
+  padding: 1rem;
+  text-align: justify;
+}
+
+#page #introduction {
+  margin: 4rem 0;
+}
+
+#page #introduction .l-inner h2 {
+  text-align: center;
+}
+
+#page #introduction .l-inner div.about-song {
+  display: flex;
+}
+
+#page #introduction .l-inner div.about-song figure {
+  width: 324px;
+}
+
+#page #introduction .l-inner div.about-song figure img {
+  width: 100%;
+}
+
+#page #introduction .l-inner div.about-song > div {
+  flex: 1;
+  background: white;
+  padding: 3rem;
+  margin: 4rem 0 0 2rem;
+}
+
+#page #introduction .l-inner div.about-song > div h3 {
+  font-size: 3rem;
+  margin: 0 0 2rem;
+}
+
+#page #introduction .l-inner div.about-song > div h3:first-letter {
+  font-size: 1.5em;
+  color: red;
+}
+
+#page #introduction .l-inner div.about-song > div p {
+  height: 240px;
+  overflow-y: scroll;
+}
+
+#page #introduction .l-inner div.lyric {
+  background: url(https://music.r10s.jp/external/prod/assets/news/artist/omedeta/img/lyric_bg.gif) center top;
+  padding: 4rem;
+  margin: 3rem auto;
+}
+
+#page #introduction .l-inner div.lyric > p {
+  padding: 4rem;
+  border: 4px solid red;
+  background: url(https://music.r10s.jp/external/prod/assets/news/artist/omedeta/img/kotobuki.gif) no-repeat right -10px bottom -10px white;
+}
+
+@media screen and (max-width: 768px) {
+  #page #albums .l-inner ul li {
+    width: 50%;
+  }
+  #page #albums .l-inner ul li figure {
+    height: initial;
+  }
+  #page #HTMLBlock4281 + .text-box .l-inner p:nth-of-type(3) {
+    padding: 0.75em;
+  }
+  #page #howtobox .l-inner {
+    padding: 0;
+  }
+  #page #howtobox .l-inner > div {
+    overflow-x: scroll;
+  }
+  #page #howtobox .l-inner ul {
+    width: 180vw;
+    padding: 0 12vw;
+  }
+  #page #howtobox .l-inner ul li {
+    width: 50%;
+    margin: 0 2rem;
+  }
+  #page #howtobox .l-inner ul li:first-child:after {
+    top: 60vw;
+    right: -3.5rem;
+  }
+  #page #introduction .l-inner div.about-song {
+    display: block;
+  }
+  #page #introduction .l-inner div.about-song figure {
+    width: 60%;
+    margin: 2rem auto;
+  }
+  #page #introduction .l-inner div.about-song > div {
+    margin: 0;
+    padding: 2.4rem;
+  }
+  #page #introduction .l-inner div.about-song > div h3 {
+    font-size: 2.4rem;
+  }
+  #page #introduction .l-inner div.about-song > div p {
+    height: initial;
+    overflow-y: initial;
+  }
+  #page #introduction .l-inner div.lyric {
+    padding: 1.2rem;
+  }
+  #page #introduction .l-inner div.lyric > p {
+    padding: 2rem;
+  }
+}

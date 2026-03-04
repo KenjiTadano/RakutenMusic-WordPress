@@ -1,0 +1,114 @@
+/* Feature artist
+   ========================================================================== */
+#page .books-item__list {
+  display: block;
+}
+
+#page .books-item__list:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  #page .books-item__card {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #page .books-item__list {
+    margin-left: -56px;
+  }
+  #page .books-item__list:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+  #page .books-item__card {
+    margin-left: 56px;
+    float: left;
+  }
+}
+
+/* Campaign detail
+   ========================================================================== */
+#page .item-list .item__list {
+  display: block;
+}
+
+#page .item-list .item__list:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+#page .item-list .item__card {
+  float: left;
+}
+
+@media screen and (max-width: 767px) {
+  #page .item-list .item__card:nth-child(odd) {
+    clear: left;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #page .item-list .item__list {
+    margin-left: -32px;
+  }
+  #page .item-list .item__card {
+    margin-left: 32px;
+  }
+  #page .item-list .item__card:nth-child(5n+1) {
+    clear: left;
+  }
+}
+
+/* Feature list
+   ========================================================================== */
+@media screen and (min-width: 768px) {
+  #page .feature-list--grid {
+    display: block;
+  }
+  #page .feature-list--grid:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+  #page .feature-list--grid .feature__card {
+    float: left;
+  }
+  #page .feature-list--grid .feature__card:nth-child(3n+1) {
+    clear: left;
+  }
+}
+
+/* Feature list for archive page
+   ========================================================================== */
+#page .s-archive .feature-list--grid .feature__card:nth-child(3n+1) {
+  clear: none;
+}
+
+#page .s-archive .feature-list--grid .feature__card:nth-child(4n+1) {
+  clear: left;
+}
+
+/* Campaign list
+   ========================================================================== */
+@media screen and (min-width: 768px) {
+  #page .campaign__list {
+    clear: right;
+  }
+  #page .campaign__item {
+    float: left;
+  }
+}

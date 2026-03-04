@@ -1,0 +1,351 @@
+@charset "UTF-8";
+#page .l-inner {
+  width: 950px;
+  padding: 0;
+}
+
+#page small {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+#page section {
+  padding: 0 0 48px;
+}
+
+#page .breadcrumb {
+  padding: 32px 0;
+}
+
+#page .l-inner:after {
+  display: none;
+}
+
+#page .btn-apply {
+  margin: 3.2rem auto;
+}
+
+#page #campaign-about {
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/tokyo_philharmonic/common/img/about_bg.png) fixed 100%;
+  background-size: contain;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/tokyo_philharmonic/common/img/about_bg.png) fixed 100%;
+  background-size: contain;
+}
+
+#page #campaign-about .l-inner h1 {
+  color: white;
+  background: #00334d;
+  font-family: "Hiragino Mincho Std", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", "ＭＳ 明朝", "MS Mincho", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 0;
+  padding: 24px;
+}
+
+#page #campaign-about .l-inner .campaign-about-wrap div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 24px auto;
+  padding: 32px 16px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1), 0px 1px 18px rgba(0, 0, 0, 0.1), 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#page #campaign-about .l-inner .campaign-about-wrap div figure {
+  width: 80%;
+  margin: 0 auto 16px;
+}
+
+#page #campaign-about .l-inner .campaign-about-wrap div figure img {
+  width: 100%;
+}
+
+#page #campaign-about .l-inner .campaign-about-wrap div p {
+  width: 100%;
+}
+
+#page #campaign-playlist {
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/tokyo_philharmonic/common/img/playlist_bg.png) fixed 100%;
+  background-size: contain;
+}
+
+#page #campaign-playlist .l-inner {
+  padding: 72px 16px 24px;
+}
+
+#page #campaign-playlist .l-inner .playlist-wrap h2:not(:first-child) {
+  margin: 48px 0 32px;
+}
+
+#page #campaign-playlist .l-inner .playlist-wrap .ccm-page-list .ccm-page-list-title a img {
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+#page #campaign-playlist .btn-apply {
+  margin: 36px 0 0;
+}
+
+#page #campaign-playlist .btn-apply .l-inner {
+  padding: 0;
+}
+
+#page #campaign-playlist .btn-apply .l-inner > * {
+  width: 100%;
+}
+
+#page #campaign-playlist .btn-apply .l-inner p {
+  color: white;
+}
+
+#page #campaign-ticket {
+  background: #00334d;
+}
+
+#page #campaign-ticket .l-inner {
+  padding: 72px 16px 24px;
+}
+
+#page #campaign-ticket .l-inner h2 {
+  margin: 0 0 32px;
+}
+
+#page #campaign-ticket .l-inner div {
+  width: 100%;
+  height: 80px;
+}
+
+#page #campaign-ticket .l-inner div > a.btn-ticket {
+  display: block;
+  height: 100%;
+  line-height: 80px;
+  color: white;
+  background: #db8600;
+  font-family: "Hiragino Mincho Std", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", "ＭＳ 明朝", "MS Mincho", sans-serif;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+#page #campaign-playlist .l-inner .playlist-wrap h2,
+#page #campaign-ticket .l-inner h2,
+#page #campaign-other .l-inner .other-wrap h2 {
+  color: #dbaf00;
+  font-family: "Hiragino Mincho Std", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", "ＭＳ 明朝", "MS Mincho", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: center;
+}
+
+#page #campaign-playlist .l-inner .playlist-wrap h2::after,
+#page #campaign-ticket .l-inner h2::after,
+#page #campaign-other .l-inner .other-wrap h2::after {
+  display: block;
+  width: 100%;
+  height: 36px;
+  content: "";
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/tokyo_philharmonic/common/img/gold-border.png) no-repeat center/100% auto;
+}
+
+#page #campaign-other .l-inner .other-wrap p {
+  text-align: center;
+}
+
+#page #campaign-ticket .l-inner div,
+#page #campaign-other .l-inner .other-wrap div {
+  text-align: center;
+}
+
+#page #campaign-other {
+  background: whitesmoke;
+}
+
+#page #campaign-other .l-inner {
+  padding: 72px 16px 24px;
+}
+
+#page #campaign-other .l-inner .other-wrap p {
+  line-height: 1.25;
+}
+
+#page #campaign-other .l-inner .other-wrap p.lead {
+  color: black;
+  margin: 16px 0;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#page #campaign-other .l-inner .other-wrap div {
+  width: 100%;
+  height: 80px;
+}
+
+#page #campaign-other .l-inner .other-wrap div > a.btn-other {
+  display: block;
+  height: 100%;
+  line-height: 80px;
+  color: white;
+  background: #db8600;
+  font-family: "Hiragino Mincho Std", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", "ＭＳ 明朝", "MS Mincho", sans-serif;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+#page #campaign-other .l-inner > figure {
+  display: block;
+  margin: 32px auto 0;
+  padding: 24px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.04), 0px 9px 46px rgba(0, 0, 0, 0.02), 0px 11px 15px rgba(0, 0, 0, 0.1);
+}
+
+#page #campaign-other .l-inner > p.rakuten-about {
+  margin: 0;
+  padding: 16px;
+  text-align: justify;
+  line-height: 1.5;
+  background: white;
+}
+
+#page #campaign-other .l-inner .btn-apply {
+  margin: 32px 0 0;
+}
+
+#page #campaign-other .l-inner .btn-apply .l-inner {
+  padding: 0;
+}
+
+#page #campaign-other .l-inner .btn-apply .l-inner > * {
+  width: 100%;
+}
+
+#page #sns {
+  margin: 0;
+  padding: 72px 16px;
+}
+
+#page #sns .l-inner div {
+  display: block;
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+#page #sns .l-inner div a {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1.2rem 2rem;
+  border-radius: 12px;
+  background: #00334d;
+  color: white;
+}
+
+#page #sns .l-inner ol {
+  display: flex;
+  justify-content: center;
+}
+
+#page #sns .l-inner ol > li {
+  display: block;
+  margin: 0.8rem;
+}
+
+#page #sns .l-inner ol > li > a > img {
+  width: 60px;
+  height: auto;
+}
+
+#page #sns .l-inner ol > li > a:hover {
+  opacity: 0.7;
+}
+
+#page #sns .l-inner > p > small {
+  font-size: 1.4rem;
+}
+
+#page .s-campaign-list .l-inner {
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    background: url(https://music.r10s.jp/external/prod/assets/news/playlist/tokyo_philharmonic/img/bg.gif) no-repeat top center/auto 100% black;
+  }
+  #page #campaign-about {
+    padding: 72px 0 8px;
+  }
+  #page #campaign-about .l-inner > * {
+    display: inline-block;
+    position: relative;
+  }
+  #page #campaign-about .l-inner > h1 {
+    z-index: 1;
+  }
+  #page #campaign-about .l-inner .campaign-about-wrap {
+    top: -64px;
+  }
+  #page #campaign-about .l-inner .campaign-about-wrap div {
+    flex-direction: row;
+  }
+  #page #campaign-about .l-inner .campaign-about-wrap div figure {
+    width: 300px;
+    padding: 64px 24px;
+  }
+  #page #campaign-playlist .l-inner .ccm-page-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #page #campaign-playlist .l-inner .ccm-page-list .ccm-page-list-title {
+    width: 49%;
+  }
+  #page #campaign-playlist .l-inner .ccm-page-list .ccm-page-list-title a {
+    transition: all 0.2s ease-in;
+  }
+  #page #campaign-playlist .l-inner .ccm-page-list .ccm-page-list-title a:hover {
+    opacity: 0.8;
+  }
+  #page #campaign-playlist .l-inner .ccm-page-list .ccm-page-list-title a img {
+    width: 100%;
+  }
+  #page #campaign-playlist .l-inner .btn-apply .l-inner {
+    width: 100%;
+  }
+  #page #campaign-other .l-inner .btn-apply .l-inner {
+    width: 100%;
+  }
+  #page #campaign-other .l-inner > p.rakuten-about {
+    text-align: center;
+  }
+  #page #campaign-other .l-inner > figure {
+    text-align: center;
+  }
+  #page #campaign-playlist .l-inner .playlist-wrap h2::after,
+  #page #campaign-ticket .l-inner h2::after,
+  #page #campaign-other .l-inner .other-wrap h2::after {
+    width: 360px;
+    height: 18px;
+    margin: 24px auto 0;
+  }
+  #page #campaign-playlist .btn-apply .l-inner > .trial-btn,
+  #page #campaign-other .l-inner .btn-apply .l-inner > .trial-btn,
+  #page #campaign-ticket .l-inner div,
+  #page #campaign-other .l-inner .other-wrap div {
+    width: 450px;
+    margin: 0 auto;
+  }
+  #page #campaign-ticket .l-inner div > a.btn-ticket,
+  #page #campaign-other .l-inner .other-wrap div > a.btn-other {
+    transition: all 0.2s ease-in;
+  }
+  #page #campaign-ticket .l-inner div > a.btn-ticket:hover,
+  #page #campaign-other .l-inner .other-wrap div > a.btn-other:hover {
+    background: #ffba4e;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  #page #sns .l-inner div a {
+    border-radius: 48px;
+  }
+}

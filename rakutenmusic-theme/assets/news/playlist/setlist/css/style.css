@@ -1,0 +1,117 @@
+#page .s-campaign-hero {
+  background: url("https://music.r10s.jp/external/prod/assets/campaign/2019/setlist/img/bg.jpg") no-repeat center top/auto 100% #000;
+  padding: 0;
+}
+
+#page .campaign-hero__schedule {
+  display: none;
+}
+
+#page .setlists {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 950px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#page .setlists li {
+  list-style: none;
+  width: 48%;
+  height: 152px;
+  margin: 1.5rem 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.2);
+  padding: 2rem;
+}
+
+#page .setlists li figure {
+  width: 112px;
+  padding: 0;
+  margin: 0;
+}
+
+#page .setlists li figure img {
+  height: 100%;
+}
+
+#page .setlists li p {
+  flex: 1;
+  margin: 0;
+  padding: 1rem 0 1rem 2rem;
+  line-height: 1.5em;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  color: dimgray;
+}
+
+#page .setlists li p b {
+  font-size: 1.6rem;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  color: black;
+}
+
+#page .s-campaign-hero + h2.heading.heading--m {
+  width: 100%;
+  margin: 0;
+  color: white;
+  padding: 2rem 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d228a3+0,1700fa+100 */
+  background: #d228a3;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #d228a3 0%, #1700fa 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #d228a3 0%, #1700fa 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #d228a3 0%, #1700fa 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d228a3', endColorstr='#1700fa',GradientType=1 );
+  /* IE6-9 */
+}
+
+#page .s-campaign-hero + h2.heading.heading--m + .heading--m {
+  margin: 4rem 0 !important;
+}
+
+#page .stack-characteristic .l-inner {
+  padding-bottom: 60px;
+}
+
+#page .stack-characteristic .l-inner figure img {
+  width: 100%;
+}
+
+#page .stack-characteristic .l-inner p {
+  text-align: right;
+  line-height: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  #page .s-campaign-hero + h2.heading.heading--m {
+    font-size: 1.6rem;
+    padding: 2rem 3rem;
+    line-height: 1.75;
+  }
+  #page .setlists {
+    display: block;
+    width: 100%;
+  }
+  #page .setlists li {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto 3rem;
+  }
+  #page .setlists li figure {
+    width: 40vw;
+    margin: 0 auto;
+  }
+  #page .setlists li p {
+    padding: 1rem 0 1.2rem;
+  }
+}

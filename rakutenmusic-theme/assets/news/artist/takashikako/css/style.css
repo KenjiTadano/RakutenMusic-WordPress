@@ -1,0 +1,134 @@
+#page .campaign-hero__image {
+  margin-bottom: 32px;
+}
+
+#page .text-box .l-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2em;
+}
+
+#page .content-box .l-inner .content-box__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2em;
+}
+
+#page .info-label {
+  padding: 4px 8px;
+  font-size: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#page .ticket-info {
+  background: #7d00be;
+  padding: 32px 16px;
+}
+
+#page .ticket-info .info-label {
+  border: 2px solid #7d00be;
+  color: #7d00be;
+}
+
+#page .ticket-info .l-inner {
+  background: white;
+  padding: 32px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+}
+
+#page .ticket-info .l-inner a {
+  color: #7d00be;
+  text-decoration: underline;
+}
+
+#page .ticket-info--schedule tr td {
+  vertical-align: top;
+}
+
+#page .ticket-info--schedule tr td:first-child {
+  width: 120px;
+}
+
+#page .streaming-info {
+  margin-top: 32px;
+  background: #bf0000;
+  padding: 32px 16px;
+}
+
+#page .streaming-info .info-label {
+  border: 2px solid #bf0000;
+  color: #bf0000;
+}
+
+#page .streaming-info .l-inner {
+  background: white;
+  padding: 32px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+}
+
+#page .streaming-info .l-inner a {
+  color: #bf0000;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 767px) {
+  #page .content-box .l-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 32px;
+  }
+  #page .content-box .l-inner .content-box__image {
+    width: 320px;
+  }
+  #page .content-box .l-inner .content-box__text {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #page .content-box .l-inner::after {
+    content: none;
+  }
+  #page figure img {
+    width: 100%;
+  }
+  #page .ticket-info .l-inner,
+  #page .streaming-info .l-inner {
+    padding: 64px;
+  }
+  #page .ticket-info .l-inner a:hover,
+  #page .streaming-info .l-inner a:hover {
+    text-decoration: none;
+  }
+  #page .ticket-info .l-inner::after,
+  #page .streaming-info .l-inner::after {
+    content: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

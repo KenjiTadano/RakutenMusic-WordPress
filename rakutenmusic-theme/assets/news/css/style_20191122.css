@@ -1,0 +1,89 @@
+#page .heading {
+  padding-top: 34px;
+  margin-bottom: 48px;
+  font-size: 3.4rem;
+}
+
+#page #anchor {
+  margin: 0 0 4rem;
+}
+
+#page #anchor .l-inner ul {
+  display: flex;
+  justify-content: center;
+}
+
+#page #anchor .l-inner ul li {
+  width: calc(100% / 3);
+  padding: 0.5em 0;
+  background: black;
+  text-align: center;
+  transition: all 0.2s ease-in;
+  border-right: 1px solid white;
+}
+
+#page #anchor .l-inner ul li a {
+  display: block;
+  color: white;
+}
+
+#page #anchor .l-inner ul li a i {
+  margin-left: 1em;
+}
+
+#page #anchor .l-inner ul li:hover {
+  background: #444;
+}
+
+#page .ccm-page-list:last-of-type {
+  margin-bottom: 48px;
+}
+
+#page .ccm-page-list .l-inner ol {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#page .ccm-page-list .l-inner ol li {
+  width: 48%;
+  margin: 1rem;
+}
+
+#page .ccm-page-list .l-inner ol li a figure img {
+  width: 100%;
+}
+
+#page .ccm-page-list .l-inner ol li a figure:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+}
+
+#page .ccm-page-list .l-inner ol li a h3.ccm-page-list-title {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+  #page #anchor div.l-inner ul {
+    display: block;
+  }
+  #page #anchor div.l-inner ul li {
+    width: 100%;
+    border-bottom: 1px solid white;
+    border-right: none;
+  }
+  #page #anchor div.l-inner ul li:hover {
+    background: black;
+  }
+  #page .ccm-page-list:last-of-type {
+    margin-bottom: 48px;
+  }
+  #page .ccm-page-list .l-inner ol {
+    display: block;
+  }
+  #page .ccm-page-list .l-inner ol li {
+    width: 100%;
+    margin: 0 0 3rem;
+  }
+}

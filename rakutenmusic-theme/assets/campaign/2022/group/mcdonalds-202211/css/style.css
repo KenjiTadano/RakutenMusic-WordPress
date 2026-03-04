@@ -1,0 +1,388 @@
+#page #sticky-apply-btn .btn-copy-code {
+  border: 2px solid #00B3AE;
+  color: #00B3AE;
+}
+
+#page.campaign_detail .l-campaign-02 {
+  background: white;
+}
+
+#page.campaign_detail .l-campaign-02 > h2 {
+  display: none;
+}
+
+#page #stack-playback-campaign {
+  margin: 24px auto 0;
+}
+
+#page .stack-characteristic {
+  margin: 24px auto -24px;
+}
+
+#page h1.disp {
+  text-align: center;
+  padding: 12px 0;
+  background: #1E3760;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#page .RexButton {
+  font-size: 24px;
+  line-height: 31px;
+  padding: 1rem 0;
+}
+
+#page .CampaignButton,
+#page .Below {
+  margin: 0 auto;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+
+#page .CampaignButton-success span.RexButton-message {
+  color: #047205;
+  font-size: 20px;
+}
+
+#page .agreement-label {
+  margin: 16px auto;
+}
+
+#page .agreement-message a {
+  color: #bf0000;
+}
+
+#page .campaign-hero__schedule > p:first-child > br:last-child {
+  display: none;
+}
+
+#page .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration: underline;
+}
+
+#page .btn-apply > .l-inner > * {
+  width: 100% !important;
+}
+
+#page #rex-ceb-01 p.Alert {
+  margin-bottom: 16px;
+}
+
+#page #rex-ceb-01 section.Below {
+  padding: 0;
+}
+
+#page .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page .slick-dots {
+  top: 0;
+  margin-top: 16px;
+}
+
+#page .ccode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 0;
+  gap: 8px;
+  width: 208px;
+  border: 2px solid #00B3AE;
+  border-radius: 8px;
+}
+
+#page .ccode .ccode-code {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00B3AE;
+}
+
+#page .ccode button {
+  padding: 4px 16px;
+  background: #00B3AE;
+  border-radius: 32px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: none;
+}
+
+#page #campaign-wrapper {
+  padding: 0 16px;
+  margin: 36px auto;
+}
+
+#page #campaign-wrapper > .l-inner {
+  padding: 36px 16px;
+  background: #00B3AE;
+  border-radius: 24px 24px 0px 0px;
+  text-align: center;
+}
+
+#page #campaign-wrapper > .l-inner h1 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+#page #campaign-wrapper > .l-inner h2 {
+  padding: 8px 24px;
+  border: 4px solid #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: white;
+  border-radius: 86px;
+}
+
+#page #campaign-wrapper > .l-inner h3 {
+  color: #00B3AE;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 auto;
+}
+
+#page #campaign-wrapper > .l-inner h3.m-16 {
+  margin: 16px auto;
+}
+
+#page #campaign-wrapper > .l-inner h3 span {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #fde428;
+  margin: 8px 0;
+}
+
+#page #campaign-wrapper > .l-inner ol.campaign-steps {
+  margin-top: 16px;
+}
+
+#page #campaign-wrapper > .l-inner ol.campaign-steps > li {
+  padding: 24px 16px;
+  background: #ffffff;
+  margin-bottom: 42px;
+  position: relative;
+}
+
+#page #campaign-wrapper > .l-inner ol.campaign-steps > li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 32px 32px 0 32px;
+  border-color: #ffffff transparent transparent transparent;
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  margin-left: -32px;
+}
+
+#page #campaign-wrapper > .l-inner ol.campaign-steps > li .btn-apply {
+  margin: 24px 0 0;
+}
+
+#page #campaign-wrapper > .l-inner ol.campaign-steps > li .slick-dots li button {
+  margin: 0 auto;
+}
+
+#page #campaign-wrapper > .l-inner .campaign-complete > div {
+  background: #ffffff;
+  padding: 10px;
+}
+
+#page #campaign-wrapper > .l-inner .campaign-complete > div p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #686868;
+}
+
+#page .trial-btn-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  margin: 36px auto;
+}
+
+#page .trial-btn-2 h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+}
+
+#page .trial-btn-2 .btn-apply {
+  margin: 0 auto;
+}
+
+#page #mutual-banner {
+  background: #f7f7f7;
+}
+
+#page #mutual-banner > .l-inner {
+  padding: 36px 16px;
+}
+
+#page #mutual-banner > .l-inner h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+}
+
+#page #mutual-banner > .l-inner h1 strong.red {
+  color: #d80000;
+}
+
+#page #mutual-banner > .l-inner p {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+#page #mutual-banner > .l-inner p small {
+  font-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #page #sticky-apply-btn .btn-copy-code:hover {
+    background: #00B3AE;
+  }
+  #page .RexButton {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  #page .CampaignButton-success span.RexButton-message {
+    font-size: 36px;
+  }
+  #page h1.disp {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page .stack-characteristic {
+    margin: 36px auto -36px;
+  }
+  #page #rex-ceb-01 {
+    width: 700px;
+  }
+  #page .ccode {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 440px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page .ccode button:hover {
+    background: #00D9D3;
+    cursor: pointer;
+  }
+  #page .s-campaign-hero {
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/group/mcdonalds/img/bg.jpg) no-repeat center top/auto 82% #1e3760;
+  }
+  #page .campaign-hero__schedule__note a:hover {
+    text-decoration: none;
+  }
+  #page .btn-apply > .l-inner {
+    width: 100%;
+  }
+  #page .btn-apply > .l-inner .trial-btn {
+    width: 420px !important;
+  }
+  #page .flex {
+    gap: 24px;
+  }
+  #page #campaign-wrapper > .l-inner {
+    width: 900px;
+    padding: 36px;
+  }
+  #page #campaign-wrapper > .l-inner h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  #page #campaign-wrapper > .l-inner h3.m-16 {
+    margin: 24px auto;
+  }
+  #page #campaign-wrapper > .l-inner ol.campaign-steps {
+    margin-top: 24px;
+  }
+  #page #campaign-wrapper > .l-inner ol.campaign-steps > li {
+    padding: 36px 16px;
+  }
+  #page #campaign-wrapper > .l-inner ol.campaign-steps > li h3 span {
+    margin: 8px;
+  }
+  #page #campaign-wrapper > .l-inner ol.campaign-steps > li section.sc-AxmLO.gnYWHw {
+    width: 655px;
+  }
+  #page #campaign-wrapper > .l-inner ol.campaign-steps > li section.sc-AxmLO.gnYWHw > p a:hover {
+    text-decoration: underline;
+  }
+  #page #campaign-wrapper > .l-inner .campaign-complete {
+    gap: 12px;
+  }
+  #page #campaign-wrapper > .l-inner .campaign-complete > div {
+    width: 440px;
+    margin: 0 auto;
+  }
+  #page #point-mission {
+    margin-top: 36px;
+  }
+  #page #mutual-banner > .l-inner figure {
+    width: 700px;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  #page #mutual-banner > .l-inner figure:hover {
+    opacity: 0.8;
+  }
+}
+/*# sourceMappingURL=style.css.map */

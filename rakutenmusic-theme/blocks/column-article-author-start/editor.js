@@ -40,7 +40,7 @@
 		try { wp.blocks.unregisterBlockType( BLOCK_NAME ); } catch ( e ) {}
 		wp.blocks.registerBlockType( BLOCK_NAME, {
 			title: __( '記事：サイン情報', 'rakutenmusic-theme' ),
-			category: 'rakutenmusic',
+			category: 'rakutenmusic-column',
 			icon: 'admin-users',
 			attributes: {
 				date: { type: 'string', default: '' },
@@ -88,20 +88,6 @@
 								label: __( 'Facebookボタンを表示しない', 'rakutenmusic-theme' ),
 								checked: a.hideFacebook,
 								onChange: function ( v ) { props.setAttributes( { hideFacebook: !! v } ); }
-							} )
-						),
-						el( PanelBody, { title: __( '余白', 'rakutenmusic-theme' ), initialOpen: false },
-							el( SelectControl, {
-								label: __( '上余白', 'rakutenmusic-theme' ),
-								value: a.spacingTop || '',
-								options: spacingOpts,
-								onChange: function ( v ) { props.setAttributes( { spacingTop: v || '' } ); }
-							} ),
-							el( SelectControl, {
-								label: __( '下余白', 'rakutenmusic-theme' ),
-								value: a.spacingBottom || '',
-								options: spacingOpts,
-								onChange: function ( v ) { props.setAttributes( { spacingBottom: v || '' } ); }
 							} )
 						)
 					),

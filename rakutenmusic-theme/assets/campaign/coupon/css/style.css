@@ -1,0 +1,226 @@
+@media screen and (min-width:768px){
+#btn-apply {
+ padding-top:40px;
+}
+/*================================
+    獲得方法
+================================*/
+.howtoget-coupon {
+  width: 950px;
+  margin: 0 auto !important;
+  text-align: center;
+  padding: 0;
+}
+.howtoget-coupon li {
+  width: 310px;
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.howtoget-coupon li p {
+  line-height: 1.5em;
+  padding: 20px 0 0;
+}
+.howtoget-coupon li:not(:first-child):after {
+    content: '';
+    font-size: 40px;
+    color: #bf0000;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/coupon/img/cpn-step-arrow.png);
+    display: inline-block;
+    width: 32px;
+    height: 63px;
+    position: absolute;
+    top: 190px;
+    left: -16px;
+}
+.marathon-topbnr {
+  width: 950px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+/*================================
+    アプリダウンロード
+================================*/
+div.appicon-pc {
+    width: 660px;
+    padding: 30px;
+    margin: 40px auto 40px;
+    background: #ececec;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div.appicon-pc p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #51b919;
+}
+div.appicon-pc ul {
+  display: flex;
+}
+div.appicon-pc ul li dl {
+  display: table;
+}
+div.appicon-pc ul li dl > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+div.appicon-pc ul li dl dt {
+  padding: 0 40px;
+}
+.appicon-sp {
+ display: none;
+}
+/*================================
+    item
+================================*/
+#page .item-list .item__card__title{
+color: black;
+}
+h2.obi {
+    margin-bottom: 15px !important;
+    background: #cce198;
+    line-height: 2em;
+    padding: 0 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.api-box {
+    margin: 0 auto;
+    width: 950px;
+}
+.api-box-sp{
+ display: none;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+#btn-apply {
+ padding-top:8vw;
+}
+/*================================
+    獲得方法
+================================*/
+.content-inner {
+  padding: 0 0 8vw !important;
+}
+.content-inner .sliderBox {
+  width: 100vw;
+  height: 115vw;
+  overflow-x: scroll;
+}
+.content-inner .sliderBox ol {
+  width: 240vw;
+  font-size: 0 !important;
+  padding: 0 !important;
+  margin: 0 0 0 5vw !important;
+}
+.content-inner .sliderBox ol li {
+  width: 70vw;
+  height: 115vw;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 3.7vw !important;
+  margin: 0 3.8vw 0 0 !important;
+}
+.content-inner .sliderBox ol li:first-child {
+  margin: 0 3.8vw 0 8vw !important;
+}
+.content-inner .sliderBox ol li:nth-child(even) {
+  background: none;
+}
+.content-inner .sliderBox ol li:nth-child(odd) {
+  background: none;
+}
+.content-inner .sliderBox ol li p.slide-img01 {
+  width: 63vw;
+  margin: 0 auto !important;
+  font-size: 0 !important;
+}
+.content-inner .sliderBox ol li p.slide-img01 img {
+  width: 100%;
+}
+.content-inner .sliderBox ol li p.slide-text01 {
+  text-align: center;
+  margin: 2vw 0 0 !important;
+}
+.content-inner .sliderBox ol li p.slide-text01 .red {
+  color: #ff1a1a;
+}
+.howtoget-coupon ol li:not(:first-child)::after {
+    content: '';
+    font-size: 40px;
+    color: #bf0000;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/coupon/img/cpn-step-arrow.png);
+    display: inline-block;
+    width: 32px;
+    height: 63px;
+    position: absolute;
+    top: 150px;
+    left: -22px;
+}
+/*================================
+    アプリダウンロード
+================================*/
+div.appicon-sp {
+    width: 100%;
+    padding: 0 15vw;
+    margin: 0vw auto 6vw;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div.appicon-sp p {
+    margin-bottom: 3vw !important;
+    font-size: 4vw;
+    text-align: center;
+    color: #5bc620;
+  }
+div.appicon-sp ul li {
+    font-size: 0;
+  }
+div.appicon-sp ul li:first-child {
+    margin: 0 0 6vw !important;
+  }
+.appicon-pc {
+ display: none;
+}
+.appicon-sp {
+ display: block;
+}
+
+/* ==============================================
+	itemApiArea
+============================================== */
+.api-box-pc{
+ display: none;
+}
+.api-box-sp{
+ display: block;
+}
+.api-box-sp h2 {
+    background: #bf0000;
+    color: #fff;
+    font-weight: bold;
+    padding: 2vw;
+    font-size: 4vw;
+    margin-top: 7vw;
+}
+.api-box-sp h3.obi {
+    background: #cce198;
+    line-height: 1.5em;
+    padding: 2vw;
+    margin: 2vw 0 0;
+}
+
+
+
+}

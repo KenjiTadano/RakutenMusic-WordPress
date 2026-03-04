@@ -1,0 +1,163 @@
+.remove-btn {
+  display: flex;
+  width: 336px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 72px;
+  background: #d80000;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border-width: 0;
+}
+.remove-btn:hover {
+  cursor: pointer;
+}
+
+.remove-btn a {
+  color: white !important;
+}
+.back-btn {
+  display: flex;
+  width: 336px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 72px;
+  background: #ffffff;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  border: #333333 solid 1px;
+}
+.back-btn:hover {
+  cursor: pointer;
+}
+
+.back-btn a {
+  color: #333333 !important;
+}
+/* キャンセル後の制限 */
+#stack-section-limit {
+  padding: 48px 24px !important;
+}
+#page .lcontent .stack-section-limit .bg-light-text {
+  color: rgba(0, 0, 0, 0.03);
+  font-size: 81px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: absolute;
+  top: -16px;
+  left: 0;
+}
+.limit-card {
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  align-self: center;
+  border-radius: 16px;
+  background: #ffffff;
+  width: 100%;
+}
+.limit-card h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  text-align: left !important;
+}
+.limit-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  text-align: left;
+}
+.section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 0 32px;
+}
+
+.grid-container {
+  display: grid;
+  /* スマートフォンでは1列で表示 (縦並び) */
+  grid-template-columns: 1fr;
+  /* 行の数はアイテム数に合わせて自動的に増える */
+  grid-template-rows: auto;
+  gap: 10px;
+
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.grid-item {
+  text-align: center;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+}
+
+/* 共通配置設定 */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 0;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-break-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sp-break {
+  display: block;
+}
+
+/* -----------768breakpoint ----------------- */
+@media screen and (min-width: 768px) {
+  .limit-card {
+    padding: 32px 32px;
+    width: 70%;
+  }
+  .limit-card h3 {
+    font-size: 24px;
+  }
+  .flex-break-column {
+    flex-direction: row;
+  }
+  .sp-break {
+    display: none;
+  }
+  .grid-container {
+    /* タブレットでは2列で表示 (横に2つ、縦に4つ) */
+    grid-template-columns: repeat(2, 1fr);
+    /* 行の数はアイテム数 (8個) を2で割って4行になる */
+    grid-template-rows: auto;
+  }
+  .grid-item {
+    font-size: 1.5em;
+    min-height: 100px;
+  }
+}

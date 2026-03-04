@@ -1,0 +1,844 @@
+@charset "UTF-8";
+
+#page section {
+  padding: 0;
+}
+
+#page #rex-ceb-01 {
+  width: 100%;
+}
+
+#page .RexButton-message {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  display: block;
+}
+
+#page .Alert {
+  margin-bottom: 8px;
+}
+
+#page .CampaignButton {
+  margin: 0;
+}
+
+#page .CampaignButton-enabled a {
+  color: white;
+}
+
+#page .CampaignButton-disabled a,
+#page .CampaignButton-applied a {
+  color: #898989;
+}
+
+#page.campaign_detail .l-campaign-02 {
+  background: white;
+}
+
+#page h1.disp1,
+#page .l-campaign-02>h2 {
+  padding: 8px 0px;
+  background: #000000;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#page p.lead {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page p.bold {
+  font-weight: 700;
+}
+
+#page p.small {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page p.small small {
+  font-size: 100%;
+}
+
+#page .color-white {
+  color: white;
+}
+
+#page .gap-8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+#page .danger-background {
+  padding: 16px;
+  background: #FFF0F0;
+  border-radius: 8px;
+}
+
+#page .danger-background .danger-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #DF0101;
+}
+
+#page .slick-arrow {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: black;
+  border-radius: 44px;
+}
+
+#page .slick-arrow::before {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#page .slick-next {
+  right: -8px;
+}
+
+#page .slick-next::before {
+  content: '▶︎';
+}
+
+#page .slick-prev {
+  left: -8px;
+}
+
+#page .slick-prev::before {
+  content: '◀︎';
+}
+
+#page .slick-disabled {
+  display: none !important;
+}
+
+#page .slick-dots {
+  bottom: 0;
+  margin-top: 16px;
+}
+
+#page .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration: underline;
+}
+
+#page section#vissel-nav {
+  padding: 24px 0;
+}
+
+#page section#vissel-nav .l-inner::after {
+  content: none;
+}
+
+#page section#vissel-nav .l-inner>ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 8px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#page section#vissel-nav .l-inner>ul>li {
+  width: calc(100% / 3 - 6px);
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+
+#page section#vissel-nav .l-inner>ul>li a {
+  padding: 12px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 8px;
+  color: black;
+}
+
+#page section#vissel-nav .l-inner>ul>li a img {
+  width: 80px;
+}
+
+#page section#vissel-nav .l-inner>ul>li a p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 48px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page section#vissel-nav .l-inner>ul>li a::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/2022/group/vissel-kobe/img/icon_chevron_down.png) no-repeat center/cover;
+}
+
+#page section#vissel-point-campaign-steps,
+#page section#vissel-campaign-steps {
+  background: #8C0000;
+}
+
+#page .vissel-campaign-steps--inner {
+  width: 100%;
+  padding: 24px 16px;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 16px;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-playlist--inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px;
+  gap: 14px;
+  background: #9B0020;
+  border: 3px solid #FFFFFF;
+  border-radius: 24px;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-point-campaign-steps--present {
+  border-radius: 16px;
+  overflow: hidden;
+  background: white;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-point-campaign-steps--present h2 {
+  text-align: center;
+  padding: 16px 0;
+  background: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-point-campaign-steps--present .vissel-point-campaign-steps--present--inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 36px 16px;
+  gap: 24px;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-point-campaign-steps--present .vissel-point-campaign-steps--present--inner p.small {
+  padding: 8px;
+  background: #F7F7F7;
+  color: #686868;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 24px;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .vissel-campaign-steps--entries {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 100%;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .vissel-campaign-steps--entries>li {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 16px;
+  background: #FFFFFF;
+  border: 3px solid #000000;
+  -webkit-box-shadow: 0px 4px 0px #000000;
+  box-shadow: 0px 4px 0px #000000;
+  border-radius: 8px;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .vissel-campaign-steps--entries>li .playlist-name {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #9B0020;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .vissel-campaign-steps--entries>li .btn-view-playlist {
+  background: #FFCC00;
+  border-radius: 42px;
+  width: 100%;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .vissel-campaign-steps--entries>li .btn-view-playlist a {
+  display: block;
+  padding: 8px 10px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .vissel-campaign-steps--entries>li .btn-disable {
+  width: 100%;
+  padding: 8px 10px;
+  background: #DFDFDF;
+  border-radius: 42px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #898989;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .danger-background+p.small {
+  color: #686868;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .btn-apply {
+  margin: 0 auto;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .btn-apply .l-inner>* {
+  width: 100%;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .anchor-link a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  font-size: 20px;
+  line-height: 26px;
+  color: black;
+}
+
+#page section#vissel-point-campaign-steps>.l-inner .anchor-link a::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/2022/group/vissel-kobe/img/icon_chevron_down.png) no-repeat center/cover;
+}
+
+#page section#vissel-twitter-campaign-steps {
+  background: #EBEBEB;
+}
+
+#page section#vissel-twitter-campaign-steps>.l-inner {
+  padding: 48px 16px;
+}
+
+#page section#vissel-twitter-campaign-steps>.l-inner .vissel-twitter-campaign-steps--wrapper {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 36px 16px;
+  gap: 24px;
+  border-radius: 0 0 16px 16px;
+}
+
+#page section#vissel-twitter-campaign-steps>.l-inner .vissel-twitter-campaign-steps--wrapper .vissel-twitter-campaign-steps--term {
+  text-align: center;
+}
+
+#page section#vissel-twitter-campaign-steps>.l-inner .vissel-twitter-campaign-steps--wrapper .btn_twitter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+
+#page section#vissel-twitter-campaign-steps>.l-inner .vissel-twitter-campaign-steps--wrapper+p {
+  margin: 36px auto 0;
+  text-align: center;
+}
+
+#page section#vissel-twitter-campaign-steps>.l-inner .vissel-twitter-campaign-steps--wrapper+p a {
+  color: black;
+}
+
+#page section#vissel-campaign-steps>.l-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 16px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+#page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .btn-apply {
+  margin: 24px auto 0;
+}
+
+#page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .btn-apply .l-inner>* {
+  width: 100%;
+}
+
+#page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .btn-apply .l-inner .trial-btn+p {
+  margin: 12px auto 0;
+}
+
+#page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .campaign-code-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 24px auto 0;
+}
+
+#page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .campaign-code-text .visions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .campaign-code-text .visions>div {
+  padding: 16px 24px;
+  background: #FFF5CC;
+  border: 3px solid #000000;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .campaign-code-text+p {
+  margin-top: 24px;
+  color: #686868;
+}
+
+#page section#vissel-campaign-steps>.l-inner>p {
+  text-align: center;
+}
+
+#page section#vissel-campaign-steps>.l-inner>p a {
+  color: white;
+}
+
+#page section#vissel-playlist>.l-inner {
+  margin: 24px auto;
+}
+
+#page #point-mission {
+  margin: 0 auto 36px;
+}
+
+#page #campaign-merit,
+#page #stack-playback-campaign,
+#page .s-campaign-detail {
+  margin: 36px auto;
+}
+
+#page #price>.l-inner>h1 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #page .RexButton {
+    padding: 8px 0;
+  }
+
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2022/group/vissel-kobe/img/bg_20220626.jpg) no-repeat center top/auto 86.3% black;
+  }
+
+  #page h1.disp1,
+  #page .l-campaign-02>h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #page .vissel-campaign-steps--inner>h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+  }
+
+  #page section#vissel-nav {
+    padding: 0;
+  }
+
+  #page section#vissel-nav .l-inner>ul {
+    margin: 36px auto;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    gap: 16px;
+  }
+
+  #page section#vissel-nav .l-inner>ul>li {
+    width: 200px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+
+  #page section#vissel-nav .l-inner>ul>li:hover {
+    background: #F7F7F7;
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+
+  #page section#vissel-nav .l-inner>ul>li a {
+    padding: 16px 0;
+  }
+
+  #page section#vissel-nav .l-inner>ul>li a p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner {
+    padding: 48px 0px;
+    gap: 36px;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner::after {
+    display: none;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner .vissel-playlist--inner {
+    padding: 32px 58px;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner .vissel-playlist--inner .vissel-playlist--logo {
+    width: 600px;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner .vissel-playlist--inner .vissel-playlist--logo img {
+    width: 100%;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner .vissel-point-campaign-steps--present,
+  #page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner {
+    width: 854px;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner .vissel-point-campaign-steps--present h2 {
+    font-size: 36px;
+    line-height: 47px;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner .vissel-point-campaign-steps--present .vissel-point-campaign-steps--present--inner p.small {
+    width: 776px;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner {
+    padding: 36px;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .vissel-campaign-steps--entries {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .btn-apply .l-inner {
+    width: 100%;
+  }
+
+  #page section#vissel-point-campaign-steps>.l-inner .vissel-campaign-steps--inner .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+
+  #page section#vissel-twitter-campaign-steps>.l-inner {
+    width: 854px;
+    padding: 48px 0px;
+  }
+
+  #page section#vissel-twitter-campaign-steps>.l-inner h2.vissel-twitter-campaign-steps--header img {
+    width: 100%;
+  }
+
+  #page section#vissel-twitter-campaign-steps>.l-inner .vissel-twitter-campaign-steps--wrapper .btn_twitter {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+  }
+
+  #page section#vissel-twitter-campaign-steps>.l-inner .vissel-twitter-campaign-steps--wrapper .btn_twitter li {
+    width: 300px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+
+  #page section#vissel-twitter-campaign-steps>.l-inner .vissel-twitter-campaign-steps--wrapper .btn_twitter li img {
+    width: 100%;
+  }
+
+  #page section#vissel-twitter-campaign-steps>.l-inner .vissel-twitter-campaign-steps--wrapper .btn_twitter li:hover {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+
+  #page section#vissel-campaign-steps>.l-inner {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 36px;
+    padding: 48px 0 12px;
+  }
+
+  #page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner {
+    padding: 36px;
+    width: 848px;
+  }
+
+  #page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner h2 {
+    font-size: 36px;
+    line-height: 47px;
+  }
+
+  #page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .btn-apply .l-inner {
+    width: 100%;
+  }
+
+  #page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+
+  #page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .campaign-code-text {
+    gap: 16px;
+  }
+
+  #page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .campaign-code-text p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .campaign-code-text .visions {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 16px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  #page section#vissel-campaign-steps>.l-inner .vissel-campaign-steps--inner .campaign-code-text .visions>div {
+    font-size: 36px;
+    line-height: 47px;
+    padding: 24px;
+  }
+
+  #page section#vissel-campaign-steps>.l-inner>p a:hover {
+    text-decoration: underline;
+  }
+
+  #page section#vissel-playlist>.l-inner {
+    margin: 36px auto 122px;
+  }
+
+  #page section#vissel-playlist>.l-inner .vissel-playlist--inner {
+    position: relative;
+    padding: 24px 24px 122px;
+    width: 848px;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  #page section#vissel-playlist>.l-inner .vissel-playlist--inner h2 {
+    font-size: 40px;
+    line-height: 52px;
+    display: block;
+    width: 100%;
+  }
+
+  #page section#vissel-playlist>.l-inner .vissel-playlist--inner>p {
+    width: 712px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #page section#vissel-playlist>.l-inner .vissel-playlist--inner .vissel-playlist--notice {
+    position: absolute;
+    bottom: -84px;
+  }
+
+  #page #campaign-merit,
+  #page #stack-playback-campaign,
+  #page .s-campaign-detail {
+    margin: 72px auto;
+  }
+
+  #page .l-inner .heading {
+    padding-top: 36px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  #page .js-toggle.is-open .js-toggle__panel {
+    max-height: none;
+  }
+}
+
+
+/*# sourceMappingURL=style_20220625.css.map */

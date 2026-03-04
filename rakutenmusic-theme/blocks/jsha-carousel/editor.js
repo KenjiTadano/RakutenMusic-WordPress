@@ -34,7 +34,7 @@
 
     wp.blocks.registerBlockType( BLOCK_NAME, {
       title: __( 'ジャケ写カルーセル', 'rakutenmusic-theme' ),
-      category: 'rakutenmusic',
+      category: 'rakutenmusic-common',
       icon: 'images-alt2',
       description: __( '画像が横にスライドするカルーセル。各画像のURL・altを編集できます。', 'rakutenmusic-theme' ),
       attributes: {

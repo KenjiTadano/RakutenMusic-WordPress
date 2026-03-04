@@ -1,0 +1,239 @@
+#page a {
+  color: #BF0000;
+}
+
+#page .l-content #top-section-step {
+  background: #f7f7f7;
+}
+
+#page .l-content .bg-light .summary-group {
+  gap: 24px;
+}
+
+#page .l-content .step-overview ul li {
+  width: 103px;
+}
+
+#page .l-content .multi-step>h3 {
+  text-align: center;
+  background: #44328B;
+  color: #FFFFFF;
+}
+
+#page .l-content #top-section-step strong.red {
+  color: #BF0000;
+}
+
+#page .l-content .step-overview ul li p.step-overview-number {
+  color: #44328B;
+}
+
+.slick-dots li button::before {
+  content: none;
+}
+
+#page .campaign-hero__schedule p:first-child br:last-child {
+  display: none;
+}
+
+#page .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration: underline;
+}
+
+#page .App {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+#page .CampaignButton {
+  margin: 0;
+}
+
+#page .RedirectionText {
+  margin: 0;
+}
+
+#page .Below {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+#page .agreement-message strong {
+  color: black;
+}
+
+#page .InfoText {
+  margin: 0;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+
+#page .CampaignButton-success span.RexButton-message {
+  color: #047205;
+}
+
+#page #best-value-music-app {
+  display: flex;
+  padding: 24px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+#page #best-value-music-app h2 {
+  color: #000;
+  text-align: justify;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+
+#page #best-value-music-app h3 img {
+  width: 182px;
+  height: 32px;
+}
+
+#page .campaign-detail__table td {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#page .l-campaign-03 .s-campaign-detail h2 {
+  color: black;
+}
+
+#page .l-campaign-03 .s-campaign-detail a {
+  color: #00a0f0;
+}
+
+#page .l-content .multi-step .multi-step-content p.Limited_lead {
+  color: #BF0000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+#page .l-content .multi-step .multi-step-content p.step2_text {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+#page .l-content .multi-step .multi-step-content p.step3_text {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+#page .l-content #top-section-step p.small {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+/*------ 以下PC設定 ------ */
+
+@media screen and (min-width: 768px) {
+  #page .App {
+    width: 600px;
+    gap: 24px;
+  }
+
+  #page .l-content .bg-light .summary-group {
+    gap: 32px;
+  }
+
+
+  #page .CampaignButton-enabled span.RexButton-message {
+    font-size: 36px;
+  }
+
+  #page .CampaignButton a {
+    max-width: none;
+  }
+
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2025/meikyushiori-prerelease/img/bg.jpg) no-repeat center top/auto 86.4% #B7992E;
+  }
+
+  #page .s-campaign-hero::after {
+    width: 100%;
+    height: 70px;
+    background: #E5597B;
+    position: absolute;
+    bottom: 0;
+  }
+
+  #page #best-value-music-app {
+    padding: 32px 0;
+  }
+
+  #page #best-value-music-app h3 img {
+    width: 273px;
+    height: 48px;
+  }
+
+  #page .l-content .multi-step .multi-step-content {
+    gap: 24px;
+  }
+
+  #page .l-content .multi-step .multi-step-content p.Limited_lead {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  #page .l-content .multi-step .multi-step-content p.step2_text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  #page .l-content .multi-step .multi-step-content p.step3_text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  #page .l-content .step-overview ul li {
+    width: 160px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  #page .CampaignButton-enabled span.RexButton-message,
+  #page .CampaignButton-disabled span.RexButton-message,
+  #page .CampaignButton-applied span.RexButton-message,
+  #page .CampaignButton-success span.RexButton-message {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

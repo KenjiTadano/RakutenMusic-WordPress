@@ -1,0 +1,123 @@
+#page #campaign-step .l-inner p {
+  text-align: center;
+}
+
+#page #campaign-step .l-inner p strong {
+  font-size: 1.6em;
+  color: red;
+}
+
+#page #campaign-step .l-inner .trial-btn {
+  width: 100%;
+  background: #bf0000;
+  text-align: center;
+  border-radius: 12px;
+  margin: 24px auto;
+}
+
+#page #campaign-step .l-inner .trial-btn a {
+  color: white;
+  padding: 2em 0;
+  display: block;
+}
+
+#page #campaign-step .l-inner .code {
+  margin: 24px auto;
+}
+
+#page #campaign-step .l-inner .code > div {
+  border: 2px solid #00173d;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+#page #campaign-step .l-inner .code > div:first-child {
+  background: #00173d;
+  color: white;
+}
+
+#page #campaign-step .l-inner .code + p {
+  text-align: justify;
+}
+
+#page #campaign-step .l-inner .code + p small {
+  font-size: 12px;
+}
+
+#page #campaign-step .l-inner .howtouse h3 {
+  background: #00173d;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  padding: 0.5em 0;
+}
+
+#page #campaign-step .l-inner .howtouse figure + p {
+  text-align: justify;
+  margin: 1em 0;
+}
+
+#page #campaign-step .l-inner .howtouse .slick-dots {
+  margin: 0;
+}
+
+#page #campaign-step .l-inner .howtouse .slick-dots li button:before {
+  content: none;
+}
+
+#page #campaign-step .l-inner .howtouse .slick-arrow {
+  z-index: 1;
+}
+
+#page #campaign-step .l-inner .howtouse .slick-arrow:before {
+  color: black;
+}
+
+#page #campaign-step .l-inner .howtouse .slick-prev {
+  left: 0;
+}
+
+#page #campaign-step .l-inner .howtouse .slick-next {
+  right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    padding: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff5593+0,ffa372+84,000000+84,000000+100 */
+    background: #ff5593;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #ff5593 0%, #ffa372 85.5%, #000000 85.5%, #000000 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ff5593 0%, #ffa372 85.5%, #000000 85.5%, #000000 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ff5593 0%, #ffa372 85.5%, #000000 85.5%, #000000 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5593', endColorstr='#000000',GradientType=0 );
+    /* IE6-9 */
+  }
+  #page #campaign-step .l-inner .btn-apply {
+    margin: 24px auto 64px;
+  }
+  #page #campaign-step .l-inner .trial-btn {
+    width: 440px;
+    transition: all 0.2s ease-in;
+    font-size: 20px;
+  }
+  #page #campaign-step .l-inner .trial-btn:hover {
+    background: #ff1212;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  #page #campaign-step .l-inner .howtouse figure img {
+    width: 100%;
+  }
+  #page #campaign-step .l-inner .howtouse .slick-slide {
+    margin: 0 12px;
+  }
+  #page #campaign-step .l-inner .code {
+    width: 440px;
+  }
+  #page #campaign-step .l-inner .code + p {
+    text-align: center;
+  }
+}

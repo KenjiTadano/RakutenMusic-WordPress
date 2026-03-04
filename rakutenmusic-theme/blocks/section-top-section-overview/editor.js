@@ -22,7 +22,7 @@
 
     wp.blocks.registerBlockType(BLOCK_NAME, {
       title: __('バンドル：OVERVIEW', 'rakutenmusic-theme'),
-      category: 'rakutenmusic',
+      category: 'rakutenmusic-bundle',
       icon: 'visibility',
       description: __('バンドルプラン：OVERVIEW セクション（バンドルとは）', 'rakutenmusic-theme'),
       attributes: {

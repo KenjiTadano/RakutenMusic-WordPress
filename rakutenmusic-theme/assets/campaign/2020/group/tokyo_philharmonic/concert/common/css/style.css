@@ -1,0 +1,290 @@
+#page .s-campaign-hero {
+    padding: 0;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/tokyo_philharmonic/concert/common/img/bg.jpg) repeat center top/auto 100%;
+    position: relative;
+}
+
+#page #bnr-600x100 {
+    padding: 0;
+    margin: 6rem 0;
+}
+
+#page #bnr-600x100 .content-box__image {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#page #introduction {
+    margin: 6rem auto 9rem;
+}
+
+#page #introduction .l-inner {
+    display: flex;
+}
+
+#page #introduction .l-inner figure {
+    width: 450px;
+}
+
+#page #introduction .l-inner figure img {
+    width: 100%;
+}
+
+#page #introduction .l-inner>div {
+    flex: 1;
+    background: white;
+    box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 30px;
+    right: 30px;
+    padding: 3rem;
+}
+
+#page #introduction .l-inner>div:after {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    background: #b89715;
+    position: absolute;
+    top: 2rem;
+    left: -2rem;
+}
+
+#page #introduction .l-inner>div>h3 {
+    font-size: 2.2rem;
+}
+
+#page #introduction .l-inner>div>h3>small {
+    font-weight: normal;
+    color: grey;
+    margin-right: 1.4rem;
+}
+
+#page #playlist .l-inner {
+    box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 3rem;
+    padding: 6rem;
+    margin: 6rem auto;
+}
+
+#page #playlist .l-inner>div.title {
+    display: flex;
+}
+
+#page #playlist .l-inner>div.title figure {
+    width: 180px;
+    height: 180px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#page #playlist .l-inner>div.title figure>div {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+#page #playlist .l-inner>div.title figure>div:nth-child(1) {
+    border-top-left-radius: 20px;
+}
+
+#page #playlist .l-inner>div.title figure>div:nth-child(2) {
+    border-top-right-radius: 20px;
+}
+
+#page #playlist .l-inner>div.title figure>div:nth-child(3) {
+    border-bottom-left-radius: 20px;
+}
+
+#page #playlist .l-inner>div.title figure>div:nth-child(4) {
+    border-bottom-right-radius: 20px;
+}
+
+#page #playlist .l-inner>div.title figure>div img {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+
+#page #playlist .l-inner>div.title figure:before {
+    content: "";
+    display: block;
+    width: 144px;
+    height: 144px;
+    background: black;
+    border-radius: 144px;
+    position: absolute;
+    top: 18px;
+    left: 100px;
+    z-index: -1;
+}
+
+#page #playlist .l-inner>div.title figure:after {
+    content: "";
+    display: block;
+    width: 44px;
+    height: 44px;
+    background: #464646;
+    border-radius: 44px;
+    position: absolute;
+    top: 68px;
+    left: 150px;
+    z-index: -1;
+}
+
+#page #playlist .l-inner>div.title>div {
+    margin-left: 100px;
+}
+
+#page #playlist .l-inner>div.title>div h1 {
+    font-size: 1.6rem;
+}
+
+#page #playlist .l-inner>div.title>div .btn {
+    background: #bf0000;
+    margin: 1.5rem 0 0;
+}
+
+#page #playlist .l-inner>div.title>div .btn a {
+    color: white;
+    display: block;
+}
+
+#page #playlist .l-inner>div.title>div .btn a:hover {
+    color: white;
+}
+
+#page #playlist .l-inner>div.songs ul {
+    margin: 3rem 0 0;
+}
+
+#page #playlist .l-inner>div.songs ul li {
+    border-top: 1px solid #d7d7d7;
+    display: flex;
+    padding: 2rem;
+}
+
+#page #playlist .l-inner>div.songs ul li:last-child {
+    border-bottom: 1px solid #d7d7d7;
+}
+
+#page #playlist .l-inner>div.songs ul li p:first-child {
+    width: 70%;
+}
+
+#page #playlist .l-inner>div.songs ul li p:last-of-type {
+    font-size: 1.2rem;
+    color: #707070;
+    padding-left: 2.4rem;
+}
+
+#page #playlist .l-inner>div.songs>p.playlist-total {
+    margin-top: 2.4rem;
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+}
+
+#page #app-download {
+    margin: 4rem 0 6rem;
+    background: whitesmoke;
+    padding: 0 0 6rem;
+}
+
+#page #app-download .l-inner ul {
+    display: flex;
+    justify-content: center;
+}
+
+#page #app-download .l-inner ul li {
+    width: 200px;
+    margin: 0 1.2rem;
+}
+
+#page #app-download .l-inner ul li a {
+    transition: all 0.2s ease-in;
+}
+
+#page #app-download .l-inner ul li a img {
+    width: 100%;
+}
+
+#page #app-download .l-inner ul li a:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    #page #bnr-600x100 {
+        margin: 3rem 0;
+    }
+    #page #bnr-600x100 .content-box__image {
+        width: 86vw;
+    }
+    #page #introduction {
+        margin: 3rem auto 6rem;
+    }
+    #page #introduction .l-inner {
+        display: block;
+    }
+    #page #introduction .l-inner figure {
+        width: 86vw;
+        margin: 0 auto;
+    }
+    #page #introduction .l-inner>div {
+        position: relative;
+        top: initial;
+        right: initial;
+    }
+    #page #introduction .l-inner>div:after {
+        left: 50%;
+        margin-left: -15%;
+    }
+    #page #playlist .l-inner {
+        margin: 3rem auto;
+        width: 86vw;
+        padding: 3rem;
+    }
+    #page #playlist .l-inner>div.title {
+        display: block;
+    }
+    #page #playlist .l-inner>div.title figure {
+        width: 50vw;
+        height: 50vw;
+    }
+    #page #playlist .l-inner>div.title figure:before {
+        width: 40vw;
+        height: 40vw;
+        top: 5vw;
+        left: 30vw;
+    }
+    #page #playlist .l-inner>div.title figure:after {
+        width: 10vw;
+        height: 10vw;
+        top: 20vw;
+        left: 46vw;
+    }
+    #page #playlist .l-inner>div.title>div {
+        margin: 1.6rem 0 0;
+    }
+    #page #playlist .l-inner>div.songs ul li {
+        display: block;
+        padding: 1.6rem 0;
+    }
+    #page #playlist .l-inner>div.songs ul li p {
+        width: 100%;
+    }
+    #page #playlist .l-inner>div.songs ul li p:last-of-type {
+        padding: 0;
+    }
+    #page #app-download {
+        padding: 2rem 0 4rem;
+    }
+}

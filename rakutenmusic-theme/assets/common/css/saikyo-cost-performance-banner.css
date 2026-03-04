@@ -1,0 +1,15 @@
+#page .stack-cospa-saikyo-bnr {
+  text-align: center;
+}
+#page .stack-cospa-saikyo-bnr img {
+  width: 100%;
+}
+
+@media screen and (min-width: 950px) {
+  #page .stack-cospa-saikyo-bnr {
+    background: #d80000;
+  }
+  #page .stack-cospa-saikyo-bnr img {
+    width: 950px;
+  }
+}/*# sourceMappingURL=saikyo-cost-performance-banner.css.map */

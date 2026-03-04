@@ -1,0 +1,657 @@
+@charset "UTF-8";
+/*--------------------------------
+  �����@h1-bg ���� 
+--------------------------------*/
+/*----���� seal ����----*/
+/*#page .s-campaign-hero {
+  background: transparent url(https://music.r10s.jp/external/prod/assets/campaign/books/img/bg-top-step.png) no-repeat scroll center top 40px;
+  text-align: center;
+}*/
+/*----���� seal ����----*/
+/*----���� default ����----*/
+.l-campaign-01 {
+  background: transparent url(https://music.r10s.jp/external/prod/assets/campaign/books/img/bg-top-step.png) no-repeat scroll center top 40px;
+  text-align: center;
+}
+
+/*----���� default ����----*/
+/*--------------------------------
+ �@�����@h1-bg�@���� 
+--------------------------------*/
+.con-box {
+  width: 700px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.con-bottom {
+  background: transparent url(https://music.r10s.jp/external/prod/assets/campaign/books/img/bg-step.png) no-repeat scroll center bottom;
+  margin: 10px 0 0;
+  padding: 30px 0 210px;
+  position: relative;
+  text-align: center;
+}
+
+#page .btn--default {
+  display: block;
+  font-size: 145%;
+  font-weight: bold;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #bf0000;
+  border-radius: 10px;
+  border-bottom: 5px solid #750404;
+}
+#page .s-entry-form .entry-form__button .btn {
+  padding: 20px 0;
+  width: 650px;
+}
+#page .btn--default:hover {
+  background-color: #bf0000;
+  border-bottom: none;
+  text-decoration: none;
+  margin-top: 5px;
+}
+#page .btn:hover {
+  box-shadow: none;
+}
+#page .s-entry-form .l-inner {
+  width: 650px;
+  padding: 0;
+}
+#page .item-list .item__card figure figcaption {
+  text-align: left;
+}
+#page .item-list .item__card figure figcaption a {
+  display: block;
+}
+#page .item-list .item__card figure figcaption > p {
+  color: black;
+}
+#page .item-list .item__card figure figcaption > p b {
+  color: #bf0000;
+}
+
+.br-display {
+  display: none;
+}
+
+.text-step {
+  width: 650px;
+  margin: 20px auto;
+  padding: 4px;
+  background: #000;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+#page .campaign-hero__schedule {
+  background: none !important;
+  padding: 16px;
+  color: #4d4d4d;
+  font-size: 1.8rem;
+  line-height: 1.83;
+  text-align: center;
+  margin: 25px 0 0;
+}
+#page .s-entry-form {
+  padding: 32px 0 20px;
+}
+
+/* ==============================================
+  qr-box
+============================================== */
+.arrow {
+  margin: 35px 0 30px;
+  text-align: center;
+}
+
+.qr-box-pc {
+  display: flex;
+  margin-top: 15px;
+}
+.qr-box-pc li dl {
+  display: table;
+}
+.qr-box-pc li dl dt {
+  padding: 0 40px;
+}
+.qr-box-pc li dl > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.qr-box-sp {
+  display: none;
+}
+
+/* ==============================================
+  recommend-3
+============================================== */
+.recommend-3-pc {
+  padding: 0;
+}
+.recommend-3-pc > li {
+  list-style: none;
+  width: 226px;
+  height: 65px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 5px 0;
+}
+.recommend-3-pc > li a {
+  display: block;
+}
+.recommend-3-pc > li a:hover {
+  margin-left: -226px;
+}
+
+.recommend-3-sp {
+  display: none;
+}
+
+/* ==============================================
+  API
+============================================== */
+.template {
+  width: 950px;
+  margin: 0 auto;
+}
+.template .rankingContents {
+  width: 950px;
+}
+.template .rankingContents ol {
+  list-style: none outside none;
+  overflow: hidden;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+.template .rankingContents li {
+  width: 190px;
+  height: 25em;
+  font-size: 82%;
+  text-align: left;
+  line-height: 1.2;
+  display: inline;
+  overflow: hidden;
+}
+.template .rankingContents li .image {
+  display: block;
+  margin-bottom: 5px;
+  height: 180px;
+}
+.template .rankingContents li .image span {
+  display: block;
+}
+.template .rankingContents li .image img {
+  margin-top: 4px;
+  border: 0 none;
+}
+.template .rankingContents li .note {
+  display: block;
+  word-break: break-all;
+  margin-right: 20px;
+}
+.template .rankingContents li .note a {
+  display: block;
+  height: 32px;
+  font-weight: bold;
+  overflow: hidden;
+}
+.template .rankingContents li .note span.before {
+  margin-top: 2px;
+  display: block;
+  color: #666666;
+  text-decoration: line-through;
+}
+.template .rankingContents li .note span.after {
+  margin-top: 2px;
+  display: block;
+  color: #BF0000;
+  font-weight: bold;
+}
+.template .rankingContents li .note span.discountRate {
+  margin-top: 2px;
+  padding: 2px 5px 0;
+  display: inline-block;
+  color: #333;
+  line-height: 15px;
+  font-weight: bold;
+  background-color: #f5ff32;
+}
+.template .rankingContents li .note span.genreicon {
+  display: block;
+  margin-bottom: 3px;
+}
+.template .rankingContents li .note span.textFormattingSub {
+  display: block;
+  /*height:30px*/
+}
+
+.template-sp {
+  display: none;
+}
+
+/* ==============================================
+  h2 h3
+============================================== */
+.recommend-p {
+  font-size: 2.2rem;
+  padding-bottom: 40px;
+}
+
+.recommend-h2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 2.4rem;
+}
+
+.recommend-h3 {
+  border-left: 5px solid #e74242;
+  padding-left: 10px;
+}
+
+/* ==============================================
+  btn
+============================================== */
+.btn-more-red {
+  width: 600px;
+  margin: 20px auto 40px;
+}
+.btn-more-red a {
+  border-radius: 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  color: white !important;
+  background: #bf0000;
+  padding: 16px 0;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+.btn-more-red a:hover {
+  background-color: #ff1212;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  color: white !important;
+}
+@media screen and (min-width: 769px) {
+div#rex-btn1 {
+    margin: 2vw;
+}}
+@media screen and (max-width: 768px) {
+  .con-box {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 2vw 4vw;
+  }
+
+  #page .btn--default {
+    display: block;
+    font-size: 5vw;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #bf0000;
+    border-radius: 5px;
+    border-bottom: 3px solid #750404;
+  }
+  #page .s-entry-form .entry-form__button .btn {
+    width: 92%;
+    margin: 0 auto;
+  }
+  #page .btn--default:hover {
+    border-bottom: none;
+    background-color: #bf0000;
+    color: #fff;
+    text-decoration: none;
+  }
+  #page .btn:hover {
+    box-shadow: none;
+  }
+  #page .s-campaign-hero {
+    background: none;
+    text-align: center;
+  }
+  #page .s-entry-form .l-inner {
+    width: 100%;
+  }
+
+  .br-display {
+    display: block;
+  }
+
+  #page .campaign-hero__schedule {
+    background: #4d4d4d !important;
+    padding: 16px;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.83;
+    margin: 0px 20px;
+    text-align: center;
+  }
+
+  .text-step {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2vw;
+    background: #000;
+    border-radius: 0;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  #page .s-entry-form .entry-form__note {
+    margin: 24px 20px 0;
+    color: #686868;
+    font-size: 4vw;
+  }
+
+  /* ==============================================
+    qr-box
+  ============================================== */
+  .arrow {
+    margin: 0 auto;
+    width: 10vw;
+    padding: 0 0 2vw;
+  }
+
+  .qr-box-pc {
+    display: none;
+  }
+
+  .qr-box-sp {
+    display: block;
+  }
+  .qr-box-sp ul {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  .qr-box-sp li {
+    display: table-cell;
+    padding: 0 1vw !important;
+  }
+
+  /* ==============================================
+    recommend-3
+  ============================================== */
+  .recommend-3-pc {
+    display: none;
+  }
+
+  .recommend-sp {
+    display: block;
+  }
+
+  .recommend-3-sp {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  .recommend-3-sp li {
+    display: table-cell;
+    padding: 0 1vw !important;
+  }
+
+  .con-bottom {
+    width: 90vw;
+    font-size: 4vw;
+    text-align: justify;
+    padding: 0;
+    margin: 3vw auto;
+    background: none;
+  }
+
+  /* ==============================================
+    API
+  ============================================== */
+  .template {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .template-pc {
+    display: none;
+  }
+
+  .template-sp {
+    display: block;
+  }
+
+  /* ==============================================
+    itemApiArea
+  ============================================== */
+  .template .rankingContents {
+    width: 100%;
+  }
+
+  .itemApiArea {
+    margin: 0;
+    padding: 0;
+  }
+  .itemApiArea ul > li {
+    padding: 10px 0;
+    border-bottom: 1px solid #dddddd;
+  }
+  .itemApiArea ul > li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .itemApiArea dl.itemBox dd ul li {
+    display: inline;
+    margin-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .itemApiArea dl.itemBox dd p.price span.before {
+    display: block;
+    margin-bottom: 6px;
+    color: #888888;
+    text-decoration: line-through;
+  }
+  .itemApiArea dl.itemBox dd .price em {
+    line-height: 1.5;
+    color: #bf0000;
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .itemApiArea dl.itemBox dd .price span.apiTax {
+    color: #bf0000;
+    font-size: 11px;
+    font-weight: normal;
+  }
+  .itemApiArea dl.itemBox dd .price span.discount {
+    color: #bf0000;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .itemApiArea dl.itemBox p {
+    padding-bottom: 3px;
+    line-height: 1;
+    font-size: 3.5vw;
+  }
+  .itemApiArea dl.itemBox a {
+    padding-bottom: 5px;
+  }
+  .itemApiArea dl.itemBox .apiRankIc {
+    display: inline-block;
+    width: 4vw;
+    height: 4vw;
+    padding-top: 0.8vw;
+    background: url(https://books.rakuten.co.jp/event/common/img/ic-apirank.png) bottom left no-repeat;
+    -webkit-background-size: 4vw 4vw;
+    background-size: 4vw 4vw;
+    color: #ffffff;
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+  }
+  .itemApiArea div.itemHorizontal ul li a, .itemApiArea div.itemVertical ul li a {
+    -webkit-tap-highlight-color: rgba(0, 0, 215, 0.4);
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+  }
+  .itemApiArea div.item3 ul {
+    overflow: hidden;
+    zoom: 1;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  .itemApiArea div.item3 ul li {
+    width: calc(100% / 3);
+    -webkit-flex-grow: 1;
+    display: flex;
+    height: inherit;
+    align-items: flex-start;
+    border: 0.4vw solid #eaeaea;
+    border-left-width: 0;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    flex: 0 0 33.333%;
+  }
+  .itemApiArea div.item3 ul li:nth-child(n+4) {
+    border-top-width: 0;
+  }
+  .itemApiArea div.item3 ul li:nth-child(3n+1) {
+    border-left-width: 1px;
+  }
+  .itemApiArea div.item3 a {
+    display: table;
+    width: 100%;
+    padding: 0;
+  }
+  .itemApiArea div.item3 dl {
+    margin: 2vw 3vw;
+  }
+  .itemApiArea div.item3 dt {
+    display: flex;
+    table-layout: fixed;
+    align-items: center;
+    width: 100%;
+    height: 43vw;
+  }
+  .itemApiArea div.item3 dt span {
+    display: table-cell;
+    vertical-align: bottom;
+  }
+  .itemApiArea div.item3 dt img {
+    display: block;
+    width: auto !important;
+    max-height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 3vw 0vw 2vw;
+  }
+  .itemApiArea div.item3 dd {
+    margin: 2vw 0 1vw;
+  }
+  .itemApiArea div.item3 dd .apiRankIc {
+    margin-right: 1vw;
+  }
+  .itemApiArea div.item3 .textFormattingTtl {
+    display: inline;
+    overflow: hidden;
+    height: 4.7em;
+    color: #224499;
+    font-size: 3.8vw;
+    font-weight: bold;
+    line-height: 1.4;
+    word-break: break-all;
+  }
+  .itemApiArea div.item3 .textFormattingTtl span {
+    display: inline-block;
+  }
+  .itemApiArea div.item3 dd ul.subData {
+    border: none;
+    display: block;
+  }
+  .itemApiArea div.item3 dd .subData li {
+    width: 100%;
+    height: auto;
+    color: #888888;
+    border: none;
+    line-height: 1.5;
+    font-size: 3.5vw;
+    padding-bottom: 3vw !important;
+  }
+  .itemApiArea div.item3 dd .price {
+    margin-bottom: 20px;
+  }
+  .itemApiArea div.item3 dd .price em {
+    font-size: 3.5vw;
+  }
+  .itemApiArea div.item3 dd .price .apiTax {
+    font-size: 11px;
+  }
+  .itemApiArea div.item3 dd .price .discount {
+    display: inline;
+  }
+
+  /* ==============================================
+    h2 h3
+  ============================================== */
+  .recommend-p {
+    font-size: 2.2rem;
+    padding: 20px 0;
+  }
+
+  #page h2 {
+    margin: 0 auto;
+  }
+
+  .recommend-h2 {
+    padding: 4vw 0;
+    width: 90vw;
+    text-align: justify;
+    font-size: 2.2rem;
+  }
+
+  .recommend-h3 {
+    border-left: 2vw solid #F00000;
+    width: 90vw;
+    margin-left: 2vw;
+  }
+
+  /* ==============================================
+    btn
+  ============================================== */
+  .btn-more-red {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  /* ==============================================
+    inc
+  ============================================== */
+  /*template_all*/
+  .inc-about-pc {
+    display: none;
+  }
+
+  .inc-about-sp {
+    display: block;
+  }
+
+  #page .inc-about-sp ol li {
+    margin: 2vw 0;
+  }
+}

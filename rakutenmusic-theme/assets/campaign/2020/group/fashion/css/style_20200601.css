@@ -1,0 +1,511 @@
+#page .no-410 {
+    display: block;
+}
+#page .s-campaign-hero {
+  padding: 0;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/fashion/img/bg_20200601.gif) no-repeat center top/auto 85.5%;
+    background-color: #e4f4ff;
+  position: relative;
+}
+#page .s-campaign-hero:after {
+  content: "";
+  background: #4d4d4d;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+
+#page .s-campaign-hero .campaign-hero__schedule {
+  z-index: 1;
+  position: relative;
+}
+#page .h2-logo {
+    margin: 60px auto 0px;
+    text-align: center;
+}
+#page .h2-logo img {
+    width: 390px;
+}
+
+#page .heading--m {
+    padding-top: none;
+}
+
+#page #campaign-steps .l-inner {
+    counter-reset: number;
+}
+
+#page #campaign-steps .l-inner > ol > li {
+    padding: 4rem;
+    margin: 4rem 0 12rem;
+    position: relative;
+    background: #F6F6F6;
+    border-radius: 10px;
+}
+
+#page #campaign-steps .l-inner > ol > li:last-child {
+    margin: 4rem 0;
+}
+
+#page #campaign-steps .l-inner > ol > li:not(:last-child)::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+    border-width: 5rem 5rem 0 5rem;
+    border-color: #FB598B transparent transparent transparent;
+  position: absolute;
+  bottom: -5rem;
+  left: 50%;
+  margin-left: -5rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .arrow {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5rem 5rem 0 5rem;
+    border-color: #FB598B transparent transparent transparent;
+    position: relative;
+    left: 50%;
+    margin-left: -5rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .cpn-ttl-img {
+    text-align: center;
+    width: 100%;
+}
+
+#page #campaign-steps .l-inner > ol > li .cpn-ttl-img img {
+    margin: 3rem auto;
+}
+
+#page #campaign-steps .l-inner > ol > li .mar0 img {
+    margin: 0 auto;
+}
+
+
+#page #campaign-steps .l-inner > ol > li > h3 {
+    width: 540px;
+    margin: 0 auto;
+    padding-left: 7.2rem;
+    text-indent: -9.2rem;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+    text-align: left;
+}
+
+#page #campaign-steps .l-inner > ol > li:nth-child(2) h3 {
+    width: 430px;
+    height: 72px;
+    line-height: 2.6rem;
+}
+
+#page #campaign-steps .l-inner > ol > li:nth-child(3) h3 {
+    width: 470px;
+    height: 72px;
+    line-height: 2.6rem;
+}
+
+#page #campaign-steps .l-inner > ol > li > h3 > small {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+#page #campaign-steps .l-inner > ol > li > h3::before {
+    position: relative;
+    top: 20px;
+    counter-increment: number;
+    content: counter(number);
+    margin-right: 20px;
+    padding: 16px 20px;
+    background: #FB598B;
+    font-family: 'ヒラギノ角ゴシック','Hiragino Sans','Roboto';
+    font-size: 4rem;
+    color: white;
+}
+
+#page #campaign-steps .l-inner > ol > li > h4 {
+  margin: 3rem 0 2rem;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+#page #campaign-steps .l-inner > ol > li p {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#page #campaign-steps .l-inner > ol > li p.lead {
+  margin: 4rem 0 2rem !important;
+}
+
+#page #campaign-steps .l-inner > ol > li p.lead strong {
+  font-size: 1.2em;
+  color: red;
+}
+
+#page #campaign-steps .l-inner > ol > li .trial-btn {
+  width: 400px;
+  height: 100px;
+  margin: 0 auto;
+  background: #bf0000;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+#page #campaign-steps .l-inner > ol > li .trial-btn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  position: relative;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .trial-btn:hover {
+  background: #ff1212;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#page #campaign-steps .l-inner > ol > li .trial-btn + p {
+  margin: 1.25rem 0 0;
+  line-height: 1.25em;
+}
+#page #campaign-steps .l-inner > ol > li .button--style6327 .btn {
+    width: 400px;
+    height: 90px;
+    margin: 0 auto;
+    padding: 28px 24px;
+    font-size: 2rem;
+    color: #fff;
+    background: #FB598B;
+    border-radius: 100px;
+    border-color: transparent;
+    transition: all 0.2s;
+    animation-name: fadeIn;
+    -webkit-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+}
+
+#page #campaign-steps .l-inner > ol > li .button--style6327 .btn:hover {
+    background: #ff8caf;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#page #campaign-steps .l-inner > ol > li .campaign-code-steps {
+  margin-bottom: 48px;
+}
+
+#page #campaign-steps .l-inner > ol > li .campaign-code-steps li p {
+  text-align: left;
+}
+
+#page #campaign-steps .l-inner > ol > li .howtoget > div figure {
+  width: 250px;
+  margin: 0 auto;
+}
+
+#page #campaign-steps .l-inner > ol > li .howtoget > div figure img {
+  width: 100%;
+}
+
+#page #campaign-steps .l-inner > ol > li .howtoget > div figure + p {
+  margin-top: 1em;
+}
+
+#page #campaign-steps .l-inner > ol > li .code {
+  display: flex;
+  width: 600px;
+  margin: 1.5rem auto;
+}
+
+#page #campaign-steps .l-inner > ol > li .code > div {
+  padding: 1rem;
+  text-align: center;
+}
+
+#page #campaign-steps .l-inner > ol > li .code > div:first-child {
+  background: #00173d;
+  color: white;
+  border: 2px solid #00173d;
+  width: 40%;
+}
+
+#page #campaign-steps .l-inner > ol > li .code > div:last-child {
+  border: 2px solid #00173d;
+  flex: 1;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps {
+  margin-bottom: 30px !important;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps li {
+  margin: 0 1rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps li h3 {
+  margin: 0;
+  background: #00173d;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps li figure {
+  margin: 1.2rem 0 0.6rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps li figure img {
+  width: 100%;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps li p {
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps + p {
+  margin: 4rem 0 0;
+}
+
+#page #campaign-steps .l-inner > ol > li .slick-arrow::before {
+  color: black;
+}
+
+#page #campaign-steps .l-inner > ol > li .slick-dots {
+  margin-top: -2rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .slick-dots li {
+  margin: 0;
+}
+
+#page #campaign-steps .l-inner > ol > li .slick-dots li button::before {
+  content: initial;
+}
+
+#page #books-items {
+  padding: 2rem;
+}
+
+#page .item-list {
+  justify-content: space-between;
+}
+
+#page .item-list .item__card__title {
+  color: black;
+}
+
+#page .item-list .item__card figure figcaption a {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#page .item-list .item__card figure figcaption a + p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#page .item-list .item__card figure figcaption p b {
+  color: red;
+}
+
+#page .item-list .item__card__image > a {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#page #information .l-inner {
+  padding: 6rem 0 2rem;
+}
+
+#page #information .l-inner > p {
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem 0;
+  background: #fff799;
+  border-radius: 2rem;
+  border: 0.8rem solid #e95f56;
+}
+
+#page #information .l-inner > p > strong {
+  color: #e95f56;
+  font-size: 1.2em;
+}
+
+#page #campaign-90days-trial .l-inner ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#page #campaign-90days-trial .l-inner ul > li {
+  width: calc(90% / 2);
+  border: 1px solid gainsboro;
+  border-radius: 1.2rem;
+  padding: 2.4rem 4rem 1.6rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  transition: all 0.2s ease-in;
+}
+
+#page #campaign-90days-trial .l-inner ul > li a {
+  color: black;
+}
+
+#page #campaign-90days-trial .l-inner ul > li a figure img {
+  width: 80%;
+}
+
+#page #campaign-90days-trial .l-inner ul > li:hover {
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  #page .item-list .item__card:nth-of-type(6), #page .item-list .item__card:nth-of-type(7), #page .item-list .item__card:nth-of-type(8), #page .item-list .item__card:nth-of-type(9), #page .item-list .item__card:nth-of-type(10) {
+    display: none;
+  }
+    #page .s-entry-form {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  #page h2.heading--m {
+    width: 90%;
+    margin: 2rem auto;
+    line-height: 1.5em;
+  }
+#page .h2-logo {
+    margin: 30px auto 0px;
+    text-align: center;
+}
+#page .h2-logo img{
+    width: 250px;
+    }
+  #page #campaign-steps {
+    padding: 2rem 0;
+  }
+  #page #campaign-steps .l-inner > ol > li {
+      margin: 4rem 0 6rem;
+      padding: 4rem 2rem;
+  }
+    #page #campaign-steps .l-inner > ol > li:last-child
+    {
+        margin: 0;
+    }
+    #page #campaign-steps .l-inner > ol > li > h3,
+    #page #campaign-steps .l-inner > ol > li:nth-child(2) h3,
+    #page #campaign-steps .l-inner > ol > li:nth-child(3) h3 {
+        width: 100%;
+        font-size: 2rem;
+        text-indent: -9rem;
+        line-height: 3rem;
+    }
+    #page #campaign-steps .l-inner > ol > li:nth-child(2) h3 {
+        line-height: 2.6rem;
+    }
+    #page #campaign-steps .l-inner > ol > li > h3 > small {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    #page #campaign-steps .l-inner > ol > li > h3::before {
+        left: 2rem;
+        margin-right: 40px;
+        padding: 10px 14px;
+        font-size: 2.6rem;
+    }
+    #page #campaign-steps .l-inner > ol > li > h4 {
+        margin: 3rem 0 1rem;
+        font-size: 2rem;
+    }
+    
+  #page #campaign-steps .l-inner > ol > li .trial-btn {
+    width: 100%;
+  }
+  #page #campaign-steps .l-inner > ol > li .trial-btn a {
+    font-size: 4.2vw;
+  }
+  #page #campaign-steps .l-inner > ol > li .trial-btn + p {
+    text-align: justify;
+  }
+    #page #campaign-steps .l-inner > ol > li .button--style6327 .btn {
+        width: 100%;
+        height: 70px;
+    }
+    #page #campaign-steps .l-inner > ol > li .button--style6327 .btn {
+        padding: 24px 24px;
+        font-size: 1.6rem;
+    }
+    #page .s-entry-form {
+        padding: 0 0 3rem !important;
+    }
+    #page #campaign-steps .l-inner > ol > li .cpn-ttl-img p {
+      font-size: 1.3rem;
+    }
+    #page #campaign-steps .l-inner > ol > li .howtoget > div figure {
+    width: 60%;
+  }
+  #page #campaign-steps .l-inner > ol > li .code {
+    display: block;
+    width: 100%;
+  }
+  #page #campaign-steps .l-inner > ol > li .code > div:first-child, #page #campaign-steps .l-inner > ol > li .code > div:last-child {
+    width: 100%;
+  }
+  #page .slick-arrow {
+    z-index: 1;
+  }
+  #page .slick-prev {
+    left: -1.2rem;
+  }
+  #page .slick-next {
+    right: -1.2rem;
+  }
+  #page #information .l-inner {
+    padding: 4rem 2rem 2rem;
+  }
+  #page #information .l-inner > p {
+    padding: 2rem;
+    font-size: 1.6rem;
+  }
+  #page #campaign-90days-trial .l-inner ul {
+    display: block;
+  }
+  #page #campaign-90days-trial .l-inner ul > li {
+    width: 100%;
+    margin: 0 0 2.4rem;
+  }
+  #page .item-list .js-toggle__trigger {
+    background: whitesmoke;
+    margin: 2rem 0 0;
+  }
+    #page #campaign-steps .l-inner > ol > li:not(:last-child)::after {
+        border-width: 3rem 3rem 0 3rem;
+        bottom: -3rem;
+        margin-left: -3rem;
+    }
+    #page #campaign-steps .l-inner > ol > li .arrow {
+        border-width: 3rem 3rem 0 3rem;
+        margin-left: -3rem;
+    }
+}
+@media screen and (max-width: 410px) {
+    #page .no-410 {
+        display: none;
+    }
+}

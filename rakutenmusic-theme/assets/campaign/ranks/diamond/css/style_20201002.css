@@ -1,0 +1,205 @@
+body {
+    line-height: 1.5;
+}
+
+#page .heading--m {
+    line-height: 1.5;
+}
+
+#page .l-inner {
+    width: 1072px;
+    padding: 0 16px;
+}
+
+#page #ranks-songs {
+    overflow: hidden;
+}
+
+#page #steps {
+    margin: 24px auto 36px;
+    background: #f7f7f7;
+    padding-top: 2.4rem;
+    padding-bottom: 3.2rem;
+}
+
+#page #steps .l-inner > figure {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#page #steps .l-inner > figure > img {
+    width: 100%;
+}
+
+#page #steps .l-inner .arrow {
+    margin: 0 auto;
+    width: 88px;
+}
+
+#page #steps .l-inner p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#page #steps .l-inner > ol > li {
+    border: 1px solid #48356d;
+    padding: 2rem;
+    margin: 0 0 24px;
+}
+
+#page #steps .l-inner > ol > li:first-child {
+    padding-bottom: 48px;
+}
+
+#page #steps .l-inner > ol > li:nth-child(2) {
+    margin-bottom: 0;
+}
+
+#page #steps .l-inner > ol > li > h3 {
+    color: #48356d;
+    margin: 0 0 1em;
+    padding: 0 0 1rem;
+    border-bottom: 1px solid #48356d;
+    font-size: 3.2rem;
+}
+
+#page #steps .l-inner > ol > li > p {
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 0 1em;
+}
+
+#page #steps .l-inner > ol > li > p strong {
+    font-size: 2.8rem;
+    color: #bf0000;
+}
+
+#page #steps .l-inner > ol > li > h4 {
+    color: #48356d;
+    margin: 2em auto 1em;
+}
+
+#page #steps .l-inner > ol > li > figure {
+    justify-content: center;
+    margin: 2em auto 1em;
+    width: 690px;
+}
+
+#page #steps .l-inner > ol > li > figure img {
+    width: 100%;
+}
+
+#page #steps .l-inner > ol > li .btn-apply {
+    margin: 0 auto;
+}
+
+#page #steps .l-inner > ol > li .btn-apply .l-inner .trial-btn {
+    width: 100%;
+}
+
+#page #steps .l-inner > ol > li .btn-apply .l-inner .code {
+    width: 100%;
+}
+
+#page #steps .l-inner > ol > li .btn-apply .l-inner .code > div:first-child {
+    background: #2d1006;
+    border: 2px solid #2d1006;
+}
+
+#page #steps .l-inner > ol > li .btn-apply .l-inner .code > div:last-child {
+    border: 2px solid #2d1006;
+}
+
+#page #steps .l-inner > ol > li .btn-apply .l-inner > p {
+    width: 100%;
+    line-height: 1.5;
+}
+
+#page #steps .l-inner > ol > li .rex-button__1ArV .rex-button__3n3I.rex-button__27xO:before,
+#page #steps .l-inner > ol > li .rex-button__SMNE:before {
+    content: none;
+}
+
+#page #steps .l-inner > ol > li #rex-btn1 {
+    margin: 0 0 0.5em;
+}
+
+#page #steps .l-inner > ol > li #rex-btn1 button {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+#page #steps .l-inner > ol > li #rex-btn1 + p {
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+#page .HTMLBlock + h1.heading {
+    padding-top: 24px;
+    margin-bottom: 32px;
+    font-size: 2.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    #page .heading--m {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 2.4rem;
+    }
+    #page #steps .l-inner > ol > li {
+        padding: 4rem;
+    }
+    #page #steps .l-inner > ol > li > h3 + p {
+        margin: 3rem 0 !important;
+    }
+    #page #steps .l-inner > ol > li .btn-apply {
+        margin: 0 auto;
+    }
+    #page #steps .l-inner > ol > li .btn-apply .l-inner {
+        width: 100%;
+    }
+    #page #steps .l-inner > ol > li .btn-apply .l-inner .trial-btn {
+        width: 400px;
+    }
+    #page #steps .l-inner > ol > li .btn-apply .l-inner .code {
+        width: 400px;
+    }
+    #page #steps .l-inner > ol > li .btn-apply .l-inner .code > div:first-child {
+        width: 45%;
+    }
+    #page #steps .l-inner > ol > li .btn-apply .l-inner .code + p {
+        font-size: 1.2rem;
+        line-height: 1.75;
+    }
+    #page #steps .l-inner > ol > li #rex-btn1 button {
+        width: 400px;
+    }
+    #page #steps .l-inner > ol > li #rex-btn1 + p {
+        line-height: 1.75;
+        text-align: center;
+        margin: 2em auto 0;
+    }
+    #page .HTMLBlock + h1.heading {
+        padding-top: 40px;
+        margin-bottom: 40px;
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+    #page .l-inner {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #page #steps .l-inner > ol > li > figure {
+        width: 100%;
+    }
+    #page #steps .l-inner p {
+        text-align: left;
+    }
+}

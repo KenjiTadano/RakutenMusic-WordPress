@@ -1,0 +1,91 @@
+#page .campaign-hero__schedule {
+    display: none;
+}
+
+#page .s-campaign-hero {
+    padding: 0;
+    background: url("https://music.r10s.jp/external/prod/assets/news/award/img/header_bg.jpg") no-repeat center top/auto 100% black;
+}
+
+#page .heading--m {
+    background: url("https://music.r10s.jp/external/prod/assets/news/award/img/heading_bg.gif") no-repeat center;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    margin: 40px 0;
+    padding: 0;
+}
+
+#page .ccm-page-list:nth-of-type(2) .l-inner ol {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+#page .ccm-page-list:nth-of-type(2) .l-inner ol li {
+    box-shadow: none;
+    width: 100px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-bottom: 4px solid black;
+    border-radius: 0;
+    transition: all 0.2s ease-in;
+}
+
+#page .ccm-page-list:nth-of-type(2) .l-inner ol li:hover {
+    border-bottom: 4px solid #bf0000;
+}
+
+#page .ccm-page-list:nth-of-type(2) .l-inner ol li:first-of-type {
+    border-bottom: 4px solid whitesmoke;
+}
+
+#page .ccm-page-list:nth-of-type(2) .l-inner ol li:nth-of-type(2):hover {
+    border-bottom: 4px solid #bf0000;
+}
+
+#page .ccm-page-list:nth-of-type(2) .l-inner ol li a {
+    color: black;
+}
+
+#page .ccm-page-list:nth-of-type(2) .l-inner ol li a figure {
+    display: none;
+}
+
+#page .ccm-page-list .l-inner ol {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#page .ccm-page-list .l-inner ol li {
+    width: 50%;
+    padding: 1rem;
+}
+
+#page .ccm-page-list .l-inner ol li a figure {
+    transition: all 0.2s ease-in;
+}
+
+#page .ccm-page-list .l-inner ol li a figure img {
+    width: 100%;
+}
+
+#page .ccm-page-list .l-inner ol li a h3 {
+    font-size: 1.6rem;
+    margin: 1.2rem 0;
+}
+
+#page .ccm-page-list .l-inner ol li a:hover figure {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    #page .heading--m {
+        background: url("https://music.r10s.jp/external/prod/assets/news/award/img/heading_bg.gif") no-repeat center/90vw 100%;
+    }
+    #page .ccm-page-list .l-inner ol li {
+        width: 100%;
+    }
+}

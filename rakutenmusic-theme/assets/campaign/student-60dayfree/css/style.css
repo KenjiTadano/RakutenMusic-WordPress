@@ -1,0 +1,1007 @@
+#page #anchor-links .anchor-links {
+  overflow-x: scroll;
+}
+
+#page #anchor-links .anchor-links > ul {
+  -webkit-transform: translateX(16px);
+          transform: translateX(16px);
+  padding-right: 16px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 32px auto;
+  gap: 16px;
+}
+
+#page #anchor-links .anchor-links > ul > li {
+  width: 128px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+#page #anchor-links .anchor-links > ul > li.cpn a {
+  background: #FFF5CC;
+}
+
+#page #anchor-links .anchor-links > ul > li.cpn a span {
+  color: #237B07;
+}
+
+#page #anchor-links .anchor-links > ul > li a {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  color: #333333;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#page #anchor-links .anchor-links > ul > li a i {
+  width: 56px;
+}
+
+#page #anchor-links .anchor-links > ul > li a span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+}
+
+#page #anchor-links .anchor-links > ul > li a::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/student-60dayfree/img/icon_chevron_down_black.png) no-repeat center/cover;
+}
+
+#page .ttl_h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  padding: 12px 16px;
+  background: #237B07;
+  color: white;
+}
+
+#page .ttl_h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+#page .stack-characteristic {
+  margin: 24px auto 48px;
+}
+
+#page #ttl_rakuten_music + h2 {
+  display: none;
+}
+
+#page ul.referral-program {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page ul.referral-program li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 24px;
+  gap: 16px;
+  border-radius: 16px;
+  background: #F7F7F7;
+}
+
+#page ul.referral-program li > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#page ul.referral-program li > p.small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 10px;
+  background: #FFFFFF;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: left;
+  color: #333333;
+}
+
+#page ul.referral-program li.orange {
+  border: 3px solid #F16122;
+}
+
+#page ul.referral-program li.orange p.person {
+  color: #F16122;
+}
+
+#page ul.referral-program li.green {
+  border: 3px solid #237B07;
+}
+
+#page ul.referral-program li.green p.person {
+  color: #237B07;
+}
+
+#page ul.referral-program li .ttl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page ul.referral-program li .ttl > img {
+  width: 72px;
+}
+
+#page ul.referral-program li .ttl > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
+#page ul.referral-program li p.person {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+#page ul.referral-program li p.caption {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page .wrapper-campaign-code-steps {
+  background: #F7F7F7;
+  padding: 32px 16px;
+}
+
+#page .wrapper-campaign-code-steps h3 {
+  margin: 0 auto 16px;
+}
+
+#page .slick-dots {
+  bottom: 0;
+  margin: 16px 0 0;
+}
+
+#page ul.campaign-code-steps li.slick-slide h3 {
+  background: #237B07;
+  color: white;
+  margin: 0 auto 16px;
+}
+
+#page ul.popular_songs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 16px;
+  gap: 8px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 24px auto;
+}
+
+#page ul.popular_songs li {
+  width: 78px;
+}
+
+#page ul.popular_songs li img {
+  border: 1px solid #000000;
+}
+
+#page ul.popular_songs + a {
+  margin: 24px auto;
+  text-align: center;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#page .campaign-hero__schedule a {
+  color: white;
+  text-decoration: underline;
+}
+
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+
+#page .wrapper_orange {
+  width: calc(100% - 32px);
+  margin: 24px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px;
+  gap: 32px;
+  background: #FFFFFF;
+  border: 4px solid #F16122;
+  border-radius: 32px;
+}
+
+#page .wrapper_orange .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page .wrapper_orange .content .caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px;
+  gap: 10px;
+  background: #FFEFD6;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+#page .wrapper_orange .lead {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+#page .wrapper_orange .reward {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page .wrapper_orange .reward p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#page .section_style {
+  max-width: 950px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0px 16px;
+  margin: 32px auto;
+}
+
+#page .section_style > h1 {
+  width: 100%;
+  padding: 16px;
+  background: #000000;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: white;
+  border-radius: 24px 24px 0 0;
+}
+
+#page .section_style .section_style--inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px;
+  gap: 16px;
+  border: 2px solid #000000;
+  border-radius: 0 0 24px 24px;
+}
+
+#page #ttl_campaign_achievement ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page #ttl_campaign_achievement ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 24px;
+  gap: 16px;
+  border-radius: 16px;
+  background: #F7F7F7;
+}
+
+#page #ttl_campaign_achievement ul li > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#page #ttl_campaign_achievement ul li > p.small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 10px;
+  background: #FFFFFF;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: left;
+  color: #333333;
+}
+
+#page #ttl_campaign_achievement ul li.pink {
+  border: 3px solid #F16122;
+}
+
+#page #ttl_campaign_achievement ul li.pink p.person {
+  color: #F16122;
+}
+
+#page #ttl_campaign_achievement ul li.green {
+  border: 3px solid #237B07;
+}
+
+#page #ttl_campaign_achievement ul li.green p.person {
+  color: #237B07;
+}
+
+#page #ttl_campaign_achievement ul li .ttl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page #ttl_campaign_achievement ul li .ttl > img {
+  width: 72px;
+}
+
+#page #ttl_campaign_achievement ul li .ttl > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
+#page #ttl_campaign_achievement ul li p.person {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+#page #ttl_campaign_achievement ul li p.caption {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page #ttl_referral.section_style > h1 {
+  background: #F16122;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+  gap: 16px;
+}
+
+#page #ttl_referral.section_style > h1 img {
+  width: 72px;
+}
+
+#page #ttl_referral.section_style .section_style--inner {
+  border: 4px solid #F16122;
+}
+
+#page #ttl_referral.section_style.green > h1 {
+  background: #237B07;
+}
+
+#page #ttl_referral.section_style.green .section_style--inner {
+  border: 2px solid #237B07;
+}
+
+#page #ttl_referral.section_style.green ol li .step {
+  background: #237B07 !important;
+}
+
+#page #ttl_referral ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page #ttl_referral ol li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page #ttl_referral ol li:first-child {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+#page #ttl_referral ol li:last-child > img {
+  width: 128px;
+}
+
+#page #ttl_referral ol li .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 8px 12px;
+  background: #F16122;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+#page #ttl_referral ol li p.step-txt {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+#page #ttl_referral ol li .invitee-url {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+#page #ttl_referral ol li form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page #ttl_referral ol li form + p.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+#page #ttl_referral ol li form div.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page #ttl_referral ol li form div.form .form-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0px;
+  gap: 8px;
+}
+
+#page #ttl_referral ol li form div.form .form-inner .input-ttl {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page #ttl_referral ol li form div.form .form-inner input {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background: #FFFFFF;
+  border: 1px solid #606060;
+  border-radius: 4px;
+}
+
+#page #ttl_referral ol li form .btn-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 24px;
+  background: #BF0000;
+  border-radius: 64px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+  border: 0;
+}
+
+#page .txt-link {
+  text-align: center;
+}
+
+#page .btn-copy-url {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 24px;
+  background: #FFFFFF;
+  border: 3px solid #BF0000;
+  border-radius: 64px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #BF0000;
+}
+
+#page .point {
+  padding: 0 16px;
+  text-align: center;
+}
+
+#page .s-campaign-detail .js-toggle.is-open .js-toggle__panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+@media screen and (min-width: 767px) {
+  #page .ttl_h2 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/student-60dayfree/img/bg.jpg) no-repeat center top/auto 82% #237b07;
+  }
+  #page .section_style {
+    padding: 0;
+  }
+  #page #ttl_referral.section_style h1 {
+    font-size: 28px;
+    line-height: 140%;
+  }
+  #page #ttl_referral ol {
+    width: 100%;
+    gap: 32px;
+  }
+  #page #ttl_referral ol li {
+    width: 100%;
+    gap: 32px;
+  }
+  #page #ttl_referral ol li:first-child {
+    padding-bottom: 32px;
+  }
+  #page #ttl_referral ol li .invitee-url {
+    gap: 16px;
+  }
+  #page #ttl_referral ol li form {
+    width: 440px;
+    gap: 32px;
+  }
+  #page #ttl_referral ol li form div.form .form-inner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 16px;
+  }
+  #page #ttl_referral ol li form div.form .form-inner .input-ttl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #page #ttl_referral ol li form div.form .form-inner input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #page #ttl_referral ol li form .btn-submit {
+    width: 288px;
+    margin: 0 auto;
+  }
+  #page #ttl_referral ol li form + p.small {
+    margin-top: -16px;
+  }
+  #page ul.referral-program {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page ul.referral-program li {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #page ul.referral-program li > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page ul.referral-program li p.person {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page ul.referral-program li .ttl > div {
+    gap: 8px;
+  }
+  #page .campaign-hero__schedule a:hover {
+    text-decoration: none;
+  }
+  #page #stack_about_student_plan {
+    margin: 32px auto;
+  }
+  #page .wrapper_orange {
+    padding: 32px;
+    width: 950px;
+    margin: 36px auto;
+  }
+  #page .wrapper_orange .content .caption {
+    width: 100%;
+  }
+  #page .wrapper_orange .reward {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page .wrapper_orange .reward img {
+    height: 70px;
+  }
+  #page .campaign-code-steps {
+    width: 950px;
+    margin: 32px auto 0;
+  }
+  #page ul.popular_songs {
+    width: 1024px;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    padding: 0;
+    margin: 32px auto;
+  }
+  #page ul.popular_songs + a {
+    margin: 32px auto;
+  }
+  #page ul.popular_songs li {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #page ul.popular_songs li img {
+    width: 100%;
+  }
+  #page #anchor-links .anchor-links > ul {
+    padding-right: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+  #page #anchor-links .anchor-links > ul > li {
+    width: 160px;
+  }
+  #page #anchor-links .anchor-links > ul > li a {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #anchor-links .anchor-links > ul > li a i img {
+    width: 100%;
+  }
+  #page #anchor-links .anchor-links > ul > li a:hover {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #page .s-campaign-detail .js-toggle.is-open .js-toggle__panel {
+    max-height: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

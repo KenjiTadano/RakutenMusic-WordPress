@@ -10,10 +10,13 @@
 		var PluginDocumentSettingPanel = wp.editPost.PluginDocumentSettingPanel;
 		var useSelect = wp.data.useSelect;
 		var useDispatch = wp.data.useDispatch;
+		var TextControl = wp.components.TextControl;
 		var TextareaControl = wp.components.TextareaControl;
 		var CheckboxControl = wp.components.CheckboxControl;
 		var __ = wp.i18n.__;
 
+		var META_TITLE = 'rakutenmusic_page_meta_title';
+		var META_DESCRIPTION = 'rakutenmusic_page_meta_description';
 		var META_HEADER = 'rakutenmusic_page_header_meta';
 		var META_HEADER_SCRIPTS = 'rakutenmusic_page_header_scripts';
 		var META_BODY_SCRIPTS = 'rakutenmusic_page_body_footer_scripts';
@@ -25,6 +28,8 @@
 			}, [] );
 			var editPost = useDispatch( 'core/editor' ).editPost;
 
+			var metaTitle = ( meta[ META_TITLE ] !== undefined ? meta[ META_TITLE ] : '' ) || '';
+			var metaDescription = ( meta[ META_DESCRIPTION ] !== undefined ? meta[ META_DESCRIPTION ] : '' ) || '';
 			var headerMeta = ( meta[ META_HEADER ] !== undefined ? meta[ META_HEADER ] : '' ) || '';
 			var headerScripts = ( meta[ META_HEADER_SCRIPTS ] !== undefined ? meta[ META_HEADER_SCRIPTS ] : '' ) || '';
 			var bodyScripts = ( meta[ META_BODY_SCRIPTS ] !== undefined ? meta[ META_BODY_SCRIPTS ] : '' ) || '';
@@ -37,6 +42,19 @@
 			return el(
 				PluginDocumentSettingPanel,
 				{ name: 'rakutenmusic-page-settings', title: __( 'ページ設定', 'rakutenmusic-theme' ), className: 'rakutenmusic-page-settings-panel' },
+				el( TextControl, {
+					label: __( 'Metaタイトル', 'rakutenmusic-theme' ),
+					value: metaTitle,
+					onChange: function ( v ) { setMeta( META_TITLE, v || '' ); },
+					help: __( '未入力の場合は投稿タイトルが使用されます。<title>タグに反映されます。', 'rakutenmusic-theme' )
+				} ),
+				el( TextareaControl, {
+					label: __( 'Meta Description', 'rakutenmusic-theme' ),
+					value: metaDescription,
+					onChange: function ( v ) { setMeta( META_DESCRIPTION, v || '' ); },
+					help: __( '検索エンジンの検索結果に表示される説明文です。', 'rakutenmusic-theme' ),
+					rows: 3
+				} ),
 				el( TextareaControl, {
 					label: __( 'ヘッダーに追加するHTML（metaタグなど・複数可）', 'rakutenmusic-theme' ),
 					value: headerMeta,

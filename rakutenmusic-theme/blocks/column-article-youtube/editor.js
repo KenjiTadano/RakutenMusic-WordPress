@@ -17,7 +17,7 @@
 		try { wp.blocks.unregisterBlockType( BLOCK_NAME ); } catch ( e ) {}
 		wp.blocks.registerBlockType( BLOCK_NAME, {
 			title: __( '記事：YouTube', 'rakutenmusic-theme' ),
-			category: 'rakutenmusic',
+			category: 'rakutenmusic-column',
 			icon: 'video-alt3',
 			attributes: {
 				videoType: { type: 'string', default: 'iframe' },

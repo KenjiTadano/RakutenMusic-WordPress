@@ -1,0 +1,185 @@
+#page #HTMLBlock3129 .btn-apply {
+  margin: 2rem auto;
+}
+
+#page .song {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#page .song li {
+  width: 20%;
+  padding: 1rem;
+}
+
+#page .song li figure {
+  height: 156px;
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+#page .song li figure img {
+  width: auto;
+  height: 100%;
+}
+
+#page .song li p strong {
+  font-size: 2rem;
+  margin-right: 0.75rem;
+  color: red;
+}
+
+#page .song li p:first-of-type {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#page .song li p:last-child {
+  font-size: 1.25rem;
+}
+
+#page .playlist {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#page .playlist li {
+  width: calc(100% / 3);
+  padding: 1rem;
+}
+
+#page .playlist li figure img {
+  width: 100%;
+}
+
+#page .playlist li p {
+  margin: 1rem 0;
+}
+
+#page .s-delivery-list {
+  border: none;
+}
+
+#page #HTMLBlock2939 .btn-apply {
+  margin: 20px auto;
+}
+
+#page .campaign-hero__schedule {
+  background-color: #ff42cf;
+}
+
+#page .s-campaign-hero {
+  margin: 0 0 20px;
+}
+
+.con-box {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+div#HTMLBlock422 .con-box {
+  padding: 30px 0 10px;
+}
+
+.text-step {
+  width: 650px;
+  margin: 0 auto;
+  padding: 4px;
+  background: #ffa3e8;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+#page .campaign-hero__schedule__note a {
+  color: #ffe700;
+}
+
+@media screen and (min-width: 768px) {
+  #page .heading--m {
+    padding-top: 40px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #page .heading--m {
+    padding: 0;
+    margin: 2rem;
+  }
+  #page .song {
+    margin: 0 0 3rem;
+  }
+  #page .song li {
+    width: 50%;
+    padding: 3rem 1rem;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+  }
+  #page .song li:nth-child(even) {
+    border-right: 1px solid lightgray;
+  }
+  #page .song li:nth-child(1),
+  #page .song li:nth-child(2) {
+    border-top: 1px solid lightgray;
+  }
+  #page .song li figure {
+    height: 34vw;
+  }
+  #page .playlist li {
+    width: 100%;
+  }
+  #page .rex-button__1ArV .rex-button__3n3I.rex-button__25bR {
+    text-align: center;
+    padding: 0;
+  }
+  #page .rex-button__1ArV .rex-button__3n3I.rex-button__27xO {
+    text-align: center;
+    padding: 0;
+    font-size: 1.5rem;
+    text-indent: 2rem;
+  }
+  #page .rex-button__1ArV .rex-button__3n3I::before {
+    width: 2rem;
+    height: 2rem;
+    left: 4rem;
+  }
+  #page .rex-button__1ArV .rex-button__3n3I.rex-button__32Uc {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0;
+  }
+  #page .campaign-hero__schedule {
+    background: #ff42cf !important;
+  }
+  #page .s-campaign-hero {
+    margin: 0 0 6vw;
+  }
+  .con-box {
+    width: 100%;
+    margin: 4vw auto;
+    text-align: center;
+    padding: 0;
+  }
+  div#HTMLBlock422 .con-box {
+    padding: 3vw 0 0;
+  }
+  .text-step {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2vw;
+    background: #ffa3e8;
+    border-radius: 0;
+    color: #fff;
+    font-size: 2rem;
+  }
+  #page .inc-about-wrap .inc-about-sp {
+    display: block;
+    padding: 0;
+    width: 90vw;
+    margin: 3vw auto;
+  }
+}

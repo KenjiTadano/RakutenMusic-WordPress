@@ -1,0 +1,491 @@
+
+body {
+  line-height: 1.5;
+}
+
+#rank-ddt .rank-ddt_mainvisual .rank-ddt_comment {
+  padding: 0 16px;
+}
+
+#page #stack-rakutenmusicrank {
+  margin: 32px auto;
+}
+#page ul.campaign-code-steps li.slick-slide h3 {
+  background: #5f4590;
+  color: #FFFFFF;
+}
+#page a#showModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #5f4590;
+  margin: 16px auto;
+}
+#page .modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 9999;
+  padding: 32px;
+}
+#page .modal .modal-content {
+  transform: translateY(20%);
+}
+#page button#closeModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 32px auto;
+  border: none;
+  background: no-repeat;
+}
+#page button#closeModal span {
+  text-decoration: underline;
+}
+#page .slick-dots {
+  bottom: 0;
+  margin-top: 32px;
+}
+#page .slick-dots li button {
+  margin: 0 auto;
+}
+#page #sticky-apply-btn .btn-copy-code {
+  border: 2px solid #5f4590;
+  color: #5f4590;
+}
+#page h2.heading--m {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  padding: 10px;
+  background: #5F4590;
+  color: #FFFFFF;
+}
+#page #diamond-nav {
+  padding: 0;
+  margin: 16px auto 24px;
+}
+#page #diamond-nav .l-inner::after {
+  content: none;
+}
+#page #diamond-nav .l-inner > ul {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  gap: 8px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+#page #diamond-nav .l-inner > ul > li {
+  width: calc(50% - 4px);
+}
+#page #diamond-nav .l-inner > ul > li > a {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: #E8EEFF;
+}
+#page #diamond-nav .l-inner > ul > li > a > img {
+  width: 16px;
+  height: 16px;
+}
+#page #diamond-nav .l-inner > ul > li > a p {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #5f4590;
+}
+#page #diamond-nav .l-inner > ul > li > a::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url(/assets/campaign/ranks/diamond/img/icon_chevron_down.png) no-repeat center/cover;
+}
+#page .campaign-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  border: 2px solid #5F4590;
+  border-radius: 8px;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 16px auto 0;
+}
+#page .campaign-code p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f4590;
+}
+#page .campaign-code p.campaign-code--code {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+#page .campaign-code .btn-copy-code {
+  padding: 4px 16px;
+  background: #5F4590;
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: none;
+}
+#page .heading--m {
+  line-height: 1.5;
+}
+#page .l-inner {
+  width: 1072px;
+  padding: 0 16px;
+}
+#page #ranks-songs {
+  overflow: hidden;
+  margin: 36px auto;
+}
+#page #diamond-steps > .l-inner .diamond-steps--1 {
+  text-align: center;
+  padding: 36px 16px 24px;
+  background: #FFFFFF;
+  border: 1px solid #5F4590;
+  box-shadow: 8px 8px 0px #5F4590;
+}
+#page #diamond-steps > .l-inner .diamond-steps--1 .pbody {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f4590;
+  margin-bottom: 16px;
+}
+#page #diamond-steps > .l-inner .diamond-steps--1 .lead {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #5f4590;
+  background: linear-gradient(transparent 70%, #FFD633 70%);
+  display: inline;
+}
+#page #diamond-steps > .l-inner .diamond-steps--1 .btn-apply {
+  margin: 16px auto;
+}
+#page #diamond-steps > .l-inner .diamond-steps--1 .btn-apply > .l-inner > * {
+  width: 100%;
+}
+#page #diamond-steps > .l-inner .diamond-steps--1 h3.heading--s {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #5f4590;
+}
+#page #diamond-steps > .l-inner > p {
+  text-align: center;
+  margin: 36px auto;
+}
+#page #diamond-steps > .l-inner > p a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f4590;
+}
+#page #diamond-feature {
+  display: flex;
+  margin: 32px auto;
+  padding: 32px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  background: url(/assets/campaign/ranks/diamond/img/bg_d_sp.png) center top/contain;
+}
+#page #diamond-feature .feature-inner {
+  display: flex;
+  padding: 32px 16px 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex: 1 0 0;
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.9);
+}
+#page #diamond-feature .feature-inner .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+#page #diamond-feature .feature-inner .content img {
+  width: 48px;
+  height: 48px;
+}
+#page #diamond-feature .feature-inner .content h2 {
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+}
+#page #diamond-feature .feature-inner .content p {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page #diamond-feature .feature-inner figure {
+  width: 160px;
+  height: 240px;
+  overflow: hidden;
+}
+#page #diamond-feature + h1 {
+  display: none;
+}
+#page #price > .l-inner > h1 {
+  display: none;
+}
+#page .HTMLBlock + h1.heading {
+  padding-top: 24px;
+  margin-bottom: 32px;
+  font-size: 2.2rem;
+}
+#page #stack-playback-campaign {
+  margin: 36px auto;
+}
+
+@media screen and (min-width: 768px) {
+  #rank-ddt .rank-ddt_mainvisual .rank-ddt_comment {
+    padding: 0;
+  }
+  #page .modal {
+    padding: 64px;
+  }
+  #page a#showModal:hover span {
+    text-decoration: underline;
+  }
+  #page button#closeModal:hover {
+    cursor: pointer;
+  }
+  #page button#closeModal:hover span {
+    text-decoration: none;
+  }
+  #page h2.heading--m {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page #diamond-feature {
+    background: url(/assets/campaign/ranks/diamond/img/bg_d_pc.png) center top;
+  }
+  #page #diamond-feature .feature-inner {
+    width: 950px;
+    padding: 32px;
+    gap: 72px;
+    flex: none;
+    flex-direction: row;
+  }
+  #page #diamond-feature .feature-inner .content img {
+    width: 72px;
+    height: 72px;
+  }
+  #page #diamond-feature .feature-inner .content h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+  }
+  #page #diamond-feature .feature-inner .content p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  #page #diamond-feature .feature-inner figure {
+    width: 200px;
+    height: 400px;
+    flex-shrink: 0;
+  }
+  #page #diamond-feature .feature-inner figure img {
+    width: 100%;
+  }
+  #page #diamond-nav {
+    margin: 36px auto;
+  }
+  #page #diamond-nav .l-inner > ul {
+    flex-wrap: nowrap;
+    gap: 16px;
+  }
+  #page #diamond-nav .l-inner > ul > li {
+    width: auto;
+    flex: 1;
+  }
+  #page #diamond-nav .l-inner > ul > li > a {
+    background: #FFFFFF;
+    transition: all 0.2s ease-in;
+    padding: 16px;
+  }
+  #page #diamond-nav .l-inner > ul > li > a:hover {
+    background: #E8EEFF;
+  }
+  #page #diamond-nav .l-inner > ul > li > a::after {
+    width: 16px;
+    height: 16px;
+  }
+  #page #diamond-nav .l-inner > ul > li > a > img {
+    width: 32px;
+    height: 32px;
+  }
+  #page #diamond-nav .l-inner > ul > li > a p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  #page #diamond-steps > .l-inner .diamond-steps--1 .lead {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #page #diamond-steps > .l-inner .diamond-steps--1 .btn-apply {
+    margin: 24px auto;
+  }
+  #page #diamond-steps > .l-inner .diamond-steps--1 .btn-apply > .l-inner {
+    width: 100%;
+  }
+  #page #diamond-steps > .l-inner .diamond-steps--1 .btn-apply > .l-inner .trial-btn {
+    width: 400px;
+  }
+  #page #sticky-apply-btn .btn-copy-code:hover {
+    background: #5f4590;
+  }
+  #page .btn-apply {
+    margin: 0 auto;
+  }
+  #page .campaign-code {
+    flex-direction: row;
+    margin: 24px auto;
+  }
+  #page .campaign-code .btn-copy-code:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  #page .heading--m {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+  }
+  #page #steps .l-inner > ol > li {
+    padding: 4rem;
+  }
+  #page #steps .l-inner > ol > li > h3 + p {
+    margin: 3rem 0 !important;
+  }
+  #page #steps .l-inner > ol > li .btn-apply .l-inner {
+    width: 100%;
+  }
+  #page #steps .l-inner > ol > li .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+  #page #steps .l-inner > ol > li .btn-apply .l-inner .code {
+    width: 400px;
+  }
+  #page #steps .l-inner > ol > li .btn-apply .l-inner .code > div:first-child {
+    width: 45%;
+  }
+  #page #steps .l-inner > ol > li .btn-apply .l-inner .code + p {
+    font-size: 1.2rem;
+    line-height: 1.75;
+  }
+  #page #steps .l-inner > ol > li #rex-btn1 button {
+    width: 400px;
+  }
+  #page #steps .l-inner > ol > li #rex-btn1 + p {
+    line-height: 1.75;
+    text-align: center;
+    margin: 2em auto 0;
+  }
+  #page .HTMLBlock + h1.heading {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 1072px) {
+  #page .l-inner {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #page #steps .l-inner > ol > li > figure {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style_20230802.css.map */
+
+
+/*内容変更告知ポップ*/
+#page .warning {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 648px;
+  margin: auto;
+  padding: 8px;
+  gap: 10px;
+  background: #FEF0DD;
+  border: 1px solid #A35E04;
+  border-radius: 4px;
+}
+
+#page .warning .white-box--small {
+  width: 632px;
+  align-self: stretch;
+  color: var(--warning-text, #A35E04);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+
+@media screen and (max-width:768px) {
+  #page .warning {
+    display: flex;
+    width: 343px;
+    margin: auto;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #FEF0DD;
+    border: 1px solid #A35E04;
+    border-radius: 4px;
+  }
+  #page .warning .white-box--small {
+    width: 327px;
+    color: var(--warning-text, #A35E04);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+  }
+}

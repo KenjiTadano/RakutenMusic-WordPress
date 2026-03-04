@@ -1,0 +1,23 @@
+#page h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+@media screen and (min-width: 767px) {
+  #page #page h1 {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  #page #page h2 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

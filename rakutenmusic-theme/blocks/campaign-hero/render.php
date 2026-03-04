@@ -8,11 +8,35 @@ if ( ! isset( $block ) || ! $block instanceof WP_Block ) {
 
 $attrs = $block->attributes ? $block->attributes : array();
 
-$image_pc_url   = isset( $attrs['imagePcUrl'] ) ? $attrs['imagePcUrl'] : '';
+/**
+ * 相対パス（/assets/ または assets/）をテーマのアセットURLに変換
+ *
+ * @param string $url 画像URL
+ * @return string
+ */
+$resolve_campaign_hero_asset_url = function( $url ) {
+	$url = trim( (string) $url );
+	if ( $url === '' ) {
+		return '';
+	}
+	if ( preg_match( '#^https?://#i', $url ) || strpos( $url, '//' ) === 0 ) {
+		return $url;
+	}
+	$base = get_template_directory_uri() . '/assets';
+	if ( strpos( $url, '/assets/' ) === 0 ) {
+		return $base . substr( $url, 7 );
+	}
+	if ( strpos( $url, 'assets/' ) === 0 ) {
+		return $base . '/' . $url;
+	}
+	return $url;
+};
+
+$image_pc_url   = $resolve_campaign_hero_asset_url( isset( $attrs['imagePcUrl'] ) ? $attrs['imagePcUrl'] : '' );
 $image_pc_alt   = isset( $attrs['imagePcAlt'] ) ? $attrs['imagePcAlt'] : '';
-$image_sp_url   = isset( $attrs['imageSpUrl'] ) ? $attrs['imageSpUrl'] : '';
+$image_sp_url   = $resolve_campaign_hero_asset_url( isset( $attrs['imageSpUrl'] ) ? $attrs['imageSpUrl'] : '' );
 $image_sp_alt   = isset( $attrs['imageSpAlt'] ) ? $attrs['imageSpAlt'] : '';
-$hero_bg_img    = isset( $attrs['heroBackgroundImage'] ) ? $attrs['heroBackgroundImage'] : '';
+$hero_bg_img    = $resolve_campaign_hero_asset_url( isset( $attrs['heroBackgroundImage'] ) ? $attrs['heroBackgroundImage'] : '' );
 $hero_bg_color  = isset( $attrs['heroBackgroundColor'] ) ? $attrs['heroBackgroundColor'] : '#ffcf31';
 $hero_bg_repeat   = isset( $attrs['heroBackgroundRepeat'] ) ? $attrs['heroBackgroundRepeat'] : 'no-repeat';
 $hero_bg_position   = isset( $attrs['heroBackgroundPosition'] ) ? $attrs['heroBackgroundPosition'] : 'center top';

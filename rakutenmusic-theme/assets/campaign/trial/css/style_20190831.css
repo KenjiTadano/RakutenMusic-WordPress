@@ -1,0 +1,14 @@
+#page .s-campaign-hero {
+  padding: 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3502a+0,f9d423+86,1b1464+86 */
+  background: #f3502a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f3502a 0%, #f9d423 85.5%, #1b1464 85.5%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f3502a 0%, #f9d423 85.5%, #1b1464 85.5%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f3502a 0%, #f9d423 85.5%, #1b1464 85.5%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3502a', endColorstr='#1b1464',GradientType=0 );
+  /* IE6-9 */
+}

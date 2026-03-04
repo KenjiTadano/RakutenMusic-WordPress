@@ -1,0 +1,357 @@
+#page .s-campaign-hero {
+  padding: 0;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/group/young/img/bg.jpg) no-repeat center top/auto 81% black;
+}
+
+#page .center {
+  text-align: center;
+}
+
+#page br.sp {
+  display: none;
+}
+
+#page #campaign-about .l-inner dl > div {
+  display: flex;
+}
+
+#page #campaign-about .l-inner dl > div dt {
+  background: #ffbc1d;
+  border: 4px solid #ffbc1d;
+  padding: 0.4em 0 2.2rem;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  width: 50%;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  top: 10px;
+}
+
+#page #campaign-about .l-inner dl > div dt:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#page #campaign-about .l-inner dl > div dt.on {
+  padding: 0.8em 0 0;
+  background: white;
+  color: black;
+  top: 0;
+}
+
+#page #campaign-about .l-inner dl > div dt.on:hover {
+  cursor: initial;
+  opacity: 1;
+}
+
+#page #campaign-about .l-inner dl > dd {
+  border-left: 4px solid #ffbc1d;
+  border-right: 4px solid #ffbc1d;
+  border-bottom: 4px solid #ffbc1d;
+  background: white;
+  margin: 0;
+  position: relative;
+  top: -4px;
+  display: none;
+  padding: 4rem;
+}
+
+#page #campaign-about .l-inner dl > dd.on {
+  display: block;
+}
+
+#page #campaign-about .l-inner dl > dd .trial-btn,
+#page #campaign-about .l-inner dl > dd .campaign-code-btn {
+  width: 400px;
+  height: 100px;
+  margin: 2rem auto;
+  background: #bf0000;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+#page #campaign-about .l-inner dl > dd .trial-btn a,
+#page #campaign-about .l-inner dl > dd .campaign-code-btn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  position: relative;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2rem;
+}
+
+#page #campaign-about .l-inner dl > dd .trial-btn a:after,
+#page #campaign-about .l-inner dl > dd .campaign-code-btn a:after {
+  content: url(https://music.r10s.jp/external/prod/assets/campaign/common/img/arrow.svg);
+  display: inline-block;
+  width: 0.8rem;
+  margin-left: 0.5em;
+}
+
+#page #campaign-about .l-inner dl > dd .trial-btn:hover {
+  background: #ff1212;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#page #campaign-about .l-inner dl > dd .campaign-code-btn {
+  height: 60px;
+  background: black;
+}
+
+#page #campaign-about .l-inner dl > dd .campaign-code-btn:hover {
+  background: #ff1212;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#page #campaign-about .l-inner dl > dd .campaign-code-btn a {
+  line-height: 60px;
+  font-size: 1.6rem;
+}
+
+#page #campaign-about .l-inner dl > dd .campaign-code-btn:hover {
+  background: #333;
+}
+
+#page #campaign-about .l-inner dl > dd p.laed {
+  font-size: 2rem;
+}
+
+#page #campaign-about .l-inner dl > dd p strong {
+  font-size: 1.2em;
+  color: red;
+}
+
+#page #campaign-about .l-inner dl > dd .young-about h3 {
+  margin: 0 0 2rem;
+}
+
+#page #campaign-about .l-inner dl > dd .young-about > div {
+  display: flex;
+}
+
+#page #campaign-about .l-inner dl > dd .young-about > div > div {
+  width: 50%;
+}
+
+#page #campaign-about .l-inner dl > dd .young-about > div > div h4 {
+  font-size: 1.2em;
+}
+
+#page #campaign-about .l-inner dl > dd .young-about > div > div figure {
+  width: 100%;
+}
+
+#page #campaign-about .l-inner dl > dd .young-about > div > div figure img {
+  width: 100%;
+}
+
+#page #campaign-about .l-inner dl > dd .young-about > div > div:last-of-type {
+  padding-left: 4rem;
+}
+
+#page #campaign-about .l-inner dl > dd .young-about > div > div .service-top-btn {
+  background: #bf0000;
+  border-radius: 0.8rem;
+  text-align: center;
+  margin: 2rem 0;
+  transition: all 0.2s;
+}
+
+#page #campaign-about .l-inner dl > dd .young-about > div > div .service-top-btn a {
+  color: white;
+  display: block;
+  padding: 1.2rem;
+}
+
+#page #campaign-about .l-inner dl > dd .young-about > div > div .service-top-btn:hover {
+  background: #ff1212;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#page #campaign-about .l-inner dl > dd > figure {
+  text-align: center;
+  margin: 24px 0 0;
+}
+
+#page #campaign-code-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#page #campaign-code-modal .click-area {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#page #campaign-code-modal .l-inner {
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4rem;
+  padding: 6rem;
+}
+
+#page #campaign-code-modal .l-inner > .close-btn {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+}
+
+#page #campaign-code-modal .l-inner > .close-btn a {
+  font-size: 3rem;
+  color: black;
+  line-height: 1em;
+}
+
+#page #campaign-code-modal .l-inner .step p {
+  margin: 2rem 0;
+}
+
+#page #campaign-code-modal .l-inner .step-1 figure img {
+  width: 50%;
+}
+
+#page #campaign-code-modal .l-inner .step-1 ul {
+  display: flex;
+  justify-content: center;
+}
+
+#page #campaign-code-modal .l-inner .step-1 ul li {
+  width: 200px;
+  background: #ffbc1d;
+  border: 2px solid #ffbc1d;
+  border-radius: 6px;
+  margin: 2rem 1rem 0;
+  transition: all 0.2s;
+}
+
+#page #campaign-code-modal .l-inner .step-1 ul li a {
+  display: block;
+  color: white;
+  padding: 0.5em 0;
+}
+
+#page #campaign-code-modal .l-inner .step-1 ul li:first-of-type {
+  background: white;
+  border: 2px solid black;
+}
+
+#page #campaign-code-modal .l-inner .step-1 ul li:first-of-type a {
+  color: black;
+}
+
+#page #campaign-code-modal .l-inner .step-1 ul li:hover {
+  opacity: 0.8;
+}
+
+#page #campaign-code-modal .l-inner .step-2 .code-area {
+  width: 400px;
+  margin: 0 auto;
+  background: whitesmoke;
+  padding: 1em 0;
+}
+
+#page #campaign-code-modal .l-inner .hide {
+  display: none;
+}
+
+#page #howtouse {
+  padding: 36px 0 84px;
+}
+
+@media screen and (max-width: 768px) {
+  #page .l-content {
+    overflow: hidden;
+  }
+  #page br.sp {
+    display: inline-block;
+  }
+  #page #campaign-about .l-inner dl > div dt {
+    font-size: 3.5vw;
+    padding: 0.4em 0 2rem;
+  }
+  #page #campaign-about .l-inner dl > dd {
+    top: -6px;
+  }
+  #page #campaign-about .l-inner dl > dd p.laed {
+    font-size: 1.6rem;
+  }
+  #page #campaign-about .l-inner dl > dd p.small {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  #page #campaign-about .l-inner dl > dd.on {
+    padding: 3rem 2rem;
+  }
+  #page #campaign-about .l-inner dl > dd .trial-btn,
+  #page #campaign-about .l-inner dl > dd .campaign-code-btn {
+    width: 100%;
+    height: 80px;
+  }
+  #page #campaign-about .l-inner dl > dd .trial-btn a,
+  #page #campaign-about .l-inner dl > dd .campaign-code-btn a {
+    font-size: 4vw;
+    line-height: 80px;
+  }
+  #page #campaign-about .l-inner dl > dd .trial-btn a:after {
+    content: initial;
+  }
+  #page #campaign-about .l-inner dl > dd .campaign-code-btn {
+    height: 60px;
+  }
+  #page #campaign-about .l-inner dl > dd .campaign-code-btn a {
+    line-height: 60px;
+  }
+  #page #campaign-about .l-inner dl > dd .campaign-code-btn a:after {
+    content: initial;
+  }
+  #page #campaign-about .l-inner dl > dd .young-about > div {
+    display: block;
+  }
+  #page #campaign-about .l-inner dl > dd .young-about > div > div {
+    width: 100%;
+  }
+  #page #campaign-about .l-inner dl > dd .young-about > div > div:last-of-type {
+    padding-left: 0;
+  }
+  #page #campaign-code-modal .l-inner {
+    width: 90%;
+    padding: 4rem;
+    border-radius: 2rem;
+  }
+  #page #campaign-code-modal .l-inner .close-btn {
+    top: 2rem;
+    right: 2rem;
+  }
+  #page #campaign-code-modal .l-inner .step-1 figure img {
+    width: 80%;
+  }
+  #page #campaign-code-modal .l-inner .step-2 figure img {
+    width: 80%;
+  }
+  #page #campaign-code-modal .l-inner .step-2 .code-area {
+    width: 100%;
+  }
+  #page #howtouse {
+    padding: 36px 0 42px;
+  }
+}

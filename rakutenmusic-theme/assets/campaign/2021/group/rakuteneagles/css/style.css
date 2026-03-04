@@ -1,0 +1,688 @@
+#page section {
+  padding: 0;
+}
+
+#page .red {
+  color: #bf0000;
+}
+
+#page .small {
+  font-size: 12px !important;
+  line-height: 16px !important;
+  font-weight: normal !important;
+}
+
+#page .bebas-neue {
+  font-family: "Bebas Neue", cursive;
+}
+
+#page .display-3 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  margin: 36px auto;
+}
+
+#page .trial-btn-wrapper--code {
+  background: black;
+  margin: 36px 24px 24px;
+  padding: 12px 0;
+  border-radius: 72px;
+  position: relative;
+}
+
+#page .trial-btn-wrapper--code::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 9px 0 9px;
+  border-color: #000000 transparent transparent transparent;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#page .trial-btn-wrapper--code div {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+#page #campaign-terms > h1,
+#page #campaign-period > h1 {
+  background: #87000f;
+  background: -moz-linear-gradient(top, #87000f 0%, #be0000 100%);
+  background: -webkit-linear-gradient(top, #87000f 0%, #be0000 100%);
+  background: linear-gradient(to bottom, #87000f 0%, #be0000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87000f', endColorstr='#be0000',GradientType=0 );
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+  text-align: center;
+  padding: 24px 0;
+}
+
+#page #trial-btn-wrapper .btn-apply {
+  margin: 0 auto 36px;
+}
+
+#page #campaign-terms > .l-inner {
+  background: #f2e7d5;
+  padding: 36px 24px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--smallsteps {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 24px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--smallsteps li {
+  flex: 1;
+  text-align: center;
+  background: #ffffff;
+  border: 3px solid #a51b1b;
+  padding: 12px 0;
+  border-radius: 12px;
+  position: relative;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--smallsteps li:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 13.5px 0 13.5px 16px;
+  border-color: transparent transparent transparent #a51b1b;
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  transform: translateY(-50%);
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--smallsteps li div {
+  color: #a51b1b;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--smallsteps li div:first-of-type {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--smallsteps li div:last-of-type {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page #campaign-terms > .l-inner .step-0 {
+  padding: 24px 36px;
+  margin: 36px auto;
+  background: #ffffff;
+}
+
+#page #campaign-terms > .l-inner .step-0 p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page #campaign-terms > .l-inner .step-0 p.small {
+  margin-top: 12px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li:last-of-type {
+  border-top: 2px solid #bf0000;
+  border-bottom: 2px solid #bf0000;
+  margin-top: 36px;
+  padding-bottom: 36px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .step-1-floating-banner {
+  display: none;
+  opacity: 0;
+  border: 2px solid #bf0000;
+  background: white;
+  padding: 12px;
+  color: #bf0000;
+  font-size: 16px;
+  line-height: 24px;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 48px);
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .step-1-floating-banner a {
+  color: #bf0000;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .step-1-floating-banner b {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .step-1-floating-banner::after {
+  content: "";
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/group/rakuteneagles/img/icon_arrowdown.png) no-repeat center/cover;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-left: 12px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li > h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 52px;
+  color: #bf0000;
+  text-align: center;
+  position: relative;
+  margin-bottom: 36px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li > h2 span {
+  position: relative;
+  z-index: 1;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li > h2::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-top: 2px solid #bf0000;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li > h2::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 52px;
+  background: #f2e7d5;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li p.display-3 + p {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .trial-btn-wrapper--code {
+  margin: 36px 0 24px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .btn-apply > .l-inner > * {
+  width: 100%;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit {
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 24px;
+  text-align: center;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+  background: #996504;
+  padding: 12px 0;
+  margin: 0 0 24px;
+  position: relative;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit h3::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 27.5px 0 27.5px 28px;
+  border-color: transparent transparent transparent #ffffff;
+  position: absolute;
+  top: 0;
+  left: -1px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit h3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 27.5px 28px 27.5px 0;
+  border-color: transparent #ffffff transparent transparent;
+  position: absolute;
+  top: 0;
+  right: -1px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--code {
+  border: 2px solid #996504;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--code > div {
+  padding: 8px 12px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--code > div:first-of-type {
+  color: #ffffff;
+  background: #996504;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--code > div:last-of-type {
+  color: #6d4700;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--terms {
+  margin-bottom: 24px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--terms > div {
+  background: #f2e7d5;
+  border-radius: 12px;
+  padding: 8px 16px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6d4700;
+  position: relative;
+  display: inline-block;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--terms > div:first-of-type {
+  margin-bottom: 48px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--terms > div:first-of-type::after {
+  content: "";
+  display: block;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/group/rakuteneagles/img/icon_plus.png) no-repeat center/cover;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--notes {
+  margin-top: 12px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--notes p {
+  color: #6d4700;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--notes p a {
+  color: #6d4700;
+  text-decoration: underline;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit + a {
+  display: block;
+  text-align: center;
+  color: #006497;
+  margin: 36px auto;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play figure {
+  width: 150px;
+  margin: 0 auto;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play .how-to-play--number {
+  font-weight: bold;
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  background: #bf0000;
+  border-radius: 32px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 32px;
+  margin-bottom: 6px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play .slick-next {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #bf0000;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play .slick-next::before {
+  display: none;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play .slick-prev {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #bf0000 transparent transparent;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play .slick-prev::before {
+  display: none;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play .slick-disabled {
+  display: none !important;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .btn-orange {
+  display: table;
+  margin: 36px auto 0;
+  background: #f6ab00;
+  color: #000000;
+  border-radius: 56px;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .btn-orange a {
+  padding: 16px 24px;
+  color: #000000;
+  display: block;
+}
+
+#page #campaign-terms > .l-inner .campaign-terms--steps > li .btn-orange a::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/group/rakuteneagles/img/icon_externallink.png) no-repeat center/cover;
+  margin-left: 16px;
+}
+
+#page #campaign-period .l-inner {
+  padding: 36px 24px;
+  background: #f7f7f7;
+}
+
+#page #campaign-period .l-inner .campaign-period--cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#page #campaign-period .l-inner .campaign-period--cards > li {
+  padding: 24px;
+  background: #ffffff;
+  border: 3px solid #a51b1b;
+  border-radius: 12px;
+  text-align: center;
+}
+
+#page #campaign-period .l-inner .campaign-period--cards > li.campaign-period--disabled {
+  opacity: 0.2;
+}
+
+#page #campaign-period .l-inner .campaign-period--cards > li:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+
+#page #campaign-period .l-inner .campaign-period--cards > li h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #a51b1b;
+  margin-bottom: 12px;
+}
+
+#page #campaign-period .l-inner .campaign-period--cards > li p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page #campaign-period .l-inner .campaign-period--cards > li p.bigger {
+  font-size: 24px;
+  line-height: 31px;
+}
+
+#page #how-to-apply {
+  margin: 36px auto;
+}
+
+@media screen and (min-width: 768px) {
+  #page #campaign-terms > h1,
+  #page #page #campaign-period > h1 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page a.red:hover {
+    color: #f76b6b;
+  }
+  #page .display-3 {
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page .s-campaign-hero {
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/group/rakuteneagles/img/bg.jpg) no-repeat center top/auto 86.3% #a51b1b;
+    position: relative;
+  }
+  #page .s-campaign-hero::after {
+    content: "";
+    display: block;
+    background: black;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+  }
+  #page .s-campaign-hero .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+  #page .trial-btn-wrapper--code {
+    display: flex;
+    justify-content: center;
+    width: 412px;
+    margin: 48px auto 24px;
+  }
+  #page #trial-btn-wrapper .btn-apply {
+    margin: 0 auto 48px;
+  }
+  #page #campaign-terms {
+    background: #f2e7d5;
+  }
+  #page #campaign-terms > .l-inner {
+    padding: 36px 24px 48px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--smallsteps {
+    justify-content: center;
+    gap: 0 78px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--smallsteps li {
+    width: 148px;
+    flex: none;
+    padding: 24px 0;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--smallsteps li:not(:last-child)::after {
+    right: -52px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--smallsteps li div:first-of-type {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--smallsteps li div:last-of-type {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li {
+    text-align: center;
+    position: relative;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li > h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li > h2::after {
+    width: 138px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .step-1-floating-banner {
+    width: 170px;
+    height: 170px;
+    border-radius: 170px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: initial;
+    transform: initial;
+    z-index: 1;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .step-1-floating-banner::after {
+    margin-left: 0;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .step-1-floating-banner:hover {
+    transform: translateY(12px);
+    cursor: pointer;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .trial-btn-wrapper--code {
+    margin: 36px auto 24px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .btn-apply {
+    margin: 24px auto 36px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .btn-apply > .l-inner {
+    width: 100%;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .btn-apply > .l-inner .trial-btn {
+    width: 400px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit {
+    padding: 36px;
+    display: inline-block;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit h3 {
+    font-size: 32px;
+    line-height: 42px;
+    width: 612px;
+    margin: 0 auto 24px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit h3::before {
+    border-width: 33px 0 33px 28px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit h3::after {
+    border-width: 33px 28px 33px 0;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--code {
+    display: flex;
+    justify-content: center;
+    border: 0;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--code > div {
+    border: 2px solid #996504;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--code > div:last-of-type {
+    padding: 8px 24px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--terms > div {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 12px 24px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--terms > div:first-of-type {
+    margin: 0 72px 0 0;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--terms > div:first-of-type::after {
+    top: 50%;
+    bottom: initial;
+    left: initial;
+    right: -48px;
+    transform: translate(0, -50%);
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit .new-user-benefit--notes {
+    margin-top: 0;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .new-user-benefit + a:hover {
+    text-decoration: underline;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play {
+    width: 830px;
+    margin: 0 auto;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play figure img {
+    width: 100%;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play .slick-slide {
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play .slick-slide > div {
+    flex: 1;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play .slick-slide > div p {
+    text-align: left;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play .slick-next {
+    right: -52px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .how-to-play .slick-prev {
+    left: -52px;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .btn-orange {
+    transition: all 0.2s ease-in;
+    border: 2px solid #f6ab00;
+  }
+  #page #campaign-terms > .l-inner .campaign-terms--steps > li .btn-orange:hover {
+    background: white;
+  }
+  #page #campaign-period {
+    background: #f7f7f7;
+  }
+  #page #campaign-period .l-inner .campaign-period--cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+  }
+  #page #campaign-period .l-inner .campaign-period--cards > li {
+    width: calc(50% - 24px);
+  }
+  #page #campaign-period .l-inner .campaign-period--cards > li:not(:last-of-type) {
+    margin-bottom: 0;
+  }
+  #page #campaign-merit {
+    margin-top: 48px;
+  }
+  #page .s-campaign-detail {
+    margin: 48px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #page .js-toggle.is-open .js-toggle__panel {
+    max-height: none;
+  }
+}

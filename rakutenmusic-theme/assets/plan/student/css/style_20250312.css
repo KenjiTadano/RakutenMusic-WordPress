@@ -1,0 +1,1347 @@
+/*エントリーボタン調整*/
+#page .App {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+#page .InfoText {
+  margin: 0;
+}
+
+#page .Below {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+
+#page .CampaignButton-success span.RexButton-message,
+#page .CampaignButton-loading span.RexButton-message {
+  color: #047205;
+}
+
+#page .CampaignButton {
+  margin: 0;
+}
+
+#page .agreement-message strong {
+  color: black;
+}
+
+.Message_message__FuD4t.Message_red__mgP-C a {
+  color: #bf0000 !important;
+}
+
+#page .l-content #top-section-step .summary-group > h3 > strong {
+  color: #bf0000;
+}
+
+#page .l-content #top-section-step .multi-step .multi-step-content p.lead .strong {
+  font-weight: 700;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .l-content .summary-group p.small {
+  padding-top: 8px;
+  font-size: 12px;
+}
+
+#page #overview div.l-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+}
+
+#page #top-section-step {
+  background-color: #ffffff;
+  gap: 24px;
+}
+
+#page .l-content .multi-step .multi-step-content {
+  gap: 16px;
+}
+
+#page .l-content .multi-step .multi-step-content p.small {
+  font-size: 12px;
+  text-align: center;
+}
+
+#page .l-content .multi-step .multi-step-content a.detail {
+  text-decoration: underline;
+  color: inherit;
+}
+
+#page .l-content .gakuwari-caption {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  background: #f7f7f7;
+}
+
+#page .l-content .gakuwari-caption p {
+  text-align: justify;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+#page .l-content .gakuwari-caption p.bold {
+  font-weight: 700;
+}
+
+#page .l-content .gakuwari-caption p a {
+  color: inherit;
+  text-decoration-line: underline;
+  word-spacing: -0.05em;
+}
+
+#page .l-content #overview.bg-light .ttl-group sub {
+  color: #f56611;
+}
+
+#page #overview .overview-main .txt .price,
+#page #overview .overview-main .txt .feature {
+  color: #f56611;
+}
+
+#page #overview .overview-feature-list {
+  display: flex;
+  width: 327px;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+#page #overview .overview-feature-list > li:first-child {
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+#page #overview .overview-feature-list > li .list-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#page #overview .overview-feature-list > li:not(:first-child) {
+  flex: 1;
+  flex-direction: column;
+}
+
+#page #overview .overview-feature-list > li {
+  background: #fff5ef;
+}
+
+#page #overview .overview-feature-list > li:not(:first-child) {
+  flex: 1;
+  flex-direction: column;
+}
+
+#page #overview .popular-artist-list .artist-name-list ul.artist-name-list-pickup > li {
+  color: #f56611;
+}
+
+#page .l-content #overview.bg-student .ttl-group sub {
+  color: #f56611;
+}
+
+#page .l-content #top-section-scene.bg-dark .ttl-group sub {
+  color: #ff731f;
+}
+
+#page #overview .overview-main .txt .price strong {
+  line-height: 1;
+}
+
+#page #usage-steps .usage-steps-group--student .btn-apply a.student-link-btn {
+  background: #f56611;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group .tokuten .service_student {
+  color: #f56611;
+}
+
+#page #usage-steps .icon-plus {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#page #usage-steps .usage-steps-group--student {
+  display: flex;
+  width: 327px;
+  padding: 24px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 16px auto;
+  border-radius: 32px;
+  background: #fff5ef;
+}
+
+#page #usage-steps .usage-steps-group--ex {
+  margin-top: 16px;
+}
+
+#page #usage-steps .usage-steps-group--new {
+  margin-top: 16px;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group .term {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group .tokuten {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group .usage {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+#page #usage-steps .usage-steps-group--student .txt-group .usage .usage_bold {
+  font-weight: 700;
+}
+
+#page #usage-steps .usage-steps-group--student .btn-apply a.student-link-btn {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 72px;
+  background: #f56611;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  width: 263px;
+  white-space: nowrap;
+}
+
+#page #about_rakuten_gakuwari {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  border-radius: 16px;
+  border: 3px solid #f56611;
+  padding: 0 16px;
+}
+
+#page #about_rakuten_gakuwari .about_rakuten_gakuwari__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+#page #about_rakuten_gakuwari .about_rakuten_gakuwari__header img {
+  width: 221px;
+}
+
+#page #about_rakuten_gakuwari .about_rakuten_gakuwari__header h2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: normal;
+}
+
+#page #about_rakuten_gakuwari > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+#page .pr_bnr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 24px;
+  gap: 24px;
+}
+
+#page .pr_bnr p {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+#page .ttl_steps_apply_student_plan__caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  background: #ebf7fe;
+  border-radius: 16px;
+  margin-top: 32px;
+}
+
+#page .ttl_steps_apply_student_plan__caption .ttl_steps_apply_student_plan__caption__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page .ttl_steps_apply_student_plan__caption p.small {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+
+#page .ttl_steps_apply_student_plan__caption p {
+  color: #006497;
+}
+
+#page .ttl_steps_apply_student_plan__caption .ttl_steps_apply_student_plan__caption__header i img {
+  width: 22px;
+}
+#page p.caution {
+  padding: 8px;
+  background: #fef0dd;
+  border-radius: 8px;
+  color: #a35e04;
+}
+
+#page p.small {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page p.small small {
+  font-size: 100%;
+}
+
+#page .flx-24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#page .flx-32 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+#page #fv-cta {
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 24px;
+  align-self: stretch;
+}
+
+#page #fv-cta .campaign-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+#page #fv-cta .campaign-code p.campaign-code--code {
+  color: #bf0000;
+  text-align: center;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+
+#page #fv-cta .campaign-code button.btn-copy-code {
+  display: flex;
+  padding: 4px 16px;
+  border-radius: 32px;
+  border: 1px solid #bf0000;
+  background: #fff;
+  color: #bf0000;
+  text-align: center;
+  /* JP Body Medium 14px/Bold */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #fv-cta .btn-apply {
+  margin: 0;
+}
+
+#page .btn-apply + p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page section {
+  padding: 0;
+}
+
+#page h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+#page strong {
+  color: #f56611;
+}
+
+#page .l-content .btn-apply {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+#page .l-content .btn-apply .trial-btn,
+#page .l-content .btn-apply .iap-store-link {
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  background: #bf0000;
+  display: block;
+  padding: 16px 24px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+#page .l-content .btn-apply .btn-apply--caption {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+#page .l-content #top-section-step {
+  background: #f7f7f7;
+}
+
+#page .l-content #top-section-step .multi-step .multi-step-content.display-block {
+  display: block;
+}
+
+#page .l-content #top-section-step .multi-step .multi-step-content.display-block p.lead {
+  margin-bottom: 16px;
+}
+
+#page .l-content #top-section-step .ccode {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #f7f7f7;
+}
+
+#page .l-content #top-section-step .ccode p.txt {
+  color: #686868;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 19.6px */
+}
+
+#page .l-content #top-section-step .ccode p.code {
+  color: #bf0000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+}
+
+#page .l-content #top-section-step button.btn-copy-code {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 80px;
+  border: 2px solid #bf0000;
+  background: #ffffff;
+  color: #bf0000;
+  text-align: center;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+
+#page .l-content #top-section-step .btn-apply {
+  margin: 0;
+  align-self: stretch;
+}
+
+#page .l-content #top-section-step .btn-apply a.trial-btn .txt {
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+#page .l-content #top-section-step .btn-apply .btn-apply--caption {
+  color: black;
+  text-align: center;
+  /* JP Overline 10px/Regular */
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 160% */
+}
+
+#page .l-content #top-section-step a.apply-ccode {
+  color: #006497;
+  text-align: center;
+  /* JP Body Medium 14px/Regular */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  text-decoration-line: underline;
+  display: block;
+  margin: 0 auto;
+}
+
+#page .l-content .step-overview ul li p.step-overview-number {
+  color: #bf0000;
+}
+
+#page .l-content .multi-step > h3 {
+  background: #4d4d4d;
+  color: #ffffff;
+}
+
+#page p.lead {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page .txt-center {
+  text-align: center;
+}
+
+#page .slick-dots {
+  top: 0;
+  margin-top: 24px;
+}
+
+#page .bg-pale-pink {
+  background: #f8ede4;
+  padding: 36px 0px;
+}
+
+#page .bg-pale-pink h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #6a4b35;
+  margin-bottom: 24px;
+}
+
+#page .article--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+#page .article--wrapper .article--image {
+  width: 160px;
+}
+
+#page .article--wrapper .article--text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#page .article--wrapper .article--text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #6a4b35;
+}
+
+#page .l-campaign-03 {
+  margin-bottom: 36px;
+}
+
+#page section#ad-nav .l-inner::after {
+  content: none;
+}
+
+#page section#ad-nav .l-inner > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 24px auto;
+}
+
+#page section#ad-nav .l-inner > ul > li {
+  flex: 1;
+  border: 1px solid #b6b6b6;
+}
+
+#page section#ad-nav .l-inner > ul > li a {
+  padding: 12px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: black;
+}
+
+#page section#ad-nav .l-inner > ul > li a img {
+  width: 60px;
+}
+
+#page section#ad-nav .l-inner > ul > li a p {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6a4b35;
+}
+
+#page section#ad-nav .l-inner > ul > li a::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/ad/img/20220926/icon_chevron_down.png) no-repeat center/cover;
+}
+
+#page section#fv {
+  margin: 24px auto;
+}
+
+#page section#fv .l-inner > p a {
+  color: #bf0000;
+  text-decoration: underline;
+}
+
+#page section#ad-point-steps .l-inner .campaign-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  border: 2px solid #d08667;
+  border-radius: 8px;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  background: white;
+}
+
+#page section#ad-point-steps .l-inner .campaign-code p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d08667;
+}
+
+#page section#ad-point-steps .l-inner .campaign-code p.campaign-code--code {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#page section#ad-point-steps .l-inner .campaign-code .btn-copy-code {
+  padding: 4px 16px;
+  background: #d08667;
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+}
+
+#page section#ad-point-steps .l-inner .white-wrapper {
+  margin-top: 24px;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+#page section#ad-point-steps .l-inner .white-wrapper .trial-btn a {
+  background: #bf0000;
+  border-radius: 12px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#page section#ad-point-steps .l-inner .white-wrapper .trial-btn + p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 12px auto;
+}
+
+#page #newplan-release {
+  margin: 24px auto;
+}
+
+#page #ad-otoku h2 {
+  padding: 8px 16px;
+  margin: 24px auto 16px;
+}
+
+#page #campaign-merit {
+  margin: 24px auto;
+}
+
+#page #campaign-merit .l-inner h2 {
+  padding: 0;
+  background: none;
+}
+
+#page #stack-playback-campaign {
+  margin: 24px auto;
+}
+
+#page #stack-competitive-services strong {
+  color: black;
+}
+
+#page #price {
+  margin: 24px auto;
+}
+
+#page #price .l-inner .price-lead {
+  display: none;
+}
+
+#page #price .l-inner strong {
+  color: black;
+}
+
+/* 60日キャンペーンcss */
+
+#page .js-toggle.is-open .js-toggle__panel {
+  max-height: none;
+}
+
+#page .campaign-detail__table td {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#page .campaign-title {
+  display: flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: linear-gradient(0deg, #40aef2 0%, #0557c9 181.58%);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  color: white;
+}
+/* --------------------------メディアクエリ-------------------------------- */
+@media screen and (min-width: 767px) {
+  /*エントリーボタン調整*/
+  #page .App {
+    width: 600px;
+    gap: 24px;
+  }
+
+  #page .CampaignButton a {
+    max-width: none;
+  }
+
+  #page #top-section-step {
+    gap: 32px;
+    align-self: center;
+  }
+
+  #page .l-content .gakuwari-caption {
+    align-items: center;
+  }
+
+  #page .l-content .gakuwari-caption p {
+    width: 886px;
+  }
+
+  #page #overview .overview-feature-list {
+    width: fit-content;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #page #overview .overview-feature-list > li:first-child {
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  #page #usage-steps .icon-plus {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #page #usage-steps .usage-steps-group--student {
+    margin: 32px auto;
+    width: 950px;
+    padding: 64px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #page #usage-steps .usage-steps-group--new {
+    margin-top: 32px;
+  }
+
+  #page #usage-steps .usage-steps-group--ex {
+    margin-top: 32px;
+  }
+
+  #page #usage-steps .usage-steps-group--student .txt-group {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #page #usage-steps .usage-steps-group--student .txt-group .term {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #page #usage-steps .usage-steps-group--student .txt-group .tokuten {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #page #usage-steps .usage-steps-group--student .txt-group .usage {
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  #page #usage-steps .usage-steps-group--student .btn-apply a.student-link-btn {
+    padding: 16px 24px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    transition: all 0.2s ease-in;
+    width: 336px;
+  }
+
+  #page #usage-steps .usage-steps-group--student .btn-apply a.student-link-btn:hover {
+    background: #fd7f33;
+  }
+
+  #page #about_rakuten_gakuwari {
+    gap: 32px;
+    border-radius: 32px;
+    padding: 0 32px;
+    margin: 0 8px;
+    width: 950px;
+  }
+
+  #page #about_rakuten_gakuwari .about_rakuten_gakuwari__header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  #page #about_rakuten_gakuwari .about_rakuten_gakuwari__header img {
+    width: 233px;
+    padding-top: 0.4em;
+  }
+
+  #page #about_rakuten_gakuwari .about_rakuten_gakuwari__header h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  #page .pr_bnr {
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  #page .pr_bnr p {
+    font-size: 16px;
+  }
+
+  #page .ttl_steps_apply_student_plan__caption {
+    padding: 36px;
+    gap: 16px;
+    width: 950px;
+  }
+
+  #page .ttl_steps_apply_student_plan__caption .ttl_steps_apply_student_plan__caption__header i img {
+    width: 24px;
+  }
+
+  /* 60日キャンペーンcss */
+
+  #page .l-content .btn-apply a.trial-btn .txt,
+  #page .l-content .btn-apply a.iap-store-link .txt {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 129.167% */
+  }
+
+  #page .l-content .btn-apply a.trial-btn svg,
+  #page .l-content .btn-apply a.iap-store-link svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  #page .l-content #top-section-step .ccode {
+    flex-direction: row;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+  }
+
+  #page .l-content #top-section-step .ccode p.txt {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+  }
+
+  #page .l-content #top-section-step .ccode p.code {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 33.6px */
+  }
+
+  #page .l-content #top-section-step button.btn-copy-code {
+    width: 400px;
+    align-items: center;
+    margin: 0 auto;
+    transition: all 0.2s ease-in;
+  }
+
+  #page .l-content #top-section-step button.btn-copy-code:hover {
+    cursor: pointer;
+    background: #bf0000;
+    color: white;
+  }
+
+  #page .l-content #top-section-step .btn-apply {
+    margin: 0 auto;
+  }
+
+  #page .l-content #top-section-step .btn-apply a.trial-btn .txt {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 129.167% */
+  }
+
+  #page .l-content #top-section-step .btn-apply .btn-apply--caption {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page .l-content #top-section-step a.apply-ccode {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page .l-content #top-section-step a.apply-ccode:hover {
+    text-decoration: none;
+  }
+
+  #page .l-content #top-section-step ul.campaign-code-steps {
+    margin-top: 24px;
+  }
+
+  #page .jsha-carousel img {
+    width: 100%;
+  }
+
+  #page #fv-cta {
+    align-items: center;
+  }
+
+  #page #fv-cta .campaign-code {
+    gap: 16px;
+  }
+
+  #page #fv-cta .campaign-code p.campaign-code--code {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 142.857% */
+  }
+
+  #page #fv-cta .campaign-code button.btn-copy-code {
+    padding: 8px 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    transition: all 0.2s ease-in;
+  }
+
+  #page #fv-cta .campaign-code button.btn-copy-code:hover {
+    cursor: pointer;
+    background: #bf0000;
+    color: white;
+  }
+
+  #page .btn-apply + p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  /* フローティングボタン設定 */
+
+  #page #sticky-apply-btn .sticky-apply-btn--inner {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .btn-copy-code {
+    flex: none;
+    width: 174px;
+    font-size: 18px;
+    line-height: 140%;
+    border-radius: 60px;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .btn-copy-code:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-music {
+    width: 300px;
+    border-radius: 60px;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-music a {
+    padding: 16px 0;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .trial-btn,
+  #page #sticky-apply-btn .sticky-apply-btn--inner .iap-store-link {
+    width: 340px;
+    border-radius: 60px;
+    padding: 16px 24px;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-mobile {
+    width: 300px;
+    border-radius: 60px;
+    overflow: hidden;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-mobile a {
+    padding: 16px 0;
+    font-size: 18px;
+    line-height: 140%;
+  }
+
+  #page .bg-pale-pink h1 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+  }
+
+  #page .article--wrapper {
+    flex-direction: row;
+  }
+
+  #page .article--wrapper .article--image {
+    width: 240px;
+  }
+
+  #page .article--wrapper .article--image img {
+    width: 100%;
+  }
+
+  #page .article--wrapper .article--text {
+    align-items: flex-start;
+  }
+
+  #page .article--wrapper .article--text p {
+    text-align: left;
+  }
+
+  #page section#ad-nav .l-inner > ul {
+    gap: 16px;
+    margin: 36px auto;
+  }
+
+  #page section#ad-nav .l-inner > ul > li {
+    width: 200px;
+    flex: none;
+    transition: all 0.2s ease-in;
+  }
+
+  #page section#ad-nav .l-inner > ul > li:hover {
+    background: #f7f7f7;
+    transform: translateY(2px);
+  }
+
+  #page section#ad-nav .l-inner > ul > li:hover a p {
+    color: #d08667;
+  }
+
+  #page section#ad-nav .l-inner > ul > li a img {
+    width: 80px;
+  }
+
+  #page section#ad-nav .l-inner > ul > li a p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+  }
+
+  #page section#fv {
+    margin: 36px auto 0;
+  }
+
+  #page section#fv .l-inner {
+    margin: 36px auto;
+  }
+
+  #page section#fv .l-inner a:hover {
+    text-decoration: none;
+  }
+
+  #page section#ad-point-steps .l-inner .campaign-code {
+    flex-direction: row;
+    padding: 8px 12px;
+  }
+
+  #page section#ad-point-steps .l-inner .campaign-code .btn-copy-code:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  #page section#ad-point-steps .l-inner .white-wrapper {
+    padding: 36px;
+  }
+
+  #page section#ad-point-steps .l-inner .white-wrapper .trial-btn a {
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #page section#ad-point-steps .l-inner .white-wrapper .trial-btn + p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  #page #ad-otoku {
+    padding: 0;
+  }
+
+  #page #ad-otoku h2 {
+    padding: 18px 0 12px;
+  }
+
+  #page #stack-competitive-services {
+    text-align: center;
+  }
+
+  #page #campaign-merit {
+    margin: 36px auto;
+  }
+
+  #page #stack-playback-campaign {
+    margin: 36px auto;
+  }
+
+  #page #price {
+    margin: 36px auto;
+  }
+
+  #page .wchance-step-title h2 {
+    font-size: 32px !important;
+  }
+
+  #page .CampaignButton a {
+    max-width: none;
+  }
+  #page .App {
+    width: 600px;
+    gap: 24px;
+  }
+  #page .campaign-title {
+    display: flex;
+    width: 950px;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+  }
+}
+
+/*# sourceMappingURL=style_20240701.css.map */

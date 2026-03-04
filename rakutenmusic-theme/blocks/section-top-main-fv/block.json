@@ -3,11 +3,11 @@
   "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-top-main-fv",
   "title": "トップFV（ヒーロー）",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-bundle",
   "icon": "cover-image",
   "description": "楽天ミュージック汎用テンプレート用: トップメインFV（ファーストビュー）",
   "keywords": ["楽天", "ミュージック", "FV", "ヒーロー", "ファーストビュー"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "render": "file:./render.php"
 }

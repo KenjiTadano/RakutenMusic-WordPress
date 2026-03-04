@@ -1,0 +1,121 @@
+#cmo_pitari_banner {
+  display: none;
+}
+
+#page .l-header,
+#page .l-footer,
+#page .l-breadcrumb {
+  display: none;
+}
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+#page .campaign-hero__schedule p a {
+  color: white;
+  text-decoration: underline;
+}
+#page .App {
+  padding: 0 32px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#page .Below {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+#page .Alert {
+  margin-bottom: 16px;
+}
+#page .InfoText {
+  margin: 0;
+}
+#page .agreement-message {
+  text-align: justify;
+}
+#page .CampaignButton {
+  margin: 0;
+}
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: rgb(137, 137, 137);
+}
+#page .CampaignButton-success span.RexButton-message {
+  color: rgb(4, 114, 5);
+  font-size: 18px;
+}
+#page .campaign-steps {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  background: var(--gray-200, #EBEBEB);
+}
+#page .campaign-steps ol.campaign-steps--list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+#page .campaign-steps ol.campaign-steps--list li {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--gray-400, #B6B6B6);
+  background: var(--white, #FFF);
+}
+#page .campaign-steps ol.campaign-steps--list li .step-number {
+  width: 54px;
+  color: var(--red-logo-800, #BF0000);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+#page .campaign-steps ol.campaign-steps--list li .step-content {
+  flex: 1;
+  color: var(--gray-1000, #000);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+#page .campaign-steps ol.campaign-steps--list li .step-content .txt-red {
+  color: var(--red-logo-800, #BF0000);
+}
+#page h2.bg-red {
+  display: flex;
+  padding: 16px 0px;
+  margin: 0 auto 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  background: var(--red-700, #D80000);
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+#page .stack-characteristic,
+#page #stack-rakutenmusicrank {
+  margin-bottom: 32px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,88 @@
+.slick-arrow {
+  z-index: 1;
+}
+.slick-arrow::before {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(/assets/top/img/20230901/icon_circle_arrow_right_l.svg) no-repeat center/cover;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(0, 0, 0, 0);
+}
+
+.slick-next::before {
+  right: 40px;
+}
+
+.slick-prev::before {
+  transform: translateY(-50%) rotate(180deg);
+  left: 40px;
+}
+
+#page figure.temporary-banner-bundle {
+  padding: 24px;
+}
+#page #stack-section-reward {
+  background: #FAFBE2;
+}
+#page #stack-section-reward .reward-mission-list > li {
+  background: #FFF;
+}
+#page #stack-section-reward .reward-mission-list > li .reward-mission-list-main p.reward-points {
+  color: #D80000;
+}
+#page #stack-section-reward .reward-mission-list > li .reward-mission-list-main i {
+  opacity: 0;
+}
+#page #section-howtouse {
+  display: block;
+  padding: 48px 0 0;
+}
+#page #section-howtouse .howtouse-steps {
+  margin-top: 32px;
+}
+#page #section-howtouse .howtouse-steps .slick-slide {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+#page #section-howtouse .howtouse-steps .slick-slide .howtouse-img {
+  width: 158px;
+}
+#page #section-howtouse .howtouse-steps .slick-slide p.howtouse-txt {
+  width: 230px;
+  color: #000;
+  text-align: center;
+  /* JP Body Medium 14px/Regular */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+#page #stack-section-price {
+  padding: 48px 0px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-next::before {
+    right: 0;
+  }
+  .slick-prev::before {
+    left: 0;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/reward/img/bg.png) no-repeat center top/auto 100% #F6E7E3;
+  }
+  #page #section-howtouse .howtouse-steps {
+    width: 780px;
+    margin: 32px auto 0;
+  }
+  #page #section-howtouse .howtouse-steps .slick-slide .howtouse-img img {
+    width: 158px;
+  }
+}/*# sourceMappingURL=style.css.map */

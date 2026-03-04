@@ -1,0 +1,24 @@
+#page div#pr-bnr + .content-box {
+  padding: 0;
+  margin-bottom: 48px;
+}
+
+#page div#pr-bnr + .content-box .l-inner .content-box__text {
+  margin-top: 0.75em;
+}
+
+#page div#pr-bnr + .content-box .l-inner .content-box__text a {
+  color: #006497;
+}
+
+@media screen and (min-width: 768px) {
+  #page div#pr-bnr + .content-box .l-inner .content-box__image {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  #page div#pr-bnr + .content-box .l-inner .content-box__text a:hover {
+    text-decoration: underline;
+  }
+}
+/*# sourceMappingURL=prbnr.css.map */

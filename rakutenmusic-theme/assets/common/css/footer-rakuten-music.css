@@ -1,0 +1,207 @@
+/**
+ * 楽天ミュージック汎用テンプレート用フッタースタイル
+ * template-parts/footer-rakuten-music.html 用（#page .l-footer）
+ * ランクブロック配置時は body.has-rank-blocks で読み込み順・優先度を確保
+ */
+#page .l-footer,
+body.has-rank-blocks #page .l-footer {
+  display: flex;
+  padding: 48px 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  align-self: stretch;
+  background: white;
+}
+
+#page .l-footer .footer-group,
+body.has-rank-blocks #page .l-footer .footer-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+#page .l-footer .footer-group nav,
+body.has-rank-blocks #page .l-footer .footer-group nav {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 32px;
+  align-self: stretch;
+}
+
+#page .l-footer .footer-group nav dl,
+body.has-rank-blocks #page .l-footer .footer-group nav dl {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  align-self: stretch;
+}
+
+#page .l-footer .footer-group nav dl dt,
+#page .l-footer .footer-group nav dl dd,
+body.has-rank-blocks #page .l-footer .footer-group nav dl dt,
+body.has-rank-blocks #page .l-footer .footer-group nav dl dd {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+  margin: 0;
+}
+
+#page .l-footer .footer-group nav dl dt {
+  font-weight: 700;
+}
+
+#page .l-footer .footer-group nav dl dd {
+  font-weight: 400;
+}
+
+#page .l-footer .footer-group nav dl dd a {
+  color: #000;
+}
+
+#page .l-footer .footer-group .footer-upper-group,
+body.has-rank-blocks #page .l-footer .footer-group .footer-upper-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 32px;
+  align-self: stretch;
+}
+
+#page .l-footer .footer-group .footer-lower-group,
+body.has-rank-blocks #page .l-footer .footer-group .footer-lower-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+#page .l-footer .footer-logo img,
+#page .footer-logo img,
+body.has-rank-blocks #page .l-footer .footer-logo img,
+body.has-rank-blocks #page .footer-logo img {
+  width: 180px;
+}
+
+#page .footer__trademark,
+body.has-rank-blocks #page .footer__trademark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #686868;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+#page .footer__trademark img.icon,
+body.has-rank-blocks #page .footer__trademark img.icon {
+  display: block;
+  width: 20px;
+}
+
+#page .footer__copyright,
+body.has-rank-blocks #page .footer__copyright {
+  color: #686868;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+#page .climateaction a,
+body.has-rank-blocks #page .climateaction a {
+  display: block;
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#page .climateaction a img,
+body.has-rank-blocks #page .climateaction a img {
+  width: 220px;
+  height: 56px;
+}
+
+@media screen and (min-width: 768px) {
+  #page .l-footer,
+  body.has-rank-blocks #page .l-footer {
+    padding: 64px 0;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  #page .l-footer .footer-group .footer-upper-group,
+  body.has-rank-blocks #page .l-footer .footer-group .footer-upper-group {
+    flex-direction: row;
+    gap: 64px;
+    width: 950px;
+    justify-content: flex-start;
+    align-self: center;
+  }
+
+  #page .l-footer .footer-group nav,
+  body.has-rank-blocks #page .l-footer .footer-group nav {
+    flex-direction: row;
+    gap: 64px;
+  }
+
+  #page .l-footer .footer-group nav dl dt,
+  #page .l-footer .footer-group nav dl dd,
+  body.has-rank-blocks #page .l-footer .footer-group nav dl dt,
+  body.has-rank-blocks #page .l-footer .footer-group nav dl dd {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #page .l-footer .footer-group nav dl dt a,
+  #page .l-footer .footer-group nav dl dd a,
+  body.has-rank-blocks #page .l-footer .footer-group nav dl dt a,
+  body.has-rank-blocks #page .l-footer .footer-group nav dl dd a {
+    transition: all 0.2s ease-in;
+  }
+
+  #page .l-footer .footer-group nav dl dt a:hover,
+  #page .l-footer .footer-group nav dl dd a:hover,
+  body.has-rank-blocks #page .l-footer .footer-group nav dl dt a:hover,
+  body.has-rank-blocks #page .l-footer .footer-group nav dl dd a:hover {
+    color: #d80000;
+    text-decoration: underline;
+  }
+
+  #page .footer__trademark .icon,
+  body.has-rank-blocks #page .footer__trademark .icon {
+    display: inline-block;
+  }
+
+  #page .footer__trademark br,
+  body.has-rank-blocks #page .footer__trademark br {
+    display: none !important;
+  }
+
+  #page .footer__copyright,
+  body.has-rank-blocks #page .footer__copyright {
+    margin-top: 0;
+    line-height: 1;
+  }
+
+  #page .climateaction a img.is-hidden--sp,
+  body.has-rank-blocks #page .climateaction a img.is-hidden--sp {
+    width: 220px;
+    height: 56px;
+  }
+
+  #page .climateaction a img.is-hidden--pc.is-hidden--tb,
+  body.has-rank-blocks #page .climateaction a img.is-hidden--pc.is-hidden--tb {
+    width: 150px;
+    height: 40px;
+  }
+}

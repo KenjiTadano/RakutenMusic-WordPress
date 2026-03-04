@@ -1,0 +1,468 @@
+#page .campaign-detail__table td {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+#page .flx-24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+#page .flx-32 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+#page .l-content {
+  display: none;
+}
+#page .l-campaign-01 > .btn-apply {
+  padding: 0 16px;
+  margin: 32px auto;
+}
+#page p.lead {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-align: center;
+}
+#page p.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #686868;
+}
+#page span.red {
+  color: #E60012;
+}
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+#page #price {
+  margin: 36px auto 0;
+}
+#page #stack-rakutenmusicrank {
+  margin: 36px auto 72px;
+}
+#page #ttl_about_student_plan h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  margin: 32px auto;
+}
+#page #ttl_about_student_plan .about_student_plan_body {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+#page #ttl_about_student_plan .about_student_plan_body__content {
+  padding: 0 16px;
+}
+#page #ttl_about_student_plan .about_student_plan_body__content__lead {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+#page #ttl_about_student_plan .about_student_plan_body__content__lead + img {
+  width: 200px;
+}
+#page #ttl_about_student_plan .about_student_plan_body__content__main + table tr td {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: top;
+}
+#page #ttl_about_student_plan .about_student_plan_body__content__main + table tr td:first-child {
+  width: 126px;
+}
+#page #ttl_about_student_plan .list_anchor_link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  border-bottom: 1px solid #D08667;
+}
+#page #ttl_about_student_plan .list_anchor_link li {
+  width: 100%;
+  border-top: 1px solid #D08667;
+}
+#page #ttl_about_student_plan .list_anchor_link li a {
+  padding: 12px 8px;
+  color: #D08667;
+  display: flex;
+  gap: 8px;
+}
+#page #ttl_about_student_plan .list_anchor_link li a::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(/assets/plan/student/img/icon_circle-question-regular.png) no-repeat center/cover;
+}
+#page #cpn-about {
+  background: #D2D2D2;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 24px;
+  gap: 32px;
+}
+#page #cpn-about h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+#page #cpn-about p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+#page #appendix {
+  padding: 32px 0;
+  background: #F7F7F7;
+}
+#page #appendix .l-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
+  gap: 32px;
+}
+#page #appendix .l-inner > h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+#page #appendix .l-inner > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+#page #campaign-apply {
+  background: #2F393D;
+  padding: 32px 0;
+  margin-bottom: 8px;
+}
+#page #campaign-apply .l-inner > h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+#page #campaign-apply .l-inner ol.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 32px;
+}
+#page #campaign-apply .l-inner ol.steps > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px 16px;
+  gap: 24px;
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+#page #campaign-apply .l-inner ol.steps > li form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#page #campaign-apply .l-inner ol.steps > li form p > small {
+  text-align: justify;
+}
+#page #campaign-apply .l-inner ol.steps > li > h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 100;
+}
+#page #campaign-apply .l-inner ol.steps > li p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+#page #campaign-apply .l-inner ol.steps > li p small {
+  display: block;
+}
+#page #campaign-apply .l-inner ol.steps > li p.btn-apply--caption {
+  font-size: 12px;
+  font-weight: 400;
+}
+#page #campaign-apply .l-inner ol.steps > li p.caution {
+  padding: 8px;
+  background: #fef0dd;
+  color: #a35e04;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 8px;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-btn {
+  display: inline-block;
+  background: #7d00be;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-btn a {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  padding: 12px 24px;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-btn a i {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/artist/awesomecityclub/img/external_link.png) no-repeat center/cover;
+  vertical-align: top;
+  margin-left: 12px;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-logo {
+  margin: 24px auto;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-live {
+  margin: 24px auto;
+}
+#page #campaign-apply .l-inner ol.steps > li .screenshot {
+  width: 220px;
+}
+#page #campaign-apply .l-inner ol.steps > li .jsha figure {
+  width: 238px;
+  margin: 0 auto;
+}
+#page #campaign-apply .l-inner .arrow {
+  margin: 32px auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 36px 35px 0 35px;
+  border-color: #ffffff transparent transparent transparent;
+}
+#page #campaign-apply .l-inner .btn-apply {
+  margin: 0 auto;
+}
+#page #campaign-apply .l-inner .btn-apply .l-inner > * {
+  width: 100%;
+}
+#page #campaign-apply .l-inner .btn-apply .l-inner > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: justify;
+}
+#page #campaign-apply .l-inner .apply {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+#page #campaign-apply .l-inner .apply p {
+  color: white;
+  text-align: center;
+}
+#page #campaign-apply .l-inner .apply .btn-apply--caption a {
+  color: white;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  #page .l-campaign-01 > .btn-apply {
+    padding: 0;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2023/artist/hyde/img/bg.jpg) no-repeat center top/auto 87%;
+    position: relative;
+  }
+  #page .s-campaign-hero::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+  }
+  #page .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+  #page p.lead {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+  #page #ttl_about_student_plan h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page #ttl_about_student_plan .about_student_plan_body {
+    flex-direction: row;
+    width: 1024px;
+    margin: 32px auto 72px;
+  }
+  #page #ttl_about_student_plan .about_student_plan_body__content__lead + img {
+    width: 318px;
+  }
+  #page #ttl_about_student_plan .about_student_plan_body__content__main + table tr td {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #ttl_about_student_plan .about_student_plan_body__content__main + table tr td:first-child {
+    width: 148px;
+  }
+  #page #ttl_about_student_plan .list_anchor_link {
+    flex-direction: row;
+    border-bottom: none;
+  }
+  #page #ttl_about_student_plan .list_anchor_link li {
+    border-top: none;
+  }
+  #page #ttl_about_student_plan .list_anchor_link li a {
+    padding: 0;
+    justify-content: center;
+    transition: all 0.2s ease-in;
+  }
+  #page #ttl_about_student_plan .list_anchor_link li a:hover {
+    opacity: 0.8;
+  }
+  #page #cpn-about {
+    margin: 0 auto;
+    text-align: center;
+    padding: 64px 0px;
+  }
+  #page #cpn-about h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  #page #cpn-about p {
+    width: 800px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #appendix .l-inner > h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  #page #appendix .l-inner > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #appendix .l-inner iframe {
+    width: 400px;
+  }
+  #page #campaign-apply .l-inner > h1 {
+    font-weight: 250;
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li form p > small {
+    text-align: center;
+  }
+  #page #campaign-apply .l-inner ol.steps > li > h2 {
+    font-weight: 250;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li p.btn-apply--caption {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #page #campaign-apply .l-inner ol.steps > li p.small {
+    font-size: 12px;
+    line-height: 16px;
+    color: #686868;
+    margin-top: 12px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li p.caution {
+    padding: 12px 24px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-btn {
+    transition: all 0.2s ease-in;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-btn:hover {
+    box-shadow: 0px 24px 38px rgba(75, 0, 113, 0.04), 0px 9px 46px rgba(75, 0, 113, 0.12), 0px 11px 15px rgba(75, 0, 113, 0.2);
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-logo {
+    width: 275px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-logo img {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .screenshot {
+    width: 220px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .screenshot img {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li iframe {
+    width: 400px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .jsha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 16px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .jsha figure {
+    margin: 0;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .jsha figure img {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .jsha p {
+    text-align: left;
+  }
+  #page #campaign-apply .l-inner .apply > .l-inner {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner .apply > .l-inner p.lead + p {
+    text-align: center;
+    margin-top: 24px;
+  }
+  #page #campaign-apply .l-inner .apply .btn-apply--caption a:hover {
+    text-decoration: none;
+  }
+  #page #campaign-apply .l-inner .btn-apply > .l-inner {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner .btn-apply > .l-inner > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  #page #campaign-apply .l-inner .btn-apply > .l-inner .trial-btn {
+    width: 450px;
+  }
+}/*# sourceMappingURL=style.css.map */

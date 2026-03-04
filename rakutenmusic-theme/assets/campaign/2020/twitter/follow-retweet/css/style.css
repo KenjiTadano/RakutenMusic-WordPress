@@ -1,0 +1,40 @@
+#page #twitter-form .l-inner dl {
+  margin-top: 36px;
+}
+
+#page #twitter-form .l-inner dl dt {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+#page #twitter-form .l-inner dl dt span {
+  display: inline-block;
+  background: #bf0000;
+  padding: 2px 4px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+#page #twitter-form .l-inner dl dt strong {
+  color: #bf0000;
+}
+
+#page #twitter-form .l-inner dl dd {
+  margin: 0 0 24px 0;
+}
+
+#page #twitter-form .l-inner dl dd label {
+  margin-right: 0.5em;
+}
+
+#page #twitter-form .l-inner dl dd input[type="radio"],
+#page #twitter-form .l-inner dl dd input[type="checkbox"] {
+  margin-right: 0.25em;
+}
+
+#page #twitter-form .l-inner input[type="submit"] {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 36px auto;
+}

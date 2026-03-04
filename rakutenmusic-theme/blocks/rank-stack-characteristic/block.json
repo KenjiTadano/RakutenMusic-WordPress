@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/rank-stack-characteristic",
+  "title": "ランク：特徴（stack-characteristic）",
+  "category": "rakutenmusic-rank",
+  "icon": "align-wide",
+  "description": "ランクページ用 特徴セクション（stack-characteristic）",
+  "keywords": ["楽天", "ミュージック", "ランク", "特徴"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "render": "file:./render.php"
+}

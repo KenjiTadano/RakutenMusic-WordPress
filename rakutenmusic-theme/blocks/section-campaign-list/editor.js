@@ -46,11 +46,12 @@
 
   wp.blocks.registerBlockType( BLOCK_NAME, {
     title: __( 'キャンペーンリスト（一覧）', 'rakutenmusic-theme' ),
-    category: 'rakutenmusic',
+    category: 'rakutenmusic-campaign',
     icon: 'list-view',
     description: __( '開催中のお得なキャンペーン一覧（リスト数・順番・バナーURL/alt・タイトルを編集可能）', 'rakutenmusic-theme' ),
     attributes: {
-      items: { type: 'string', default: '' }
+      items: { type: 'string', default: '' },
+      title: { type: 'string', default: '開催中のお得なキャンペーン' }
     },
     edit: function (props) {
       var attrs = props.attributes;
@@ -96,6 +97,15 @@
           { key: 'inspector' },
           el(
             PanelBody,
+            { title: __('セクション', 'rakutenmusic-theme'), initialOpen: true },
+            el(TextControl, {
+              label: __('セクションタイトル', 'rakutenmusic-theme'),
+              value: attrs.title || '開催中のお得なキャンペーン',
+              onChange: function (v) { props.setAttributes({ title: v || '開催中のお得なキャンペーン' }); }
+            })
+          ),
+          el(
+            PanelBody,
             { title: __('キャンペーンリスト', 'rakutenmusic-theme'), initialOpen: true },
             list.map(function (item, i) {
               return el(
@@ -138,7 +148,7 @@
           'section',
           blockProps,
           el('div', { className: 'l-inner' },
-            el('h2', { className: 'heading heading--m' }, __('開催中のお得なキャンペーン', 'rakutenmusic-theme')),
+            el('h2', { className: 'heading heading--m' }, attrs.title || __('開催中のお得なキャンペーン', 'rakutenmusic-theme')),
             el('ul', { className: 'campaign-list campaign-list--sp-s campaign-list--editor-preview' },
               list.map(function (item, i) {
                 var imgSrc = item.imageUrl && item.imageUrl.trim() ? item.imageUrl : 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="80" viewBox="0 0 200 80"%3E%3Crect fill="%23eee" width="200" height="80"/%3E%3Ctext x="50%25" y="50%25" dominant-baseline="middle" text-anchor="middle" fill="%23999" font-size="12"%3E画像%3C/text%3E%3C/svg%3E';

@@ -1,0 +1,42 @@
+#page .l-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+#page .heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+#page .RexButton {
+  max-width: none;
+}
+
+#page .CampaignButton {
+  margin: 0 auto;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+
+#page .CampaignButton-success span.RexButton-message {
+  color: #047205;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */

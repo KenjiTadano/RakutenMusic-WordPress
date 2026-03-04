@@ -1,0 +1,440 @@
+#page .l-content {
+  display: none;
+}
+#page p.lead {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-align: center;
+}
+#page p.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #686868;
+}
+#page p.bold {
+  font-weight: bold;
+}
+#page .color-pink {
+  color: #E7007E;
+}
+#page #campaign-about {
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  background: #FFE1E8;
+}
+#page #campaign-about .campaign-about--songcard {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 24px;
+  background: var(--White, #FFF);
+}
+#page #campaign-about .campaign-about--songcard figure {
+  width: 240px;
+}
+#page #campaign-about .campaign-about--songcard .songcard-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#page #campaign-about .campaign-about--songcard .songcard-text h2 {
+  color: #E7007E;
+  text-align: center;
+  /* Display 4 JP - 32px/Bold */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  /* 131.25% */
+}
+#page #campaign-about .campaign-about--songcard .songcard-text p {
+  color: var(--Gray-1000, #000);
+  text-align: center;
+  /* H3 JP - 16px/Bold */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  /* 131.25% */
+}
+#page #campaign-about .campaign-about--step {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+#page #campaign-about .campaign-about--step iframe {
+  width: 100%;
+  margin: 0 auto;
+}
+#page #campaign-about .campaign-about--step .campaign-about--step--inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+#page #campaign-about .campaign-about--step .campaign-about--step--inner ul.campaign-about--step-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+#page #campaign-about .campaign-about--step .campaign-about--step--inner ul.campaign-about--step-list li {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  position: relative;
+  background: #E7007E;
+}
+#page #campaign-about .campaign-about--step .campaign-about--step--inner ul.campaign-about--step-list li p {
+  color: var(--White, #FFF);
+  text-align: center;
+  /* H4 JP - 14px/Regular */
+  font-size: 14px;
+  font-style: normal;
+  line-height: 21px;
+  /* 150% */
+}
+#page #campaign-about .campaign-about--step .campaign-about--step--inner ul.campaign-about--step-list li:not(:last-child):after {
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 16px 16px 0 16px;
+  border-color: #E7007E transparent transparent transparent;
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  transform: translate(-50%, 8px);
+}
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+#page #cpn-about {
+  margin: 32px auto;
+  width: calc(100% - 32px);
+}
+#page #campaign-apply {
+  background: #D57C90;
+  padding: 32px 0;
+  margin-bottom: 8px;
+}
+#page #campaign-apply .l-inner > h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+#page #campaign-apply .l-inner ol.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+#page #campaign-apply .l-inner ol.steps > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px 16px;
+  gap: 24px;
+  background: #FFFFFF;
+  border-radius: 32px;
+  align-self: stretch;
+}
+#page #campaign-apply .l-inner ol.steps > li > h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 100;
+}
+#page #campaign-apply .l-inner ol.steps > li p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+#page #campaign-apply .l-inner ol.steps > li p.btn-apply--caption {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page #campaign-apply .l-inner ol.steps > li p small {
+  display: block;
+}
+#page #campaign-apply .l-inner ol.steps > li p.caution {
+  padding: 8px;
+  background: #fef0dd;
+  color: #a35e04;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 8px;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-btn {
+  display: inline-block;
+  background: #7d00be;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-btn a {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  padding: 12px 24px;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-btn a i {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/artist/awesomecityclub/img/external_link.png) no-repeat center/cover;
+  vertical-align: top;
+  margin-left: 12px;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-logo,
+#page #campaign-apply .l-inner ol.steps > li .tkt-live {
+  margin: 24px auto;
+}
+#page #campaign-apply .l-inner ol.steps > li .screenshot {
+  width: 220px;
+}
+#page #campaign-apply .l-inner ol.steps > li .jksha {
+  width: 240px;
+  margin: 0 auto;
+}
+#page #campaign-apply .l-inner .arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 36px 35px 0 35px;
+  border-color: black transparent transparent transparent;
+  margin: 16px auto;
+}
+#page #campaign-apply .l-inner .btn-apply {
+  margin: 0 auto;
+}
+#page #campaign-apply .l-inner .btn-apply .l-inner > * {
+  width: 100%;
+}
+#page #campaign-apply .l-inner .btn-apply .l-inner > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: justify;
+}
+#page #campaign-apply .l-inner .apply {
+  display: flex;
+  padding: 36px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 24px;
+  background: var(--White, #FFF);
+}
+#page #campaign-apply .l-inner .apply p.lead {
+  color: #000;
+  text-align: center;
+  /* Body 1 JP - 16px/Bold */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  #page #campaign-about {
+    padding: 64px 0px;
+    gap: 32px;
+  }
+  #page #campaign-about .campaign-about--songcard {
+    width: -moz-fit-content;
+    width: fit-content;
+    align-self: center;
+    flex-direction: row;
+    gap: 32px;
+  }
+  #page #campaign-about .campaign-about--songcard figure {
+    width: 300px;
+  }
+  #page #campaign-about .campaign-about--songcard figure img {
+    width: 100%;
+  }
+  #page #campaign-about .campaign-about--songcard .songcard-text h2 {
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 130.435% */
+  }
+  #page #campaign-about .campaign-about--songcard .songcard-text p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 129.167% */
+  }
+  #page #campaign-about .campaign-about--step {
+    width: 950px;
+    flex-direction: row;
+    width: -moz-fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  #page #campaign-about .campaign-about--step iframe {
+    width: 416px;
+  }
+  #page #campaign-about .campaign-about--step .campaign-about--step--inner {
+    flex: 1;
+  }
+  #page #campaign-about .campaign-about--step .campaign-about--step--inner ul.campaign-about--step-list li {
+    padding: 16px;
+  }
+  #page #campaign-about .campaign-about--step .campaign-about--step--inner ul.campaign-about--step-list li p {
+    font-size: 20px;
+    font-style: normal;
+    line-height: 26px;
+    /* 130% */
+  }
+  #page #campaign-about .campaign-about--step .campaign-about--step--inner ul.campaign-about--step-list li p.bold {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    /* 150% */
+  }
+  #page .s-campaign-hero {
+    background: #D57C90;
+    position: relative;
+  }
+  #page .s-campaign-hero::after {
+    content: "";
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+  }
+  #page .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+  #page p.lead {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+  #page #cpn-about {
+    margin: 64px auto;
+    text-align: center;
+  }
+  #page #campaign-apply {
+    padding: 64px 0;
+  }
+  #page #campaign-apply .l-inner > h1 {
+    font-weight: 250;
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li > h2 {
+    font-weight: 250;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li p.small {
+    font-size: 12px;
+    line-height: 16px;
+    color: #686868;
+    margin-top: 12px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li p.caution {
+    padding: 12px 24px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-btn {
+    transition: all 0.2s ease-in;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-btn:hover {
+    box-shadow: 0px 24px 38px rgba(75, 0, 113, 0.04), 0px 9px 46px rgba(75, 0, 113, 0.12), 0px 11px 15px rgba(75, 0, 113, 0.2);
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-logo {
+    width: 275px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-logo img {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .screenshot {
+    width: 220px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .screenshot img {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li iframe {
+    width: 400px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .jksha img {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner .apply > .l-inner {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner .apply > .l-inner p.lead + p {
+    text-align: center;
+    margin-top: 24px;
+  }
+  #page #campaign-apply .l-inner .btn-apply > .l-inner {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner .btn-apply > .l-inner > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  #page #campaign-apply .l-inner .btn-apply > .l-inner .trial-btn {
+    width: 450px;
+  }
+  #page #campaign-apply .l-inner .arrow {
+    width: 80px;
+  }
+  #page #campaign-apply .l-inner .arrow img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

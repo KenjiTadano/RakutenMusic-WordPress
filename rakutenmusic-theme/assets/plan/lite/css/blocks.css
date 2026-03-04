@@ -1,0 +1,51 @@
+/**
+ * ライトプランブロック：.l-content 内で幅100%を確保し、左寄せにならないようにする
+ * #page .l-content 配下の .bg-light / #anchor-link-group 等のスタイルは common.css および style.css で適用される
+ */
+#page .l-content .wp-block-rakutenmusic-plan-lite-anchor-link-group,
+#page .l-content .wp-block-rakutenmusic-plan-lite-overview,
+#page .l-content .wp-block-rakutenmusic-plan-lite-top-section-scene,
+#page .l-content .wp-block-rakutenmusic-plan-lite-usage-steps,
+.wp-block-rakutenmusic-plan-lite-anchor-link-group,
+.wp-block-rakutenmusic-plan-lite-overview,
+.wp-block-rakutenmusic-plan-lite-top-section-scene,
+.wp-block-rakutenmusic-plan-lite-usage-steps {
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+/* ブロック内の section / 直下要素を幅100%にし、align-items: center で子要素が中央に来るようにする */
+#page .l-content .wp-block-rakutenmusic-plan-lite-overview > section#overview,
+#page .l-content .wp-block-rakutenmusic-plan-lite-top-section-scene > section,
+.wp-block-rakutenmusic-plan-lite-overview > section#overview,
+.wp-block-rakutenmusic-plan-lite-top-section-scene > section {
+	width: 100%;
+	max-width: 100%;
+	align-self: stretch;
+	box-sizing: border-box;
+}
+
+/* OVERVIEW：3つ並びの特徴ブロック・アーティストリストを中央寄せ */
+#page .l-content .wp-block-rakutenmusic-plan-lite-overview #overview .overview-feature-list,
+#page .l-content .wp-block-rakutenmusic-plan-lite-overview #overview .popular-artist-list,
+.wp-block-rakutenmusic-plan-lite-overview #overview .overview-feature-list,
+.wp-block-rakutenmusic-plan-lite-overview #overview .popular-artist-list {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page .l-content .wp-block-rakutenmusic-plan-lite-anchor-link-group > div,
+.wp-block-rakutenmusic-plan-lite-anchor-link-group > div {
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+#page .l-content .wp-block-rakutenmusic-plan-lite-usage-steps > section,
+.wp-block-rakutenmusic-plan-lite-usage-steps > section {
+	width: 100%;
+	max-width: 100%;
+	align-self: stretch;
+	box-sizing: border-box;
+}

@@ -8,20 +8,10 @@ $twitter_href = isset( $attrs['twitterHref'] ) ? $attrs['twitterHref'] : '';
 $facebook_href = isset( $attrs['facebookHref'] ) ? $attrs['facebookHref'] : '';
 $hide_twitter = ! empty( $attrs['hideTwitter'] );
 $hide_facebook = ! empty( $attrs['hideFacebook'] );
-$spacing_top = isset( $attrs['spacingTop'] ) && $attrs['spacingTop'] !== '' ? $attrs['spacingTop'] : '';
-$spacing_bottom = isset( $attrs['spacingBottom'] ) && $attrs['spacingBottom'] !== '' ? $attrs['spacingBottom'] : '';
-$style_parts = array();
-if ( $spacing_top !== '' ) {
-	$style_parts[] = 'margin-top:' . esc_attr( $spacing_top );
-}
-if ( $spacing_bottom !== '' ) {
-	$style_parts[] = 'margin-bottom:' . esc_attr( $spacing_bottom );
-}
-$style_attr = count( $style_parts ) > 0 ? ' style="' . implode( ';', $style_parts ) . '"' : '';
 $assets_uri = function_exists( 'rakutenmusic_get_assets_uri' ) ? rakutenmusic_get_assets_uri() : get_template_directory_uri() . '/assets';
 $icon_url = $assets_uri . '/column/img/common/icon.png';
 ?>
-<div<?php echo $style_attr; ?>>
+<div>
 <div class="author-start">
 	<div class="author-area">
 		<img class="author-img" height="50" width="50" src="<?php echo esc_url( $icon_url ); ?>" alt="<?php echo esc_attr__( '楽天ミュージック編集室', 'rakutenmusic-theme' ); ?>" loading="lazy" />

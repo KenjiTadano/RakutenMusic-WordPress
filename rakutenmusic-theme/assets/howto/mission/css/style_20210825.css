@@ -1,0 +1,274 @@
+#page section {
+  padding-top: 32px;
+}
+
+#page .l-inner {
+  width: 950px;
+}
+
+#page #point {
+  margin: 3.2rem auto;
+  text-align: center;
+  border-bottom: 1px solid #b6b6b6;
+}
+
+#page #point .l-inner > h2 {
+  margin-bottom: 3.2rem;
+}
+
+#page #point .l-inner > figure {
+  margin: 3.2rem auto;
+}
+
+#page #point .l-inner > p {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+#page #mission-about .l-inner > h2.mission-h2 {
+  background: url(https://music.r10s.jp/external/prod/assets/howto/mission/img/mission-ttl.png) no-repeat center top/100% auto;
+  height: 72px;
+  position: relative;
+}
+
+#page #mission-about .l-inner > h2.mission-h2 > p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#page #mission-about .l-inner > ul {
+  background: #f7f7f7;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+  margin: 3.2rem auto;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#page #mission-about .l-inner > ul > li {
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+#page #mission-about .l-inner > ul > li > div.mission-ttl {
+  background: black;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  padding: 16px 0;
+}
+
+#page #mission-about .l-inner > ul > li > div.mission-box {
+  padding: 32px 16px;
+}
+
+#page #mission-about .l-inner > ul > li > div.mission-box > h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  margin: 0 auto 16px;
+}
+
+#page #mission-about .l-inner > ul > li > div.mission-box > p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+#page #mission-about .l-inner > ul > li > div.mission-box div.mission-box--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page #mission-about .l-inner > ul > li > div.mission-box div.mission-box--wrapper figure {
+  width: 60px;
+  margin-right: 3px;
+}
+
+#page #mission-about .l-inner > ul > li > div.mission-box div.mission-box--wrapper figure + p {
+  color: #705a00;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+#page #mission-about .l-inner > ul > li > div.mission-box div.mission-box--wrapper figure + p .lilita {
+  font-family: "Lilita One", cursive;
+  font-size: 72px;
+  line-height: 100%;
+}
+
+#page #mission-howto {
+  background: white;
+}
+
+#page #mission-howto > ol > li.white {
+  background: white;
+}
+
+#page #mission-howto > ol > li.gray {
+  background: #f7f7f7;
+}
+
+#page #mission-howto .l-inner > h2.howto-h2 {
+  background: url(https://music.r10s.jp/external/prod/assets/howto/mission/img/howto_ttl.png) no-repeat center top/auto 100%;
+  font-size: 3.2rem;
+  text-align: center;
+  margin: 0 auto 5rem;
+  height: 110px;
+}
+
+#page #mission-howto .l-inner > h2.howto-h2 > p {
+  position: relative;
+  top: 9rem;
+}
+
+#page #mission-howto > ol > li > .l-inner {
+  display: flex;
+  justify-content: center;
+  margin: 1.2rem auto;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+#page #mission-howto > ol > li > .l-inner > figure {
+  margin: 0 4.4rem;
+}
+
+#page #mission-howto > ol > li > .l-inner > figure img {
+  width: 220px;
+}
+
+#page #mission-howto > ol > li > .l-inner > figure.img2 {
+  order: 2;
+}
+
+#page #mission-howto > ol > li > .l-inner > div {
+  width: 400px;
+}
+
+#page #mission-howto > ol > li > .l-inner > div.txt1 {
+  order: 1;
+}
+
+#page #mission-howto > ol > li > .l-inner > div > h3 {
+  color: #9c9c9c;
+  font-size: 4.6rem;
+}
+
+#page #mission-howto > ol > li > .l-inner > div > h3 > span {
+  color: #9c9c9c;
+  font-size: 8.4rem;
+  font-weight: bold;
+  margin-left: 1.2rem;
+}
+
+@media screen and (max-width: 950px) {
+  #page .l-inner {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    padding: 0;
+    background: url(https://music.r10s.jp/external/prod/assets/howto/mission/img/bg_20210825.jpg) no-repeat center top/auto 100%;
+  }
+  #page .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+  #page #mission-about .l-inner > h2.mission-h2 {
+    background: url(https://music.r10s.jp/external/prod/assets/howto/mission/img/mission-ttl.png) no-repeat center top;
+    height: 130px;
+  }
+  #page #mission-about .l-inner > h2.mission-h2 > p {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  #page #mission-about .l-inner > ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 32px 20px;
+  }
+  #page #mission-about .l-inner > ul > li {
+    width: 428px;
+  }
+  #page #mission-about .l-inner > ul > li > div.mission-box {
+    padding: 32px 20px;
+  }
+  #page #mission-about .l-inner > ul > li > div.mission-box div.mission-box--wrapper figure {
+    width: 100px;
+  }
+  #page #mission-about .l-inner > ul > li > div.mission-box div.mission-box--wrapper figure img {
+    width: 100%;
+  }
+  #page #mission-about .l-inner > ul > li > div.mission-box div.mission-box--wrapper figure + p {
+    font-size: 48px;
+  }
+  #page #mission-about .l-inner > ul > li > div.mission-box div.mission-box--wrapper figure + p .lilita {
+    font-size: 96px;
+  }
+  #page #mission-about .l-inner > ul > li:nth-of-type(3) > div.mission-box > h3 {
+    height: 62px;
+    line-height: 62px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #page #point .l-inner > p {
+    text-align: left;
+  }
+  #page #mission-howto .l-inner > h2.howto-h2 {
+    height: 36px;
+  }
+  #page #mission-howto .l-inner > h2.howto-h2 > p {
+    font-size: 2.4rem;
+    top: 2.4rem;
+  }
+  #page #point .l-inner > h2 {
+    font-size: 2.2rem;
+  }
+  #page #mission-howto > ol > li > .l-inner {
+    display: block;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #page #mission-howto > ol > li > .l-inner > div {
+    width: 100%;
+  }
+  #page #mission-howto > ol > li > .l-inner > figure {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3.6rem;
+  }
+  #page #mission-howto > ol > li > .l-inner > div > h3 {
+    margin: 0 auto;
+    text-align: center;
+  }
+  #page #mission-howto > ol > li > .l-inner > div > p {
+    padding-bottom: 3.6rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #page #mission-howto .l-inner > h2.howto-h2 > p {
+    font-size: 2rem;
+  }
+  #page #mission-howto > ol > li > .l-inner > div > h3 > span {
+    font-size: 6.4rem;
+  }
+}

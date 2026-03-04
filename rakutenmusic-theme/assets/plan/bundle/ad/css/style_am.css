@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* ----------------------------PC画面設定---------------------------- */
+@media screen and (min-width: 768px) {
+
+  #page .s-campaign-hero {
+    background: url(/assets/plan/bundle/ad/img/bg_am.png) no-repeat center top/auto 100% #6EF8FF;
+    background-color: #000000;
+  }
+}
+
+/*# sourceMappingURL=style_20241205.css.map */

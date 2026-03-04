@@ -1,0 +1,142 @@
+#page #campaign-apply {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4489c9+0,08bac7+100 */
+  background: #4489c9;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #4489c9 0%, #08bac7 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #4489c9 0%, #08bac7 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #4489c9 0%, #08bac7 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4489c9', endColorstr='#08bac7',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+#page #campaign-apply .l-inner > h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 48px;
+  padding-top: 40px;
+  margin-bottom: 32px;
+  color: white;
+}
+
+#page #campaign-apply .l-inner ol.steps > li {
+  background: white;
+  margin: 16px auto;
+  padding: 24px 16px;
+}
+
+#page #campaign-apply .l-inner ol.steps > li > h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 100;
+}
+
+#page #campaign-apply .l-inner ol.steps > li p.lead {
+  text-align: center;
+  margin: 16px 0 8px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: bold;
+  color: black;
+}
+
+#page #campaign-apply .l-inner ol.steps > li .step2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#page #campaign-apply .l-inner ol.steps > li .step2 .present {
+  width: 50%;
+  margin: 16px auto;
+}
+
+#page #campaign-apply .l-inner ol.steps > li .step2 .present-song {
+  text-align: center;
+  font-weight: bold;
+}
+
+#page #campaign-apply .l-inner .arrow {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#page #campaign-apply .l-inner .btn-apply {
+  margin: 24px auto;
+}
+
+#page #campaign-apply .l-inner .btn-apply .l-inner > * {
+  width: 100%;
+}
+
+#page #campaign-apply .l-inner .apply > .l-inner {
+  padding: 0 0 36px;
+}
+
+#page #campaign-apply .l-inner > .apply p {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/artist/nanabunnonijyuuni/img/bg.jpg) no-repeat center top/auto 87%;
+    position: relative;
+  }
+  #page .s-campaign-hero:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+  }
+  #page .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+  #page #campaign-apply .l-inner ol.steps > li p {
+    text-align: center;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .step2 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .step2 > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .step2 > div .screenshot {
+    text-align: right;
+    padding-right: 16px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .step2 > div .screenshot img {
+    width: 50%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .step2 > div .present {
+    width: 280px;
+    margin: 0;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .step2 > div .present img {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .step2 > div .present-song {
+    width: 280px;
+    margin-top: 16px;
+  }
+  #page #campaign-apply .l-inner .apply > .l-inner {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner .btn-apply > .l-inner {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner .btn-apply > .l-inner .trial-btn {
+    width: 450px;
+  }
+}

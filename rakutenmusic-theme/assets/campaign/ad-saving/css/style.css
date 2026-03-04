@@ -1,0 +1,1381 @@
+@charset "UTF-8";
+#page .campaign-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffd573;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0;
+  padding-bottom: 24px;
+  font-family: "Noto Sans JP";
+}
+#page .campaign-container .campaign-header {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 30px 16px 20px;
+  background: url("/assets/campaign/ad-saving/img/hero_bg_sp.png") no-repeat bottom center #fff;
+  background-size: 100% 444px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+#page .campaign-container .campaign-header .main-container {
+  font-family: "Rakuten Sans JP", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif, base;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+#page .campaign-container .campaign-header .main-container .text-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  gap: 12px;
+  text-align: center;
+  color: #000;
+}
+#page .campaign-container .campaign-header .main-container .text-container h1.heading-lv1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 8px;
+}
+#page .campaign-container .campaign-header .main-container .image {
+  margin-top: 12px;
+}
+#page .campaign-container .campaign-header .main-container .image img {
+  max-width: 343px;
+  height: auto;
+}
+#page .campaign-container .campaign-header .main-container .ribbon {
+  margin-top: 0px;
+  background: url("/assets/campaign/ad-saving/img/ribbon.svg") no-repeat 100% 100%;
+  background-position: center center;
+  max-width: 414px;
+  width: 100%;
+  height: 64px;
+  fill: #fff9c1;
+  -webkit-filter: drop-shadow(0px 4px 0px #3e3a39);
+  filter: drop-shadow(0px 4px 0px #3e3a39);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+#page .campaign-container .campaign-header .main-container .ribbon b {
+  font-size: 20px;
+  font-family: "Noto Sans JP";
+}
+#page .campaign-container .campaign-header .sub {
+  position: relative;
+}
+#page .campaign-container .campaign-header .sub::before,
+#page .campaign-container .campaign-header .sub::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 30px;
+  background-color: #ffe42e;
+  position: absolute;
+  top: 50%;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  height: 40px;
+}
+#page .campaign-container .campaign-header .sub::before {
+  left: -10px;
+  -webkit-transform: rotate(-25deg) translateY(-50%);
+  transform: rotate(-25deg) translateY(-50%);
+}
+#page .campaign-container .campaign-header .sub::after {
+  right: -10px;
+  -webkit-transform: rotate(25deg) translateY(-50%);
+  transform: rotate(25deg) translateY(-50%);
+}
+#page .campaign-container .campaign-header .line1,
+#page .campaign-container .campaign-header .line2,
+#page .campaign-container .campaign-header .line3 {
+  font-weight: 800;
+}
+#page .campaign-container .campaign-header .line1 {
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+#page .campaign-container .campaign-header .line1 .small-txt {
+  font-size: 22px;
+}
+#page .campaign-container .campaign-header .line2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  font-size: 36px;
+  color: #bf0000;
+  line-height: 100%;
+}
+#page .campaign-container .campaign-header .line2 .small-txt {
+  font-size: 32px;
+  color: #000;
+}
+#page .campaign-container .campaign-header .line3 {
+  letter-spacing: 0.03em;
+  line-height: 100%;
+  font-size: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#page .campaign-container .campaign-header .line3 .small-txt {
+  font-size: 30px;
+}
+#page .campaign-container .campaign-header .main-container {
+  display: grid;
+}
+@media screen and (min-width: 768px) {
+  #page .campaign-container .campaign-header .main-container {
+    grid-template-areas: "text-container image" "button image";
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: center;
+  }
+  #page .campaign-container .campaign-header .main-container .text-container {
+    -ms-flex-item-align: end;
+    align-self: end;
+  }
+  #page .campaign-container .campaign-header .main-container .ribbon {
+    -ms-flex-item-align: start;
+    align-self: start;
+    margin-top: 40px;
+  }
+  #page .campaign-container .campaign-header .main-container .image {
+    grid-area: image;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 767px) {
+  #page .campaign-container .campaign-header .main-container {
+    grid-template-areas: "text-container" "image" "button";
+    grid-template-columns: 1fr;
+  }
+}
+#page .campaign-container .campaign-main {
+  max-width: 950px;
+  width: 100%;
+  background-color: #fff;
+  padding: 24px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 64px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#page .campaign-container .promo-code-container {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 16px;
+  gap: 12px;
+  z-index: 1;
+  text-align: left;
+  font-size: 20px;
+  color: #bf0000;
+}
+#page .campaign-container .promo-code-container .copy-button {
+  cursor: pointer;
+  border-radius: 80px;
+  background-color: #fff;
+  border: 2px solid #bf0000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #bf0000;
+  font-weight: 800;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#page .campaign-container .promo-code-container .copy-button:hover {
+  background-color: #bf0000;
+  color: #fff;
+}
+#page .campaign-container .marker {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0%, #fdef06));
+  background: linear-gradient(transparent 60%, #fdef06 0%);
+  display: inline;
+  padding-bottom: 0.1em;
+}
+#page .campaign-container .header-container {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  z-index: 0;
+  gap: 8px;
+}
+#page .campaign-container .header-container h2 {
+  margin: 0;
+}
+#page .campaign-container .header-container .icon {
+  width: 140px;
+  position: relative;
+  height: 170.4px;
+  overflow: hidden;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  z-index: 1;
+}
+#page .campaign-container .header-container .text-content {
+  font-family: "Rakuten Sans JP", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif, base;
+  -webkit-font-feature-settings: "palt";
+  font-feature-settings: "palt";
+  font-size: 24px;
+  position: relative;
+  top: 0px;
+  line-height: 120%;
+}
+#page .campaign-container .header-container .text-content small {
+  font-size: 20px;
+}
+#page .campaign-container .header-container .text-container {
+  position: relative;
+}
+#page .campaign-container .header-container .dotted-line {
+  background-image: radial-gradient(circle, #02d0da 2px, transparent 2px);
+  background-size: 16px 4px;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  padding-bottom: 4px;
+  width: 100vw;
+}
+#page .campaign-container .header-container .text {
+  color: #000;
+}
+#page .campaign-container .header-container .text-emphasis {
+  color: #bf0000;
+}
+#page .campaign-container .header-container .description {
+  text-align: center;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+#page .campaign-container .header-container .content-box {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100%;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  gap: 20px;
+  z-index: 0;
+  padding: 0;
+}
+#page .campaign-container .body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 24px;
+}
+#page .campaign-container .point {
+  padding: 0;
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+}
+#page .campaign-container .point .point-icon {
+  width: 90px;
+  position: relative;
+  height: 109.56px;
+  overflow: hidden;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  z-index: 1;
+}
+#page .campaign-container .point1 .campaign-code-wrapper {
+  position: relative;
+  border-radius: 8px;
+  background-color: #fff8c9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 24px 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  gap: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  width: 100%;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .total-price {
+  position: relative;
+  line-height: 100%;
+  font-weight: 900;
+  color: #bf0000;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .total-price .span {
+  font-size: 28px;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .price-text {
+  font-size: 14px;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .price-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .price-details.price-details-trial {
+  gap: 8px;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .price-unit {
+  font-size: 32px;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .final-price {
+  position: relative;
+  line-height: 100%;
+  font-weight: 900;
+  font-size: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .final-price-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  font-size: 40px;
+  color: #bf0000;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .price-calculation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 8px;
+  z-index: 0;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .promo-code {
+  position: relative;
+  line-height: 32px;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .price-symbol {
+  font-size: 24px;
+  color: #bf0000;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .wallet-icon {
+  display: none;
+}
+#page .campaign-container .point1 .campaign-code-wrapper .piggy-bank-icon {
+  display: none;
+}
+#page .campaign-container .point2 {
+  gap: 16px;
+}
+#page .campaign-container .point2 .duration {
+  position: relative;
+  line-height: 24px;
+  font-size: 16px;
+}
+#page .campaign-container .point2 .price-unit {
+  font-size: 20px;
+}
+#page .campaign-container .point2 .price {
+  position: relative;
+  font-weight: 900;
+  font-size: 24px;
+}
+#page .campaign-container .point2 .service-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+#page .campaign-container .point2 .plan {
+  position: relative;
+  line-height: 16px;
+  font-size: 12px;
+}
+#page .campaign-container .point2 .rakuten-logo-icon {
+  max-width: 137.8px;
+  position: relative;
+  height: auto;
+}
+#page .campaign-container .point2 .spotify-logo-icon {
+  max-width: 140px;
+  position: relative;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+#page .campaign-container .point2 .line-logo-icon {
+  max-width: 140px;
+  position: relative;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+#page .campaign-container .point2 .amazon-logo-icon {
+  max-width: 137.8px;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+#page .campaign-container .point2 .pricing {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  gap: 16px;
+  z-index: 1;
+  font-size: 12px;
+}
+#page .campaign-container .point2 .price-table {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  gap: 8px;
+}
+#page .campaign-container .point2 .price-table .column {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 8px;
+}
+#page .campaign-container .point2 .price-table .column.column-rakuten {
+  color: #bf0000;
+}
+#page .campaign-container .point2 .price-table .table-header,
+#page .campaign-container .point2 .price-table .table-body {
+  width: 50%;
+}
+#page .campaign-container .point2 .price-table .table-header {
+  font-size: 16px;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  border-radius: 8px 0 0 8px;
+  background-color: #fff08b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 24px 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  gap: 4px;
+  -webkit-font-feature-settings: "palt";
+  font-feature-settings: "palt";
+}
+#page .campaign-container .point2 .price-table .table-body {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  border-radius: 0px 8px 8px 0;
+  background-color: #fff8c9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 24px 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+#page .campaign-container .point2 .price-table .table-body .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+#page .campaign-container .point2 .note-text {
+  line-height: 16px;
+  text-align: left;
+}
+#page .campaign-container .point2 .wallet-icon {
+  width: 173px;
+  position: relative;
+  margin: 0;
+  height: 107px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  z-index: 2;
+}
+#page .campaign-container .point3 .point-img {
+  max-width: 327px;
+}
+#page .campaign-container .point4 .point-img1 {
+  max-width: 343px;
+}
+#page .campaign-container .point4 .point-img2 {
+  max-width: 311px;
+}
+#page .ad_video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  background: #020717;
+}
+#page .ad_video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#page #sticky-apply-btn {
+  display: block;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+#page #sticky-apply-btn .sticky-apply-btn--inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding: 16px;
+  gap: 8px;
+}
+#page #sticky-apply-btn .sticky-apply-btn--inner > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-radius: 4px;
+}
+#page #sticky-apply-btn .sticky-apply-btn--inner .trial-btn {
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 8px;
+}
+#page #sticky-apply-btn .sticky-apply-btn--inner .iap-store-link {
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+#page #sticky-apply-btn .sticky-apply-btn--inner .btn-copy-code {
+  padding: 15px 0;
+  height: auto;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #bf0000;
+  border: 2px solid #bf0000;
+  -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+}
+#page .l-content .btn-apply {
+  width: 100%;
+}
+#page .l-content .btn-apply .trial-btn {
+  width: 100%;
+  -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  background: #bf0000;
+  display: block;
+  padding: 16px 24px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+#page .l-content .btn-apply .iap-store-link {
+  width: 100%;
+  -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  background: #bf0000;
+  display: block;
+  padding: 16px 24px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+/* テキストレスポンシブ改行用 */
+#page .sp_break {
+  display: block;
+}
+#page .pc_break {
+  display: none;
+}
+/* 横並び　センター */
+.row-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-direction: row;
+  margin: 0 auto;
+}
+/* 縦並びセンター */
+.column-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: stretch;
+  flex-direction: column;
+}
+/* SP横-PC縦並び */
+.row-break {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+/* SP縦-PC横　並び */
+.column-break {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* アンカーリンクコンテナ */
+#page .anchorlink-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 12px 16px;
+  gap: 12px;
+}
+/* アンカーリンクボタン */
+#page .anchorlink {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 16px 16px;
+  border: 2px solid #02d0da;
+  border-radius: 8px;
+  color: #000000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#page .anchorlink:focus {
+  color: #000 !important;
+}
+#page .anchorlink:hover {
+  color: #000 !important;
+}
+/* アンカーリンクのバッジ */
+#page .point-badge {
+  background-color: #02d0da;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 12px;
+  padding: 4px 12px;
+  margin-right: 4px;
+  font-weight: 700;
+}
+/* アコーディオン */
+#page .c-accordion {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #bf0000;
+  margin-bottom: 32px;
+}
+
+#page .c-accordion_ttl {
+  padding: 24px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #bf0000;
+  font-weight: bold;
+  width: 100%;
+}
+#page .accordion-content {
+  padding: 16px;
+}
+/* ----------------------------769px以上--------------------------------- */
+@media screen and (min-width: 768px) {
+  /* テキストレスポンシブ改行用 */
+  #page .sp_break {
+    display: none;
+  }
+  #page .pc_break {
+    display: block;
+  }
+  /* SP横-PC縦並び */
+  #page .row-break {
+    flex-direction: column;
+  }
+  /* SP縦-PC横　並び */
+  #page .column-break {
+    flex-direction: row;
+  }
+  /* アンカーリンクコンテナ */
+  #page .anchorlink-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 950px;
+  }
+  #page .anchorlink {
+    padding: 8px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #page .anchorlink:hover {
+    transform: scale(0.95, 0.95);
+  }
+  /* アンカーリンクのバッジ */
+  #page .point-badge {
+    margin-right: 0px;
+    font-size: 18px;
+  }
+
+  #page .campaign-container {
+    padding-bottom: 80px;
+  }
+  #page .campaign-container .campaign-header {
+    padding: 0;
+    background-image: url("/assets/campaign/ad-saving/img/hero_bg_pc.png");
+    background-size: 100% 444px;
+  }
+  #page .campaign-container .campaign-header .main-container {
+    width: auto;
+    margin: 14px 0 11px;
+  }
+  #page .campaign-container .campaign-header .main-container .text-container {
+    gap: 24px;
+  }
+  #page .campaign-container .campaign-header .main-container .text-container h1.heading-lv1 {
+    gap: 8px;
+  }
+  #page .campaign-container .campaign-header .main-container .image {
+    margin: 0;
+    padding-left: 32px;
+  }
+  #page .campaign-container .campaign-header .main-container .image img {
+    height: auto;
+    max-width: 409px;
+    width: 100%;
+  }
+  #page .campaign-container .campaign-header .main-container .ribbon {
+    margin-top: 32px;
+    max-width: 414px;
+  }
+  #page .campaign-container .campaign-header .main-container .ribbon b {
+    font-size: 24px;
+  }
+  #page .campaign-container .campaign-header .sub {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: rotate(-8.45deg);
+    transform: rotate(-8.45deg);
+    left: -90px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 950px) {
+  #page .campaign-container .campaign-header .sub {
+    left: -50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #page .campaign-container .campaign-header .line1 .small-txt {
+    font-size: 22px;
+  }
+  #page .campaign-container .campaign-header .line2 {
+    font-size: 40px;
+  }
+  #page .campaign-container .campaign-header .line2 .small-txt {
+    font-size: 36px;
+  }
+  #page .campaign-container .campaign-header .line3 {
+    font-size: 36px;
+  }
+  #page .campaign-container .campaign-header .line3 .small-txt {
+    font-size: 34px;
+  }
+  #page .campaign-container .campaign-main {
+    margin-top: 40px;
+    border-radius: 20px;
+    gap: 80px;
+    padding: 40px 60px;
+  }
+  #page .campaign-container .promo-code-container {
+    width: auto;
+    padding: 16px 40px;
+    font-size: 24px;
+    gap: 24px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  #page .campaign-container .header-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    gap: 0;
+  }
+  #page .campaign-container .header-container .text-content {
+    font-size: 32px;
+    letter-spacing: 0.05em;
+  }
+  #page .campaign-container .header-container .text-content small {
+    font-size: 24px;
+  }
+  #page .campaign-container .header-container .text-container {
+    min-height: 64px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  #page .campaign-container .header-container .description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #page .campaign-container .header-container .content-box {
+    width: auto;
+    padding: 24px 0;
+  }
+  #page .campaign-container .header-container .dotted-line {
+    width: 100%;
+  }
+  #page .campaign-container .point .point-icon {
+    width: 140px;
+    height: 170.4px;
+  }
+  #page .campaign-container .point1 .campaign-code-wrapper {
+    padding: 24px 40px;
+    width: auto;
+  }
+  #page .campaign-container .point1 .campaign-code-wrapper .total-price {
+    font-size: 32px;
+  }
+  #page .campaign-container .point1 .campaign-code-wrapper .price-text {
+    font-size: 16px;
+  }
+  #page .campaign-container .point1 .campaign-code-wrapper .price-details.price-details-trial {
+    gap: 8px;
+  }
+  #page .campaign-container .point1 .campaign-code-wrapper .price-unit {
+    font-size: 36px;
+  }
+  #page .campaign-container .point1 .campaign-code-wrapper .price-symbol {
+    font-size: 32px;
+  }
+  #page .campaign-container .point1 .campaign-code-wrapper .wallet-icon {
+    width: 84.8px;
+    position: absolute;
+    margin: 0 !important;
+    top: -29px;
+    left: -26px;
+    height: 84.2px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    z-index: 2;
+    display: block;
+  }
+  #page .campaign-container .point1 .campaign-code-wrapper .piggy-bank-icon {
+    width: 112.5px;
+    position: absolute;
+    margin: 0 !important;
+    top: -1.29px;
+    right: -57px;
+    height: 120.4px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    z-index: 3;
+    display: block;
+  }
+  #page .campaign-container .point1 .campaign-code-wrapper .price-calculation {
+    gap: 16px;
+  }
+  #page .campaign-container .point1 .campaign-code-wrapper .final-price {
+    font-size: 60px;
+  }
+  #page .campaign-container .point1 .campaign-code-wrapper .final-price-container {
+    font-size: 48px;
+  }
+  #page .campaign-container .point2 {
+    gap: 65px;
+  }
+  #page .campaign-container .point2 .pricing {
+    max-width: 800px;
+  }
+  #page .campaign-container .point2 .price-table {
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  #page .campaign-container .point2 .price-table .column {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(25% - 6px);
+    flex: 0 0 calc(25% - 6px);
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  #page .campaign-container .point2 .price-table .column.column-rakuten {
+    color: #bf0000;
+  }
+  #page .campaign-container .point2 .price-table .table-header,
+  #page .campaign-container .point2 .price-table .table-body {
+    width: auto;
+  }
+  #page .campaign-container .point2 .price-table .table-header {
+    height: 100px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  #page .campaign-container .point2 .price-table .table-body {
+    height: 124px;
+    border-radius: 0px 0px 8px 8px;
+  }
+  #page .campaign-container .point2 .wallet-icon {
+    position: absolute;
+    top: 210px;
+    left: -10px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    z-index: 2;
+  }
+  #page .campaign-container .point2 .rakuten-logo-icon {
+    width: 100%;
+    height: auto;
+  }
+  #page .campaign-container .point2 .spotify-logo-icon {
+    width: 100%;
+    height: auto;
+  }
+  #page .campaign-container .point2 .line-logo-icon {
+    width: 100%;
+    height: auto;
+  }
+  #page .campaign-container .point2 .amazon-logo-icon {
+    width: 100%;
+    height: auto;
+  }
+  #page .campaign-container .point3 .point-img {
+    max-width: 697px;
+  }
+  #page .campaign-container .point4 .point-img1 {
+    max-width: 678px;
+  }
+  #page .campaign-container .point4 .point-img2 {
+    max-width: 648px;
+  }
+  #page .ad_video {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 64px;
+  }
+  #page .ad_video iframe {
+    position: static;
+    width: 560px;
+    height: 315px;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner {
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .btn-copy-code {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 174px;
+    font-size: 18px;
+    line-height: 140%;
+    border-radius: 60px;
+    background: #fff;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .btn-copy-code:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-music {
+    width: 300px;
+    border-radius: 60px;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-music a {
+    padding: 16px 0;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .trial-btn {
+    width: 300px;
+    border-radius: 60px;
+    padding: 16px 0;
+    font-size: 18px;
+    line-height: 140%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 16px 24px;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .iap-store-link {
+    width: 300px;
+    border-radius: 60px;
+    padding: 16px 0;
+    font-size: 18px;
+    line-height: 140%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 16px 24px;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-mobile {
+    width: 300px;
+    border-radius: 60px;
+    overflow: hidden;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-mobile a {
+    padding: 16px 0;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  #page .l-content .btn-apply {
+    width: auto;
+  }
+} /*# sourceMappingURL=style.css.map */

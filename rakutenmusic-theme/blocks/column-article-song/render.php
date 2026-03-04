@@ -12,26 +12,15 @@ $is_mobile   = function_exists( 'wp_is_mobile' ) && wp_is_mobile();
 $link_url_use = $is_mobile ? $link_url_sp : $link_url_pc;
 $song_name   = isset( $attrs['songName'] ) ? $attrs['songName'] : '';
 $description = isset( $attrs['description'] ) ? $attrs['description'] : '';
-$spacing_top    = isset( $attrs['spacingTop'] ) && $attrs['spacingTop'] !== '' ? $attrs['spacingTop'] : '';
-$spacing_bottom = isset( $attrs['spacingBottom'] ) && $attrs['spacingBottom'] !== '' ? $attrs['spacingBottom'] : '';
 
 $assets_uri = function_exists( 'rakutenmusic_get_assets_uri' ) ? rakutenmusic_get_assets_uri() : get_template_directory_uri() . '/assets';
 if ( $image_url !== '' && strpos( $image_url, '/assets/' ) === 0 ) {
 	$image_url = $assets_uri . substr( $image_url, 7 );
 }
 
-$style_parts = array();
-if ( $spacing_top !== '' ) {
-	$style_parts[] = 'margin-top:' . esc_attr( $spacing_top );
-}
-if ( $spacing_bottom !== '' ) {
-	$style_parts[] = 'margin-bottom:' . esc_attr( $spacing_bottom );
-}
-$wrapper_style = count( $style_parts ) > 0 ? ' style="' . implode( ';', $style_parts ) . '"' : '';
-
 $btn_svg = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none"><rect x="0.5" y="1.02441" width="23" height="23" rx="11.5" stroke="white"/><path d="M10.2147 16.8749L16.625 13.1739C17.125 12.8853 17.125 12.1636 16.625 11.8749L10.2147 8.17393C9.71475 7.88526 9.08975 8.2461 9.08975 8.82345L9.08975 16.2254C9.08975 16.8027 9.71475 17.1636 10.2147 16.8749Z" fill="white"/></svg>';
 ?>
-<div class="song-article-block"<?php echo $wrapper_style; ?>>
+<div class="song-article-block">
 	<div class="song-pic-area">
 		<a href="<?php echo esc_url( $link_url_use ); ?>">
 			<?php if ( $image_url !== '' ) : ?>

@@ -1,0 +1,178 @@
+#page #campaign-apply {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#page #campaign-apply .select-options {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0px;
+  gap: 16px;
+}
+#page #campaign-apply .select-options label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  border: 2px solid black;
+  border-radius: 16px;
+  position: relative;
+}
+#page #campaign-apply .select-options label img {
+  width: 70px;
+  height: 70px;
+}
+#page #campaign-apply .select-options label .op-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+  flex: 1 0 0;
+}
+#page #campaign-apply .select-options label .op-group .op-ttl {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: left;
+}
+#page #campaign-apply .select-options label .op-group .op-num {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 125%;
+}
+#page #campaign-apply .select-options label .op-group .op-num .op-str {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 125%;
+}
+#page #campaign-apply .select-options label::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 3px solid black;
+  border-radius: 24px;
+}
+#page #campaign-apply .select-options label input[type=radio] {
+  display: none;
+}
+#page #campaign-apply .select-options label.selected {
+  border: 2px solid #BF0000;
+}
+#page #campaign-apply .select-options label.selected::before {
+  border: 3px solid #BF0000;
+}
+#page #campaign-apply .select-options label.selected::after {
+  display: block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background: #BF0000;
+  border-radius: 10px;
+  top: 50%;
+  left: 23px;
+  transform: translateY(-50%);
+}
+#page .input-text {
+  padding: 1em;
+  font-size: 14px;
+  border: 1px solid #BF0000;
+  border-radius: 8px;
+}
+#page .btn-entry {
+  padding: 12px 24px;
+  width: 100%;
+  background: #BF0000;
+  border-radius: 50px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+}
+#page .huawei-campaign-steps--inner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#page .huawei-campaign-steps--inner p.small {
+  color: var(--Gray-1000, #000);
+  text-align: center;
+  /* Caption JP - 12px/Regular */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+@media screen and (min-width: 767px) {
+  #page #campaign-apply .select-options {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+  #page #campaign-apply .select-options label {
+    padding-right: 1em;
+    width: 258px;
+    padding: 32px;
+    flex-direction: column;
+    gap: 24px;
+    transition: all 0.2s ease-in;
+  }
+  #page #campaign-apply .select-options label img {
+    width: 194px;
+    height: 194px;
+    flex-shrink: 0;
+  }
+  #page #campaign-apply .select-options label .op-group {
+    align-items: center;
+  }
+  #page #campaign-apply .select-options label .op-group p {
+    text-align: center;
+  }
+  #page #campaign-apply .select-options label .op-group p.op-ttl {
+    height: 96px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  #page #campaign-apply .select-options label:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+  }
+  #page #campaign-apply .select-options label.selected::after {
+    top: 39px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #page .input-text {
+    width: 300px;
+    margin: 0 auto;
+  }
+  #page .btn-entry {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 12px 24px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    transition: all 0.2s ease-in;
+  }
+  #page .btn-entry:hover {
+    background: #ff1212;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=entry.css.map */

@@ -1,0 +1,215 @@
+#page .s-campaign-hero {
+  padding: 0;
+  background: url(https://music.r10s.jp/external/prod/assets/news/artist/amuronamie/img/bg.jpg) no-repeat center top/cover;
+  position: relative;
+}
+
+#page .s-campaign-hero .campaign-hero__schedule {
+  z-index: 1;
+  position: relative;
+}
+
+#page #albums .l-inner h3 {
+  margin: 2rem 0 1rem;
+}
+
+#page #albums .l-inner ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+#page #albums .l-inner ul li {
+  width: 20%;
+  padding: 0 1rem;
+  margin: 0 0 3rem;
+}
+
+#page #albums .l-inner ul li figure {
+  display: flex;
+  flex-direction: column;
+  height: 184px;
+}
+
+#page #albums .l-inner ul li figure img {
+  width: 100%;
+  margin-top: auto;
+  border: 1px solid whitesmoke;
+  flex-shrink: 0;
+}
+
+#page #albums .l-inner ul li div {
+  margin: 0.5em 0 0;
+}
+
+#page #albums .l-inner ul li div p:last-of-type {
+  font-size: 1.2rem;
+}
+
+#page #HTMLBlock4281 + .text-box:before {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 4rem;
+  text-align: center;
+  display: block;
+}
+
+#page #HTMLBlock4281 + .text-box .l-inner p:nth-of-type(3) {
+  background: whitesmoke;
+  padding: 0.75em 0;
+}
+
+#page .item-list .item__card__image > a {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+#page .item-list .item__card__image > a img {
+  width: 100%;
+  height: auto;
+  max-width: initial;
+  max-height: initial;
+  margin-top: auto;
+  transition: all 0.2s ease-in;
+}
+
+#page .item-list .item__card__image > a:hover {
+  -webkit-box-shadow: initial;
+  box-shadow: initial;
+}
+
+#page .item-list .item__card__image > a:hover img {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#page .item-list .item__card__image > a:hover:after {
+  content: initial;
+}
+
+#page #howtobox .l-inner {
+  margin: 4rem auto;
+}
+
+#page #howtobox .l-inner ul {
+  display: flex;
+  justify-content: center;
+}
+
+#page #howtobox .l-inner ul li {
+  width: 300px;
+  margin: 0 4rem;
+  position: relative;
+}
+
+#page #howtobox .l-inner ul li:first-child:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0da";
+  font-weight: 900;
+  font-size: 6rem;
+  position: absolute;
+  top: 40%;
+  right: -5.5rem;
+}
+
+#page #howtobox .l-inner ul li div img {
+  width: 100%;
+}
+
+#page #howtobox .l-inner ul li p {
+  padding: 1rem;
+  text-align: justify;
+}
+
+#page #floating-campaign-about {
+  position: relative;
+}
+
+#page #floating-campaign-about > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#page #floating-campaign-about > a > div {
+  position: fixed;
+  z-index: 999;
+  top: 90px;
+  right: 30px;
+  width: 150px;
+  height: 150px;
+  background: #252525;
+  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in;
+}
+
+#page #floating-campaign-about > a > div p {
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+#page #floating-campaign-about > a > div:after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.4em;
+  color: white;
+  position: absolute;
+  bottom: 0.4em;
+}
+
+#page #floating-campaign-about > a > div:hover {
+  transform: translateY(5px);
+}
+
+@media screen and (max-width: 768px) {
+  #page #albums .l-inner ul li {
+    width: 50%;
+  }
+  #page #albums .l-inner ul li figure {
+    height: initial;
+  }
+  #page #HTMLBlock4281 + .text-box .l-inner p:nth-of-type(3) {
+    padding: 0.75em;
+  }
+  #page #howtobox .l-inner {
+    padding: 0;
+  }
+  #page #howtobox .l-inner > div {
+    overflow-x: scroll;
+  }
+  #page #howtobox .l-inner ul {
+    width: 180vw;
+    padding: 0 12vw;
+  }
+  #page #howtobox .l-inner ul li {
+    width: 50%;
+    margin: 0 2rem;
+  }
+  #page #howtobox .l-inner ul li:first-child:after {
+    top: 60vw;
+    right: -3.5rem;
+  }
+  #page #floating-campaign-about > a > div {
+    width: 90vw;
+    height: 14vw;
+    top: initial;
+    right: initial;
+    bottom: 5vw;
+    left: 50%;
+    margin-left: -45vw;
+  }
+  #page #floating-campaign-about > a > div p br {
+    display: none;
+  }
+  #page #floating-campaign-about > a > div::after {
+    position: initial;
+    margin-left: 0.5em;
+    font-size: 1.2em;
+  }
+}

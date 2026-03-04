@@ -1,0 +1,181 @@
+/* ブロックラッパー（WordPress が付与する div）でレイアウトが崩れないようにする */
+.wp-block-rakutenmusic-reward-section-howtouse,
+#page .l-content .wp-block-rakutenmusic-reward-section-howtouse {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* セクション内は縦並び（タイトル → カルーセル） */
+#section-howtouse.bg-light,
+.wp-block-rakutenmusic-reward-section-howtouse #section-howtouse,
+#page .l-content #section-howtouse.bg-light {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* HOW TO USE カルーセル（PC: 3列 / SP: 1列・横並びを強制）※ #page .l-content でテーマより優先 */
+#section-howtouse .howtouse-carousel,
+body.has-reward-blocks #section-howtouse .howtouse-carousel,
+.howtouse-carousel[data-howtouse-carousel],
+#page .l-content .wp-block-rakutenmusic-reward-section-howtouse .howtouse-carousel,
+#page .l-content #section-howtouse .howtouse-carousel {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 780px;
+  margin: 32px auto 0;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+#section-howtouse .howtouse-carousel-viewport,
+body.has-reward-blocks #section-howtouse .howtouse-carousel-viewport,
+.howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-viewport,
+#page .l-content .wp-block-rakutenmusic-reward-section-howtouse .howtouse-carousel-viewport,
+#page .l-content #section-howtouse .howtouse-carousel-viewport {
+  overflow: hidden !important;
+  flex: 1 1 0;
+  min-width: 0;
+  width: 100%;
+}
+
+#section-howtouse .howtouse-carousel-track,
+body.has-reward-blocks #section-howtouse .howtouse-carousel-track,
+.howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-track,
+#page .l-content .wp-block-rakutenmusic-reward-section-howtouse .howtouse-carousel-track,
+#page .l-content #section-howtouse .howtouse-carousel-track {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  transition: transform 0.35s ease-out;
+  will-change: transform;
+  width: 200%;
+  height: 100%;
+}
+
+/* PC: 3列（1スライド = トラックの 1/6） */
+#section-howtouse .howtouse-carousel-slide,
+body.has-reward-blocks #section-howtouse .howtouse-carousel-slide,
+.howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-slide,
+#page .l-content .wp-block-rakutenmusic-reward-section-howtouse .howtouse-carousel-slide,
+#page .l-content #section-howtouse .howtouse-carousel-slide {
+  flex: 0 0 16.666% !important;
+  width: 16.666% !important;
+  max-width: none !important;
+  padding: 0 8px;
+  box-sizing: border-box;
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  align-items: center;
+  gap: 16px;
+}
+
+/* スライド位置（JS で --howtouse-index を 0〜5 に更新） */
+#section-howtouse .howtouse-carousel-track,
+body.has-reward-blocks #section-howtouse .howtouse-carousel-track,
+.howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-track {
+  transform: translateX(calc(-1 * var(--howtouse-index, 0) * 16.666%));
+}
+
+#section-howtouse .howtouse-carousel-slide .howtouse-img,
+body.has-reward-blocks #section-howtouse .howtouse-carousel-slide .howtouse-img,
+.howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-slide .howtouse-img {
+  width: 158px;
+  flex-shrink: 0;
+}
+
+#section-howtouse .howtouse-carousel-slide .howtouse-img img,
+body.has-reward-blocks #section-howtouse .howtouse-carousel-slide .howtouse-img img,
+.howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-slide .howtouse-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#section-howtouse .howtouse-carousel-slide .howtouse-txt,
+body.has-reward-blocks #section-howtouse .howtouse-carousel-slide .howtouse-txt,
+.howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-slide .howtouse-txt {
+  width: 230px;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* 左右ボタン */
+#section-howtouse .howtouse-carousel-btn,
+body.has-reward-blocks #section-howtouse .howtouse-carousel-btn,
+.howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-btn {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: #bf0000;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+#section-howtouse .howtouse-carousel-btn:hover,
+body.has-reward-blocks #section-howtouse .howtouse-carousel-btn:hover,
+.howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-btn:hover {
+  opacity: 0.9;
+}
+
+#section-howtouse .howtouse-carousel-btn:disabled,
+body.has-reward-blocks #section-howtouse .howtouse-carousel-btn:disabled,
+.howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* SP: 1列表示 */
+@media screen and (max-width: 767px) {
+  #section-howtouse .howtouse-carousel,
+  body.has-reward-blocks #section-howtouse .howtouse-carousel,
+  .howtouse-carousel[data-howtouse-carousel] {
+    padding: 0 12px;
+    gap: 8px;
+  }
+
+  #section-howtouse .howtouse-carousel-track,
+  body.has-reward-blocks #section-howtouse .howtouse-carousel-track,
+  .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-track {
+    width: 600%;
+  }
+
+  #section-howtouse .howtouse-carousel-slide,
+  body.has-reward-blocks #section-howtouse .howtouse-carousel-slide,
+  .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-slide {
+    flex: 0 0 16.666% !important;
+    width: 16.666% !important;
+  }
+
+  #section-howtouse .howtouse-carousel-btn,
+  body.has-reward-blocks #section-howtouse .howtouse-carousel-btn,
+  .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+  }
+}

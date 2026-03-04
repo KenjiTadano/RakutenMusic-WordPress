@@ -1,0 +1,23 @@
+#page .temporary-banner {
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1em;
+}
+
+#page .temporary-banner p {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  #page .temporary-banner {
+    width: 600px;
+    height: 100px;
+    padding: 0;
+    margin: 4rem auto 2rem;
+    transition: all 0.2s ease-in;
+  }
+  #page .temporary-banner:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+}

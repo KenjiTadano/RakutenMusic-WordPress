@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/reward-top-section-introduction",
+  "title": "リワード：サービス概要（INTRODUCTION）",
+  "category": "rakutenmusic-reward",
+  "icon": "align-wide",
+  "description": "リワードページ用 サービス概要セクション（楽天ミュージックとは・機能一覧・アコーディオン）",
+  "keywords": ["楽天", "ミュージック", "リワード", "INTRODUCTION", "サービス概要"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "render": "file:./render.php"
+}

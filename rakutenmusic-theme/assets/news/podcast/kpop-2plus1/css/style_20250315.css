@@ -1,0 +1,1507 @@
+#page .heading--m,
+#page #price .l-inner h1,
+#page .l-campaign-03 .s-campaign-list .l-inner h2 {
+  display: flex;
+  padding: 16px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  background: #4B93FF;
+  color: var(--White, #FFF);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  /* 128.571% */
+}
+
+#page #price .l-inner {
+  padding: 0;
+}
+
+#page #price .l-inner>div {
+  padding: 0 16px;
+}
+
+#page .l-campaign-03 .s-campaign-list .l-inner {
+  padding: 0;
+}
+
+#page .l-campaign-03 .s-campaign-list .l-inner>ul {
+  padding: 0 16px;
+}
+
+#page .slick-dots {
+  margin: 0 auto;
+}
+
+#page .slick-dots li button:before {
+  content: none;
+}
+
+#page .slick-arrow {
+  z-index: 1;
+}
+
+#page .slick-prev:before,
+#page .slick-next:before {
+  color: black;
+}
+
+#page .slick-prev {
+  left: 20px;
+}
+
+#page .slick-next {
+  right: 20px;
+}
+
+#page .flxbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+#page .rk-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px;
+  gap: 32px;
+}
+
+#page .rk-section>div.latest-episodes {
+  background: none;
+}
+
+#page .rk-section.yellow {
+  background: #FFF2A6;
+}
+
+#page .rk-section.lightblue {
+  background: #C8DFFF;
+}
+
+#page .rk-section.orange {
+  background: #FFC027;
+}
+
+#page .rk-section.pink {
+  background: #FFCFF7;
+}
+
+#page .rk-section>div {
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+
+#page .rk-section h2 img {
+  width: auto;
+  height: 24px;
+}
+
+#page .anchor_blue {
+  display: flex;
+  padding: 16px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  background: #4B93FF;
+}
+
+#page .anchor_blue .anchor-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 8px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+#page .anchor_blue .anchor-links>li>a {
+  display: flex;
+  width: 158px;
+  padding: 8px 8px 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 40px;
+  background: var(--White, #FFF);
+}
+
+#page .anchor_blue .anchor-links>li>a>img {
+  width: auto;
+  height: 10px;
+}
+
+#page .anchor_blue .anchor-links>li>a::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 16px;
+  background: url(/assets/news/podcast/kpop-2plus1/img/icon_arrow_down_blue.png) no-repeat center/contain;
+  flex: none;
+}
+
+#page .about-kpop-2plus1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 32px;
+}
+
+#page .about-kpop-2plus1 .about-kpop-2plus1--img {
+  width: 160px;
+}
+
+#page .about-kpop-2plus1 .about-kpop-2plus1--txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+
+#page .about-kpop-2plus1 .about-kpop-2plus1--txt p {
+  color: #000;
+  text-align: justify;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page .about-kpop-2plus1 .about-kpop-2plus1--txt p.lead {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page .about-kpop-2plus1-editor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 24px;
+}
+
+#page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_matsu,
+#page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_mochii {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page .about-kpop-2plus1-editor .about-kpop-2plus1-editor--img {
+  width: 130px;
+  display: flex;
+}
+
+#page .about-kpop-2plus1-editor .about-kpop-2plus1-editor--txtimg {
+  display: flex;
+  padding: 16px;
+}
+
+#page .about-kpop-2plus1-editor .about-kpop-2plus1-editor--txt {
+  color: var(--Gray-900, #333);
+  text-align: justify;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #link-latest-episodes ul.list-episodes {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+#page #link-latest-episodes ul.list-episodes>li {
+  display: flex;
+  width: 327px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 24px;
+  background: var(--White, #FFF);
+}
+
+#page #link-latest-episodes ul.list-episodes>li .ttl-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .ttl-group p.number {
+  color: #000;
+  /* JP Header Medium 24px/Bold */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 133.333% */
+}
+
+#page #link-latest-episodes ul.list-episodes>li .ttl-group p.title {
+  flex: 1 0 0;
+  color: #000;
+  /* JP Body Large 16px/Bold */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  /* 150% */
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho,
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 8px;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho h3,
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii h3 {
+  margin: 0;
+  /* JP Body Small 12px/Bold */
+  font-family: "Noto Sans JP";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_comment,
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_comment img,
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment img {
+  width: 56px;
+  height: 56px;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_comment p,
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment p {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-radius: 8px;
+  background: #FFF;
+  position: relative;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_comment p::before,
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment p::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 8px solid #ffffff;
+  border-left: 0;
+  position: absolute;
+  left: -8px;
+  top: 8px;
+}
+
+
+#page #link-latest-episodes ul.list-episodes>li .reccomend_item_group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item,
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-self: stretch;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item .item,
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item .item {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 8px 8px 0px 0px;
+  background: #FFF;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item .item img,
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item .item img {
+  width: 56px;
+  height: 56px;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item .item p.recommend_item_ttl,
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item .item p.recommend_item_ttl {
+  flex: 1;
+  align-self: stretch;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+  text-decoration-line: underline;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item>a,
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item>a {
+  display: flex;
+  padding: 8px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 0px 0px 8px 8px;
+  color: #FFF;
+  /* JP Body Medium 14px/Bold */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item a img {
+  width: auto;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho {
+  background: #EBF3FF;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho h3 {
+  color: #2A73E0;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho>a,
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item>a {
+  background: #2A73E0;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii {
+  background: #FEF0FD;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii h3 {
+  color: #DA29C9;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item>a {
+  background: #DA29C9;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_item a {
+  display: flex;
+  padding: 8px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 36px;
+}
+
+#page #link-archive ul.archive-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+#page #link-archive ul.archive-list>li {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: #FBF0F9;
+}
+
+#page #link-archive ul.archive-list>li div.archive-ttl {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+#page #link-archive ul.archive-list>li div.archive-ttl .archive-number,
+#page #link-archive ul.archive-list>li div.archive-ttl .archive-date {
+  color: #000;
+  /* JP Body Large 16px/Bold */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+
+#page #link-archive ul.archive-list>li div.archive-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+#page #link-archive ul.archive-list>li div.archive-item>* {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  align-self: stretch;
+}
+
+#page #link-archive ul.archive-list>li div.archive-item a {
+  text-decoration-line: underline;
+}
+
+
+
+#page #link-archive ul.archive-list>li div.archive-item>*::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #F421B9;
+  flex: none;
+}
+
+#page .archive-banner a {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#page .archive-banner a span {
+  color: var(--Info-Text, #006497);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  text-decoration-line: underline;
+}
+
+#page .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 32px;
+}
+
+#page .profile .img {
+  width: 160px;
+}
+
+#page .profile .profile-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+
+#page .profile .profile-txt .title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page .profile .profile-txt .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+
+#page .profile .profile-txt .about .name {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+#page .profile .profile-txt .about .sub {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page .profile .profile-txt .desctiption {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page .profile table tbody tr td {
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+#page .profile table tbody tr td:first-child {
+  width: 48px;
+}
+
+#page .playback-steps .playback-steps--inner img {
+  width: 180px;
+  margin: 0 auto;
+}
+
+#page #link-steps .flxbox {
+  padding: 24px 24px 16px;
+}
+
+#page #link-steps h2,
+#page #link-steps h3 {
+  text-align: center;
+  margin: 0;
+}
+
+#page #link-steps h2 {
+  color: #F15942;
+  /* Mobile Display 4 JP 24px/Bold */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  /* 129.167% */
+}
+
+#page #link-steps h3 {
+  color: #000;
+  /* H2 JP - 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 130% */
+}
+
+#page #link-steps p {
+  color: #000;
+  text-align: center;
+  /* Body 2 JP - 14px/Regular */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #link-steps p.lead {
+  color: #000;
+  text-align: center;
+  /* H2 JP - 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 130% */
+}
+
+#page #gallery .gallery {
+  display: flex;
+  width: 316px;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  background: none;
+  border-radius: 0;
+}
+
+#page #gallery .gallery .gallery-item {
+  width: 150px;
+}
+
+#page #gallery .gallery .gallery-item img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+#page #gallery .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  border-radius: 0;
+}
+
+#page #gallery .overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#page #gallery .overlay .close-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  position: absolute;
+  bottom: 64px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+/*リニューアル前暫定対応*/
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 8px;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 h3 {
+  margin: 0;
+  /* JP Body Small 12px/Bold */
+  font-family: "Noto Sans JP";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_comment {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_comment img {
+  width: 56px;
+  height: 56px;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_comment p {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-radius: 8px;
+  background: #FFF;
+  position: relative;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_comment p::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 8px solid #ffffff;
+  border-left: 0;
+  position: absolute;
+  left: -8px;
+  top: 8px;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-self: stretch;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item .item {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 8px 8px 0px 0px;
+  background: #FFF;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item .item img {
+  width: 56px;
+  height: 56px;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item .item p.recommend_item_ttl {
+  flex: 1;
+  align-self: stretch;
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item>a {
+  display: flex;
+  padding: 8px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 0px 0px 8px 8px;
+  color: #FFF;
+  /* JP Body Medium 14px/Bold */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 {
+  background: #EBF3FF;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 h3 {
+  color: #2A73E0;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2>a,
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item>a {
+  background: #2A73E0;
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment .recommend_comment_tex p {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-radius: 8px;
+  background: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+  /* 本文を隠す高さを指定 */
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+}
+
+/* もっと見るボタンで高さを自動に */
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment .recommend_comment_tex p.active {
+  height: auto;
+
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment .recommend_comment_tex p::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(rgba(255, 255, 255, 0) 0, #fff 90%);
+  position: absolute;
+  top: -3px;
+  left: 0;
+  /* △透過グラデーションをposition指定△ */
+  /*border-style: solid;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 8px solid #ffffff;
+  border-left: 0;
+  left: -8px;
+  top: 8px;*/
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_comment .recommend_comment_tex p::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 8px solid #ffffff;
+  border-left: 0;
+  position: absolute;
+  left: -8px;
+  top: 8px;
+}
+
+/* もっと見るボタンで透過グラデーションを解除 */
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment .recommend_comment_tex p.active::before {
+  background: none;
+
+}
+
+#page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment .recommend_comment_tex .read_more {
+  width: 183px;
+  font-size: 14px;
+  text-align: center;
+  background: #F741E5;
+  color: white;
+  border-radius: 0px 0px 8px 8px;
+  border: none;
+}
+
+
+
+
+
+@media screen and (min-width: 767px) {
+  #page .s-campaign-hero {
+    background: url(/assets/news/podcast/kpop-2plus1/img/bg.png) no-repeat center/cover;
+  }
+
+  #page .heading--m,
+  #page #price .l-inner h1,
+  #page .l-campaign-03 .s-campaign-list .l-inner h2 {
+    display: flex;
+    padding: 16px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 130.435% */
+  }
+
+  #page #price .l-inner {
+    width: 100%;
+  }
+
+  #page .l-campaign-03 .s-campaign-list .l-inner {
+    width: 100%;
+  }
+
+  #page .l-campaign-03 .s-campaign-list .l-inner>ul {
+    width: 950px;
+    margin: 0 auto;
+  }
+
+  #page .anchor_blue {
+    padding: 32px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  #page .anchor_blue .anchor-links>li>a {
+    padding: 8px 16px;
+    width: -moz-fit-content;
+    width: fit-content;
+    gap: 8px;
+    transition: all 0.2s ease-in;
+  }
+
+  #page .anchor_blue .anchor-links>li>a img {
+    height: 20px;
+  }
+
+  #page .anchor_blue .anchor-links>li>a:hover {
+    transform: translateY(2px);
+    opacity: 0.9;
+  }
+
+  #page .flxbox {
+    gap: 32px;
+  }
+
+  #page #link-latest-episodes {
+    background: none;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li {
+    display: flex;
+    width: 950px;
+    padding: 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 32px;
+    background: var(--White, #FFF);
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .ttl-group {
+    gap: 16px;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .ttl-group p.number {
+    /* JP Display Large 40px/Bold */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    /* 140% */
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .ttl-group p.title {
+    /* JP Header Medium 24px/Bold */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 133.333% */
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii {
+    padding: 24px;
+    gap: 16px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho h3,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 133.333% */
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_comment,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment {
+    width: 428px;
+    gap: 16px;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_comment img,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment img {
+    width: 112px;
+    height: 112px;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_comment p,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment p {
+    padding: 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_comment p::before,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment p::before {
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 16px solid #ffffff;
+    left: -16px;
+    top: 16px;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .reccomend_item_group {
+    flex: 1;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item {
+    flex: 1;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item .item,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item .item {
+    width: 100%;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item .item img,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item .item img {
+    width: 72px;
+    height: 72px;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item .item p.recommend_item_ttl,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item .item p.recommend_item_ttl {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item>a,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item>a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    transition: all 0.2s ease-in;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho .recommend_item>a:hover,
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_item>a:hover {
+    opacity: 0.8;
+  }
+
+  #page #link-archive ul.archive-list {
+    flex: 1;
+  }
+
+  #page #link-archive ul.archive-list>li {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+
+  #page #link-archive ul.archive-list>li div.archive-ttl {
+    width: 167px;
+  }
+
+  #page #link-archive ul.archive-list>li div.archive-ttl .archive-number,
+  #page #link-archive ul.archive-list>li div.archive-ttl .archive-date {
+    color: #000;
+    /* JP Header Small 20px/Bold */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 140% */
+  }
+
+  #page #link-archive ul.archive-list>li div.archive-item a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #page #link-archive ul.archive-list>li div.archive-item a:hover {
+    text-decoration-line: none;
+  }
+
+  #page .archive-banner a {
+    width: 600px;
+    gap: 16px;
+    margin: 0 auto;
+  }
+
+  #page .archive-banner a span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    text-decoration-line: underline;
+  }
+
+  #page .archive-banner a:hover span {
+    text-decoration-line: none;
+  }
+
+  #page .archive-banner a:hover img {
+    opacity: 0.8;
+  }
+
+  #page #link-steps .flxbox {
+    padding: 48px 0 32px;
+  }
+
+  #page #link-steps h2 {
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 130.435% */
+  }
+
+  #page #link-steps h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 129.167% */
+  }
+
+  #page #link-steps p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page #link-steps p.lead {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 129.167% */
+  }
+
+  #page .playback-steps {
+    width: 870px;
+    margin: 0 auto;
+  }
+
+  #page .playback-steps .slick-slide {
+    position: relative;
+  }
+
+  #page .playback-steps .slick-slide:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 18px solid black;
+    border-right: 0;
+    position: absolute;
+    top: 170px;
+    right: -10px;
+  }
+
+  #page .playback-steps p {
+    width: 180px;
+    margin: 0 auto;
+  }
+
+  #page .rk-section {
+    padding: 48px 0px;
+  }
+
+  #page .rk-section>div {
+    width: 950px;
+  }
+
+  #page .rk-section h2 img {
+    height: 48px;
+  }
+
+  #page .about-kpop-2plus1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 48px;
+    gap: 32px;
+  }
+
+  #page .about-kpop-2plus1 .about-kpop-2plus1--img {
+    width: 320px;
+  }
+
+  #page .about-kpop-2plus1 .about-kpop-2plus1--txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+  }
+
+  #page .about-kpop-2plus1 .about-kpop-2plus1--txt p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page .about-kpop-2plus1 .about-kpop-2plus1--txt p.lead {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  #page .about-kpop-2plus1-editor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px;
+    gap: 32px;
+  }
+
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_matsu,
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_mochii {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    flex-direction: row;
+  }
+
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_matsu .about-kpop-2plus1-editor--img,
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_mochii .about-kpop-2plus1-editor--img {
+    width: 130px;
+  }
+
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_matsu .about-kpop-2plus1-editor--img img,
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_mochii .about-kpop-2plus1-editor--img img {
+    width: 100%;
+  }
+
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_matsu .about-kpop-2plus1-editor--txtimg,
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_mochii .about-kpop-2plus1-editor--txtimg {
+    width: 200px;
+  }
+
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_matsu .about-kpop-2plus1-editor--txtimg img,
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_mochii .about-kpop-2plus1-editor--txtimg img {
+    margin: 0 auto;
+  }
+
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_matsu .about-kpop-2plus1-editor--txt,
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_mochii .about-kpop-2plus1-editor--txt {
+    flex: 1 0 0;
+  }
+
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_matsu .about-kpop-2plus1-editor--txt p,
+  #page .about-kpop-2plus1-editor .about-kpop-2plus1-editor_mochii .about-kpop-2plus1-editor--txt p {
+    color: var(--Gray-900, #333);
+    text-align: justify;
+    /* JP Body Large 16px/Regular */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page .profile {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 48px;
+    gap: 32px;
+  }
+
+  #page .profile .img {
+    width: 320px;
+  }
+
+  #page .profile .profile-txt .title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  #page .profile .profile-txt .about {
+    gap: 16px;
+  }
+
+  #page .profile .profile-txt .about .name {
+    font-size: 46px;
+    line-height: 60px;
+  }
+
+  #page .profile .profile-txt .about .sub {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #page .profile .profile-txt .desctiption {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #page .profile .profile-txt table tbody tr td {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #page .profile .profile-txt table tbody tr td:first-child {
+    width: 64px;
+  }
+
+  #page .cta {
+    padding: 48px 0px;
+    gap: 32px;
+  }
+
+  #page .cta p.lead {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  #page #gallery .gallery {
+    flex-direction: row;
+    width: 950px;
+    gap: 24px;
+  }
+
+  #page #gallery .gallery .gallery-item {
+    width: 300px;
+    height: 300px;
+  }
+
+  #page #gallery .gallery .gallery-item img {
+    width: 300px;
+    height: 300px;
+  }
+
+  #page #gallery .overlay img {
+    width: 600px;
+    height: 600px;
+  }
+
+  /*リニューアル前暫定*/
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 {
+    padding: 24px;
+    gap: 16px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 133.333% */
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_comment {
+    gap: 16px;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_comment img {
+    width: 112px;
+    height: 112px;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_comment p {
+    padding: 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_comment p::before {
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 16px solid #ffffff;
+    left: -16px;
+    top: 16px;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item {
+    flex: 1;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item .item {
+    width: 100%;
+    padding: 16px;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item .item img {
+    width: 72px;
+    height: 72px;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item .item p.recommend_item_ttl {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item>a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    transition: all 0.2s ease-in;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_bancho_v2 .recommend_item>a:hover {
+    opacity: 0.8;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment .recommend_comment_tex p {
+    font-size: 14px;
+    padding: 16px;
+  }
+
+  #page #link-latest-episodes ul.list-episodes>li .recommend_mochii .recommend_comment .recommend_comment_tex .read_more {
+    width: 300px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

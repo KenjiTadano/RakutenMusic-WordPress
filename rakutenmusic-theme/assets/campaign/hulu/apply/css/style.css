@@ -1,0 +1,36 @@
+#page .s-entry-form {
+  padding: 0;
+}
+#page .s-entry-form + .text-box .l-inner {
+  font-size: small;
+  line-height: 1.5;
+  margin: 10px auto 40px;
+}
+#page .btn-rakugo .btn-container {
+  width: 90vw;
+  margin: 60px auto;
+}
+#page .btn-rakugo .btn-container a {
+  background-color: #00a040;
+  box-shadow: 0px 5px 0px 0px #007930;
+}
+@media screen and (max-width: 768px) {
+  #page .s-entry-form {
+    width: 90vw;
+    margin: 4vw auto;
+    padding: 0;
+  }
+  #page .s-entry-form + .text-box .l-inner {
+    font-size: medium;
+    line-height: 1.5;
+    margin: 4vw 0 6vw;
+  }
+  #page .btn-rakugo .btn-container {
+    width: 90vw;
+    margin: 10vw auto 4vw;
+  }
+  #page .btn-rakugo .btn-container a {
+    background-color: #00a040;
+    box-shadow: 0px 1vw 0px 0px #007930;
+  }
+}

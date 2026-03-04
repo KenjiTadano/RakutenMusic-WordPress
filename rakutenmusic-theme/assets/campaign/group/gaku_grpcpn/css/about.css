@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+/* ----------------------- */
+
+.terms_box {
+    background: #fff;
+    border: solid 4px #000;
+    border-radius: 20px;
+    padding: 0 38px;
+}
+
+.terms_box_inner {}
+
+
+/* ----------------------- */
+
+.explain_title {
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 -38px;
+}
+
+.explain_title:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    background: #000;
+    width: 39px;
+    height: 39px;
+    top: 0;
+    bottom: 0;
+    right: 43px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.explain_title span {
+    display: block;
+    text-align: center;
+    padding: 41px 0;
+}
+
+.explain_title span:after,
+.explain_title span:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    background: #fff;
+    width: 20px;
+    height: 3px;
+    top: 0;
+    bottom: 0;
+    right: 52px;
+    margin: auto;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+}
+
+.explain_title span:after {
+    transform: rotate(90deg);
+}
+
+.explain_title.js-active span:before {
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+.explain_title.js-active span:after {
+    transform: rotate(180deg);
+}
+
+.explain_main {
+    padding: 41px 0;
+    border-top: 2px solid #000;
+    display: none;
+}
+
+.explain_logo {
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.explain_age {
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.explain_mes {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 27px;
+}
+
+.explain_list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 33px;
+}
+
+.explain_list_box {
+    background: #f6f6f6;
+    width: 23.5%;
+    padding: 14px 0;
+    border-radius: 20px;
+}
+
+.explain_list_no {
+    font-weight: 600;
+    text-align: center;
+    background: #fff;
+    border: 4px solid #000;
+    border-radius: 100px;
+    padding: 1px 0;
+    margin: 0 12% 16px;
+    font-size: 16px;
+}
+
+.explain_list_img {
+    margin: 0 0 10px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.explain_list_mes {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.explain_list_mes span {
+    color: #ec003c;
+}
+
+.explain_list_come {
+    text-align: center;
+    font-size: 12px;
+}
+
+.explain_mes2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 17px;
+}
+
+.explain_mes2 span {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 6px 0 0;
+}
+
+
+/* ----------------------- */
+
+@media screen and (min-width: 768px) {
+    .explain_btn {}
+    .explain_btn a {
+        padding: 21px 0;
+        width: 340px;
+        margin: 0 auto;
+        background: #fff;
+        display: block;
+        text-align: center;
+        border: 4px #000 solid;
+        border-radius: 100px;
+        padding: 25px 0;
+        position: relative;
+        z-index: 1;
+        box-shadow: 0px 4px 13px 0px rgba(169, 170, 170, 0.5);
+    }
+    .explain_btn a:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 24px;
+        width: 12px;
+        height: 12px;
+        margin: auto;
+        border-top: 1px solid #000;
+        border-right: 1px solid #000;
+        transform: rotate(45deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .explain_title:before {
+        background: white;
+    }
+    .terms_box {
+        background: #fff;
+        border: solid 4px #000;
+        border-radius: 10px;
+        padding: 0 17px;
+    }
+    .terms_box_inner {}
+    /* ----------------------- */
+    .explain_title {
+        display: block;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        outline: none !important;
+        margin: 0 -17px;
+    }
+    .explain_title span {
+        display: inline-block;
+        /* text-align: center; */
+        /* padding: 41px 0; */
+        width: 33.53%;
+    }
+    .explain_title span:after,
+    .explain_title span:before {
+        content: "";
+        z-index: 1;
+        position: absolute;
+        background: #000;
+        width: 20px;
+        height: 2px;
+        top: 0;
+        bottom: 0;
+        right: 24px;
+        margin: auto;
+        transition: all 400ms ease;
+        -webkit-transition: all 400ms ease;
+        -moz-transition: all 400ms ease;
+    }
+    .explain_title span:after {
+        transform: rotate(90deg);
+    }
+    .explain_title.js-active span:before {
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+    .explain_title.js-active span:after {
+        transform: rotate(180deg);
+    }
+    .explain_main {
+        padding: 35px 0;
+        border-top: 2px solid #000;
+        display: none;
+    }
+    .explain_logo {
+        text-align: center;
+        margin: 0 16% 22px;
+    }
+    .explain_age {
+        text-align: center;
+        margin: 0 7% 7px;
+    }
+    .explain_mes {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0 0 27px;
+        line-height: 1.6;
+    }
+    .explain_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 0 25px;
+    }
+    .explain_list_box {
+        background: #f6f6f6;
+        width: 48.5%;
+        padding: 14px 0;
+        border-radius: 10px;
+    }
+    .explain_list_box:nth-child(n+3) {
+        margin-top: 23px;
+    }
+    .explain_list_no {
+        font-weight: 600;
+        text-align: center !important;
+        background: #fff;
+        border: 2px solid #000;
+        border-radius: 100px;
+        padding: 2px 0;
+        margin: 0 6% 19px;
+        font-size: 15px;
+    }
+    .explain_list_img {
+        margin: 0 0 18px;
+        padding: 0 9px;
+        text-align: center;
+    }
+    .explain_list_mes {
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.5;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+    }
+    .explain_list_mes span {
+        color: #ec003c;
+    }
+    .explain_list_come {
+        text-align: center;
+        font-size: 12px;
+    }
+    .explain_mes2 {
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 0 13px;
+        line-height: 1.5;
+    }
+    .explain_mes2 span {
+        display: block;
+        font-size: 12px;
+        font-weight: normal;
+        margin: 6px 0 0;
+    }
+    .explain_btn a {
+        margin: 0 -17px -13px;
+        display: block;
+        border: none;
+        box-sizing: 0 0 0 0;
+    }
+}

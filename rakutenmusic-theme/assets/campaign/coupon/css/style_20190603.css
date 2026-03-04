@@ -1,0 +1,123 @@
+#page .s-campaign-hero {
+  padding: 0;
+  background: url("https://music.r10s.jp/external/prod/assets/campaign/coupon/img/bg.gif") repeat center top/auto 85.5%;
+  position: relative;
+}
+
+#page .s-campaign-hero:after {
+  content: "";
+  background: #4d4d4d;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+
+#page .s-campaign-hero + h2 {
+  padding: 0;
+  margin: 6rem 0 -2rem;
+}
+
+#page .campaign-hero__schedule {
+  position: relative;
+  z-index: 1;
+}
+
+#page #howtoget .l-inner ol {
+  display: flex;
+  justify-content: space-between;
+}
+
+#page #howtoget .l-inner ol li {
+  padding: 0 3rem;
+  position: relative;
+}
+
+#page #howtoget .l-inner ol li p img {
+  width: 100%;
+}
+
+#page #howtoget .l-inner ol li p:last-of-type {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#page #howtoget .l-inner ol li:not(:last-child):after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 4rem;
+  color: #ff4e50;
+  position: absolute;
+  top: 40%;
+  right: -1.25rem;
+}
+
+#page #download {
+  margin: 6rem auto;
+}
+
+#page #download .l-inner ul {
+  display: flex;
+  justify-content: center;
+}
+
+#page #download .l-inner ul li {
+  margin: 0 1rem;
+}
+
+#page #download .l-inner ul li .is-hidden--sp {
+  display: table;
+}
+
+#page #download .l-inner ul li .is-hidden--sp div {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 1rem;
+}
+
+#page .floating_wrapper {
+  z-index: 1;
+}
+
+#page .item-list .item__card__title p {
+  color: black;
+}
+
+#page .item-list .item__card__title p b {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  #page .heading--m {
+    padding: 0 1rem !important;
+  }
+  #page #howtoget .l-inner {
+    padding: 0;
+  }
+  #page #howtoget .l-inner > div {
+    overflow-x: scroll;
+  }
+  #page #howtoget .l-inner ol {
+    width: 224vw;
+    padding: 0 10vw;
+  }
+  #page #howtoget .l-inner ol li {
+    width: calc(100% / 3);
+  }
+  #page #howtoget .l-inner ol li p:last-of-type {
+    text-align: justify;
+  }
+  #page #howtoget .l-inner ol li:not(:last-child)::after {
+    top: 40vw;
+  }
+  #page #download .l-inner ul {
+    display: block;
+  }
+  #page #download .l-inner ul li {
+    margin: 1rem 1rem;
+  }
+  #page #download .l-inner ul li .is-hidden--pc a {
+    display: block;
+  }
+}

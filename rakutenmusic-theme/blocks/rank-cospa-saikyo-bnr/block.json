@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/rank-cospa-saikyo-bnr",
+  "title": "ランク：最コスパバナー",
+  "category": "rakutenmusic-rank",
+  "icon": "align-wide",
+  "description": "ランクページ用 最コスパバナー（stack-cospa-saikyo-bnr）",
+  "keywords": ["楽天", "ミュージック", "ランク", "最コスパ"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "render": "file:./render.php"
+}

@@ -1,0 +1,788 @@
+#page .slick-dots {
+  margin: 0 auto;
+}
+
+#page .slick-dots li button:before {
+  content: none;
+}
+
+#page .slick-arrow {
+  z-index: 1;
+}
+
+#page .slick-prev:before,
+#page .slick-next:before {
+  color: black;
+}
+
+#page .slick-prev {
+  left: 20px;
+}
+
+#page .slick-next {
+  right: 20px;
+}
+
+#page .anchor-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 16px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+#page .anchor-links>li {
+  width: calc((100% - 16px) / 2);
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+#page .anchor-links>li>a {
+  display: flex;
+  padding: 8px 8px 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+#page .anchor-links>li>a span {
+  color: black;
+  text-align: center;
+  /* Overline JP - 10px/Bold */
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  /* 160% */
+}
+
+#page .flxbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+#page .rk-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 24px;
+}
+
+#page .rk-section.green {
+  background: #B5B537;
+}
+
+#page .rk-section.orange {
+  background: #FFC027;
+}
+
+#page .rk-section.red {
+  background: #F15942;
+}
+
+#page .rk-section>div {
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+
+#page .about-radio-kitchen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 32px;
+}
+
+#page .about-radio-kitchen .about-radio-kitchen--img {
+  width: 160px;
+}
+
+#page .about-radio-kitchen .about-radio-kitchen--txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+
+#page .about-radio-kitchen .about-radio-kitchen--txt p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#page .about-radio-kitchen .about-radio-kitchen--txt p.lead {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page .latest-episodes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 32px;
+}
+
+#page .latest-episodes h1 {
+  font-size: 32px;
+  line-height: 42px;
+  color: #545006;
+  text-align: center;
+}
+
+#page .latest-episodes p.lead {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#page .latest-episodes p.lead a {
+  color: black;
+  text-decoration: underline;
+}
+
+#page .latest-episodes ul.list-episodes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+
+#page .latest-episodes ul.list-episodes>li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+  background: #EAEAAF;
+  border-radius: 16px;
+}
+
+#page .latest-episodes ul.list-episodes>li .ttl-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page .latest-episodes ul.list-episodes>li .number {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+#page .latest-episodes ul.list-episodes>li .title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page .latest-episodes ul.list-recipes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page .latest-episodes ul.list-recipes>li {
+  width: 100%;
+}
+
+#page .latest-episodes ul.list-recipes>li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 3px solid #545006;
+  border-radius: 16px;
+  color: #545006;
+}
+
+#page .latest-episodes ul.list-recipes>li a .img {
+  width: 64px;
+}
+
+#page .latest-episodes ul.list-recipes>li a p {
+  flex: 1;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline;
+}
+
+#page .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 32px;
+}
+
+#page .profile .img {
+  width: 160px;
+}
+
+#page .profile .profile-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+
+#page .profile .profile-txt .title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page .profile .profile-txt .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+
+#page .profile .profile-txt .about .name {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+#page .profile .profile-txt .about .sub {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page .profile .profile-txt .desctiption {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page .profile table tbody tr td {
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+#page .profile table tbody tr td:first-child {
+  width: 48px;
+}
+
+#page .playback-steps .playback-steps--inner img {
+  width: 180px;
+  margin: 0 auto;
+}
+
+#page #link-steps .flxbox {
+  padding: 24px 24px 16px;
+}
+
+#page #link-steps h2,
+#page #link-steps h3 {
+  text-align: center;
+  margin: 0;
+}
+
+#page #link-steps h2 {
+  color: #F15942;
+  /* Mobile Display 4 JP 24px/Bold */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  /* 129.167% */
+}
+
+#page #link-steps h3 {
+  color: #000;
+  /* H2 JP - 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 130% */
+}
+
+#page #link-steps p {
+  color: #000;
+  text-align: center;
+  /* Body 2 JP - 14px/Regular */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #link-steps p.lead {
+  color: #000;
+  text-align: center;
+  /* H2 JP - 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 130% */
+}
+
+/*20250131リニューアル*/
+
+#page .latest-episodes ul.list-recipes_v2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  background: #FFFFFF;
+  border: 3px solid #545006;
+  border-radius: 16px;
+  color: #545006;
+}
+
+#page .latest-episodes ul.list-recipes_v2>li {
+  width: 100%;
+}
+
+#page .latest-episodes ul.list-recipes_v2>li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 8px;
+}
+
+#page .latest-episodes ul.list-recipes_v2>li a .img {
+  width: 64px;
+}
+
+#page .latest-episodes ul.list-recipes_v2>li a p {
+  flex: 1;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #545006;
+}
+
+#page .latest-episodes ul.list-recipes_v2 li .radio-link {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px 16px 16px;
+  gap: 8px;
+  text-align: center;
+}
+
+#page .latest-episodes ul.list-recipes_v2 li .radio-link p {
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+
+
+#page .latest-episodes ul.list-recipes_v2 li .radio-link a.link_player {
+  display: flex;
+  height: 45px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  background: #228905;
+  color: white;
+  border-radius: 80px;
+}
+
+#page .latest-episodes ul.list-recipes_v2>li a.externalLink {
+  display: block;
+  padding: 0;
+  gap: 8px;
+  color: #545006 !important;
+  font-size: 12px;
+}
+
+#page .latest-episodes ul.list-recipes_v2 li .radio-link img {
+  height: 16px;
+  width: 16px;
+}
+
+#page .latest-episodes ul.list-recipes_v2 li .radio-link .ikinari-logo {
+  height: 40px;
+  width: auto;
+}
+
+#page .latest-episodes ul.list-recipes_v2 li .radio-link .ikinari_collabo p {
+  padding: 0;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 767px) {
+  #page .s-campaign-hero {
+    background: url(/assets/news/podcast/radio-kitchen/img/bg.jpg) no-repeat center/cover;
+  }
+
+  #page .anchor-links>li {
+    width: -moz-fit-content;
+    width: fit-content;
+    transition: all 0.2s ease-in;
+  }
+
+  #page .anchor-links>li:hover {
+    background: #FFF8D4;
+    transform: translateY(2px);
+  }
+
+  #page .anchor-links>li>a {
+    /* 130% */
+  }
+
+  #page .anchor-links>li>a span {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+  }
+
+  #page .anchor-links>li>a svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  #page .flxbox {
+    gap: 32px;
+  }
+
+  #page #link-steps .flxbox {
+    padding: 48px 0 32px;
+  }
+
+  #page #link-steps h2 {
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 130.435% */
+  }
+
+  #page #link-steps h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 129.167% */
+  }
+
+  #page #link-steps p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page #link-steps p.lead {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 129.167% */
+  }
+
+  #page .playback-steps {
+    width: 870px;
+    margin: 0 auto;
+  }
+
+  #page .playback-steps .slick-slide {
+    position: relative;
+  }
+
+  #page .playback-steps .slick-slide:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 18px solid black;
+    border-right: 0;
+    position: absolute;
+    top: 170px;
+    right: -10px;
+  }
+
+  #page .playback-steps p {
+    width: 180px;
+    margin: 0 auto;
+  }
+
+  #page .rk-section {
+    padding: 48px 0px;
+  }
+
+  #page .rk-section>div {
+    width: 950px;
+  }
+
+  #page .about-radio-kitchen {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 48px;
+    gap: 32px;
+  }
+
+  #page .about-radio-kitchen .about-radio-kitchen--img {
+    width: 320px;
+  }
+
+  #page .about-radio-kitchen .about-radio-kitchen--txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+  }
+
+  #page .about-radio-kitchen .about-radio-kitchen--txt p {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  #page .about-radio-kitchen .about-radio-kitchen--txt p.lead {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  #page .latest-episodes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+    gap: 32px;
+  }
+
+  #page .latest-episodes h1 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+
+  #page .latest-episodes p.lead {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #page .latest-episodes p.lead a:hover {
+    text-decoration: none;
+  }
+
+  #page .latest-episodes ul.list-episodes {
+    width: 100%;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #page .latest-episodes ul.list-episodes>li {
+    width: 100%;
+    padding: 32px;
+    gap: 32px;
+    justify-content: flex-start;
+  }
+
+  #page .latest-episodes ul.list-episodes>li .ttl-group {
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+  }
+
+  #page .latest-episodes ul.list-episodes>li .number {
+    font-size: 46px;
+    line-height: 60px;
+    flex: none;
+  }
+
+  #page .latest-episodes ul.list-episodes>li .title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  #page .latest-episodes ul.list-episodes>li.width-half {
+    width: calc(50% - 16px);
+  }
+
+  #page .latest-episodes ul.list-recipes {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0px;
+    gap: 32px;
+  }
+
+  #page .latest-episodes ul.list-recipes>li {
+    width: 100%;
+  }
+
+  #page .latest-episodes ul.list-recipes>li a {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px;
+    gap: 32px;
+  }
+
+  #page .latest-episodes ul.list-recipes>li a:hover {
+    background: #FFF5CC;
+  }
+
+  #page .latest-episodes ul.list-recipes>li a:hover p {
+    text-decoration: none;
+  }
+
+  #page .latest-episodes ul.list-recipes>li a .img {
+    width: 128px;
+  }
+
+  #page .latest-episodes ul.list-recipes>li a p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #page .profile {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 48px;
+    gap: 32px;
+  }
+
+  #page .profile .img {
+    width: 320px;
+  }
+
+  #page .profile .profile-txt .title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  #page .profile .profile-txt .about {
+    gap: 16px;
+  }
+
+  #page .profile .profile-txt .about .name {
+    font-size: 46px;
+    line-height: 60px;
+  }
+
+  #page .profile .profile-txt .about .sub {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #page .profile .profile-txt .desctiption {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #page .profile .profile-txt table tbody tr td {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #page .profile .profile-txt table tbody tr td:first-child {
+    width: 64px;
+  }
+
+  #page .cta {
+    padding: 48px 0px;
+    gap: 32px;
+  }
+
+  #page .cta p.lead {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  /*20250131リニューアル*/
+  #page .latest-episodes ul.list-recipes_v2 {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 32px;
+    gap: 32px;
+  }
+
+  #page .latest-episodes ul.list-recipes_v2>li {
+    width: 100%;
+    height: 309px;
+  }
+
+  #page .latest-episodes ul.list-recipes_v2>li a {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    color: #545006;
+  }
+
+  #page .latest-episodes ul.list-recipes_v2>li a:hover p {
+    text-decoration: none;
+  }
+
+  #page .latest-episodes ul.list-recipes_v2>li a .img {
+    width: 128px;
+  }
+
+  #page .latest-episodes ul.list-recipes_v2>li a p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #page .latest-episodes ul.list-recipes_v2 li .radio-link {
+    padding: 0px;
+  }
+
+
+  #page .latest-episodes ul.list-recipes_v2 li .radio-link a.link_player:hover {
+    background: #56BA3B;
+  }
+
+  #page .latest-episodes ul.list-recipes_v2 li .radio-link p {
+    font-size: 15px;
+    line-height: 24px
+  }
+
+  #page .latest-episodes ul.list-recipes_v2 li .radio-link .ikinari-logo {
+    height: 50px;
+
+  }
+
+}
+
+/*# sourceMappingURL=style.css.map */

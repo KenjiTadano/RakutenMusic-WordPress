@@ -1,0 +1,302 @@
+@charset "UTF-8";
+/*---------- キャンペーン参加方法 ----------*/
+#page .campaign-hero__schedule__note a {
+  color: #fe714a;
+}
+
+#page .campaign-hero__schedule__note a:hover {
+  text-decoration: underline;
+}
+
+#page h2.heading--m {
+  padding-top: 0;
+  margin-bottom: 32px;
+}
+
+#page #campaign {
+  margin: 0 auto;
+  padding: 36px 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f43b62+0,fe714a+50,6e02ab+100 */
+  background: #f43b62;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f43b62 0%, #fe714a 50%, #6e02ab 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f43b62 0%, #fe714a 50%, #6e02ab 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f43b62 0%, #fe714a 50%, #6e02ab 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f43b62', endColorstr='#6e02ab',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+#page #campaign > div {
+  margin: 0 auto 36px;
+}
+
+#page #campaign #ranks-songs h2 {
+  color: white;
+}
+
+#page #campaign .l-inner {
+  width: 950px;
+}
+
+#page #campaign .l-inner h2 {
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  color: white;
+  text-align: center;
+}
+
+#page #campaign .l-inner > ol > li {
+  margin: 32px 0 0;
+  padding: 36px 24px;
+  background: white;
+  border-radius: 36px;
+  text-align: center;
+}
+
+#page #campaign .l-inner > ol > li .btn-apply {
+  margin: 24px auto 36px;
+}
+
+#page #campaign .l-inner > ol > li .btn-apply > .l-inner {
+  width: 100%;
+}
+
+#page #campaign .l-inner > ol > li > h3 {
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+#page #campaign .l-inner > ol > li > .lead {
+  margin: 1.6rem auto;
+  font-size: 1.8rem;
+}
+
+#page #campaign .l-inner > ol > li > .lead span {
+  font-weight: bold;
+  color: red;
+}
+
+#page #campaign .l-inner > ol > li > .code {
+  display: flex;
+  justify-content: center;
+}
+
+#page #campaign .l-inner > ol > li > .code > div {
+  display: block;
+  border: 2px solid #333;
+}
+
+#page #campaign .l-inner > ol > li > .code > div:first-child {
+  background: #333;
+  color: white;
+  margin: 0;
+  padding: 8px 24px;
+}
+
+#page #campaign .l-inner > ol > li > .code > div:last-child {
+  margin: 0;
+  padding: 8px 60px;
+}
+
+#page #campaign .l-inner > ol > li > .howtoucode {
+  margin: 1.8rem auto 0;
+}
+
+#page #merit {
+  padding-top: 72px;
+}
+
+#page #merit .l-inner h2 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+#page #merit .l-inner > ol {
+  display: block;
+  margin: 3.6rem auto 0;
+}
+
+#page #merit .l-inner > ol > li {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 7.2rem;
+}
+
+#page #merit .l-inner > ol > li:first-child {
+  margin-bottom: 2.4rem;
+}
+
+#page #merit .l-inner > ol > li > div {
+  display: block;
+  margin: auto 3rem;
+  width: 375px;
+}
+
+#page #merit .l-inner > ol > li > .screenshot {
+  width: 375px;
+  height: 375px;
+  border-radius: 50%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f43b62+0,fe714a+50,6e02ab+100 */
+  background: #f43b62;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f43b62 0%, #fe714a 50%, #6e02ab 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f43b62 0%, #fe714a 50%, #6e02ab 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f43b62 0%, #fe714a 50%, #6e02ab 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f43b62', endColorstr='#6e02ab',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+#page #merit .l-inner > ol > li > .screenshot img {
+  position: relative;
+  top: -20%;
+  right: -17%;
+}
+
+#page #merit .l-inner > h4 {
+  font-size: 2rem;
+  margin-top: 3.6rem;
+  text-align: center;
+}
+
+#page #merit .l-inner .coupon-howto {
+  margin: 2.4rem auto 3.6rem;
+  padding: 2.4rem;
+  background: #f7f7f7;
+  border-radius: 12px;
+  text-align: center;
+}
+
+#page #merit .l-inner .coupon-howto p.lead {
+  margin-bottom: 2rem;
+}
+
+#page #merit .l-inner .coupon-howto .howtoget > div figure {
+  width: 250px;
+  margin: 0 auto;
+}
+
+#page #merit .l-inner .coupon-howto .howtoget > div figure img {
+  width: 100%;
+}
+
+#page #merit .l-inner .coupon-howto .howtoget > div figure + p {
+  margin-top: 1em;
+}
+
+#page #trial-btn-2 {
+  background: whitesmoke;
+  padding: 36px 0;
+  margin: 0 0 36px;
+}
+
+#page #trial-btn-2 .btn-apply {
+  margin: 0 auto;
+}
+
+#page ul.campaign-code-steps li.slick-slide figure + p {
+  text-align: left;
+}
+
+/*------------ お得な特典 ------------*/
+/*---------- 300円OFFクーポンの獲得方法 ----------*/
+/*---------- 支払いにポイントが使える ----------*/
+@media screen and (max-width: 1119px) {
+  #page .l-inner {
+    margin: 0 auto;
+    width: 100%;
+  }
+  #page #merit .l-inner > ol > li {
+    padding: 0;
+    padding-top: 7.2rem;
+    padding-bottom: 7.2rem;
+  }
+  #page #merit .l-inner > ol > li > div {
+    width: 50%;
+  }
+  #page #merit .l-inner > ol > li > div > h3 img {
+    width: 90%;
+  }
+  #page #merit .l-inner > ol > li > .screenshot {
+    width: 280px;
+    height: 280px;
+  }
+  #page #merit .l-inner > ol > li > .screenshot img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #page #campaign .l-inner {
+    width: 100%;
+  }
+  #page #campaign .l-inner > ol > li > .btn-apply > .l-inner {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  #page #campaign .l-inner > ol > li > .btn-apply > .l-inner {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    padding: 0;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuma-ad2/img/bg_20210513.jpg) no-repeat center top/auto 82% black;
+  }
+  #page .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #page #campaign .l-inner > ol > li > .code {
+    display: block;
+  }
+  #page #campaign .btn-apply .l-inner .trial-btn {
+    width: 100%;
+  }
+  #page #campaign .btn-apply .l-inner .trial-btn + p {
+    width: 100%;
+  }
+  #page #merit .l-inner > ol > li {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+  }
+  #page #merit .l-inner > ol > li > div {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #page #merit .l-inner > ol > li > div > p {
+    text-align: left;
+  }
+  #page #merit .l-inner > ol > li > div > h3 img {
+    width: 100%;
+  }
+  #page #merit .l-inner > ol > li > .screenshot {
+    margin: 7.2rem auto;
+  }
+  #page #merit .l-inner > ol > li > .screenshot img {
+    right: 0;
+  }
+  #page #merit .l-inner .coupon-howto p.lead {
+    text-align: left;
+  }
+  #page h2.heading--m {
+    margin: 0 auto 24px;
+    padding: 0 16px;
+  }
+}

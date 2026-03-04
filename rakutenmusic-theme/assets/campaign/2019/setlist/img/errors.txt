@@ -1,0 +1,3 @@
+[2019-2-15 15:34:21] layer "asha_nogizaka.gif": Duplicate path: asha_nogizaka.gif
+[2019-2-15 15:34:21] layer " ": Expected Either a default asset specification or a layer asset specification but " " found.
+[2019-2-15 15:34:21] layer "Mr.Children": Unsupported extension: children

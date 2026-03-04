@@ -1,0 +1,17 @@
+#page .l-campaign-03 > .content-box {
+  padding: 0;
+  margin: 0 auto 24px;
+}
+
+#page .l-campaign-03 > .content-box .content-box__text {
+  margin: 1.5rem auto 0;
+}
+
+@media screen and (min-width: 767px) {
+  #page .l-campaign-03 > .content-box .content-box__image {
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=bnr_600x200.css.map */

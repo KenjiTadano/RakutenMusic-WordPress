@@ -1,0 +1,245 @@
+ #page .l-inner {
+     width: 950px;
+ }
+ 
+ #page .rex-button__1ArV .rex-button__3n3I {
+     width: 400px;
+     height: 80px;
+     font-size: 20px;
+     font-weight: bold;
+     border-radius: 50px;
+ }
+ 
+ #page .btn-apply .l-inner .trial-btn {
+     border-radius: 50px;
+ }
+ 
+ #page #campaign-step {
+     background: #FFFEE9;
+     margin: 0 auto;
+     padding-top: 3.2rem;
+     padding-bottom: 3.2rem;
+ }
+ 
+ #page #campaign-step .l-inner>h2 {
+     margin: 0 auto 2.4rem;
+     text-align: center;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li {
+     position: relative;
+     background: white;
+     border-radius: 12px;
+     text-align: center;
+     margin: 0 auto;
+     padding: 3.2rem 1.6rem;
+     border: 1px solid #D80000;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li>p {
+     margin: 2rem auto;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li:not(:last-child)::after {
+     content: "";
+     width: 0;
+     height: 0;
+     border-style: solid;
+     border-width: 5rem 5rem 0 5rem;
+     border-color: #D80000 transparent transparent transparent;
+     position: absolute;
+     bottom: -5rem;
+     left: 50%;
+     margin-left: -5rem;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li>ul.campaign-code-steps {
+     margin-bottom: 3rem;
+     padding-bottom: 4rem;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li>ul.campaign-code-steps::after {
+     content: "";
+     width: 0;
+     height: 0;
+     border-style: solid;
+     border-width: 3rem 3rem 0 3rem;
+     border-color: #D80000 transparent transparent transparent;
+     position: absolute;
+     bottom: -3rem;
+     left: 50%;
+     margin-left: -3rem;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li>h3 {
+     margin: 0;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li>h3>span {
+     color: #bf0000;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li>div {
+     display: block;
+     overflow: hidden;
+     margin: 0 auto;
+     padding-top: 2rem;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li>div>h5 {
+     font-size: 2rem;
+     font-weight: bold;
+     margin: 0 auto 2rem;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li:first-child,
+ #page #campaign-step .l-inner>ol>li:nth-child(2) {
+     margin-bottom: 8.2rem;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li>.btn-apply {
+     margin: 1.6rem auto;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li>.btn-apply>.l-inner {
+     width: 100%;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li .code {
+     margin: 24px 0;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li.code>div {
+     text-align: center;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li .code>div:first-of-type {
+     background: #D80000;
+     width: 100%;
+     color: white;
+     font-weight: bold;
+     padding: 0.5em 0;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li .code>div:last-of-type {
+     border: 2px solid #D80000;
+     width: 100%;
+     padding: 0.5em 0;
+ }
+ 
+ #page #campaign-step .l-inner>ol>li .campaign-code-steps {
+     padding-bottom: 24px;
+ }
+ 
+ #page #merit .l-inner {
+     width: 1104px;
+ }
+ 
+ #page #merit .l-inner>ol {
+     display: block;
+     margin: 3.2rem auto 0;
+ }
+ 
+ #page #merit .l-inner>ol>li>.screenshot {
+     background: #FFDBA3;
+ }
+ 
+ #page #cta .l-inner {
+     text-align: center;
+ }
+ 
+ #page #cta .l-inner h3 {
+     margin: 0 auto;
+     text-align: center;
+ }
+ 
+ #page #cta .l-inner .btn-apply {
+     margin: 1.6rem auto 3.2rem;
+ }
+ 
+ #page #skylark-bnr {
+     border-top: 1px solid #B6B6B6;
+     background: #F7F7F7;
+     text-align: center;
+ }
+ 
+ #page #skylark-bnr .l-inner>p {
+     font-size: 3.2rem;
+     font-weight: bold;
+ }
+ 
+ #page #skylark-bnr .l-inner>p>span {
+     color: #D80000;
+ }
+ 
+ #page #skylark-bnr .l-inner>figure:hover {
+     opacity: 0.7;
+ }
+ 
+ #page #skylark-bnr .l-inner>small {
+     display: block;
+     margin-bottom: 2rem;
+ }
+ 
+ #page #merit .l-inner h2 {
+     font-size: 2.2rem;
+ }
+ 
+ @media screen and (max-width: 1100px) {
+     #page #merit .l-inner {
+         width: 100%;
+     }
+     #page #point .l-inner>figure>img {
+         width: 100%;
+     }
+ }
+ 
+ @media screen and (max-width: 970px) {
+     #page .l-inner {
+         width: 100%;
+     }
+     #page #campaign-step .l-inner h2 img,
+     #page #campaign-step .l-inner>ol>li>figure>img {
+         width: 100%;
+     }
+ }
+ 
+ @media screen and (max-width: 768px) {
+     #page section {
+         padding: 1.6rem 0;
+     }
+     #page .heading--m {
+         margin: 3.2rem 1.6rem 2.2rem;
+     }
+     #page .rex-button__1ArV .rex-button__3n3I {
+         width: 100%;
+     }
+     #page #campaign-step .l-inner>ol>li>p {
+         text-align: left;
+     }
+     #page #campaign-step .l-inner>ol>li>div>small {
+         text-align: left;
+     }
+     #page #skylark-bnr .l-inner>p {
+         font-size: 2rem;
+     }
+ }
+ 
+ @media screen and (min-width: 768px) {
+     #page .s-campaign-hero {
+         padding: 0;
+         background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/group/skylark/img/bg.jpg) no-repeat center top/auto 86.3% #C00000;
+     }
+     #page #campaign-step .l-inner>ol>li .code {
+         display: flex;
+         justify-content: center;
+     }
+     #page #campaign-step .l-inner>ol>li .code div:first-of-type {
+         width: 200px;
+         padding: 12px 24px;
+     }
+     #page #campaign-step .l-inner>ol>li .code div:last-of-type {
+         width: 300px;
+         padding: 12px 24px;
+     }
+ }

@@ -1,0 +1,325 @@
+@media screen and (min-width: 768px) {
+  #btn-apply {
+    padding-top: 40px;
+  }
+
+  #page .content-box {
+    padding: 0 0 20px;
+    width: 600px;
+    margin: 0 auto;
+  }
+  #page .content-box__image img {
+    width: 234px;
+    height: auto;
+    float: left;
+  }
+  #page .content-box__text {
+    margin-top: 24px;
+    padding-top: 100px;
+  }
+
+  /*================================
+
+  ================================*/
+  .howtoget-coupon {
+    width: 950px;
+    margin: 0 auto !important;
+    text-align: center;
+    padding: 0;
+  }
+  .howtoget-coupon li {
+    padding: 0 20px !important;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .howtoget-coupon li p {
+    line-height: 1.5em;
+    padding: 20px 0 0;
+  }
+  .howtoget-coupon li:not(:first-child):after {
+    content: "";
+    color: #eb006a;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 30px solid #eb006a;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: 170px;
+    left: -16px;
+  }
+
+  p.slide-img01 {
+    background-color: #dfeb00;
+    padding: 0 !important;
+    margin: 70px 0 !important;
+    width: 260px;
+    height: 260px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  p.slide-img01 img {
+    margin: -70px 0px;
+  }
+
+  .marathon-topbnr {
+    width: 950px;
+    height: 110px;
+    margin: 0 auto;
+  }
+
+  /*================================
+  ================================*/
+  div.appicon-pc {
+    width: 660px;
+    padding: 30px;
+    margin: 40px auto 40px;
+    background: #ececec;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  div.appicon-pc p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #51b919;
+  }
+  div.appicon-pc ul {
+    display: flex;
+  }
+  div.appicon-pc ul li dl {
+    display: table;
+  }
+  div.appicon-pc ul li dl > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  div.appicon-pc ul li dl dt {
+    padding: 0 40px;
+  }
+
+  .appicon-sp {
+    display: none;
+  }
+
+  /*================================
+      item
+  ================================*/
+  #page #items-cd .item-list .item__card__title,
+  #page #items-dvd .item-list .item__card__title,
+  #page #items-game .item-list .item__card__title,
+  #page #items-cd .item-list figure figcaption > p,
+  #page #items-game .item-list figure figcaption > p,
+  #page #items-dvd .item-list figure figcaption > p {
+    color: black;
+  }
+  #page #items-cd .item-list figure figcaption > p b,
+  #page #items-dvd .item-list figure figcaption > p b,
+  #page #items-game .item-list figure figcaption > p b {
+    font-weight: bold;
+    color: #bf0000;
+  }
+
+  h2.obi {
+    margin-bottom: 15px !important;
+    background: #cce198;
+    line-height: 2em;
+    padding: 0 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .api-box {
+    margin: 0 auto;
+    width: 950px;
+  }
+
+  .api-box-sp {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  #page .heading--m {
+    width: 90vw;
+    margin: 2rem auto;
+    line-height: 1.5;
+  }
+  #btn-apply {
+    padding-top: 8vw;
+  }
+  #page .content-box {
+    padding: 0 0 32px;
+  }
+  #page .content-box img {
+    width: 80%;
+    height: auto;
+  }
+  figure.content-box__image {
+    text-align: center;
+  }
+  #page .content-box__text {
+    margin-top: 24px;
+    text-align: center;
+  }
+  /*================================
+  ================================*/
+  .content-inner {
+    padding: 0 0 8vw !important;
+  }
+  .content-inner .sliderBox {
+    width: 100vw;
+    height: 122vw;
+    overflow-x: scroll;
+  }
+  .content-inner .sliderBox ol {
+    width: 240vw;
+    font-size: 0 !important;
+    padding: 0 !important;
+    margin: 0 0 0 5vw !important;
+  }
+  .content-inner .sliderBox ol li {
+    width: 70vw;
+    height: 115vw;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 3.7vw !important;
+    margin: 0 3.8vw 0 0 !important;
+  }
+  .content-inner .sliderBox ol li:first-child {
+    margin: 0 3.8vw 0 8vw !important;
+  }
+  .content-inner .sliderBox ol li:nth-child(even),
+  .content-inner .sliderBox ol li:nth-child(odd) {
+    background: none;
+  }
+  .content-inner .sliderBox ol li p.slide-img01 {
+    width: 63vw;
+    height: 63vw;
+    margin: 70px auto !important;
+    font-size: 0 !important;
+    background-color: #dfeb00;
+    border-radius: 50%;
+  }
+  .content-inner .sliderBox ol li p.slide-img01 img {
+    width: 100%;
+    margin: -70px 0px;
+  }
+  .content-inner .sliderBox ol li p.slide-text01 {
+    text-align: center;
+    margin: 2vw 0 0 !important;
+  }
+  .content-inner .sliderBox ol li p.slide-text01 .red {
+    color: #ff1a1a;
+  }
+
+  .howtoget-coupon ol li:not(:first-child)::after {
+    content: "";
+    color: #eb006a;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 30px solid #eb006a;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: 156px;
+    left: -22px;
+  }
+
+  /*================================
+  ================================*/
+  div.appicon-sp {
+    width: 100%;
+    padding: 0 15vw;
+    margin: 0vw auto 6vw;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  div.appicon-sp p {
+    margin-bottom: 3vw !important;
+    font-size: 4vw;
+    text-align: center;
+    color: #5bc620;
+  }
+  div.appicon-sp ul li {
+    font-size: 0;
+  }
+  div.appicon-sp ul li:first-child {
+    margin: 0 0 6vw !important;
+  }
+
+  .appicon-pc {
+    display: none;
+  }
+
+  .appicon-sp {
+    display: block;
+  }
+
+  /* ==============================================
+  	itemApiArea
+  ============================================== */
+  #page #items-cd,
+  #page #items-dvd,
+  #page #items-game {
+    padding: 6vw 0 0;
+  }
+  #page #items-cd .item-list .item__list,
+  #page #items-dvd .item-list .item__list,
+  #page #items-game .item-list .item__list {
+    margin: 0;
+  }
+  #page #items-cd .item-list .item__list figure,
+  #page #items-dvd .item-list .item__list figure,
+  #page #items-game .item-list .item__list figure {
+    margin-bottom: 6vw;
+  }
+  #page #items-cd .item-list .item__list figure figcaption > p,
+  #page #items-dvd .item-list .item__list figure figcaption > p,
+  #page #items-game .item-list .item__list figure figcaption > p {
+    color: black;
+  }
+  #page #items-cd .item-list .item__list figure figcaption > p b,
+  #page #items-dvd .item-list .item__list figure figcaption > p b,
+  #page #items-game .item-list .item__list figure figcaption > p b {
+    color: #bf0000;
+    font-weight: bold;
+  }
+
+  .api-box-pc {
+    display: none;
+  }
+
+  .api-box-sp {
+    display: block;
+  }
+  .api-box-sp h2 {
+    background: #bf0000;
+    color: #fff;
+    font-weight: bold;
+    padding: 2vw;
+    font-size: 4vw;
+    margin-top: 7vw;
+  }
+  .api-box-sp h3.obi {
+    background: #cce198;
+    line-height: 1.5em;
+    padding: 2vw;
+    margin: 2vw 0 0;
+  }
+}
+/* ==============================================
+  	inc-about-wrap
+  ============================================== */
+@media screen and (max-width: 768px) {
+  #page .inc-about-wrap {
+    /*max-width: 950px;
+    margin: 0 auto;
+    padding: 0 4vw;*/
+  }
+}

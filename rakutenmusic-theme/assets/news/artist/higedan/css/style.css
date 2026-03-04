@@ -1,0 +1,310 @@
+#page .s-campaign-hero {
+  padding: 0;
+  background: #790c09;
+}
+
+#page #present-campaign {
+  background: #fbebca;
+  padding-bottom: 1em;
+}
+
+#page #present-campaign .l-inner h2 {
+  font-family: "Abril Fatface", cursive;
+  color: #790c09;
+  margin: 0 0 -0.5em;
+  font-size: 2.8rem;
+}
+
+#page #present-campaign .l-inner p {
+  color: #4d4c65;
+  background: white;
+  padding: 2em 0 !important;
+  text-align: center;
+}
+
+#page #present-campaign .l-inner p strong {
+  color: #790c09;
+}
+
+#page #present-campaign .l-inner .btn-primary {
+  background: #4d4c65;
+  width: 80%;
+  margin: -1em auto 0;
+}
+
+#page #present-campaign .l-inner .btn-primary a {
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 0.75em 0;
+}
+
+#page #present-campaign .l-inner .btn-primary a::after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-left: 0.5em;
+}
+
+#page #introduction .l-inner .about-song figure {
+  width: 50vw;
+  margin: 4rem auto 2rem;
+}
+
+#page #introduction .l-inner .about-song > div h3 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 4.8rem;
+  color: #790c09;
+  margin: 0;
+}
+
+#page #introduction .l-inner .about-song > div p {
+  height: 100px;
+  overflow: hidden;
+  font-size: 1.4rem;
+}
+
+#page #introduction .l-inner .about-song > div .readmore {
+  font-size: 1.4rem;
+  color: #790c09;
+  font-size: 1.4rem;
+  padding-top: 1em;
+}
+
+#page #introduction .l-inner .about-song > div .readmore::after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-left: 0.5em;
+}
+
+#page #new-release-title {
+  margin: 2rem 0;
+}
+
+#page #present-campaign-steps {
+  background: #4d4c65;
+}
+
+#page #present-campaign-steps .l-inner {
+  color: white;
+  margin: 4rem 0;
+  padding: 2rem 0 4rem;
+}
+
+#page #present-campaign-steps .l-inner > ol > li {
+  background: #fbebca;
+  color: #4d4c65;
+  width: 94%;
+  margin: 0 auto 2rem;
+  padding: 2em 1em;
+}
+
+#page #present-campaign-steps .l-inner > ol > li h3 {
+  font-family: "Abril Fatface", cursive;
+  padding-bottom: 0.5em;
+  position: relative;
+}
+
+#page #present-campaign-steps .l-inner > ol > li h3::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background: #4d4c65;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50px;
+}
+
+#page #present-campaign-steps .l-inner > ol > li h4 {
+  margin: 2rem 0 !important;
+}
+
+#page #present-campaign-steps .l-inner > ol > li h4 + p {
+  text-align: center;
+}
+
+#page #present-campaign-steps .l-inner > ol > li > p strong {
+  font-size: 1.5em;
+  color: #790c09;
+}
+
+#page #present-campaign-steps .l-inner > ol > li > p:last-of-type {
+  text-align: center;
+  margin: 1em 0 0;
+}
+
+#page #present-campaign-steps .l-inner > ol > li > p:last-of-type a {
+  color: #790c09;
+}
+
+#page #present-campaign-steps .l-inner > ol > li .btn-apply {
+  margin: 2rem auto 0;
+}
+
+#page #present-campaign-steps .l-inner > ol > li .btn-apply .trial-btn {
+  background: #bf0000;
+  border-radius: 0.8rem;
+}
+
+#page #present-campaign-steps .l-inner > ol > li .btn-apply .trial-btn a {
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 2em 0;
+}
+
+#page #present-campaign-steps .l-inner > ol > li .btn-apply .trial-btn + p {
+  font-size: 1.2rem;
+  margin-top: 1em;
+}
+
+#page #present-campaign-steps .l-inner > ol > li .target h4 {
+  text-align: center;
+  border: 1px solid #4d4c65;
+  margin: 2rem 0 !important;
+}
+
+#page #present-campaign-steps .l-inner > ol > li .target figure {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#page #present-campaign-steps .l-inner > ol > li .target figure + p {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 0.5em;
+}
+
+#page #present-campaign-steps .l-inner > ol > li .target figure + p small {
+  font-weight: normal;
+}
+
+#page #howtobox .l-inner ul .slick-arrow::before {
+  color: black;
+}
+
+#page #howtobox .l-inner ul .slick-prev {
+  left: 0;
+}
+
+#page #howtobox .l-inner ul .slick-next {
+  right: 0;
+}
+
+#page #howtobox .l-inner ul .slick-dots {
+  margin: 0 auto 6rem;
+}
+
+#page #howtobox .l-inner ul .slick-dots li button:before {
+  content: initial;
+}
+
+#page #howtobox .l-inner ul li:nth-of-type(even) > div::before {
+  content: "01";
+}
+
+#page #howtobox .l-inner ul li:nth-of-type(odd) > div::before {
+  content: "02";
+}
+
+#page #howtobox .l-inner ul li > div {
+  position: relative;
+}
+
+#page #howtobox .l-inner ul li > div::before {
+  font-family: "Abril Fatface", cursive;
+  font-size: 6rem;
+  position: absolute;
+  color: #4d4c65;
+}
+
+#page #howtobox .l-inner ul li img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#page #howtobox .l-inner ul li p {
+  margin: 1em 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  #page #present-campaign .l-inner h2 {
+    font-size: 4.8rem;
+    text-align: left;
+    text-indent: 0.8em;
+  }
+  #page #present-campaign .l-inner p {
+    font-size: 2rem;
+  }
+  #page #present-campaign .l-inner .btn-primary {
+    width: 300px;
+    margin: -1em 0 0 680px;
+    transition: all 0.2s ease-in;
+  }
+  #page #present-campaign .l-inner .btn-primary:hover {
+    background: #616080;
+  }
+  #page #introduction {
+    padding: 6rem 0 0;
+  }
+  #page #introduction .l-inner .about-song {
+    display: flex;
+  }
+  #page #introduction .l-inner .about-song figure {
+    width: 324px;
+    margin: 0 2.4rem 0 0;
+  }
+  #page #introduction .l-inner .about-song figure img {
+    width: 100%;
+  }
+  #page #introduction .l-inner .about-song > div {
+    flex: 1;
+  }
+  #page #introduction .l-inner .about-song > div h3 {
+    font-size: 6rem;
+  }
+  #page #introduction .l-inner .about-song > div p {
+    height: 230px;
+    overflow-y: scroll;
+  }
+  #page #present-campaign-steps .l-inner {
+    margin: 6rem auto;
+  }
+  #page #present-campaign-steps .l-inner > ol > li {
+    padding: 3em;
+  }
+  #page #present-campaign-steps .l-inner > ol > li .btn-apply .trial-btn {
+    width: 400px;
+    margin: 0 auto;
+    transition: all 0.2s ease-in;
+  }
+  #page #present-campaign-steps .l-inner > ol > li .btn-apply .trial-btn:hover {
+    background: #ff1212;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  #page #present-campaign-steps .l-inner > ol > li .btn-apply .trial-btn + p {
+    text-align: center;
+  }
+  #page #present-campaign-steps .l-inner > ol > li .target h4 {
+    width: 80%;
+    margin: 2rem auto !important;
+  }
+  #page #present-campaign-steps .l-inner > ol > li .target figure {
+    width: 300px;
+  }
+  #page #present-campaign-steps .l-inner > ol > li .target figure img {
+    width: 100%;
+  }
+  #page #howtobox .l-inner ul li img {
+    width: 300px;
+  }
+  #page #howtobox .l-inner ul li p {
+    text-align: center;
+  }
+  #page #howtobox .l-inner ul li > div::before {
+    top: 10%;
+    left: 20%;
+  }
+}

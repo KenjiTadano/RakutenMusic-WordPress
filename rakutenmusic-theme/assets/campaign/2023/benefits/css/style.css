@@ -1,0 +1,459 @@
+#page #sticky-apply-btn {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 12px 16px;
+}
+
+#page #sticky-apply-btn .btn-copy-code {
+  border: 2px solid #007090;
+  color: #007090;
+}
+
+#page #sticky-apply-btn .trial-btn {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page #sticky-apply-btn .btn-apply a.iap-store-link {
+  padding: 0 16px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 72px;
+}
+
+#page .slick-dots {
+  position: unset;
+  margin-top: 32px;
+}
+
+#page .flx-32 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+
+#page h2.disp2 {
+  padding: 12px 0;
+  background: #007090;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: white;
+}
+
+#page h3.disp3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page p.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page span.cream-yellow {
+  color: #FFF4C5;
+}
+
+#page .campaign-hero__schedule p {
+  color: #007090;
+}
+
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+
+#page #caption_under_header {
+  background: #DFECEF;
+  padding: 32px 16px;
+}
+
+#page #anchor-links {
+  background: url(/assets/campaign/2023/benefits/img/arc_sp_white.png) no-repeat center top/100% auto #DFECEF;
+  padding-top: 32px;
+}
+
+#page .anchor-links--sp {
+  background: white;
+}
+
+#page .anchor-links--sp select {
+  margin: 0 auto;
+  width: 100%;
+  -webkit-appearance: none;
+  background: url(/assets/campaign/2023/benefits/img/icon_chevron_down_blue.png) no-repeat right 16px center/16px 16px white;
+  max-width: 300px;
+  padding: 8px 16px;
+  display: block;
+  color: #007090;
+  border: 2px solid #48B0CA;
+  -webkit-box-shadow: 0px 2px 0px #48B0CA;
+          box-shadow: 0px 2px 0px #48B0CA;
+  border-radius: 56px;
+}
+
+#page #ttl_howtouse_benefits {
+  background: url(/assets/campaign/2023/benefits/img/arc_sp_blue.png) no-repeat center top/100% auto;
+  padding-top: 32px;
+  margin-top: 32px;
+}
+
+#page .campaign_code_trial_button {
+  background: #48B0CA;
+}
+
+#page .campaign_code_trial_button:not(:first-child) {
+  padding: 32px 0;
+}
+
+#page .campaign_code_trial_button > i {
+  width: 48px;
+}
+
+#page .campaign_code_trial_button h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: white;
+}
+
+#page .campaign_code_trial_button p.ttl_howtouse_benefits__lead {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+}
+
+#page .campaign_code_trial_button > a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+#page .music-ccode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px;
+  gap: 8px;
+  background: white;
+}
+
+#page .music-ccode p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page .music-ccode p.music-ccode--text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  color: #007090;
+}
+
+#page .music-ccode .btn-copy-code {
+  padding: 8px 16px;
+  width: 100%;
+  border: none;
+  background: #007090;
+  -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page .trial_button_wrapper {
+  padding: 0 16px;
+}
+
+#page .trial_button_wrapper .trial-btn a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 16px 24px;
+  background: #BF0000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: white;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+#page .trial_button_wrapper p.small {
+  color: white;
+  margin-top: 1em;
+}
+
+#page .howtouse_campaign_code_wrapper {
+  background: #48B0CA;
+  padding: 32px 16px;
+}
+
+#page .howtouse_campaign_code_wrapper .howtouse_campaign_code {
+  background: white;
+  padding: 32px 16px;
+  border-radius: 24px;
+}
+
+#page .howtouse_campaign_code_wrapper .howtouse_campaign_code h3.disp3 {
+  margin: 0 auto 16px;
+  text-align: center;
+  color: #007090;
+}
+
+#page #ttl_about_rakuten_music {
+  margin-bottom: 32px;
+}
+
+#page #ttl_about_rakuten_music + h2 {
+  display: none;
+}
+
+#page .student-feature--artists {
+  margin: 24px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px 8px;
+}
+
+#page .student-feature--artists li {
+  width: 100px;
+}
+
+#page .student-feature--artists li figure img {
+  display: block;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #B6B6B6;
+}
+
+#page .student-feature--artists li figure figcaption {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page .stack-characteristic,
+#page #ttl_rakutenmusic_rank,
+#page #stack-rakutenmusicrank {
+  margin-bottom: 32px;
+}
+
+#page #price .l-inner h1,
+#page #price .l-inner p.price-lead {
+  display: none;
+}
+
+#page #ttl_campaign + .s-campaign-list .l-inner h2,
+#page #cpn-detail + .s-campaign-detail .l-inner h2 {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  #page .js-toggle.is-open .js-toggle__panel {
+    max-height: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #page #sticky-apply-btn .btn-copy-code:hover {
+    background: #007090;
+  }
+  #page #sticky-apply-btn .btn-apply {
+    margin: 0;
+  }
+  #page #sticky-apply-btn .btn-apply .trial-btn {
+    font-size: 20px;
+  }
+  #page h2.disp2 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2023/benefits/img/bg.jpg) no-repeat center top/auto 86.4% #48B0CA;
+    position: relative;
+  }
+  #page .s-campaign-hero::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: #FFF4C5;
+    position: absolute;
+    bottom: 0;
+  }
+  #page .s-campaign-hero .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+  #page #caption_under_header p.small {
+    text-align: center;
+  }
+  #page #anchor-links {
+    background: url(/assets/campaign/2023/benefits/img/arc_pc_white.png) no-repeat center top/1920px auto #DFECEF;
+    padding-top: 48px;
+  }
+  #page .anchor-links--pc {
+    background: white;
+  }
+  #page .anchor-links--pc ul {
+    width: 920px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0px;
+    gap: 16px 8px;
+    margin: 0 auto;
+  }
+  #page .anchor-links--pc ul li a {
+    display: block;
+    padding: 16px 24px;
+    background: white;
+    border: 2px solid #48B0CA;
+    -webkit-box-shadow: 0px 2px 0px #48B0CA;
+            box-shadow: 0px 2px 0px #48B0CA;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #007090;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page .anchor-links--pc ul li a:hover {
+    background: #DFECEF;
+  }
+  #page #ttl_howtouse_benefits {
+    background: url(/assets/campaign/2023/benefits/img/arc_pc_blue.png) no-repeat center top/1920px auto;
+  }
+  #page .campaign_code_trial_button > i {
+    width: 64px;
+  }
+  #page .campaign_code_trial_button > i img {
+    width: 100%;
+  }
+  #page .campaign_code_trial_button h2 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page .campaign_code_trial_button p.ttl_howtouse_benefits__lead {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page .music-ccode {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 12px;
+    padding: 8px 16px;
+  }
+  #page .music-ccode .btn-copy-code {
+    width: auto;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page .music-ccode .btn-copy-code:hover {
+    cursor: pointer;
+    background: #48B0CA;
+  }
+  #page .howtouse_campaign_code_wrapper .howtouse_campaign_code {
+    width: 802px;
+    margin: 0 auto;
+  }
+  #page .student-feature--artists {
+    width: 872px;
+    gap: 36px 24px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 24px auto 48px;
+  }
+  #page .student-feature--artists li {
+    width: 200px;
+  }
+  #page .student-feature--artists li figure img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  #page .student-feature--artists li figure figcaption {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page .trial_button_wrapper .trial-btn a {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page .trial_button_wrapper .trial-btn a:hover {
+    background: #EC0606;
+  }
+  #page .campaign_code_trial_button > a:hover {
+    text-decoration: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

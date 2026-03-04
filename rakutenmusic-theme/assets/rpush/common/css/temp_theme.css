@@ -1,0 +1,22 @@
+/* Rpush Theme
+   ========================================================================== */
+/* Header
+   ========================================================================== */
+/* Modules
+--------------------------------------------------------*/
+#page .header-logo .header-newlogo__image--color {
+  display: none !important;
+}
+
+#page .header-logo .header-newlogo__image--mono {
+  display: block !important;
+  background: url("../../../../assets/common/img/newlogo_rakuten_music_mono_sp.svg") no-repeat left center;
+  background-size: 77px 40px;
+}
+
+@media screen and (min-width: 768px) {
+  #page .header-logo .header-newlogo__image--mono {
+    background: url("../../../../assets/common/img/newlogo_rakuten_music_mono.svg") no-repeat left center;
+    background-size: 182px 32px;
+  }
+}

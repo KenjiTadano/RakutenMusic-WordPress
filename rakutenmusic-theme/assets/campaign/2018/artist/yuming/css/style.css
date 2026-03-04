@@ -1,0 +1,8 @@
+#page #btn-apply {
+  padding: 40px 0 0;
+}
+@media screen and (max-width: 768px) {
+  #page #btn-apply {
+    padding: 4vw 0 0;
+  }
+}

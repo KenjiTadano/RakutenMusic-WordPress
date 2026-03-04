@@ -1,0 +1,40 @@
+#page #albumlist ul li p {
+    margin-top: 12px;
+    font-size: 1.2rem;
+    color: white;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#page #albumlist ul li {
+    width: 100px;
+}
+
+#page #albumlist ul li figure {
+    height: 100px;
+    margin-right: 12px;
+}
+
+#page #albumlist ul li figure img {
+    width: 100px;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #page #albumlist li.slick-slide figure img {
+        margin: 0 auto;
+    }
+    #page #albumlist ul li p {
+        width: 120px;
+    }
+    #page #albumlist ul li {
+        width: 120px;
+    }
+    #page #albumlist ul li figure {
+        height: 120px;
+    }
+    #page #albumlist ul li figure img {
+        width: 120px;
+    }
+}

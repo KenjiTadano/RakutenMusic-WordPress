@@ -1,0 +1,564 @@
+#page section {
+  padding: 0;
+}
+
+#page.campaign_detail .l-campaign-02 {
+  background: white;
+}
+
+#page h1.disp1,
+#page .l-campaign-02 > h2 {
+  padding: 12px;
+  background: #000000;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#page h2.disp2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 100%;
+}
+
+#page p.lead {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page p.lead strong {
+  color: #8C0000;
+}
+
+#page .slick-arrow {
+  z-index: 1;
+}
+
+#page .slick-next {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 22px;
+  border-color: transparent transparent transparent #000000;
+  right: 0;
+}
+
+#page .slick-next::before {
+  content: none;
+}
+
+#page .slick-prev {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 22px 20px 0;
+  border-color: transparent #000000 transparent transparent;
+  left: 0;
+}
+
+#page .slick-prev::before {
+  content: none;
+}
+
+#page .slick-disabled {
+  display: none !important;
+}
+
+#page .slick-dots {
+  bottom: 0;
+  margin-top: 16px;
+}
+
+#page .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration: underline;
+}
+
+#page .campaign-detail__table td {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+#page section#soundjoy-nav {
+  padding: 24px 0;
+}
+
+#page section#soundjoy-nav .l-inner::after {
+  content: none;
+}
+
+#page section#soundjoy-nav .l-inner > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+#page section#soundjoy-nav .l-inner > ul > li {
+  width: calc(50% - 8px);
+}
+
+#page section#soundjoy-nav .l-inner > ul > li a {
+  padding: 12px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  color: black;
+}
+
+#page section#soundjoy-nav .l-inner > ul > li a img {
+  width: 80px;
+}
+
+#page section#soundjoy-nav .l-inner > ul > li a p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page section#soundjoy-nav .l-inner > ul > li a::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/2022/soundjoy/img/icon_chevron_down.png) no-repeat center/cover;
+}
+
+#page section#soundjoy-campaign-steps {
+  background: url(/assets/campaign/2022/soundjoy/img/campaign_step_bg.png) no-repeat center top/cover;
+  padding-bottom: 24px;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin: 24px auto 16px;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--mini .box {
+  padding: 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 2px solid #FFFFFF;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--mini .box .txt-heading {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--mini .box .txt-body {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--mini .arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 12px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner > div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner > div:nth-child(3) h2.disp2 + p {
+  margin: 16px auto 0;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--inner {
+  background: white;
+  padding: 24px 16px;
+  text-align: center;
+  margin: 16px auto;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--inner .btn-apply {
+  margin: 0 auto;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--inner .btn-apply .l-inner > * {
+  width: 100%;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--inner .soundjoy-campaign-steps--entry figure {
+  width: 180px;
+  margin: 16px auto;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--inner .soundjoy-campaign-steps--entry p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner > p {
+  text-align: center;
+  margin: 16px auto 0;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner > p a {
+  color: black;
+}
+
+#page section#soundjoy-campaign-steps > .l-inner .existing-user {
+  padding: 8px 16px;
+  border: 1px solid #000000;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page section#soundjoy-playlist h1.disp1 {
+  padding: 24px;
+}
+
+#page section#soundjoy-playlist .l-inner p {
+  text-align: center;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+#page section#soundjoy-playlist .l-inner .purchase-link {
+  margin: 16px auto 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #4F9CD0;
+  border-radius: 90px;
+}
+
+#page section#soundjoy-playlist .l-inner .purchase-link a {
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 16px 48px;
+}
+
+#page section#vissel-playlist > .l-inner {
+  margin: 24px auto;
+}
+
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner {
+  padding: 16px;
+  background: #9B0020;
+  border-radius: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+  text-align: center;
+}
+
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner h2 {
+  border-radius: 8px;
+  padding: 4px 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  background: white;
+  color: #9B0020;
+}
+
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner > p {
+  padding: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  border: 3px solid #FFFFFF;
+  border-radius: 8px;
+  color: white;
+}
+
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner > ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner > ol > li:not(:last-child)::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 24px;
+  border-bottom: 3px dashed #FFFFFF;
+}
+
+#page #point-mission {
+  margin: 0 auto 36px;
+}
+
+#page #campaign-merit,
+#page #stack-playback-campaign,
+#page .s-campaign-detail {
+  margin: 36px auto;
+}
+
+#page #price > .l-inner > h1 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2022/soundjoy/img/bg.jpg) no-repeat center top/auto 86.4% black;
+  }
+  #page h1.disp1 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page h1.disp1 img {
+    width: 600px;
+  }
+  #page h2.disp2 {
+    font-size: 48px;
+    line-height: 100%;
+  }
+  #page .l-campaign-02 > h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page .slick-next {
+    right: 150px;
+  }
+  #page .slick-prev {
+    left: 150px;
+  }
+  #page section#soundjoy-nav {
+    padding: 0;
+  }
+  #page section#soundjoy-nav .l-inner > ul {
+    margin: 36px auto;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  #page section#soundjoy-nav .l-inner > ul > li {
+    width: 200px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page section#soundjoy-nav .l-inner > ul > li:hover {
+    background: #F0F0F0;
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  #page section#soundjoy-nav .l-inner > ul > li a {
+    padding: 16px 0;
+  }
+  #page section#soundjoy-campaign-steps {
+    padding-bottom: 36px;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner > p {
+    margin-top: 36px;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner > p:hover {
+    text-decoration: underline;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--mini {
+    width: 420px;
+    gap: 16px;
+    margin: 36px auto;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--mini .box .txt-body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--inner {
+    width: 848px;
+    padding: 48px 36px;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--inner .btn-apply .l-inner {
+    width: 100%;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--inner .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--inner .soundjoy-campaign-steps--entry figure {
+    width: 220px;
+    margin: 24px auto;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--inner .soundjoy-campaign-steps--entry figure img {
+    width: 100%;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner .soundjoy-campaign-steps--inner .soundjoy-campaign-steps--entry p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner > div:nth-child(2) {
+    gap: 24px;
+  }
+  #page section#soundjoy-campaign-steps > .l-inner .existing-user {
+    width: 340px;
+    padding: 8px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+  }
+  #page section#vissel-campaign-steps > .l-inner {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 36px;
+    padding: 48px 0 12px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner {
+    padding: 36px;
+    width: 848px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner h2 {
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .btn-apply .l-inner {
+    width: 100%;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text {
+    gap: 16px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text .visions {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 16px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text .visions > div {
+    font-size: 36px;
+    line-height: 47px;
+    padding: 24px;
+  }
+  #page section#vissel-campaign-steps > .l-inner > p a:hover {
+    text-decoration: underline;
+  }
+  #page section#soundjoy-playlist figure {
+    text-align: center;
+  }
+  #page section#soundjoy-playlist .l-inner .purchase-link {
+    width: 320px;
+    height: 90px;
+    margin: 0 auto 60px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page section#soundjoy-playlist .l-inner .purchase-link a {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  #page section#soundjoy-playlist .l-inner .purchase-link:hover {
+    background: #4EB0F2;
+  }
+  #page #campaign-merit,
+  #page #stack-playback-campaign,
+  #page .s-campaign-detail {
+    margin: 72px auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #page .js-toggle.is-open .js-toggle__panel {
+    max-height: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

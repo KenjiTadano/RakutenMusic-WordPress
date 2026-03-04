@@ -1,0 +1,229 @@
+#page #rank-items {
+  background: #FFF;
+  padding: 16px;
+}
+
+#page #rank-items thead tr:first-child {
+  position: sticky;
+  top: 120px;
+  background: white;
+}
+
+#page #rank-items thead tr td {
+  border-bottom: 1px solid #D9D9D9;
+  padding: 8px 0;
+}
+
+#page #rank-items thead tr td:not(:first-child) {
+  width: 64px;
+}
+
+#page #rank-items thead tr td .rank-grade-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page #rank-items thead tr td .rank-grade-group i img {
+  width: 40px;
+  height: 40px;
+}
+
+#page #rank-items thead tr td .rank-grade-group .rank-grade {
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 14px */
+  text-wrap: nowrap;
+}
+
+#page #rank-items tbody tr td {
+  border-bottom: 1px solid #D9D9D9;
+  padding: 8px 0;
+  text-align: center;
+}
+
+#page #rank-items tbody tr td p {
+  color: #000;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 14px */
+  margin-top: 10px;
+}
+
+#page #rank-items tbody tr td:first-child {
+  width: 70px;
+}
+
+#page #rank-items tbody tr td .store-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+#page #rank-items tbody tr td .store-info .store-img {
+  width: 70px;
+}
+
+#page #rank-items tbody tr td .store-info .store-reward {
+  color: #000;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 14px */
+}
+
+#page #rank-items tbody tr td .store-info .store-link {
+  color: #d80000;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 14px */
+  text-decoration-line: underline;
+}
+
+#page #rank-items+p.small {
+  color: black !important;
+}
+
+#page #rank-items tr td.store-info-group:first-child {
+  display: flex;
+  width: auto;
+}
+
+#page #rank-items tr td.store-info-group div.store-lottery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  background: #FFE5AC;
+}
+
+#page #rank-items tr td.store-info-group div.store-first-come {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  background: #FFD3F5;
+}
+
+#page #rank-items tr td.store-info-group p.gift-category-text {
+  font-size: 10px;
+  font-weight: 400;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+
+@media screen and (min-width: 768px) {
+  #page #rank-items {
+    padding: 32px;
+  }
+
+  #page #rank-items thead tr:first-child {
+    top: 168px;
+  }
+
+  #page #rank-items thead tr td {
+    padding: 16px 0;
+  }
+
+  #page #rank-items thead tr td:not(:first-child) {
+    width: 150px;
+  }
+
+  #page #rank-items thead tr td .rank-grade-group i img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #page #rank-items thead tr td .rank-grade-group .rank-grade {
+    text-align: center;
+    /* body/01-regular */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page #rank-items tbody tr td {
+    padding: 16px 0;
+  }
+
+  #page #rank-items tbody tr td .store-info .store-img {
+    width: 150px;
+    height: 86px;
+  }
+
+  #page #rank-items tbody tr td .store-info .store-logo {
+    max-width: 120px;
+  }
+
+  #page #rank-items tbody tr td .store-info .store-reward {
+    color: #000;
+    text-align: center;
+    /* body/03-regular */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    /* 133.333% */
+  }
+
+  #page #rank-items tbody tr td .store-info .store-link {
+    /* body/03-regular */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    /* 133.333% */
+  }
+
+  #page #rank-items tbody tr td .store-info .store-link:hover {
+    text-decoration: none;
+  }
+
+  #page #rank-items tbody tr td svg.ok,
+  #page #rank-items tbody tr td svg.ng {
+    width: 24px;
+    height: 24px;
+  }
+
+  #page #rank-items tbody tr td p {
+    color: #000;
+    text-align: center;
+    /* button/03-regular */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 12px;
+    /* 100% */
+  }
+
+  #page #rank-items tr td.store-info-group p.gift-category-text {
+    font-size: 12px;
+  }
+
+  #page #rank-items tr td.store-info-group div.store-lottery {
+    width: 20px;
+  }
+
+  #page #rank-items tr td.store-info-group div.store-first-come {
+    width: 20px;
+  }
+
+}
+
+/*# sourceMappingURL=common.css.map */

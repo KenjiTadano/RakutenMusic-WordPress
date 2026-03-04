@@ -1,0 +1,27 @@
+#page p.campaign_end_memo {
+  width: 240px;
+  margin: 24px auto 12px !important;
+  background: black;
+  color: white;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-size: 16px !important;
+}
+
+#page p.campaign_end_memo:after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 12px 12px 12px;
+  border-color: transparent transparent black transparent;
+  content: "";
+  display: block;
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  margin-left: -12px;
+}

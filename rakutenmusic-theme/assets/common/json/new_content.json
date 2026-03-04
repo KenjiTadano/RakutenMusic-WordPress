@@ -1,0 +1,147 @@
+[
+    {
+        "genre": "全てのジャンル",
+        "items": [
+            {
+                "type": "song",
+                "name": "Emotion",
+                "artist_name": "チャン・グンソク",
+                "sort_order": 5,
+                "images": [
+                    {
+                        "l1": "https:\/\/image.music.rakuten.net\/8\/b\/8b06\/9b6a\/f79f\/1adf\/2c1c\/29d1\/ab72\/c256.l1.jpg",
+                        "l2": "https:\/\/image.music.rakuten.net\/8\/b\/8b06\/9b6a\/f79f\/1adf\/2c1c\/29d1\/ab72\/c256.l2.jpg",
+                        "s1": "https:\/\/image.music.rakuten.net\/8\/b\/8b06\/9b6a\/f79f\/1adf\/2c1c\/29d1\/ab72\/c256.s1.jpg",
+                        "s2": "https:\/\/image.music.rakuten.net\/8\/b\/8b06\/9b6a\/f79f\/1adf\/2c1c\/29d1\/ab72\/c256.s2.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "song",
+                "name": "Night Birds (feat. Froya & Syohei Miyawaki)",
+                "artist_name": "Tokimeki Records",
+                "sort_order": 6,
+                "images": [
+                    {
+                        "l1": "https:\/\/image.music.rakuten.net\/5\/6\/56df\/d714\/d0fe\/6559\/703a\/9afd\/395b\/99d0.l1.jpg",
+                        "l2": "https:\/\/image.music.rakuten.net\/5\/6\/56df\/d714\/d0fe\/6559\/703a\/9afd\/395b\/99d0.l2.jpg",
+                        "s1": "https:\/\/image.music.rakuten.net\/5\/6\/56df\/d714\/d0fe\/6559\/703a\/9afd\/395b\/99d0.s1.jpg",
+                        "s2": "https:\/\/image.music.rakuten.net\/5\/6\/56df\/d714\/d0fe\/6559\/703a\/9afd\/395b\/99d0.s2.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "song",
+                "name": "Mausoleum of My Former Self",
+                "artist_name": "Gruff Rhys",
+                "sort_order": 7,
+                "images": [
+                    {
+                        "l1": "https:\/\/image.music.rakuten.net\/3\/4\/34b4\/fc2b\/bd10\/9cda\/6a8f\/d710\/317e\/05fc.l1.jpg",
+                        "l2": "https:\/\/image.music.rakuten.net\/3\/4\/34b4\/fc2b\/bd10\/9cda\/6a8f\/d710\/317e\/05fc.l2.jpg",
+                        "s1": "https:\/\/image.music.rakuten.net\/3\/4\/34b4\/fc2b\/bd10\/9cda\/6a8f\/d710\/317e\/05fc.s1.jpg",
+                        "s2": "https:\/\/image.music.rakuten.net\/3\/4\/34b4\/fc2b\/bd10\/9cda\/6a8f\/d710\/317e\/05fc.s2.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "song",
+                "name": "Next Level",
+                "artist_name": "aespa",
+                "sort_order": 8,
+                "images": [
+                    {
+                        "l1": "https:\/\/image.music.rakuten.net\/8\/7\/8725\/9925\/d274\/2861\/1299\/13fc\/5e99\/7cfc.l1.jpg",
+                        "l2": "https:\/\/image.music.rakuten.net\/8\/7\/8725\/9925\/d274\/2861\/1299\/13fc\/5e99\/7cfc.l2.jpg",
+                        "s1": "https:\/\/image.music.rakuten.net\/8\/7\/8725\/9925\/d274\/2861\/1299\/13fc\/5e99\/7cfc.s1.jpg",
+                        "s2": "https:\/\/image.music.rakuten.net\/8\/7\/8725\/9925\/d274\/2861\/1299\/13fc\/5e99\/7cfc.s2.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "song",
+                "name": "In the Stone",
+                "artist_name": "The Goon Sax",
+                "sort_order": 9,
+                "images": [
+                    {
+                        "l1": "https:\/\/image.music.rakuten.net\/5\/a\/5af9\/7082\/0d2e\/4305\/0cc5\/786b\/b951\/9aba.l1.jpg",
+                        "l2": "https:\/\/image.music.rakuten.net\/5\/a\/5af9\/7082\/0d2e\/4305\/0cc5\/786b\/b951\/9aba.l2.jpg",
+                        "s1": "https:\/\/image.music.rakuten.net\/5\/a\/5af9\/7082\/0d2e\/4305\/0cc5\/786b\/b951\/9aba.s1.jpg",
+                        "s2": "https:\/\/image.music.rakuten.net\/5\/a\/5af9\/7082\/0d2e\/4305\/0cc5\/786b\/b951\/9aba.s2.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "song",
+                "name": "Moonlight",
+                "artist_name": "Koreless",
+                "sort_order": 10,
+                "images": [
+                    {
+                        "l1": "https:\/\/image.music.rakuten.net\/1\/1\/11c3\/ad6c\/b28a\/476d\/ca62\/4918\/7992\/94f9.l1.jpg",
+                        "l2": "https:\/\/image.music.rakuten.net\/1\/1\/11c3\/ad6c\/b28a\/476d\/ca62\/4918\/7992\/94f9.l2.jpg",
+                        "s1": "https:\/\/image.music.rakuten.net\/1\/1\/11c3\/ad6c\/b28a\/476d\/ca62\/4918\/7992\/94f9.s1.jpg",
+                        "s2": "https:\/\/image.music.rakuten.net\/1\/1\/11c3\/ad6c\/b28a\/476d\/ca62\/4918\/7992\/94f9.s2.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "album",
+                "name": "Kura Kura",
+                "artist_name": "TWICE",
+                "sort_order": 11,
+                "images": [
+                    {
+                        "l1": "https:\/\/image.music.rakuten.net\/b\/d\/bd03\/6771\/8b52\/7243\/a2a6\/09e5\/e3a2\/f3ee.l1.jpg",
+                        "l2": "https:\/\/image.music.rakuten.net\/b\/d\/bd03\/6771\/8b52\/7243\/a2a6\/09e5\/e3a2\/f3ee.l2.jpg",
+                        "s1": "https:\/\/image.music.rakuten.net\/b\/d\/bd03\/6771\/8b52\/7243\/a2a6\/09e5\/e3a2\/f3ee.s1.jpg",
+                        "s2": "https:\/\/image.music.rakuten.net\/b\/d\/bd03\/6771\/8b52\/7243\/a2a6\/09e5\/e3a2\/f3ee.s2.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "song",
+                "name": "ZOOM",
+                "artist_name": "CNBLUE",
+                "sort_order": 12,
+                "images": [
+                    {
+                        "l1": "https:\/\/image.music.rakuten.net\/7\/c\/7c39\/93f4\/e35e\/8517\/9b8c\/efc1\/42cc\/b7f6.l1.jpg",
+                        "l2": "https:\/\/image.music.rakuten.net\/7\/c\/7c39\/93f4\/e35e\/8517\/9b8c\/efc1\/42cc\/b7f6.l2.jpg",
+                        "s1": "https:\/\/image.music.rakuten.net\/7\/c\/7c39\/93f4\/e35e\/8517\/9b8c\/efc1\/42cc\/b7f6.s1.jpg",
+                        "s2": "https:\/\/image.music.rakuten.net\/7\/c\/7c39\/93f4\/e35e\/8517\/9b8c\/efc1\/42cc\/b7f6.s2.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "song",
+                "name": "Torch Song",
+                "artist_name": "Lucinda Chua",
+                "sort_order": 13,
+                "images": [
+                    {
+                        "l1": "https:\/\/image.music.rakuten.net\/8\/6\/864c\/eb9b\/8cc1\/ff82\/5303\/9c3a\/182f\/9d9e.l1.jpg",
+                        "l2": "https:\/\/image.music.rakuten.net\/8\/6\/864c\/eb9b\/8cc1\/ff82\/5303\/9c3a\/182f\/9d9e.l2.jpg",
+                        "s1": "https:\/\/image.music.rakuten.net\/8\/6\/864c\/eb9b\/8cc1\/ff82\/5303\/9c3a\/182f\/9d9e.s1.jpg",
+                        "s2": "https:\/\/image.music.rakuten.net\/8\/6\/864c\/eb9b\/8cc1\/ff82\/5303\/9c3a\/182f\/9d9e.s2.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "song",
+                "name": "不思議",
+                "artist_name": "星野 源",
+                "sort_order": 14,
+                "images": [
+                    {
+                        "l1": "https:\/\/image.music.rakuten.net\/7\/0\/7010\/2961\/3ed3\/6508\/9f9f\/23de\/29f7\/c88f.l1.jpg",
+                        "l2": "https:\/\/image.music.rakuten.net\/7\/0\/7010\/2961\/3ed3\/6508\/9f9f\/23de\/29f7\/c88f.l2.jpg",
+                        "s1": "https:\/\/image.music.rakuten.net\/7\/0\/7010\/2961\/3ed3\/6508\/9f9f\/23de\/29f7\/c88f.s1.jpg",
+                        "s2": "https:\/\/image.music.rakuten.net\/7\/0\/7010\/2961\/3ed3\/6508\/9f9f\/23de\/29f7\/c88f.s2.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+]

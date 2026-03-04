@@ -1,0 +1,54 @@
+#page #mkdiv_header_pitari {
+  display: none;
+}
+#page #rex-ceb-01 {
+  margin: 32px auto;
+  padding: 0 16px;
+}
+#page .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+#page .Below {
+  padding: 0;
+  margin: 0;
+}
+#page .agreement-label {
+  margin-bottom: 1em;
+}
+#page .agreement-message a {
+  color: #bf0000;
+}
+#page .CampaignButton {
+  margin: 0;
+}
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: rgb(137, 137, 137);
+}
+#page .CampaignButton-success span.RexButton-message {
+  color: rgb(4, 114, 5);
+  font-size: 18px;
+}
+#page .l-header,
+#page .l-footer,
+#page .l-breadcrumb {
+  display: none;
+}
+#page .s-campaign-hero + .content-box {
+  padding: 0;
+  margin: 32px auto;
+}
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+#page .campaign-detail__table td {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}/*# sourceMappingURL=style.css.map */

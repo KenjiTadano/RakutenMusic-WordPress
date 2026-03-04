@@ -1,0 +1,216 @@
+#page #fv-cta {
+  display: flex;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  margin: 32px auto;
+}
+#page #anchor-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 32px auto;
+}
+#page #anchor-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: #006497;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
+#page #about-music,
+#page #about-magazine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  margin: 32px auto;
+}
+#page #about-music .features + a,
+#page #about-music .supplementary + a,
+#page #about-magazine .features + a,
+#page #about-magazine .supplementary + a {
+  padding: 0 24px;
+}
+#page #about-music h3,
+#page #about-magazine h3 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+#page #about-music .artist-name-list,
+#page #about-magazine .artist-name-list {
+  display: flex;
+  padding: 0px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+#page #about-music ul.artist-name-list-pickup,
+#page #about-music ul.artist-name-list-others,
+#page #about-magazine ul.artist-name-list-pickup,
+#page #about-magazine ul.artist-name-list-others {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 2px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+#page #about-music ul.artist-name-list-pickup > li,
+#page #about-music ul.artist-name-list-others > li,
+#page #about-magazine ul.artist-name-list-pickup > li,
+#page #about-magazine ul.artist-name-list-others > li {
+  text-align: center;
+}
+#page #about-music ul.artist-name-list-pickup > li:not(:last-child)::after,
+#page #about-music ul.artist-name-list-others > li:not(:last-child)::after,
+#page #about-magazine ul.artist-name-list-pickup > li:not(:last-child)::after,
+#page #about-magazine ul.artist-name-list-others > li:not(:last-child)::after {
+  content: " /";
+}
+#page #about-music ul.artist-name-list-pickup > li,
+#page #about-magazine ul.artist-name-list-pickup > li {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+#page #about-music ul.artist-name-list-others > li,
+#page #about-magazine ul.artist-name-list-others > li {
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page #about-music p.supplementary,
+#page #about-magazine p.supplementary {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+#page #about-music .caption-table,
+#page #about-magazine .caption-table {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  background: #F7F7F7;
+}
+#page #about-music .caption-table p,
+#page #about-magazine .caption-table p {
+  color: #000;
+  text-align: justify;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page #about-music .caption-table p svg,
+#page #about-magazine .caption-table p svg {
+  vertical-align: bottom;
+}
+#page #about-music .images {
+  margin: -16px 0 -24px;
+}
+#page #about-music ul.artist-name-list-pickup > li {
+  color: #FF008C;
+}
+#page #about-magazine .images {
+  width: 288px;
+}
+#page #about-magazine ul.artist-name-list-pickup > li {
+  color: #E66700;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    background: #FFF3CB;
+  }
+  #page #fv-cta a:hover img {
+    opacity: 0.8;
+  }
+  #page #anchor-link {
+    flex-direction: row;
+    justify-content: center;
+  }
+  #page #anchor-link a {
+    gap: 8px;
+  }
+  #page #anchor-link a:hover {
+    text-decoration: none;
+  }
+  #page #about-music .features + a,
+  #page #about-music .supplementary + a,
+  #page #about-magazine .features + a,
+  #page #about-magazine .supplementary + a {
+    padding: 0;
+  }
+  #page #about-music .features + a:hover img,
+  #page #about-music .supplementary + a:hover img,
+  #page #about-magazine .features + a:hover img,
+  #page #about-magazine .supplementary + a:hover img {
+    opacity: 0.8;
+  }
+  #page #about-music h3,
+  #page #about-magazine h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  #page #about-music .artist-name-list,
+  #page #about-magazine .artist-name-list {
+    width: 900px;
+    margin: 0 auto;
+  }
+  #page #about-music ul.artist-name-list-pickup > li,
+  #page #about-magazine ul.artist-name-list-pickup > li {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  #page #about-music ul.artist-name-list-others > li,
+  #page #about-magazine ul.artist-name-list-others > li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  #page #about-music p.supplementary,
+  #page #about-magazine p.supplementary {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  #page #about-music .caption-table p,
+  #page #about-magazine .caption-table p {
+    width: 900px;
+  }
+  #page #about-magazine .images {
+    width: auto;
+  }
+}/*# sourceMappingURL=style.css.map */

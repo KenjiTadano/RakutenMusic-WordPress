@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/reward-section-howtouse",
+  "title": "リワード：HOW TO USE（ポイント獲得方法）",
+  "category": "rakutenmusic-reward",
+  "icon": "align-wide",
+  "description": "リワードページ用 ポイント獲得方法（PC: 3列 / SP: 1列カルーセル、3秒自動スライド）",
+  "keywords": ["楽天", "ミュージック", "リワード", "HOW TO USE", "ポイント獲得", "カルーセル"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "render": "file:./render.php"
+}

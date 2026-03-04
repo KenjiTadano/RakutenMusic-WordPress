@@ -1,0 +1,380 @@
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+#page .CampaignButton-enabled span.RexButton-message {
+  color: #ffffff;
+}
+#page .App {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#page .InfoText {
+  margin: 0 auto;
+}
+#page .CampaignButton {
+  margin: 0 auto;
+}
+#page .Below {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+#page .agreement-message a {
+  color: #BF0000;
+}
+#page #stack-rakutenmusicrank + .btn-apply {
+  margin: 32px auto 16px;
+  padding: 0 16px;
+}
+#page .l-content {
+  display: none;
+}
+#page .l-campaign-03 .s-campaign-detail .campaign-detail__table td {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+#page p.lead {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-align: center;
+}
+#page p.red {
+  color: var(--red-700, #D80000);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page p.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #686868;
+}
+#page .txt-pcolor {
+  color: #0080A5;
+}
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+#page #cpn-about {
+  margin: 32px auto;
+  width: calc(100% - 32px);
+}
+#page #campaign-apply {
+  background: #ebebeb;
+  padding: 32px 0;
+  margin-bottom: 8px;
+}
+#page #campaign-apply .l-inner > h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+#page #campaign-apply .l-inner ol.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+#page #campaign-apply .l-inner ol.steps > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px 16px;
+  gap: 24px;
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+#page #campaign-apply .l-inner ol.steps > li > h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 100;
+}
+#page #campaign-apply .l-inner ol.steps > li p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+#page #campaign-apply .l-inner ol.steps > li p small {
+  display: block;
+}
+#page #campaign-apply .l-inner ol.steps > li p.btn-apply--caption {
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page #campaign-apply .l-inner ol.steps > li p.caution {
+  padding: 8px;
+  background: #fef0dd;
+  color: var(--warning-text, #a35e04);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page #campaign-apply .l-inner ol.steps > li div.caution {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--warning-background, #FEF0DD);
+}
+#page #campaign-apply .l-inner ol.steps > li div.caution h3,
+#page #campaign-apply .l-inner ol.steps > li div.caution p,
+#page #campaign-apply .l-inner ol.steps > li div.caution p a,
+#page #campaign-apply .l-inner ol.steps > li div.caution ul li {
+  text-align: justify;
+  color: var(--warning-text, #A35E04);
+}
+#page #campaign-apply .l-inner ol.steps > li div.caution h3 {
+  margin: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+#page #campaign-apply .l-inner ol.steps > li div.caution p,
+#page #campaign-apply .l-inner ol.steps > li div.caution ul li {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page #campaign-apply .l-inner ol.steps > li div.caution p a,
+#page #campaign-apply .l-inner ol.steps > li div.caution ul li a {
+  text-decoration: underline;
+}
+#page #campaign-apply .l-inner ol.steps > li div.caution ul {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+#page #campaign-apply .l-inner ol.steps > li div.caution ul li {
+  list-style: disc;
+  margin-left: 1em;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-btn {
+  display: inline-block;
+  background: #7d00be;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-btn a {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  padding: 12px 24px;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-btn a i {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/artist/awesomecityclub/img/external_link.png) no-repeat center/cover;
+  vertical-align: top;
+  margin-left: 12px;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-logo {
+  margin: 24px auto;
+}
+#page #campaign-apply .l-inner ol.steps > li .tkt-live {
+  margin: 24px auto;
+}
+#page #campaign-apply .l-inner ol.steps > li .screenshot {
+  width: 220px;
+}
+#page #campaign-apply .l-inner ol.steps > li .jsha figure {
+  width: 238px;
+  margin: 0 auto;
+}
+#page #campaign-apply .l-inner .arrow {
+  width: 20%;
+  margin: 32px auto 24px;
+  text-align: center;
+}
+#page #campaign-apply .l-inner .btn-apply {
+  margin: 0 auto;
+}
+#page #campaign-apply .l-inner .btn-apply .l-inner > * {
+  width: 100%;
+}
+#page #campaign-apply .l-inner .btn-apply .l-inner > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: justify;
+}
+#page #campaign-apply .l-inner .apply {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  #page .App {
+    width: 600px;
+    align-items: center;
+  }
+  #page .s-campaign-hero {
+    background: #020001;
+    position: relative;
+  }
+  #page .s-campaign-hero::after {
+    width: 100%;
+    height: 50px;
+    background: #0080A5;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
+  #page .s-campaign-hero .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+  #page .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+  #page p.lead {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+  #page #cpn-about {
+    margin: 64px auto;
+    text-align: center;
+  }
+  #page #stack-rakutenmusicrank + .btn-apply {
+    padding: 0;
+  }
+  #page #campaign-apply .l-inner > h1 img {
+    width: 400px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li > h2 img {
+    width: 400px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li p.small {
+    font-size: 12px;
+    line-height: 16px;
+    color: #686868;
+    margin-top: 12px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li p.caution {
+    padding: 12px 24px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li div.caution {
+    gap: 16px;
+    width: 600px;
+    margin: 0 auto;
+  }
+  #page #campaign-apply .l-inner ol.steps > li div.caution h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li div.caution p,
+  #page #campaign-apply .l-inner ol.steps > li div.caution ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li div.caution p a:hover,
+  #page #campaign-apply .l-inner ol.steps > li div.caution ul li a:hover {
+    text-decoration: none;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-btn {
+    transition: all 0.2s ease-in;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-btn:hover {
+    box-shadow: 0px 24px 38px rgba(75, 0, 113, 0.04), 0px 9px 46px rgba(75, 0, 113, 0.12), 0px 11px 15px rgba(75, 0, 113, 0.2);
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-logo {
+    width: 275px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .tkt-logo img {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .screenshot {
+    width: 220px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .screenshot img {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li iframe {
+    width: 400px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .jsha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 16px;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .jsha figure {
+    margin: 0;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .jsha figure img {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner ol.steps > li .jsha p {
+    text-align: left;
+  }
+  #page #campaign-apply .l-inner .apply > .l-inner {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner .apply > .l-inner p.lead + p {
+    text-align: center;
+    margin-top: 24px;
+  }
+  #page #campaign-apply .l-inner .btn-apply > .l-inner {
+    width: 100%;
+  }
+  #page #campaign-apply .l-inner .btn-apply > .l-inner > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  #page #campaign-apply .l-inner .btn-apply > .l-inner .trial-btn {
+    width: 450px;
+  }
+  #page #campaign-apply .l-inner .arrow {
+    width: 80px;
+  }
+  #page #campaign-apply .l-inner .arrow img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

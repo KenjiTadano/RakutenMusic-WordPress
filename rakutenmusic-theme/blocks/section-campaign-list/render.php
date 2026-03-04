@@ -9,6 +9,7 @@ if ( ! isset( $block ) || ! $block instanceof WP_Block ) {
 
 $attrs   = $block->attributes ? $block->attributes : array();
 $items   = isset( $attrs['items'] ) ? $attrs['items'] : '';
+$title   = isset( $attrs['title'] ) && (string) $attrs['title'] !== '' ? (string) $attrs['title'] : '開催中のお得なキャンペーン';
 $home    = esc_url( home_url( '/' ) );
 $part_path = get_template_directory() . '/template-parts/sections/section-campaign-list.html';
 
@@ -53,7 +54,7 @@ if ( $use_custom && ! empty( $list ) ) {
 	?>
 <section class="s-campaign-list" id="campaign-list-block">
 	<div class="l-inner">
-		<h2 class="heading heading--m">開催中のお得なキャンペーン</h2>
+		<h2 class="heading heading--m"><?php echo esc_html( $title ); ?></h2>
 		<div id="campaign-list-editor-wrap" class="campaign-list-editor-wrap" style="display:none;"></div>
 		<ul class="campaign-list campaign-list--sp-s" id="campaign-list-container" aria-label="キャンペーン一覧"></ul>
 	</div>

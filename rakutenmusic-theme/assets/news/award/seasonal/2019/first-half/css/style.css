@@ -1,0 +1,221 @@
+#page .campaign-hero__schedule {
+  display: none;
+}
+
+#page .s-campaign-hero {
+  padding: 0;
+  background: url(https://music.r10s.jp/external/prod/assets/news/award/seasonal/2019/first-half/img/bg.jpg) no-repeat center top/cover;
+}
+
+#page #nav_ranks {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0 0;
+}
+
+#page #nav_ranks li {
+  width: 25%;
+  padding: 0 0.5rem;
+}
+
+#page #nav_ranks li a {
+  display: block;
+  padding: 1.5rem 0;
+  text-align: center;
+  background: white;
+  color: darkgoldenrod;
+  border: 0.5rem solid darkgoldenrod;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.1s ease-in;
+  position: relative;
+}
+
+#page #nav_ranks li a:after {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  right: 2rem;
+}
+
+#page #nav_ranks li a:hover {
+  background: darkgoldenrod;
+  color: white;
+  transform: translateY(3px);
+}
+
+#page h2.heading.heading--m {
+  background: #333;
+  color: white;
+  padding: 2rem 0;
+  margin: 60px 0 30px;
+}
+
+#page .monthlyRanking {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+#page .monthlyRanking > li {
+  width: calc(100% / 4);
+  padding: 2rem;
+  box-sizing: border-box;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+#page .monthlyRanking > li > div figure {
+  height: 150px;
+  margin: 3rem 0 1.5rem;
+  text-align: center;
+}
+
+#page .monthlyRanking > li > div figure img {
+  height: 100%;
+}
+
+#page .monthlyRanking > li > div p {
+  line-height: 3rem;
+}
+
+#page .monthlyRanking > li > div p.rank {
+  font-size: 2.5rem;
+  padding: 1rem 2rem 2rem;
+  box-sizing: border-box;
+  border-bottom: 0.5rem solid black;
+  font-weight: bold;
+}
+
+#page .monthlyRanking > li > div p.title {
+  font-weight: bold;
+}
+
+#page .monthlyRanking > li > div p:nth-of-type(2) {
+  display: inline-block;
+  background: #333;
+  color: white;
+  border-radius: 50px;
+  font-size: 1.25rem;
+  padding: 0 2rem;
+  margin: 0 0 1rem;
+}
+
+#page .monthlyRanking > li:nth-child(1), #page .monthlyRanking > li:nth-child(2), #page .monthlyRanking > li:nth-child(3) {
+  width: calc(100% / 3);
+  border-top: 1px solid lightgray;
+}
+
+#page .monthlyRanking > li:nth-child(1) > div figure,
+#page .monthlyRanking > li:nth-child(2) > div figure,
+#page .monthlyRanking > li:nth-child(3) > div figure {
+  height: 200px;
+}
+
+#page .monthlyRanking > li:nth-child(1), #page .monthlyRanking > li:nth-child(4n) {
+  border-left: 1px solid lightgray;
+}
+
+#page .playlistRanking li {
+  border-top: 1px solid lightgray;
+  padding: 2rem;
+}
+
+#page .playlistRanking li:last-child {
+  border-bottom: 1px solid lightgray;
+}
+
+#page .playlistRanking li:nth-child(1), #page .playlistRanking li:nth-child(2), #page .playlistRanking li:nth-child(3) {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#page .playlistRanking li span {
+  display: inline-block;
+  width: 40px;
+  text-align: right;
+  font-size: 1.6rem;
+  margin-right: 2rem;
+}
+
+#page #pagetop {
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+}
+
+#page #pagetop a {
+  display: block;
+  color: #333;
+  font-size: 6rem;
+  transition: all 0.2s ease-in;
+}
+
+#page #pagetop a:hover {
+  color: #001241;
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 768px) {
+  #page .s-campaign-hero + div .l-inner {
+    padding: 0;
+  }
+  #page h2.heading.heading--m {
+    padding: 2rem;
+  }
+  #page #nav_ranks {
+    flex-wrap: wrap;
+    margin: 3rem 1.5rem;
+  }
+  #page #nav_ranks li {
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+  }
+  #page #nav_ranks li a:after {
+    display: none;
+  }
+  #page .playlistRanking li span {
+    display: block;
+    width: initial;
+    text-align: left;
+  }
+  #page .monthlyRanking > li {
+    width: calc(100% / 2);
+    padding: 1.75rem;
+  }
+  #page .monthlyRanking > li > div figure {
+    height: 10rem;
+    margin: 2rem 0 1.25rem;
+  }
+  #page .monthlyRanking > li > div figure img {
+    width: initial;
+  }
+  #page .monthlyRanking > li > div p {
+    font-size: 1.6rem;
+    line-height: 1.75em;
+  }
+  #page .monthlyRanking > li > div p.rank {
+    padding: 0.5rem;
+  }
+  #page .monthlyRanking > li:nth-child(1) {
+    width: 100%;
+  }
+  #page .monthlyRanking > li:nth-child(2), #page .monthlyRanking > li:nth-child(3) {
+    width: 100%;
+    border-left: 1px solid lightgray;
+    border-top: none;
+  }
+  #page .monthlyRanking > li:nth-child(4n) {
+    border-left: none;
+  }
+  #page .monthlyRanking > li:nth-child(even) {
+    border-left: 1px solid lightgray;
+  }
+  #page #pagetop {
+    right: 1rem;
+    bottom: 1rem;
+  }
+}

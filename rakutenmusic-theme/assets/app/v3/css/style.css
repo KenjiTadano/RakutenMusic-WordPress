@@ -1,0 +1,4 @@
+/* 非表示用のCSSクラス */
+.hidden {
+  display: none;
+}

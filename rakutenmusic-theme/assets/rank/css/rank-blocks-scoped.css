@@ -1,0 +1,410 @@
+/**
+ * ランクブロック用スコープCSS（rank/index.html の stack-characteristic / point-mission / rank-04 用）
+ * .l-content / .l-campaign-03（rank-03-faq が開く div）内・.rank-block-inner のいずれにも対応
+ */
+/* --- ランク：特徴（stack-characteristic） --- */
+.l-campaign-03 .stack-characteristic .l-inner,
+#page .l-campaign-03 .stack-characteristic .l-inner,
+body.has-rank-blocks .l-content .stack-characteristic .l-inner,
+body.has-rank-blocks #page .l-content .stack-characteristic .l-inner,
+.l-content .stack-characteristic .l-inner,
+#page .l-content .stack-characteristic .l-inner,
+.rank-block-inner.rank-block-rank-stack-characteristic .stack-characteristic .l-inner,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.l-content .stack-characteristic .l-inner span.super,
+#page .l-content .stack-characteristic .l-inner span.super,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner span.super,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner span.super,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner span.super {
+  vertical-align: super;
+  font-size: 0.6em;
+}
+
+.l-content .stack-characteristic .l-inner .text-trial,
+#page .l-content .stack-characteristic .l-inner .text-trial,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner .text-trial,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .text-trial,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .text-trial {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #D80000;
+}
+
+.l-content .stack-characteristic .l-inner .text-kikihoudai,
+#page .l-content .stack-characteristic .l-inner .text-kikihoudai,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner .text-kikihoudai,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .text-kikihoudai,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .text-kikihoudai {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  margin: 8px auto 16px;
+}
+
+.l-content .stack-characteristic .l-inner .stack-characteristic--content,
+#page .l-content .stack-characteristic .l-inner .stack-characteristic--content,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.l-content .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot,
+#page .l-content .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot {
+  width: 240px;
+}
+
+.l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features,
+#page .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li,
+#page .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li {
+  width: 109px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 2px solid #D1D1D1;
+  padding: 12px 4px;
+  border-radius: 8px;
+}
+
+.l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img,
+#page .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img {
+  width: 64px;
+}
+
+.l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p,
+#page .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p {
+  font-size: 9px;
+  text-align: center;
+}
+
+.l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead,
+#page .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.l-content .stack-characteristic .l-inner .stack-characteristic--content + p.small,
+#page .l-content .stack-characteristic .l-inner .stack-characteristic--content + p.small,
+.rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content + p.small,
+.wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content + p.small,
+#page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content + p.small {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 767px) {
+  .l-content .stack-characteristic .l-inner,
+  #page .l-content .stack-characteristic .l-inner,
+  .rank-block-rank-stack-characteristic .stack-characteristic .l-inner,
+  .wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner,
+  #page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner {
+    gap: 24px;
+  }
+  .l-content .stack-characteristic .l-inner .text-trial,
+  #page .l-content .stack-characteristic .l-inner .text-trial,
+  .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .text-trial,
+  .wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .text-trial,
+  #page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .text-trial {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  .l-content .stack-characteristic .l-inner .text-kikihoudai,
+  #page .l-content .stack-characteristic .l-inner .text-kikihoudai,
+  .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .text-kikihoudai,
+  .wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .text-kikihoudai,
+  #page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .text-kikihoudai {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0;
+  }
+  .l-content .stack-characteristic .l-inner .stack-characteristic--content,
+  #page .l-content .stack-characteristic .l-inner .stack-characteristic--content,
+  .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content,
+  .wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content,
+  #page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .l-content .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot img,
+  #page .l-content .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot img,
+  .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot img,
+  .wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot img,
+  #page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot img {
+    width: 100%;
+  }
+  .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features,
+  #page .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features,
+  .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features,
+  .wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features,
+  #page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features {
+    width: 560px;
+    gap: 16px;
+  }
+  .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li,
+  #page .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li,
+  .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li,
+  .wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li,
+  #page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li {
+    width: 176px;
+    padding: 16px;
+  }
+  .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img,
+  #page .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img,
+  .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img,
+  .wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img,
+  #page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img {
+    width: 100px;
+  }
+  .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p,
+  #page .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p,
+  .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p,
+  .wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p,
+  #page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead,
+  #page .l-content .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead,
+  .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead,
+  .wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead,
+  #page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .l-content .stack-characteristic .l-inner .stack-characteristic--content + p.small,
+  #page .l-content .stack-characteristic .l-inner .stack-characteristic--content + p.small,
+  .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content + p.small,
+  .wp-block-rakutenmusic-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content + p.small,
+  #page .rank-block-rank-stack-characteristic .stack-characteristic .l-inner .stack-characteristic--content + p.small {
+    width: 816px;
+    margin: 0;
+  }
+}
+
+/* --- ランク：ポイントミッション --- */
+.l-campaign-03 #point-mission,
+#page .l-campaign-03 #point-mission,
+body.has-rank-blocks .l-content #point-mission,
+body.has-rank-blocks #page .l-content #point-mission,
+.l-content #point-mission,
+#page .l-content #point-mission,
+.rank-block-inner.rank-block-rank-point-mission #point-mission,
+.rank-block-rank-point-mission #point-mission,
+.wp-block-rakutenmusic-rank-point-mission #point-mission,
+#page .rank-block-rank-point-mission #point-mission {
+  margin: 36px auto;
+}
+
+.l-content #point-mission .l-inner,
+#page .l-content #point-mission .l-inner,
+.rank-block-rank-point-mission #point-mission .l-inner,
+.wp-block-rakutenmusic-rank-point-mission #point-mission .l-inner,
+#page .rank-block-rank-point-mission #point-mission .l-inner {
+  padding: 0 24px;
+}
+
+.l-content #point-mission .l-inner h1,
+#page .l-content #point-mission .l-inner h1,
+.rank-block-rank-point-mission #point-mission .l-inner h1,
+.wp-block-rakutenmusic-rank-point-mission #point-mission .l-inner h1,
+#page .rank-block-rank-point-mission #point-mission .l-inner h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 24px;
+}
+
+.l-content #point-mission .l-inner p.point-mission--caption,
+#page .l-content #point-mission .l-inner p.point-mission--caption,
+.rank-block-rank-point-mission #point-mission .l-inner p.point-mission--caption,
+.wp-block-rakutenmusic-rank-point-mission #point-mission .l-inner p.point-mission--caption,
+#page .rank-block-rank-point-mission #point-mission .l-inner p.point-mission--caption {
+  background: #f7f7f7;
+  padding: 12px;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.l-content #point-mission .l-inner p.point-mission--caption .point-mission--caption--red,
+#page .l-content #point-mission .l-inner p.point-mission--caption .point-mission--caption--red,
+.rank-block-rank-point-mission #point-mission .l-inner p.point-mission--caption .point-mission--caption--red,
+.wp-block-rakutenmusic-rank-point-mission #point-mission .l-inner p.point-mission--caption .point-mission--caption--red,
+#page .rank-block-rank-point-mission #point-mission .l-inner p.point-mission--caption .point-mission--caption--red {
+  color: #d80000;
+}
+
+@media screen and (min-width: 768px) {
+  .l-content #point-mission .l-inner h1,
+  #page .l-content #point-mission .l-inner h1,
+  .rank-block-rank-point-mission #point-mission .l-inner h1,
+  .wp-block-rakutenmusic-rank-point-mission #point-mission .l-inner h1,
+  #page .rank-block-rank-point-mission #point-mission .l-inner h1 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 36px;
+  }
+  .l-content #point-mission .l-inner figure,
+  #page .l-content #point-mission .l-inner figure,
+  .rank-block-rank-point-mission #point-mission .l-inner figure,
+  .wp-block-rakutenmusic-rank-point-mission #point-mission .l-inner figure,
+  #page .rank-block-rank-point-mission #point-mission .l-inner figure {
+    text-align: center;
+  }
+  .l-content #point-mission .l-inner p.point-mission--caption,
+  #page .l-content #point-mission .l-inner p.point-mission--caption,
+  .rank-block-rank-point-mission #point-mission .l-inner p.point-mission--caption,
+  .wp-block-rakutenmusic-rank-point-mission #point-mission .l-inner p.point-mission--caption,
+  #page .rank-block-rank-point-mission #point-mission .l-inner p.point-mission--caption {
+    font-size: 21px;
+    line-height: 26px;
+    width: 961px;
+    margin: 0 auto;
+  }
+}
+
+/* --- ランク：楽天ミュージックとは（rank-04-rakutenmusic）--- */
+.l-campaign-03 section#rank-04-rakutenmusic,
+#page .l-campaign-03 section#rank-04-rakutenmusic,
+body.has-rank-blocks .l-content section#rank-04-rakutenmusic,
+body.has-rank-blocks #page .l-content section#rank-04-rakutenmusic,
+.l-content section#rank-04-rakutenmusic,
+#page .l-content section#rank-04-rakutenmusic,
+.rank-block-inner.rank-block-rank-04-rakutenmusic section#rank-04-rakutenmusic,
+.rank-block-rank-04-rakutenmusic section#rank-04-rakutenmusic,
+.wp-block-rakutenmusic-rank-04-rakutenmusic section#rank-04-rakutenmusic,
+#page .rank-block-rank-04-rakutenmusic section#rank-04-rakutenmusic {
+  padding: 32px 16px;
+}
+
+.l-content section#rank-04-rakutenmusic .section-lead > i img,
+#page .l-content section#rank-04-rakutenmusic .section-lead > i img,
+.rank-block-rank-04-rakutenmusic section#rank-04-rakutenmusic .section-lead > i img,
+.wp-block-rakutenmusic-rank-04-rakutenmusic section#rank-04-rakutenmusic .section-lead > i img,
+#page .rank-block-rank-04-rakutenmusic section#rank-04-rakutenmusic .section-lead > i img {
+  width: auto;
+  height: 44px;
+}
+
+.l-content section#rank-04-rakutenmusic .section-lead > h1,
+#page .l-content section#rank-04-rakutenmusic .section-lead > h1,
+.rank-block-rank-04-rakutenmusic section#rank-04-rakutenmusic .section-lead > h1,
+.wp-block-rakutenmusic-rank-04-rakutenmusic section#rank-04-rakutenmusic .section-lead > h1,
+#page .rank-block-rank-04-rakutenmusic section#rank-04-rakutenmusic .section-lead > h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.l-content section#rank-04-rakutenmusic .section-lead > h1 + p,
+#page .l-content section#rank-04-rakutenmusic .section-lead > h1 + p,
+.rank-block-rank-04-rakutenmusic section#rank-04-rakutenmusic .section-lead > h1 + p,
+.wp-block-rakutenmusic-rank-04-rakutenmusic section#rank-04-rakutenmusic .section-lead > h1 + p,
+#page .rank-block-rank-04-rakutenmusic section#rank-04-rakutenmusic .section-lead > h1 + p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+/* .flx-32 を .l-campaign-03 / .l-content 内・ブロックラッパー経由でも適用 */
+.l-campaign-03 .flx-32,
+#page .l-campaign-03 .flx-32,
+.l-content .flx-32,
+#page .l-content .flx-32,
+.rank-block-inner.rank-block-rank-04-rakutenmusic .flx-32,
+.rank-block-rank-04-rakutenmusic .flx-32,
+.wp-block-rakutenmusic-rank-04-rakutenmusic .flx-32,
+#page .rank-block-rank-04-rakutenmusic .flx-32 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}

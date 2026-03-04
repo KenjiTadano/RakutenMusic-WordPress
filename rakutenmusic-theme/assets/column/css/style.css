@@ -1093,3 +1093,43 @@ a:hover {
     cursor: pointer;
   }
 }
+
+/* ブロックエディター内：記事：小見出しの編集領域をフロントと同じ見た目に（枠・背景なし・中央揃え） */
+.block-editor .article-header p,
+.block-editor .article-header input,
+.block-editor .article-header [contenteditable="true"],
+.editor-styles-wrapper .article-header p,
+.editor-styles-wrapper .article-header input,
+.editor-styles-wrapper .article-header [contenteditable="true"],
+.wp-block-rakutenmusic-column-article-header .article-header p,
+.wp-block-rakutenmusic-column-article-header .article-header input,
+.wp-block-rakutenmusic-column-article-header .article-header [contenteditable="true"] {
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-align: center !important;
+  width: 100%;
+  min-height: 0;
+}
+.block-editor .article-header input,
+.editor-styles-wrapper .article-header input,
+.wp-block-rakutenmusic-column-article-header .article-header input {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.block-editor .article-header p:focus,
+.block-editor .article-header input:focus,
+.block-editor .article-header [contenteditable="true"]:focus,
+.editor-styles-wrapper .article-header p:focus,
+.editor-styles-wrapper .article-header input:focus,
+.editor-styles-wrapper .article-header [contenteditable="true"]:focus,
+.wp-block-rakutenmusic-column-article-header .article-header p:focus,
+.wp-block-rakutenmusic-column-article-header .article-header input:focus,
+.wp-block-rakutenmusic-column-article-header .article-header [contenteditable="true"]:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

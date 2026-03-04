@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+@media screen and (min-width:768px) {
+#page .campaign-hero__schedule {
+    margin-bottom: 30px;
+}
+#page .s-delivery-list {
+    border-top: none;
+}
+.download-pc {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.content-inner {
+    margin: 0 auto;
+    width: 1040px;
+}
+#page .planTxt {
+    text-align: center;
+    margin: 10px 0 0;
+}
+#page .download-sp {
+    display: none;
+}
+#page h2:nth-child(8) {
+    background: #eee;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+#page .content-box:nth-child(9) {
+    background: #eee;
+}
+#page .download-pc {
+    background: #f5f5f5;
+    width: 650px;
+    padding: 30px 0;
+}
+#page .download-pc ul {
+    display: flex;
+    justify-content: center;
+}
+#page #HTMLBlock583:nth-child(12) .content-box {
+    background: #FFFFD6;
+}
+}
+
+@media screen and (max-width:768px) {
+#page .campaign-hero__schedule {
+    margin-bottom: 20px;
+}
+.sliderBox {
+    width: 100vw;
+    overflow-x: scroll;
+}
+#page .howtoget-coupon {
+    width: 100vw;
+    height: 136vw;
+    overflow-x: scroll;
+}
+#page .howtoget-coupon ol li {
+    height: 135vw;
+    width: 73vw;
+    position: relative;
+    display: inline-block;
+    font-size: 3.7vw !important;
+    margin: 0 6.8vw 0 0 !important;
+}
+#page .howtoget-coupon ol li:not(:first-child)::after {
+    top: 45vw;
+    left: -7vw;
+}
+#page .sliderBox ol {
+    width: 250vw;
+    font-size: 0 !important;
+    padding: 0 !important;
+    margin: 0 0 0 5vw !important;
+}
+#page .sliderBox ol li:nth-child(odd) {
+    background: none;
+}
+#page .sliderBox ol li:first-child {
+    margin: 0 6.8vw 0 7vw !important;
+}
+#page .sliderBox ol li p.slide-img01 {
+    width: 73vw;
+    margin: 0 auto !important;
+    font-size: 0 !important;
+}
+#page .sliderBox ol li p.slide-img01 img {
+    width: 100%;
+}
+#page .sliderBox ol li p.slide-text01 {
+    text-align: center;
+    margin: 2vw 0 0 !important;
+    font-size: 4vw;
+}
+#page .functionBox ul {
+    height: 105vw;
+}
+#page .functionBox ul li dl dt {
+    width: 75vw;
+    height: 75vw;
+}
+#page .functionBox ul li {
+    list-style: none;
+    margin: 0;
+    width: 72vw;
+    margin: 0 4vw;
+}
+#page .functionBox ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 260vw;
+}
+#page .planTxt {
+    font-size: 4vw;
+    padding: 10px 16px 0;
+    text-align: justify;
+}
+#page .functionBox ul li dl dd {
+    font-size: 4vw;
+    margin: 4vw 0 0;
+    text-align: justify;
+}
+#page .planArea > div {
+    padding: 0 16px;
+    width: 168vw;
+}
+#page .download-pc {
+    display: none;
+}
+#page .download-sp {
+    width: 100%;
+    padding: 0 17vw;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#page .download-sp p {
+    margin-bottom: 6vw;
+    font-size: 4vw;
+    text-align: center;
+}
+#page .download-sp ul li:first-child {
+    margin: 0 0 6vw;
+}
+#page .download-sp ul li {
+    font-size: 0;
+}
+#page h2:nth-child(8) {
+    background: #eee;
+    margin-bottom: 0;
+    padding-bottom: 32px;
+}
+#page .content-box:nth-child(9) .l-inner {
+    padding: 0 0 30px;
+    background: #eee;
+}
+#page .content-box:nth-child(9) .l-inner figure {
+    width: 100vw;
+    overflow-x: scroll;
+}
+#page .content-box:nth-child(9) .l-inner figure img {
+    width: 130vw;
+    margin: 0 16px;
+}
+#page .content-box__text {
+    margin: 24px 16px 0;
+}
+#page .content-box__text p {
+    font-size: 4vw;
+}
+#page #HTMLBlock583:nth-child(12) .content-box .content-inner {
+    background: #FFFFD6;
+}
+#page .functionBox {
+    padding-bottom: 30px;
+}
+#page .functionBox ul li dl dt img {
+    width: 57%;
+}
+}
+.howtoget-coupon ol {
+    width: 1040px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+.howtoget-coupon ol li {
+    width: 310px;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.howtoget-coupon ol li .slide-text01 {
+    line-height: 1.5em;
+    padding: 20px 0 0;
+}
+.howtoget-coupon ol li:not(:first-child)::after {
+    content: '';
+    font-size: 40px;
+    color: #bf0000;
+    background: url(https://books.rakuten.co.jp/event/music/campaign/ad/img/cpn-step-arrow.png);
+    display: inline-block;
+    width: 32px;
+    height: 63px;
+    position: absolute;
+    top: 170px;
+    left: -15px;
+}
+.planArea > div {
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.download-pc ul {
+    display: flex;
+}
+.download-pc ul li dl {
+    display: table;
+}
+.download-pc ul li dl > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+.download-pc ul li dl dt {
+    padding: 0 40px;
+}
+.functionBox ul li dl dd {
+    padding: 10px;
+    margin: 0;
+    text-align: justify;
+}
+.functionBox ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.functionBox ul li {
+    width: calc(100%/3);
+    list-style: none;
+    margin: 0;
+}
+.functionBox ul li dl dt {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    background: #fff;
+}
+.functionBox ul li dl dt img {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,51 @@
+#page .l-header,
+#page .l-footer {
+  display: none;
+}
+
+#page .s-campaign-hero + .text-box {
+  padding: 16px 0;
+  background: black;
+  color: white;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page .s-campaign-hero + .text-box .key-color01 {
+  color: #ffb848;
+}
+
+#page #howtogetacoupon .l-inner ol li {
+  text-align: center;
+}
+
+#page #howtogetacoupon .l-inner ol li figure {
+  width: 120px;
+  margin: 0 auto 12px;
+}
+
+#page #howtogetacoupon .l-inner ol li p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page #howtogetacoupon .l-inner ol li:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 31px 0 31px;
+  border-color: #d50303 transparent transparent transparent;
+  margin: 12px auto 24px;
+}
+
+#page .l-campaign-01 .text-box:last-child {
+  background: #bf0000;
+  padding: 16px 0;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 24px auto 12px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,395 @@
+#page section {
+  padding: 0;
+}
+
+#page #ttl-01-howtouse{
+  padding: 0 16px;
+}
+
+#page section h1 {
+  background: -webkit-gradient(linear, left top, right top, from(#5D38FF), color-stop(50%, #F46828), to(#C60034));
+  background: linear-gradient(90deg, #5D38FF 0%, #F46828 50%, #C60034 100%);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  padding: 16px 0px;
+  color: white;
+}
+
+#page .flx-32 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 16px;
+  gap: 32px;
+}
+
+#page .flx-16 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page .flx-8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+#page .l-campaign-01 p {
+  text-align: center;
+}
+
+#page .l-campaign-01 p.lead {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page .l-campaign-01 p.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page .l-campaign-01 p.caution {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+  gap: 8px;
+  background: #F7F7F7;
+  border-radius: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+#page .l-campaign-01 p.red {
+  color: #D80000;
+}
+
+#page section#lead-section {
+  margin: 32px auto;
+}
+
+#page .fv-bnr a {
+  color: #006497;
+}
+
+#page .slick-slider {
+  position: relative;
+  margin: 32px auto;
+}
+
+#page .slick-slide figure {
+  margin-bottom: 16px;
+}
+
+#page .slick-list {
+  width: 280px;
+  margin: 0 auto;
+}
+
+#page .slick-arrow {
+  width: 24px;
+  height: 42px;
+  border: none;
+  background: none;
+  color: transparent;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
+}
+
+#page .slick-prev {
+  background: url(/assets/howto/web/img/arrow_or_l.png) no-repeat center/cover;
+  left: 0;
+}
+
+#page .slick-prev.slick-disabled {
+  background: url(/assets/howto/web/img/arrow_gr_l.png) no-repeat center/cover;
+}
+
+#page .slick-next {
+  background: url(/assets/howto/web/img/arrow_or_r.png) no-repeat center/cover;
+  right: 0;
+}
+
+#page .slick-next.slick-disabled {
+  background: url(/assets/howto/web/img/arrow_gr_r.png) no-repeat center/cover;
+}
+
+#page .steps-txt i {
+  display: block;
+  width: 42px;
+  margin-bottom: 16px;
+}
+
+#page .steps-txt p {
+  text-align: left;
+}
+
+#page .steps-txt .txt-wrap p.small {
+  margin-top: 8px;
+}
+
+#page .btn-to-webplayer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 2px solid #954AB1;
+  -webkit-box-shadow: 0px 4px 0px rgba(155, 0, 236, 0.2);
+          box-shadow: 0px 4px 0px rgba(155, 0, 236, 0.2);
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #954AB1;
+  width: calc(100% - 32px);
+  margin: 32px auto;
+}
+
+#page .btn-to-webplayer a i {
+  width: 16px;
+  height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#page .ttl-02-campaign--main {
+  width: calc(100% - 32px);
+  margin: 32px auto;
+}
+
+#page .ttl-02-campaign--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 32px 16px;
+  gap: 10px;
+  background: #F7F7F7;
+}
+
+#page .ttl-02-campaign--text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+
+#page #ttl-02-campaign > h2 {
+  margin: 32px auto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+}
+
+#page .txt-anchor-link {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #F4682A;
+  margin: 32px auto;
+}
+
+#page #ttl-03-rakutenmusic {
+  margin-bottom: 32px;
+}
+
+#page #ttl-03-rakutenmusic + h2 {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  #page section h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/howto/web/img/bg.jpg) no-repeat top/cover;
+  }
+  #page .l-campaign-01 p.lead {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page .l-campaign-01 p.caution {
+    width: 800px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #page .fv-bnr a:hover {
+    opacity: .8;
+  }
+  #page .steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 800px;
+    margin: 32px auto;
+  }
+  #page .steps li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0px;
+    gap: 32px;
+  }
+  #page .steps li figure {
+    width: 400px;
+  }
+  #page .steps li figure img {
+    width: 100%;
+  }
+  #page .steps li .steps-txt {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #page .steps li .steps-txt i {
+    width: auto;
+    height: 64px;
+    margin-bottom: 32px;
+  }
+  #page .steps li .steps-txt i img {
+    width: auto;
+    height: 64px;
+  }
+  #page .steps li .steps-txt p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page .steps li .steps-txt p.small {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page .btn-to-webplayer a {
+    font-size: 20px;
+    line-height: 26px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page .btn-to-webplayer a:hover {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+  #page .ttl-02-campaign--main {
+    width: auto;
+    text-align: center;
+  }
+  #page .ttl-02-campaign--text {
+    padding: 32px 0;
+  }
+  #page .ttl-02-campaign--text p {
+    width: 950px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #ttl-02-campaign > h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  #page .txt-anchor-link {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page .txt-anchor-link:hover {
+    color: #F4682A;
+    opacity: .8;
+  }
+}
+/*# sourceMappingURL=style.css.map */

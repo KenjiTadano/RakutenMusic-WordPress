@@ -3,12 +3,12 @@
   "apiVersion": 3,
   "name": "rakutenmusic/column-article-spacer",
   "title": "記事：余白",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-column",
   "icon": "image-filter",
   "description": "透明画像で縦方向の余白を挿入します。",
   "keywords": ["楽天", "ミュージック", "コラム", "記事", "余白", "スペーサー"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "attributes": {
     "height": { "type": "string", "default": "16" }
   },

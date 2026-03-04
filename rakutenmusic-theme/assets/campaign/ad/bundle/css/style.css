@@ -1,0 +1,65 @@
+#page .l-content .multi-step > h3 {
+  background: #FF008C;
+  color: white;
+}
+#page .l-content .multi-step .multi-step-content {
+  background: #F7F7F7;
+}
+#page .btn-app-dl-bundle {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 80px;
+  background: #FF008C;
+  color: white;
+  text-align: center;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+  border: none;
+}
+#page .l-header .gnav-main-inner .btn-apply {
+  display: none;
+}
+#page .l-header .gnav-main-inner .btn-apply button {
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+  border-radius: 40px;
+  background: #D80000;
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  #page .btn-app-dl-bundle {
+    width: 400px;
+    height: 70px;
+    padding: 16px 24px;
+    font-size: 24px;
+    align-self: center;
+    transition: all 0.2s ease-in;
+  }
+  #page .btn-app-dl-bundle:hover {
+    cursor: pointer;
+    background: #cc0070;
+  }
+  #page .l-header .gnav-main-inner .btn-apply button {
+    padding: 16px 24px;
+    font-size: 16px;
+    transition: all 0.2s ease-in;
+  }
+  #page .l-header .gnav-main-inner .btn-apply button:hover {
+    background: #ec0606;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,166 @@
+.a-b_section {
+  padding: 24px;
+  background: var(--Gray-100, #f7f7f7);
+  display: flex;
+  justify-content: center;
+}
+.cvr-image {
+  display: flex;
+  background-color: white;
+  padding: 64px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.pic-button {
+  cursor: pointer;
+}
+/* modal-css-ver */
+#cvr-test-block .modal-checkbox {
+  display: none;
+}
+
+#cvr-test-block .modal-open-button {
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #bf0000;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#cvr-test-block .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 60%);
+}
+
+#cvr-test-block .close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: 24px;
+  cursor: pointer;
+  transform: translate(50%, -50%);
+}
+
+#cvr-test-block .modal-wrapper {
+  position: relative;
+  width: 95%;
+  max-height: 90%;
+  padding: 20px;
+
+  margin: auto;
+  overflow: scroll;
+  background-color: #fefefe;
+  border-radius: 5px;
+}
+
+#cvr-test-block .modal-content h1 {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1.2em;
+  letter-spacing: -0.02em;
+}
+#cvr-test-block .modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 36px 24px 24px 24px;
+  gap: 16px;
+}
+
+#cvr-test-block .modal-checkbox:checked + .modal {
+  display: flex;
+}
+
+.column-break {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+#myDialog {
+  border-width: 0;
+  border-radius: 12px;
+}
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5); /* 黒色の半透明の背景 */
+  /* 他のスタイルも追加可能 (例: opacity, filter, etc.) */
+}
+
+#myDialog .flex-24 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+
+  gap: 12px;
+}
+#myDialog .flex-24 .description {
+  text-align: left;
+}
+#myDialog .flex-24 .description a {
+  color: #bf0000;
+}
+
+#closeDialog {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border: none;
+  border-radius: 4px;
+  background: #d80000;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  width: 300px;
+}
+/* メディアクエリ------------------------------------------------------------------------ */
+@media screen and (min-width: 767px) {
+  .cvr-image {
+    display: flex;
+    background-color: white;
+    padding: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .cvr-image figure {
+    max-width: 950px;
+  }
+  .column-break {
+    flex-direction: row;
+    gap: 6px;
+  }
+
+  /* modal関連 */
+  #cvr-test-block .modal-wrapper {
+    position: relative;
+    width: 80%;
+    max-height: 70%;
+  }
+}

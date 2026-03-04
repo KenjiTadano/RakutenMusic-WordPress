@@ -1,0 +1,10 @@
+#page .s-campaign-hero {
+  padding: 0;
+  background: #ffe009;
+}
+
+@media screen and (max-width: 768px) {
+  #new-release-title .l-inner .new-release-title--wrap figure {
+    width: 40vw;
+  }
+}

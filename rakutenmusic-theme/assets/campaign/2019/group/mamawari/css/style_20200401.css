@@ -1,0 +1,323 @@
+#page .heading--m {
+  position: relative;
+  z-index: 1;
+}
+
+#page .heading--m br {
+  display: none;
+}
+
+#page .l-content {
+  overflow: hidden;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/group/mamawari/img/body_bg.png) no-repeat center top 340px;
+}
+
+#page .s-campaign-hero {
+  padding: 0;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/group/mamawari/img/header_bg.png) no-repeat center top/auto 85.6% #ffeae3;
+  position: relative;
+}
+
+#page .s-campaign-hero:after {
+  content: "";
+  display: block;
+  background: #fea49d;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+#page .s-campaign-hero .campaign-hero__schedule {
+  position: relative;
+  z-index: 1;
+}
+
+#page #steps {
+  margin: 4rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+#page #steps .l-inner ol > li .brief {
+  text-align: center;
+  margin: 4rem 0;
+  font-size: 2rem;
+  padding: 1.5em;
+  border-radius: 2rem;
+  border: 1px solid #2e2e2e;
+  position: relative;
+}
+
+#page #steps .l-inner ol > li .brief:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: lemonchiffon;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  z-index: -1;
+  border-radius: 2rem;
+}
+
+#page #steps .l-inner ol > li .brief strong {
+  font-size: 1.2em;
+  color: red;
+}
+
+#page #steps .l-inner ol > li > p.arrow_box {
+  position: relative;
+  display: block;
+  margin: 0 auto 3rem;
+  width: 800px;
+  background: whitesmoke;
+  padding: 1rem 0 !important;
+  text-align: center;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+#page #steps .l-inner ol > li > p.arrow_box strong {
+  color: #bf0000;
+}
+
+#page #steps .l-inner ol > li > p.arrow_box:after {
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  position: absolute;
+  border-color: rgba(245, 245, 245, 0);
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  margin-left: -10px;
+  border-top-color: whitesmoke;
+  top: 100%;
+  left: 50%;
+}
+
+#page #steps .l-inner ol > li p {
+  text-align: center;
+}
+
+#page #steps .l-inner ol > li p.memo {
+  background: whitesmoke;
+  padding: 2rem;
+  font-size: 1.4rem;
+  text-align: justify;
+  margin: 2rem auto;
+}
+
+#page #steps .l-inner ol > li p._2DmP {
+  text-align: justify;
+}
+
+#page #steps .l-inner ol > li .btn-apply {
+  margin: 4rem auto;
+}
+
+#page #steps .l-inner ol > li .btn-apply .l-inner {
+  padding: 0;
+  width: 100%;
+}
+
+#page #steps .l-inner ol > li .btn-apply .l-inner .trial-btn {
+  margin: 4rem auto;
+}
+
+#page #steps .l-inner ol > li ul {
+  width: 650px;
+  margin: 0 auto;
+}
+
+#page #steps .l-inner ol > li ul li {
+  background: cornsilk;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  border: 1px solid darkorange;
+}
+
+#page #song-list .l-inner ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#page #song-list .l-inner ul li {
+  width: calc(100% / 5);
+  padding: 1.2rem;
+}
+
+#page #song-list .l-inner ul li figure {
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+#page #song-list .l-inner ul li figure img {
+  width: 100%;
+}
+
+#page #song-list .l-inner ul li > div {
+  margin-top: 0.5em;
+}
+
+#page #song-list .l-inner ul li > div p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.75em;
+}
+
+#page #song-list .l-inner ul li > div p:last-of-type {
+  font-size: 0.8em;
+}
+
+#page #song-list .l-inner > p {
+  background: white;
+  position: relative;
+  text-align: center;
+  padding: 0.8em;
+  border-radius: 1.2rem;
+  border: solid 3px black;
+  margin: 3rem 0 0;
+}
+
+#page #song-list .l-inner > p br {
+  display: none;
+}
+
+#page #song-list .l-inner > p:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  margin-left: -15px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #fff;
+  z-index: 2;
+}
+
+#page #song-list .l-inner > p:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -17px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid black;
+  z-index: 1;
+}
+
+#page #howtoenjoy {
+  margin: 4rem 0 6rem;
+}
+
+#page #howtoenjoy .l-inner ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#page #howtoenjoy .l-inner ul li {
+  width: calc(100% / 3);
+  padding: 1.2rem;
+  text-align: center;
+}
+
+#page #howtoenjoy .l-inner ul li figure {
+  margin-bottom: 0.5em;
+}
+
+#page #howtoenjoy .l-inner ul li figure img {
+  width: 100%;
+}
+
+#page #howtoenjoy .l-inner ul li p {
+  line-height: 1.75;
+  display: inline;
+  background: linear-gradient(transparent 60%, #ffeae3 60%);
+}
+
+@media screen and (max-width: 768px) {
+  #page .heading--m {
+    line-height: 1.75em;
+  }
+  #page .heading--m br {
+    display: inline-block;
+  }
+  #page #steps .l-inner ol > li .brief {
+    margin: 2rem 0;
+    font-size: 1.6rem;
+  }
+  #page #steps .l-inner ol > li > p.arrow_box {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  #page #steps .l-inner ol > li h2 {
+    margin: 2rem 0 !important;
+  }
+  #page #steps .l-inner ol > li h3 {
+    margin: 4rem 0 2rem;
+  }
+  #page #steps .l-inner ol > li p {
+    text-align: justify;
+  }
+  #page #steps .l-inner ol > li .btn-apply .l-inner .trial-btn {
+    margin: 3rem auto;
+  }
+  #page #steps .l-inner ol > li .btn-apply .l-inner > div {
+    width: 100%;
+  }
+  #page #steps .l-inner ol > li .btn-apply .l-inner > div a {
+    font-size: 1.8rem;
+    text-indent: initial;
+  }
+  #page #steps .l-inner ol > li .btn-apply .l-inner > div a:after {
+    display: none;
+  }
+  #page #steps .l-inner ol > li .btn-apply .l-inner p {
+    width: 100%;
+    font-size: 1.6rem;
+    margin: 1rem auto 0;
+  }
+  #page #steps .l-inner ol > li ul {
+    width: 100%;
+  }
+  #page #steps .l-inner ol > li ul li {
+    padding: 0.5rem;
+  }
+  #page #song-list .l-inner ul li {
+    width: calc(100% / 2);
+  }
+  #page #song-list .l-inner > p br {
+    display: inline-block;
+  }
+  #page #howtoenjoy .l-inner ul {
+    display: block;
+  }
+  #page #howtoenjoy .l-inner ul li {
+    width: 100%;
+    margin-bottom: 0.75em;
+  }
+  #page #_2Mef {
+    padding: 2rem 0 0;
+  }
+  #page .rex-button__1ArV .rex-button__3n3I {
+    padding: 0;
+  }
+  #page .rex-button__1ArV .rex-button__3n3I::before {
+    margin-left: -10vw;
+  }
+  #page .rex-button__3n3I.rex-button__2YZp > span {
+    font-size: 1.6rem;
+  }
+}

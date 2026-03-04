@@ -1,0 +1,86 @@
+#page .s-campaign-hero .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration: underline;
+}
+
+#page #steps .l-inner h2 {
+  padding: 0;
+  margin: 4rem 0 1em;
+}
+
+#page #steps .l-inner > ol > li .brief {
+  text-align: center;
+}
+
+#page #steps .l-inner > ol > li .brief strong {
+  color: red;
+}
+
+#page #steps .l-inner > ol > li .brief b {
+  background: linear-gradient(transparent 60%, yellow 60%);
+}
+
+#page .code-steps h3 {
+  text-align: center;
+  background: #ff7ac5;
+  color: white;
+  padding: 0.5em 0 !important;
+  border-radius: 6px;
+}
+
+#page .code-steps .slick-dots {
+  margin: 0;
+}
+
+#page .code-steps .slick-dots li button:before {
+  content: none;
+}
+
+#page .code-steps .slick-arrow {
+  z-index: 1;
+}
+
+#page .code-steps .slick-arrow:before {
+  color: black;
+}
+
+#page .code-steps .slick-prev {
+  left: -0.5em;
+}
+
+#page .code-steps .slick-next {
+  right: -0.5em;
+}
+
+#page .code-steps p {
+  margin: 0.5em 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    position: relative;
+    padding: 0;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/yamawake/img/bg.jpg) no-repeat center top/auto 81%;
+  }
+  #page .s-campaign-hero::after {
+    content: "";
+    background: #ff7ac5;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+  }
+  #page #steps .l-inner .brief {
+    font-size: 2rem;
+  }
+  #page #steps .btn-apply {
+    margin: 3rem auto 6rem;
+  }
+  #page .code-steps li.slick-slide {
+    margin: 0 12px;
+  }
+  #page .code-steps figure img {
+    width: 100%;
+  }
+}

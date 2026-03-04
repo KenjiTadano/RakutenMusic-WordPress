@@ -1,0 +1,41 @@
+#page #mkdiv_header_pitari {
+  display: none;
+}
+
+#page #rex-ceb-01 {
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+#page .Alert {
+  margin-bottom: 16px;
+}
+
+#page .CampaignButton {
+  margin: 0;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+
+#page .CampaignButton-success span.RexButton-message {
+  color: #047205;
+  font-size: 18px;
+}
+
+#page .l-header,
+#page .l-footer,
+#page .l-breadcrumb {
+  display: none;
+}
+
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

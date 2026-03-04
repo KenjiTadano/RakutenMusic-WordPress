@@ -21,7 +21,7 @@
 		try { wp.blocks.unregisterBlockType( BLOCK_NAME ); } catch ( e ) {}
 		wp.blocks.registerBlockType( BLOCK_NAME, {
 			title: __( '記事：余白', 'rakutenmusic-theme' ),
-			category: 'rakutenmusic',
+			category: 'rakutenmusic-column',
 			icon: 'image-filter',
 			attributes: { height: { type: 'string', default: '16' } },
 			edit: function ( props ) {

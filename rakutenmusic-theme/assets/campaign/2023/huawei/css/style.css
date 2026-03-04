@@ -1,0 +1,527 @@
+#page .l-content #sticky-apply-btn .btn-apply {
+  width: 100%;
+}
+#page .l-content #sticky-apply-btn .btn-apply a.trial-btn,
+#page .l-content #sticky-apply-btn .btn-apply a.iap-store-link {
+  padding: 0.8em 0;
+}
+#page section {
+  padding: 0;
+}
+#page h1.disp1 {
+  padding: 12px;
+  background: #000000;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+#page .l-campaign-02 > h2 {
+  padding: 12px;
+  background: #000000;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+#page h2.disp2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 100%;
+}
+#page p.lead {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+#page p.lead strong {
+  color: #8C0000;
+}
+#page .slick-arrow {
+  z-index: 1;
+}
+#page .slick-next {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 22px;
+  border-color: transparent transparent transparent #000000;
+  right: 0;
+}
+#page .slick-next::before {
+  content: none;
+}
+#page .slick-prev {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 22px 20px 0;
+  border-color: transparent #000000 transparent transparent;
+  left: 0;
+}
+#page .slick-prev::before {
+  content: none;
+}
+#page .slick-disabled {
+  display: none !important;
+}
+#page .slick-dots {
+  bottom: 0;
+  margin-top: 16px;
+}
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+#page .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration: underline;
+}
+#page .campaign-detail__table td {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#page section#huawei-nav {
+  padding: 24px 0;
+}
+#page section#huawei-nav .l-inner::after {
+  content: none;
+}
+#page section#huawei-nav .l-inner > ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+#page section#huawei-nav .l-inner > ul > li > a {
+  display: flex;
+  width: 150px;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #F0F0F0;
+}
+#page section#huawei-nav .l-inner > ul > li > a > img {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+#page section#huawei-nav .l-inner > ul > li > a > p {
+  color: var(--Gray-1000, #000);
+  text-align: center;
+  /* Overline JP - 10px/Regular */
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 160% */
+}
+#page section#huawei-nav .l-inner > ul > li > a::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url(/assets/campaign/2022/soundjoy/img/icon_chevron_down.png) no-repeat center/cover;
+}
+#page section#huawei-campaign-steps {
+  background: var(--Gradient---Green, linear-gradient(180deg, #3C9A88 0%, #F8EBE0 100%));
+  padding-bottom: 24px;
+}
+#page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--mini {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin: 24px auto 16px;
+}
+#page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--mini .box {
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  color: white;
+  flex: 1;
+  border: 2px solid #FFFFFF;
+}
+#page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--mini .box .txt-heading {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.25;
+}
+#page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--mini .box .txt-body {
+  font-size: 12px;
+  line-height: 16px;
+}
+#page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--mini .arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 12px;
+  border-color: transparent transparent transparent #ffffff;
+}
+#page section#huawei-campaign-steps > .l-inner > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#page section#huawei-campaign-steps > .l-inner > div:nth-child(3) h2.disp2 + p {
+  margin: 16px auto 0;
+}
+#page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--inner {
+  background: white;
+  padding: 24px 16px;
+  text-align: center;
+  margin: 16px auto;
+}
+#page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--inner .btn-apply {
+  margin: 0 auto;
+}
+#page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--inner .btn-apply .l-inner > * {
+  width: 100%;
+}
+#page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--inner .huawei-campaign-steps--entry figure {
+  width: 180px;
+  margin: 16px auto;
+}
+#page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--inner .huawei-campaign-steps--entry p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+#page section#huawei-campaign-steps > .l-inner > p {
+  text-align: center;
+  margin: 16px auto 0;
+}
+#page section#huawei-campaign-steps > .l-inner > p a {
+  color: black;
+}
+#page section#huawei-campaign-steps > .l-inner .existing-user {
+  padding: 8px 16px;
+  border: 1px solid #000000;
+  font-size: 14px;
+  line-height: 20px;
+}
+#page section#item-eyewear,
+#page section#item-freebuds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+#page section#item-eyewear figure,
+#page section#item-freebuds figure {
+  padding: 0 24px;
+}
+#page section#item-eyewear h1.disp1,
+#page section#item-freebuds h1.disp1 {
+  padding: 24px;
+}
+#page section#item-eyewear h1.disp1 img,
+#page section#item-freebuds h1.disp1 img {
+  display: block;
+}
+#page section#item-eyewear .purchase-link a,
+#page section#item-freebuds .purchase-link a {
+  display: flex;
+  width: 327px;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
+  background: #3D9B89;
+  color: var(--White, #FFF);
+  text-align: center;
+  /* Lead Body JP - 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 130% */
+}
+#page section#vissel-playlist > .l-inner {
+  margin: 24px auto;
+}
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner {
+  padding: 16px;
+  background: #9B0020;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+}
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner h2 {
+  border-radius: 8px;
+  padding: 4px 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  background: white;
+  color: #9B0020;
+}
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner > p {
+  padding: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  border: 3px solid #FFFFFF;
+  border-radius: 8px;
+  color: white;
+}
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner > ol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner > ol > li:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 24px;
+  border-bottom: 3px dashed #FFFFFF;
+}
+#page #point-mission {
+  margin: 0 auto 36px;
+}
+#page #campaign-merit {
+  margin: 36px auto;
+}
+#page #stack-playback-campaign {
+  margin: 36px auto;
+}
+#page .s-campaign-detail {
+  margin: 36px auto;
+}
+#page #price > .l-inner > h1 {
+  display: none;
+}
+
+#page.campaign_detail .l-campaign-02 {
+  background: white;
+}
+
+@media screen and (min-width: 768px) {
+  #page .l-content #sticky-apply-btn .btn-apply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2023/huawei/img/bg.jpg) no-repeat center top/auto 86.4% black;
+  }
+  #page h1.disp1 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page h1.disp1 img {
+    width: auto;
+    height: 90px;
+  }
+  #page h2.disp2 {
+    font-size: 48px;
+    line-height: 100%;
+  }
+  #page .l-campaign-02 > h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page .slick-next {
+    right: 150px;
+  }
+  #page .slick-prev {
+    left: 150px;
+  }
+  #page section#huawei-nav {
+    padding: 0;
+  }
+  #page section#huawei-nav .l-inner > ul {
+    display: flex;
+    width: 950px;
+    align-items: center;
+    gap: 16px;
+    margin: 36px auto;
+    flex-wrap: nowrap;
+  }
+  #page section#huawei-nav .l-inner > ul > li {
+    flex: 1;
+  }
+  #page section#huawei-nav .l-inner > ul > li > a {
+    width: 100%;
+    display: flex;
+    padding: 16px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    border-radius: 12px;
+    background: var(--White, #FFF);
+    transition: all 0.2s ease-in;
+  }
+  #page section#huawei-nav .l-inner > ul > li > a:hover {
+    border-radius: 12px;
+    background: #F0F0F0;
+  }
+  #page section#huawei-nav .l-inner > ul > li > a > img {
+    width: 80px;
+    height: 80px;
+  }
+  #page section#huawei-nav .l-inner > ul > li > a > p {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+  #page section#huawei-nav .l-inner > ul > li > a::after {
+    width: 16px;
+    height: 16px;
+  }
+  #page section#huawei-campaign-steps {
+    padding-bottom: 36px;
+  }
+  #page section#huawei-campaign-steps > .l-inner > p {
+    margin-top: 36px;
+  }
+  #page section#huawei-campaign-steps > .l-inner > p:hover {
+    text-decoration: underline;
+  }
+  #page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--mini {
+    width: 420px;
+    gap: 16px;
+    margin: 36px auto;
+  }
+  #page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--mini .box .txt-body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--inner {
+    width: 848px;
+    padding: 48px 36px;
+  }
+  #page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--inner .btn-apply .l-inner {
+    width: 100%;
+  }
+  #page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--inner .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+  #page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--inner .huawei-campaign-steps--entry figure {
+    width: 220px;
+    margin: 24px auto;
+  }
+  #page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--inner .huawei-campaign-steps--entry figure img {
+    width: 100%;
+  }
+  #page section#huawei-campaign-steps > .l-inner .huawei-campaign-steps--inner .huawei-campaign-steps--entry p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page section#huawei-campaign-steps > .l-inner > div:nth-child(2) {
+    gap: 24px;
+  }
+  #page section#huawei-campaign-steps > .l-inner .existing-user {
+    width: 340px;
+    padding: 8px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+  }
+  #page section#vissel-campaign-steps > .l-inner {
+    align-items: center;
+    gap: 36px;
+    padding: 48px 0 12px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner {
+    padding: 36px;
+    width: 848px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner h2 {
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .btn-apply .l-inner {
+    width: 100%;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text {
+    gap: 16px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text .visions {
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    flex: 1;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text .visions > div {
+    font-size: 36px;
+    line-height: 47px;
+    padding: 24px;
+  }
+  #page section#vissel-campaign-steps > .l-inner > p a:hover {
+    text-decoration: underline;
+  }
+  #page section#item-eyewear,
+  #page section#item-freebuds {
+    margin-bottom: 48px;
+    gap: 36px;
+  }
+  #page section#item-eyewear h1.disp1,
+  #page section#item-freebuds h1.disp1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #page section#item-eyewear figure,
+  #page section#item-freebuds figure {
+    text-align: center;
+  }
+  #page section#item-eyewear .purchase-link a,
+  #page section#item-freebuds .purchase-link a {
+    padding: 24px 48px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 131.25% */
+    transition: all 0.2s ease-in;
+  }
+  #page section#item-eyewear .purchase-link a:hover,
+  #page section#item-freebuds .purchase-link a:hover {
+    opacity: 0.8;
+  }
+  #page #campaign-merit {
+    margin: 72px auto;
+  }
+  #page #stack-playback-campaign {
+    margin: 72px auto;
+  }
+  #page .s-campaign-detail {
+    margin: 72px auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  #page .js-toggle.is-open .js-toggle__panel {
+    max-height: none;
+  }
+}/*# sourceMappingURL=style.css.map */

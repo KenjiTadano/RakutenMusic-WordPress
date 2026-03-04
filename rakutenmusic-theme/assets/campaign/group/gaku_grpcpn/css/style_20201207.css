@@ -1,0 +1,506 @@
+#page .s-campaign-hero {
+    padding: 0;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/group/gaku_grpcpn/img/20200817/bg.jpg) no-repeat center top/auto 81% black;
+}
+
+#page section {
+    padding: 24px 0;
+}
+
+#page #sec-1 .l-inner h2 {
+    text-align: center;
+}
+
+#page .l-inner p small span {
+    font-size: 16px;
+    color: red;
+}
+
+#page .text-box .l-inner {
+    background: #eaeaea;
+    width: 1040px;
+    margin: 1.8rem auto;
+    padding: 1.6rem
+}
+
+#page figure {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1;
+}
+
+
+/*#page #sec-1 .l-inner .contents_box {
+    margin: 40px auto;
+    padding: 40px 20px;
+    background: #F7F7F7;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}*/
+
+#page #point-cmp .l-inner .contents_box,
+#page #artist-cmp .l-inner .contents_box {
+    margin: 0 auto 40px;
+    padding: 40px 20px;
+    background: #F7F7F7;
+    border: 1px solid black;
+    border-radius: 0 0 12px 12px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#page h2 {
+    margin: 0 auto 16px;
+    padding: 0;
+    font-size: 2.4rem;
+    text-align: center;
+    position: relative;
+    right: -16px;
+}
+
+#page .l-inner h2.ttl-orange {
+    background: #F59600;
+    border: 1px solid black;
+    color: black;
+    border-radius: 12px 12px 0 0;
+    margin: 0;
+    padding: 16px;
+    right: 0;
+}
+
+#page #sec-1 .l-inner .contents_box h3,
+#page #sec-1 .l-inner .contents_box h4 {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+#page #point-cmp .l-inner .contents_box h3,
+#page #point-cmp .l-inner .contents_box h4,
+#page #point-cmp .l-inner .contents_box p {
+    margin: 0 auto 16px;
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#page #point-cmp .l-inner .contents_box .slick-slider p {
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+#page #point-cmp .l-inner .contents_box p>span,
+#page #artist-cmp .l-inner .contents_box p>span {
+    font-weight: bold;
+    color: red;
+}
+
+#page #artist-cmp .l-inner .contents_box .btn-apply .l-inner p>span {
+    font-size: 1.4rem;
+    margin: 1.6rem auto 3.2rem;
+}
+
+#page #point-cmp .l-inner .contents_box .code {
+    display: flex;
+    font-size: 1.6rem;
+    width: 600px;
+    margin: 1.5rem auto;
+}
+
+#page #point-cmp .l-inner .contents_box .code>div,
+#page #artist-cmp .l-inner .contents_box .playlist>div {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#page #point-cmp .l-inner .contents_box .code>div:first-child,
+#page #artist-cmp .l-inner .contents_box .playlist>div:first-child {
+    background: #F59600;
+    color: white;
+    border: 2px solid #F59600;
+}
+
+#page #point-cmp .l-inner .contents_box .code>div:first-child {
+    width: 40%;
+}
+
+#page #point-cmp .l-inner .contents_box .code>div:last-child,
+#page #artist-cmp .l-inner .contents_box .playlist>div:last-child {
+    border: 2px solid #F59600;
+}
+
+#page #point-cmp .l-inner .contents_box .code>div:last-child {
+    flex: 1;
+}
+
+#page #artist-cmp .l-inner .contents_box .playlist {
+    display: block;
+    font-size: 1.6rem;
+    width: 600px;
+    margin: 1.5rem auto 3.2rem;
+}
+
+#page #point-cmp .l-inner .contents_box .l-inner,
+#page #artist-cmp .l-inner .contents_box .l-inner {
+    margin: 0 auto;
+    width: 900px;
+}
+
+#page #sec-1 .l-inner .contents_box .cmp_link {
+    display: block;
+}
+
+#page #sec-1 .l-inner .contents_box .cmp_link>div {
+    display: flex;
+    margin: 16px auto;
+    justify-content: center;
+}
+
+#page #sec-1 .l-inner .contents_box .cmp_link>div>p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0 8px;
+    padding: 0.6rem 1.6rem;
+    background: #c4c4c4;
+    border-radius: 50px;
+}
+
+#page #sec-1 .l-inner .contents_box .cmp_link>div>a.pagelink {
+    background: #F59600;
+    border: 1px solid black;
+    color: black;
+    border-radius: 12px;
+    margin: 0 8px;
+    padding: 20px 26px;
+}
+
+#page .l-inner .btn-apply {
+    margin: 16px auto;
+}
+
+#page #sec-1 .l-inner .contents_box .cmp_link>div>a.pagelink:hover {
+    opacity: 0.7;
+}
+
+#page #sec-1 .l-inner .contents_box .cmp_link>figure {
+    margin-top: 16px;
+    width: 100%;
+}
+
+#page #sec-1 .l-inner .contents_box .cmp_link>figure img {
+    width: 836px;
+}
+
+#page a.gakuwari-btn {
+    display: block;
+    margin: 16px auto 0;
+    width: 400px;
+    height: 100%;
+    text-decoration: none;
+    position: relative;
+    right: -16px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 100px;
+    font-size: 2rem;
+    color: white;
+    background: black;
+    border-radius: 12px;
+    transition: all 0.2s;
+}
+
+#page a.gakuwari-btn:hover {
+    background: #353535;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#page #artist-cmp .l-inner .contents_box dl {
+    display: block;
+    width: 836px;
+    margin: 16px auto;
+    border: 2px solid black;
+}
+
+#page #artist-cmp .l-inner .contents_box dl dt {
+    background: black;
+    color: white;
+    padding: 12px;
+}
+
+#page #artist-cmp .l-inner .contents_box dl dd {
+    text-align: left;
+    width: 60%;
+    margin: 32px auto;
+}
+
+#page #artist-cmp .l-inner .contents_box figure {
+    width: 836px;
+    margin: 0 auto;
+}
+
+#page #artist-cmp .l-inner .contents_box figure img {
+    width: 100%;
+}
+
+#page .l-inner a.gakuwari img {
+    display: block;
+    justify-content: center;
+    margin: 24px auto 48px;
+}
+
+#page #artist-cmp .slick-initialized .slick-slide {
+    display: flex !important;
+    justify-content: center;
+}
+
+#page #artist-cmp .l-inner .contents_box .slick-mypage {
+    width: 836px;
+    margin: 0 auto;
+}
+
+#page #artist-cmp .l-inner .contents_box .slick-mypage figure {
+    width: 300px;
+    margin: 0;
+}
+
+#page #artist-cmp .l-inner .contents_box .slick-mypage figure img {
+    width: 100%;
+}
+
+#page #artist-cmp .l-inner .contents_box .slick-mypage .slick-slide figure+div {
+    align-self: center;
+}
+
+#page #artist-cmp .l-inner .contents_box .slick-mypage p {
+    display: inline-table;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
+
+#page #artist-cmp .l-inner .contents_box .slick-mypage p span {
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#page #artist-cmp .l-inner .contents_box .slick-prev:before {
+    content: "" !important;
+    display: block;
+    width: 22px;
+    height: 40px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/polygon_left.png) no-repeat center/contain;
+}
+
+#page #artist-cmp .l-inner .contents_box .slick-next:before {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 40px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/polygon_right.png) no-repeat center/contain;
+}
+
+#page .l-inner a.gakuwari img:hover {
+    opacity: 0.7;
+}
+
+#page .l-inner label {
+    display: block;
+    height: 85px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    line-height: 1;
+    color: black;
+    background: #EBEBEB;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#page .l-inner .menu ul {
+    margin: 0;
+    padding: 0;
+    background: #F7F7F7;
+    list-style: none;
+    position: relative;
+    top: -10px;
+    border-radius: 0 0 12px 12px;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#page .l-inner .menu li {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#page .l-inner label::after {
+    content: " ";
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/group/gaku_grpcpn/img/20200817/accordion.png);
+    position: relative;
+    top: -32px;
+    display: block;
+    right: -900px;
+    width: 40px;
+    height: 40px;
+}
+
+#type1:checked~#links1 li {
+    background: #EBEBEB;
+    text-align: center;
+    margin: 32px;
+    padding: 70px;
+    height: 54px;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1104px) {
+    #page .l-inner {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    #page .text-box .l-inner {
+        margin: 0 auto;
+        width: 100%;
+    }
+    #page #point-cmp .l-inner .contents_box .l-inner,
+    #page #artist-cmp .l-inner .contents_box .l-inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #page .stack-characteristic .l-inner figure img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #page .campaign-hero__image {
+        width: auto;
+    }
+    #page .campaign-hero__image img {
+        width: 100%;
+    }
+    #page #artist-cmp .l-inner .contents_box>p a:hover {
+        text-decoration: underline;
+    }
+    #page .contents_box figure {
+        margin: 0 auto;
+        padding: 1.6rem;
+    }
+    #page .contents_box figure img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #page .l-inner {
+        margin: 0 auto;
+        width: 100%;
+    }
+    #page .l-content {
+        overflow: hidden;
+    }
+    #page #sec-1 .l-inner .contents_box .cmp_link>div>img {
+        width: 180px;
+    }
+    #page .l-inner h2 img {
+        width: 200px;
+    }
+    #page .l-inner .contents_box .cmp_link .pagelink img {
+        width: 18px;
+    }
+    #page #sec-1 .l-inner .contents_box .cmp_link>figure img {
+        width: 100%;
+    }
+    #page a.gakuwari-btn {
+        margin: 16px auto 0;
+        width: 90%;
+        height: 80px;
+        position: revert;
+        line-height: 80px;
+    }
+    #page h2 {
+        position: revert;
+    }
+    #page .l-inner label {
+        width: 90%;
+    }
+    #page .l-inner label::after {
+        position: relative;
+        top: -140%;
+        display: block;
+        right: -93.5%;
+        width: 40px;
+        height: 40px;
+    }
+    #page .l-inner .menu ul {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #page #artist-cmp .l-inner .contents_box .playlist {
+        width: 100%;
+    }
+    #page #artist-cmp .contents_box .arrow img {
+        width: 72px;
+    }
+    #page p {
+        text-align: left;
+    }
+    #page #artist-cmp .l-inner .contents_box dl {
+        width: 100%;
+    }
+    #page #artist-cmp .l-inner .contents_box dl dd {
+        width: 90%;
+    }
+    #page #artist-cmp .l-inner .contents_box figure {
+        width: 100%;
+    }
+    #page #point-cmp .l-inner .contents_box .code {
+        display: block;
+        width: 100%;
+    }
+    #page #point-cmp .l-inner .contents_box .code>div:first-child {
+        width: 100%;
+    }
+    #page #artist-cmp .l-inner .contents_box .slick-mypage div {
+        display: block !important;
+    }
+    #page #artist-cmp .l-inner .contents_box .slick-mypage p {
+        display: block;
+    }
+    #page #point-cmp .l-inner .contents_box p {
+        text-align: left;
+    }
+    #page #sec-1 .l-inner .contents_box .cmp_link>div {
+        display: block;
+        text-align: center;
+    }
+    #page #sec-1 .l-inner .contents_box .cmp_link>div>p {
+        text-align: center;
+        margin: 16px auto;
+    }
+    #page #sec-1 .l-inner .contents_box .cmp_link>div>a.pagelink {
+        display: block;
+        margin: 16px auto;
+    }
+    #page #artist-cmp .l-inner .contents_box .slick-mypage {
+        width: 300px;
+    }
+}

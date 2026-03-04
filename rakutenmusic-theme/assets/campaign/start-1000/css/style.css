@@ -1,0 +1,51 @@
+#page .sbcWrap ul.topic-path {
+  margin: 0 auto;
+  padding: 12px 0;
+}
+
+#page .sbcWrap ul.topic-path li {
+  margin: 0 0 0 8px;
+}
+
+#page .sbcWrap ul.topic-path li+li {
+  margin-left: 23px;
+}
+
+#page section.contents-inner {
+  padding: 0;
+}
+
+#page figure.is-PC {
+  display: block;
+}
+
+#page figure.is-SP {
+  display: none;
+}
+
+#page #start1000_container .contents_block .area-container.type-notBg {
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+
+#page .campaign-detail__table td {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#page .js-toggle.is-open .js-toggle__panel {
+  max-height: none;
+}
+
+@media (max-width: 767px) {
+  #page figure.is-PC {
+    display: none;
+  }
+
+  #page figure.is-SP {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

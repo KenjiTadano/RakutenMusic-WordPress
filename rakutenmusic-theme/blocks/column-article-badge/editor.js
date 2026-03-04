@@ -15,7 +15,7 @@
 		try { wp.blocks.unregisterBlockType( BLOCK_NAME ); } catch ( e ) {}
 		wp.blocks.registerBlockType( BLOCK_NAME, {
 			title: __( '記事：バッジ', 'rakutenmusic-theme' ),
-			category: 'rakutenmusic',
+			category: 'rakutenmusic-column',
 			icon: 'tag',
 			attributes: { badge: { type: 'string', default: 'feature' } },
 			edit: function ( props ) {
@@ -44,20 +44,6 @@
 								value: a.badge || 'feature',
 								options: opts,
 								onChange: function ( v ) { props.setAttributes( { badge: v || 'feature' } ); }
-							} )
-						),
-						el( PanelBody, { title: __( '余白', 'rakutenmusic-theme' ), initialOpen: false },
-							el( SelectControl, {
-								label: __( '上余白', 'rakutenmusic-theme' ),
-								value: a.spacingTop || '',
-								options: spacingOpts,
-								onChange: function ( v ) { props.setAttributes( { spacingTop: v || '' } ); }
-							} ),
-							el( SelectControl, {
-								label: __( '下余白', 'rakutenmusic-theme' ),
-								value: a.spacingBottom || '',
-								options: spacingOpts,
-								onChange: function ( v ) { props.setAttributes( { spacingBottom: v || '' } ); }
 							} )
 						)
 					),

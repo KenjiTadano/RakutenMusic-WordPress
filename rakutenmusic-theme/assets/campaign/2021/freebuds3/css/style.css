@@ -1,0 +1,474 @@
+ /*---------- キャンペーンアバウト ----------*/
+ 
+ #page .l-inner {
+     width: 960px;
+     padding: 0;
+ }
+ 
+ #page h2.heading--m {
+     margin: 3.2rem auto;
+ }
+ 
+ #page #campaign-about .l-inner figure {
+     text-align: center;
+     margin: 3.2rem auto;
+ }
+ 
+ #page #entry-schedule {
+     background: #F7F7F7;
+ }
+ 
+ #page #entry-schedule .l-inner {
+     width: 100%;
+ }
+ 
+ #page #schedule-hidden {
+     background: white;
+     border: solid 1px #eaeaea;
+ }
+ 
+ #page #entry-schedule .l-inner {
+     width: 960px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ #page #schedule-hidden .l-inner {
+     width: 960px;
+     display: block;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ #page #entry-schedule .l-inner figure {
+     margin: 1.6rem;
+ }
+ 
+ #page #schedule-hidden .l-inner figure {
+     position: relative;
+     margin: 0 auto;
+     top: 50px;
+     right: 0%;
+ }
+ 
+ #page #schedule-hidden .l-inner p {
+     margin: 3.2rem auto;
+     color: #eaeaea;
+ }
+ 
+ #page #entry-schedule .l-inner p,
+ #page #schedule-hidden .l-inner p {
+     font-size: 2.4rem;
+     font-weight: bold;
+     text-align: center;
+ }
+ 
+ #page #entry-schedule .l-inner p>span {
+     display: block;
+     font-size: 2rem;
+     color: #686868;
+ }
+ 
+ #page #schedule-hidden .l-inner p>span {
+     display: block;
+     font-size: 2rem;
+     color: #eaeaea;
+ }
+ 
+ #page #introduction {
+     margin: 0 auto;
+     background: #F3F3F3;
+ }
+ 
+ #page #introduction figure,
+ #page #introduction figure img {
+     width: 100%;
+ }
+ 
+ #page #introduction .l-inner a {
+     display: block;
+     margin: 10px auto 32px;
+     padding: 24px;
+     width: 343px;
+     height: 80px;
+     text-align: center;
+     color: white;
+     background: #0085C7;
+     box-shadow: 0px 11px 15px rgba(0, 0, 0, 0.1), 0px 9px 46px rgba(0, 0, 0, 0.06), 0px 24px 38px rgba(0, 0, 0, 0.07);
+     border-radius: 12px;
+ }
+ 
+ #page #introduction .l-inner a:hover {
+     opacity: 70%;
+     box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.1), 0px 4px 23px rgba(0, 0, 0, 0.06), 0px 12px 19px rgba(0, 0, 0, 0.07);
+ }
+ 
+ #page #presents .l-inner figure {
+     text-align: center;
+     margin: 3.2rem auto 6.4rem;
+ }
+ /*---------- キャンペーン参加方法 ----------*/
+ 
+ #page h2.heading--m {
+     padding-top: 0;
+     margin-bottom: 32px;
+ }
+ 
+ #page #campaign-apply,
+ #page #campaign-presents {
+     background: #F7F7F7;
+ }
+ 
+ #page #campaign-apply {
+     padding: 0;
+     background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/freebuds3/img/bg2.jpg) fixed center top/auto 100%;
+     background-size: contain;
+ }
+ 
+ #page #campaign-apply .l-inner>h1 {
+     font-weight: bold;
+     font-size: 32px;
+     text-align: center;
+ }
+ 
+ #page #campaign-apply .l-inner ol.steps>li {
+     background: #ffffffbd;
+     border-radius: 12px;
+     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.14), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 1px 8px rgba(0, 0, 0, 0.2);
+     overflow: hidden;
+ }
+ 
+ #page #campaign-apply .l-inner ol.steps>li>h2 {
+     width: 130px;
+     margin: 32px auto 16px;
+     font-weight: bold;
+     font-size: 32px;
+     text-align: center;
+     line-height: 42px;
+ }
+ 
+ #page #campaign-apply .l-inner ol.steps>li p {
+     font-size: 16px;
+     line-height: 24px;
+ }
+ 
+ #page #campaign-apply .l-inner ol.steps>li>p.present-song {
+     font-size: 20px;
+     line-height: 24px;
+     font-weight: bold;
+     text-align: center;
+     color: #315774;
+     margin-top: 16px;
+     margin-bottom: 16px;
+ }
+ 
+ #page #campaign-apply .l-inner ol.steps>li>p.present-song-ttl {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 24px;
+     font-weight: normal;
+     color: #315774;
+ }
+ 
+ #page #campaign-apply .l-inner ol.steps>li>p.present-song-ttl>span {
+     border: 1px solid #315774;
+     margin-left: 1.6rem;
+     padding: 8px;
+ }
+ 
+ #page #campaign-apply .l-inner ol.steps>li p.lead {
+     text-align: center;
+     margin: 16px 0 8px;
+     font-size: 1.6rem;
+     line-height: 26px;
+     color: black;
+     font-weight: bold;
+ }
+ 
+ #page #campaign-apply .l-inner ol.steps>li p.small {
+     text-align: center;
+     font-size: 12px;
+     line-height: 16px;
+     color: #686868;
+ }
+ 
+ #page #campaign-apply .l-inner ol.steps>li div.trial-btn {
+     margin: 24px 0;
+     width: 100%;
+     height: 80px;
+     background: #bf0000;
+     box-shadow: 0px 11px 15px rgba(0, 0, 0, 0.1), 0px 9px 46px rgba(0, 0, 0, 0.06), 0px 24px 38px rgba(0, 0, 0, 0.07);
+     border-radius: 12px;
+ }
+ 
+ #page #campaign-apply .l-inner ol.steps>li div.trial-btn a {
+     display: block;
+     text-align: center;
+     margin: 0 auto;
+     color: white;
+     font-size: 20px;
+     line-height: 80px;
+ }
+ /*---------- アプリギャラリー ----------*/
+ 
+ #page #App-gallery .l-inner figure {
+     margin: 6.4rem auto;
+     text-align: center;
+ }
+ 
+ #page #App-gallery .l-inner .app-gallery-about {
+     margin: 3.2rem auto;
+     text-align: center;
+ }
+ 
+ #page #App-gallery .l-inner .app-gallery-about p {
+     font-size: 1.6rem;
+     font-weight: bold;
+     text-align: left;
+ }
+ 
+ #page #App-gallery .l-inner figure a:hover {
+     opacity: 0.6;
+ }
+ 
+ @media screen and (max-width: 1119px) {
+     #page .l-inner {
+         margin: 0 auto;
+         width: 100%;
+     }
+     #page #introduction .l-inner,
+     #page #presents .l-inner,
+     #page #campaign-apply .l-inner,
+     #page .l-campaign-03 {
+         padding-right: 1.6rem;
+         padding-left: 1.6rem;
+     }
+ }
+ 
+ @media screen and (max-width: 1000px) {
+     #page #campaign .l-inner {
+         width: 100%;
+     }
+     #page #entry-schedule .l-inner,
+     #page #schedule-hidden .l-inner {
+         width: 100%;
+     }
+     #page #schedule-hidden .l-inner figure {
+         top: 750px;
+         right: 35%;
+     }
+     #page #campaign .l-inner>ol>li>.btn-apply>.l-inner {
+         width: 100%;
+         text-align: left;
+     }
+     #page #App-gallery .l-inner .app-gallery-about figure {
+         margin: 6.4rem auto;
+         text-align: center;
+         width: 100%;
+         padding-right: 1.6rem;
+         padding-left: 1.6rem;
+     }
+     #page #App-gallery .l-inner .app-gallery-about figure img {
+         width: 100%;
+     }
+     #page #App-gallery .l-inner .app-gallery-about figure a img {
+         width: 320px;
+     }
+     #page #App-gallery .l-inner .app-gallery-about p {
+         padding-left: 1.6rem;
+         padding-right: 1.6rem;
+     }
+ }
+ 
+ @media screen and (max-width: 860px) {
+     #page #campaign .l-inner>ol>li>.btn-apply>.l-inner {
+         text-align: left;
+     }
+     #page #schedule-hidden .l-inner figure {
+         top: 720px;
+         right: 30%;
+     }
+ }
+ 
+ @media screen and (min-width: 768px) {
+     #page .l-inner:after {
+         content: "none";
+     }
+     #page .s-campaign-hero {
+         padding: 0;
+         background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/freebuds3/img/bg.jpg) no-repeat center top/auto 100%;
+     }
+     #page .campaign-hero__schedule {
+         position: relative;
+         z-index: 1;
+     }
+     #page #campaign-apply .l-inner>h1 {
+         padding-top: 3.2rem;
+         text-align: center;
+         font-weight: bold;
+         font-size: 32px;
+         color: black
+     }
+     #page #campaign-apply .l-inner ol.steps {
+         display: block;
+         flex-wrap: wrap;
+         justify-content: space-between;
+     }
+     #page #campaign-apply .l-inner ol.steps>li {
+         box-sizing: border-box;
+         margin: 32px auto;
+         padding: 32px 0px;
+         width: 100%;
+     }
+     #page #campaign-apply .l-inner ol.steps>li>.step2 {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     #page #campaign-apply .l-inner ol.steps>li>.step2>div>.screenshot {
+         width: 300px;
+         margin: 0;
+     }
+     #page #campaign-apply .l-inner ol.steps>li>.step2>div>.present {
+         width: 240px;
+         margin: 16px 32px;
+     }
+     #page #campaign-apply .l-inner ol.steps>li>.step2>div>figure>img {
+         width: 100%;
+     }
+     #page #campaign-apply .l-inner ol.steps>li>h2 {
+         margin: 0 auto 16px;
+         text-align: center;
+         font-weight: bold;
+         font-size: 3.2rem;
+         line-height: 52px;
+     }
+     #page #campaign-apply .l-inner ol.steps>li>h2::after {
+         content: "";
+         display: block;
+         width: 50px;
+         margin: 0 auto;
+         border-bottom: solid 2px black;
+     }
+     #page #campaign-apply .l-inner ol.steps>li p {
+         text-align: center;
+     }
+     #page #campaign-apply .l-inner ol.steps>li div.trial-btn {
+         margin: 24px auto;
+         width: 343px;
+         transition: all 0.2s ease-in;
+     }
+     #page #campaign-apply .l-inner ol.steps>li div.trial-btn:hover {
+         opacity: 70%;
+         box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.1), 0px 4px 23px rgba(0, 0, 0, 0.06), 0px 12px 19px rgba(0, 0, 0, 0.07);
+     }
+ }
+ 
+ @media screen and (max-width: 768px) {
+     #page #campaign-about .l-inner figure {
+         width: 100%;
+     }
+     #page #campaign-about .l-inner figure img {
+         width: 266px;
+     }
+     #page #entry-schedule .l-inner {
+         display: block;
+         padding-top: 2.4rem;
+         padding-bottom: 2.4rem;
+     }
+     #page #entry-schedule .l-inner figure {
+         width: auto;
+     }
+     #page #entry-schedule .l-inner figure img {
+         width: 98px;
+     }
+     #page #schedule-hidden .l-inner figure {
+         position: relative;
+         top: 50px;
+         right: 0%;
+     }
+     #page #introduction .l-inner a {
+         width: 100%;
+     }
+     #page #campaign-apply .l-inner {
+         padding-bottom: 3.2rem;
+     }
+     #page #campaign-apply .l-inner>h1 {
+         padding-top: 3.2rem;
+     }
+     #page #schedule-hidden .l-inner p {
+         margin: -1.6rem auto 3.2rem;
+         color: #eaeaea;
+     }
+     #page #App-gallery .l-inner figure {
+         width: 100%;
+     }
+     #page #App-gallery .l-inner figure img {
+         width: 150px;
+     }
+     #page #App-gallery .l-inner .app-gallery-about figure {
+         margin: 2.4rem auto;
+     }
+     #page #App-gallery .l-inner figure {
+         margin: 3.2rem auto;
+     }
+     #page h2.heading--m {
+         margin: 2.4rem auto;
+         padding: 0 1.6rem;
+     }
+     #page #campaign-apply .l-inner>h1 {
+         width: 210px;
+         margin: 0 auto;
+     }
+     #page #campaign-apply .l-inner ol.steps>li {
+         margin: 16px auto 32px;
+         padding: 0 16px 30px;
+     }
+     #page #campaign-apply .l-inner ol.steps>li:last-child {
+         margin: 16px auto 0;
+     }
+     #page #campaign-apply .l-inner ol.steps>li>.step2>div>figure {
+         width: 300px;
+         text-align: center;
+         margin: 0 auto;
+     }
+     #page #campaign-apply .l-inner ol.steps>li>.step2>div>.screenshot {
+         margin: 1.6rem auto;
+     }
+     #page #campaign-apply .l-inner ol.steps>li>.step2>div>figure img.polygon {
+         width: 88px;
+     }
+ }
+ 
+ @media screen and (max-width:500px) {
+     #page #campaign-apply .l-inner ol.steps>li p.lead,
+     #page .l-inner .apply p.lead {
+         text-align: left;
+     }
+ }
+ 
+ @media screen and (max-width: 400px) {
+     #page #campaign-apply .l-inner ol.steps>li>.step2>div>figure {
+         width: 100%;
+     }
+     #page #campaign-apply .l-inner ol.steps>li>.step2>div>figure img {
+         width: 100%;
+     }
+     #page #App-gallery .l-inner .app-gallery-about figure a img {
+         width: 100%;
+     }
+     #page #entry-schedule .l-inner p,
+     #page #schedule-hidden .l-inner p {
+         font-size: 1.8rem;
+     }
+     #page #campaign-apply .l-inner ol.steps>li div.trial-btn a {
+         font-size: 1.6rem;
+     }
+     @media screen and (max-width: 319px) {
+         #page #campaign-about .l-inner figure img {
+             width: 60%;
+         }
+     }
+ }

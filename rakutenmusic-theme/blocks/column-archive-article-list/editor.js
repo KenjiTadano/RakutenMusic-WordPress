@@ -78,7 +78,7 @@
 
 		wp.blocks.registerBlockType( BLOCK_NAME, {
 			title: __( '読む音楽ガイド：記事一覧', 'rakutenmusic-theme' ),
-			category: 'rakutenmusic',
+			category: 'rakutenmusic-column',
 			icon: 'list-view',
 			description: __( '読む音楽ガイドアーカイブの過去記事サムネイルリスト', 'rakutenmusic-theme' ),
 			attributes: {

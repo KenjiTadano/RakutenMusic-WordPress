@@ -3,11 +3,11 @@
   "apiVersion": 3,
   "name": "rakutenmusic/campaign-detail-table",
   "title": "キャンペーン詳細テーブル",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-campaign",
   "parent": ["rakutenmusic/campaign-detail"],
   "icon": "editor-table",
   "description": "キャンペーン詳細の1つのテーブル（見出し・行の編集・追加・並べ替えが可能）",
   "keywords": ["キャンペーン", "テーブル", "詳細"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true }
+  "supports": { "inserter": true, "spacing": { "margin": true } }
 }

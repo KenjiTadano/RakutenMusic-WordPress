@@ -1,0 +1,17 @@
+@charset "utf-8";
+#page .latest-release__banner {
+  opacity: 0;
+}
+#page .s-movie {
+  padding: 28px 0 56px;
+}
+@media screen and (min-width: 768px) {
+  #page .latest-release__image img {
+    max-width: 182px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #page .latest-release__banner {
+    display: none;
+  }
+}

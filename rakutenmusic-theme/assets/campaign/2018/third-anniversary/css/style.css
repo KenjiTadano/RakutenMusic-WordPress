@@ -1,0 +1,421 @@
+@charset "utf-8";
+dl.playlist__list {
+    margin: 0;
+}
+
+dl.playlist__list dt.playlist__title {
+    margin: 0;
+    padding: 16px 14px 0;
+    font-weight: 500;
+    font-size: 18px;
+    border-top: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+dl.playlist__list dd {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+dl.playlist__list dd.playlist__artist {
+    width: 70%;
+    margin: 0;
+    padding: 14px 14px 16px !important;
+    color: #686868;
+    font-size: 14px;
+}
+
+dl.playlist__list dd.txt-copy {
+    width: 30%;
+    height: 12vw;
+    margin: 4vw 0;
+    padding: 7vw 0 0;
+    color: #686868;
+    font-size: 12px;
+    text-align: center;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2018/third-anniversary/img/icon-copy.png)
+        no-repeat top center / 20%;
+    border-left: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+div#btn-apply {
+    padding: 40px 0;
+}
+
+.l-campaign-01 .content-box {
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+}
+.l-campaign-01 .content-box .content-box__image {
+    width: 950px;
+}
+.l-campaign-01 .content-box img {
+    width: auto;
+}
+.l-campaign-01 .content-box .l-inner {
+    padding: 0 !important;
+}
+.l-campaign-01 .content-box .content-box__text {
+    position: absolute;
+    right: -150px;
+    bottom: 110px;
+    width: 950px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+span.icon-rank,
+ol.list-top10 li:first-child div span,
+ol.list-top10 li:nth-child(n + 2) div span,
+ol.list-top10 li:nth-child(n + 6) div span,
+ol.list-top03 li div span {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    bottom: 0;
+    left: 5px;
+    display: block;
+    padding: 0 7px;
+    color: #fff;
+    background-image: url(https://music.r10s.jp/external/prod/assets/campaign/2018/third-anniversary/img/bg-icon-ranking.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+ol.list-top10 {
+    width: 1008px;
+    margin: 0 auto !important;
+}
+ol.list-top10:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+ol.list-top10 li {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px !important;
+}
+ol.list-top10 li div {
+    border: 1px solid #eee;
+}
+ol.list-top10 li:first-child {
+    width: calc(100% / 2);
+    max-height: 504px;
+}
+ol.list-top10 li:first-child div span {
+    font-size: 36px;
+    background-size: 20% auto;
+}
+ol.list-top10 li:nth-child(n + 2) {
+    width: calc(100% / 4);
+}
+ol.list-top10 li:nth-child(n + 2) div span {
+    font-size: 25px;
+    background-size: 25% auto;
+}
+ol.list-top10 li:nth-child(n + 6) {
+    width: calc(100% / 5);
+}
+ol.list-top10 li:nth-child(n + 6) div span {
+    font-size: 20px;
+    background-size: 30% auto;
+}
+ol.list-top10 li div {
+    position: relative;
+    font-size: 0;
+}
+ol.list-top10 li div img {
+    width: 100%;
+}
+ol.list-top10 li p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 5px !important;
+    text-align: right;
+    background: -webkit-linear-gradient(
+        transparent 0%,
+        rgba(0, 0, 0, 0.7) 100%
+    );
+    background: -o-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+    background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+ol.list-top10 li p span {
+    display: block;
+    color: #fff;
+}
+ol.list-top10 li p span:nth-of-type(1) {
+    margin: 30px 10px 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+ol.list-top10 li p span:nth-child(2) {
+    margin: 5px 10px 10px;
+    font-size: 12px;
+}
+ol.list-top03 {
+    width: 1008px;
+    margin: 0 auto !important;
+}
+ol.list-top03:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+ol.list-top03 li {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    width: calc(100% / 3);
+    padding: 5px !important;
+}
+ol.list-top03 li div {
+    position: relative;
+    font-size: 0;
+    border: 1px solid #eee;
+}
+ol.list-top03 li div span {
+    padding: 0 10px;
+    font-size: 30px;
+    background-size: 25% auto;
+}
+ol.list-top03 li div img {
+    width: 100%;
+}
+ol.list-top03 li p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 5px !important;
+    text-align: right;
+    background: -webkit-linear-gradient(
+        transparent 0%,
+        rgba(0, 0, 0, 0.7) 100%
+    );
+    background: -o-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+    background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+ol.list-top03 li p span {
+    display: block;
+    margin: 30px 10px 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.content-inner .howto-search {
+    width: 950px;
+    margin: 0 auto 40px;
+    padding: 0;
+    text-align: center;
+}
+
+.content-inner .howto-search li {
+    position: relative;
+    display: inline-block;
+    width: 360px;
+    vertical-align: top;
+    list-style: none;
+}
+
+.content-inner .howto-search li p {
+    padding: 20px 30px 0;
+    line-height: 1.5em;
+}
+
+.content-inner .howto-search li:not(:first-child)::after {
+    position: absolute;
+    top: 200px;
+    left: -25px;
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    color: #bf0000;
+    font-size: 40px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2018/third-anniversary/img/step-arrow.png);
+    content: '';
+}
+
+@media screen and (max-width: 768px) {
+    #page .heading--m {
+        margin-bottom: 32px;
+        padding: 24px 24px 0;
+        font-size: 2.2rem;
+    }
+
+    .l-campaign-01 .content-box {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .l-campaign-01 .content-box img {
+        width: auto;
+    }
+    .l-campaign-01 .content-box .l-inner {
+        padding: 0 !important;
+    }
+    .l-campaign-01 .content-box .content-box__text {
+        position: absolute;
+        right: 0;
+        bottom: 17vw;
+        left: 0;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 12vw !important;
+        font-size: 3vw;
+    }
+    .l-campaign-01 .content-box .content-box__image {
+        width: 100%;
+    }
+
+    #page .content-box {
+        padding: 32px 16px 48px;
+    }
+
+    ol.list-top10,
+    ol.list-top03 {
+        width: 100%;
+        margin: 0 auto 48px !important;
+        padding: 11px !important;
+    }
+    ol.list-top10:after,
+    ol.list-top03:after {
+        display: block;
+        clear: both;
+        content: '';
+    }
+    ol.list-top10 li,
+    ol.list-top03 li {
+        position: relative;
+        float: left;
+        box-sizing: border-box;
+        padding: 5px !important;
+    }
+    ol.list-top10 li:first-child,
+    ol.list-top03 li:first-child {
+        width: calc(100% / 1);
+        max-height: 100% !important;
+    }
+    ol.list-top10 li:first-child div span,
+    ol.list-top03 li:first-child div span {
+        font-size: 7vw;
+        background-size: 20% auto;
+    }
+    ol.list-top10 li:nth-child(n + 2),
+    ol.list-top03 li:nth-child(n + 2) {
+        width: calc(100% / 2);
+    }
+    ol.list-top10 li:nth-child(n + 2) div span,
+    ol.list-top03 li:nth-child(n + 2) div span {
+        font-size: 4vw;
+        background-size: 25% auto;
+    }
+    ol.list-top10 li div,
+    ol.list-top03 li div {
+        position: relative;
+        font-size: 0;
+    }
+    ol.list-top10 li div img,
+    ol.list-top03 li div img {
+        width: 100%;
+    }
+    ol.list-top10 li p,
+    ol.list-top03 li p {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 5px !important;
+        text-align: right;
+        background: -webkit-linear-gradient(
+            transparent 0%,
+            rgba(0, 0, 0, 0.7) 100%
+        );
+        background: -o-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+        background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+    }
+    ol.list-top10 li p span,
+    ol.list-top03 li p span {
+        display: block;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    ol.list-top10 li p span:nth-of-type(1) {
+        margin: 10vw 10px 0;
+    }
+    ol.list-top03 li p span {
+        margin: 10vw 10px 10px;
+    }
+    ol.list-top10 li p span:nth-child(2) {
+        margin: 0 10px 10px;
+    }
+
+    #page .content-inner img {
+        width: auto !important;
+        height: 100% !important;
+    }
+    .content-inner .howto-search {
+        margin: 0 auto;
+    }
+    .content-inner .sliderBox {
+        width: 100vw;
+        height: 125vw;
+        margin: 0 21vw 0 0;
+        padding: 0 0 0 0 !important;
+        overflow-x: scroll;
+    }
+    .content-inner .sliderBox ol {
+        width: 144vw;
+        margin: 0 0 0 25vw !important;
+        padding: 0 !important;
+        font-size: 0 !important;
+        text-align: left;
+    }
+    .content-inner .sliderBox ol li {
+        position: relative;
+        display: inline-block;
+        width: 52vw;
+        margin: 0 3.8vw 0 0 !important;
+        font-size: 3.7vw !important;
+        vertical-align: top;
+    }
+    .content-inner .sliderBox ol li:first-child {
+        margin: 0 18vw 0 0 !important;
+    }
+    .content-inner .sliderBox ol li:nth-child(even),
+    .content-inner .sliderBox ol li:nth-child(odd) {
+        background: none;
+    }
+    .content-inner .sliderBox ol li:not(:first-child)::after {
+        position: absolute;
+        top: 40vw;
+        left: -15vw;
+        display: inline-block;
+        width: 10vw;
+        height: 20vw;
+        color: #d00000;
+        background: url(https://music.r10s.jp/external/prod/assets/campaign/2018/third-anniversary/img/step-arrow.png)
+            center/100%;
+        content: '';
+    }
+    .content-inner .sliderBox ol li p.slide-img01 {
+        width: 52vw;
+        height: 100vw;
+        margin: 0 auto !important;
+        padding: 0 0 0 0 !important;
+        font-size: 0 !important;
+    }
+    .content-inner .sliderBox ol li p.slide-img01 img {
+        width: 100%;
+    }
+    .content-inner .sliderBox ol li p.slide-text01 {
+        margin: 4vw 0 0 !important;
+        padding: 0;
+        text-align: center;
+    }
+}

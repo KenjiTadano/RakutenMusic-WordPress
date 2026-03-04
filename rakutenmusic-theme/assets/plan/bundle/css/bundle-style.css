@@ -1,0 +1,1700 @@
+/* ▼▼▼▼overviewの設定　ここから ▼▼▼▼*/
+
+/* btn-download */
+#page .btn-app-dl {
+  width: 100%;
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 72px;
+  background: #ff008c;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+  gap: 16px;
+}
+
+#page .btn-app-dl:hover {
+  background: #cc0070;
+  cursor: pointer;
+}
+
+#page #top-section-overview .overview_new img.is-hidden--pc {
+  padding: 0 24px;
+}
+
+/* overview説明部分 */
+#page .overview-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ff008c;
+}
+#page .overview-desc {
+  font-size: 16px;
+  font-weight: 00;
+  font-weight: 700;
+}
+#page .overview_new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  padding: 0 12px;
+}
+
+#page .about-bundle-container01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  gap: 12px;
+}
+
+#page .member-type {
+  min-width: 100px;
+  max-width: 120px;
+}
+
+#page .about-bundle-container02 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100%;
+}
+
+#page .about-bundle-container03 {
+  display: flex;
+
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+
+  text-align: center;
+  font-size: 12px;
+}
+
+#page .about-bundle-container04 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+#page .about-bundle-container05 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 110px;
+  height: 100%;
+}
+
+/* 会員タイプ-mobile- */
+#page .type_image {
+  max-width: 140px;
+  max-height: 140px;
+}
+
+/* モバイルアイコン */
+#page .about-mobileIcon img {
+  width: 18px;
+  height: auto;
+}
+
+/* カードアイコン */
+#page .about-cardIcon img {
+  width: 28px;
+  height: auto;
+}
+
+/* カテゴリテキスト */
+#page .about-bundleCategory p {
+  text-align: center;
+  color: white;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  /* 9.6px */
+  text-transform: capitalize;
+}
+
+/* +アイコン */
+#page .about-bundle-plus img {
+  width: 12px;
+  height: auto;
+}
+
+/* アプリアイコン */
+#page .about-bundle-appicon img {
+  width: 46px;
+  height: auto;
+}
+
+/* イコールアイコン */
+#page .about-bundle-equal img {
+  width: 12px;
+  height: auto;
+}
+
+/* 特徴アイコン */
+#page .feature-icon img {
+  width: 32px;
+  height: auto;
+}
+
+/* 料金部分 */
+#page .about-bundle-pricegroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ff008c;
+  font-weight: 800;
+}
+
+#page .about-bundle-pricegroup h1 {
+  font-size: 55px;
+  line-height: 120%;
+  /* 160.8px */
+  text-transform: uppercase;
+  text-wrap: nowrap;
+  font-weight: 800;
+}
+
+#page .about-bundle-pricegroup h2 {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 108%;
+  /* 60.48px */
+  text-transform: uppercase;
+  text-wrap: nowrap;
+  font-weight: 800;
+}
+
+/* 特徴部分設定 */
+#page #top-section-overview ul.features {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+#page #top-section-overview ul.features > li {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  padding: 16px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  background: #f7f7f7;
+}
+
+#page #top-section-overview ul.features > li p.main {
+  color: #ff008c;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+}
+
+#page #top-section-overview ul.features > li p.body {
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+#page #top-section-overview ul.features > li p sup {
+  font-size: 0.5em;
+  top: -0.8em;
+}
+
+#page #top-section-overview .popular-artist-list {
+  width: 327px;
+  display: flex;
+  padding: 24px 16px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  border-radius: 16px;
+  background: #f7f7f7;
+}
+
+#page #top-section-overview .popular-artist-list .jsha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+#page #top-section-overview .popular-artist-list .jsha img {
+  width: 66px;
+  height: 66px;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+#page #top-section-overview .popular-artist-list .artist-name-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+#page #top-section-overview .popular-artist-list .artist-name-list ul.artist-name-list-pickup,
+#page #top-section-overview .popular-artist-list .artist-name-list ul.artist-name-list-others {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 2px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+#page #top-section-overview .popular-artist-list .artist-name-list ul.artist-name-list-pickup > li:not(:last-child)::after,
+#page #top-section-overview .popular-artist-list .artist-name-list ul.artist-name-list-others > li:not(:last-child)::after {
+  content: ' /';
+}
+
+#page #top-section-overview .popular-artist-list .artist-name-list ul.artist-name-list-pickup > li {
+  color: #ff008c;
+  text-align: center;
+  /* JP Body Large 16px/Bold */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+
+#page #top-section-overview .popular-artist-list .artist-name-list ul.artist-name-list-others > li {
+  color: var(--Gray-1000, #000);
+  text-align: center;
+  /* JP Body Small 12px/Regular */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+#page #top-section-overview .popular-artist-list .artist-name-list p.supplementary {
+  color: #000;
+  text-align: center;
+  /* JP Body Large 16px/Bold */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+
+#page #top-section-overview .bundle-plan-exclusion {
+  display: flex;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+#page #top-section-overview .bundle-plan-exclusion .image img {
+  width: 120px;
+  height: 240px;
+}
+
+#page #top-section-overview .bundle-plan-exclusion .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  flex: 1 0 0;
+  position: relative;
+}
+
+#page #top-section-overview .bundle-plan-exclusion .content p.lead {
+  color: #000;
+  text-align: center;
+  /* JP Body Medium 14px/Bold */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+#page #top-section-overview .bundle-plan-exclusion .content img.song-component {
+  width: 210px;
+  position: absolute;
+  top: 24px;
+}
+
+#page #top-section-overview .bundle-plan-exclusion .content p.small {
+  color: #000;
+  text-align: justify;
+  /* JP Body Small 12px/Regular */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+#page #top-section-overview .bundle-plan-exclusion + .btn-app-dl-wrapper {
+  align-self: stretch;
+  padding: 0 24px;
+}
+
+#page #top-section-overview .appdl-group {
+  border-radius: 32px;
+  border: 3px solid #ff008c;
+}
+
+#page #top-section-overview .bundle-plan-exclusion + .btn-app-dl-wrapper {
+  align-self: stretch;
+  padding: 0 24px;
+}
+
+/* ▲▲▲▲▲overviewの設定　ここまで ▲▲▲▲*/
+
+/* ▼▼▼▼料金比較表の設定　ここから ▼▼▼▼*/
+/* テーブルタイトル部分 */
+#page .compare-table-head {
+  height: 110px;
+  width: 100%;
+}
+
+#page .table-head-spacer {
+  display: none;
+}
+
+#page .table-head-bundle {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  border-radius: 12px 0px 0px 0px;
+  border-right: 1px solid #fff;
+  background: #828282;
+  color: white;
+}
+
+#page .table-head-cardmobile {
+  width: 50%;
+  height: 100%;
+
+  gap: 12px;
+  text-align: center;
+  border-radius: 0px 12px 0px 0px;
+  background: #bf0000;
+  color: white;
+}
+
+#page .table-divider {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  border-top: 1px solid #fff;
+  padding-top: 8px;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+#page .compare-table-head p {
+  font-size: 14px;
+}
+
+/* upgrade mark */
+#page .upgrade-mark {
+  display: flex;
+  padding: 1px 16px;
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #fff;
+  color: #bf0000;
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+/* 比較表テーブル */
+#page .compare-table-container {
+  width: 100%;
+  max-width: 950px;
+  padding: 0 24px;
+}
+
+#page table {
+  border-collapse: separate;
+  width: 100%;
+  border-spacing: 0px;
+}
+
+#page .compare-table {
+  width: 100%;
+}
+
+#page .compare-table th {
+  background: #f0f0f0;
+  color: #686868;
+  padding: 12px 0px;
+}
+
+#page .compare-table td {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.compare-table th,
+.compare-table td {
+  display: block;
+  width: 100%;
+  border-bottom: none;
+  border: solid 1px #ccc;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.compare-table tr:last-child {
+  border-bottom: solid 1px #ccc;
+}
+
+#page .table-flex-line01 {
+  width: 50%;
+  height: 100px;
+  border-right: solid 1px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#page .table-flex-line02 {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#page .time-limit {
+  font-size: 16px;
+  font-weight: 500;
+  color: #686868;
+}
+
+#page .table-flex-line01 p,
+.table-flex-line02 p {
+  color: #686868;
+}
+
+#page .compare-table .annotation {
+  font-size: 13px;
+}
+
+#page .first-playlists a {
+  text-decoration: underline;
+  color: #000;
+}
+
+#page .dll-app-text {
+  margin-top: 6px;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+#page #top-section-upgrade .summary-group strong {
+  color: #d80000;
+  font-weight: 700;
+}
+
+#page #top-section-upgrade .summary-group {
+  text-align: center;
+  gap: 0;
+}
+
+#page #top-section-upgrade .summary-group strong {
+  color: #d80000;
+  font-weight: 700;
+}
+
+#page #top-section-upgrade .summary-group h3 {
+  font-size: 24px;
+}
+
+#page #top-section-upgrade .summary-group h4 {
+  font-size: 20px;
+}
+
+#page #top-section-upgrade .summary-group h5 {
+  font-size: 16px;
+  margin: 0;
+}
+
+#page #top-section-upgrade .summary-group p {
+  font-size: 12px;
+  margin: 0;
+}
+
+#page .btn-cta-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* ▲▲▲▲▲料金比較表の設定　ここまで ▲▲▲▲*/
+
+/* ▼▼▼▼SCENE　ここから ▼▼▼▼*/
+
+#page #top-section-scene ul.scene {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+#page #top-section-scene ul.scene > li {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  position: relative;
+}
+
+#page #top-section-scene ul.scene > li .bg-dark-txt {
+  font-size: 40px;
+  top: 0;
+}
+
+#page #top-section-scene ul.scene > li .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+#page #top-section-scene ul.scene > li .content p.text-main {
+  color: #fff;
+  text-align: center;
+  /* JP Body Medium 14px/Regular */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #top-section-scene ul.scene > li .content p.text-sub {
+  color: #999;
+  text-align: center;
+  /* JP Body Small 12px/Regular */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+#page #top-section-scene ul.scene > li .scene-image {
+  overflow: hidden;
+}
+
+#page #top-section-scene ul.scene > li .scene-image img {
+  width: 180px;
+  height: 120px;
+}
+
+#page #top-section-scene ul.scene > li:nth-child(odd) .scene-image {
+  border-radius: 16px 0px 0px 16px;
+}
+
+#page #top-section-scene ul.scene > li:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+#page #top-section-scene ul.scene > li:nth-child(even) .scene-image {
+  border-radius: 0px 16px 16px 0px;
+}
+
+/* ▲▲▲▲▲SCENE　ここまで ▲▲▲▲*/
+
+/* ▼▼▼▼Playlist　ここから ▼▼▼▼*/
+
+#page #top-section-firstplaylists ul.first-playlists {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+#page #top-section-firstplaylists ul.first-playlists > li {
+  display: flex;
+  width: 150px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 16px;
+  background: #f7f7f7;
+  display: inline-block;
+  /* 横並び */
+  vertical-align: top;
+}
+
+#page #top-section-firstplaylists ul.first-playlists > li .jsha {
+  display: flex;
+  width: 118px;
+  height: 118px;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#page #top-section-firstplaylists ul.first-playlists > li .jsha img {
+  width: 59px;
+  height: 59px;
+  flex-shrink: 0;
+}
+
+#page #top-section-firstplaylists ul.first-playlists > li p.playlist-title {
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 32px;
+  width: 100%;
+  text-align: center;
+  min-height: 45px;
+  /* JP Body Small 12px/Regular */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+/* ▲▲▲▲▲Playlist　ここまで ▲▲▲▲*/
+
+/* ▼▼▼▼UsageStep　ここから ▼▼▼▼*/
+
+#page #top-section-usage-steps .usagesptes-lead {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  padding: 0px 24px;
+}
+
+#page #top-section-usage-steps .usagesptes-lead .number {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+#page #top-section-usage-steps .usagesptes-lead .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+#page #top-section-usage-steps .usagesptes-lead .content h4 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#page #top-section-usage-steps .usagesptes-lead .content p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #top-section-usage-steps .usage-item {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: center;
+  border-radius: 16px;
+  background: #212331;
+  width: 327px;
+}
+
+#page #top-section-usage-steps .usage-item.single h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#page #top-section-usage-steps .usage-item .usage-question,
+#page #top-section-usage-steps .usage-item .usage-answer {
+  display: flex;
+  align-items: stretch;
+  gap: 16px;
+  align-self: stretch;
+}
+
+#page #top-section-usage-steps .usage-item .usage-question p,
+#page #top-section-usage-steps .usage-item .usage-answer p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#page #top-section-usage-steps .usage-item .usage-question p strong,
+#page #top-section-usage-steps .usage-item .usage-answer p strong {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 110%;
+}
+
+#page #top-section-usage-steps .usage-item .usage-question {
+  flex-direction: row;
+}
+
+#page #top-section-usage-steps .usage-item .usage-question > i {
+  width: 24px;
+  height: 24px;
+}
+
+#page #top-section-usage-steps .usage-item .usage-question > i.close {
+  transition: all 0.2s ease-in;
+  transform: rotate(180deg);
+}
+
+#page #top-section-usage-steps .usage-item .usage-answer {
+  flex-direction: column;
+}
+
+#page #top-section-usage-steps .usage-item .usage-answer p.small {
+  color: #999;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 16.8px */
+}
+
+#page #top-section-usage-steps .usage-item .usage-answer p.small small {
+  font-size: 1em;
+}
+
+#page #top-section-usage-steps .usage-item .usage-answer .usage-answer-content-l,
+#page #top-section-usage-steps .usage-item .usage-answer .usage-answer-content-r,
+#page #top-section-usage-steps .usage-item .usage-answer .usage-answer-content-c {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#page #top-section-usage-steps .usage-item .usage-answer .usage-answer-content-r .btn-default-dark button {
+  background: #f53a3a;
+  color: #020717;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+  border-radius: 72px;
+  border: none;
+  width: 100%;
+}
+
+#page #top-section-usage-steps .usage-item .usage-answer .btn-app-dl {
+  background: #f53a3a;
+  color: #020717;
+}
+
+#page #top-section-usage-steps .usage-item .usage-answer .btn-app-dl svg path {
+  fill: #020717;
+}
+
+#page #top-section-usage-steps .usage-item .usage-answer p strong {
+  color: #f53a3a;
+}
+
+#page #top-section-usage-steps .secondaly-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+
+#page #top-section-usage-steps .secondaly-cta p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 0 32px;
+  /* 142.857% */
+}
+
+#page #top-section-usage-steps .secondaly-cta .secondaly-cta-btn {
+  display: flex;
+  padding: 0px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+#page #top-section-usage-steps .secondaly-cta .secondaly-cta-btn a {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 72px;
+  border: 2px solid #ff008c;
+  background: #020717;
+  color: #ff008c;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+
+/*▼▼▼▼rankボタン追加▼▼▼▼*/
+#page #top-section-usage-steps .secondaly-cta .secondaly-cta-rank {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#page #top-section-usage-steps .secondaly-cta .secondaly-cta-rank p.small {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  padding: 0 32px;
+}
+
+/*▲▲▲▲▲ランク追加ここまで▲▲▲▲▲*/
+
+#page #top-section-usage-steps .things-to-do {
+  align-items: flex-start;
+  color: white;
+}
+
+#page #top-section-usage-steps .things-to-do a {
+  color: #3cbdff;
+}
+
+#page #top-section-usage-steps .things-to-do h4 {
+  color: var(--White, #fff);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 19.6px */
+}
+
+#page #top-section-usage-steps .things-to-do ul li {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  color: var(--White, #fff);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 21px */
+}
+
+#page #top-section-usage-steps .things-to-do ul li::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #8f8f8f;
+  border-radius: 4px;
+}
+
+#page #top-section-usage-steps .things-to-do ul li span {
+  flex: 1;
+}
+
+#page #top-section-usage-steps .things-to-do ul li a.arrow::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/2022/group/mobile/img/20220701/icon_chevron_down_mnopink.png) no-repeat center/cover;
+  transform: rotate(270deg);
+  position: relative;
+  left: 4px;
+  top: 2px;
+}
+
+#page #top-section-usage-steps .rakutenmusic-app-icon,
+#page #top-section-usage-steps .pre-release-txt {
+  align-self: center;
+}
+
+#page #top-section-usage-steps .rakutenmusic-app-icon {
+  width: 72px;
+  height: 72px;
+}
+
+#page #top-section-usage-steps .pre-release-txt {
+  width: 240px;
+  height: 129px;
+}
+
+#page #top-section-usage-steps .btn-default-dark.cta-mobile a {
+  background: #ff008c;
+}
+
+#page #top-section-usage-steps .btn-secondaly-dark.cta-mobile a {
+  border: 1px solid #ff008c;
+  color: #ff008c;
+}
+
+/* ▲▲▲▲▲UsageStep　ここまで ▲▲▲▲*/
+
+/* ▼▼▼▼特記事項　ここから ▼▼▼▼*/
+#page .notice {
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px 24px;
+}
+
+#page .notice h3 {
+  text-align: center;
+}
+
+#page .notice ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#page .notice ul li {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+/* ▲▲▲▲▲特記事項　ここまで ▲▲▲▲*/
+
+/* 要素並び制御用 */
+#page .row-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+#page .column-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+#page .sp-break {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------------------PC画面設定---------------------------- */
+
+@media screen and (min-width: 768px) {
+  /* 要素並び制御用 */
+  #page .mobile-break {
+    display: none;
+  }
+
+  #page .sp-break {
+    flex-direction: row;
+  }
+
+  /* ▼▼▼▼overviewの設定　ここから ▼▼▼▼*/
+  /* 料金比較表タイトル */
+  #page #top-section-upgrade .summary-group h3 {
+    font-size: 32px;
+  }
+
+  #page #top-section-upgrade .summary-group h4 {
+    font-size: 24px;
+  }
+
+  #page #top-section-upgrade .summary-group h5 {
+    font-size: 20px;
+  }
+
+  /* 比較表タイトル部分 */
+  #page .table-head-spacer {
+    display: block;
+    width: 200px;
+  }
+
+  #page .upgrade-mark {
+    max-width: 160px;
+  }
+
+  /* 比較表テーブル */
+  table.compare-table th,
+  table.compare-table td {
+    display: table-cell;
+    height: 100%;
+  }
+
+  table.compare-table th {
+    width: 200px;
+  }
+
+  .compare-table td {
+    width: 100%;
+  }
+
+  /* overview説明部分 */
+  #page .overview_new {
+    gap: 32px;
+    width: 100%;
+  }
+
+  #page .about-bundle-container01 {
+    gap: 18px;
+  }
+
+  #page .member-type {
+    max-width: 252px;
+  }
+
+  #page .about-bundle-container03 {
+    padding: 12px 12px;
+    border-radius: 16px;
+    font-size: 16px;
+  }
+
+  #page .about-bundle-container04 {
+    height: 100%;
+  }
+
+  #page .about-bundle-container05 {
+    height: 100%;
+    width: 300px;
+  }
+
+  /* 特徴アイコン */
+  #page .feature-icon img {
+    width: 40px;
+    height: auto;
+  }
+
+  /* モバイルアイコン */
+  #page .about-mobileIcon img {
+    width: 51px;
+    height: auto;
+  }
+
+  /* カードアイコン */
+  #page .about-cardIcon img {
+    width: 65px;
+    height: auto;
+  }
+
+  /* カテゴリ黒丸 */
+  #page .about-bundleCategory {
+    width: 195px;
+    height: 195px;
+    gap: 4px;
+  }
+
+  /* カテゴリテキスト */
+  #page .about-bundleCategory p {
+    font-size: 14px;
+  }
+
+  /* +アイコン */
+  #page .about-bundle-plus img {
+    width: 30px;
+    height: auto;
+  }
+
+  /* アプリアイコン */
+  #page .about-bundle-appicon img {
+    width: 90px;
+    height: auto;
+  }
+
+  #page .dll-app-text {
+    font-size: 14px;
+  }
+
+  /* イコールアイコン */
+  #page .about-bundle-equal img {
+    width: 56.001px;
+    height: 10px;
+  }
+
+  /* 料金部分 */
+  #page .about-bundle-pricegroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #ff008c;
+    font-weight: 800;
+  }
+
+  #page .about-bundle-pricegroup h1 {
+    font-size: 134px;
+    line-height: 120%;
+    /* 160.8px */
+    text-transform: uppercase;
+    text-wrap: nowrap;
+  }
+
+  #page .about-bundle-pricegroup h2 {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 108%;
+    /* 60.48px */
+    text-transform: uppercase;
+    text-wrap: nowrap;
+  }
+
+  #page #top-section-overview ul.features > li {
+    width: 225px;
+    height: 180px;
+  }
+
+  #page #top-section-overview ul.features > li p.main {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 33.6px */
+  }
+
+  #page #top-section-overview ul.features > li p.body {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+  }
+
+  #page .floating-cta-button .btn-app-dl-pc {
+    width: 400px;
+    padding: 16px 24px;
+    gap: 16px;
+    transition: all 0.2s ease-in;
+  }
+
+  #page .floating-cta-button .btn-app-dl-pc svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  #page #top-section-overview .popular-artist-list {
+    width: 950px;
+    padding: 64px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 32px;
+  }
+
+  #page #top-section-overview .popular-artist-list .jsha {
+    width: 256px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 16px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+  }
+
+  #page #top-section-overview .popular-artist-list .jsha img {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  #page #top-section-overview .popular-artist-list .artist-name-list {
+    align-self: center;
+  }
+
+  #page #top-section-overview .popular-artist-list .artist-name-list ul.artist-name-list-pickup > li {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 140% */
+  }
+
+  #page #top-section-overview .popular-artist-list .artist-name-list ul.artist-name-list-others > li {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+  }
+
+  #page #top-section-overview .popular-artist-list .artist-name-list p.supplementary {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 140% */
+  }
+
+  #page #top-section-overview .bundle-plan-exclusion {
+    display: flex;
+    width: 950px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    align-self: center;
+    position: relative;
+  }
+
+  #page #top-section-overview .bundle-plan-exclusion .image img {
+    width: 180px;
+    height: 360px;
+    flex-shrink: 0;
+  }
+
+  #page #top-section-overview .bundle-plan-exclusion .content {
+    width: 344px;
+    gap: 114px;
+    flex-direction: column;
+    flex: none;
+  }
+
+  #page #top-section-overview .bundle-plan-exclusion .content p.lead {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 133.333% */
+  }
+
+  #page #top-section-overview .bundle-plan-exclusion .content p.lead svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  #page #top-section-overview .bundle-plan-exclusion .content img.song-component {
+    width: 380px;
+    height: 117px;
+    top: 36px;
+  }
+
+  #page #top-section-overview .bundle-plan-exclusion .content p.small {
+    flex: 1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page #top-section-overview .bundle-plan-exclusion::after {
+    content: '';
+    /*
+    background: url(/assets/plan/bundle/img/bg_songs.png) no-repeat;
+    */
+    display: block;
+    width: 2800px;
+    height: 120px;
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+  }
+
+  #page #top-section-overview .bundle-plan-exclusion + .btn-app-dl-wrapper {
+    width: 400px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #page #top-section-overview .appdl-group {
+    display: flex;
+    width: 950px;
+    padding: 64px;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    border-radius: 32px;
+    border: 3px solid #ff008c;
+    justify-content: space-between;
+  }
+
+  /* ▼▼▼▼overviewの設定　ここまで ▼▼▼▼*/
+
+  /* ▼▼▼▼SCENE　ここから ▼▼▼▼*/
+
+  #page #top-section-scene ul.scene {
+    width: 950px;
+  }
+
+  #page #top-section-scene ul.scene > li .bg-dark-txt {
+    font-size: 96px;
+    top: 20px;
+  }
+
+  #page #top-section-scene ul.scene > li .scene-image {
+    border-radius: 24px !important;
+  }
+
+  #page #top-section-scene ul.scene > li .scene-image img {
+    width: 360px;
+    height: 240px;
+    flex-shrink: 0;
+  }
+
+  #page #top-section-scene ul.scene > li .content p.text-main {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+  }
+
+  #page #top-section-scene ul.scene > li .content p.text-sub {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  /* ▲▲▲▲▲SCENE　ここまで ▲▲▲▲*/
+
+  /* ▼▼▼▼Playlist　ここから ▼▼▼▼*/
+
+  #page #top-section-firstplaylists h2 {
+    font-size: 40px !important;
+  }
+
+  #page #top-section-firstplaylists ul.first-playlists > li {
+    width: 224px;
+    padding: 24px;
+  }
+
+  #page #top-section-firstplaylists ul.first-playlists > li .jsha {
+    width: 176px;
+    height: 176px;
+  }
+
+  #page #top-section-firstplaylists ul.first-playlists > li .jsha img {
+    width: 88px;
+    height: 88px;
+  }
+
+  #page #top-section-firstplaylists ul.first-playlists > li p.playlist-title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    max-height: 48px;
+  }
+
+  /* ▲▲▲▲▲Playlist　ここまで ▲▲▲▲*/
+
+  /* ▼▼▼▼UsageStep　ここから ▼▼▼▼*/
+
+  #page #top-section-usage-steps .usagesptes-lead {
+    align-self: center;
+    gap: 24px;
+  }
+
+  #page #top-section-usage-steps .usagesptes-lead .number {
+    font-size: 64px;
+  }
+
+  #page #top-section-usage-steps .usagesptes-lead .content h4 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #page #top-section-usage-steps .usagesptes-lead .content p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+  }
+
+  #page #top-section-usage-steps .usage-item {
+    width: 886px;
+    transition: all 0.2s ease-in;
+    padding: 32px;
+  }
+
+  #page #top-section-usage-steps .usage-item.single .usage-answer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #page #top-section-usage-steps .usage-item.single .usage-answer .btn-app-dl {
+    width: 400px;
+    transition: all 0.2s ease-in;
+  }
+
+  #page #top-section-usage-steps .usage-item.single .usage-answer .btn-app-dl:hover {
+    background: #fd5252;
+  }
+
+  #page #top-section-usage-steps .usage-item .usage-question i {
+    width: 32px;
+    height: 32px;
+  }
+
+  #page #top-section-usage-steps .usage-item .usage-question i svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  #page #top-section-usage-steps .usage-item .usage-question p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page #top-section-usage-steps .usage-item .usage-answer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  #page #top-section-usage-steps .usage-item .usage-answer .usage-answer-content-l {
+    width: 280px;
+  }
+
+  #page #top-section-usage-steps .usage-item .usage-answer .usage-answer-content-r {
+    flex: 1;
+  }
+
+  #page #top-section-usage-steps .usage-item .usage-answer .usage-answer-content-c {
+    text-align: center;
+    width: 100%;
+  }
+
+  #page #top-section-usage-steps .usage-item .usage-answer .btn-default-dark {
+    align-self: flex-start;
+  }
+
+  #page #top-section-usage-steps .usage-item .usage-answer a:hover {
+    background: #ff008c;
+    color: black;
+  }
+
+  #page #top-section-usage-steps .usage-item .usage-answer .btn-secondaly-dark {
+    align-self: flex-start;
+  }
+
+  #page #top-section-usage-steps .usage-item i.rakutenmusic-app-icon {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+  }
+
+  #page #top-section-usage-steps .usage-item i.rakutenmusic-app-icon img {
+    width: 72px;
+    height: 72px;
+  }
+
+  #page #top-section-usage-steps .usage-item:last-child .usage-answer {
+    align-items: center;
+    justify-content: center;
+  }
+
+  #page #top-section-usage-steps .usage-item:last-child .usage-answer .btn-app-dl {
+    width: 400px;
+  }
+
+  #page #top-section-usage-steps .usage-item:last-child .usage-answer-content-l {
+    display: flex;
+    width: 538px;
+    align-items: center;
+    gap: 24px;
+    flex-direction: row;
+  }
+
+  #page #top-section-usage-steps .usage-item:last-child .usage-answer-content-l img.pre-release-txt {
+    width: 430px;
+    height: 47px;
+  }
+
+  #page #top-section-usage-steps .usage-item:last-child .usage-answer-content-l img.pre-release-txt img {
+    width: 430px;
+    height: 47px;
+  }
+
+  #page #top-section-usage-steps .usage-item:last-child .usage-answer-content-r {
+    align-items: flex-end;
+  }
+
+  #page #top-section-usage-steps .usage-item:last-child .usage-answer-content-r .appdl-qr-group p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page #top-section-usage-steps .usage-item:last-child .usage-answer-content-r .appdl-qr-group img {
+    width: 81px;
+    height: 81px;
+  }
+
+  #page #top-section-usage-steps .secondaly-cta p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page #top-section-usage-steps .secondaly-cta .secondaly-cta-btn {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #page #top-section-usage-steps .secondaly-cta .secondaly-cta-btn a {
+    transition: all 0.2s ease-in;
+  }
+
+  #page #top-section-usage-steps .secondaly-cta .secondaly-cta-btn a:hover {
+    background: #ff008c;
+    color: #020717;
+  }
+
+  #page #top-section-usage-steps .things-to-do {
+    gap: 16px;
+  }
+
+  #page #top-section-usage-steps .things-to-do h4 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 28px */
+  }
+
+  #page #top-section-usage-steps .things-to-do h4 ul > li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+  }
+
+  /* ▲▲▲▲▲UsageStep　ここまで ▲▲▲▲*/
+
+  /* ▼▼▼▼特記事項　ここから ▼▼▼▼*/
+
+  #page .notice {
+    width: 100%;
+  }
+
+  #page .notice ul {
+    width: 886px;
+    margin: 0 auto;
+  }
+
+  #page .notice ul li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+  }
+
+  /* ▲▲▲▲▲特記事項　ここまで ▲▲▲▲*/
+}

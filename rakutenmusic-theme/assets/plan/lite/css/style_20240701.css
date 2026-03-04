@@ -1,0 +1,16 @@
+#page #overview .overview-main .txt .price,
+#page #overview .overview-main .txt .feature {
+  color: #0BA90B;
+}
+#page #overview .overview-feature-list > li {
+  background: #F3FFF3;
+}
+#page #overview .popular-artist-list .artist-name-list ul.artist-name-list-pickup > li {
+  color: #0BA90B;
+}
+#page .l-content #overview.bg-light .ttl-group sub {
+  color: #0BA90B;
+}
+#page .l-content #top-section-scene.bg-dark .ttl-group sub {
+  color: #15CC15;
+}/*# sourceMappingURL=style_20240701.css.map */

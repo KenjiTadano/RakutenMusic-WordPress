@@ -1,0 +1,108 @@
+#page .campaign-hero__schedule {
+  display: none;
+}
+
+#page .monthlyRanking {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+#page .monthlyRanking > li {
+  width: calc(100% / 4);
+  padding: 2rem;
+  box-sizing: border-box;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+#page .monthlyRanking > li > div figure {
+  height: 150px;
+  margin: 3rem 0 1.5rem;
+  text-align: center;
+}
+
+#page .monthlyRanking > li > div figure img {
+  height: 100%;
+}
+
+#page .monthlyRanking > li > div p {
+  line-height: 3rem;
+}
+
+#page .monthlyRanking > li > div p.rank {
+  font-size: 2.5rem;
+  padding: 1rem 2rem 2rem;
+  box-sizing: border-box;
+  border-bottom: 0.5rem solid black;
+  font-weight: bold;
+}
+
+#page .monthlyRanking > li > div p.title {
+  font-weight: bold;
+}
+
+#page .monthlyRanking > li:nth-child(1), #page .monthlyRanking > li:nth-child(2), #page .monthlyRanking > li:nth-child(3) {
+  width: calc(100% / 3);
+  border-top: 1px solid lightgray;
+}
+
+#page .monthlyRanking > li:nth-child(1) > div figure,
+#page .monthlyRanking > li:nth-child(2) > div figure,
+#page .monthlyRanking > li:nth-child(3) > div figure {
+  height: 200px;
+}
+
+#page .monthlyRanking > li:nth-child(1), #page .monthlyRanking > li:nth-child(4n) {
+  border-left: 1px solid lightgray;
+}
+
+@media screen and (max-width: 768px) {
+  #page .l-inner {
+    padding: 0;
+    width: 90vw;
+    margin: 0 auto;
+  }
+  #page .l-inner--sp-full {
+    width: 100%;
+  }
+  #page .monthlyRanking {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+  #page .monthlyRanking > li {
+    width: calc(100% / 2);
+    padding: 1.75rem;
+  }
+  #page .monthlyRanking > li > div figure {
+    height: 10rem;
+    margin: 2rem 0 1.25rem;
+  }
+  #page .monthlyRanking > li > div figure img {
+    width: initial;
+  }
+  #page .monthlyRanking > li > div p {
+    font-size: 1.6rem;
+    line-height: 1.75em;
+  }
+  #page .monthlyRanking > li > div p.rank {
+    padding: 0.5rem;
+  }
+  #page .monthlyRanking > li:nth-child(1) {
+    width: 100%;
+  }
+  #page .monthlyRanking > li:nth-child(2), #page .monthlyRanking > li:nth-child(3) {
+    width: 100%;
+    border-left: 1px solid lightgray;
+    border-top: none;
+  }
+  #page .monthlyRanking > li:nth-child(4n) {
+    border-left: none;
+  }
+  #page .monthlyRanking > li:nth-child(even) {
+    border-left: 1px solid lightgray;
+  }
+}

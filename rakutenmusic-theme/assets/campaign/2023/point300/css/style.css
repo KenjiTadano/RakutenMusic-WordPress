@@ -1,0 +1,130 @@
+#page #mkdiv_header_pitari {
+  display: none;
+}
+
+#page .Alert {
+  margin-bottom: 16px;
+}
+
+#page .CampaignButton {
+  margin: 0;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+
+#page .CampaignButton-success span.RexButton-message {
+  color: #047205;
+  font-size: 18px;
+}
+
+#page .l-header,
+#page .l-footer,
+#page .l-breadcrumb {
+  display: none;
+}
+
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+
+#page .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration: underline;
+}
+
+#page #campaign-steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 32px;
+  margin: 32px auto;
+}
+
+#page #campaign-steps h1,
+#page #campaign-steps h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page #campaign-steps h1,
+#page #campaign-steps h2,
+#page #campaign-steps p {
+  text-align: center;
+}
+
+#page #campaign-steps ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 32px;
+  width: 100%;
+  padding: 0 16px;
+}
+
+#page #campaign-steps ol li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 32px;
+  gap: 16px;
+  border: 2px solid #000000;
+  border-radius: 16px;
+}
+
+#page #campaign-steps ol li p.point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  color: #BF0000;
+}
+
+#page #campaign-steps ol li p.point .point-num {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100%;
+}
+
+#page #campaign-steps ol li p.point .point-txt {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -3,12 +3,12 @@
   "apiVersion": 3,
   "name": "rakutenmusic/jsha-carousel",
   "title": "ジャケ写カルーセル",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-common",
   "icon": "images-alt2",
   "description": "画像が横にスライドするカルーセル。各画像のURL・altを編集できます。",
   "keywords": ["楽天", "ミュージック", "カルーセル", "ジャケ写", "slick"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "attributes": {
     "items": {
       "type": "array",

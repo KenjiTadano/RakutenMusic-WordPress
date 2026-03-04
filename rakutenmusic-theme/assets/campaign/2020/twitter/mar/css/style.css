@@ -1,0 +1,108 @@
+#page .s-campaign-hero {
+  padding: 0;
+}
+
+#page #follow-retweet {
+  margin: 24px 0;
+}
+
+#page #follow-retweet .l-inner div.button {
+  width: 100%;
+}
+
+#page #follow-retweet .l-inner div.button a {
+  text-align: center;
+  display: block;
+  padding: 1em 0;
+  border-radius: 60px;
+  color: white;
+}
+
+#page #follow-retweet .l-inner div.button a i {
+  margin-right: 0.5em;
+}
+
+#page #follow-retweet .l-inner div.button.button-follow {
+  margin-bottom: 24px;
+}
+
+#page #follow-retweet .l-inner div.button.button-follow a {
+  background: #48a0ec;
+  border-bottom: solid 4px #3d82bd;
+}
+
+#page #follow-retweet .l-inner div.button.button-retweet a {
+  background-color: #20be86;
+  border-bottom: solid 4px #189a6c;
+}
+
+#page #follow-retweet .l-inner div.button.button-gray-out a {
+  background-color: darkgray;
+  border-bottom: solid 4px gray;
+}
+
+#page #retweet-bolume {
+  margin: 24px 0;
+}
+
+#page #retweet-bolume h1 {
+  color: #ed1c24;
+  line-height: 2.25em;
+}
+
+#page #retweet-bolume h1 span {
+  border-bottom: 10px solid greenyellow;
+}
+
+#page #retweet-bolume ul {
+  border-radius: 12px;
+  border: 3px solid #ed1c24;
+}
+
+#page #retweet-bolume ul li {
+  text-align: center;
+  padding: 2em 0 !important;
+  font-weight: bold;
+}
+
+#page #retweet-bolume ul li:nth-child(even) {
+  background: whitesmoke;
+}
+
+#page #retweet-bolume ul li strong {
+  font-size: 1.5em;
+  color: #ed1c24;
+}
+
+#page #retweet-bolume ul li.max {
+  font-size: 1.2em;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    background: url("https://music.r10s.jp/external/prod/assets/campaign/2020/twitter/mar/img/bg.jpg") no-repeat center top/auto 81%;
+    position: relative;
+  }
+  #page .s-campaign-hero:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 70px;
+    background: #4d4d4d;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+  }
+  #page #follow-retweet .l-inner div.button {
+    width: 400px;
+    margin: 0 auto;
+  }
+  #page #follow-retweet .l-inner div.button:hover {
+    position: relative;
+    top: 4px;
+    padding-bottom: 4px;
+  }
+  #page #follow-retweet .l-inner div.button:hover a {
+    border-bottom: 0;
+  }
+}

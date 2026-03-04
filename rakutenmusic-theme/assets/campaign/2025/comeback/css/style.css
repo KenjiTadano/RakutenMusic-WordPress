@@ -1,0 +1,209 @@
+.selector {
+  font-feature-settings: 'palt', 'trad' 1;
+}
+.p {
+  font-feature-settings: 'palt';
+}
+.slick-dots li button::before {
+  content: none;
+}
+
+#page .campaign-hero__schedule p:first-child br:last-child {
+  display: none;
+}
+#page .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration: underline;
+}
+#page #countdown {
+  display: flex;
+  padding: 16px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+#page #countdown p {
+  color: #bf0000;
+  text-align: justify;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+  font-feature-settings: 'palt';
+}
+#page .App {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+#page .CampaignButton {
+  margin: 0;
+}
+#page .RedirectionText {
+  margin: 0;
+}
+#page .Below {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+#page .agreement-message strong {
+  color: black;
+}
+#page .InfoText {
+  margin: 0;
+}
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+#page .CampaignButton-success span.RexButton-message {
+  color: #047205;
+}
+#page #best-value-music-app {
+  display: flex;
+  padding: 24px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+#page #best-value-music-app h2 {
+  color: #000;
+  text-align: justify;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+#page #best-value-music-app h3 img {
+  width: 182px;
+  height: 32px;
+}
+#page .campaign-detail__table td {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+#page .l-campaign-03 .s-campaign-detail h2 {
+  color: black;
+}
+
+#page .summary-group strong {
+  color: #d80000;
+  font-weight: 700;
+}
+#page .l-content .container {
+  padding: 0 24px;
+}
+
+#page .confirm_campaign {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  border-radius: 16px;
+  text-align: center;
+  gap: 32px;
+}
+#page .confirm_campaign img {
+  width: 100%;
+  height: auto;
+}
+#page .confirm_campaign h3 {
+  font-size: 32px;
+  font-feature-settings: 'palt';
+}
+#page .confirm_campaign P {
+  font-feature-settings: 'palt';
+}
+#page h4 {
+  text-align: center;
+}
+
+#page .btn-apply--caption {
+  display: none;
+}
+
+#page .campaign-hero__schedule {
+  line-height: 1.2 !important;
+}
+/* PC設定 */
+@media screen and (min-width: 768px) {
+  #page .App {
+    width: 600px;
+    gap: 24px;
+  }
+  #page .CampaignButton-enabled span.RexButton-message {
+    font-size: 36px;
+  }
+  #page .CampaignButton a {
+    max-width: none;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2025/comeback/img/bg.png) no-repeat center top/auto 82% #ffcbcb;
+    background-color: #bf0000;
+  }
+  #page .s-campaign-hero::after {
+    height: 70px;
+  }
+  #page #best-value-music-app {
+    padding: 32px 0;
+  }
+  #page #best-value-music-app h3 img {
+    width: 273px;
+    height: 48px;
+  }
+  #page .apply-btn-area .btn-apply-caption02 {
+    font-size: 16px;
+  }
+  #page .summary-group h3 {
+    font-size: 24px !important;
+    font-feature-settings: 'palt';
+  }
+}
+
+/* SP設定 */
+@media screen and (max-width: 768px) {
+  #page .CampaignButton-enabled span.RexButton-message,
+  #page .CampaignButton-disabled span.RexButton-message,
+  #page .CampaignButton-applied span.RexButton-message,
+  #page .CampaignButton-success span.RexButton-message {
+    font-size: 24px;
+  }
+  #page .summary-group h3 {
+    font-size: 17px !important;
+    font-feature-settings: 'palt';
+  }
+  #page .apply-btn-title {
+    font-size: 20px;
+  }
+  #page .confirm_campaign {
+    padding: 24px;
+    gap: 24px;
+  }
+  #page .confirm_campaign h3 {
+    font-size: 20px;
+  }
+  #page .apply-btn-area {
+    padding: 0 24px;
+  }
+  #page .apply-btn-area .btn-apply-caption02 {
+    font-size: 12px;
+  }
+} /*# sourceMappingURL=style.css.map */

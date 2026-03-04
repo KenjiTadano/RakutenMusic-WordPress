@@ -3,17 +3,18 @@
   "apiVersion": 3,
   "name": "rakutenmusic/column-article-header",
   "title": "記事：小見出し",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-column",
   "icon": "heading",
   "description": "記事内の小見出し（article-header）",
   "keywords": ["楽天", "ミュージック", "コラム", "記事", "見出し"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "attributes": {
     "content": { "type": "string", "default": "" },
     "spacingTop": { "type": "string", "default": "" },
     "spacingBottom": { "type": "string", "default": "" }
   },
   "editorScript": "file:./editor.js",
+  "editorStyle": "file:./editor.css",
   "render": "file:./render.php"
 }

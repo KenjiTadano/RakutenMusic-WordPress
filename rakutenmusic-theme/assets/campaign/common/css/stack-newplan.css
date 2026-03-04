@@ -1,0 +1,93 @@
+#page #newplan-release {
+  padding: 0 24px;
+}
+
+#page #newplan-release .l-inner {
+  border: 3px solid #bf0000;
+  background: #ffffff;
+  padding: 36px 24px;
+  text-align: center;
+}
+
+#page #newplan-release .l-inner h1 {
+  padding: 8px 16px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  background: #bf0000;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 42px;
+}
+
+#page #newplan-release .l-inner p.newplan-lead {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  margin: 0 0 12px;
+  color: #bf0000;
+}
+
+#page #newplan-release .l-inner p.newplan--small {
+  font-size: 11px;
+  line-height: 16px;
+  text-align: left;
+  margin-top: 24px;
+}
+
+#page #newplan-release .l-inner p.newplan--small a {
+  color: #006497;
+  text-decoration: underline;
+}
+
+#page #newplan-release .l-inner p.newplan--small a i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/common/img/stack-newplan-icon-link.png) no-repeat center/cover;
+  vertical-align: bottom;
+  margin-left: 8px;
+}
+
+#page #newplan-release .l-inner p.newplan-release--info {
+  background: #ebf7fe;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #006497;
+  padding: 8px;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  #page #newplan-release {
+    padding: 36px 0;
+  }
+  #page #newplan-release .l-inner h1 {
+    font-size: 24px;
+    line-height: 31px;
+    padding: 12px 24px;
+    margin-bottom: 0;
+  }
+  #page #newplan-release .l-inner p.newplan-lead {
+    margin: 24px auto;
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page #newplan-release .l-inner p.newplan--small {
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+  }
+  #page #newplan-release .l-inner p.newplan--small a:hover {
+    text-decoration: none;
+  }
+  #page #newplan-release .l-inner p.newplan-release--info {
+    width: 715px;
+    margin: 24px auto 0;
+    font-size: 21px;
+    line-height: 26px;
+  }
+}
+/*# sourceMappingURL=stack-newplan.css.map */

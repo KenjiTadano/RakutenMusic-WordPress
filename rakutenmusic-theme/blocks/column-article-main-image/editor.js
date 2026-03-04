@@ -16,7 +16,7 @@
 		try { wp.blocks.unregisterBlockType( BLOCK_NAME ); } catch ( e ) {}
 		wp.blocks.registerBlockType( BLOCK_NAME, {
 			title: __( '記事：メイン画像', 'rakutenmusic-theme' ),
-			category: 'rakutenmusic',
+			category: 'rakutenmusic-column',
 			icon: 'format-image',
 			attributes: { url: { type: 'string', default: '' }, alt: { type: 'string', default: '' } },
 			edit: function ( props ) {
@@ -40,20 +40,6 @@
 						el( PanelBody, { title: __( 'メイン画像', 'rakutenmusic-theme' ), initialOpen: true },
 							el( TextControl, { label: __( '画像URL', 'rakutenmusic-theme' ), value: a.url || '', onChange: function ( v ) { props.setAttributes( { url: v || '' } ); } } ),
 							el( TextControl, { label: __( 'alt', 'rakutenmusic-theme' ), value: a.alt || '', onChange: function ( v ) { props.setAttributes( { alt: v || '' } ); } } )
-						),
-						el( PanelBody, { title: __( '余白', 'rakutenmusic-theme' ), initialOpen: false },
-							el( SelectControl, {
-								label: __( '上余白', 'rakutenmusic-theme' ),
-								value: a.spacingTop || '',
-								options: spacingOpts,
-								onChange: function ( v ) { props.setAttributes( { spacingTop: v || '' } ); }
-							} ),
-							el( SelectControl, {
-								label: __( '下余白', 'rakutenmusic-theme' ),
-								value: a.spacingBottom || '',
-								options: spacingOpts,
-								onChange: function ( v ) { props.setAttributes( { spacingBottom: v || '' } ); }
-							} )
 						)
 					),
 					el( 'div', blockProps,

@@ -1,0 +1,261 @@
+#page section {
+  padding: 0;
+}
+
+#page h1.disp1 {
+  padding: 12px;
+  background: #07219B;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#page section#ice-nav {
+  padding: 24px 0;
+}
+
+#page section#ice-nav .l-inner::after {
+  content: none;
+}
+
+#page section#ice-nav .l-inner > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+#page section#ice-nav .l-inner > ul > li {
+  width: calc(50% - 8px);
+}
+
+#page section#ice-nav .l-inner > ul > li a {
+  padding: 12px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  color: black;
+}
+
+#page section#ice-nav .l-inner > ul > li a img {
+  width: 80px;
+}
+
+#page section#ice-nav .l-inner > ul > li a p {
+  color: #07219B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page section#ice-nav .l-inner > ul > li a::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/31ice/entry/img/icon_chevron_down.png) no-repeat center/cover;
+}
+
+#page section#ice-campaign-steps > .l-inner {
+  padding: 24px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+#page section#ice-campaign-steps > .l-inner .ice-campaign-steps--mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin: 24px auto 16px;
+}
+
+#page section#ice-campaign-steps > .l-inner .ice-campaign-steps--mini .box {
+  padding: 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 2px solid #FFFFFF;
+}
+
+#page section#ice-campaign-steps > .l-inner .ice-campaign-steps--mini .box .txt-heading {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+#page section#ice-campaign-steps > .l-inner .ice-campaign-steps--mini .box .txt-body {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page section#ice-campaign-steps > .l-inner .ice-campaign-steps--mini .arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 12px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+#page section#ice-campaign-steps > .l-inner > div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+#page section#ice-campaign-steps > .l-inner > div:nth-child(3) h2.disp2 + p {
+  margin: 16px auto 0;
+}
+
+#page section#ice-campaign-steps > .l-inner .ice-campaign-steps--inner {
+  border-radius: 16px;
+  background: #FFEFEF;
+  padding: 24px 16px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+#page section#ice-campaign-steps > .l-inner .ice-campaign-steps--inner .btn-apply {
+  margin: 0 auto;
+}
+
+#page section#ice-campaign-steps > .l-inner .ice-campaign-steps--inner .btn-apply .l-inner > * {
+  width: 100%;
+}
+
+#page section#ice-campaign-steps > .l-inner .ice-campaign-steps--inner .ice-campaign-steps--entry figure {
+  width: 180px;
+  margin: 16px auto;
+}
+
+#page section#ice-campaign-steps > .l-inner .ice-campaign-steps--inner .ice-campaign-steps--entry p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page section#ice-campaign-steps > .l-inner > p {
+  text-align: center;
+}
+
+#page section#ice-campaign-steps > .l-inner > p a {
+  color: black;
+}
+
+#page section#ice-campaign-steps > .l-inner .existing-user {
+  padding: 8px 16px;
+  border: 1px solid #000000;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page #cpn-detail {
+  margin: 36px auto;
+}
+
+#page .s-campaign-detail .campaign-detail__table td {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+#page .CampaignButton,
+#page .Below {
+  margin: 0 auto;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+
+#page .CampaignButton-success span.RexButton-message {
+  color: #047205;
+}
+
+#page .agreement-label {
+  margin: 16px auto;
+}
+
+#page .agreement-message a {
+  color: #ff41be;
+}
+
+@media screen and (max-width: 767px) {
+  #page .js-toggle.is-open .js-toggle__panel {
+    max-height: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

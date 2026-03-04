@@ -1,0 +1,103 @@
+#page #anchor-link ul li a {
+  background: #3C7E80;
+  color: white;
+}
+#page #top-section-step {
+  background: #D8EAEA;
+}
+#page #top-section-step .bg-light-txt {
+  color: rgba(114, 176, 178, 0.08);
+}
+#page #top-section-step .ttl-group sub {
+  color: #3C7E80;
+}
+#page .multi-step > h3 {
+  background: #3C7E80;
+  color: white;
+}
+#page #store-list {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.25);
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+#page #store-list .store-list-inner {
+  max-width: 400px;
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  background: #FFF;
+  position: relative;
+}
+#page #store-list .store-list-inner h4 {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+#page #store-list .store-list-inner ul {
+  height: 280px;
+  overflow-y: scroll;
+}
+#page #store-list .store-list-inner ul li {
+  list-style: inside;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+#page #store-list .store-list-inner ul li a {
+  align-self: stretch;
+  color: #006497;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  text-decoration-line: underline;
+}
+#page #store-list .store-list-inner a.btn-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: black;
+}
+#page .single-step {
+  position: relative;
+}
+#page .single-step .confetti {
+  position: absolute;
+  top: -40px;
+  width: 430px;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2024/group/60days-trial/img/bg.png) no-repeat center top/auto 100% #B7DCDD;
+  }
+  #page #anchor-link ul li a {
+    transition: all 0.2s ease-in;
+  }
+  #page #anchor-link ul li a:hover {
+    background: #D8EAEA;
+    color: #3C7E80;
+  }
+  #page .single-step .confetti {
+    top: -20px;
+    width: 1020px;
+  }
+}/*# sourceMappingURL=style.css.map */

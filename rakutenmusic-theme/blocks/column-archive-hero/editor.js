@@ -22,7 +22,7 @@
 
 		wp.blocks.registerBlockType( BLOCK_NAME, {
 			title: __( '読む音楽ガイド：メイン看板', 'rakutenmusic-theme' ),
-			category: 'rakutenmusic',
+			category: 'rakutenmusic-column',
 			icon: 'cover-image',
 			description: __( '読む音楽ガイドアーカイブページのヒーロー（メイン看板）部分', 'rakutenmusic-theme' ),
 			attributes: {

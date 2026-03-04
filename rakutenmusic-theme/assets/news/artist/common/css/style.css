@@ -1,0 +1,79 @@
+#new-release-title {
+  margin: 6rem 0;
+}
+
+#new-release-title .l-inner .new-release-title--wrap {
+  display: flex;
+}
+
+#new-release-title .l-inner .new-release-title--wrap figure {
+  width: 190px;
+}
+
+#new-release-title .l-inner .new-release-title--wrap figure img {
+  width: 100%;
+}
+
+#new-release-title .l-inner .new-release-title--wrap figure + div {
+  vertical-align: top;
+  padding-left: 30px;
+}
+
+#new-release-title .l-inner .new-release-title--wrap figure + div h3 {
+  margin: 0;
+}
+
+#new-release-title .l-inner .btn {
+  background: #bf0000;
+  margin: 2rem 0;
+}
+
+#new-release-title .l-inner ul {
+  margin: 4rem 0 0;
+}
+
+#new-release-title .l-inner ul li {
+  padding: 2rem 1rem;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#new-release-title .l-inner ul li:last-of-type {
+  border-bottom: 1px solid #ddd;
+}
+
+#new-release-title .l-inner ul li > div {
+  display: flex;
+  justify-content: right;
+}
+
+#new-release-title .l-inner ul li > div > div {
+  margin: 0 1rem;
+  font-size: 2.4rem;
+  transition: all 0.1s ease-in;
+}
+
+#new-release-title .l-inner ul li > div > div:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+#new-release-title .l-inner ul li > div .playbtn {
+  color: #bf0000;
+}
+
+#new-release-title .l-inner ul li > div .stopbtn {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  #new-release-title .l-inner .new-release-title--wrap figure {
+    width: 40vw;
+  }
+  #new-release-title .l-inner .new-release-title--wrap figure + div {
+    padding-left: 2rem;
+    flex: 1;
+  }
+}

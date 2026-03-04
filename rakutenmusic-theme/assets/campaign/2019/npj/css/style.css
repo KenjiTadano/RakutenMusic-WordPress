@@ -1,0 +1,284 @@
+#page .l-content {
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/npj/img/bg.jpg) center top/cover no-repeat fixed;
+}
+
+#page .l-content .campaign-hero__schedule {
+  background: rgba(255, 255, 255, 0.1);
+  border: 0.4rem solid;
+}
+
+#page .l-content .heading--m,
+#page .l-content .heading--s {
+  color: white;
+}
+
+#page .l-content .heading--m:after {
+  content: "";
+  display: block;
+  width: 6rem;
+  height: 0.8rem;
+  background: white;
+  margin: 10px auto 0;
+}
+
+#page .l-content .text-box {
+  color: white;
+}
+
+#page .l-content #event-about h2 {
+  margin: 0 0 2rem;
+}
+
+#page .l-content #event-about .l-inner ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 !important;
+}
+
+#page .l-content #event-about .l-inner ul li:not(:last-child) {
+  margin-right: 2rem;
+}
+
+#page .l-content #event-about .l-inner ul li img {
+  width: 100%;
+}
+
+#page .l-content #event-about .l-inner dl {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 2rem 0 !important;
+}
+
+#page .l-content #event-about .l-inner dl > * {
+  margin: 0;
+  color: white;
+}
+
+#page .l-content #event-about .l-inner dl dt {
+  width: 30%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem 0;
+  margin: 0.5rem 0;
+}
+
+#page .l-content #event-about .l-inner dl dd {
+  width: 70%;
+  padding: 2rem 0 2rem 2rem;
+}
+
+#page .l-content #procedure .l-inner {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2rem 0;
+  margin: 4rem auto 2rem;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+#page .l-content #procedure .l-inner > p {
+  color: white;
+  line-height: 5.3rem;
+  font-weight: bold;
+  margin: 0 2rem;
+}
+
+#page .l-content #procedure .l-inner ol {
+  display: flex;
+  justify-content: center;
+}
+
+#page .l-content #procedure .l-inner ol li {
+  margin: 0 1rem;
+}
+
+#page .l-content #procedure .l-inner ol li a {
+  display: block;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  border: 0.4rem solid white;
+  border-radius: 6rem;
+  color: white;
+  transition: all 0.2s linear;
+}
+
+#page .l-content #procedure .l-inner ol li a:hover {
+  transform: translateY(0.3rem);
+}
+
+#page .l-content #procedure .l-inner ol li a:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  font-weight: 900;
+  margin-left: 1rem;
+}
+
+#page .l-content .step h3 {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem 0;
+}
+
+#page .l-content .step h3 + p {
+  text-align: center;
+  color: white;
+  margin: 4rem 0 0 !important;
+}
+
+#page .l-content .btn-apply {
+  margin: 4rem 0;
+}
+
+#page .l-content .btn-apply .l-inner p {
+  color: white;
+}
+
+#page .l-content .btn-apply .l-inner p a {
+  color: yellow;
+}
+
+#page .l-content .btn-apply .l-inner p a:hover {
+  color: khaki;
+}
+
+#page .l-content #app-banner .l-inner ul {
+  width: 600px;
+  margin: 4rem auto;
+}
+
+#page .l-content #app-banner .l-inner ul li:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+#page .l-content #app-banner .l-inner ul li img {
+  width: 100%;
+}
+
+#page .l-content #howtobox .l-inner ul {
+  display: flex;
+  justify-content: center;
+}
+
+#page .l-content #howtobox .l-inner ul li {
+  width: 300px;
+  margin: 0 4rem;
+  position: relative;
+}
+
+#page .l-content #howtobox .l-inner ul li:first-child:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0da";
+  font-weight: 900;
+  color: white;
+  font-size: 6rem;
+  position: absolute;
+  top: 40%;
+  right: -5.5rem;
+}
+
+#page .l-content #howtobox .l-inner ul li div img {
+  width: 100%;
+}
+
+#page .l-content #howtobox .l-inner ul li p {
+  color: white;
+  padding: 1rem;
+  text-align: justify;
+}
+
+#page .l-content .stack-characteristic .l-inner {
+  padding: 4rem;
+  background: white;
+}
+
+#page .l-content .campaign-list {
+  padding: 4rem !important;
+  background: white;
+}
+
+#page .l-content .campaign-detail__table {
+  background: white;
+}
+
+@media screen and (max-width: 768px) {
+  #page .l-content {
+    background: none;
+  }
+  #page .l-content:after {
+    content: "";
+    display: block;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/npj/img/bg_sp.jpg) center top/cover no-repeat;
+  }
+  #page .l-content .campaign-hero__schedule {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  #page .l-content #event-about .l-inner ul {
+    flex-wrap: wrap;
+  }
+  #page .l-content #event-about .l-inner ul li {
+    width: 50%;
+    padding: 0.5rem;
+  }
+  #page .l-content #event-about .l-inner ul li:not(:last-child) {
+    margin: initial;
+  }
+  #page .l-content #event-about .l-inner dl dd {
+    padding: 1rem 0 1rem 1rem;
+  }
+  #page .l-content #procedure .l-inner {
+    display: block;
+  }
+  #page .l-content #procedure .l-inner > p {
+    text-align: center;
+  }
+  #page .l-content #procedure .l-inner ol {
+    display: block;
+    width: 90vw;
+    margin: 0 auto;
+  }
+  #page .l-content #procedure .l-inner ol li {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  #page .l-content #app-banner .l-inner ul {
+    width: 100%;
+  }
+  #page .l-content #howtobox .l-inner {
+    padding: 0;
+  }
+  #page .l-content #howtobox .l-inner > div {
+    overflow-x: scroll;
+  }
+  #page .l-content #howtobox .l-inner ul {
+    width: 180vw;
+    padding: 0 12vw;
+  }
+  #page .l-content #howtobox .l-inner ul li {
+    width: 50%;
+    margin: 0 2rem;
+  }
+  #page .l-content #howtobox .l-inner ul li:first-child:after {
+    top: 60vw;
+    right: -3.5rem;
+  }
+  #page .l-content .stack-characteristic .l-inner {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  #page .l-content .campaign-list {
+    padding: 0 !important;
+    background: none;
+  }
+  #page .l-content .campaign-list .campaign__item {
+    background: none;
+  }
+}

@@ -1,0 +1,79 @@
+#page .s-campaign-hero {
+  padding: 0;
+  background: #1a7bd1;
+}
+
+#page #albums .l-inner h3,
+#page #singles .l-inner h3 {
+  margin: 2rem 0 1rem;
+}
+
+#page #albums .l-inner ul,
+#page #singles .l-inner ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#page #albums .l-inner ul li,
+#page #singles .l-inner ul li {
+  width: 20%;
+  padding: 0 1rem;
+  margin: 0 0 3rem;
+}
+
+#page #albums .l-inner ul li figure,
+#page #singles .l-inner ul li figure {
+  display: flex;
+  flex-direction: column;
+}
+
+#page #albums .l-inner ul li figure img,
+#page #singles .l-inner ul li figure img {
+  width: 100%;
+  margin-top: auto;
+  border: 1px solid whitesmoke;
+}
+
+#page #albums .l-inner ul li div,
+#page #singles .l-inner ul li div {
+  margin: 0.5em 0 0;
+}
+
+#page #albums .l-inner ul li div p:last-of-type,
+#page #singles .l-inner ul li div p:last-of-type {
+  font-size: 1.2rem;
+}
+
+#page .item-list .item__card__image > a {
+  display: flex;
+  flex-direction: column;
+}
+
+#page .item-list .item__card__image > a img {
+  width: 100%;
+  height: auto;
+  max-width: initial;
+  max-height: initial;
+  margin-top: auto;
+  transition: all 0.2s ease-in;
+}
+
+#page .item-list .item__card__image > a:hover {
+  -webkit-box-shadow: initial;
+  box-shadow: initial;
+}
+
+#page .item-list .item__card__image > a:hover img {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#page .item-list .item__card__image > a:hover:after {
+  content: initial;
+}
+
+@media screen and (max-width: 768px) {
+  #page #albums .l-inner ul li,
+  #page #singles .l-inner ul li {
+    width: 50%;
+  }
+}

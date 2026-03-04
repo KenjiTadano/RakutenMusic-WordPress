@@ -1,0 +1,558 @@
+#page main.l-content {
+  overflow: hidden;
+}
+
+#page .contains-default {
+  padding: 42px 0;
+}
+
+#page .contains-default .l-inner {
+  padding: 0 24px;
+}
+
+#page #campaign-about {
+  background: #910029;
+}
+
+#page #campaign-about .l-inner h1 {
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/heading_1_sp.png) no-repeat top left/cover;
+  font-size: 0;
+  line-height: 0;
+  width: 282px;
+  height: 42px;
+  margin: 0 0 42px;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li {
+  margin-bottom: 42px;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap {
+  margin-bottom: 36px;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap h2 {
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+  border-left: 4px solid white;
+  padding-left: 16px;
+  margin-bottom: 24px;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap > div p {
+  color: white;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap > div p.lead {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 16px;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh {
+  padding: 22px;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .trial-btn {
+  width: 100%;
+  height: 56px;
+  background: #fbbd00;
+  box-shadow: 0px 8px 0px #db8600;
+  border-radius: 56px;
+  margin-bottom: 24px;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .trial-btn a {
+  display: block;
+  color: #8c0000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 56px;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .trial-btn + p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .trial-btn + p small {
+  font-size: 100%;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .playlist-anchor-link {
+  width: 100%;
+  background: #fbbd00;
+  box-shadow: 0px 8px 0px #db8600;
+  border-radius: 84px;
+  text-align: center;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .playlist-anchor-link a {
+  display: block;
+  color: #8c0000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 0;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .playlist-anchor-link a i {
+  display: none;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li .slick-mypage figure + div {
+  border: 6px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding: 24px;
+  margin-top: -16px;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li .slick-mypage figure + div p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li .slick-prev:before {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 40px;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/polygon_left.png) no-repeat center/contain;
+}
+
+#page #campaign-about .l-inner ol.campaign-about-steps > li .slick-next:before {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 40px;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/polygon_right.png) no-repeat center/contain;
+}
+
+#page #campaign-about .l-inner > p a {
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#page #campaign-about .l-inner > p a i {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+}
+
+#page #present {
+  background: #f7f7f7;
+}
+
+#page #present .l-inner .present-header-wrap {
+  margin-bottom: 42px;
+}
+
+#page #present .l-inner .present-header-wrap h1 {
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/heading_2_sp.png) no-repeat top left/cover;
+  font-size: 0;
+  line-height: 0;
+  width: 223px;
+  height: 42px;
+  margin: 0 0 12px;
+}
+
+#page #present .l-inner ul.present-items > li {
+  margin-bottom: 24px;
+}
+
+#page #present .l-inner ul.present-items > li:last-of-type {
+  margin-bottom: 0;
+}
+
+#page #present .l-inner ul.present-items > li figure {
+  width: 290px;
+  margin: 0 auto;
+}
+
+#page #present .l-inner ul.present-items > li figure figcaption {
+  margin-top: 16px;
+}
+
+#page #present .l-inner ul.present-items > li figure figcaption p {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #910029;
+}
+
+#page #present .l-inner ul.present-items > li figure figcaption p small {
+  font-weight: normal;
+  font-size: 12px;
+  color: black;
+}
+
+#page #playlist .l-inner h1 {
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/heading_3_sp.png) no-repeat top left/cover;
+  font-size: 0;
+  line-height: 0;
+  max-width: 323px;
+  height: 42px;
+  margin: 0 0 42px;
+}
+
+#page #playlist .l-inner table {
+  width: 100%;
+}
+
+#page #playlist .l-inner table thead {
+  display: none;
+}
+
+#page #playlist .l-inner table tbody tr {
+  display: block;
+  border-top: 1px solid #d1d1d1;
+  padding: 24px 0;
+}
+
+#page #playlist .l-inner table tbody tr:last-of-type {
+  border-bottom: 1px solid #d1d1d1;
+}
+
+#page #playlist .l-inner table tbody tr td {
+  display: block;
+}
+
+#page #playlist .l-inner table tbody tr td a {
+  color: #910029;
+  text-decoration: underline;
+}
+
+#page #playlist .l-inner table tbody tr td:nth-of-type(1), #page #playlist .l-inner table tbody tr td:nth-of-type(2) {
+  margin-bottom: 16px;
+}
+
+#page #playlist .l-inner table tbody tr td:nth-of-type(3), #page #playlist .l-inner table tbody tr td:nth-of-type(4) {
+  display: inline-block;
+}
+
+#page #playlist .l-inner table tbody tr td:last-of-type {
+  padding-left: 16px;
+}
+
+#page #playlist .l-inner .playlist-btn {
+  display: none;
+}
+
+#page #playlist .l-inner .playlist-more {
+  margin: 36px auto;
+}
+
+#page #playlist .l-inner .playlist-more button {
+  width: 100%;
+  border: 0;
+  padding: 16px 36px;
+  background: #f7f7f7;
+  border-radius: 8px;
+  color: #d80000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#page #playlist .l-inner .playlist-more button i {
+  width: 16px;
+  height: 16px;
+  font-size: 0;
+  margin-right: 12px;
+}
+
+#page #playlist .l-inner > p {
+  text-align: center;
+  margin: 24px auto 0;
+  font-size: 12px;
+}
+
+#page .playlist-link > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 0 12px;
+}
+
+#page .playlist-link > p i {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+#page .playlist-link > div {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 4px 0;
+  width: 168px;
+  margin: 0 auto;
+}
+
+#page .playlist-link > div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+#page .playlist-link > div a i {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  font-size: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    padding: 0;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/bg.jpg) no-repeat center top/auto 85.6% black;
+  }
+  #page .contains-default {
+    padding: 60px 0;
+  }
+  #page #campaign-about .l-inner h1 {
+    width: 363px;
+    height: 63px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/heading_1.png) no-repeat top left/cover;
+    margin: 0 0 60px;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li {
+    margin-bottom: 60px;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li:nth-of-type(2) {
+    margin-bottom: 20px;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap {
+    display: flex;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap h2 {
+    height: 52px;
+    font-size: 40px;
+    line-height: 52px;
+    padding: 0 16px;
+    margin-right: 36px;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap > div p.lead {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh {
+    padding: 42px;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .trial-btn {
+    width: 493px;
+    height: 84px;
+    margin: 0 auto 24px;
+    transition: all 0.1s ease-in;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .trial-btn:hover {
+    box-shadow: 0px 4px 0px #db8600;
+    transform: translateY(4px);
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .trial-btn a {
+    font-size: 28px;
+    line-height: 84px;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .trial-btn a::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/chevron_right.png) no-repeat center/contain;
+    margin-left: 16px;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .trial-btn + p {
+    text-align: center;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .playlist-anchor-link {
+    width: 544px;
+    height: 84px;
+    margin: 0 auto 24px;
+    transition: all 0.1s ease-in;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .playlist-anchor-link:hover {
+    box-shadow: 0px 4px 0px #db8600;
+    transform: translateY(4px);
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .playlist-anchor-link a {
+    font-size: 28px;
+    line-height: 84px;
+    padding: 0;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li div.campaign-about-steps-wrap--wh .playlist-anchor-link a::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/chevron_down.png) no-repeat center/contain;
+    margin-left: 16px;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li .slick-mypage .slick-slide {
+    min-height: 0;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li .slick-mypage .slick-slide figure {
+    width: 300px;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li .slick-mypage .slick-slide figure img {
+    width: 100%;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li .slick-mypage .slick-slide figure + div {
+    align-self: center;
+    padding: 42px;
+  }
+  #page #campaign-about .l-inner ol.campaign-about-steps > li .slick-mypage .slick-slide figure + div p {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #page #campaign-about .l-inner > p a i {
+    font-size: 0;
+  }
+  #page #campaign-about .l-inner > p a i img {
+    width: 100%;
+  }
+  #page #campaign-about .l-inner > p a:hover {
+    text-decoration: underline;
+  }
+  #page #present .l-inner .present-header-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  #page #present .l-inner .present-header-wrap h1 {
+    width: 292px;
+    height: 63px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/heading_2.png) no-repeat top left/cover;
+    margin: 0;
+  }
+  #page #present .l-inner ul.present-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  #page #present .l-inner ul.present-items > li {
+    width: 290px;
+    margin-bottom: 0;
+  }
+  #page #present .l-inner ul.present-items > li figure {
+    width: 100%;
+  }
+  #page #present .l-inner ul.present-items > li figure img {
+    width: 100%;
+  }
+  #page #playlist .l-inner h1 {
+    max-width: 412px;
+    height: 63px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/heading_3.png) no-repeat top left/cover;
+    margin: 0;
+  }
+  #page #playlist .l-inner table {
+    margin: 60px auto 36px;
+  }
+  #page #playlist .l-inner table thead {
+    display: table-header-group;
+  }
+  #page #playlist .l-inner table thead tr td {
+    border-top: 3px solid #d1d1d1;
+    border-bottom: 3px solid #d1d1d1;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 24px;
+  }
+  #page #playlist .l-inner table tbody tr {
+    display: table-row;
+  }
+  #page #playlist .l-inner table tbody tr td {
+    display: table-cell !important;
+    padding: 24px !important;
+    border-bottom: 1px solid #d1d1d1;
+  }
+  #page #playlist .l-inner table tbody tr td:first-of-type {
+    width: 348px;
+  }
+  #page #playlist .l-inner table tbody tr td:nth-of-type(2) {
+    width: 238px;
+  }
+  #page #playlist .l-inner table tbody tr td:nth-of-type(3) {
+    width: 96px;
+  }
+  #page #playlist .l-inner table tbody tr td a:hover {
+    text-decoration: none;
+  }
+  #page #playlist .l-inner .playlist-wrapper {
+    position: relative;
+  }
+  #page #playlist .l-inner .playlist-btn {
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    font-size: 0;
+    opacity: 1;
+  }
+  #page #playlist .l-inner .playlist-btn.playlist-btn--prev {
+    left: -36px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/polygon_left.png) no-repeat center/contain;
+  }
+  #page #playlist .l-inner .playlist-btn.playlist-btn--next {
+    right: -36px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/polygon_right.png) no-repeat center/contain;
+  }
+  #page #playlist .l-inner .playlist-btn:hover {
+    opacity: 0.75;
+    cursor: pointer;
+  }
+  #page #playlist .l-inner .playlist-btn.disabled {
+    opacity: 0.25;
+  }
+  #page #playlist .l-inner .playlist-btn.disabled:hover {
+    cursor: auto;
+  }
+  #page .playlist-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #page .playlist-link > p {
+    margin: 0;
+  }
+  #page .playlist-link > p i {
+    width: 16px;
+    height: 16px;
+    font-size: 0;
+  }
+  #page .playlist-link > p i img {
+    width: 100%;
+  }
+  #page .playlist-link > div {
+    margin: 0 0 0 12px;
+  }
+  #page .playlist-link > div a i {
+    width: 16px;
+    height: 16px;
+    font-size: 0;
+  }
+  #page .playlist-link > div a i img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/reward-temporary-banner-bundle",
+  "title": "リワード：バンドルPRバナー",
+  "category": "rakutenmusic-reward",
+  "icon": "align-wide",
+  "description": "リワードページ用 バンドルPRバナー（temporary-banner-bundle）",
+  "keywords": ["楽天", "ミュージック", "リワード", "バンドル", "バナー"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "render": "file:./render.php"
+}

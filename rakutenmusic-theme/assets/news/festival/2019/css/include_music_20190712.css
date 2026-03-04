@@ -1,0 +1,144 @@
+#include-music {
+  width: 950px;
+  padding: 40px 60px;
+  background: white;
+  border: 5px solid #f4f4f4;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#include-music a {
+  display: block;
+  transition: all 0.2s ease-in;
+}
+
+#include-music a:after {
+  transition: all 0.2s ease-in;
+}
+
+#include-music > p {
+  font-size: 16px;
+  text-align: center;
+}
+
+#include-music .logo {
+  text-align: center;
+  padding: 24px 0 12px;
+}
+
+#include-music .bnr {
+  width: 830px;
+  height: 180px;
+  margin: 20px auto 40px;
+}
+
+#include-music .bnr a:hover {
+  opacity: 0.8;
+}
+
+#include-music .feature figure {
+  text-align: center;
+}
+
+#include-music .btn-trial {
+  position: relative;
+  z-index: 1;
+  width: 600px;
+  height: 75px;
+  margin: -40px auto 0;
+  border-radius: 75px;
+  background: #7f43e2;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #7f43e2 0%, #eb36f9 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #7f43e2 0%, #eb36f9 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #7f43e2 0%, #eb36f9 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#include-music .btn-trial a {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 75px;
+  font-size: 24px;
+  text-decoration: none;
+  border-radius: 75px;
+}
+
+#include-music .btn-trial a:after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 12px;
+}
+
+#include-music .btn-trial a:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#include-music .btn-trial a:hover:after {
+  margin-left: 24px;
+}
+
+#include-music .sub-area p {
+  text-align: center;
+}
+
+#include-music .sub-area p.cpn {
+  padding: 1.5rem;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#include-music .sub-area p.cpn a {
+  color: red;
+  text-decoration: underline;
+}
+
+#include-music .sub-area p.cpn a:hover {
+  text-decoration: none;
+}
+
+#include-music .sub-area p.note {
+  line-height: 1.5;
+}
+
+#include-music .howto h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 60px 0 40px;
+}
+
+#include-music .howto ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#include-music .howto ul li {
+  width: 300px;
+  position: relative;
+}
+
+#include-music .howto ul li div img {
+  width: 100%;
+}
+
+#include-music .howto ul li p {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 1em 0 0;
+}
+
+#include-music .howto ul li:first-of-type:after {
+  content: "\f0da";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 12px;
+  font-size: 64px;
+  position: absolute;
+  top: 40%;
+  left: 122%;
+}

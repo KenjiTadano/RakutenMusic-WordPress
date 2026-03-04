@@ -1,0 +1,14 @@
+#page ul.referral-program {
+  padding: 0 16px;
+  margin: 32px auto;
+}
+
+@media screen and (min-width: 767px) {
+  #page ul.referral-program {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

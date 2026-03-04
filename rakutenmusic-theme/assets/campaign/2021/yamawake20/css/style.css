@@ -1,0 +1,429 @@
+/*---------- キャンペーンアバウト ----------*/
+
+#page .l-inner {
+    width: 960px;
+    padding: 0;
+}
+
+#page small {
+    font-size: 1.2rem;
+}
+
+#page .item-list {
+    padding-bottom: 0;
+}
+
+#page .btn-apply {
+    margin: 2.4rem auto 0;
+}
+
+#page .btn-apply .l-inner {
+    width: 100%;
+}
+
+#page h2.heading--m {
+    margin: 3.2rem auto;
+}
+
+#page .campaign-hero__schedule p {
+    color: black;
+}
+
+#page #campaign-about {
+    margin: 0 auto;
+    padding: 3.2rem 0;
+    background: #FF5F01;
+}
+
+#page #campaign-about .l-inner .campaign-about-annotation p {
+    margin: 0 auto;
+    padding: 2rem;
+    width: 100%;
+    background: white;
+    border-radius: 0.8rem;
+}
+
+#page #campaign-about .l-inner .campaign-about-annotation a {
+    text-decoration: underline;
+}
+
+#page #campaign-about .l-inner .campaign-about-coin {
+    margin: 3.2rem auto 0;
+    height: 227px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/yamawake20/img/coin.png) no-repeat center;
+}
+
+#page #campaign-about .l-inner .campaign-about-coin p {
+    position: relative;
+    top: 30%;
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+/*---------- キャンペーン参加方法 ----------*/
+
+#page h2.heading--m {
+    padding-top: 0;
+    margin-bottom: 32px;
+}
+
+#page #campaign-howto {
+    margin: 0 auto 3.2rem;
+    background: #FF5F01;
+}
+
+#page #campaign-howto .l-inner h2 {
+    margin-bottom: 3.2rem;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+#page #campaign-howto .l-inner ul li {
+    margin: 3.2rem auto 6.4rem;
+    padding: 3.2rem 2rem;
+    background: white;
+    border-radius: 1.2rem;
+}
+
+#page #campaign-howto .l-inner ul li::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4rem 4rem 0 4rem;
+    border-color: black transparent transparent transparent;
+    position: relative;
+    bottom: -9.6rem;
+    left: 50%;
+    margin-left: -5rem;
+}
+
+#page #campaign-howto .l-inner ul li:last-child::after {
+    content: none;
+}
+
+#page #campaign-howto .l-inner ul li h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: #FF5F01;
+}
+
+#page #campaign-howto .l-inner ul li h4 {
+    margin: 1.6rem auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#page #campaign-howto .l-inner ul li h4 a {
+    text-decoration: underline;
+}
+
+#page #campaign-howto .l-inner ul li h4 span,
+#page #campaign-howto .l-inner ul li p small.red {
+    color: red;
+}
+
+#page #campaign-howto .l-inner ul li p {
+    text-align: center;
+}
+
+#page #campaign-howto .l-inner ul li .screenshot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page #campaign-howto .l-inner ul li .screenshot figure {
+    margin: 0 2.4rem;
+}
+
+#page #campaign-howto .l-inner ul li .screenshot figure img {
+    width: 220px;
+}
+
+#page #campaign-howto .l-inner ul li .screenshot .arrow {
+    width: auto;
+    height: 61px;
+}
+
+#page #campaign-howto .l-inner ul li .app {
+    margin: 3.2rem auto 0;
+    padding: 2.4rem;
+    background: #EBEBEB;
+}
+
+#page #campaign-howto .l-inner ul li .app div {
+    display: flex;
+    justify-content: center;
+}
+
+#page #campaign-howto .l-inner ul li .app>div>a>img {
+    margin: 0 0.8rem;
+    width: 260px;
+}
+
+#page #campaign-howto .l-inner ul li .app>div>a:hover {
+    opacity: 70%;
+}
+
+
+/*---------- 最新配信曲 ----------*/
+
+#page .s-delivery-list {
+    border-top: none;
+    border-bottom: none;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#page #campaign-howto .l-inner .s-delivery-list .l-inner>h2.heading--m {
+    font-size: 2rem;
+    margin: 1.6rem 0;
+    margin-right: 0;
+    width: 900px;
+}
+
+#page .s-delivery-list .l-inner .item-list .js-toggle ul li::after {
+    display: none;
+}
+
+#page .s-delivery-list .l-inner .item-list .js-toggle ul li.item__card {
+    margin: 0.4rem 1.2rem !important;
+    padding: 0 !important;
+    background: none !important;
+    border-radius: 0 !important;
+}
+
+#page .s-delivery-list .l-inner .item-list .item__card__image {
+    width: 163px;
+}
+
+#page .s-delivery-list .l-inner .item-list .item__card__image img {
+    width: 100%;
+}
+
+#page .s-delivery-list .l-inner .item-list .item__list {
+    margin: -2px 0 0 -2px;
+}
+
+
+/*---------- STEP 4 ----------*/
+
+#page #campaign-howto .l-inner ul li figure {
+    text-align: center;
+}
+
+
+/*---------- notes ----------*/
+
+#page #campaign-notes .l-inner .notes {
+    border: 1px solid red;
+    margin: 3.2rem auto;
+    padding: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFA;
+}
+
+#page #campaign-notes .l-inner .notes figure {
+    margin: 0 2.4rem;
+}
+
+#page #campaign-notes .l-inner .notes>div h3 {
+    color: red;
+}
+
+#page #campaign-notes .l-inner .notes>div>p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#page #campaign-notes .l-inner .notes figure img {
+    width: 200px;
+}
+
+
+/*---------- お得な特典 ----------*/
+
+#page #merit .l-inner {
+    width: 100%;
+}
+
+#page #merit .l-inner>ol>li>.screenshot {
+    background: #FF5F01;
+}
+
+
+/*---------- SP ----------*/
+
+@media screen and (max-width: 1000px) {
+    #page .s-campaign-hero .l-inner {
+        width: 100%;
+    }
+    #page #campaign-about .l-inner,
+    #page #campaign-howto .l-inner,
+    #page #campaign-notes .l-inner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 1.6rem;
+    }
+    #page #campaign-howto .l-inner .s-delivery-list .l-inner>h2.heading--m {
+        width: 100%;
+    }
+    #page .s-delivery-list .l-inner .item-list .item__card__image {
+        margin: 0;
+    }
+    #page .item-list .item__card {
+        width: 25%;
+    }
+    #page .s-delivery-list .l-inner .item-list .item__list {
+        justify-content: center;
+    }
+    #page .s-delivery-list .l-inner .item-list .js-toggle ul li.item__card {
+        margin: 0 auto !important;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #page #campaign-howto .l-inner ul li .app div {
+        display: block;
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #page #campaign-howto .l-inner ul li .app>div>a>img {
+        margin: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #page .s-campaign-hero {
+        padding: 0;
+        background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/yamawake20/img/bg.jpg) no-repeat center top/auto 85% #F1EBEB;
+    }
+    #page .campaign-hero__schedule {
+        position: relative;
+        z-index: 1;
+    }
+    #page #campaign-howto .l-inner ul li figure img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #page .l-inner {
+        width: 100%;
+    }
+    #page #campaign-about .l-inner .campaign-about-coin {
+        margin: 16rem auto 0;
+        height: 153px;
+        background: url(https://music.r10s.jp/external/prod/assets/campaign/2021/yamawake20/img/coin_sp.png) no-repeat center top/96%;
+    }
+    #page #campaign-about .l-inner .campaign-about-coin p {
+        top: -13rem;
+        font-size: 2.4rem;
+    }
+    #page #campaign-howto {
+        padding-bottom: 2.4rem;
+    }
+    #page #campaign-howto .l-inner .s-delivery-list .l-inner {
+        margin: 0 auto;
+        padding: 0;
+    }
+    #page .item-list .item__card {
+        width: 35%;
+    }
+    #page #campaign-howto .l-inner ul li .app div {
+        width: 100%;
+    }
+    #page #campaign-howto .l-inner ul li .app>div>a>img {
+        width: 200px;
+    }
+    #page #campaign-notes .l-inner .notes {
+        display: block;
+        text-align: center;
+    }
+    #page #campaign-notes .l-inner .notes>div>p {
+        text-align: left;
+        margin-bottom: 2.4rem;
+        font-size: 1.8rem;
+    }
+    #page #campaign-howto .l-inner h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    #page #campaign-howto .l-inner ul li .screenshot {
+        display: block;
+    }
+    #page #campaign-howto .l-inner ul li .screenshot .arrow {
+        transform: rotate( 90deg);
+        display: block;
+        margin: 0 auto;
+    }
+    #page .s-delivery-list .l-inner .item-list .item__card__image {
+        margin: 0;
+    }
+    #page .s-delivery-list .l-inner .item-list .js-toggle ul li.item__card {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #page #campaign-howto .l-inner ul li h4,
+    #page #campaign-howto .l-inner ul li p {
+        text-align: left;
+    }
+    #page #campaign-about .l-inner .campaign-about-coin p {
+        font-size: 2.2rem;
+    }
+    #page .s-delivery-list .l-inner .item-list .item__card__image,
+    #page .s-delivery-list .l-inner .item-list .item__card__image img,
+    #page .s-delivery-list .item-list .item__card__title {
+        width: 120px;
+    }
+    #page #campaign-howto .l-inner ul li .screenshot figure img {
+        width: 100%;
+    }
+    #page #campaign-about .l-inner .campaign-about-coin {
+        height: 100px;
+    }
+    #page #campaign-notes .l-inner .notes figure img {
+        width: 100%;
+    }
+    #page #merit {
+        padding: 3.6rem 1.6rem;
+    }
+    #page #merit .l-inner h2 {
+        font-size: 2rem;
+    }
+    #page #merit .l-inner>ol>li>.screenshot {
+        width: 260px;
+    }
+    #page #campaign-howto .l-inner ul li .app>div>a>img {
+        width: 100%;
+        margin: 0.8rem auto;
+    }
+    #page #campaign-howto .l-inner .item-list .js-toggle__trigger {
+        text-align: center;
+        background-color: #eeeeee;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #page .s-delivery-list .l-inner .item-list .item__card__image,
+    #page .s-delivery-list .l-inner .item-list .item__card__image img,
+    #page .s-delivery-list .item-list .item__card__title {
+        width: 100px;
+    }
+}

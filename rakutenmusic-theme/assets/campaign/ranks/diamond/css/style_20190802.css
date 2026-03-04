@@ -1,0 +1,325 @@
+#page .l-content {
+  overflow: hidden;
+}
+
+#page .s-campaign-hero {
+  padding: 0;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/ranks/diamond/img/bg_20190802.png) no-repeat center top/auto 85.6%;
+  position: relative;
+}
+
+#page .s-campaign-hero:after {
+  content: "";
+  display: block;
+  background: #0d004c;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#page #ranks-songs ul li figure {
+  height: 100px;
+}
+
+#page #ranks-songs ul li figure img {
+  width: initial;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#page #steps {
+  margin: 4rem 0;
+}
+
+#page #steps .l-inner ol > li .brief {
+  text-align: center;
+  margin: 4rem 0;
+  font-size: 2rem;
+  padding: 1.5em;
+  background: lemonchiffon;
+}
+
+#page #steps .l-inner ol > li .brief strong {
+  font-size: 1.2em;
+  color: red;
+}
+
+#page #steps .l-inner ol > li > p.arrow_box {
+  position: relative;
+  display: block;
+  margin: 0 auto 3rem;
+  width: 800px;
+  background: whitesmoke;
+  padding: 1rem 0 !important;
+  text-align: center;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+#page #steps .l-inner ol > li > p.arrow_box strong {
+  color: #bf0000;
+}
+
+#page #steps .l-inner ol > li > p.arrow_box:after {
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  position: absolute;
+  border-color: rgba(245, 245, 245, 0);
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  margin-left: -10px;
+  border-top-color: whitesmoke;
+  top: 100%;
+  left: 50%;
+}
+
+#page #steps .l-inner ol > li p {
+  text-align: center;
+}
+
+#page #steps .l-inner ol > li p.memo {
+  background: whitesmoke;
+  padding: 2rem;
+  font-size: 1.4rem;
+  text-align: justify;
+  margin: 2rem auto;
+}
+
+#page #steps .l-inner ol > li p._2DmP {
+  text-align: justify;
+}
+
+#page #steps .l-inner ol > li .btn-apply {
+  margin: 4rem auto;
+}
+
+#page #steps .l-inner ol > li .btn-apply .l-inner {
+  padding: 0;
+  width: 100%;
+}
+
+#page #steps .l-inner ol > li .btn-apply .l-inner .trial-btn {
+  margin: 4rem auto;
+}
+
+#page #steps .l-inner ol > li ul {
+  width: 650px;
+  margin: 0 auto;
+}
+
+#page #steps .l-inner ol > li ul li {
+  background: cornsilk;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  border: 1px solid darkorange;
+}
+
+#page #howtouse {
+  overflow: hidden;
+  position: relative;
+}
+
+#page #howtouse:before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
+}
+
+#page #howtouse .l-inner {
+  position: relative;
+  padding: 0 0 6rem;
+}
+
+#page #howtouse .l-inner .carousel-btn {
+  font-weight: 900;
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 1;
+  top: 240px;
+}
+
+#page #howtouse .l-inner .carousel-btn i {
+  transition: all 0.1s ease-in;
+}
+
+#page #howtouse .l-inner .carousel-btn i:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  color: black;
+}
+
+#page #howtouse .l-inner .carousel-left {
+  left: -2rem;
+  display: none;
+}
+
+#page #howtouse .l-inner .carousel-right {
+  right: -2rem;
+}
+
+#page #howtouse .l-inner .steps {
+  display: flex;
+  position: relative;
+}
+
+#page #howtouse .l-inner .steps > li {
+  margin: 0 15px;
+  transition: all 0.1s ease-in;
+}
+
+#page #howtouse .l-inner .steps > li figure img {
+  width: 280px;
+}
+
+#page #howtouse .l-inner .steps > li:nth-child(1) h3:after {
+  content: " 1";
+}
+
+#page #howtouse .l-inner .steps > li:nth-child(2) h3:after {
+  content: " 2";
+}
+
+#page #howtouse .l-inner .steps > li:nth-child(3) h3:after {
+  content: " 3";
+}
+
+#page #howtouse .l-inner .steps > li:nth-child(4) h3:after {
+  content: " 4";
+}
+
+#page #howtouse .l-inner .steps > li:nth-child(5) h3:after {
+  content: " 5";
+}
+
+#page #howtouse .l-inner .steps > li:nth-child(6) h3:after {
+  content: " 6";
+}
+
+#page #howtouse .l-inner .steps > li:nth-child(7) h3:after {
+  content: " 7";
+}
+
+#page #howtouse .l-inner .steps > li h3 {
+  background: #00173d;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#page #howtouse .l-inner .steps > li p {
+  margin: 1rem 0 0;
+}
+
+#page #howtouse .l-inner .steps > li.current {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  #page #ranks-songs li.slick-slide figure img {
+    margin: 0 auto;
+  }
+  #page #steps .l-inner ol > li .brief {
+    margin: 2rem 0;
+    font-size: 1.6rem;
+  }
+  #page #steps .l-inner ol > li > p.arrow_box {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  #page #steps .l-inner ol > li h2 {
+    margin: 2rem 0 !important;
+  }
+  #page #steps .l-inner ol > li h3 {
+    margin: 4rem 0 2rem;
+  }
+  #page #steps .l-inner ol > li p {
+    text-align: justify;
+  }
+  #page #steps .l-inner ol > li .btn-apply .l-inner .trial-btn {
+    margin: 3rem auto;
+  }
+  #page #steps .l-inner ol > li .btn-apply .l-inner > div {
+    width: 100%;
+  }
+  #page #steps .l-inner ol > li .btn-apply .l-inner > div a {
+    font-size: 1.8rem;
+    text-indent: initial;
+  }
+  #page #steps .l-inner ol > li .btn-apply .l-inner > div a:after {
+    display: none;
+  }
+  #page #steps .l-inner ol > li .btn-apply .l-inner p {
+    width: 100%;
+    font-size: 1.6rem;
+    margin: 1rem auto 0;
+  }
+  #page #steps .l-inner ol > li ul {
+    width: 100%;
+  }
+  #page #steps .l-inner ol > li ul li {
+    padding: 0.5rem;
+  }
+  #page #_2Mef {
+    padding: 2rem 0 0;
+  }
+  #page .rex-button__1ArV .rex-button__3n3I {
+    padding: 0;
+  }
+  #page .rex-button__1ArV .rex-button__3n3I::before {
+    margin-left: -10vw;
+  }
+  #page .rex-button__3n3I.rex-button__2YZp > span {
+    font-size: 1.6rem;
+  }
+  #page #howtouse:before {
+    content: initial;
+  }
+  #page #howtouse .l-inner .steps {
+    width: calc(280px * 7);
+    margin-left: 5vw;
+  }
+  #page #howtouse .l-inner .steps > li {
+    width: 250px;
+  }
+  #page #howtouse .l-inner .steps > li figure img {
+    width: 100%;
+  }
+  #page #howtouse .l-inner .carousel-btn {
+    top: initial;
+    bottom: 0;
+    font-size: 4rem;
+    color: black;
+  }
+  #page #howtouse .l-inner .carousel-btn i:hover {
+    transform: initial;
+  }
+  #page #howtouse .l-inner .carousel-left {
+    left: 8rem;
+  }
+  #page #howtouse .l-inner .carousel-right {
+    right: 8rem;
+  }
+}

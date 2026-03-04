@@ -1,0 +1,51 @@
+#page .s-campaign-hero + div.HTMLBlock {
+  text-align: center;
+  padding: 24px;
+  margin-bottom: -24px;
+}
+
+#page .warning {
+  background: #fef0dd;
+  border: 1px solid #a35e04;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+#page .warning i {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/coupon/img/info_outline.png) no-repeat center/cover;
+  margin-right: 8px;
+}
+
+#page .warning p {
+  color: #a35e04;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero + div.HTMLBlock {
+    padding-bottom: 62px;
+  }
+  #page .warning {
+    width: 400px;
+  }
+  #page .warning p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+/*# sourceMappingURL=style_info.css.map */

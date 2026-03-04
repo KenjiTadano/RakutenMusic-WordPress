@@ -1,0 +1,179 @@
+#function-sheet .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#page .container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+#function-sheet .table-wrapper {
+  overflow-x: auto; /* スマホで横スクロール可能にする */
+  -webkit-overflow-scrolling: touch; /* iOSでのスクロールをスムーズに */
+  border: 1px solid #bf0000;
+  border-radius: 4px;
+  margin-bottom: 2px;
+}
+
+#function-sheet table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0;
+  min-width: 600px; /* スマホで横スクロールが発生する最低幅 */
+}
+
+#function-sheet th,
+#function-sheet td {
+  padding: 8px 15px;
+  border: none;
+  border-bottom: 1px solid #bf0000;
+  border-right: 1px solid #bf0000;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 最後の列の右ボーダーは不要 */
+#function-sheet th:last-child,
+#function-sheet td:last-child {
+  border-right: none;
+}
+
+/* 最後の行の下ボーダーは不要 */
+#function-sheet tr:last-child th,
+#function-sheet tr:last-child td {
+  border-bottom: none;
+}
+
+#function-sheet th {
+  background-color: #ffefef;
+  font-weight: bold;
+  color: #2c3e50;
+  white-space: nowrap;
+}
+
+#function-sheet td {
+  background-color: #ffffff;
+}
+
+#function-sheet td span {
+  font-size: 0.8em;
+  vertical-align: super;
+}
+
+#function-sheet .note {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#function-sheet .note span {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+/* Bootstrap Iconsのスタイリング */
+#function-sheet .bi {
+  font-size: 1.4em; /* アイコンのサイズを調整 */
+  vertical-align: middle; /* テキストとアイコンの垂直方向の位置を揃える */
+}
+
+#function-sheet .icon-check {
+  color: #28a745; /* 緑色 */
+}
+
+#function-sheet .icon-dash {
+  color: #d5dade; /* 灰色 */
+}
+#function-sheet .icon-function {
+  width: 21px;
+  height: auto;
+}
+.is-hidden--pc {
+  display: none;
+}
+
+/* PC表示 (768px以上) */
+@media (min-width: 768px) {
+  #function-sheet .container {
+    padding: 24px 0;
+  }
+  #function-sheet .icon-function {
+    width: 24px;
+    height: auto;
+  }
+  #function-sheet .table-wrapper {
+    overflow-x: hidden; /* PCでは横スクロール不要 */
+  }
+  #function-sheet table {
+    min-width: auto; /* PCでは最低幅を解除 */
+  }
+  /* PC表示では固定列は不要なのでリセット */
+  #function-sheet th:first-child,
+  #function-sheet td:first-child {
+    position: static; /* 固定を解除 */
+    left: auto;
+    z-index: auto;
+    background-color: #ffefef; /* ヘッダーの背景色を元に戻す */
+    text-align: center; /* 中央寄せに戻す */
+    word-break: normal;
+    min-width: auto;
+    width: auto;
+    max-width: none;
+  }
+  #function-sheet th:first-child {
+    background-color: #ffefef; /* ヘッダーの背景色を元に戻す */
+  }
+}
+
+/* スマートフォン表示 (767px以下) */
+@media (max-width: 767px) {
+  #function-sheet .container {
+    padding: 15px;
+  }
+
+  #function-sheet h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  /* スマートフォンでのテーブル表示の調整 */
+  #function-sheet table {
+    font-size: 0.9em; /* フォントサイズを少し小さく */
+  }
+
+  #function-sheet th,
+  #function-sheet td {
+    padding: 6px 8px;
+  }
+
+  /* 「機能」列の固定 */
+  th:first-child, /* ヘッダーの「機能」 */
+    td:first-child {
+    /* 各行の「機能」項目 */
+    position: sticky; /* スクロールしても位置を固定 */
+    left: 0; /* 左端に固定 */
+    z-index: 2; /* 他のセルより前面に表示 */
+    background-color: #ffefef; /* 背景色を付けて、スクロール時にコンテンツが透けないように */
+    text-align: left; /* 左寄せに */
+    word-break: break-word; /* 長い単語を改行 */
+    min-width: 120px; /* 固定列の最低幅 */
+    width: 120px; /* 固定列の推奨幅 */
+    max-width: 150px; /* 固定列の最大幅 */
+  }
+
+  /* ヘッダーの「機能」列の背景色を少し濃く */
+  #function-sheet th:first-child {
+    background-color: #ffefef; /* ヘッダーの背景色 */
+    z-index: 3; /* さらに前面に */
+  }
+  .is-hidden--pc {
+    display: block;
+  }
+}

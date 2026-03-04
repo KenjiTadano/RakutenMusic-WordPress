@@ -3,11 +3,11 @@
   "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-feature",
   "title": "便利な機能",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-common",
   "icon": "align-wide",
   "description": "楽天ミュージック汎用テンプレート用セクション: 便利な機能",
   "keywords": ["楽天", "ミュージック", "機能"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "render": "file:./render.php"
 }

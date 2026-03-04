@@ -1,0 +1,262 @@
+@charset "UTF-8";
+#page main.l-content {
+  background: url("https://music.r10s.jp/external/prod/assets/campaign/books/img/bg-top-step.gif")
+    no-repeat center top/2036px auto;
+}
+
+#page .s-campaign-hero {
+  padding: 0;
+}
+
+#page .campaign-hero__schedule {
+  background: none !important;
+  color: black;
+  padding: 40px 0 20px;
+}
+
+#page .text-step {
+  width: 650px;
+  background: black;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  margin: 30px auto;
+}
+
+#page .arrow {
+  text-align: center;
+}
+
+#page .btn-apply {
+  margin: 30px auto;
+}
+
+#page #rex-btn1:after {
+  content: "";
+  display: block;
+  border-bottom: 4px dotted black;
+  width: 650px;
+  margin: 30px auto;
+}
+
+#page .recommend-p {
+  text-align: center;
+}
+
+#page .recommend-p .br-display {
+  display: none;
+}
+
+#page .qr-box-pc {
+  display: flex;
+  justify-content: center;
+  width: 650px;
+  margin: 30px auto;
+  border: 3px solid black;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+#page .qr-box-pc > li:last-child {
+  margin-left: 5rem;
+}
+
+#page .qr-box-pc > li dl {
+  display: flex;
+}
+
+#page .qr-box-pc > li dl dt img {
+  padding: 36px 0 0;
+}
+
+#page .qr-box-sp {
+  display: none;
+}
+
+#page .recommend-3-pc {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  margin: 30px auto;
+}
+
+#page .recommend-3-pc li {
+  width: calc(100% / 3);
+  margin: 0 1rem;
+  background: #efefef;
+  border: 3px solid black;
+  border-radius: 1rem;
+  transition: all 0.2s;
+}
+
+#page .recommend-3-pc li a {
+  display: block;
+  padding: 2rem;
+  text-align: left;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+#page .recommend-3-pc li a:after {
+  content: "▼";
+  font-size: 1.5rem;
+  position: absolute;
+  right: 0.8rem;
+  top: 2.4rem;
+}
+
+#page .recommend-3-pc li:hover {
+  background: #fae822;
+  transform: translateY(0.5rem);
+}
+
+#page .con-bottom {
+  padding: 0 0 220px;
+  text-align: center;
+  background: transparent
+    url(https://music.r10s.jp/external/prod/assets/campaign/books/img/bg-step.png)
+    no-repeat scroll center bottom;
+}
+
+#page .btn-more-red {
+  width: 400px;
+  margin: 0 auto 4rem;
+  border-radius: 50px;
+}
+
+#page .btn-more-red a {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  background: black;
+  border: 3px solid black;
+  border-radius: 100px;
+  transition: all 0.2s ease-in;
+}
+
+#page .btn-more-red a:after {
+  content: "→";
+  text-indent: 0.5rem;
+}
+
+#page .btn-more-red a:after:hover {
+  transform: translateX(10px);
+}
+
+#page .btn-more-red a:hover {
+  background: #efefef;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  #page .l-campaign-01 > .heading--m,
+  #page .s-campaign-list .l-inner > .heading--m {
+    width: 100%;
+    margin: 0 0 4rem;
+    padding: 2rem;
+    background: #fae822;
+  }
+  #page .campaign-hero__schedule {
+    padding: 0;
+    width: 90vw;
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+  #page .text-step {
+    width: 100%;
+  }
+  #page .arrow {
+    width: 10vw;
+    margin: 0 auto;
+  }
+  #page #rex-btn1:after {
+    width: 90vw;
+  }
+  #page .qr-box-pc {
+    display: none;
+  }
+  #page .qr-box-sp {
+    display: block;
+  }
+  #page .qr-box-sp ul {
+    width: 96vw;
+    margin: 0 auto;
+    display: flex;
+  }
+  #page .qr-box-sp ul li {
+    width: 50%;
+    margin: 2rem 0;
+    padding: 0 0.5rem;
+  }
+  #page .recommend-3-pc {
+    width: 90vw;
+    display: block;
+    margin: 2rem auto;
+  }
+  #page .recommend-3-pc li {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  #page .recommend-3-pc li a {
+    padding: 1rem 2rem;
+  }
+  #page .recommend-3-pc li a:after {
+    right: 2rem;
+    top: 1.5rem;
+  }
+  #page .recommend-3-pc li:hover {
+    transform: initial;
+    background: #efefef;
+  }
+  #page .s-recommend-list {
+    padding: 0;
+  }
+  #page .s-recommend-list .heading--m {
+    margin: 0 0 2rem;
+    padding: 1rem 0;
+    border: 0.5rem solid black;
+  }
+  #page .item-list .item__list {
+    margin: 0;
+  }
+  #page .item-list .item__card {
+    border-left: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    padding: 2rem;
+    margin: 0;
+  }
+  #page .item-list .item__card:nth-child(1),
+  #page .item-list .item__card:nth-child(2) {
+    border-top: 1px solid whitesmoke;
+  }
+  #page .item-list .item__card:nth-child(even) {
+    border-right: 1px solid whitesmoke;
+  }
+  #page .item-list .js-toggle--fade .js-toggle__target {
+    padding: 0;
+  }
+  #page .item-list .is-open {
+    padding: 0;
+  }
+  #page .item-list .is-open .js-toggle__target {
+    padding: 2rem;
+    margin: 0 !important;
+  }
+  #page .btn-more-red {
+    width: 90vw;
+  }
+  #page .con-bottom {
+    padding: 0 0 30vw;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/books/img/bg-step.png)
+      no-repeat center bottom/190vw auto;
+  }
+  #page .con-bottom p {
+    width: 90vw;
+    margin: 0 auto !important;
+    text-align: justify;
+  }
+}

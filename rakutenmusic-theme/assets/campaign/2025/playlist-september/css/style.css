@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+#page .l-header,
+#page .l-breadcrumb,
+#page .l-footer {
+  display: none;
+}
+
+#page h1 {
+  font-feature-settings: "palt";
+}
+
+#page p {
+  font-feature-settings: "palt";
+}
+
+#page p.lead {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-align: center;
+}
+
+#page p.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #686868;
+}
+
+#page #campaign-apply {
+  padding: 32px 0;
+  margin-bottom: 8px;
+}
+
+#page #campaign-apply .l-inner>h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+#page #campaign-apply .l-inner .btn-apply {
+  margin: 0 auto;
+}
+
+#page #campaign-apply .l-inner .btn-apply .l-inner>* {
+  width: 100%;
+}
+
+#page #campaign-apply .l-inner .btn-apply .l-inner>p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: justify;
+}
+
+#page #campaign-apply .l-content .btn-apply .btn-apply--captio {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+#page #campaign-apply .l-inner .apply {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page #campaign-apply .l-inner ol.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 32px;
+}
+
+#page #campaign-apply .l-inner ol.steps>li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px 16px;
+  gap: 16px;
+  background: #FFFFFF;
+  border: 1px solid #000;
+  border-radius: 32px;
+}
+
+#page #campaign-apply .l-inner ol.steps>li>h2 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+#page #campaign-apply .l-inner ol.steps>li p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page #campaign-apply .l-inner ol.steps>li p.small {
+  text-align: justify;
+}
+
+#page #campaign-apply .l-inner ol.steps>li p small {
+  display: block;
+  font-size: 100%;
+}
+
+#page #campaign-apply .l-inner ol.steps>li p.caution {
+  padding: 8px;
+  background: #fef0dd;
+  color: #a35e04;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 8px;
+}
+
+#page #campaign-apply .l-inner ol.steps>li .btn-apply--caption {
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+
+#page #cpn-about {
+  margin: 32px auto;
+  width: calc(100% - 32px);
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    width: 600px;
+  }
+
+  .CampaignButton a.rex-button {
+    max-width: 600px !important;
+  }
+
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2024/artist/buddiis/img/bg.png) repeat-x center top/auto 316px #772D0D;
+    position: relative;
+  }
+
+  #page .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+
+  #page p.lead {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+
+  #page #cpn-about {
+    margin: 64px auto;
+    text-align: center;
+  }
+
+  #page #campaign-apply .l-inner>h1 {
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  #page #campaign-apply .l-inner ol.steps>li {
+    width: 100%;
+  }
+
+  #page #campaign-apply .l-inner ol.steps>li>h2 {
+    font-size: 32px;
+    line-height: 56px;
+  }
+
+  #page #campaign-apply .l-inner ol.steps>li p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #page #campaign-apply .l-inner ol.steps>li p.small {
+    font-size: 12px;
+    line-height: 16px;
+    color: #686868;
+    margin-top: 12px;
+  }
+
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+#page #campaign-merit .l-inner > * {
+  text-align: center;
+}
+
+#page #campaign-merit .l-inner h2 img {
+  max-width: 288px;
+}
+
+#page #campaign-merit .l-inner .campaign-merit--coupon {
+  margin: 16px auto;
+}
+
+#page #campaign-merit .l-inner .campaign-merit--coupon img {
+  max-width: 343px;
+}
+
+#page #campaign-merit .l-inner .campaign-merit--steps img {
+  max-width: 343px;
+}
+
+@media screen and (min-width: 768px) {
+  #page #campaign-merit .l-inner h2 img,
+  #page #campaign-merit .l-inner .campaign-merit--coupon img,
+  #page #campaign-merit .l-inner .campaign-merit--steps img {
+    max-width: none;
+  }
+}
+/*# sourceMappingURL=merit.css.map */

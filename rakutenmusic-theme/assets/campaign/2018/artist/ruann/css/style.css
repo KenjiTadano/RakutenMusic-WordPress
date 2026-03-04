@@ -1,0 +1,276 @@
+@charset "utf-8";
+#page .s-delivery-list {
+	border-top: none;
+	border-bottom: none;
+}
+#page .l-inner .campaign-hero__schedule p {
+	text-align: center;
+	line-height: 1;
+}
+#page .l-inner p {
+	line-height: 2;
+}
+#page .content-box__text {
+	margin-top: 0;
+}
+#page .leadTxt .l-inner p {
+	padding: 15px 20px;
+	text-align: justify;
+}
+#page .leadTxt .l-inner p span {
+	font-weight: bold;
+	font-size: 18px;
+}
+#page .lyrics .l-inner .lyricsBox {
+	display: flex;
+	justify-content: space-around;
+	background: #EFEFEF;
+	padding: 30px;
+	margin: 40px auto;
+}
+#page .lyrics .l-inner .lyricsBox div:last-child {
+	margin-top: 77px;
+}
+#page .lyrics .l-inner .lyricsBox .ttl {
+	font-size: 22px;
+}
+#page .lyrics .l-inner .lyricsBox .artist {
+	margin-bottom: 20px;
+}
+#page .lyrics .l-inner .lyricsBox p {
+	line-height: 1.8;
+}
+#page .pv {
+	width: 560px;
+	margin: 0 auto;
+}
+#page .aboutRuann {
+	padding: 0 0 70px;
+}
+#page .aboutRuann .l-inner {
+	display: flex;
+	justify-content: space-between;
+}
+#page .content-box {
+	position: relative;
+	width: 950px;
+	margin: 0 auto;
+}
+#page .aboutRuann content-box__image {
+	width: 40%;
+}
+#page .aboutRuann .content-box__text {
+	width: 50%;
+}
+#page .content-box .content-box__text {
+	position: absolute;
+	right: -310px;
+	bottom: 110px;
+	width: 950px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#page .content-box__text p span {
+	font-weight: bold;
+}
+#page .content-box .l-inner {
+	padding: 0 !important;
+}
+#page .content-box .content-box__image {
+	width: 950px;
+}
+#page .wrapper {
+	margin: 30px auto 40px;
+	background: #ffff;
+	padding: 40px 40px 1px;
+	border-radius: 10px;
+}
+#page .text_wrapper {
+	position: relative;
+	margin-bottom: 45px;
+}
+#page .text {
+	height: 280px;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+#page .show_more, .show_more2 {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 0;
+	padding-top: 160px;
+	text-align: center;
+	line-height: 0;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 70%);
+	cursor: pointer;
+	transition: bottom 0.2s;
+}
+#page .active {
+	background: none;
+}
+#page .biography {
+	margin: 0 auto 40px;
+	background: #ffe0e9 url(https://music.r10s.jp/external/prod/assets/campaign/2018/artist/ruann/img/biography-bg.png) repeat;
+	padding-bottom: 1px;
+	text-align: justify;
+}
+#page .heading--m {
+	color: #FF0C60;
+	background: -webkit-linear-gradient(0deg, #FF0C69, #F70F16);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0 auto 40px;
+	padding-bottom: 3px;
+}
+#page h3 {
+	border-bottom: 1px solid;
+	margin: 0 0 20px;
+	padding-bottom: 5px;
+}
+#page .biography .text_wrapper p span {
+	font-weight: bold;
+	color: deeppink;
+	border-bottom: 1px dashed;
+}
+#page .btn-apply {
+	margin-bottom: 40px;
+}
+#page .leadBox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#page .leadBox div img {
+	width: 100%;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+#page .leadBox div:first-child {
+	width: 30%;
+}
+#page .leadBox div:last-child {
+	width: 67%;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+#page .br-sp {
+	display: none;
+}
+
+/*======== ▼ スマホデバイス ▼ ========*/
+
+@media screen and (max-width: 767px) {
+#page .lyrics .l-inner .lyricsBox {
+	display: block;
+	padding: 20px;
+	margin: 30px 0;
+}
+#page .lyrics .l-inner .lyricsBox p {
+	line-height: 1.5;
+}
+#page .biography {
+	margin: 0 auto 30px;
+}
+#page .lyrics .l-inner .lyricsBox div:last-child {
+	margin-top: 30px;
+}
+#page .aboutRuann .l-inner {
+	display: block;
+}
+#page .aboutRuann .content-box__text {
+	width: 100%;
+	margin-top: 20px;
+}
+#page .content-box {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 0px;
+	padding: 32px 16px 48px;
+	padding-top: 32px;
+}
+#page .content-box .content-box__image {
+	width: 100%;
+}
+#page .content-box .content-box__text {
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin: 0 !important;
+	padding: 2vw 2vw 0 !important;
+	position: static;
+}
+#page .pv {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 51%;
+	height: 0;
+	overflow: hidden;
+}
+#page .pv iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #636363;
+	box-sizing: border-box;
+}
+#page .aboutRuann {
+	padding: 0 0 55px;
+}
+#page .leadTxt .l-inner p {
+	padding: 15px 10px;
+}
+#page .l-inner p {
+	line-height: 1.7;
+	font-size: 4.25vw;
+}
+#page .heading--m {
+	margin: 0 16px 30px;
+}
+#page .biography {
+	background: #ffe0e9 url(https://music.r10s.jp/external/prod/assets/campaign/2018/artist/ruann/img/biography-bg.png) repeat 0 0 / contain;
+}
+#page .wrapper {
+	padding: 30px 20px 1px;
+}
+#page .campaign-hero__schedule, #page .l-inner .campaign-hero__schedule p {
+	line-height: 1.83;
+	font-size: 1.2rem;
+}
+#page .leadBox {
+	display: block;
+}
+#page .leadBox div:first-child {
+	width: 100%;
+}
+#page .leadBox div:last-child {
+	width: 100%;
+	margin-top: 30px;
+}
+#page .btn-apply {
+	margin-bottom: 30px;
+}
+#page .content-box .l-inner .content-box__text p {
+	line-height: 1.5;
+	font-size: 3.5vw;
+}
+#page h2.fs5 {
+	font-size: 4.2vw;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+#page .br-pc {
+	display: none;
+}
+#page .br-sp {
+	display: block;
+}
+#page #HTMLBlock1410 + .content-box {
+	padding-bottom: 30px;
+}
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+#page .s-entry-form .entry-form__button .btn {
+    padding: 16px 0;
+    width: 600px;
+}
+#page .btn--default {
+    background-color: #bf0000;
+    color: #fff;
+    font-size: 26px;
+}
+@media screen and (max-width: 768px){
+#page .s-entry-form .entry-form__button .btn {
+    padding: 16px 0;
+    font-size: 5vw;
+    width:100%;
+}
+}

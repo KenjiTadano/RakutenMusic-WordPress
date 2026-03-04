@@ -1,0 +1,42 @@
+#page .btn-dl {
+  width: 100%;
+}
+
+#page .btn-dl > a {
+  display: block;
+  width: 100%;
+  background: #bf0000;
+  padding: 24px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 767px) {
+  #page .btn-dl > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #page .btn-dl > div p {
+    font-weight: bold;
+    text-align: center;
+  }
+  #page .btn-dl > div img {
+    width: 256px;
+  }
+}
+/*# sourceMappingURL=stack-AppDLButtonSingle.css.map */

@@ -1,0 +1,624 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+#page section {
+    padding: 0;
+    padding-top: 0;
+}
+
+#page .sec-1 .l-inner {
+    margin: 0 auto;
+    width: 1074px;
+    text-align: center;
+}
+
+#page .sec-2 .l-inner {
+    margin: 30px auto 0;
+    width: 1074px;
+    text-align: center;
+}
+
+#page p {
+    margin: 16px auto;
+}
+
+#page .sec-1 {
+    background: #D03443;
+    padding: 42px 0;
+}
+
+#page .sec-2::before,
+#page .sec-4::before {
+    content: "";
+    display: block;
+    height: 70px;
+    position: relative;
+    top: 0;
+}
+
+#page .sec-2::before {
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/vissel-kobe/img/sec01-rectangle.png) no-repeat;
+    width: 1440px;
+}
+
+#page .sec-4::before {
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/vissel-kobe/img/sec02-rectangle.png) no-repeat 100%;
+}
+
+#page .campaign-hero__schedule {
+    padding: 0;
+}
+
+#page .sec-1 .l-inner h2,
+#page .sec-2 .l-inner h2 {
+    display: inline;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFE066;
+    background: #000;
+}
+
+#page .sec-1 .l-inner h2 span {
+    text-align: center;
+}
+
+#page .sec-1 .l-inner .box-contents a.scroll {
+    color: black;
+    text-decoration: underline !important;
+}
+
+#page .sec-1 .l-inner h3 {
+    margin: 72px auto -51px;
+    width: 161px;
+}
+
+#page .sec-1 .l-inner h4,
+#page .sec-2 .l-inner h4,
+#page .sec-1 .l-inner .box-contents h4,
+#page .sec-2 .l-inner .box-contents h4 {
+    margin: 0 auto 1rem;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+#page .sec-3 .l-inner h4 {
+    margin: 0 auto 16px;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+#page .sec-2 .l-inner .box-contents p {
+    margin: 0 auto 1rem;
+}
+
+#page .sec-1 .l-inner .box-contents .btn-apply {
+    margin: 20px auto;
+}
+
+#page .sec-1 .l-inner>p a {
+    color: white;
+    text-decoration: underline;
+}
+
+#page .sec-1 .l-inner .box-contents,
+#page .sec-2 .l-inner .box-contents {
+    background: white;
+    margin: 48px;
+    padding: 36px 0;
+    border: 6px solid #000;
+}
+
+#page .sec-1 .l-inner .box-contents:last-child:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7rem 7rem 0 7rem;
+    border-color: black transparent transparent transparent;
+    position: relative;
+    bottom: -96.5rem;
+    margin-left: -5rem;
+}
+
+#page .sec-1 .l-inner .box-contents .trial-btn {
+    width: 100%;
+}
+
+#page .slick-initialized .slick-slide {
+    display: flex !important;
+    justify-content: center;
+}
+
+#page .sec-1 .l-inner .box-contents .slick-mypage {
+    width: 840px;
+    margin: 0 auto;
+}
+
+#page .sec-1 .l-inner .box-contents .slick-mypage figure {
+    width: 300px;
+}
+
+#page .sec-1 .l-inner .box-contents .slick-mypage figure img {
+    width: 100%;
+}
+
+#page .sec-1 .l-inner .box-contents .slick-mypage .slick-slide figure+div {
+    align-self: center;
+}
+
+#page .sec-1 .l-inner .box-contents .slick-mypage p {
+    display: inline-table;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background: black;
+    text-align: left;
+}
+
+#page .sec-1 .l-inner .box-contents .slick-prev:before {
+    content: "" !important;
+    display: block;
+    width: 22px;
+    height: 40px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/polygon_left.png) no-repeat center/contain;
+}
+
+#page .sec-1 .l-inner .box-contents .slick-next:before {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 40px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/polygon_right.png) no-repeat center/contain;
+}
+
+#page .sec-2,
+#page .sec-3 {
+    background: #F7F7F7;
+}
+
+#page .sec-2 h1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 260px;
+    height: 48px;
+    margin: 0 auto 24px;
+    color: white;
+    position: relative;
+}
+
+#page .sec-2 h1::before,
+#page .sec-2 h1::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: -3px;
+}
+
+#page .sec-2 .box-contents .presents {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#page .sec-2 .box-contents .presents img {
+    width: 280px;
+    height: 200px;
+    margin-right: 16px;
+}
+
+#page .sec-2 .box-contents .presents>p {
+    font-size: 16px;
+}
+
+#page .sec-2 .box-contents .presents p.small {
+    font-size: 12px;
+    margin: 16px auto 0;
+}
+
+#page .sec-2 .box-contents .presents p.player {
+    padding: 20px 18px;
+    line-height: 24px;
+    background: #EBEBEB;
+    border-radius: 6px;
+}
+
+#page .sec-2 .l-inner>ol {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    margin-bottom: 44px !important;
+}
+
+#page .sec-2 .l-inner>ol>li {
+    margin-bottom: 42px;
+    overflow: hidden;
+}
+
+#page .sec-2 .l-inner>ol>li:last-of-type {
+    margin-bottom: 0;
+}
+
+#page .sec-2 .l-inner>ol>li {
+    margin: 16px;
+}
+
+#page .btn-apply {
+    margin: 0 auto !important;
+}
+
+#page .sec-3 .btn-apply .l-inner>p {
+    margin-bottom: 60px;
+}
+
+#page .sec-2 .l-inner>ol>li>.playlist {
+    position: relative;
+    width: 340px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    color: black;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+#page .sec-2 .l-inner>ol>li>.playlist .playlist-ttl {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 274px;
+}
+
+#page .sec-2 .l-inner>ol>li>.playlist .playlist-ttl::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    left: 0;
+    bottom: 1rem;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/vissel-kobe/img/playlist-line01.png) no-repeat center/contain;
+}
+
+#page .sec-2 .l-inner>ol>li>.playlist .playlist-ttl::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    right: 0;
+    bottom: 1rem;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/vissel-kobe/img/playlist-line02.png) no-repeat center/contain;
+}
+
+#page .sec-2 .l-inner>ol>li>.playlist ul {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#page .sec-2 .l-inner>ol>li>.playlist .tab {
+    /*タブ*/
+    position: relative;
+    color: black;
+    bottom: 90%;
+    margin: 0;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#page .sec-2 .l-inner>ol>li>ul {
+    display: flex;
+    width: 340px;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+#page .sec-2 .l-inner>ol>li>ul>li figure {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+#page .sec-2 .l-inner>ol>li>ul>li figure img {
+    width: 170px;
+    margin: 0;
+    padding: 0;
+}
+
+#page .sec-2 .l-inner>ol>li>ul>li figure p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    background: black;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#page .sec-2 .l-inner>ol>li>ul>li figure p.position {
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+#page .sec-2 .l-inner>ol>li>ul>li figure p.name {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 6px;
+}
+
+#page .sec-2 .l-inner>ol>li>ul>li figure .name-small {
+    font-size: 14px;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 6px;
+}
+
+@media screen and (min-width: 768px) {
+    #page .is-hidden--tab {
+        display: none;
+    }
+    #page .s-campaign-hero {
+        padding: 0;
+        background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/vissel-kobe/img/bg_20200612.gif) repeat center top/auto 86.3%;
+        background-color: #9d1f2b;
+        position: relative;
+    }
+    #page .s-campaign-hero:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 50px;
+        background: black;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    #page .campaign-hero__schedule {
+        position: relative;
+        z-index: 1;
+    }
+    #page .sec-1 {
+        padding: 60px 0;
+    }
+    #page .sec-1 .l-inner>p a:hover {
+        text-decoration: none;
+        color: white;
+    }
+    #page .sec-1 .l-inner .box-contents .l-inner {
+        width: 100%;
+    }
+    #page .sec-1 .l-inner .box-contents .trial-btn {
+        width: 400px;
+    }
+    #page .sec-2,
+    #page .sec-4 {
+        position: relative;
+    }
+    #page .sec-2 h1 {
+        font-size: 24px;
+        line-height: 64px;
+        width: 320px;
+        height: 62px;
+        border-top: 3.5px solid white;
+    }
+    #page .sec-2 h1::before,
+    #page .sec-2 h1::after {
+        width: 64px;
+        height: 64px;
+        top: -5px;
+    }
+    #page .sec-2 h1::before {
+        left: -64px;
+    }
+    #page .sec-2 h1::after {
+        right: -64px;
+    }
+    #page .sec-2 .l-inner {
+        position: relative;
+        z-index: 1;
+    }
+    #page .sec-2 .l-inner>ol {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    #page .sec-2 .l-inner>ol>li:nth-of-type(3) {
+        margin-bottom: 0;
+    }
+    #page .box-contents .l-inner div.text-box .l-inner {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1189px) {
+    #page .sec-1 .l-inner,
+    #page .sec-2 .l-inner,
+    #page .l-inner {
+        width: 100%;
+    }
+    #page .sec-1 .l-inner .box-contents .slick-mypage {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #page .is-hidden--tab {
+        display: block;
+    }
+    #page .campaign-hero__schedule p {
+        margin: 0;
+    }
+    #page section.sec-1 .l-inner,
+    #page section.sec-2 .l-inner,
+    #page section.sec-3 .l-inner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1.6rem;
+    }
+    #page .sec-1 .l-inner .box-contents,
+    #page .sec-2 .l-inner .box-contents {
+        margin: 40px auto 0;
+        padding: 36px 16px;
+    }
+    #page .sec-2 .l-inner .box-contents {
+        margin: 40px auto;
+    }
+    #page .sec-2 .box-contents .presents {
+        display: block;
+        width: 100%;
+        padding: 2rem;
+    }
+    #page .sec-2::before {
+        background: url(../img/sec01-rectangle.png) no-repeat;
+        width: 100%;
+    }
+    #page .sec-1 .l-inner h2,
+    #page .sec-2 .l-inner h2 {
+        line-height: 60px;
+    }
+    #page .sec-1 .l-inner .box-contents a.scroll img {
+        width: 32px;
+    }
+    #page .sec-1 .l-inner h3 {
+        margin: 72px auto -43px;
+    }
+    #page .sec-2 .box-contents .presents img {
+        width: 100%;
+        height: auto;
+    }
+    #page .sec-1 .l-inner .box-contents:last-child:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 6rem 6rem 0 6rem;
+        border-color: black transparent transparent transparent;
+        position: relative;
+        bottom: -12rem;
+        margin-left: 0;
+        z-index: 100;
+    }
+    #page .sec-1 .l-inner .box-contents:first-child:after {
+        display: none;
+    }
+    #page .sec-2 .l-inner>ol {
+        display: block;
+    }
+    #page .sec-2 .l-inner>ol>li>ul {
+        margin: 0 auto;
+    }
+    #page .heading--l,
+    #page .heading--m {
+        padding-top: 24px !important;
+        margin-bottom: 32px;
+        font-size: 2.2rem;
+    }
+    #page .sec-3 .btn-apply .l-inner>p {
+        margin-bottom: 0;
+    }
+    #page .slick-initialized .slick-slide {
+        display: block !important;
+    }
+    #page .sec-1 .l-inner .box-contents .slick-mypage {
+        width: 88%;
+        margin: 0 auto;
+    }
+    #page .sec-1 .l-inner .box-contents .slick-mypage figure {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #page .is-hidden--tab {
+        display: none;
+    }
+    #page section.sec-1 .l-inner .btn-apply .l-inner {
+        padding: 0;
+    }
+    #page section.sec-2 .l-inner {
+        text-align: left;
+    }
+    #page .sec-1 .l-inner h2,
+    #page .sec-2 .l-inner h2 {
+        font-size: 20px;
+        text-align: left;
+    }
+    #page .sec-1 .l-inner h3 {
+        margin: 42px auto -43px;
+    }
+    #page .sec-1 .l-inner h4,
+    #page .sec-2 .l-inner h4,
+    #page .sec-1 .l-inner .box-contents h4,
+    #page .sec-2 .l-inner .box-contents h4 {
+        text-align: left;
+    }
+    #page .sec-1 .l-inner .box-contents p {
+        text-align: left;
+    }
+    #page .sec-1 .l-inner .box-contents .slick-mypage p {
+        font-size: 16px;
+    }
+    #page .sec-1 .l-inner .box-contents .slick-mypage figure {
+        width: 210px;
+    }
+    #page .sec-1 .l-inner .box-contents div p {
+        text-align: center;
+    }
+    #page .sec-1 .l-inner .box-contents a.scroll {
+        font-size: 14px;
+    }
+    #page .sec-1 .l-inner .box-contents a.scroll img {
+        width: 20px;
+    }
+    #page .sec-2 .box-contents .presents p.player {
+        font-size: 14px;
+        text-align: left;
+    }
+    #page .sec-2 .l-inner>ol>li>ul {
+        width: 210px;
+        margin: 0;
+    }
+    #page .sec-2 .l-inner>ol>li>ul>li figure img {
+        width: 150px;
+    }
+    #page .sec-2 .l-inner>ol>li>.playlist {
+        width: 300px;
+    }
+    #page .sec-2 .l-inner>ol>li>.playlist .tab {
+        text-align: center;
+    }
+    #page .sec-2 .l-inner>ol>li>.playlist .playlist-ttl {
+        width: 210px;
+    }
+    #page .sec-2 .l-inner>ol {
+        margin-bottom: 0 !important;
+    }
+    #page .sec-3 .btn-apply .l-inner .trial-btn {
+        margin: 0;
+        width: 100%;
+    }
+    #page .sec-3 .btn-apply .l-inner .text-box .l-inner p {
+        margin: 0;
+        text-align: left !important;
+        width: 100%;
+    }
+}

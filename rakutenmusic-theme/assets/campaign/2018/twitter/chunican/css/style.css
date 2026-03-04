@@ -1,0 +1,212 @@
+@charset "UTF-8";
+#page .campaign-hero__schedule {
+	background-color: #e6e6e6;
+	color: #3f3f3f;
+}
+/* ==============================================
+	application
+============================================== */
+#application {
+	width: 950px;
+	margin: 0 auto;
+}
+#application ol {
+	display: flex;
+	justify-content: center;
+	margin: 8px 0 30px;
+}
+#application ol li:last-child {
+	margin-right: 0;
+}
+#application ol li {
+	margin-right: 90px;
+	background: #fff;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 240px;
+	height: 240px;
+	position: relative;
+}
+#application ol li > div {
+	background: #e5e561;
+	width: 240px;
+	height: 240px;
+	text-align: center;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+}
+#application ol li::after {
+	content: url(https://music.r10s.jp/external/prod/assets/campaign/2018/twitter/chunican/img/arrow.png);
+	top: 85px;
+	left: 250px;
+	position: relative;
+}
+#application ol li:last-child::after {
+	content: normal;
+}
+#application ol li p {
+	padding-top: 40px;
+}
+#application ol li .snsBtn {
+	margin-top: 10px;
+}
+#application ol li div a {
+	background: #1da1f2;
+	color: #fff;
+	font-weight: bold;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 10px 10px 0px;
+	box-sizing: border-box;
+	border-radius: 30px;
+	border-bottom: 4px solid #1780c2;
+}
+#application ol li .snsBtn a:hover {
+	color: #fff;
+	border-bottom: none;
+	margin-top: 14px;
+	text-decoration: none;
+}
+#application ol li .snsBtn a img {
+	display: inline-block;
+	width: 20px;
+	vertical-align: baseline;
+	margin-right: 10px;
+}
+#application .notes {
+	text-align: center;
+	padding: 25px 0;
+	margin: 30px 0 40px;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+}
+#application ol li div p.finishtxt {
+	font-size: 35px;
+	margin-top: 50px;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+#application .cpnLink {
+	text-align: right;
+}
+#application .cpnLink a {
+	color: #545454;
+	border-bottom: 1px solid;
+}
+#application .cpnLink a:hover {
+	text-decoration: none;
+	border-bottom: none;
+}
+ @media screen and (max-width: 768px) {
+/* ==============================================
+	application
+============================================== */
+#application {
+	width: 100%;
+	padding: 0 2.6vw;
+	background-size: 100%;
+}
+#application ol {
+	display: block;
+	margin-bottom: 14vw;
+}
+#application ol li {
+	width: 100%;
+	height: 47vw;
+	background: none;
+	position: relative;
+}
+#application ol li > div {
+	width: 55vw;
+	height: 55vw;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	display: table-cell;
+	position: static;
+	bottom: 0;
+	right: 0;
+}
+#application ol li > div::before {
+	content: '';
+	display: block;
+	width: 55vw;
+	height: 55vw;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	position: absolute;
+	top: 2vw;
+	left: 2vw;
+	z-index: -1;
+}
+#application ol li:nth-child(1)::after {
+	content: '';
+	top: -12vw;
+	left: 39vw;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	width: 14vw;
+	height: 14vw;
+	background-image: url(https://music.r10s.jp/external/prod/assets/campaign/2018/twitter/chunican/img/arrowR-sp.png);
+	background-size: contain;
+	vertical-align: middle;
+}
+#application ol li:nth-child(2)::after {
+	content: '';
+	top: 40vw;
+	left: 39vw;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	width: 14vw;
+	height: 14vw;
+	background-image: url(https://music.r10s.jp/external/prod/assets/campaign/2018/twitter/chunican/img/arrowL-sp.png);
+	background-size: contain;
+	vertical-align: middle;
+}
+#application ol li:nth-child(2) > div {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: table-cell;
+}
+#application ol li:nth-child(2) > div p {
+	padding-top: 4vw !important;
+}
+#application ol li:nth-child(3) > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+#application ol li p {
+	font-size: 4vw;
+	margin-top: 9vw;
+	padding-top: 0;
+}
+#application ol li div a {
+	width: 80%;
+}
+#application ol li .snsBtn {
+	margin-top: 1.5vw;
+}
+#application ol li > div .snsBtn img {
+	margin-right: 5px;
+}
+#application .notes {
+	padding: 2.6vw 1.5vw;
+	text-align: justify;
+}
+#application ol li div p.finishtxt {
+	font-size: 10vw;
+	letter-spacing: 0.5vw;
+	margin-top: 0;
+}
+}

@@ -3,11 +3,11 @@
   "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-saikyo-cost-performance",
   "title": "コスパ最強な理由",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-bundle",
   "icon": "align-wide",
   "description": "楽天ミュージック汎用テンプレート用セクション: コスパ最強な理由",
   "keywords": ["楽天", "ミュージック", "コスパ", "最強"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "render": "file:./render.php"
 }

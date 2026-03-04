@@ -1,0 +1,131 @@
+#page div#mkdiv_header_pitari {
+  display: none;
+}
+
+#page .l-header,
+#page .l-breadcrumb,
+#page .l-footer {
+  display: none;
+}
+
+#page .flx-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 24px 16px;
+  gap: 12px;
+}
+
+#page h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+#page h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 6px 16px;
+  background: #F7F7F7;
+  border: 1px solid #EBEBEB;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #686868;
+}
+
+#page p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page .bold {
+  font-weight: bold;
+}
+
+#page .bk-yellow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 12px;
+  gap: 12px;
+  background: #FFEFD6;
+  border-radius: 8px;
+}
+
+#page .bk-yellow a {
+  color: #A35E04;
+}
+
+#page table {
+  width: 100%;
+  border-top: 1px solid #D1D1D1;
+  border-right: 1px solid #D1D1D1;
+}
+
+#page table td {
+  padding: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  border-bottom: 1px solid #D1D1D1;
+  border-left: 1px solid #D1D1D1;
+}
+
+#page table thead tr td {
+  font-weight: 700;
+}
+
+#page table thead tr:last-child td:first-child {
+  width: 110px;
+}
+
+#page table tbody tr td {
+  font-weight: 400;
+}
+
+#page table tbody tr td small {
+  display: block;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: #686868;
+  margin-top: 8px;
+}
+
+#page table tbody tr td:first-child {
+  width: 100px;
+}
+
+#page table tbody tr td:first-child i {
+  display: block;
+}
+
+#page table tbody tr td:first-child i img {
+  width: 64px;
+  height: 64px;
+}
+/*# sourceMappingURL=style.css.map */

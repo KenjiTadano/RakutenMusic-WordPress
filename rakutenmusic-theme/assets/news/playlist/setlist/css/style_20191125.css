@@ -1,0 +1,301 @@
+#page .s-campaign-hero {
+  background: url("https://music.r10s.jp/external/prod/assets/campaign/2019/setlist/img/bg.jpg") no-repeat center top/auto 100% #000;
+  padding: 0;
+}
+
+#page .campaign-hero__schedule {
+  display: none;
+}
+
+#page .l-inner p.lead {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+#page .setlists li {
+  list-style: none;
+  width: 90%;
+  margin: 2.4rem auto;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.2);
+  padding: 2rem;
+}
+
+#page .setlists li a {
+  display: block;
+  position: relative;
+}
+
+#page .setlists li a figure {
+  width: 112px;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#page .setlists li a figure img {
+  width: 50%;
+}
+
+#page .setlists li a p {
+  flex: 1;
+  margin: 0;
+  padding: 1em 0 0;
+  line-height: 1.75em;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  color: dimgray;
+}
+
+#page .setlists li a p b {
+  font-size: 1.6rem;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  color: black;
+}
+
+#page .setlists li a .more {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: black;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+#page .setlists li a .more::before {
+  content: "\f550";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-right: 0.5em;
+}
+
+#page #latest li a {
+  padding-bottom: 4rem;
+}
+
+#page #archive li {
+  box-shadow: none;
+  border: 1px solid lightgray;
+}
+
+#page .s-campaign-hero + h2.heading.heading--m {
+  width: 100%;
+  margin: 0;
+  color: white;
+  padding: 2rem 0;
+  line-height: 1.5;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d228a3+0,1700fa+100 */
+  background: #d228a3;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #d228a3 0%, #1700fa 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #d228a3 0%, #1700fa 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #d228a3 0%, #1700fa 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d228a3', endColorstr='#1700fa',GradientType=1 );
+  /* IE6-9 */
+}
+
+#page .s-campaign-hero + h2.heading.heading--m + .heading--m {
+  margin: 4rem 0 !important;
+}
+
+#page .stack-characteristic .l-inner {
+  padding-bottom: 60px;
+}
+
+#page .stack-characteristic .l-inner figure img {
+  width: 100%;
+}
+
+#page .stack-characteristic .l-inner p {
+  text-align: right;
+  line-height: 2em;
+}
+
+#page .modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+#page .modal .click-area {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#page .modal .l-inner {
+  width: 90%;
+  margin: 0 auto;
+  height: 80vh;
+  transform: translateY(10vh);
+  padding: 2.4rem;
+  background: white;
+  border-radius: 1.6rem;
+  overflow-y: scroll;
+}
+
+#page .modal .l-inner .close-btn {
+  position: sticky;
+  top: 0;
+  text-align: right;
+  padding-right: 4px;
+}
+
+#page .modal .l-inner .close-btn a {
+  color: black;
+  font-size: 2.4rem;
+}
+
+#page .modal .l-inner .title figure {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto 1.5em;
+}
+
+#page .modal .l-inner .title figure > div {
+  width: 50%;
+}
+
+#page .modal .l-inner .title h1 {
+  font-size: 2rem;
+}
+
+#page .modal .l-inner .title h1 + p {
+  font-size: 1.2rem;
+}
+
+#page .modal .l-inner .title .btn {
+  background: #bf0000;
+  margin: 2rem 0;
+}
+
+#page .modal .l-inner .title .btn a {
+  color: white;
+}
+
+#page .modal .l-inner .songs ul li {
+  padding: 1.6rem 0;
+  border-top: 1px solid #d7d7d7;
+}
+
+#page .modal .l-inner .songs ul li p:last-of-type {
+  font-size: 1.2rem;
+  color: #707070;
+}
+
+#page .btn-more a {
+  display: block;
+  width: 90%;
+  margin: 4rem auto;
+  text-align: center;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d228a3+0,1700fa+100 */
+  background: #d228a3;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #d228a3 0%, #1700fa 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #d228a3 0%, #1700fa 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #d228a3 0%, #1700fa 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d228a3', endColorstr='#1700fa',GradientType=1 );
+  border-radius: 1.2rem;
+  padding: 1em 0;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  #page .setlists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #page .setlists li {
+    width: 48%;
+    height: 152px;
+    margin: 1.2rem auto;
+  }
+  #page .setlists li a {
+    display: flex;
+  }
+  #page .setlists li a p {
+    padding: 1em 0 0 1em;
+  }
+  #page .modal .l-inner {
+    width: 1040px;
+    padding: 4rem;
+  }
+  #page .modal .l-inner::-webkit-scrollbar {
+    width: 14px;
+    height: 18px;
+  }
+  #page .modal .l-inner::-webkit-scrollbar-thumb {
+    height: 6px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+  }
+  #page .modal .l-inner::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+  #page .modal .l-inner::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+  #page .modal .l-inner .title {
+    display: flex;
+  }
+  #page .modal .l-inner .title figure {
+    width: 180px;
+    height: 180px;
+    margin: 0 3rem 4rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  #page .modal .l-inner .title figure div img {
+    width: 100%;
+  }
+  #page .modal .l-inner .songs ul li {
+    display: flex;
+    padding: 2rem;
+  }
+  #page .modal .l-inner .songs ul li p:first-of-type {
+    width: 60%;
+  }
+  #page #latest li a {
+    padding-bottom: 0;
+  }
+  #page #archive li a:hover {
+    cursor: initial;
+  }
+  #page .btn-more a {
+    width: 600px;
+    padding: 2em 0;
+    transition: all 0.2s ease-in;
+  }
+  #page .btn-more a:hover {
+    opacity: 0.8;
+  }
+}

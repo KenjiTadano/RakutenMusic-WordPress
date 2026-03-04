@@ -3,11 +3,11 @@
   "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-faq",
   "title": "よくあるご質問",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-common",
   "icon": "align-wide",
   "description": "楽天ミュージック汎用テンプレート用セクション: よくあるご質問",
   "keywords": ["楽天", "ミュージック", "FAQ", "質問"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "render": "file:./render.php"
 }

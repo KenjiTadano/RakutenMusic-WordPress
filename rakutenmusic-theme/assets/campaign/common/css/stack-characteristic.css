@@ -1,0 +1,159 @@
+#page .stack-characteristic .l-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page .stack-characteristic .l-inner span.super {
+  vertical-align: super;
+  font-size: 0.6em;
+}
+
+#page .stack-characteristic .l-inner .text-trial {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #D80000;
+}
+
+#page .stack-characteristic .l-inner .text-kikihoudai {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  margin: 8px auto 16px;
+}
+
+#page .stack-characteristic .l-inner .stack-characteristic--content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+#page .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot {
+  width: 240px;
+}
+
+#page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 8px;
+}
+
+#page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li {
+  width: 109px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 2px solid #D1D1D1;
+  padding: 12px 4px;
+  border-radius: 8px;
+}
+
+#page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img {
+  width: 64px;
+}
+
+#page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p {
+  font-size: 9px;
+  text-align: center;
+}
+
+#page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page .stack-characteristic .l-inner .stack-characteristic--content + p.small {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 767px) {
+  #page .stack-characteristic .l-inner {
+    gap: 24px;
+  }
+  #page .stack-characteristic .l-inner .text-trial {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page .stack-characteristic .l-inner .text-kikihoudai {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0;
+  }
+  #page .stack-characteristic .l-inner .stack-characteristic--content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page .stack-characteristic .l-inner .stack-characteristic--content .stack-characteristic--content--screenshot img {
+    width: 100%;
+  }
+  #page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features {
+    width: 560px;
+    gap: 16px;
+  }
+  #page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li {
+    width: 176px;
+    padding: 16px;
+  }
+  #page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li img {
+    width: 100px;
+  }
+  #page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li p.features-lead {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #page .stack-characteristic .l-inner .stack-characteristic--content + p.small {
+    width: 816px;
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=stack-characteristic.css.map */

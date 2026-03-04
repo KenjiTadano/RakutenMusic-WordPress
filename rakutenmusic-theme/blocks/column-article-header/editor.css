@@ -1,0 +1,42 @@
+/**
+ * 記事：小見出しブロック - エディター用スタイル
+ * 編集領域をフロントと同じ見た目に（枠・白背景を出さない）
+ */
+.wp-block-rakutenmusic-column-article-header .article-header {
+  display: flex;
+  padding: 24px 12px;
+  justify-content: center;
+  align-items: center;
+  border-top: 4px solid #bf0000;
+  background: #f8f8f8;
+}
+
+/* RichText / contenteditable のデフォルト枠・背景を消し、中央揃え・フォントをフロントに合わせる */
+.wp-block-rakutenmusic-column-article-header .article-header p,
+.wp-block-rakutenmusic-column-article-header .article-header input,
+.wp-block-rakutenmusic-column-article-header .article-header .rich-text,
+.wp-block-rakutenmusic-column-article-header .article-header .block-editor-rich-text__editable,
+.wp-block-rakutenmusic-column-article-header .article-header [contenteditable="true"] {
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-align: center !important;
+  width: 100%;
+  min-height: 0;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 32px !important;
+  color: inherit;
+}
+
+.wp-block-rakutenmusic-column-article-header .article-header p:focus,
+.wp-block-rakutenmusic-column-article-header .article-header input:focus,
+.wp-block-rakutenmusic-column-article-header .article-header .rich-text:focus,
+.wp-block-rakutenmusic-column-article-header .article-header .block-editor-rich-text__editable:focus,
+.wp-block-rakutenmusic-column-article-header .article-header [contenteditable="true"]:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

@@ -47,7 +47,7 @@
 
 		wp.blocks.registerBlockType( BLOCK_NAME, {
 			title: __( '記事：音楽再生', 'rakutenmusic-theme' ),
-			category: 'rakutenmusic',
+			category: 'rakutenmusic-column',
 			icon: 'format-audio',
 			attributes: {
 				imageUrl: { type: 'string', default: '' },
@@ -95,20 +95,6 @@
 								value: a.linkUrlSp || '',
 								onChange: function ( v ) { props.setAttributes( { linkUrlSp: v || '' } ); },
 								help: __( 'User-Agent がスマホと判定されたときに使用します。', 'rakutenmusic-theme' )
-							} )
-						),
-						el( PanelBody, { title: __( '余白', 'rakutenmusic-theme' ), initialOpen: false },
-							el( SelectControl, {
-								label: __( '上余白', 'rakutenmusic-theme' ),
-								value: a.spacingTop || '',
-								options: spacingOpts,
-								onChange: function ( v ) { props.setAttributes( { spacingTop: v || '' } ); }
-							} ),
-							el( SelectControl, {
-								label: __( '下余白', 'rakutenmusic-theme' ),
-								value: a.spacingBottom || '',
-								options: spacingOpts,
-								onChange: function ( v ) { props.setAttributes( { spacingBottom: v || '' } ); }
 							} )
 						)
 					),

@@ -1,0 +1,19 @@
+#page .jsha-carousel {
+  overflow: hidden;
+}
+
+#page .jsha-carousel + .btn-app-dl-wrapper {
+  padding: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  #page .jsha-carousel img {
+    width: 100%;
+  }
+
+  #page .jsha-carousel + .btn-app-dl-wrapper {
+    width: 400px;
+    margin: 0 auto;
+    padding: 24px 0;
+  }
+}

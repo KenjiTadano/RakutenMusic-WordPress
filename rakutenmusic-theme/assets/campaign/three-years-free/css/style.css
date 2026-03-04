@@ -1,0 +1,89 @@
+#page .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration: underline;
+}
+#page .single-step {
+  display: block;
+}
+#page .single-step p.lead {
+  margin: 0 auto 24px;
+}
+#page .single-step p.small {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+#page .campaign-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 0 auto 24px;
+}
+#page .campaign-code p.campaign-code--code {
+  color: #bf0000;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+#page .campaign-code button.btn-copy-code {
+  display: flex;
+  padding: 4px 16px;
+  border-radius: 32px;
+  border: 1px solid #bf0000;
+  background: #FFF;
+  color: #bf0000;
+  text-align: center;
+  /* JP Body Medium 14px/Bold */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+}
+#page ul.campaign-code-steps li.slick-slide h3 {
+  background: gray;
+  color: white;
+}
+#page .slick-dots {
+  bottom: 0;
+  margin: 24px 0;
+}
+#page .btn-secondary {
+  border: 1px solid #d80000;
+  color: #d80000;
+}
+
+@media screen and (min-width: 768px) {
+  #page .btn-secondary:hover {
+    background: #d80000;
+  }
+  #page .l-content .btn-apply {
+    margin: 24px auto;
+  }
+  #page .campaign-code {
+    gap: 16px;
+  }
+  #page .campaign-code p.campaign-code--code {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 142.857% */
+  }
+  #page .campaign-code button.btn-copy-code {
+    padding: 8px 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    transition: all 0.2s ease-in;
+  }
+  #page .campaign-code button.btn-copy-code:hover {
+    cursor: pointer;
+    background: #bf0000;
+    color: white;
+  }
+}/*# sourceMappingURL=style.css.map */

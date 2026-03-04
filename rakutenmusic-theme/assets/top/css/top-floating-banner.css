@@ -1,0 +1,70 @@
+#page #floating_banner {
+  position: fixed;
+  top: 150px;
+  right: 30px;
+  width: 150px;
+  height: 150px;
+  transition: all 0.2s;
+}
+
+#page #floating_banner:hover {
+  transform: scale(1.1);
+}
+
+#page #floating_banner a {
+  display: block;
+}
+
+#page #floating_banner .close {
+  cursor: pointer;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: white;
+  border: 2px solid black;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  text-align: center;
+  line-height: 25px;
+  color: black;
+  z-index: 1;
+}
+
+#page #floating_banner .close:hover {
+  background: black;
+  color: white;
+}
+
+#page #floating_banner a img {
+  width: 100%;
+}
+
+#page #floating_banner a .floating_banner__pc {
+  display: block;
+}
+#page #floating_banner a .floating_banner__sp {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #page #floating_banner {
+    width: 90vw;
+    height: 24vw;
+    top: initial;
+    right: initial;
+    bottom: 5vw;
+    left: 50%;
+    margin-left: -45vw;
+  }
+  #page #floating_banner:hover {
+    transform: scale(1);
+  }
+  #page #floating_banner a .floating_banner__pc {
+    display: none;
+  }
+  #page #floating_banner a .floating_banner__sp {
+    display: block;
+  }
+}

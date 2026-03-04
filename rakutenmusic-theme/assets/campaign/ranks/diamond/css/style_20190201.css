@@ -1,0 +1,363 @@
+#page #HTMLBlock422 + div .btn-apply {
+  margin: 20px auto 60px;
+}
+#page .wrapper {
+  background: #f2f2f2;
+}
+
+#page .wrapper .heading {
+  margin: 0;
+  padding: 2rem;
+  position: relative;
+}
+
+#page .wrapper .heading::after {
+  content: "";
+  width: 60px;
+  height: 10px;
+  display: block;
+  background: #f9cf26;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -30px;
+}
+
+@media screen and (min-width: 768px) {
+  #page #HTMLBlock957 + .content-box {
+    padding: 0 0 30px;
+  }
+  #page #HTMLBlock957 + .content-box figure {
+    width: 600px;
+    margin: 0 auto;
+  }
+  #page #HTMLBlock957 + .content-box .content-box__text {
+    margin: 12px 0 0;
+  }
+  #page .wrapper {
+    background: #f2f2f2;
+    padding: 2rem 0 4rem;
+  }
+  #page .wrapper .l-inner {
+    width: 100%;
+  }
+  #page .wrapper .content-box {
+    box-sizing: border-box;
+    padding: 3rem !important;
+    background: white;
+    width: 950px;
+    margin: 3rem auto 0 !important;
+  }
+  #page .wrapper .content-box .content-box__text {
+    border: 1px solid lightslategray;
+    padding: 2rem;
+  }
+  #page .wrapper .content-box .content-box__text p br {
+    display: none;
+  }
+  #page .wrapper .content-box .content-box__text p strong {
+    font-size: 3rem;
+  }
+  #page .content-box {
+    padding: 40px 0 30px;
+  }
+  #page .s-entry-form {
+    padding-top: 0px;
+  }
+  #page .campaign-hero__schedule {
+    margin-bottom: 20px;
+  }
+  #page .heading--m {
+    padding-top: 0;
+  }
+  .step-box dl {
+    background: #fef9e6;
+    padding: 10px 10px 0;
+  }
+  .step-box dl dt {
+    background: #fff;
+    float: left;
+    width: 250px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+    margin: 0 0 10px 0;
+  }
+  .step-box dl dd {
+    font-size: 16px;
+    height: 70px;
+    margin-top: 10px;
+    line-height: 1.5;
+    overflow: hidden;
+    float: right;
+    width: 720px;
+    margin: 9px 0 0;
+  }
+  .step-box dl:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  #page .inc-about-pc > div:last-child ol li {
+    padding: 4px 0;
+    list-style: none;
+  }
+  #page .content-box .cpnImage img {
+    width: 100%;
+    height: auto;
+  }
+  #page .cpnImage {
+    margin: 0 auto;
+    width: 1040px;
+  }
+  #page .btn-container {
+    margin-top: 20px;
+  }
+  #btn-apply {
+    padding-top: 10px;
+  }
+}
+
+.inc-about-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.inc-about-wrap img {
+  width: auto;
+}
+
+.con-box {
+  width: 700px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.text-step {
+  width: 650px;
+  margin: 0 auto;
+  padding: 4px;
+  background: #000;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+#page .btn--default {
+  display: block;
+  font-size: 145%;
+  font-weight: bold;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #bf0000;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 #790e0f;
+}
+
+#page .s-entry-form .entry-form__button .btn {
+  padding: 20px 0;
+  width: 650px;
+}
+
+#page .btn--default:hover {
+  background-color: #bf0000;
+  text-decoration: none;
+  box-shadow: none;
+  transform: translate3d(0, 5px, 0);
+}
+
+#page .btn:hover {
+  box-shadow: none;
+}
+
+#page .s-entry-form .l-inner {
+  width: 650px;
+  padding: 0;
+}
+
+.br-display {
+  display: none;
+}
+
+#page #HTMLBlock1604 .l-inner {
+  padding: 0;
+}
+
+#rex-btn1 {
+  margin-top: 20px !important;
+}
+
+@media screen and (max-width: 768px) {
+  #page .rex-button__1ArV .rex-button__3n3I.rex-button__25bR {
+    text-align: center;
+    padding: 0;
+  }
+
+  #page .rex-button__1ArV .rex-button__3n3I.rex-button__27xO {
+    text-align: center;
+    padding: 0;
+    font-size: 1.5rem;
+    text-indent: 2rem;
+  }
+
+  #page .rex-button__1ArV .rex-button__3n3I::before {
+    width: 2rem;
+    height: 2rem;
+    left: 4rem;
+  }
+
+  #page .rex-button__1ArV .rex-button__3n3I.rex-button__32Uc {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0;
+  }
+
+  #page .inc-about-sp ol li {
+    margin: 2vw 0;
+  }
+  .con-box {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 2vw 2vw;
+  }
+  #page #HTMLBlock957 + .content-box {
+    padding: 0 0 12vw;
+  }
+  #page #HTMLBlock957 + .content-box figure {
+    width: initial;
+    margin: 0 auto;
+  }
+  #page #HTMLBlock957 + .content-box .content-box__text {
+    margin: 3vw 0 0;
+  }
+  #page .wrapper {
+    padding: 2rem;
+    background: #f2f2f2;
+  }
+  #page .wrapper .l-inner {
+    padding: 2rem !important;
+  }
+  #page .wrapper .content-box {
+    padding: 0 !important;
+    box-sizing: border-box;
+    background: white;
+    width: 100%;
+    margin: 3rem auto 0 !important;
+  }
+  #page .wrapper .content-box .content-box__text {
+    border: 1px solid lightslategray;
+    padding: 2rem;
+  }
+  #page .wrapper .content-box .content-box__text p strong {
+    font-size: 2rem;
+  }
+  #page .btn--default {
+    display: block;
+    font-size: 5vw;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #bf0000;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #790e0f;
+  }
+  #page .s-entry-form .entry-form__button .btn {
+    width: 92%;
+    margin: 0 auto;
+  }
+  #page .s-campaign-hero {
+    background: none;
+    text-align: center;
+  }
+  #page .s-entry-form .l-inner {
+    width: 100%;
+  }
+  .br-display {
+    display: block;
+  }
+  #page .campaign-hero__schedule {
+    background: #4d4d4d !important;
+    padding: 16px;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.83;
+    margin: 0px 20px;
+    text-align: center;
+  }
+  .text-step {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2vw;
+    background: #000;
+    border-radius: 0;
+    color: #fff;
+    font-size: 2rem;
+  }
+  #page .s-entry-form {
+    padding: 3vw 0 8vw;
+  }
+  #page .s-entry-form .entry-form__note {
+    margin: 24px 20px 0;
+    color: #686868;
+    font-size: 4vw;
+  }
+  #page .btn--default {
+    box-shadow: 0 3px 0 #790e0f;
+  }
+  #page .step-box dl {
+    background: #fff9e7;
+    padding: 2.4vw;
+    margin: 4vw 0;
+  }
+  #page .step-box dl dt {
+    background: #fff;
+    float: left;
+    width: 26vw;
+    text-align: center;
+    font-size: 4.8vw;
+    margin-right: 3vw;
+    padding: 5vw 2vw 6vw;
+  }
+  #page .step-box dl dd {
+    font-size: 3.4vw;
+    margin-top: 0vw;
+    line-height: 1.5;
+    overflow: hidden;
+  }
+  #page .step-box dl:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  #page section {
+    padding: 10vw 0 6vw;
+  }
+  #page .content-box {
+    padding: 7vw 0 3vw;
+  }
+  #page .l-section {
+    padding: 0 0 2vw;
+  }
+  #page .campaign-hero__schedule {
+    margin: 0 0 10px;
+    padding: 15px 8px;
+    line-height: 1.4;
+  }
+  #page .cpnImage img {
+    width: 100%;
+  }
+  #page .inc-about-wrap .inc-about-sp {
+    display: block;
+    padding: 0;
+    width: 90vw;
+    margin: 3vw auto;
+  }
+  #rex-btn1 {
+    margin: 4vw !important;
+  }
+}

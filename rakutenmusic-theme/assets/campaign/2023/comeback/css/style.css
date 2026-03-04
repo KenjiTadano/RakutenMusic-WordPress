@@ -1,0 +1,362 @@
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+#page .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration: underline;
+}
+#page .l-content .anchor-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0 24px;
+  margin: 24px auto;
+}
+#page .l-content .anchor-link > a {
+  display: flex;
+  padding: 12px 16px 12px 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+  color: var(--Gray-1000, #000);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 50px;
+  border: 2px solid var(--Red-Logo-800, #BF0000);
+  background: var(--White, #FFF);
+}
+#page .l-content h2 {
+  padding: 12px 0;
+  background: var(--002896, #BF0000);
+  color: var(--White, #FFF);
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+#page .l-content h3 {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+}
+#page .l-content .yamawake-point {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+  align-self: stretch;
+  padding: 0 16px;
+}
+#page .l-content .yamawake-point > li {
+  width: 164px;
+  display: flex;
+  padding: 24px 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 24px;
+  border: 3px solid var(--Gray-1000, #000);
+  background: var(--White, #FFF);
+}
+#page .l-content .yamawake-point > li > a {
+  color: #000;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: underline;
+}
+#page .l-content .yamawake-point > li p.cp-number {
+  color: var(--Gray-1000, #000);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+#page .l-content .yamawake-point > li p.cp-number span.red {
+  color: var(--Red-Logo-800, #BF0000);
+}
+#page .l-content .yamawake-point > li img.point {
+  width: 132px;
+}
+#page .l-content .yamawake-point > li p.txt-point {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+#page .l-content .yamawake-point > li p.caption {
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page .l-content .yamawake-point > li div.ccode-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#page .l-content .yamawake-point > li div.ccode-group .ccode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#page .l-content .yamawake-point > li div.ccode-group .ccode .yomi {
+  color: var(--Gray-700, #686868);
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page .l-content .yamawake-point > li div.ccode-group .ccode .kaki {
+  color: var(--Red-Logo-800, #BF0000);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+#page .l-content .yamawake-point > li div.ccode-group button.btn-copy-code {
+  border: none;
+  border-radius: 32px;
+  background: var(--Red-Logo-800, #BF0000);
+  padding: 8px 16px;
+  color: var(--White, #FFF);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+#page .l-content #anchor-new + .btn-apply,
+#page .l-content #anchor-retry + .btn-apply {
+  margin: 24px auto;
+  padding: 0 24px;
+}
+#page #stack-rakutenmusicrank {
+  padding: 0;
+}
+#page #stack-rakutenmusicrank h2 {
+  width: 100%;
+}
+#page #stack-rakutenmusicrank p,
+#page #stack-rakutenmusicrank > div > img {
+  padding: 0 16px;
+}
+#page #stack-rakutenmusicrank > div > a:last-child {
+  margin: 0 16px;
+}
+#page #price .l-inner {
+  padding: 0;
+}
+#page #price .l-inner h1 {
+  width: 100%;
+  padding: 12px 0;
+  background: var(--002896, #BF0000);
+  color: var(--White, #FFF);
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+#page #price .l-inner > div.is-hidden--pc {
+  padding: 0 16px;
+}
+#page #campaign-merit {
+  margin: -12px auto 24px;
+}
+#page #campaign-merit h2 {
+  background: none;
+}
+#page .features-list-group {
+  display: flex;
+  width: 327px;
+  padding: 0;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+  margin: 24px auto;
+}
+#page .features-list-group .features-list {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+#page .features-list-group .item {
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px;
+  border: 2px solid var(--Gray-1000, #000);
+  background: var(--White, #FFF);
+}
+#page .features-list-group .item i img {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+#page .features-list-group .item .features-txt-group {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+#page .features-list-group .item .features-txt-group p {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page .features-list-group .item .features-txt-group p b {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+#page .l-campaign-03 .s-campaign-list .l-inner {
+  padding: 0;
+}
+#page .l-campaign-03 .s-campaign-list .l-inner ul.campaign-list {
+  padding: 0 16px;
+}
+#page .campaign-detail__table td {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+@media screen and (max-width: 767px) {
+  #page .js-toggle.is-open .js-toggle__panel {
+    max-height: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2023/comeback/img/bg.png) no-repeat center top/auto 82% black;
+  }
+  #page .l-content h2,
+  #page .l-content h3 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page .l-content #anchor-new + .btn-apply,
+  #page .l-content #anchor-retry + .btn-apply {
+    padding: 0;
+    margin: 36px auto;
+  }
+  #page .l-content .yamawake-point > li {
+    width: 462px;
+    padding: 36px;
+    gap: 24px;
+  }
+  #page .l-content .yamawake-point > li > a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page .l-content .yamawake-point > li > a:hover {
+    text-decoration: none;
+  }
+  #page .l-content .yamawake-point > li p.cp-number {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  #page .l-content .yamawake-point > li img.point {
+    width: 282px;
+  }
+  #page .l-content .yamawake-point > li p.txt-point {
+    font-size: 36px;
+    line-height: 100%;
+  }
+  #page .l-content .yamawake-point > li p.caption {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page .l-content .yamawake-point > li div.ccode-group {
+    gap: 1em;
+  }
+  #page .l-content .yamawake-point > li div.ccode-group .ccode .yomi {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  #page .l-content .yamawake-point > li div.ccode-group .ccode .kaki {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  #page .l-content .yamawake-point > li div.ccode-group button.btn-copy-code {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page .l-content .yamawake-point > li div.ccode-group button.btn-copy-code:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  #page .l-content .anchor-link {
+    margin: 36px auto;
+  }
+  #page .l-content .anchor-link > a {
+    flex: none;
+    font-size: 20px;
+    line-height: 26px;
+    gap: 8px;
+    transition: all 0.2s ease-in;
+  }
+  #page .l-content .anchor-link > a:hover {
+    transform: translateY(2px);
+  }
+  #page .features-list-group {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #page .features-list-group .features-list {
+    flex-wrap: wrap;
+    width: 624px;
+    flex-direction: row;
+  }
+  #page .features-list-group .features-list .item {
+    width: 300px;
+    gap: 24px;
+  }
+  #page .features-list-group .features-list .item .features-txt-group p b {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #price .l-inner {
+    width: 100%;
+  }
+  #page #price .l-inner h1 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page .l-campaign-03 .s-campaign-list .l-inner {
+    width: 100%;
+  }
+  #page .l-campaign-03 .s-campaign-list .l-inner ul.campaign-list {
+    width: 950px;
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=style.css.map */

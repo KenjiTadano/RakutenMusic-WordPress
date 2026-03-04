@@ -1,0 +1,220 @@
+#page {
+    overflow: hidden;
+}
+
+#page .campaign-hero__schedule__note a {
+    color: #f9f871;
+}
+
+#page #steps {
+    margin: 36px 0;
+}
+
+#page #steps>h1 {
+    margin: 24px 0;
+}
+
+#page #steps>ol>li {
+    padding: 36px 16px;
+}
+
+#page #steps>ol>li>h2 {
+    font-size: 0;
+    width: 154px;
+    height: 60px;
+    margin: 0 auto 24px;
+}
+
+#page #merit .l-inner>ol>li>.screenshot {
+    background: #00e5cb;
+}
+
+#page #steps>ol>li:nth-of-type(1) {
+    background: #fff0ca;
+}
+
+#page #steps>ol>li:nth-of-type(1)>h2 {
+    background: url("https://music.r10s.jp/external/prod/assets/campaign/group/point-gallery/img/step_1.png") no-repeat center top/cover;
+}
+
+#page #steps>ol>li:nth-of-type(2) {
+    background: #d3d5a8;
+}
+
+#page #steps>ol>li:nth-of-type(2)>h2 {
+    background: url("https://music.r10s.jp/external/prod/assets/campaign/group/point-gallery/img/step_2.png") no-repeat center top/cover;
+}
+
+#page #steps>ol>li:nth-of-type(3) {
+    background: #a4bb8d;
+}
+
+#page #steps>ol>li:nth-of-type(3)>h2 {
+    background: url("https://music.r10s.jp/external/prod/assets/campaign/group/point-gallery/img/step_3.png") no-repeat center top/cover;
+}
+
+#page #steps>ol>li>.l-inner {
+    background: white;
+    padding: 24px 16px;
+    border-radius: 24px;
+}
+
+#page #steps>ol>li>.l-inner>p:first-child {
+    text-align: center;
+    margin: 0 0 16px;
+}
+
+#page #steps>ol>li>.l-inner>p:first-child strong {
+    color: #f14646;
+    font-size: 1.6em;
+}
+
+#page #steps>ol>li>.l-inner>p:last-child {
+    line-height: 1.25;
+    margin-top: 16px;
+}
+
+#page #steps>ol>li>.l-inner .code {
+    margin: 16px auto;
+}
+
+#page #steps>ol>li>.l-inner .code>div {
+    border: 2px solid #4c4637;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+#page #steps>ol>li>.l-inner .code>div:first-child {
+    background: #4c4637;
+    color: white;
+}
+
+#page #steps>ol>li>.l-inner .code+p {
+    text-align: justify;
+    line-height: 1.25;
+    margin: 16px auto 24px;
+}
+
+#page #steps>ol>li>.l-inner .trial-btn {
+    width: 100%;
+    background: #bf0000;
+    text-align: center;
+    border-radius: 12px;
+    margin: 16px auto;
+}
+
+#page #steps>ol>li>.l-inner .trial-btn a {
+    color: white;
+    padding: 2em 0;
+    display: block;
+}
+
+#page #steps>ol>li>.l-inner .campaign-code-steps {
+    margin-bottom: 36px;
+}
+
+#page #steps>ol>li>.l-inner .slick-slide h3 {
+    background: #d3d5a8;
+    color: #4c4637;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#page #steps>ol>li>.l-inner .slick-slide p {
+    margin-top: 16px;
+}
+
+#page #steps>ol>li>.l-inner .slick-dots {
+    margin: 0;
+}
+
+#page #steps>ol>li>.l-inner .slick-dots li button:before {
+    display: none;
+}
+
+#page #steps>ol>li>.l-inner .slick-arrow:before {
+    color: #4c4637;
+}
+
+#page #steps .img-complete {
+    margin: -36px 24px 24px;
+    transform: rotate(-4deg);
+}
+
+#page #steps .img-sarani {
+    width: 50%;
+    margin: 24px auto -16px;
+}
+
+#page .rex-button__1ArV .rex-button__3n3I {
+    width: 100%;
+    padding: 0;
+    border-radius: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    #page .s-campaign-hero {
+        padding: 0;
+        background: #00e5cb;
+        position: relative;
+    }
+    #page .s-campaign-hero:after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 70px;
+        background: #4c4637;
+    }
+    #page .campaign-hero__schedule {
+        position: relative;
+        z-index: 1;
+    }
+    #page .campaign-hero__schedule__note a:hover {
+        text-decoration: underline;
+    }
+    #page #steps>ol>li>.l-inner {
+        padding: 36px;
+    }
+    #page #steps>ol>li>.l-inner>p:first-child+figure {
+        text-align: center;
+    }
+    #page #steps>ol>li>.l-inner>p:last-child {
+        text-align: center;
+    }
+    #page #steps>ol>li>.l-inner .btn-apply {
+        margin: 0 auto;
+    }
+    #page #steps>ol>li>.l-inner .btn-apply .trial-btn {
+        width: 440px;
+    }
+    #page #steps>ol>li>.l-inner .btn-apply .trial-btn a {
+        font-size: 24px;
+        padding: 1.2em 0;
+    }
+    #page #steps>ol>li>.l-inner .btn-apply .code {
+        width: 440px;
+    }
+    #page #steps>ol>li>.l-inner .code+p {
+        text-align: center;
+    }
+    #page #steps>ol>li>.l-inner .slick-slide {
+        margin: 0 12px;
+    }
+    #page #steps>ol>li>.l-inner .slick-slide figure img {
+        width: 100%;
+    }
+    #page #steps .img-complete {
+        width: 600px;
+        height: 150px;
+        margin: -36px auto 24px;
+    }
+    #page #steps .img-sarani {
+        width: 100%;
+        text-align: center;
+    }
+    #page .rex-button__1ArV .rex-button__3n3I {
+        width: 440px;
+    }
+}

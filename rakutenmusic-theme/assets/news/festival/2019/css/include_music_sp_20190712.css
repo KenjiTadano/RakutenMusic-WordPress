@@ -1,0 +1,146 @@
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music {
+  width: 90%;
+  padding: 30px 20px;
+  background: white;
+  border: 5px solid #f4f4f4;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music a {
+  display: block;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music > p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .logo {
+  text-align: center;
+  margin: 24px auto 12px;
+  width: 50%;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .logo img {
+  width: 100%;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .bnr {
+  width: 100%;
+  margin: 20px auto 40px;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .bnr a img {
+  width: 100%;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .feature figure {
+  text-align: center;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .feature figure img {
+  width: 100%;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .btn-trial {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 75px;
+  margin: 20px 0;
+  border-radius: 12px;
+  background: #7f43e2;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #7f43e2 0%, #eb36f9 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #7f43e2 0%, #eb36f9 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #7f43e2 0%, #eb36f9 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .btn-trial a {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 75px;
+  font-size: 4vw;
+  text-decoration: none;
+  border-radius: 75px;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .btn-trial a:after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 6px;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .sub-area p.cpn {
+  margin: 1rem 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .sub-area p.cpn a {
+  color: red;
+  text-decoration: underline;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .sub-area p.cpn a:hover {
+  text-decoration: none;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .sub-area p.note {
+  line-height: 1.5;
+  font-size: 0.9em;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .howto h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0 20px;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .howto > div {
+  overflow-x: scroll;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .howto > div ul {
+  width: 130vw;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .howto > div ul li {
+  width: 460px;
+  position: relative;
+  margin: 0 4vw;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .howto > div ul li div img {
+  width: 100%;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .howto > div ul li p {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 1em 0 0;
+}
+
+#rbcomp #rbcomp__inner [data-rbcomp] #include-music .howto > div ul li:first-of-type:after {
+  content: "\f0da";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 12px;
+  font-size: 64px;
+  position: absolute;
+  top: 40%;
+  left: 122%;
+}

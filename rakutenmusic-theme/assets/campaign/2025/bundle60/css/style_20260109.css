@@ -1,0 +1,331 @@
+/* common */
+#page h1 {
+  font-feature-settings: "palt";
+}
+
+#page p {
+  font-feature-settings: "palt";
+}
+
+#page .l-header,
+#page .l-breadcrumb,
+#page .l-footer {
+  display: none;
+}
+
+#page .l-container.is-fixed {
+  padding-top: 0;
+}
+
+#page .js-toggle.is-open .js-toggle__panel {
+  max-height: none;
+}
+
+#page .campaign-detail__table .is-open td {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* common END */
+
+
+/* main */
+#page .main-contents {
+  background: #FBF4FD;
+  padding: 24px 0;
+}
+
+#page .ccode-group {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 32px 24px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+/* ogp */
+#page .ccode-group .bundle60-ogp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #FF6900 0%, #FB2C36 50%, #E60076 100%);
+}
+
+#page .ccode-group .bundle60-ogp .sub .sub-txt {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.554px;
+  /* 150% */
+}
+
+#page .ccode-group .bundle60-ogp .sub .sub-txt30 {
+  color: #FFF;
+  text-align: center;
+  text-decoration: line-through;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 130%;
+  /* 45.5px */
+}
+
+#page .ccode-group .bundle60-ogp .appeal-box {
+  display: flex;
+  height: 83px;
+  padding: 10px 13px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 16px;
+  border: 1.378px solid rgba(255, 255, 255, 0.40);
+  background: rgba(255, 255, 255, 0.20);
+}
+
+#page .ccode-group .bundle60-ogp .appeal-box .appeal-txt60 {
+  color: #FFF;
+  text-align: center;
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 56px;
+  /* 84.848% */
+
+}
+
+#page .ccode-group .bundle60-ogp .appeal-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+#page .ccode-group .bundle60-ogp .appeal-box2 .appeal-txt {
+  color: #FFF;
+  text-align: center;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 48px;
+  /* 123.077% */
+}
+
+/* キャンペーンコードコピーブロック */
+#page .ccode-group .codecopy-block {
+  display: flex;
+  padding: 25px;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid #E9D4FF;
+  background: linear-gradient(135deg, #F3E8FF 0%, #FCE7F3 100%);
+}
+
+#page .ccode-group .codecopy-block .codecopy-leadtxt {
+  color: #8200DB;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  /* 116.667% */
+}
+
+#page .ccode-group .codecopy-block .code-appeal {
+  display: flex;
+  padding: 17px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 14px;
+  border: 1px solid #DAB2FF;
+  background: #FFF;
+}
+
+#page .ccode-group .codecopy-block .code-appeal .code-txt {
+  text-align: center;
+  font-size: 43px;
+  font-weight: 800;
+  line-height: 52.8px;
+  /* 110% */
+  text-transform: lowercase;
+  background: linear-gradient(90deg, #E7000B 0%, #E60076 50%, #9810FA 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#page .ccode-group .btn-copy-code {
+  display: flex;
+  width: 295px;
+  height: 48px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 74px;
+  color: #fff;
+  border: none;
+  background: linear-gradient(90deg, #9810FA 0%, #E60076 100%);
+}
+
+/* デザイン変更トライアルボタン */
+#page .ccode-group .btn-apply .trial-btn {
+  background: linear-gradient(90deg, #E7000B 0%, #E60076 50%, #F54900 100%) !important;
+  padding: 18px 24px !important;
+}
+
+#page .ccode-group .btn-apply .trial-btn .btn-bundle60 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: .03em;
+}
+
+#page .ccode-group .btn-apply .trial-btn .btn-bundle60 .txt {
+  font-size: 25px;
+}
+
+#page .ccode-group .btn-apply .trial-btn .btn-bundle60 .txt-small {
+  font-size: 13px;
+  line-height: 31px;
+}
+
+#page .ccode-group .btn-apply .btn-apply--caption-box {
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 10px;
+  background: #FFF;
+}
+
+#page .ccode-group .btn-apply .btn-apply--caption-box .btn-apply--caption {
+  line-height: 20px;
+}
+
+#page .ccode-group .duration {
+  text-align: center;
+}
+
+#page .ccode-group p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* コピーボタンポップアップ設定 */
+
+#page #copied {
+  display: none;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 24px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
+}
+
+#page #copied.show {
+  opacity: 1;
+}
+
+#page .flex-24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#page #copied>div.flex-24 {
+  border-radius: 4px;
+  background: white;
+  padding: 24px;
+  box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  align-items: stretch;
+}
+
+#page #copied>div.flex-24 p {
+  color: #656565;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  text-align: center;
+}
+
+#page #copied>div.flex-24 p.lead {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+#page #copied>div.flex-24 .btn-apply a {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d80000;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+#page #copied>div.flex-24 .btn-apply .btn-bundle60 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: .03em;
+}
+
+#page #copied>div.flex-24 .btn-apply .btn-bundle60 .txt-small {
+  font-size: 13px;
+}
+
+
+
+#page #copied>div.flex-24 button#close-modal {
+  border: none;
+  background: none;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/* -------PC設定------- */
+@media screen and (min-width: 768px) {
+  #page .main-contents {
+    margin: 0 auto;
+    width: 1104px;
+  }
+
+  #page .ccode-group .btn-apply {
+    max-width: 400px;
+  }
+
+  #page .ccode-group h1 {
+    font-size: 32px;
+  }
+
+  #page .ccode-group p {
+    margin: 0;
+    font-size: 16px;
+  }
+}

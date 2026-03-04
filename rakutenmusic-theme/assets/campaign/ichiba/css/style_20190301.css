@@ -1,0 +1,197 @@
+#page .song {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#page .song li {
+  width: 20%;
+  padding: 1rem;
+}
+
+#page .song li figure {
+  height: 156px;
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+#page .song li figure img {
+  width: auto;
+  height: 100%;
+}
+
+#page .song li p strong {
+  font-size: 2rem;
+  margin-right: 0.75rem;
+  color: red;
+}
+
+#page .song li p:first-of-type {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#page .song li p:last-child {
+  font-size: 1.25rem;
+}
+
+#page .playlist {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#page .playlist li {
+  width: calc(100% / 3);
+  padding: 1rem;
+}
+
+#page .playlist li figure img {
+  width: 100%;
+}
+
+#page .playlist li p {
+  margin: 1rem 0;
+}
+
+#page .s-delivery-list {
+  border: none;
+}
+
+#page .conditionsBox {
+  width: 1040px;
+  margin: 0 auto;
+  border-top: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+  border-left: 1px solid #d3d3d3;
+  font-size: 100%;
+}
+
+#page .conditionsBox th {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+  background: #f9f9f9;
+  padding: 8px 10px;
+  width: 15%;
+}
+
+#page .conditionsBox td {
+  border-bottom: 1px solid #d3d3d3;
+  padding: 8px 10px;
+  font-weight: bold;
+}
+
+#page .conditionsBox .ic-red {
+  background: #cf2c23;
+  padding: 4px 15px;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-bottom: 1px;
+  display: inline-block;
+}
+
+#page #btn-apply {
+  padding: 40px 0 0;
+}
+
+#page .padding-50 {
+  margin-top: 40px;
+}
+
+#page .cancellation {
+  padding: 4px 0 0;
+  font-weight: normal;
+}
+
+#page .stepArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+#page .stepArea li div img {
+  margin-bottom: 10px;
+}
+
+#page .stepArea li p {
+  font-size: 100%;
+  text-align: center;
+  padding-top: 0;
+  line-height: 1.5;
+}
+
+#page .link600x100 li {
+  margin-top: 25px;
+  text-align: center;
+}
+
+#page .link600x100 li .note {
+  margin-top: 5px;
+  font-size: 82%;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  #page .l-inner {
+    margin: 0 auto;
+    box-sizing: content-box;
+  }
+  #page .w950 {
+    width: 950px;
+    margin: 0 auto 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #page .heading--m {
+    padding: 0;
+    margin: 3rem 2rem 2rem;
+  }
+  #page .song li {
+    width: 50%;
+    padding: 3rem 1rem;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+  }
+  #page .song li:nth-child(even) {
+    border-right: 1px solid lightgray;
+  }
+  #page .song li:nth-child(1),
+  #page .song li:nth-child(2) {
+    border-top: 1px solid lightgray;
+  }
+  #page .song li figure {
+    height: 34vw;
+  }
+  #page .playlist li {
+    width: 100%;
+  }
+  #page .padding-50 {
+    margin-top: 30px;
+  }
+  #page .stepArea {
+    display: block;
+    padding: 16px;
+  }
+  #page .stepArea li {
+    margin-top: 32px;
+  }
+  #page .inc-about-wrap .inc-about-sp {
+    display: block;
+    padding: 0vw;
+  }
+  #page .conditionsBox {
+    width: 93%;
+    font-size: 3.8vw;
+    margin: 16px auto 30px;
+  }
+  #page .conditionsBox .ic-red {
+    padding: 2px 10px;
+    margin-top: 2px;
+  }
+  #page #btn-apply {
+    padding: 0;
+  }
+}

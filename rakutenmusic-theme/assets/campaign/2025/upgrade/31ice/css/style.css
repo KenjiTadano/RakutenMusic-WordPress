@@ -1,0 +1,124 @@
+#page h1 {
+  font-feature-settings: "palt";
+}
+
+#page p {
+  font-feature-settings: "palt";
+}
+
+#page .l-header,
+#page .l-breadcrumb,
+#page .l-footer {
+  display: none;
+}
+
+#page .l-container.is-fixed {
+  padding-top: 0;
+}
+
+#page .js-toggle.is-open .js-toggle__panel {
+  max-height: none;
+}
+
+#page .campaign-detail__table .is-open td {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#page .flex-24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#page .campaign-step {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 32px 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+#page .campaign-step p {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#page .campaign-step p.appeal-tex {
+  text-align: center;
+  font-size: 20px;
+}
+
+#page .campaign-step p.appeal-tex strong {
+  color: #d80000;
+}
+
+/* entry　button */
+#page #rex-ceb-01 {
+  margin: 0 16px;
+}
+
+#page #rex-ceb-01 .BelowBlock_below__\+mukh {
+  margin-top: 0;
+  padding: 16px 0 24px;
+}
+
+#page span.RexButton-message {
+  font-size: 24px;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: rgb(137, 137, 137);
+}
+
+#page .CampaignButton-success span.RexButton-message {
+  color: rgb(4, 114, 5);
+  font-size: 18px;
+}
+
+#page p.agreement-message.Message_message__FuD4t.Message_red__mgP-C {
+  padding-top: 16px;
+}
+
+/* trial */
+#page .l-content .trial-step {
+  margin: 0 16px;
+  padding: 24px 0;
+}
+
+#page .l-content .trial-step .btn-apply {
+  margin: 0 auto;
+}
+
+#page .l-content .trial-step .btn-apply--addcaption {
+  color: #BF0000;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  padding: 8px 24px;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/* PC設定 */
+@media screen and (min-width: 768px) {
+  #page #rex-ceb-01 {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  /* trial */
+  #page .l-content .btn-apply--addcaption {
+    font-size: 16px;
+  }
+}

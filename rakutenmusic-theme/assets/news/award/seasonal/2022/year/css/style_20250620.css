@@ -1,0 +1,430 @@
+#page .campaign-hero__schedule {
+  display: none;
+}
+
+#page .text-box .l-inner {
+  width: 100%;
+}
+
+#page .fv-trial {
+  margin-top: 72px;
+}
+
+#page .fv-trial h1 {
+  text-align: center;
+}
+
+#page .fv-trial .btn-apply {
+  margin: 24px 0 0;
+}
+
+#page .fv-trial .btn-apply>.l-inner {
+  width: 100%;
+}
+
+#page .webwidget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  margin-top: 32px;
+}
+
+#page .webwidget iframe {
+  width: 100%;
+}
+
+#page #nav_ranks {
+  margin-top: -100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+#page #nav_ranks li {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9D0031), to(#DE3068));
+  background: linear-gradient(180deg, #9D0031 0%, #DE3068 100%);
+  border: 2px solid #FFFFFF;
+  border-radius: 64px;
+}
+
+#page #nav_ranks li a {
+  position: relative;
+  display: block;
+  padding: 12px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+#page #nav_ranks li a::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/news/award/seasonal/2022/first-half/img/icon_chevrondown.png) no-repeat center/cover;
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#page h2.heading.heading--m {
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #9D0031), to(#DE3068));
+  background: linear-gradient(90deg, #9D0031 1%, #DE3068 100%);
+  color: white;
+  padding: 2rem 0;
+  margin: 48px 0 42px;
+}
+
+#page .monthlyRanking {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#page .monthlyRanking>li {
+  width: calc(100% / 4);
+  padding: 2rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-right: 4px solid #9D0031;
+  border-bottom: 4px solid #9D0031;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#page .monthlyRanking>li>a figure {
+  max-width: 200px;
+  margin: 16px auto;
+  text-align: center;
+}
+
+#page .monthlyRanking>li>a p {
+  color: #9D0031;
+  line-height: 1.5;
+}
+
+#page .monthlyRanking>li>a p.rank {
+  font-size: 24px;
+  padding: 0 8px 8px;
+  border-bottom: 4px solid #9D0031;
+  font-weight: bold;
+  color: #9D0031;
+}
+
+#page .monthlyRanking>li>a p.title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#page .monthlyRanking>li:nth-child(1),
+#page .monthlyRanking>li:nth-child(2),
+#page .monthlyRanking>li:nth-child(3) {
+  width: calc(100% / 3);
+  border-top: 4px solid #9D0031;
+}
+
+#page .monthlyRanking>li:nth-child(1)>div figure,
+#page .monthlyRanking>li:nth-child(2)>div figure,
+#page .monthlyRanking>li:nth-child(3)>div figure {
+  height: 200px;
+}
+
+#page .monthlyRanking>li:nth-child(1),
+#page .monthlyRanking>li:nth-child(4n) {
+  border-left: 4px solid #9D0031;
+}
+
+#page #pr-bnr+.content-box {
+  padding: 24px 0 0;
+}
+
+#page #pr-bnr+.content-box>.l-inner .content-box__text {
+  margin-top: 1rem;
+}
+
+#page #bnr-full {
+  background: whitesmoke;
+}
+
+#page #bnr-full .l-inner .bnr {
+  display: block;
+  margin: 2em auto;
+  padding-top: 2em;
+  text-align: center;
+}
+
+#page #bnr-full .l-inner .bnr a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  color: #006497;
+}
+
+#page .playlistRanking li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-top: 4px solid #9D0031;
+  padding: 2rem;
+  color: #9D0031;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#page .playlistRanking li p {
+  width: 80%;
+  text-align: left;
+}
+
+#page .playlistRanking li div.btn {
+  background: #9D0031;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#page .playlistRanking li div.btn a {
+  color: white;
+  font-weight: normal;
+  display: block;
+}
+
+#page .playlistRanking li:last-child {
+  border-bottom: 4px solid #9D0031;
+}
+
+#page .playlistRanking li:nth-child(1),
+#page .playlistRanking li:nth-child(2),
+#page .playlistRanking li:nth-child(3) {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#page .playlistRanking li span {
+  display: inline-block;
+  width: 40px;
+  text-align: right;
+  font-size: 1.6rem;
+  margin-right: 2rem;
+}
+
+#page .btn-apply .l-inner div.text-box p {
+  margin: 16px auto 0;
+}
+
+#page #pagetop {
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+}
+
+#page #pagetop a {
+  display: block;
+  color: #333;
+  font-size: 6rem;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  #page .s-campaign-hero+div .l-inner {
+    padding: 0;
+  }
+
+  #page h2.heading.heading--m {
+    padding: 2rem;
+  }
+
+  #page .fv-trial h1 {
+    font-size: 24px;
+  }
+
+  #page .monthlyRanking>li {
+    width: calc(100% / 2);
+    padding: 1.75rem;
+  }
+
+  #page .monthlyRanking>li>a figure img {
+    width: 100%;
+  }
+
+  #page .monthlyRanking>li>a p {
+    font-size: 1.6rem;
+    line-height: 1.75em;
+  }
+
+  #page .monthlyRanking>li>a p.rank {
+    padding: 0.5rem;
+  }
+
+  #page .monthlyRanking>li:nth-child(1) {
+    width: 100%;
+  }
+
+  #page .monthlyRanking>li:nth-child(2),
+  #page .monthlyRanking>li:nth-child(3) {
+    width: 100%;
+    border-left: 4px solid #9D0031;
+    border-top: none;
+  }
+
+  #page .monthlyRanking>li:nth-child(4n) {
+    border-left: none;
+  }
+
+  #page .monthlyRanking>li:nth-child(even) {
+    border-left: 4px solid #9D0031;
+  }
+
+  #page .playlistRanking li {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  #page .playlistRanking li p {
+    width: 100%;
+    margin: 8px 0 12px;
+  }
+
+  #page .playlistRanking li span {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  #page #pagetop {
+    right: 1rem;
+    bottom: 1rem;
+  }
+
+  #page #bnr-full .l-inner .bnr {
+    display: block;
+    margin: 0 auto;
+    padding: 2em 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    background: url(/assets/news/award/seasonal/2022/year/img/bg.jpg) no-repeat center top/auto 100%;
+  }
+
+  #page #nav_ranks {
+    width: 552px;
+    margin: -112px auto 0;
+    position: relative;
+    top: 16px;
+  }
+
+  #page #nav_ranks li {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+
+  #page #nav_ranks li a {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #page #nav_ranks li a::after {
+    right: 24px;
+  }
+
+  #page #nav_ranks li:hover {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+
+  #page .webwidget {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    gap: 24px;
+    width: 760px;
+    margin: 32px auto 0;
+  }
+
+  #page .monthlyRanking>li:hover {
+    background: #FFEAF0;
+    cursor: pointer;
+  }
+
+  #page .monthlyRanking>li>a figure img {
+    width: 100%;
+  }
+
+  #page .playlistRanking li:hover {
+    background: #FFEAF0;
+  }
+
+  #page .playlistRanking li div.btn:hover {
+    background-color: #BB1C4E;
+    cursor: pointer;
+  }
+
+  #page #pr-bnr+.content-box {
+    padding: 36px 0 0;
+  }
+
+  #page #pr-bnr+.content-box>.l-inner {
+    width: 600px;
+  }
+
+  #page #bnr-full .l-inner .bnr a {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  #page #bnr-full .l-inner .bnr a:hover {
+    opacity: .8;
+  }
+
+  #page #pagetop a:hover {
+    color: #001241;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

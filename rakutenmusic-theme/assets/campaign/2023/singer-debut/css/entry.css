@@ -1,0 +1,100 @@
+#page .select-options {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0px;
+  gap: 16px;
+}
+#page .select-options label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 8px;
+  position: relative;
+  background: var(--White, #FFF);
+}
+#page .select-options label img {
+  width: 60px;
+  height: 60px;
+}
+#page .select-options label::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #BF0000;
+  border-radius: 24px;
+}
+#page .select-options label input[type=radio] {
+  display: none;
+}
+#page .select-options label span {
+  flex: 1;
+  color: var(--core-content-default, #000);
+  font-size: 14px;
+  line-height: 20px;
+}
+#page .select-options label.selected {
+  border: 2px solid #BF0000;
+}
+#page .select-options label.selected::after {
+  display: block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background: #BF0000;
+  border-radius: 10px;
+  top: 50%;
+  left: 23px;
+  transform: translateY(-50%);
+}
+#page .input-text {
+  padding: 1em;
+  font-size: 14px;
+  border: 1px solid #BF0000;
+  border-radius: 8px;
+}
+#page .btn-entry {
+  padding: 12px 24px;
+  width: 100%;
+  background: #BF0000;
+  border-radius: 50px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+}
+
+@media screen and (min-width: 767px) {
+  #page .select-options {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #page .select-options label {
+    padding-right: 1em;
+  }
+  #page .input-text {
+    width: 300px;
+    margin: 0 auto;
+  }
+  #page .btn-entry {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 12px 24px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    transition: all 0.2s ease-in;
+  }
+  #page .btn-entry:hover {
+    background: #ff1212;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=entry.css.map */

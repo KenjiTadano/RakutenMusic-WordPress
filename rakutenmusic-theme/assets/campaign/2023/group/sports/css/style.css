@@ -1,0 +1,715 @@
+#page .campaign-hero__schedule br.is-hidden--pc:last-child {
+  display: none;
+}
+
+#page .anchor-links--sp select {
+  width: 100%;
+  -webkit-appearance: none;
+  background: url(/assets/campaign/2023/group/sports/img/icon_chevron_down.png) no-repeat right 16px center/16px 16px #fff;
+  max-width: 300px;
+  border: 2px solid black;
+  -webkit-box-shadow: 0px 4px 0px black;
+          box-shadow: 0px 4px 0px black;
+  border-radius: 56px;
+  padding: 8px 16px;
+  margin: 36px auto;
+  display: block;
+  color: #333;
+}
+
+#page p.copyright {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+}
+
+#page section {
+  padding: 0;
+}
+
+#page #sticky-apply-btn {
+  width: 100%;
+  padding: 12px 16px 24px;
+  position: fixed;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  border-top: 1px solid #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 8px;
+  z-index: 99;
+}
+
+#page #sticky-apply-btn > div:first-child {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#page #sticky-apply-btn > div a {
+  padding: 4px 16px;
+  background: #bf0000;
+  color: white;
+  border-radius: 36px;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+}
+
+#page .sports-section h1,
+#page #ttl_about_rakutenmusic + h2,
+#page #ttl_pricelist + h2 {
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  background: #000000;
+  padding: 12px 0;
+  color: white;
+}
+
+#page #price .l-inner > h1 {
+  display: none;
+}
+
+#page .s-campaign-detail {
+  margin-top: 36px;
+  padding-bottom: 32px;
+}
+
+#page .bold {
+  font-weight: 700;
+}
+
+#page .red {
+  color: #D80000;
+}
+
+#page .small {
+  font-size: 12px;
+  line-height: 16px;
+  color: #686868;
+}
+
+#page .flx-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+}
+
+#page .flx-8,
+#page .flx-8-16 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+#page .flx-16,
+#page .flx-16-8,
+#page .flx-16-36 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+#page .flx-24,
+#page .flx-24-16,
+#page .flx-24-36 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+
+#page .flx-36 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 36px;
+}
+
+#page .bg-lightgray {
+  background: #EBEBEB;
+}
+
+#page a.btn-entry {
+  display: block;
+  min-width: 216px;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 8px 0;
+  border-radius: 42px;
+}
+
+#page a.btn-entry.active {
+  color: #FFFFFF;
+  background: #BF0000;
+}
+
+#page a.btn-entry.disable {
+  color: #898989;
+  background: #DFDFDF;
+}
+
+#page .player-profile--sports {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 12px;
+  background: #EBEBEB;
+  border-radius: 32px;
+}
+
+#page .sns i img {
+  width: 24px;
+}
+
+#page .steps-s > li.flx-4 {
+  padding: 16px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+
+#page .steps-s > li.arrow {
+  font-size: 0;
+}
+
+#page .steps-s > li > * {
+  text-align: center;
+}
+
+#page .steps-s > li > img {
+  width: 16px;
+}
+
+#page .steps-s > li h2,
+#page .steps-s > li p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page .steps-s > li h2,
+#page .steps-s > li a {
+  color: #EC302B;
+}
+
+#page .steps-s > li a {
+  text-decoration: underline;
+}
+
+#page ol#steps-l > li {
+  padding: 36px 16px;
+}
+
+#page ol#steps-l .steps-l--h img {
+  width: 126px;
+}
+
+#page ol#steps-l .steps-l--h p {
+  text-align: center;
+}
+
+#page ol#steps-l .steps-l--h p.bold {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page ol#steps-l .steps-l-2-content {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 16px;
+  text-align: center;
+}
+
+#page ol#steps-l .steps-l-2-content .red {
+  padding: 16px;
+  background: #FFF0F0;
+  border-radius: 8px;
+}
+
+#page ol#steps-l .steps-l-2-content .small {
+  text-align: left;
+}
+
+#page ol#steps-l .steps-l-2-content + div h2 {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+#page ol#steps-l .btn-apply {
+  margin: 0 auto;
+}
+
+#page #ttl_campaign_entry > .l-inner {
+  margin: 36px auto;
+}
+
+#page #ttl_campaign_entry .presents p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+#page #btn-campaign-entry li {
+  background: #FFFFFF;
+  border: 3px solid #000000;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+#page #btn-campaign-entry li > img {
+  width: 216px;
+}
+
+#page #playlist-details > li {
+  padding: 24px;
+  background: #FFFFFF;
+  border: 3px solid #000000;
+  border-radius: 8px;
+}
+
+#page #playlist-details > li .playlist-details--h .flx-8-16 .playlist-title {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+#page #playlist-details > li .playlist-details--h .flx-8-16 .btn-view-playlist {
+  width: 216px;
+  height: 40px;
+  padding: 8px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 42px;
+  text-align: center;
+}
+
+#page #playlist-details > li .playlist-details--h .flx-8-16 .btn-view-playlist.active {
+  color: #000;
+  background: #FFCC00;
+}
+
+#page #playlist-details > li .playlist-details--h .flx-8-16 .btn-view-playlist.disable {
+  color: #898989;
+  background: #DFDFDF;
+}
+
+#page #playlist-details > li .player-profile > img {
+  width: 200px;
+}
+
+#page #playlist-details > li .player-profile .team-n-name .name span {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+#page #playlist-details > li .player-profile .birth-n-position,
+#page #playlist-details > li .player-profile .sns .flx-16 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#page #playlist-details > li .player-profile .sns .flx-16 p {
+  width: 68px;
+}
+
+#page #playlist-details > li .present-n-comment .present,
+#page #playlist-details > li .present-n-comment .comment {
+  border: 1px solid #000000;
+  padding: 0 24px 24px;
+  font-size: 0;
+}
+
+#page #playlist-details > li .present-n-comment .present > img,
+#page #playlist-details > li .present-n-comment .comment > img {
+  margin-bottom: 16px;
+}
+
+#page #playlist-details > li .present-n-comment .present-content > img {
+  width: 120px;
+}
+
+#page #playlist-details > li .present-n-comment .present-content--txt {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+#page #playlist-details > li .present-n-comment .comment iframe {
+  width: 248px;
+}
+
+#page #playlist-details > li .present-n-comment .comment div.disable {
+  width: 248px;
+  height: 134px;
+  background: #DFDFDF;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #898989;
+}
+
+#page #special-thanks {
+  background: #FFFFFF;
+  border: 3px solid #000000;
+  border-radius: 8px;
+  padding: 32px;
+  width: 100%;
+  text-align: center;
+}
+
+#page #special-thanks .special-thanks-h {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page #special-thanks .other-players > li {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #D1D1D1;
+  border-radius: 8px;
+}
+
+#page #special-thanks .other-players > li .team-n-name .name span {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page #special-thanks .other-players > li .sns {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media screen and (min-width: 768px) {
+  #page .flx-16-8 {
+    gap: 8px;
+  }
+  #page .flx-8-16 {
+    gap: 16px;
+  }
+  #page .flx-16-36 {
+    gap: 36px;
+  }
+  #page .sns i {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page .sns i:hover {
+    opacity: 0.8;
+  }
+  #page #sticky-apply-btn {
+    padding: 16px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 16px;
+  }
+  #page #sticky-apply-btn > div:first-child {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+  #page #sticky-apply-btn > div a {
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 700;
+    padding: 0 32px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #sticky-apply-btn > div a:hover {
+    background: #ff1212;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  #page #logo {
+    text-align: center;
+    border-bottom: 1px solid #D9D9D9;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2023/group/sports/img/bg.jpg) no-repeat center top/auto 86.4% black;
+  }
+  #page #anchor-links ul.anchor-links--pc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0px;
+    gap: 16px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 950px;
+    margin: 48px auto;
+  }
+  #page #anchor-links ul.anchor-links--pc li {
+    background: #FFFFFF;
+    border: 2px solid black;
+    -webkit-box-shadow: 0px 2px 0px black;
+            box-shadow: 0px 2px 0px black;
+    border-radius: 56px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #anchor-links ul.anchor-links--pc li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+    padding: 8px 16px;
+  }
+  #page #anchor-links ul.anchor-links--pc li a::after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(/assets/campaign/2023/group/sports/img/icon_chevron_down.png) no-repeat center/cover;
+  }
+  #page #anchor-links ul.anchor-links--pc li:hover {
+    background: black;
+  }
+  #page #anchor-links ul.anchor-links--pc li:hover a {
+    color: white;
+  }
+  #page .sports-section h1,
+  #page #ttl_about_rakutenmusic + h2,
+  #page #ttl_pricelist + h2 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page .steps-s {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page .steps-s a:hover {
+    text-decoration: none;
+  }
+  #page #ttl_campaign_entry .l-inner:after {
+    content: none !important;
+  }
+  #page #ttl_campaign_entry .presents > img {
+    width: 408px;
+  }
+  #page #ttl_campaign_entry .presents p {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  #page ol#steps-l > li {
+    width: 100%;
+  }
+  #page ol#steps-l > li .steps-l--h img {
+    width: 167px;
+  }
+  #page ol#steps-l > li .steps-l--h p.bold {
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page #btn-campaign-entry {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page #btn-campaign-entry li > img {
+    width: auto;
+  }
+  #page .playlist-details--h {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page .playlist-details--h > div.flx-8-16 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page a.btn-entry.active {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page a.btn-entry.active:hover {
+    background: #ff1212;
+  }
+  #page #playlist-details > li .playlist-details--h .flx-8-16 .btn-view-playlist.active {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #playlist-details > li .playlist-details--h .flx-8-16 .btn-view-playlist.active:hover {
+    background: #FFE066;
+  }
+  #page #playlist-details > li .present-n-comment {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  #page #playlist-details > li .present-n-comment > div > img {
+    width: 248px;
+  }
+  #page #playlist-details > li .present-n-comment .present-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page #playlist-details > li .present-n-comment .present-content > img {
+    width: 140px;
+  }
+  #page #playlist-details > li .present-n-comment .comment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #page #playlist-details > li .present-n-comment .comment iframe {
+    width: 250px;
+    height: 140px;
+  }
+  #page .player-profile {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page .player-profile .team-n-name,
+  #page .player-profile .sns {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page #special-thanks {
+    width: auto;
+  }
+  #page #special-thanks .other-players > li {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page #special-thanks .other-players > li .team-n-name {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #page ol#steps-l .steps-l-2-content {
+    width: auto;
+  }
+  #page ol#steps-l .steps-l-2-content .small {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -3,11 +3,11 @@
   "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-top-section-firstplaylists",
   "title": "バンドル：FIRST PLAYLISTS",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-bundle",
   "icon": "playlist-audio",
   "description": "バンドルプラン：FIRST PLAYLISTS セクション",
   "keywords": ["楽天", "ミュージック", "バンドル", "プレイリスト"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "render": "file:./render.php"
 }

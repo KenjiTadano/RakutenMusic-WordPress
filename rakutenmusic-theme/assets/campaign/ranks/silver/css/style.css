@@ -1,0 +1,781 @@
+@charset "UTF-8";
+
+/*看板テキストセンター寄せ*/
+#rank-ddt .rank-ddt_mainvisual .rank-ddt_inner .rank-ddt_achievement-conditions .rank-ddt_achievement-conditions-text span{
+    text-align: center;
+}
+
+/*内容変更告知ポップ*/
+body {
+  line-height: 1.5;
+}
+
+.App {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 32px auto;
+}
+
+.Alert {
+  margin: 0 auto !important;
+}
+
+.CampaignButton {
+  margin: 0 !important;
+}
+
+#page section.Below {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+.CampaignButton-disabled span.RexButton-message,
+.CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+
+.CampaignButton-success span.RexButton-message {
+  color: #047205;
+}
+
+#page #stack-rakutenmusicrank {
+  margin: 32px auto;
+}
+
+#page a#showModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #969696;
+  margin: 16px auto;
+}
+
+#page .modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 9999;
+  padding: 32px;
+}
+
+#page .modal .modal-content {
+  transform: translateY(20%);
+}
+
+#page button#closeModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 32px auto;
+  border: none;
+  background: no-repeat;
+}
+
+#page button#closeModal span {
+  text-decoration: underline;
+}
+
+#page .slick-dots {
+  bottom: 0;
+  margin-top: 32px;
+}
+
+#page .slick-dots li button {
+  margin: 0 auto;
+}
+
+#page #sticky-apply-btn .btn-copy-code {
+  border: 2px solid #969696;
+  color: #969696;
+}
+
+#page h2.heading--m {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  padding: 10px;
+  background: #969696;
+  color: #FFFFFF;
+}
+
+#page #gold-nav {
+  padding: 0;
+  margin: 16px auto 24px;
+}
+
+#page #gold-nav .l-inner::after {
+  content: none;
+}
+
+#page #gold-nav .l-inner>ul {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  gap: 8px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+#page #gold-nav .l-inner>ul>li {
+  width: calc(50% - 4px);
+}
+
+#page #gold-nav .l-inner>ul>li>a {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: #F7F7F7;
+}
+
+#page #gold-nav .l-inner>ul>li>a>img {
+  width: 16px;
+  height: 16px;
+}
+
+#page #gold-nav .l-inner>ul>li>a p {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #969696;
+}
+
+#page #gold-nav .l-inner>ul>li>a::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url(/assets/campaign/ranks/diamond/img/icon_chevron_down.png) no-repeat center/cover;
+}
+
+#page #gold-steps>.l-inner .gold-steps--1 {
+  text-align: center;
+  padding: 36px 16px 24px;
+  background: #FFFFFF;
+  border: 1px solid #969696;
+  box-shadow: 8px 8px 0px #969696;
+}
+
+#page #gold-steps>.l-inner .gold-steps--1 .pbody {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #969696;
+  margin-bottom: 16px;
+}
+
+#page #gold-steps>.l-inner .gold-steps--1 .lead {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #969696;
+  background: linear-gradient(transparent 70%, #FFD633 70%);
+  display: inline;
+}
+
+#page #gold-steps>.l-inner .gold-steps--1 .lead-bundle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  margin-top: 16px;
+}
+
+#page #gold-steps>.l-inner .gold-steps--1 .small {
+  font-size: 12px;
+  text-align: center;
+}
+
+#page #gold-steps>.l-inner .gold-steps--1 .btn-apply {
+  margin: 16px auto;
+}
+
+#page #gold-steps>.l-inner .gold-steps--1 .btn-apply>.l-inner>* {
+  width: 100%;
+}
+
+#page #gold-steps>.l-inner .gold-steps--1 h3.heading--s {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #969696;
+}
+
+#page #gold-steps>.l-inner>p {
+  text-align: center;
+  margin: 36px auto;
+}
+
+#page #gold-steps>.l-inner>p a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #969696;
+}
+
+#page .campaign-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  border: 2px solid #969696;
+  border-radius: 8px;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 16px auto 0;
+}
+
+#page .campaign-code p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #969696;
+}
+
+#page .campaign-code p.campaign-code--code {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#page .campaign-code .btn-copy-code {
+  padding: 4px 16px;
+  background: #969696;
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: none;
+}
+
+#page #stack-playback-campaign {
+  margin: 36px auto;
+}
+
+#page #gold-feature {
+  display: flex;
+  margin: 32px auto;
+  padding: 32px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  background: url(/assets/campaign/ranks/gold/img/bg_p_sp.png) center top/contain;
+}
+
+#page #gold-feature .feature-inner {
+  display: flex;
+  padding: 32px 16px 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex: 1 0 0;
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#page #gold-feature .feature-inner .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+#page #gold-feature .feature-inner .content img {
+  width: 48px;
+  height: 48px;
+}
+
+#page #gold-feature .feature-inner .content h2 {
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+#page #gold-feature .feature-inner .content p {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+#page #gold-feature .feature-inner figure {
+  width: 160px;
+  height: 240px;
+  overflow: hidden;
+}
+
+#page #gold-feature+h2 {
+  display: none;
+}
+
+#page #price>.l-inner>h1 {
+  display: none;
+}
+
+#page .heading--m {
+  line-height: 1.5;
+}
+
+#page .l-inner {
+  width: 1072px;
+  padding: 0 16px;
+}
+
+#page #ranks-songs {
+  overflow: hidden;
+  margin: 36px auto;
+}
+
+#page #steps {
+  margin: 24px auto 36px;
+  background: #f7f7f7;
+  padding-top: 2.4rem;
+  padding-bottom: 3.2rem;
+}
+
+#page #steps .l-inner>figure {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#page #steps .l-inner>figure>img {
+  width: 100%;
+}
+
+#page #steps .l-inner .arrow {
+  margin: 0 auto;
+  width: 88px;
+}
+
+#page #steps .l-inner p {
+  text-align: center;
+}
+
+#page #steps .l-inner>ol>li {
+  border: 1px solid #969696;
+  padding: 2rem;
+  margin: 0 0 24px;
+}
+
+#page #steps .l-inner>ol>li:first-child {
+  padding-bottom: 48px;
+}
+
+#page #steps .l-inner>ol>li:nth-child(2) {
+  margin-bottom: 0;
+}
+
+#page #steps .l-inner>ol>li>h3 {
+  color: #969696;
+  margin: 0 0 1em;
+  padding: 0 0 1rem;
+  border-bottom: 1px solid #969696;
+}
+
+#page #steps .l-inner>ol>li>p {
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 0 1em;
+}
+
+#page #steps .l-inner>ol>li>p strong {
+  font-size: 2.8rem;
+  color: #bf0000;
+}
+
+#page #steps .l-inner>ol>li>h4 {
+  color: #969696;
+  margin: 24px auto 0;
+  text-align: center;
+}
+
+#page #steps .l-inner>ol>li>figure {
+  justify-content: center;
+  margin: 2em auto 1em;
+  width: 690px;
+}
+
+#page #steps .l-inner>ol>li>figure img {
+  width: 100%;
+}
+
+#page #steps .l-inner>ol>li .btn-apply {
+  margin: 0 auto;
+}
+
+#page #steps .l-inner>ol>li .btn-apply .l-inner .trial-btn {
+  width: 100%;
+}
+
+#page #steps .l-inner>ol>li .btn-apply .l-inner .code {
+  width: 100%;
+}
+
+#page #steps .l-inner>ol>li .btn-apply .l-inner .code>div:first-child {
+  background: #2d1006;
+  border: 2px solid #2d1006;
+}
+
+#page #steps .l-inner>ol>li .btn-apply .l-inner .code>div:last-child {
+  border: 2px solid #2d1006;
+}
+
+#page #steps .l-inner>ol>li .btn-apply .l-inner>p {
+  text-align: left;
+  width: 100%;
+  line-height: 1.5;
+}
+
+#page #steps .l-inner>ol>li .rex-button__1ArV .rex-button__3n3I.rex-button__27xO:before {
+  content: none;
+}
+
+#page #steps .l-inner>ol>li .rex-button__SMNE:before {
+  content: none;
+}
+
+#page #steps .l-inner>ol>li #rex-btn1 {
+  margin: 0 0 0.5em;
+}
+
+#page #steps .l-inner>ol>li #rex-btn1 button {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+#page #steps .l-inner>ol>li #rex-btn1+p {
+  text-align: justify;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+#page .HTMLBlock+h1.heading {
+  padding-top: 24px;
+  margin-bottom: 32px;
+  font-size: 2.2rem;
+}
+
+#page .warning {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 648px;
+  margin: auto;
+  padding: 8px;
+  gap: 10px;
+  background: #FEF0DD;
+  border: 1px solid #A35E04;
+  border-radius: 4px;
+}
+
+#page .warning .white-box--small {
+  width: 632px;
+  align-self: stretch;
+  color: var(--warning-text, #A35E04);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+/* アプリダウンロードボタン色変え */
+#page .btn-app-dl {
+  background: #bf0000;
+}
+
+@media screen and (min-width: 768px) {
+  #page ul.campaign-code-steps li.slick-slide h3 {
+    background: #969696;
+    color: #FFFFFF;
+  }
+
+  #page a#showModal:hover span {
+    text-decoration: underline;
+  }
+
+  #page button#closeModal:hover {
+    cursor: pointer;
+  }
+
+  #page button#closeModal:hover span {
+    text-decoration: none;
+  }
+
+  #page .stack-characteristic .l-inner {
+    padding: 36px 0 0;
+  }
+
+  #page h2.heading--m {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+  }
+
+  #page #gold-feature {
+    background: url(/assets/campaign/ranks/gold/img/bg_p_pc.png) center top;
+  }
+
+  #page #gold-feature .feature-inner {
+    width: 950px;
+    padding: 32px;
+    gap: 72px;
+    flex: none;
+    flex-direction: row;
+  }
+
+  #page #gold-feature .feature-inner .content img {
+    width: 72px;
+    height: 72px;
+  }
+
+  #page #gold-feature .feature-inner .content h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+  }
+
+  #page #gold-feature .feature-inner .content p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  #page #gold-feature .feature-inner figure {
+    width: 200px;
+    height: 400px;
+    flex-shrink: 0;
+  }
+
+  #page #gold-feature .feature-inner figure img {
+    width: 100%;
+  }
+
+  #page #campaign-merit {
+    margin: 36px auto;
+  }
+
+  #page #sticky-apply-btn .btn-copy-code:hover {
+    background: #969696;
+  }
+
+  #page #gold-nav {
+    margin: 36px auto;
+  }
+
+  #page #gold-nav .l-inner>ul {
+    flex-wrap: nowrap;
+    gap: 16px;
+  }
+
+  #page #gold-nav .l-inner>ul>li {
+    width: auto;
+    flex: 1;
+  }
+
+  #page #gold-nav .l-inner>ul>li>a {
+    background: #FFFFFF;
+    transition: all 0.2s ease-in;
+    padding: 12px;
+  }
+
+  #page #gold-nav .l-inner>ul>li>a:hover {
+    background: #F7F7F7;
+  }
+
+  #page #gold-nav .l-inner>ul>li>a::after {
+    width: 16px;
+    height: 16px;
+  }
+
+  #page #gold-nav .l-inner>ul>li>a>img {
+    width: 32px;
+    height: 32px;
+  }
+
+  #page #gold-nav .l-inner>ul>li>a p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  #page #gold-steps>.l-inner .gold-steps--1 .lead {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #page #gold-steps>.l-inner .gold-steps--1 .btn-apply {
+    margin: 24px auto;
+  }
+
+  #page #gold-steps>.l-inner .gold-steps--1 .btn-apply>.l-inner {
+    width: 100%;
+  }
+
+  #page #gold-steps>.l-inner .gold-steps--1 .btn-apply>.l-inner .trial-btn {
+    width: 400px;
+  }
+
+  #page .campaign-code {
+    flex-direction: row;
+    margin: 24px auto;
+  }
+
+  #page .campaign-code .btn-copy-code:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  #page .heading--m {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+  }
+
+  #page .btn-apply {
+    margin: 0 auto;
+  }
+
+  #page #steps .l-inner>ol>li {
+    padding: 4rem;
+  }
+
+  #page #steps .l-inner>ol>li>h3+p {
+    margin: 3rem 0 !important;
+  }
+
+  #page #steps .l-inner>ol>li .btn-apply .l-inner {
+    width: 100%;
+  }
+
+  #page #steps .l-inner>ol>li .btn-apply .l-inner>p {
+    text-align: center;
+  }
+
+  #page #steps .l-inner>ol>li .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+
+  #page #steps .l-inner>ol>li .btn-apply .l-inner .code {
+    width: 400px;
+  }
+
+  #page #steps .l-inner>ol>li .btn-apply .l-inner .code>div:first-child {
+    width: 45%;
+  }
+
+  #page #steps .l-inner>ol>li .btn-apply .l-inner .code+p {
+    font-size: 1.2rem;
+    line-height: 1.75;
+  }
+
+  #page #steps .l-inner>ol>li #rex-btn1 button {
+    width: 400px;
+  }
+
+  #page #steps .l-inner>ol>li #rex-btn1+p {
+    line-height: 1.75;
+    text-align: center;
+    margin: 2em auto 0;
+  }
+
+  #page .HTMLBlock+h1.heading {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-size: 2.4rem;
+  }
+
+  /*アプリダウンロード色変え*/
+  #page .btn-app-dl:hover {
+    cursor: pointer;
+    background: #ff1212;
+    color: #FFFFFF;
+  }
+
+  #page #gold-steps>.l-inner .gold-steps--1 .lead-bundle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  #page #gold-steps>.l-inner .gold-steps--1 .small {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 1072px) {
+  #page .l-inner {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #page #steps .l-inner>ol>li>figure {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #page .warning {
+    display: flex;
+    width: 343px;
+    margin: auto;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #FEF0DD;
+    border: 1px solid #A35E04;
+    border-radius: 4px;
+  }
+
+  #page .warning .white-box--small {
+    width: 327px;
+    color: var(--warning-text, #A35E04);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+}
+
+/*# sourceMappingURL=style_20231202.css.map */

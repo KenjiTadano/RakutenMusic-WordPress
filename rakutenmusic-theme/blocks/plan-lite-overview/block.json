@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/plan-lite-overview",
+  "title": "ライトプラン：OVERVIEW（プラン概要）",
+  "category": "rakutenmusic-plan-lite",
+  "icon": "visibility",
+  "description": "ライトプラン用 プラン概要セクション（月額500円・特徴・アーティスト一覧）",
+  "keywords": ["楽天", "ミュージック", "ライトプラン", "OVERVIEW", "概要"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "render": "file:./render.php"
+}

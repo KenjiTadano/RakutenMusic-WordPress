@@ -1,0 +1,54 @@
+#page .js-toggle.is-open .js-toggle__panel {
+  max-height: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#page p.cpn-text {
+  color: #fff;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+
+#page .cpn-group {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: #212331;
+}
+
+#page #subscribe.bg-dark {
+  padding: 32px 0;
+}
+
+#page #subscribe ul.apply-steps li {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#page #subscribe ul.apply-steps li .txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+#page #subscribe ul.apply-steps li .txt p.second {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+/*# sourceMappingURL=campaign.css.map */

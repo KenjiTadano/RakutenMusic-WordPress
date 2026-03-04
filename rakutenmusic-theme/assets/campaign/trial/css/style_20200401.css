@@ -1,0 +1,27 @@
+#page #campaign-about {
+  margin: 36px auto 48px;
+}
+
+#page #campaign-about .l-inner p.lead {
+  text-align: center;
+}
+
+#page #campaign-about .l-inner p.lead strong {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: red;
+}
+
+#page #campaign-about .l-inner .btn-apply {
+  margin: 24px auto 36px;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero {
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/trial/img/bg.png) repeat-x center top / auto
+      86.3% #1b1464;
+  }
+  #page #campaign-about {
+    margin: 36px auto 72px;
+  }
+}

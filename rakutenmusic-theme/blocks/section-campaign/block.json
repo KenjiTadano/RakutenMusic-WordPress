@@ -3,12 +3,12 @@
   "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-campaign",
   "title": "キャンペーン（スライダー）",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-campaign",
   "icon": "align-wide",
   "description": "楽天ミュージック汎用テンプレート用セクション: キャンペーン（スライダー・リスト編集可能）",
   "keywords": ["楽天", "ミュージック", "キャンペーン"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "attributes": { "items": { "type": "string", "default": "" } },
   "render": "file:./render.php"
 }

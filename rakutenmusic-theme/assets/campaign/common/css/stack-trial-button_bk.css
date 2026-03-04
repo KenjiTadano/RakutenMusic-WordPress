@@ -1,0 +1,62 @@
+#page .btn-apply {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+#page .btn-apply a.trial-btn,
+#page .btn-apply a.iap-store-link {
+  display: block;
+  width: 100%;
+  background: #bf0000;
+  padding: 24px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page .btn-apply .btn-apply--caption {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  #page .btn-apply {
+    width: 400px;
+    margin: 0 auto;
+  }
+  #page .btn-apply a.trial-btn,
+  #page .btn-apply a.iap-store-link {
+    font-size: 20px;
+    line-height: 26px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page .btn-apply a.trial-btn:hover,
+  #page .btn-apply a.iap-store-link:hover {
+    background: #ff1212;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  #page .btn-apply .btn-apply--caption {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+/*# sourceMappingURL=stack-trial-button.css.map */

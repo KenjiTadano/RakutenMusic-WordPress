@@ -1,0 +1,158 @@
+#page .disp1 {
+  padding: 12px 0;
+  background: #65C03A;
+  font-size: 28px;
+  line-height: 36px;
+  color: white;
+  text-align: center;
+}
+
+#page .campaign-hero__schedule a {
+  color: white;
+  text-decoration: underline;
+}
+
+#page #cnp-pr {
+  text-align: center;
+  margin: 24px auto;
+}
+
+#page #cnp-pr .l-inner p {
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 8px;
+}
+
+#page #cnp-pr .l-inner p a {
+  color: #65C03A;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+#page #cnp-feature .l-inner ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  width: 246px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 24px auto;
+}
+
+#page #cnp-feature .l-inner figure {
+  margin: 24px auto;
+}
+
+#page #cnp-feature .l-inner > p {
+  margin: 16px auto 24px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page #cnp-feature .l-inner > p a {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #2A680C;
+}
+
+#page #lite-feature .lite-feature--top {
+  margin: 24px auto;
+}
+
+#page #lite-feature .lite-feature--top .l-inner {
+  padding: 24px 16px;
+  background: #F7F7F7;
+}
+
+@media screen and (min-width: 767px) {
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2022/twitter/img/bg.png) repeat-x center top/auto 82% #65C03A;
+    position: relative;
+  }
+  #page .s-campaign-hero::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 70px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+  }
+  #page .s-campaign-hero .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+  #page .disp1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page #cnp-pr .l-inner p a:hover {
+    text-decoration: none;
+  }
+  #page #cnp-feature .l-inner ul {
+    width: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 36px auto;
+  }
+  #page #cnp-feature .l-inner ul li {
+    width: 300px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #cnp-feature .l-inner ul li:hover {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  #page #cnp-feature .l-inner ul li a img {
+    width: 100%;
+  }
+  #page #cnp-feature .l-inner > figure {
+    margin: 36px auto;
+    text-align: center;
+  }
+  #page #cnp-feature .l-inner > p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px auto 36px;
+  }
+  #page #cnp-feature .l-inner > p a:hover {
+    text-decoration: none;
+  }
+  #page #lite-feature .lite-feature--top {
+    margin: 36px auto;
+  }
+  #page #lite-feature .lite-feature--top .l-inner {
+    padding: 36px;
+    width: 904px;
+  }
+  #page #lite-feature .lite-feature--top .l-inner img {
+    width: 100%;
+  }
+  #page #lite-feature .l-inner > figure {
+    text-align: center;
+    margin: 36px auto;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    width: 584px;
+    height: 210px;
+  }
+  #page #lite-feature .l-inner > figure:hover {
+    opacity: 0.9;
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+}
+/*# sourceMappingURL=style.css.map */

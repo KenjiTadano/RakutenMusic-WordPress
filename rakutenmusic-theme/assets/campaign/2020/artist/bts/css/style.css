@@ -1,0 +1,551 @@
+#page main.l-content {
+    overflow: hidden;
+}
+
+#page #campaign-about,
+#page #campain-present {
+    background: #272727;
+}
+
+#page #campain-musiclist,
+#page #albumlist {
+    background: black;
+}
+
+#page #campain-present .present {
+    display: flex;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: left;
+    align-items: baseline;
+    border: solid 1px white;
+    outline: solid 1px white;
+    outline-offset: 6px;
+}
+
+#page #campain-present .present .panel {
+    display: block;
+    margin-right: 0;
+    padding: 24px auto;
+}
+
+#page #campain-present .present p {
+    color: #FFF314;
+    text-align: left;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-left: 24px;
+}
+
+#page #campain-present .present div p>small {
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+}
+
+#page .l-inner h1.campain {
+    font-size: 3.2rem;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+#page #campaign-about .campaign-about-steps-wrap {
+    background: black;
+    margin: 24px auto;
+    justify-content: center;
+}
+
+#page #campaign-about .campaign-about-steps-wrap div {
+    display: flex;
+    justify-content: center;
+}
+
+#page #campaign-about .campaign-about-steps-wrap h2 {
+    font-size: 32px;
+    line-height: 42px;
+    color: #ffffff;
+    border-right: 2px solid white;
+    padding: 0 24px 0 0;
+    margin: 24px;
+}
+
+#page #campaign-about .campaign-about-steps-wrap>div p {
+    color: white;
+}
+
+#page #campaign-about .campaign-about-steps-wrap>div p.lead {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+    padding: 24px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+#page #campaign-about .l-inner .trial {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#page #campaign-about .l-inner .arrow {
+    margin: 48px auto;
+    text-align: center;
+}
+
+#page #campaign-about .l-inner .step-end {
+    margin-top: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF314;
+}
+
+#page #campaign-about .l-inner .trial p {
+    color: white;
+}
+
+#page #campaign-about .l-inner .trial p small {
+    display: block;
+    font-size: 1.2rem;
+    margin: 24px auto;
+}
+
+#page #campaign-about .l-inner .trial .trial-btn {
+    display: inline-block;
+    background: #FFF314;
+    border-radius: 56px;
+    margin: 24px;
+    padding: 26px 42px;
+}
+
+#page #campaign-about .l-inner .trial .trial-btn:hover {
+    background: #b8b352;
+}
+
+#page #campaign-about .l-inner .trial .trial-btn a {
+    margin: 0 auto;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+#page #campaign-about .l-inner .album {
+    display: flex;
+    border: 1px solid white;
+    width: 100%;
+    margin: 48px auto;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#page #campaign-about .l-inner .album div>h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+}
+
+#page #campaign-about .l-inner .album div>p {
+    color: white;
+    width: 630px;
+}
+
+#page #campaign-about .l-inner .album .jkt {
+    width: 156px;
+    height: auto;
+}
+
+#page #campaign-about .l-inner .album .jkt img {
+    width: 100%;
+}
+
+#page #campaign-about .l-inner ol .slick-mypage {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#page #campaign-about .l-inner .slick-mypage figure+div p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#page #campaign-about .l-inner .slick-prev:before {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 40px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/polygon_left.png) no-repeat center/contain;
+}
+
+#page #campaign-about .l-inner .slick-next:before {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 40px;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/group/rakuteneagles/img/polygon_right.png) no-repeat center/contain;
+}
+
+#page #campaign-about .l-inner>p a {
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#page #campaign-about .l-inner>p a i {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+#page #campain-musiclist {
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+#page #campain-musiclist .l-inner .musiclist,
+#page #campain-musiclist .l-inner .playlist {
+    margin: 24px auto;
+}
+
+#page .albumlist-ttl {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding: 24px;
+    background: black;
+}
+
+#page #campain-musiclist .l-inner .musiclist h2,
+#page #campain-musiclist .l-inner .playlist h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-bottom: 24px;
+}
+
+#page #campain-musiclist .l-inner .musiclist ol.list,
+#page #campain-musiclist .l-inner .playlist .list {
+    display: flex;
+    justify-content: center;
+}
+
+#page #campain-musiclist .l-inner .playlist .list .list2 {
+    display: flex;
+}
+
+#page #campain-musiclist .l-inner .playlist .list .list2>div {
+    display: block;
+    margin: 0 12px 0;
+}
+
+#page #campain-musiclist .l-inner .playlist .list .list2>div:hover {
+    opacity: 0.7;
+}
+
+#page #campain-musiclist .l-inner .playlist .list .list2>div>a>.play-ttl {
+    color: white;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-top: 12px;
+    text-align: left;
+}
+
+#page #campain-musiclist .l-inner .playlist .list .list2>div>a>figure {
+    width: 190px;
+    height: auto;
+}
+
+#page #campain-musiclist .l-inner .playlist .list .list2>div>a>figure img {
+    width: 100%;
+    top: 0;
+}
+
+#page #items-cd {
+    border-top: 1px solid #D1D1D1;
+}
+
+#page #items-cd .booksbnr {
+    display: block;
+    margin: 48px auto;
+    justify-content: center;
+}
+
+#page #items-cd .booksbnr h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#page #items-cd .booksbnr div {
+    width: 100%;
+    height: auto;
+    margin: 16px auto;
+    text-align: center;
+}
+
+#page #items-cd .booksbnr div:hover {
+    opacity: 0.7;
+}
+
+#page #items-cd .l-inner .item-list {
+    display: flex;
+    justify-content: center;
+}
+
+#page #items-cd .l-inner .item-list ul {
+    display: flex;
+    margin-right: 16px;
+}
+
+#page #items-cd .l-inner .item-list ul:last-child {
+    margin-right: 0;
+}
+
+#page #items-cd .l-inner .item-list ul li {
+    display: block;
+    width: 176px;
+}
+
+#page #items-cd .l-inner .item-list ul li:first-child {
+    margin-right: 16px;
+}
+
+#page #items-cd .l-inner .item-list ul li>a>figure {
+    object-fit: contain;
+    width: 176px;
+    height: 176px;
+    margin-bottom: 12px;
+    background: rgb(247, 247, 247);
+}
+
+#page #items-cd .l-inner .item-list ul li>a:hover {
+    opacity: 0.7;
+}
+
+#page #items-cd .l-inner .item-list ul li>a>figure img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page #items-cd .l-inner .item-list ul li>a>p {
+    font-size: 12px;
+    width: 176px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#page #items-cd .l-inner .item-list ul li .artist {
+    font-size: 12px;
+}
+
+#page #items-cd .l-inner .item-list ul li .artist span {
+    display: block;
+}
+
+#page #items-cd .l-inner .item-list ul li .artist span::after {
+    content: "送料無料";
+    color: red;
+}
+
+@media screen and (min-width: 768px) {
+    #page .s-campaign-hero {
+        padding: 0;
+        background: url(https://music.r10s.jp/external/prod/assets/campaign/2020/artist/bts/img/bg.gif) no-repeat center top/auto 86.4% black;
+    }
+    #page #campaign-about .l-inner ol.campaign-about-steps>li:nth-of-type(2) {
+        margin-bottom: 20px;
+    }
+    #page #campaign-about .l-inner .slick-mypage .slick-slide {
+        min-height: 0;
+        min-width: 0;
+        display: flex;
+        justify-content: center;
+    }
+    #page #campaign-about .l-inner .slick-mypage .slick-slide figure {
+        width: 300px;
+    }
+    #page #campaign-about .l-inner .slick-mypage .slick-slide figure img {
+        width: 100%;
+    }
+    #page #campaign-about .l-inner .slick-mypage .slick-slide figure+div {
+        align-self: center;
+        padding: 42px;
+    }
+    #page #campaign-about .l-inner>p a i {
+        font-size: 0;
+    }
+    #page #campaign-about .l-inner>p a i img {
+        width: 100%;
+    }
+    #page #campaign-about .l-inner>p a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    #page .l-inner {
+        width: 100%;
+    }
+    #page #campaign-about .l-inner,
+    #page #campain-present .l-inner {
+        width: 94%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #page #campaign-about .l-inner .album {
+        display: block;
+        justify-content: center;
+    }
+    #page #campaign-about .l-inner .album div>h3 {
+        margin-top: 24px;
+    }
+    #page #campaign-about .l-inner .album div>p {
+        width: 100%;
+    }
+    #page #campaign-about .l-inner .album .jkt {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #page #campaign-about .l-inner {
+        width: 100%;
+        padding: 0 16px;
+    }
+    #page #campain-present .l-inner {
+        width: 100%;
+        padding: 0 24px;
+    }
+    #page #campain-present .present {
+        display: block;
+    }
+    #page #campain-present .present .panel {
+        width: 240px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #page #campain-present .present p {
+        margin-left: 0;
+    }
+    #page .l-inner h1.campain {
+        font-size: 3.2rem;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+    }
+    #page #campaign-about .campaign-about-steps-wrap div {
+        display: block;
+        margin: 0 auto;
+        padding: 16px;
+    }
+    #page #campaign-about .campaign-about-steps-wrap h2 {
+        font-size: 32px;
+        border-right: none;
+        margin: 0 auto;
+        padding: 0 0 16px 0;
+        text-align: center;
+        border-bottom: 2px solid white;
+        width: 120px;
+    }
+    #page #campaign-about .campaign-about-steps-wrap>div p {
+        text-align: center;
+    }
+    #page #campaign-about .l-inner .trial .trial-btn {
+        display: block;
+        background: #FFF314;
+        border-radius: 56px;
+        width: 100%;
+        margin: 0 auto 24px;
+        padding: auto 42px;
+    }
+    #page #campaign-about .l-inner .trial p,
+    #page #campaign-about .l-inner .trial p small {
+        text-align: left;
+    }
+    #page #campaign-about .l-inner .trial .trial-btn a {
+        font-weight: normal;
+    }
+    #page #campaign-about .l-inner .arrow {
+        margin: 30px;
+    }
+    #page #campaign-about .l-inner .arrow img {
+        width: 88px;
+    }
+    #page #campaign-about .l-inner ol .slick-mypage {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #page #campaign-about .l-inner .slick-mypage .slick-slide figure {
+        width: 280px;
+        margin: 0 auto;
+    }
+    #page #campaign-about .l-inner .slick-mypage figure+div p {
+        width: 75%;
+        margin: 0 auto;
+    }
+    #page #campaign-about .l-inner .step-end {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    #page #campain-musiclist .l-inner .playlist .list,
+    #page #items-cd .l-inner .item-list {
+        display: block;
+    }
+    #page #campain-musiclist .l-inner .playlist .list .list2,
+    #page #items-cd .l-inner .item-list ul {
+        justify-content: center;
+    }
+    #page #campain-musiclist .l-inner .playlist .list .list2:first-child {
+        margin-bottom: 24px;
+    }
+    #page #items-cd .l-inner .item-list ul {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    #page #items-cd .l-inner .item-list ul:last-child {
+        margin-bottom: 0;
+    }
+    #page #campain-musiclist .l-inner .playlist .list .list2>div>a>figure {
+        width: 96%;
+    }
+    #page #items-cd .l-inner .heading--m {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #page #campaign-about .l-inner .step-end {
+        text-align: left;
+    }
+    #page #items-cd .l-inner .item-list ul li {
+        display: block;
+        width: 130px;
+    }
+    #page #items-cd .l-inner .item-list ul li>a>figure {
+        object-fit: contain;
+        width: 130px;
+        height: 130px;
+    }
+    #page #items-cd .l-inner .item-list ul li>a>p {
+        width: 130px;
+    }
+}

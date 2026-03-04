@@ -1,0 +1,205 @@
+#page .s-campaign-hero {
+    padding: 0;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/group/card/img/bg_20200401.jpg) no-repeat center top/auto 81% black;
+}
+
+#page .campaign-hero__schedule__note a {
+    color: white;
+    text-decoration: underline;
+}
+
+#page .campaign-hero__schedule__note a:hover {
+    text-decoration: none;
+}
+
+#page .center {
+    text-align: center;
+}
+
+#page br.sp {
+    display: none;
+}
+
+#page #campaign-about {
+    margin-top: 6rem;
+}
+
+#page #campaign-about .l-inner .campaign-about-code {
+    border: 4px solid #bf0000;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    padding: 2.4rem;
+}
+
+#page #campaign-about .l-inner>h2 {
+    background: #bf0000;
+    border: 4px solid #bf0000;
+    padding: 0.4em 0;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+#page #campaign-about .l-inner .campaign-about-code .trial-btn {
+    width: 400px;
+    height: 100px;
+    margin: 2rem auto;
+    background: #bf0000;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+#page #campaign-about .l-inner .campaign-about-code .trial-btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    position: relative;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 2rem;
+}
+
+#page #campaign-about .l-inner .campaign-about-code .trial-btn a:after {
+    content: url(https://music.r10s.jp/external/prod/assets/campaign/common/img/arrow.svg);
+    display: inline-block;
+    width: 0.8rem;
+    margin-left: 0.5em;
+}
+
+#page #campaign-about .l-inner .campaign-about-code .trial-btn:hover {
+    background: #ff1212;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#page #campaign-about .l-inner .campaign-about-code .point-incentive {
+    text-align: center;
+    margin: 24px auto 0;
+}
+
+#page #campaign-about .l-inner .campaign-about-code p.laed {
+    font-size: 2rem;
+}
+
+#page #campaign-about .l-inner .campaign-about-code p strong {
+    font-size: 1.2em;
+    color: red;
+}
+
+#page #howtouse {
+    margin-bottom: 48px;
+}
+
+#page #floating_banner {
+    top: auto;
+    bottom: 30px;
+}
+
+#page ._3Eti {
+    background: white;
+}
+
+#page .rex-button__1ArV .rex-button__3n3I {
+    width: 400px;
+    height: 100px;
+    border-radius: 2rem;
+}
+
+#page #campaign-about .l-inner .campaign-about-code .code {
+    width: 400px;
+    margin: 24px auto;
+}
+
+#page #campaign-about .l-inner .campaign-about-code .code>div {
+    text-align: center;
+}
+
+#page #campaign-about .l-inner .campaign-about-code .code>div:first-of-type {
+    background: black;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 0;
+}
+
+#page #campaign-about .l-inner .campaign-about-code .code>div:last-of-type {
+    border: 2px solid black;
+    width: 100%;
+    padding: 0.5em 0;
+}
+
+@media screen and (max-width: 768px) {
+    #page .l-content {
+        overflow: hidden;
+    }
+    #page br.sp {
+        display: inline-block;
+    }
+    #page #campaign-about .l-inner .campaign-about-code>div dt {
+        font-size: 3.5vw;
+        padding: 0.4em 0 2rem;
+    }
+    #page #campaign-about .l-inner .campaign-about-code {
+        top: -6px;
+    }
+    #page #campaign-about .l-inner .campaign-about-code p.laed {
+        font-size: 1.6rem;
+    }
+    #page #campaign-about .l-inner .campaign-about-code p.small {
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    #page #campaign-about .l-inner .campaign-about-code.on {
+        padding: 3rem 2rem;
+    }
+    #page #campaign-about .l-inner .campaign-about-code .trial-btn {
+        width: 100%;
+        height: 80px;
+    }
+    #page #campaign-about .l-inner .campaign-about-code .trial-btn a {
+        font-size: 4vw;
+        line-height: 80px;
+    }
+    #page #campaign-about .l-inner .campaign-about-code .trial-btn a:after {
+        content: initial;
+    }
+    #page ._3Eti {
+        width: 100%;
+        padding: 1em 1em 1em 4em;
+    }
+    #page ._3Eti:before {
+        width: 12vw;
+        height: 8vw;
+        top: 50%;
+        margin-top: -4vw;
+    }
+    #page .rex-button__1ArV .rex-button__3n3I {
+        width: 100%;
+        height: 20vw;
+        border-radius: 1.6rem;
+        padding: 0;
+        margin: 0 auto 1em;
+        text-align: center;
+    }
+    #page .rex-button__1ArV .rex-button__3n3I::before {
+        display: none;
+    }
+    #page #campaign-about .l-inner .campaign-about-code>.code {
+        display: flex;
+        justify-content: center;
+    }
+    #page #campaign-about .l-inner .campaign-about-code>.code div:first-of-type {
+        width: 200px;
+        padding: 12px 24px;
+    }
+    #page #campaign-about .l-inner .campaign-about-code>.codediv:last-of-type {
+        width: 300px;
+        padding: 12px 24px;
+    }
+}

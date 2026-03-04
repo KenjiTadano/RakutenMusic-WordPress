@@ -1,0 +1,366 @@
+.ccm-block #loading {
+  display: none;
+}
+
+#page .l-content {
+  overflow: hidden;
+}
+
+#page .s-campaign-hero {
+  padding: 0;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/mcdonalds/img/header_bg.jpg?v=2) no-repeat center top/auto 80.9%, linear-gradient(to right, #19a8a2 1%, #19a8a2 50%, #e5bd04 50%, #e5bd04 98%);
+  position: relative;
+}
+
+#page .s-campaign-hero::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 70px;
+  background: #4d4d4d;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#page .campaign-hero__schedule {
+  position: relative;
+  z-index: 1;
+}
+
+#page #mc-songs ul li figure {
+  height: 100px;
+}
+
+#page #mc-songs ul li figure img {
+  width: initial;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#page #mc-cpm-1 .l-inner h2 {
+  background: #1cbbb4;
+  color: white;
+  border-radius: 2rem 2rem 0 0;
+  margin: 6rem 0 0;
+  padding: 2rem 0;
+  position: relative;
+}
+
+#page #mc-cpm-1 .l-inner h2 img {
+  position: absolute;
+  right: 3rem;
+  bottom: -3rem;
+  z-index: 1;
+}
+
+#page #mc-cpm-1 .l-inner h2 + div {
+  background: #fdffe5;
+  border: 0.4rem solid #1cbbb4;
+  border-radius: 0 0 2rem 2rem;
+  padding: 6rem 3rem !important;
+}
+
+#page #mc-cpm-1 .l-inner ol {
+  display: flex;
+}
+
+#page #mc-cpm-1 .l-inner ol li {
+  width: 50%;
+  margin: 0 1rem;
+}
+
+#page #mc-cpm-1 .l-inner ol li h3 {
+  width: 100%;
+  background: white;
+  border: 0.4rem solid #363636;
+  border-radius: 100px;
+  padding: 1rem 0;
+}
+
+#page #mc-cpm-1 .l-inner ol li h3 + div {
+  margin: 2rem 0 !important;
+}
+
+#page #mc-cpm-1 .l-inner ol li h3 + div .rex-button__1ArV .rex-button__3n3I {
+  width: 100%;
+  font-size: 2rem;
+}
+
+#page #mc-cpm-1 .l-inner ol li h3 + div .btn-trial-inner {
+  height: 80px;
+}
+
+#page #mc-cpm-1 .l-inner ol li h3 + div .btn-trial-inner a {
+  display: block;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  font-size: 2rem;
+  background: #bf0000;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+#page #mc-cpm-1 .l-inner ol li h3 + div .btn-trial-inner a:hover {
+  background: #e61717;
+}
+
+#page #mc-cpm-1 .l-inner ol li h3 + div .btn-trial-inner a:after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 1.2rem;
+}
+
+#page #mc-cpm-1 .l-inner ol + p {
+  text-align: center;
+}
+
+#page #mc-cpm-2:before {
+  content: url(https://music.r10s.jp/external/prod/assets/campaign/2019/mcdonalds/img/additional.png);
+  margin: 2rem auto -4rem;
+  display: block;
+  text-align: center;
+}
+
+#page #mc-cpm-2 .l-inner h2 {
+  background: #ffd308;
+  color: #363636;
+  border-radius: 2rem 2rem 0 0;
+  margin: 6rem 0 0;
+  padding: 2rem 0;
+  position: relative;
+}
+
+#page #mc-cpm-2 .l-inner h2 img {
+  position: absolute;
+  right: 3rem;
+  bottom: -3rem;
+  z-index: 1;
+}
+
+#page #mc-cpm-2 .l-inner h2 + div {
+  background: #fdffe5;
+  border: 0.4rem solid #ffd308;
+  border-radius: 0 0 2rem 2rem;
+  padding: 6rem 3rem !important;
+  position: relative;
+}
+
+#page #mc-cpm-2 .l-inner input {
+  display: block;
+  margin: 2rem auto 4rem !important;
+  padding: 2rem 0 !important;
+  text-align: center;
+  font-size: 2.4rem;
+  border: 0.2rem solid #363636;
+  border-radius: 2rem;
+}
+
+#page #mc-cpm-2 .l-inner .wrap {
+  overflow: hidden;
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps {
+  display: flex;
+  width: 2330px;
+  position: relative;
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li {
+  width: 320px;
+  margin: 1rem;
+  transition: all 0.1s ease-in;
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li.current {
+  transform: scale(1.05);
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li:nth-child(1) h3:after {
+  content: " 1";
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li:nth-child(2) h3:after {
+  content: " 2";
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li:nth-child(3) h3:after {
+  content: " 3";
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li:nth-child(4) h3:after {
+  content: " 4";
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li:nth-child(5) h3:after {
+  content: " 5";
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li:nth-child(6) h3:after {
+  content: " 6";
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li:nth-child(7) h3:after {
+  content: " 7";
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li h3 {
+  background: #00173d;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  border-radius: 1rem;
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li figure img {
+  width: 100%;
+}
+
+#page #mc-cpm-2 .l-inner .wrap .steps li figure + p {
+  padding: 1rem 0;
+}
+
+#page #mc-cpm-2 .l-inner .arrows {
+  position: absolute;
+  left: -3rem;
+  bottom: 24rem;
+  transition: all 0.1s ease-in;
+}
+
+#page #mc-cpm-2 .l-inner .arrows.carousel-left {
+  display: none;
+}
+
+#page #mc-cpm-2 .l-inner .arrows:last-of-type {
+  left: initial;
+  right: -3rem;
+}
+
+#page #mc-cpm-2 .l-inner .arrows i {
+  font-size: 4rem;
+}
+
+#page #mc-cpm-2 .l-inner .arrows:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#page .s-campaign-list ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#page #loading {
+  width: 100%;
+  height: 100%;
+  background: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+#page #loading i {
+  font-size: 6rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: -3rem -3rem 0 0;
+  color: #19a8a2;
+  animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #page #mc-songs li.slick-slide figure img {
+    margin: 0 auto;
+  }
+  #page #mc-cpm-1 .l-inner h2 {
+    top: 1px;
+  }
+  #page #mc-cpm-1 .l-inner h2 img {
+    width: 24vw;
+    display: block;
+    position: relative;
+    right: initial;
+    bottom: initial;
+    margin: 4vw auto -16vw;
+  }
+  #page #mc-cpm-1 .l-inner h2 + div {
+    padding: 6rem 2rem !important;
+  }
+  #page #mc-cpm-1 .l-inner ol {
+    display: block;
+  }
+  #page #mc-cpm-1 .l-inner ol li {
+    width: 100%;
+    margin: 0;
+  }
+  #page #mc-cpm-1 .l-inner ol li h3 + div .rex-button__1ArV .rex-button__3n3I {
+    text-align: center;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+  #page #mc-cpm-1 .l-inner ol li h3 + div .btn-trial-inner a {
+    font-size: 1.2rem;
+  }
+  #page #mc-cpm-1 .l-inner ol + p {
+    text-align: justify;
+  }
+  #page #mc-cpm-2 .l-inner h2 {
+    top: 1px;
+    padding: 2rem;
+  }
+  #page #mc-cpm-2 .l-inner h2 img {
+    width: 24vw;
+    display: block;
+    position: relative;
+    right: initial;
+    bottom: initial;
+    margin: 4vw auto -16vw;
+  }
+  #page #mc-cpm-2 .l-inner h2 + div {
+    padding: 6rem 2rem !important;
+  }
+  #page #mc-cpm-2 .l-inner input {
+    width: 100%;
+  }
+  #page #mc-cpm-2 .l-inner .wrap .steps li {
+    width: 60vw;
+  }
+  #page #mc-cpm-2 .l-inner .arrows {
+    left: -1rem;
+  }
+  #page #mc-cpm-2 .l-inner .arrows:last-of-type {
+    right: -1rem;
+  }
+}

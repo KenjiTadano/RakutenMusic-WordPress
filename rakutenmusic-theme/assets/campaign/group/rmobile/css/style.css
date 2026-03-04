@@ -1,0 +1,463 @@
+#page .l-content {
+  overflow: hidden;
+}
+
+#page .s-campaign-hero {
+  margin: 0 0 6rem;
+  padding: 0;
+  background: url("https://music.r10s.jp/external/prod/assets/campaign/2019/group/rmobile/img/bg.jpg") no-repeat center top/auto 80.9%, linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 80.9%, #0d004c 80.9%, #0d004c 100%);
+}
+
+#page .s-campaign-hero .campaign-hero__schedule__note a {
+  color: #ffd700;
+}
+
+#page .s-campaign-hero .campaign-hero__schedule__note a:hover {
+  color: #ffff00;
+}
+
+#page #rm-steps .l-inner ol {
+  display: flex;
+  justify-content: center;
+  margin: 6rem 0;
+}
+
+#page #rm-steps .l-inner ol li {
+  position: relative;
+}
+
+#page #rm-steps .l-inner ol li:nth-child(1):before {
+  content: "STEP 1";
+  background: #0d004c;
+  padding: 1rem 3rem;
+  margin: 0 2.2rem 0 6rem;
+  color: white;
+  border-radius: 0.6rem;
+}
+
+#page #rm-steps .l-inner ol li:nth-child(2):before {
+  content: "STEP 2";
+  background: #0d004c;
+  padding: 1rem 3rem;
+  margin: 0 2.2rem 0 6rem;
+  color: white;
+  border-radius: 0.6rem;
+}
+
+#page #rm-steps .l-inner ol li:not(:last-child):after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1rem 0 1rem 1rem;
+  border-color: transparent transparent transparent #0d004c;
+  position: absolute;
+  top: 0.5rem;
+  right: -3.8rem;
+}
+
+#page #rm-steps-content .l-inner > ol > li {
+  position: relative;
+  border: 0.3rem solid #0d004c;
+  border-radius: 2rem;
+  background: white;
+  padding: 0 4rem 4rem;
+}
+
+#page #rm-steps-content .l-inner > ol > li:not(:last-child) {
+  margin: 0 0 3rem;
+}
+
+#page #rm-steps-content .l-inner > ol > li:not(:last-child):after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 2rem 2.5rem 0 2.5rem;
+  border-color: #0d004c transparent transparent transparent;
+  position: absolute;
+  left: 50%;
+  bottom: -2rem;
+  margin-left: -1rem;
+}
+
+#page #rm-steps-content .l-inner > ol > li:last-child {
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/group/rmobile/img/complete.png) no-repeat left -1rem top -2rem;
+}
+
+#page #rm-steps-content .l-inner > ol > li:last-child p {
+  margin: 0;
+  padding: 0 4rem !important;
+}
+
+#page #rm-steps-content .l-inner > ol > li:last-child p small {
+  display: block;
+  padding: 1rem;
+  margin: 1rem 0 0;
+  text-align: justify;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#page #rm-steps-content .l-inner > ol > li .heading--m {
+  color: #0d004c;
+  margin-bottom: 2rem;
+}
+
+#page #rm-steps-content .l-inner > ol > li .heading--s {
+  margin: 4rem 0 0;
+}
+
+#page #rm-steps-content .l-inner > ol > li > p {
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+#page #rm-steps-content .l-inner > ol > li > p strong {
+  font-size: 1.6em;
+  color: red;
+}
+
+#page #rm-steps-content .l-inner > ol > li div {
+  text-align: center;
+}
+
+#page #rm-steps-content .l-inner > ol > li .campaign-code-steps {
+  margin-bottom: 24px;
+}
+
+#page #rm-steps-content .l-inner > ol > li .campaign-code-steps .slick-slide p {
+  text-align: left;
+}
+
+#page #rm-steps-content .l-inner > ol > li form > input:last-of-type {
+  display: block;
+  width: 400px;
+  height: 100px;
+  background: #bf0000;
+  text-decoration: none;
+  position: relative;
+  box-sizing: border-box;
+  color: white;
+  line-height: 100px;
+  font-size: 2rem;
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 2rem auto 0;
+  transition: all 0.2s;
+}
+
+#page #rm-steps-content .l-inner > ol > li form > input:last-of-type:hover {
+  background: #ff1212;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#page #rm-steps-content .l-inner > ol > li .rex-button__1ArV .rex-button__3n3I {
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+#page #rm-steps-content .l-inner > ol > li .btn-apply {
+  margin: 0;
+}
+
+#page #rm-steps-content .l-inner > ol > li .btn-apply .l-inner {
+  width: 100%;
+}
+
+#page #rm-popular-songs .songs .slick-track {
+  display: flex;
+}
+
+#page #rm-popular-songs .songs .slick-track .slick-slide {
+  float: initial;
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 3rem;
+  margin: 0 1.5rem;
+  border-radius: 2rem;
+}
+
+#page #rm-popular-songs .songs .slick-track figure {
+  height: 170px;
+  margin: 0 0 1rem;
+}
+
+#page #rm-popular-songs .songs .slick-track figure img {
+  height: 100%;
+  margin: 0 auto;
+}
+
+#page #rm-popular-songs .songs .slick-track p:first-of-type {
+  font-weight: bold;
+}
+
+#page #rm-popular-songs .songs .slick-track p strong {
+  color: #ff1212;
+  font-size: 1.2em;
+}
+
+#page #rm-popular-artist .l-inner {
+  text-align: center;
+  margin: 2rem auto 6rem;
+}
+
+#page #rm-popular-artist .l-inner p {
+  color: #333;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  background: #d9ff00;
+  margin: 1rem;
+  display: inline-block;
+  padding: 0.5rem 2rem !important;
+}
+
+#page #rm-price {
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/group/rmobile/img/bg_02.jpg) no-repeat center/cover;
+  padding: 6rem 0;
+}
+
+#page #rm-price .wrapper {
+  background: white;
+  width: 480px;
+  margin: 0 auto;
+  padding: 6rem;
+  border-radius: 2rem;
+}
+
+#page #rm-price .wrapper h2 {
+  padding: 0;
+  margin: 0 0 2rem;
+}
+
+#page #rm-price .wrapper h3 {
+  margin: 0 0 2rem;
+  background: #bf0000;
+  color: white;
+  padding: 0.5rem 0 !important;
+}
+
+#page #rm-price .wrapper p {
+  text-align: center;
+}
+
+#page #rm-price .wrapper p strong {
+  font-family: "lato";
+  font-size: 6rem;
+  line-height: 6rem;
+  font-weight: bold;
+}
+
+#page #rm-price .wrapper ul {
+  margin: 2rem 0 0;
+}
+
+#page #rm-price .wrapper ul li {
+  line-height: 1.75em;
+}
+
+#page #rm-price .wrapper ul li:before {
+  content: "\f058";
+  font-family: "font awesome 5 free";
+  font-weight: 900;
+  color: #bf0000;
+  margin-right: 1rem;
+}
+
+#page #rm-features ul li:nth-child(1) .scene {
+  width: 100%;
+  height: 400px;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/group/rmobile/img/emotion_01.jpg) no-repeat center top/cover fixed;
+}
+
+#page #rm-features ul li:nth-child(2) .scene {
+  width: 100%;
+  height: 400px;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/group/rmobile/img/emotion_02.jpg) no-repeat center top/cover fixed;
+}
+
+#page #rm-features ul li:nth-child(3) .scene {
+  width: 100%;
+  height: 400px;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/group/rmobile/img/emotion_03.jpg) no-repeat center top/cover fixed;
+}
+
+#page #rm-features ul li .l-inner {
+  display: flex;
+}
+
+#page #rm-features ul li .l-inner figure {
+  margin-top: -34%;
+}
+
+#page #rm-features ul li .l-inner p {
+  padding-top: 3.6rem;
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #0d004c;
+}
+
+#page #rm-faq .l-inner dl > * {
+  padding: 2rem;
+}
+
+#page #rm-faq .l-inner dl dt {
+  border-bottom: 1px solid #0d004c;
+  position: relative;
+  color: #0d004c;
+  font-weight: bold;
+  transition: all 0.1s ease-in;
+}
+
+#page #rm-faq .l-inner dl dt:before {
+  content: "Q. ";
+}
+
+#page #rm-faq .l-inner dl dt:after {
+  content: "\f078";
+  font-family: "font awesome 5 free";
+  font-weight: 900;
+  position: absolute;
+  right: 2rem;
+  transition: all 0.1s ease-in;
+}
+
+#page #rm-faq .l-inner dl dt:hover {
+  cursor: pointer;
+}
+
+#page #rm-faq .l-inner dl dt:hover:after {
+  transform: translateY(5px);
+}
+
+#page #rm-faq .l-inner dl dt.open:after {
+  transform: rotate(180deg);
+}
+
+#page #rm-faq .l-inner dl dd {
+  display: none;
+  background: #ebebeb;
+  margin: 0;
+}
+
+#page #rm-faq .l-inner dl dd:before {
+  content: "A. ";
+}
+
+@media screen and (max-width: 768px) {
+  #page #rm-steps .l-inner ol {
+    margin: 3rem 0;
+  }
+  #page #rm-steps .l-inner ol li {
+    width: 50%;
+    margin: 0 1.2rem;
+    text-align: center;
+  }
+  #page #rm-steps .l-inner ol li:before {
+    display: block;
+    margin: 0 0 1rem !important;
+    text-align: center;
+  }
+  #page #rm-steps .l-inner ol li:not(:last-child):after {
+    right: -1.7rem;
+    top: 1.2rem;
+  }
+  #page #rm-steps-content .l-inner > ol > li {
+    padding: 2rem;
+  }
+  #page #rm-steps-content .l-inner > ol > li:last-child {
+    height: auto;
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/group/rmobile/img/complete.png) no-repeat left -3vw bottom -3vw/56vw;
+  }
+  #page #rm-steps-content .l-inner > ol > li:last-child p {
+    padding: 0 !important;
+  }
+  #page #rm-steps-content .l-inner > ol > li:not(:last-child):after {
+    margin-left: -2.5rem;
+  }
+  #page #rm-steps-content .l-inner > ol > li form input[type="text"] {
+    border: 1px solid;
+    padding: 1rem 0.5rem;
+    width: 100%;
+  }
+  #page #rm-steps-content .l-inner > ol > li form > input:last-of-type {
+    width: 100%;
+  }
+  #page #rm-steps-content .l-inner > ol > li .rex-button__1ArV .rex-button__3n3I {
+    width: 100%;
+    padding: 0;
+    font-size: 1.4rem;
+  }
+  #page #rm-steps-content .l-inner > ol > li .btn-apply {
+    width: 100%;
+  }
+  #page #rm-popular-songs .songs .slick-track figure {
+    height: 46vw;
+  }
+  #page #rm-popular-songs .songs .slick-track figure img {
+    width: initial;
+  }
+  #page #rm-popular-artist .l-inner p {
+    font-size: 2.2rem;
+    margin: 0.5rem;
+  }
+  #page .btn-apply {
+    width: 90vw;
+  }
+  #page .btn-apply .l-inner {
+    padding: 0;
+  }
+  #page .btn-apply .l-inner > div,
+  #page .btn-apply .l-inner p {
+    width: 100%;
+  }
+  #page .btn-apply .l-inner > div a {
+    font-size: 1.4rem;
+    text-align: center;
+    text-indent: initial;
+  }
+  #page .btn-apply .l-inner > div a:after {
+    content: initial;
+  }
+  #page #rm-price {
+    background: url(https://music.r10s.jp/external/prod/assets/campaign/2019/group/rmobile/img/bg_02_sp.jpg) no-repeat center top/cover;
+  }
+  #page #rm-price .wrapper {
+    width: 90vw;
+    padding: 4rem;
+  }
+  #page #rm-price .wrapper ul li {
+    padding-left: 1rem;
+    text-indent: -1.5em;
+  }
+  #page #rm-features ul li:nth-child(1) .scene {
+    height: 50vh;
+    background: url("https://music.r10s.jp/external/prod/assets/campaign/2019/group/rmobile/img/emotion_01.jpg") no-repeat center top/cover;
+  }
+  #page #rm-features ul li:nth-child(2) .scene {
+    height: 50vh;
+    background: url("https://music.r10s.jp/external/prod/assets/campaign/2019/group/rmobile/img/emotion_02.jpg") no-repeat center top/cover;
+  }
+  #page #rm-features ul li:nth-child(3) .scene {
+    height: 50vh;
+    background: url("https://music.r10s.jp/external/prod/assets/campaign/2019/group/rmobile/img/emotion_03.jpg") no-repeat center top/cover;
+  }
+  #page #rm-features ul li .l-inner {
+    display: block;
+  }
+  #page #rm-features ul li .l-inner figure {
+    width: 60vw;
+    margin: -80vw auto 0;
+  }
+  #page #rm-features ul li .l-inner p {
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 0 0 4.8rem;
+  }
+}

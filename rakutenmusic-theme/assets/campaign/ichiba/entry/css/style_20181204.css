@@ -1,0 +1,18 @@
+@charset "UTF-8";
+#page  #rex-btn1 {
+	margin: 50px 0 25px;
+}
+#page .entryNote {
+	margin: 25px 0 ;
+	text-align: center;
+}
+@media screen and (max-width: 768px){
+#page  #rex-btn1 {
+	margin: 7vw 0 2.5vw;
+}
+#page .entryNote {
+	margin: 2.5vw 0 7vw;
+	text-align: center;
+}
+
+}

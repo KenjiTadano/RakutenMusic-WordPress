@@ -3,12 +3,15 @@
   "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-campaign-list",
   "title": "キャンペーンリスト（一覧）",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-campaign",
   "icon": "list-view",
   "description": "開催中のお得なキャンペーン一覧（リスト数・順番・バナーURL/alt・タイトルを編集可能）",
   "keywords": ["楽天", "ミュージック", "キャンペーン", "リスト", "ライト"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
-  "attributes": { "items": { "type": "string", "default": "" } },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "attributes": {
+    "items": { "type": "string", "default": "" },
+    "title": { "type": "string", "default": "開催中のお得なキャンペーン" }
+  },
   "render": "file:./render.php"
 }

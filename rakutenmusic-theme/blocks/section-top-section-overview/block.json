@@ -3,11 +3,11 @@
   "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-top-section-overview",
   "title": "バンドル：OVERVIEW",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-bundle",
   "icon": "visibility",
   "description": "バンドルプラン：OVERVIEW セクション（バンドルとは）。「アプリをダウンロード」ボタンは固定ページのフローティングCTAで設定したQR・ストアURLを使用します。",
   "keywords": ["楽天", "ミュージック", "バンドル", "overview", "概要"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "render": "file:./render.php"
 }

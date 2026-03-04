@@ -1,0 +1,24 @@
+#page .campaign-hero__schedule {
+  display: none;
+}
+#page .s-campaign-hero {
+  padding: 0;
+  background: #efefef;
+}
+#page .s-campaign-hero + .content-box {
+  padding: 0;
+}
+#page .s-campaign-hero + .content-box figure {
+  width: 400px;
+  margin: 0 auto;
+}
+#page section .heading {
+  padding: 2rem;
+  background: deeppink;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  #page .s-campaign-hero + .content-box {
+    display: none;
+  }
+}

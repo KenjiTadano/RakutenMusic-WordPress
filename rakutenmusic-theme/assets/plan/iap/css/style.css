@@ -1,0 +1,123 @@
+#page #mkdiv_header_pitari,
+#page .l-header,
+#page .l-breadcrumb {
+  display: none;
+}
+
+#page h1.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+  background: #001D6D;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: white;
+  margin: 32px auto;
+}
+
+#page p.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page .kv {
+  text-align: center;
+}
+
+#page .cta {
+  margin: 32px auto;
+}
+
+#page .cta .l-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+
+#page .cta .l-inner p.lead {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page .cta .l-inner p.lead .red {
+  color: #bf0000;
+}
+
+#page .cta .l-inner .app-icon {
+  width: 80px;
+}
+
+#page .cta .l-inner a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 0px;
+  gap: 16px;
+  background: #BF0000;
+  border-radius: 100px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+}
+
+#page .cta .l-inner a::after {
+  content: '';
+  display: block;
+  background: url(/assets/plan/iap/img/icon_chevron_right.png) no-repeat center/cover;
+  width: 24px;
+  height: 24px;
+}
+
+#page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li {
+  width: calc((100% - 16px) / 2);
+}
+
+#page .stack-characteristic .l-inner .stack-characteristic--content ul.stack-characteristic--content--features li:nth-child(3) .features-lead {
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page #point-mission .l-inner p.point-mission--caption {
+  margin: 16px auto 0;
+}
+/*# sourceMappingURL=style.css.map */

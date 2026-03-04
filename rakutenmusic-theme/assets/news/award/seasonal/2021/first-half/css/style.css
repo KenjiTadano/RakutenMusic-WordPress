@@ -1,0 +1,343 @@
+#page .campaign-hero__schedule {
+  display: none;
+}
+
+#page .s-campaign-hero {
+  padding: 0;
+  background: url(https://music.r10s.jp/external/prod/assets/news/award/seasonal/2021/first-half/img/bg.jpg) no-repeat center top/auto 100%;
+}
+
+#page .text-box .l-inner {
+  width: 100%;
+}
+
+#page .fv-trial {
+  margin-top: 72px;
+}
+
+#page .fv-trial h1 {
+  text-align: center;
+}
+
+#page .fv-trial .btn-apply {
+  margin: 24px 0 0;
+}
+
+#page .fv-trial .btn-apply > .l-inner {
+  width: 100%;
+}
+
+#page #nav_ranks {
+  display: flex;
+  justify-content: center;
+  margin-top: -96px;
+}
+
+#page #nav_ranks li {
+  width: 25%;
+  padding: 0 0.5rem;
+}
+
+#page #nav_ranks li a {
+  display: block;
+  padding: 1.5rem 0;
+  text-align: center;
+  background: white;
+  color: #9762f2;
+  border: 0.5rem solid #9762f2;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.1s ease-in;
+  position: relative;
+}
+
+#page #nav_ranks li a:after {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  right: 2rem;
+}
+
+#page h2.heading.heading--m {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#12d6df+0,f70fff+100 */
+  background: #12d6df;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #12d6df 0%, #f70fff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #12d6df 0%, #f70fff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #12d6df 0%, #f70fff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12d6df', endColorstr='#f70fff',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  color: white;
+  padding: 2rem 0;
+  margin: 48px 0 42px;
+}
+
+#page .monthlyRanking {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+#page #bnr-full {
+  background: whitesmoke;
+}
+
+#page #bnr-full .l-inner .bnr {
+  display: block;
+  margin: 2em auto;
+  padding-top: 2em;
+  text-align: center;
+}
+
+#page .monthlyRanking > li {
+  width: calc(100% / 4);
+  padding: 2rem;
+  box-sizing: border-box;
+  border-right: 4px solid #9762f2;
+  border-bottom: 4px solid #9762f2;
+  transition: all 0.2s ease-in;
+}
+
+#page .monthlyRanking > li > a figure {
+  margin: 3rem 0 1.5rem;
+  text-align: center;
+}
+
+#page .monthlyRanking > li > a figure img {
+  height: 100%;
+}
+
+#page .monthlyRanking > li > a p {
+  color: #9762f2;
+  line-height: 1.5;
+}
+
+#page .monthlyRanking > li > a p.rank {
+  font-size: 24px;
+  padding: 0 8px 8px;
+  border-bottom: 4px solid #9762f2;
+  font-weight: bold;
+  color: #9762f2;
+}
+
+#page .monthlyRanking > li > a p.title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#page .monthlyRanking > li > a p:nth-of-type(2) {
+  display: inline-block;
+  background: #9762f2;
+  color: white;
+  border-radius: 50px;
+  font-size: 14px;
+  padding: 8px 16px;
+  margin: 0;
+}
+
+#page .monthlyRanking > li:nth-child(1), #page .monthlyRanking > li:nth-child(2), #page .monthlyRanking > li:nth-child(3) {
+  width: calc(100% / 3);
+  border-top: 4px solid #9762f2;
+}
+
+#page .monthlyRanking > li:nth-child(1) > div figure,
+#page .monthlyRanking > li:nth-child(2) > div figure,
+#page .monthlyRanking > li:nth-child(3) > div figure {
+  height: 200px;
+}
+
+#page .monthlyRanking > li:nth-child(1), #page .monthlyRanking > li:nth-child(4n) {
+  border-left: 4px solid #9762f2;
+}
+
+#page .playlistRanking li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 4px solid #9762f2;
+  padding: 2rem;
+  color: #9762f2;
+  transition: all 0.2s ease-in;
+}
+
+#page .playlistRanking li p {
+  width: 80%;
+  text-align: left;
+}
+
+#page .playlistRanking li div.btn {
+  background: #9762f2;
+  transition: all 0.2s ease-in;
+}
+
+#page .playlistRanking li div.btn a {
+  color: white;
+  font-weight: normal;
+  display: block;
+}
+
+#page .playlistRanking li:last-child {
+  border-bottom: 4px solid #9762f2;
+}
+
+#page .playlistRanking li:nth-child(1), #page .playlistRanking li:nth-child(2), #page .playlistRanking li:nth-child(3) {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#page .playlistRanking li span {
+  display: inline-block;
+  width: 40px;
+  text-align: right;
+  font-size: 1.6rem;
+  margin-right: 2rem;
+}
+
+#page .btn-apply .l-inner div.text-box p {
+  margin: 16px auto 0;
+}
+
+#page #pagetop {
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+}
+
+#page #pagetop a {
+  display: block;
+  color: #333;
+  font-size: 6rem;
+  transition: all 0.2s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  #page .s-campaign-hero + div .l-inner {
+    padding: 0;
+  }
+  #page h2.heading.heading--m {
+    padding: 2rem;
+  }
+  #page .fv-trial h1 {
+    font-size: 24px;
+  }
+  #page #nav_ranks {
+    flex-wrap: wrap;
+    margin-top: -96px;
+  }
+  #page #nav_ranks li {
+    width: calc((100% - 16px) / 2);
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 4px;
+  }
+  #page #nav_ranks li a {
+    text-align: left;
+    text-indent: 1.5em;
+  }
+  #page .monthlyRanking > li {
+    width: calc(100% / 2);
+    padding: 1.75rem;
+  }
+  #page .monthlyRanking > li > a figure {
+    margin: 24px 0;
+    width: 100%;
+  }
+  #page .monthlyRanking > li > a figure img {
+    width: 100%;
+  }
+  #page .monthlyRanking > li > a p {
+    font-size: 1.6rem;
+    line-height: 1.75em;
+  }
+  #page .monthlyRanking > li > a p.rank {
+    padding: 0.5rem;
+  }
+  #page .monthlyRanking > li:nth-child(1) {
+    width: 100%;
+  }
+  #page .monthlyRanking > li:nth-child(2), #page .monthlyRanking > li:nth-child(3) {
+    width: 100%;
+    border-left: 4px solid #9762f2;
+    border-top: none;
+  }
+  #page .monthlyRanking > li:nth-child(4n) {
+    border-left: none;
+  }
+  #page .monthlyRanking > li:nth-child(even) {
+    border-left: 4px solid #9762f2;
+  }
+  #page .playlistRanking li {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  #page .playlistRanking li p {
+    width: 100%;
+    margin: 8px 0 12px;
+  }
+  #page .playlistRanking li span {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  #page #pagetop {
+    right: 1rem;
+    bottom: 1rem;
+  }
+  #page #bnr-full .l-inner .bnr {
+    display: block;
+    margin: 0 auto;
+    padding: 2em 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #page .monthlyRanking > li:hover {
+    background: #e9ddff;
+    cursor: pointer;
+  }
+  #page .playlistRanking li:hover {
+    background: #e9ddff;
+  }
+  #page .playlistRanking li div.btn:hover {
+    background-color: #a773ff;
+    cursor: pointer;
+  }
+  #page #nav_ranks li a:hover {
+    background: #9762f2;
+    color: white;
+    transform: translateY(3px);
+  }
+  #page #pagetop a:hover {
+    color: #001241;
+    transform: translateY(-5px);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #page .fv-trial h1 {
+    font-size: 20px;
+  }
+  #page .fv-trial .btn-apply > .l-inner > * {
+    width: 100%;
+  }
+  #page #nav_ranks li {
+    width: calc((100% - 8px) / 2);
+    margin: 2px;
+  }
+  #page #nav_ranks li a {
+    padding: 8px 0;
+    font-size: 12px;
+  }
+  #page .monthlyRanking > li {
+    padding: 8px;
+  }
+  #page .monthlyRanking > li > a figure {
+    margin: 16px 0;
+  }
+}

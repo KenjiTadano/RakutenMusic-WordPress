@@ -1,0 +1,1692 @@
+#page p.caution {
+  padding: 8px;
+  background: #fef0dd;
+  border-radius: 8px;
+  color: #a35e04;
+}
+
+#page p.small {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page p.small small {
+  font-size: 100%;
+}
+
+#page .flx-24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#page .flx-32 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+#page #fv-cta {
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 24px;
+  align-self: stretch;
+}
+
+#page #fv-cta .campaign-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+#page #fv-cta .campaign-code p.campaign-code--code {
+  color: #bf0000;
+  text-align: center;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+
+#page #fv-cta .campaign-code button.btn-copy-code {
+  display: flex;
+  padding: 4px 16px;
+  border-radius: 32px;
+  border: 1px solid #bf0000;
+  background: #fff;
+  color: #bf0000;
+  text-align: center;
+  /* JP Body Medium 14px/Bold */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+#page #fv-cta .btn-apply {
+  margin: 0;
+}
+
+#page .btn-apply + p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page section {
+  padding: 0;
+}
+
+#page h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+#page strong {
+  color: #f56611;
+}
+
+#page .l-content .btn-apply {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+#page .l-content .btn-apply .trial-btn,
+#page .l-content .btn-apply .iap-store-link {
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  background: #bf0000;
+  display: block;
+  padding: 16px 24px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+#page .l-content .btn-apply .btn-apply--caption {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+#page .l-content #top-section-step {
+  background: #f7f7f7;
+}
+
+#page .l-content #top-section-step .multi-step .multi-step-content.display-block {
+  display: block;
+}
+
+#page .l-content #top-section-step .multi-step .multi-step-content.display-block p.lead {
+  margin-bottom: 16px;
+}
+
+#page .l-content #top-section-step .ccode {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #f7f7f7;
+}
+
+#page .l-content #top-section-step .ccode p.txt {
+  color: #686868;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 19.6px */
+}
+
+#page .l-content #top-section-step .ccode p.code {
+  color: #bf0000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+}
+
+#page .l-content #top-section-step button.btn-copy-code {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 80px;
+  border: 2px solid #bf0000;
+  background: #ffffff;
+  color: #bf0000;
+  text-align: center;
+  /* JP Header Small 20px/Bold */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+
+#page .l-content #top-section-step .btn-apply {
+  margin: 0;
+  align-self: stretch;
+}
+
+#page .l-content #top-section-step .btn-apply a.trial-btn .txt {
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+#page .l-content #top-section-step .btn-apply .btn-apply--caption {
+  color: black;
+  text-align: center;
+  /* JP Overline 10px/Regular */
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 160% */
+}
+
+#page .l-content #top-section-step a.apply-ccode {
+  color: #006497;
+  text-align: center;
+  /* JP Body Medium 14px/Regular */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  text-decoration-line: underline;
+  display: block;
+  margin: 0 auto;
+}
+
+#page .l-content .step-overview ul li p.step-overview-number {
+  color: #bf0000;
+}
+
+#page .l-content .multi-step > h3 {
+  background: #4d4d4d;
+  color: #ffffff;
+}
+
+#page p.lead {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page .txt-center {
+  text-align: center;
+}
+
+#page .slick-dots {
+  top: 0;
+  margin-top: 24px;
+}
+
+#page .bg-pale-pink {
+  background: #f8ede4;
+  padding: 36px 0px;
+}
+
+#page .bg-pale-pink h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #6a4b35;
+  margin-bottom: 24px;
+}
+
+#page .article--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+#page .article--wrapper .article--image {
+  width: 160px;
+}
+
+#page .article--wrapper .article--text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#page .article--wrapper .article--text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #6a4b35;
+}
+
+#page .l-campaign-03 {
+  margin-bottom: 36px;
+}
+
+#page section#ad-nav .l-inner::after {
+  content: none;
+}
+
+#page section#ad-nav .l-inner > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 24px auto;
+}
+
+#page section#ad-nav .l-inner > ul > li {
+  flex: 1;
+  border: 1px solid #b6b6b6;
+}
+
+#page section#ad-nav .l-inner > ul > li a {
+  padding: 12px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: black;
+}
+
+#page section#ad-nav .l-inner > ul > li a img {
+  width: 60px;
+}
+
+#page section#ad-nav .l-inner > ul > li a p {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6a4b35;
+}
+
+#page section#ad-nav .l-inner > ul > li a::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/ad/img/20220926/icon_chevron_down.png) no-repeat center/cover;
+}
+
+#page section#fv {
+  margin: 24px auto;
+}
+
+#page section#fv .l-inner > p a {
+  color: #bf0000;
+  text-decoration: underline;
+}
+
+#page section#ad-point-steps .l-inner .campaign-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  border: 2px solid #d08667;
+  border-radius: 8px;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  background: white;
+}
+
+#page section#ad-point-steps .l-inner .campaign-code p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d08667;
+}
+
+#page section#ad-point-steps .l-inner .campaign-code p.campaign-code--code {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#page section#ad-point-steps .l-inner .campaign-code .btn-copy-code {
+  padding: 4px 16px;
+  background: #d08667;
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+}
+
+#page section#ad-point-steps .l-inner .white-wrapper {
+  margin-top: 24px;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+#page section#ad-point-steps .l-inner .white-wrapper .trial-btn a {
+  background: #bf0000;
+  border-radius: 12px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#page section#ad-point-steps .l-inner .white-wrapper .trial-btn + p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 12px auto;
+}
+
+#page #newplan-release {
+  margin: 24px auto;
+}
+
+#page #ad-otoku h2 {
+  padding: 8px 16px;
+  margin: 24px auto 16px;
+}
+
+#page #campaign-merit {
+  margin: 24px auto;
+}
+
+#page #campaign-merit .l-inner h2 {
+  padding: 0;
+  background: none;
+}
+
+#page #stack-playback-campaign {
+  margin: 24px auto;
+}
+
+#page #stack-competitive-services strong {
+  color: black;
+}
+
+#page #price {
+  margin: 24px auto;
+}
+
+#page #price .l-inner .price-lead {
+  display: none;
+}
+
+#page #price .l-inner strong {
+  color: black;
+}
+
+/* 60日キャンペーンcss */
+
+#page .js-toggle.is-open .js-toggle__panel {
+  max-height: none;
+}
+
+#page .campaign-detail__table td {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#page .campaign-hero__schedule {
+  padding: 12px 0px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  background-color: #000000;
+}
+
+#page .campaign-hero__schedule__note {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+#page .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration-line: underline;
+}
+
+#anchor-link {
+  background-color: #000;
+}
+
+#page #anchor-link ul {
+  display: flex;
+  padding: 24px;
+  width: 100%;
+
+  gap: 16px;
+  flex-direction: column;
+}
+
+#page #anchor-link ul li a {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 66px;
+  padding: 12px 16px;
+  gap: 8px;
+  border: solid 1px #ffd700;
+  border-color: #ffd700;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #000;
+  color: #ffd700;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.badge {
+  background-color: #bf0000;
+  padding: 0px 8px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 16px;
+  border: none;
+  text-wrap: nowrap;
+}
+
+/* akaバッジ */
+.badge-red {
+  display: flex;
+  padding: 2px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 4px;
+  border-radius: 40px;
+  background: #bf0000;
+  color: #fff;
+  font-weight: 700;
+  text-wrap: nowrap;
+  font-size: small;
+  margin: 2px;
+  width: 80px;
+}
+
+.line {
+  height: 1px;
+  width: 10%;
+  max-width: 150px;
+  background-color: #fff;
+}
+/* 横並び　左よせ */
+.row-flex-left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  text-align: left;
+  margin: 0 auto;
+  margin: 4px;
+}
+/* 横並び　センター */
+.row-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-direction: row;
+  margin: 0 auto;
+}
+/* 縦並びセンター */
+.column-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: stretch;
+  flex-direction: column;
+}
+/* breakpoint付き横並び */
+.row-break {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+/* breakpoint付き縦並び */
+.column-break {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* キャンペーン説明エリアの大枠 */
+#page .campaign-explain-area {
+  background-color: #000;
+  text-align: center;
+  height: auto;
+  padding: 24px 0 24px !important;
+}
+/* キャンペーン内枠(max950px) */
+#page .campaign-container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 24px;
+  gap: 24px;
+  align-self: stretch;
+}
+/* PC-SP切替用 */
+.campaign-change-block {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* キャンペーンについて */
+#page .about-campaign {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+#page .campaign-explain-area h1 {
+  font-size: 20px;
+}
+
+Í/* キャンペーンカード */
+#page .card-campaign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #bf0000;
+}
+/* キャンペーンカードの期間表示部分 */
+#page .campaign-schedule {
+  display: flex;
+  padding: 16px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  align-self: stretch;
+  border-radius: 8px 8px 0px 0px;
+  background: var(--Red-Logo-800, #bf0000);
+}
+/* キャンペーンカードの白字部分　大枠 */
+#page .campaign-section {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  background: white;
+  color: #000000;
+  border-radius: 0px 0px 8px 8px;
+  flex-grow: 1;
+}
+/* キャンペーン番号 */
+#page .campaign-number {
+  color: #fff;
+}
+/* キャンペン番号バッジ */
+#page .circle-red {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 56px;
+  background: #bf0000;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+#page .circle-red p {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 125%;
+}
+#page .circle-red h1 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%;
+
+  text-align: center;
+}
+/* キャンペン説明　赤枠部分 */
+.red-card {
+  display: flex;
+  padding: 6px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 1px solid var(--Red-Logo-800, #bf0000);
+  flex-grow: 1;
+}
+.yellow-card p {
+  flex-grow: 1;
+}
+/* キャンペーンアイコン */
+#page .yellow-card > img {
+  width: auto !important;
+  height: 32px !important;
+  padding-right: 8px;
+}
+
+#page .campaign_img > img {
+  width: auto !important;
+  height: 65px !important;
+  padding-right: 8px;
+}
+#page .img-forkset > img {
+  width: auto !important;
+  height: 60px !important;
+  padding-right: 8px;
+}
+#page .logo_x img {
+  width: auto !important;
+  height: 40px !important;
+  padding-right: 8px;
+  margin-left: 8px;
+}
+/* キャンペーン説明　黄色部分 */
+.yellow-card {
+  display: flex;
+  width: 100%;
+  padding: 4px 4px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  background: #fc0;
+  min-height: 60px;
+}
+
+/* Wチャンス用カード設定 */
+.card-wchance {
+  padding: 12px;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.card-wchance p {
+  font-size: 14px;
+  line-height: 16px;
+}
+/* 詳しくはこちら */
+.detail-btn {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  color: #bf0000 !important;
+  text-decoration: underline !important;
+}
+#page .coming-soon-area {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 24px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  min-height: 450px;
+  margin: 0 auto;
+}
+#page .coming-soon-area .about-campaign {
+  padding-bottom: 16px;
+}
+#page .coming-soon-area .about-campaign h1 {
+  font-size: 20px;
+}
+#page .coming-soon-container {
+  display: flex;
+  height: 460px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid var(--White, #fff);
+  max-width: 1024px;
+}
+#page .coming-soon-container .title01 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 20px */
+}
+#page .coming-soon-container .title02 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 50px */
+}
+#page .coming-soon-container .title03 {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 17.5px */
+}
+/* 第二弾キャンペーンテキスト */
+#page .campaign-text {
+  font-size: 14px;
+}
+/* コード入力＋新記入脇枠 */
+.campaign-requirenment-sp {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 0;
+}
+.campaign-requirenment-sp p {
+  font-size: 12px;
+}
+
+.campaign-requirenment-pc p {
+  font-size: 19px;
+}
+.badge-black-pc {
+  display: flex;
+  padding: 2px 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 19px;
+  border: 1px solid #000;
+}
+#page .is-PC {
+  display: none;
+}
+.campaign-description {
+  font-size: 14px;
+}
+.br_span {
+  display: inline-block;
+}
+
+.title-badge {
+  display: flex;
+  padding: 4px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 45px;
+  background: #bf0000;
+  color: #ffffff;
+  margin-right: 6px !important;
+}
+#page .title-area p {
+  font-size: 14px;
+}
+#page .title-area h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+#page .Below {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+#page .Below a {
+  color: #bf0000;
+}
+#page .Below strong {
+  color: #000000;
+  font-weight: bolder;
+}
+#page .App {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+#page .CampaignButton {
+  margin: 0;
+}
+/* キャンペーンボタン設定 */
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+#page .CampaignButton-success span.RexButton-message {
+  color: #047205;
+}
+
+#page .InfoText {
+  margin: 0;
+}
+
+/* ↓注釈エリア設定↓ */
+#page .description-area {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+.notify-list {
+  padding: 8px 4px 8px 2.5rem;
+}
+
+.laccordion-001 li::marker {
+  font-size: 0.5em;
+}
+.notify-text {
+  font-size: 14px;
+}
+.notify-text a {
+  color: #bf0000 !important;
+  display: inline-block; /* インラインブロック要素にする */
+  padding: 2px 20px; /* ボタンの内側の余白（上下・左右） */
+  text-decoration: underline !important;
+  border-radius: 4px;
+}
+/* アコーディオン設定 */
+.accordion-001 {
+  width: 100%;
+  max-width: 950px;
+  background-color: #f2f2f2;
+}
+
+.accordion-001:not([open]) {
+  margin-bottom: 7px;
+}
+
+.accordion-001 summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 1em 1em;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.accordion-001 summary::-webkit-details-marker {
+  display: none !important;
+}
+.accordion-001 ul {
+  margin: 0;
+  padding: 0px;
+}
+
+.accordion-001 li {
+  list-style-type: disc !important;
+  list-style-position: outside;
+  font-size: 14px;
+}
+
+.accordion-001 p {
+  transform: translateY(-10px);
+  opacity: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #333333;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+/* アコーディオン　ラジオボタン型 */
+#page .accordion-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #333333;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+#page .accordion-content[open] p {
+  transform: none;
+  opacity: 1;
+}
+#page .accordion-content ul {
+  margin: 0;
+  padding: 0px;
+}
+
+#page .accordion-content li {
+  list-style-type: disc !important;
+  list-style-position: outside;
+  font-size: 14px;
+}
+#page .accordion {
+  width: 100%;
+  max-width: 950px;
+  background-color: #f2f2f2;
+}
+/*ベース*/
+#page .toggle {
+  display: none;
+}
+#page .accordion-Label {
+  /*タイトル*/
+  padding: 1em;
+  display: block;
+  color: #fff;
+  background: #bf0000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+#page .accordion-Label::before {
+  /*タイトル横の矢印*/
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  top: calc(50% - 3px);
+  right: 20px;
+  transform: rotate(135deg);
+}
+#page .accordion-Label,
+.accordion-content {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.3s;
+}
+#page .accordion-content {
+  /*本文*/
+  height: 0;
+  margin-bottom: 10px;
+
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+#page .toggle:checked + .accordion-Label + .accordion-content {
+  /*開閉時*/
+  height: auto;
+  padding: 8px 4px 8px 2.5rem;
+  transition: all 0.3s;
+}
+.toggle:checked + .accordion-Label::before {
+  transform: rotate(-45deg) !important;
+}
+
+/* 開閉型アコーディオン */
+
+/* フローティングボタン設定 */
+#page #sticky-apply-btn {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+#page #sticky-apply-btn .sticky-apply-btn--inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  padding: 16px;
+  gap: 8px;
+}
+#page #sticky-apply-btn .sticky-apply-btn--inner > * {
+  flex: 1;
+  border-radius: 4px;
+}
+#page #sticky-apply-btn .sticky-apply-btn--inner .cta-mobile {
+  width: 100%;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  background: #ff008c;
+}
+#page #sticky-apply-btn .sticky-apply-btn--inner .cta-mobile a {
+  display: block;
+  padding: 16px 24px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 0;
+  border-radius: 4px;
+}
+#page #sticky-apply-btn .sticky-apply-btn--inner .cta-mobile + p.small {
+  text-align: center;
+}
+#page #sticky-apply-btn .sticky-apply-btn--inner .trial-btn,
+#page #sticky-apply-btn .sticky-apply-btn--inner .iap-store-link {
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 4px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* フローティング「コードをコピー」 */
+#page #sticky-apply-btn .sticky-apply-btn--inner .btn-copy-code {
+  padding: 15px 0;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #bf0000;
+  border: 2px solid #bf0000;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+#page .img-forkset02 img {
+  width: 160px;
+  height: auto;
+}
+
+#page .l-content .bg-dark-txt {
+  color: rgba(255, 255, 255, 0.1);
+  z-index: 0;
+  font-size: 81px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: absolute;
+}
+/* プレイリストボタン */
+#page .btn-playlist a {
+  background: #bf0000;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 260px;
+  padding: 10px 25px;
+  color: #313131;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+  margin-top: 12px;
+  color: white;
+}
+#page .btn-playlist a:hover {
+  background: #f43e3e;
+}
+#page .btn-playlist a:after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  transform: rotate(45deg) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  border-radius: 1px;
+  transition: 0.3s ease-in-out;
+}
+#page .btn-playlist a:hover:after {
+  border-color: #fff;
+}
+
+/* メディアクエリ------------------------------------------------------------------------ */
+@media screen and (min-width: 767px) {
+  #page .img-forkset02 img {
+    width: 240px;
+    height: auto;
+  }
+
+  /* ↓注釈エリア設定↓ */
+  #page .toggle:checked + .accordion-Label + .accordion-content {
+    /*開閉時*/
+    padding: 1.5em 1em 1em 4.5rem;
+  }
+  #page .accordion-Label {
+    font-size: 16px;
+  }
+  /* 赤バッジ */
+  .badge-red {
+    padding: 2px 6px;
+    font-size: small;
+    font-weight: 500;
+    text-wrap: nowrap;
+  }
+  .campaign-requirenment-pc {
+    display: flex;
+    gap: 8px;
+    padding-bottom: 12px;
+  }
+  #page .is-PC {
+    display: block;
+  }
+  #page .is-SP {
+    display: none;
+  }
+  /* Wチャンス用カード設定 */
+  .card-wchance h3 {
+    font-size: 32px;
+  }
+  .card-wchance p {
+    font-size: 22px;
+    line-height: 16px;
+  }
+  /* キャンペーンカードの白字部分　大枠 */
+  #page .campaign-section {
+    height: 470px;
+  }
+  .red-card {
+    padding: 12px;
+  }
+  /* PC-SP切替用 */
+  .red-card,
+  .column-break {
+    flex-direction: row;
+  }
+  /* PC-SP切替用 */
+  .campaign-change-block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0px;
+  }
+  /* 第二弾キャンペーンテキスト */
+  #page .campaign-text {
+    font-size: 16px;
+  }
+  #page .campaign-container {
+    max-width: 1024px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  #page .campaign-explain-area h1 {
+    font-size: 32px;
+  }
+  #page .card-campaign {
+    width: 48.5%;
+  }
+
+  #page .btn-secondary {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 22.4px */
+    border-radius: 72px;
+    transition: all 0.2s ease-in;
+  }
+
+  #page .btn-secondary:hover {
+    background-color: #bf0000;
+    color: #fff3e1;
+    cursor: pointer;
+  }
+
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2025/ikinaristeak_collabo/img/bg.jpg) no-repeat center top/auto 86.5% #000;
+  }
+
+  #page .campaign-hero__schedule {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page .campaign-hero__schedule__note {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+  }
+
+  #page .campaign-hero__schedule__note a:hover {
+    text-decoration: none;
+  }
+
+  #page #anchor-link ul {
+    padding: 32px 0px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #page #anchor-link ul li a {
+    width: 280px;
+    height: 86px;
+    padding: 4px 8px;
+    gap: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 0.2s ease-in;
+    text-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  #page #anchor-link ul li a:hover {
+    background: #ffd700;
+    color: var(--color-wb-white, #000);
+  }
+
+  /* 60日キャンペーンcss */
+
+  #page .l-content .btn-apply a.trial-btn .txt,
+  #page .l-content .btn-apply a.iap-store-link .txt {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 129.167% */
+  }
+
+  #page .l-content .btn-apply a.trial-btn svg,
+  #page .l-content .btn-apply a.iap-store-link svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  #page .l-content #top-section-step .ccode {
+    flex-direction: row;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+  }
+
+  #page .l-content #top-section-step .ccode p.txt {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+  }
+
+  #page .l-content #top-section-step .ccode p.code {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 33.6px */
+  }
+
+  #page .l-content #top-section-step button.btn-copy-code {
+    width: 400px;
+    align-items: center;
+    margin: 0 auto;
+    transition: all 0.2s ease-in;
+  }
+
+  #page .l-content #top-section-step button.btn-copy-code:hover {
+    cursor: pointer;
+    background: #bf0000;
+    color: white;
+  }
+
+  #page .l-content #top-section-step .btn-apply {
+    margin: 0 auto;
+  }
+
+  #page .l-content #top-section-step .btn-apply a.trial-btn .txt {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 129.167% */
+  }
+
+  #page .l-content #top-section-step .btn-apply .btn-apply--caption {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page .l-content #top-section-step a.apply-ccode {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  #page .l-content #top-section-step a.apply-ccode:hover {
+    text-decoration: none;
+  }
+
+  #page .l-content #top-section-step ul.campaign-code-steps {
+    margin-top: 24px;
+  }
+
+  #page .jsha-carousel img {
+    width: 100%;
+  }
+
+  #page #fv-cta {
+    align-items: center;
+  }
+
+  #page #fv-cta .campaign-code {
+    gap: 16px;
+  }
+
+  #page #fv-cta .campaign-code p.campaign-code--code {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 142.857% */
+  }
+
+  #page #fv-cta .campaign-code button.btn-copy-code {
+    padding: 8px 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    transition: all 0.2s ease-in;
+  }
+
+  #page #fv-cta .campaign-code button.btn-copy-code:hover {
+    cursor: pointer;
+    background: #bf0000;
+    color: white;
+  }
+
+  #page .btn-apply + p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  #page .s-campaign-hero {
+    position: relative;
+  }
+
+  #page .s-campaign-hero::after {
+    content: '';
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+  }
+
+  #page .s-campaign-hero .campaign-hero__schedule {
+    position: relative;
+    z-index: 1;
+  }
+  /* フローティングボタン設定 */
+
+  #page #sticky-apply-btn .sticky-apply-btn--inner {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .btn-copy-code {
+    flex: none;
+    width: 174px;
+    font-size: 18px;
+    line-height: 140%;
+    border-radius: 60px;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .btn-copy-code:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-music {
+    width: 300px;
+    border-radius: 60px;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-music a {
+    padding: 16px 0;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .trial-btn,
+  #page #sticky-apply-btn .sticky-apply-btn--inner .iap-store-link {
+    width: 340px;
+    border-radius: 60px;
+    padding: 16px 24px;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-mobile {
+    width: 300px;
+    border-radius: 60px;
+    overflow: hidden;
+  }
+  #page #sticky-apply-btn .sticky-apply-btn--inner .cta-mobile a {
+    padding: 16px 0;
+    font-size: 18px;
+    line-height: 140%;
+  }
+
+  #page .bg-pale-pink h1 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+  }
+
+  #page .article--wrapper {
+    flex-direction: row;
+  }
+
+  #page .article--wrapper .article--image {
+    width: 240px;
+  }
+
+  #page .article--wrapper .article--image img {
+    width: 100%;
+  }
+
+  #page .article--wrapper .article--text {
+    align-items: flex-start;
+  }
+
+  #page .article--wrapper .article--text p {
+    text-align: left;
+  }
+
+  #page section#ad-nav .l-inner > ul {
+    gap: 16px;
+    margin: 36px auto;
+  }
+
+  #page section#ad-nav .l-inner > ul > li {
+    width: 200px;
+    flex: none;
+    transition: all 0.2s ease-in;
+  }
+
+  #page section#ad-nav .l-inner > ul > li:hover {
+    background: #f7f7f7;
+    transform: translateY(2px);
+  }
+
+  #page section#ad-nav .l-inner > ul > li:hover a p {
+    color: #d08667;
+  }
+
+  #page section#ad-nav .l-inner > ul > li a img {
+    width: 80px;
+  }
+
+  #page section#ad-nav .l-inner > ul > li a p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+  }
+
+  #page section#fv {
+    margin: 36px auto 0;
+  }
+
+  #page section#fv .l-inner {
+    margin: 36px auto;
+  }
+
+  #page section#fv .l-inner a:hover {
+    text-decoration: none;
+  }
+
+  #page section#ad-point-steps .l-inner .campaign-code {
+    flex-direction: row;
+    padding: 8px 12px;
+  }
+
+  #page section#ad-point-steps .l-inner .campaign-code .btn-copy-code:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  #page section#ad-point-steps .l-inner .white-wrapper {
+    padding: 36px;
+  }
+
+  #page section#ad-point-steps .l-inner .white-wrapper .trial-btn a {
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #page section#ad-point-steps .l-inner .white-wrapper .trial-btn + p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  #page #ad-otoku {
+    padding: 0;
+  }
+
+  #page #ad-otoku h2 {
+    padding: 18px 0 12px;
+  }
+
+  #page #stack-competitive-services {
+    text-align: center;
+  }
+
+  #page #campaign-merit {
+    margin: 36px auto;
+  }
+
+  #page #stack-playback-campaign {
+    margin: 36px auto;
+  }
+
+  #page #price {
+    margin: 36px auto;
+  }
+
+  #page .wchance-step-title h2 {
+    font-size: 32px !important;
+  }
+
+  #page .CampaignButton a {
+    max-width: none;
+  }
+  #page .App {
+    width: 600px;
+    gap: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+@media only screen and (max-width: 375px) {
+  .CampaignEntryButton_campaignButton__n6hK5 .CampaignEntryButton_rexButton__VH0Gh {
+    font-size: 4vw !important;
+    min-width: 20rem;
+  }
+}

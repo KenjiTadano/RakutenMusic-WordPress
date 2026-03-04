@@ -1,6 +1,6 @@
 /**
- * 楽天ミュージック セクションブロックの編集用プレビュー（インサーター・キャンバス両方）
- * window.rakutenmusicSectionBlocksData を PHP で渡すこと
+ * 楽天ミュージック セクション・ランク・リワード・ライトプランブロックの編集用登録（インサーターに表示）
+ * window.rakutenmusicSectionBlocksData を PHP で渡すこと（blocks, previewUrls, rankBlocks, rewardBlocks, planLiteBlocks）
  */
 (function () {
 	'use strict';
@@ -8,6 +8,9 @@
 	var data = window.rakutenmusicSectionBlocksData || {};
 	var blocks = data.blocks || [];
 	var previewUrls = data.previewUrls || {};
+	var rankBlocks = data.rankBlocks || [];
+	var rewardBlocks = data.rewardBlocks || [];
+	var planLiteBlocks = data.planLiteBlocks || [];
 
 	function run() {
 		var w = window.wp;
@@ -31,38 +34,95 @@
 			return createElement('div', containerProps, createElement('strong', null, blockTitle));
 		}
 
+		function placeholderEdit(className, title) {
+			return function () {
+				return createElement('div', {
+					className: className,
+					style: { padding: '16px', background: '#f0f0f0', border: '1px dashed #999', borderRadius: '4px', textAlign: 'center', fontSize: '13px' }
+				}, createElement('strong', null, title));
+			};
+		}
+
+		// セクションブロック（rakutenmusic/rakuten-music-section-*）
 		blocks.forEach(function (b) {
-			// バンドル：OVERVIEW は独自の editor（サイドバーでアプリDL設定）を持つため再登録しない
 			if (b.name === 'top-section-overview') return;
 			try {
 				var blockName = 'rakutenmusic/rakuten-music-section-' + b.name;
 				var previewUrl = previewUrls[blockName] || null;
-				if (unregisterBlockType) {
-					try {
-						unregisterBlockType(blockName);
-					} catch (e) {}
-				}
+				if (unregisterBlockType) { try { unregisterBlockType(blockName); } catch (e) {} }
 				registerBlockType(blockName, {
 					title: '[楽天ミュージック] ' + b.title,
-					category: 'rakutenmusic',
+					category: (b.category || 'rakutenmusic-common'),
 					keywords: ['楽天', 'ミュージック'].concat(b.keywords || []),
 					icon: previewUrl ? { src: previewUrl } : 'align-wide',
 					description: '楽天ミュージック: ' + b.title,
 					attributes: {},
 					example: { attributes: {} },
 					edit: function (props) {
-						return createElement(PreviewEdit, {
-							blockTitle: b.title,
-							previewUrl: previewUrl,
-							props: props
-						});
+						return createElement(PreviewEdit, { blockTitle: b.title, previewUrl: previewUrl, props: props });
 					},
-					save: function () {
-						return null;
-					}
+					save: function () { return null; }
 				});
 			} catch (err) {}
 		});
+
+		// ランクブロック
+		rankBlocks.forEach(function (b) {
+			try {
+				if (unregisterBlockType) { try { unregisterBlockType(b.name); } catch (e) {} }
+				registerBlockType(b.name, {
+					title: b.title,
+					category: b.category || 'rakutenmusic-rank',
+					keywords: (b.keywords || []).concat('楽天', 'ミュージック', 'ランク', 'rank'),
+					icon: b.icon || 'align-wide',
+					description: b.description || '',
+					attributes: {},
+					example: { attributes: {} },
+					supports: { inserter: true },
+					edit: placeholderEdit('rakutenmusic-rank-block-placeholder', b.title),
+					save: function () { return null; }
+				});
+			} catch (err) {}
+		});
+
+		// リワードブロック
+		rewardBlocks.forEach(function (b) {
+			try {
+				if (unregisterBlockType) { try { unregisterBlockType(b.name); } catch (e) {} }
+				registerBlockType(b.name, {
+					title: b.title,
+					category: b.category || 'rakutenmusic-reward',
+					keywords: (b.keywords || []).concat('楽天', 'ミュージック', 'リワード'),
+					icon: b.icon || 'align-wide',
+					description: b.description || '',
+					attributes: {},
+					example: { attributes: {} },
+					supports: { inserter: true },
+					edit: placeholderEdit('rakutenmusic-reward-block-placeholder', b.title),
+					save: function () { return null; }
+				});
+			} catch (err) {}
+		});
+
+		// ライトプランブロック
+		planLiteBlocks.forEach(function (b) {
+			try {
+				if (unregisterBlockType) { try { unregisterBlockType(b.name); } catch (e) {} }
+				registerBlockType(b.name, {
+					title: b.title,
+					category: b.category || 'rakutenmusic-plan-lite',
+					keywords: (b.keywords || []).concat('楽天', 'ミュージック', 'ライトプラン'),
+					icon: b.icon || 'align-wide',
+					description: b.description || '',
+					attributes: {},
+					example: { attributes: {} },
+					supports: { inserter: true },
+					edit: placeholderEdit('rakutenmusic-plan-lite-block-placeholder', b.title),
+					save: function () { return null; }
+				});
+			} catch (err) {}
+		});
+
 		return true;
 	}
 

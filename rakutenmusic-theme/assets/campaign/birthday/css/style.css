@@ -1,0 +1,64 @@
+#page .campaign-hero__schedule {
+  background-color: #ff42cf;
+}
+#page .s-campaign-hero {
+  margin: 0 0 20px;
+}
+.con-box {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+div#HTMLBlock422 .con-box {
+  padding: 30px 0 10px;
+}
+.text-step {
+  width: 650px;
+  margin: 0 auto;
+  padding: 4px;
+  background: #ffa3e8;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 2.2rem;
+}
+#page .campaign-hero__schedule__note a {
+  color: #ffe700;
+}
+@media screen and (min-width: 768px) {
+  #page .heading--m {
+    padding-top: 40px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #page .campaign-hero__schedule {
+    background: #ff42cf !important;
+  }
+  #page .s-campaign-hero {
+    margin: 0 0 6vw;
+  }
+  .con-box {
+    width: 100%;
+    margin: 4vw auto;
+    text-align: center;
+    padding: 0;
+  }
+  div#HTMLBlock422 .con-box {
+    padding: 3vw 0 0;
+  }
+  .text-step {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2vw;
+    background: #ffa3e8;
+    border-radius: 0;
+    color: #fff;
+    font-size: 2rem;
+  }
+  #page .inc-about-wrap .inc-about-sp {
+    display: block;
+    padding: 0;
+    width: 90vw;
+    margin: 3vw auto;
+  }
+}

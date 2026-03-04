@@ -1,0 +1,466 @@
+#page .l-content #sticky-apply-btn .btn-apply {
+  width: 100%;
+}
+#page .l-content #sticky-apply-btn .btn-apply a.trial-btn,
+#page .l-content #sticky-apply-btn .btn-apply a.iap-store-link {
+  padding: 0.8em 0;
+}
+#page section {
+  padding: 0;
+}
+#page h1.disp1 {
+  padding: 12px;
+  background: #000000;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+#page .l-campaign-02 > h2 {
+  padding: 12px;
+  background: #000000;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+#page h2.disp2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+#page p.lead {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+#page p.lead strong {
+  color: #bf0000;
+}
+#page .slick-arrow {
+  z-index: 1;
+}
+#page .slick-next {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 22px;
+  border-color: transparent transparent transparent #000000;
+  right: 0;
+}
+#page .slick-next::before {
+  content: none;
+}
+#page .slick-prev {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 22px 20px 0;
+  border-color: transparent #000000 transparent transparent;
+  left: 0;
+}
+#page .slick-prev::before {
+  content: none;
+}
+#page .slick-disabled {
+  display: none !important;
+}
+#page .slick-dots {
+  bottom: 0;
+  margin-top: 16px;
+}
+#page .campaign-hero__schedule p br:last-child {
+  display: none;
+}
+#page .campaign-hero__schedule__note a {
+  color: white;
+  text-decoration: underline;
+}
+#page .campaign-detail__table td {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#page section#newyear-campaign-steps {
+  background: url(/assets/campaign/2024/newyear/img/bg_body.png) center top/100px;
+  padding: 24px 0;
+}
+#page section#newyear-campaign-steps h3 {
+  margin: 0;
+}
+#page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--mini {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin: 0 auto 16px;
+}
+#page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--mini .box {
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  color: black;
+  flex: 1;
+  border-radius: 8px;
+  border: 2px solid #E9D36D;
+  background: white;
+}
+#page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--mini .box .txt-heading {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.25;
+}
+#page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--mini .box .txt-body {
+  font-size: 12px;
+  line-height: 16px;
+}
+#page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--mini .arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 12px;
+  border-color: transparent transparent transparent #E9D36D;
+}
+#page section#newyear-campaign-steps > .l-inner > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--inner {
+  border-radius: 8px;
+  border: 2px solid #E9D36D;
+  background: white;
+  padding: 24px 16px;
+  text-align: center;
+  margin: 16px auto;
+}
+#page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--inner .btn-apply {
+  margin: 0 auto;
+}
+#page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--inner .btn-apply .l-inner > * {
+  width: 100%;
+}
+#page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--inner .newyear-campaign-steps--entry figure {
+  width: 180px;
+  margin: 16px auto;
+}
+#page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--inner .newyear-campaign-steps--entry p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+#page section#newyear-campaign-steps > .l-inner > p {
+  text-align: center;
+  margin: 16px auto 0;
+}
+#page section#newyear-campaign-steps > .l-inner > p a {
+  color: white;
+}
+#page section#newyear-campaign-steps > .l-inner .existing-user {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #E6CB63;
+}
+#page section#newyear-campaign-steps > .l-inner .existing-user span {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page .purchase-link {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+#page .purchase-link a {
+  background: white;
+  color: #bf0000;
+  border: 2px solid #bf0000;
+  padding: 8px;
+  border-radius: 74px;
+  flex: 1;
+  font-size: 14px;
+}
+#page section#vissel-playlist > .l-inner {
+  margin: 24px auto;
+}
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner {
+  padding: 16px;
+  background: #9B0020;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+}
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner h2 {
+  border-radius: 8px;
+  padding: 4px 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  background: white;
+  color: #9B0020;
+}
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner > p {
+  padding: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  border: 3px solid #FFFFFF;
+  border-radius: 8px;
+  color: white;
+}
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner > ol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#page section#vissel-playlist > .l-inner .vissel-playlist--inner > ol > li:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 24px;
+  border-bottom: 3px dashed #FFFFFF;
+}
+#page #point-mission {
+  margin: 0 auto 36px;
+}
+#page #campaign-merit {
+  margin: 36px auto;
+}
+#page #stack-playback-campaign {
+  margin: 36px auto;
+}
+#page .s-campaign-detail {
+  margin: 36px auto;
+}
+#page #price > .l-inner > h1 {
+  display: none;
+}
+
+#page.campaign_detail .l-campaign-02 {
+  background: white;
+}
+
+@media screen and (min-width: 768px) {
+  #page .l-content #sticky-apply-btn .btn-apply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/2024/newyear/img/bg.jpg) repeat-x center top/auto 86% black;
+  }
+  #page h1.disp1 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page h1.disp1 img {
+    width: auto;
+    height: 90px;
+  }
+  #page h2.disp2 {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  #page .l-campaign-02 > h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page .slick-next {
+    right: 150px;
+  }
+  #page .slick-prev {
+    left: 150px;
+  }
+  #page section#huawei-nav {
+    padding: 0;
+  }
+  #page section#huawei-nav .l-inner > ul {
+    display: flex;
+    width: 950px;
+    align-items: center;
+    gap: 16px;
+    margin: 36px auto;
+    flex-wrap: nowrap;
+  }
+  #page section#huawei-nav .l-inner > ul > li {
+    flex: 1;
+  }
+  #page section#huawei-nav .l-inner > ul > li > a {
+    width: 100%;
+    display: flex;
+    padding: 16px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    border-radius: 12px;
+    background: var(--White, #FFF);
+    transition: all 0.2s ease-in;
+  }
+  #page section#huawei-nav .l-inner > ul > li > a:hover {
+    border-radius: 12px;
+    background: #F0F0F0;
+  }
+  #page section#huawei-nav .l-inner > ul > li > a > img {
+    width: 80px;
+    height: 80px;
+  }
+  #page section#huawei-nav .l-inner > ul > li > a > p {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+  #page section#huawei-nav .l-inner > ul > li > a::after {
+    width: 16px;
+    height: 16px;
+  }
+  #page section#newyear-campaign-steps {
+    padding: 36px 0;
+  }
+  #page section#newyear-campaign-steps > .l-inner > p {
+    margin-top: 36px;
+  }
+  #page section#newyear-campaign-steps > .l-inner > p:hover {
+    text-decoration: underline;
+  }
+  #page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--mini {
+    width: 500px;
+    gap: 16px;
+    margin: 0 auto 36px;
+  }
+  #page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--mini .box {
+    padding: 16px;
+  }
+  #page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--mini .box .txt-body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--inner {
+    width: 848px;
+    padding: 48px 36px;
+    border-radius: 16px;
+  }
+  #page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--inner .btn-apply .l-inner {
+    width: 100%;
+  }
+  #page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--inner .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+  #page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--inner .newyear-campaign-steps--entry figure {
+    width: 220px;
+    margin: 24px auto;
+  }
+  #page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--inner .newyear-campaign-steps--entry figure img {
+    width: 100%;
+  }
+  #page section#newyear-campaign-steps > .l-inner .newyear-campaign-steps--inner .newyear-campaign-steps--entry p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page section#newyear-campaign-steps > .l-inner > div:nth-child(2) {
+    gap: 24px;
+  }
+  #page section#newyear-campaign-steps > .l-inner .existing-user {
+    padding: 8px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    transition: all 0.2s ease-in;
+  }
+  #page section#newyear-campaign-steps > .l-inner .existing-user:hover {
+    transform: translateY(2px);
+  }
+  #page section#vissel-campaign-steps > .l-inner {
+    align-items: center;
+    gap: 36px;
+    padding: 48px 0 12px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner {
+    padding: 36px;
+    width: 848px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner h2 {
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .btn-apply .l-inner {
+    width: 100%;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .btn-apply .l-inner .trial-btn {
+    width: 400px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text {
+    gap: 16px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text .visions {
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    flex: 1;
+  }
+  #page section#vissel-campaign-steps > .l-inner .vissel-campaign-steps--inner .campaign-code-text .visions > div {
+    font-size: 36px;
+    line-height: 47px;
+    padding: 24px;
+  }
+  #page section#vissel-campaign-steps > .l-inner > p a:hover {
+    text-decoration: underline;
+  }
+  #page .purchase-link a {
+    padding: 8px 24px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    transition: all 0.2s ease-in;
+    flex: none;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #page .purchase-link a:hover {
+    background: #bf0000;
+    color: white;
+  }
+  #page #campaign-merit {
+    margin: 72px auto;
+  }
+  #page #stack-playback-campaign {
+    margin: 72px auto;
+  }
+  #page .s-campaign-detail {
+    margin: 72px auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  #page .js-toggle.is-open .js-toggle__panel {
+    max-height: none;
+  }
+}/*# sourceMappingURL=style.css.map */

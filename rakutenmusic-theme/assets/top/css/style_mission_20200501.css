@@ -1,0 +1,252 @@
+#page #mission {
+  background: #f7f7f7;
+}
+
+#page #mission .l-inner {
+  padding: 36px 0;
+}
+
+#page #mission .l-inner h1.heading {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#page #mission .l-inner h2.heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#page #mission .l-inner section {
+  padding: 0;
+}
+
+#page #mission .l-inner > section > * {
+  margin: 36px auto;
+}
+
+#page #mission .l-inner > section > *:first-child {
+  margin: 0 auto 36px;
+}
+
+#page #mission .l-inner > section.save {
+  margin-bottom: 36px;
+}
+
+#page #mission .l-inner > section.save > figure {
+  width: 239px;
+  height: 159px;
+}
+
+#page #mission .l-inner > section.save > figure img {
+  width: 100%;
+}
+
+#page #mission .l-inner > section.save > figure + p {
+  text-align: center;
+}
+
+#page #mission .l-inner > section.save .mission-sample {
+  border-radius: 24px;
+  background: white;
+  padding: 36px 24px;
+}
+
+#page #mission .l-inner > section.save .mission-sample > ul {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 !important;
+}
+
+#page #mission .l-inner > section.save .mission-sample > ul > li {
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+#page #mission .l-inner > section.save .mission-sample > ul > li:not(:last-child) {
+  border-right: 1px dashed #d1d1d1;
+}
+
+#page #mission .l-inner > section.save .mission-sample > ul > li p small {
+  font-size: 12px;
+  color: #686868;
+}
+
+#page #mission .l-inner > section.save .mission-sample > ul + p {
+  text-align: center;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction > figure {
+  width: 192px;
+  height: 192px;
+  margin: 0 auto 24px;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction > figure img {
+  width: 100%;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph {
+  width: 500px;
+  height: 32px;
+  margin: 0 auto 12px;
+  display: flex;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph > div {
+  font-size: 12px;
+  line-height: 32px;
+  padding-left: 12px;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph > div:nth-of-type(1) {
+  width: 44.7%;
+  background: #00a0f0;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph > div:nth-of-type(2) {
+  width: 36.9%;
+  background: #4dc4ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph > div:nth-of-type(3) {
+  width: 16.5%;
+  background: #7bd3ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .graph > div:nth-of-type(4) {
+  width: 1.9%;
+  background: #aee4ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description {
+  width: 500px;
+  margin: 0 auto 12px;
+  display: flex;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p {
+  font-size: 12px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-right: 12px;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:nth-of-type(1):before {
+  background: #00a0f0;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:nth-of-type(2):before {
+  background: #4dc4ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:nth-of-type(3):before {
+  background: #7bd3ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:nth-of-type(4):before {
+  background: #aee4ff;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction .description > p:nth-of-type(5):before {
+  background: white;
+  border: 1px dashed #828282;
+}
+
+#page #mission .l-inner > section.save .point-satisfaction > p {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#page #mission .l-inner > section.use > figure {
+  width: 212px;
+  height: 159px;
+}
+
+#page #mission .l-inner > section.use > figure img {
+  width: 100%;
+}
+
+#page #mission .l-inner > section.use > p {
+  text-align: center;
+}
+
+#page #mission .l-inner > section.use > p strong {
+  color: #bf0000;
+}
+
+#page #mission .l-inner > section.use > p:last-of-type {
+  left: 253px;
+  top: 375px;
+  color: #686868;
+}
+
+@media screen and (max-width: 768px) {
+  #page #mission > .l-inner {
+    padding: 24px;
+  }
+  #page #mission .l-inner h1.heading {
+    font-size: 20px;
+  }
+  #page #mission .l-inner h2.heading {
+    font-size: 16px;
+  }
+  #page #mission .l-inner > section.save .mission-sample {
+    padding: 36px 24px;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul {
+    display: block;
+    padding: 0 0 24px !important;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul > li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul > li:not(:last-child) {
+    border-bottom: 1px dashed #d1d1d1;
+    border-right: none;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul > li > i {
+    width: 64px;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul > li > p {
+    flex: 1;
+    text-align: left;
+    font-size: 14px;
+  }
+  #page #mission .l-inner > section.save .mission-sample > ul + p {
+    font-size: 14px;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction .graph {
+    width: 100%;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction .graph > div {
+    font-size: 10px;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction .description {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction .description > p {
+    font-size: 10px;
+    margin: 0 8px 8px 0;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction > p {
+    width: 100%;
+    line-height: 1.5em;
+    font-size: 10px;
+  }
+  #page #mission .l-inner > section.save .point-satisfaction > p small {
+    font-size: 100%;
+  }
+}

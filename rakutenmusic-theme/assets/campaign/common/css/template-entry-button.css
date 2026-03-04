@@ -1,0 +1,82 @@
+@charset "UTF-8";
+#page ._3Eti {
+  margin: 0 auto 10px;
+}
+
+#page .rex-button__1ArV {
+  margin: 0 auto;
+}
+
+#page .rex-button__1ArV .rex-button__3n3I {
+  width: 650px;
+  height: 80px;
+  font-size: 24px;
+}
+
+#page #_2Mef {
+  width: 650px;
+  margin: 0 auto;
+  padding: 20px 0 0;
+}
+
+#page #_2Mef ._2DmP {
+  font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif, base;
+  font-size: 16px;
+}
+
+#page #_2Mef label {
+  width: 200px;
+  margin: 0 auto;
+  line-height: 24px;
+  font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif, base;
+}
+
+#page #_2Mef p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  #page ._3Eti {
+    width: 90vw;
+    margin: 0 auto 3vw;
+    padding: 3vw 3vw 3vw 20vw;
+    display: block;
+    font-size: 4vw;
+  }
+  #page ._3Eti::before {
+    width: 12vw;
+    height: 8vw;
+    top: 6vw;
+  }
+  #page .rex-button__1ArV .rex-button__3n3I {
+    width: 90vw;
+    padding: 2vw 3vw 3vw 10vw;
+    font-size: 6vw;
+  }
+  #page .rex-button__1ArV .rex-button__3n3I.rex-button__32Uc {
+    font-size: 3.8vw;
+  }
+  #page .rex-button__1ArV .rex-button__3n3I::before {
+    width: 8vw;
+    height: 8vw;
+    left: 10vw;
+  }
+  #page #_2Mef {
+    width: 100%;
+    margin: 0 auto;
+    padding: 6vw;
+  }
+  #page #_2Mef ._2DmP {
+    font-size: 4vw;
+  }
+  #page #_2Mef label {
+    width: 52vw;
+    font-size: 4vw;
+    margin: 0 auto;
+    line-height: 6vw;
+  }
+  #page #_2Mef p {
+    text-align: justify;
+    font-size: 3.5vw;
+  }
+}

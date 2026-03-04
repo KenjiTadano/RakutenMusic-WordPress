@@ -1,0 +1,1355 @@
+#page .CampaignButton {
+  margin: 0 auto;
+}
+
+#page .CampaignButton-enabled span.RexButton-message {
+  color: white;
+}
+
+#page .CampaignButton-disabled span.RexButton-message,
+#page .CampaignButton-applied span.RexButton-message {
+  color: #898989;
+}
+
+#page .CampaignButton-success span.RexButton-message {
+  color: #047205;
+}
+
+#page .l-campaign-01 > .btn-apply {
+  margin: 32px auto;
+  padding: 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+#page .l-campaign-01 > .btn-apply a.trial-btn,
+#page .l-campaign-01 > .btn-apply a.iap-store-link {
+  display: block;
+  width: 100%;
+  background: #bf0000;
+  padding: 24px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page .l-campaign-01 > .btn-apply .btn-apply--caption {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+#page #sub-header {
+  background: url(/assets/campaign/kpop/img/bg.jpg) no-repeat center/cover;
+}
+
+#page #sub-header .sub-header--inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 16px;
+}
+
+#page #sub-header .btn-backtotop {
+  width: 80px;
+}
+
+#page #sub-header .sub-header--logo {
+  width: 128px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page #sub-header .editors {
+  width: 54px;
+}
+
+#page #about_playlist {
+  background: #FFF069;
+  padding: 32px 24px;
+}
+
+#page #about_playlist .selectedby img:first-child {
+  width: 72px;
+}
+
+#page #about_playlist .playlist-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+}
+
+#page #about_playlist .pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  border: 4px solid #EBEBEB;
+  border-radius: 16px;
+  overflow: hidden;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 136px;
+}
+
+#page #about_playlist .pic img {
+  width: 64px;
+}
+
+#page #selected_songs {
+  background: #A0EAF2;
+  padding: 32px 24px;
+}
+
+#page #selected_songs > h2 {
+  margin-bottom: 32px;
+}
+
+#page .selected_songs--list .selected_songs--item {
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+
+#page .selected_songs--list .selected_songs--item .selected_songs--inner {
+  padding: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+}
+
+#page .selected_songs--list .selected_songs--item .item-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 16px;
+}
+
+#page .selected_songs--list .selected_songs--item .item-header--pic {
+  width: 100px;
+  border: 4px solid #EBEBEB;
+  border-radius: 16px;
+}
+
+#page .selected_songs--list .selected_songs--item .item-header--ttl {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#page .selected_songs--list .selected_songs--item .item-header--artist {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page .selected_songs--list .selected_songs--item .item-desctiptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page .selected_songs--list .selected_songs--item .item-desctiptions > div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+#page .selected_songs--list .selected_songs--item .item-desctiptions .item-desctiptions--profilepic {
+  width: 72px;
+}
+
+#page .selected_songs--list .selected_songs--item .item-desctiptions .item-desctiptions--name {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+#page .selected_songs--list .selected_songs--item .item-desctiptions .item-desctiptions--content {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+#page .selected_songs--list .selected_songs--item .item-youtube iframe {
+  width: 280px;
+  height: 156px;
+}
+
+#page .selected_songs--list .slick-arrow {
+  width: 28px;
+  height: 36px;
+  border: 0;
+  font-size: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
+}
+
+#page .selected_songs--list .slick-prev {
+  background: url(/assets/campaign/kpop/img/arrow_prev.png) no-repeat center/contain;
+  left: -16px;
+}
+
+#page .selected_songs--list .slick-next {
+  background: url(/assets/campaign/kpop/img/arrow_next.png) no-repeat center/contain;
+  right: -16px;
+}
+
+#page .selected_songs--list .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page .selected_songs--list .slick-dots li {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+
+#page .selected_songs--list .slick-dots li button {
+  width: 16px;
+  height: 16px;
+  background: white;
+  border: 0;
+}
+
+#page .selected_songs--list .slick-dots li.slick-active button {
+  background: #F558B9;
+}
+
+#page #campaign-entry {
+  background: #A0F2D4;
+  padding: 32px 24px;
+}
+
+#page #campaign-entry #cpn_about::after {
+  content: none;
+}
+
+#page #campaign-entry .trial-btn,
+#page #campaign-entry .iap-store-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 0;
+  background: #bf0000;
+  color: white;
+  border-radius: 60px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page #campaign-entry .campaign-entry--caption {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#page #campaign-entry .campaign-entry--caption + a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #F558B9;
+}
+
+#page #campaign-entry .present-provider {
+  padding: 32px 16px;
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+
+#page #campaign-entry .present-provider .present-provider--header {
+  width: 230px;
+}
+
+#page #campaign-entry .present-provider .ttl {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #F558B9;
+}
+
+#page #campaign-entry .present-provider .txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#page #campaign-entry .present-provider .sns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0px;
+  gap: 8px;
+}
+
+#page #campaign-entry .present-provider .sns li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: white;
+  background: #F558B9;
+  border-radius: 40px;
+}
+
+#page #campaign-entry .present-provider .sns li a::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/kpop/img/icon_external_link.png) no-repeat center/cover;
+}
+
+#page p.small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page h2,
+#page h3 {
+  margin: 0 auto;
+}
+
+#page .flx-32 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 32px;
+}
+
+#page .flx-16,
+#page .flx-16-32 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+}
+
+#page #anchor-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 32px 0px;
+  gap: 32px;
+  background: #FF8AD2;
+}
+
+#page #anchor-links .anchor-links--sp select {
+  width: 309px;
+  height: 52px;
+  background: url(/assets/campaign/kpop/img/anchor_menu_sp.png) no-repeat center/cover;
+  color: transparent;
+  border: 0;
+}
+
+#page #editor_profile {
+  background: #FFF069;
+  padding: 32px 24px;
+}
+
+#page .editor_profile__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+#page .editor_profile__list > li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
+#page .editor_profile__list > li > img {
+  width: 96px;
+  position: relative;
+}
+
+#page .editor_profile__list > li .editor_profile__list__inner {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 80px 16px 24px;
+  margin-top: -64px;
+}
+
+#page .editor_profile__list > li .editor_profile__list__inner h3 img {
+  width: auto;
+  height: 24px;
+}
+
+#page .editor_profile__list > li .editor_profile__list__inner p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+#page .editor_profile__list > li.podcast h3 img {
+  width: 100%;
+  height: auto;
+}
+
+#page .editor_profile__list > li.podcast a {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 0px;
+  background: #0AC07F;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+}
+
+#page #kpop_playlist {
+  background: #A0F2D4;
+  padding: 32px 24px;
+}
+
+#page #cpn_about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page #cpn_about > div {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  background: #FFEFF9;
+  padding: 32px 16px;
+  border-radius: 32px;
+}
+
+#page #cpn_about h3.cpn_about__heading img {
+  width: 256px;
+}
+
+#page #cpn_about .cpn_term {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 0px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+#page #cpn_about::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 42px 18px 0 18px;
+  border-color: #FFEFF9 transparent transparent transparent;
+}
+
+#page .article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 32px 16px;
+  gap: 32px;
+  background: white;
+  border-radius: 32px;
+}
+
+#page .article-list li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0px;
+  border: 4px solid #FF8AD2;
+  border-radius: 16px;
+  background: white;
+  overflow: hidden;
+}
+
+#page .article-list li a .article-list--content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 24px 16px 24px 24px;
+  gap: 16px;
+}
+
+#page .article-list li a .article-list--content .pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  border: 4px solid #EBEBEB;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+#page .article-list li a .article-list--content .pic img {
+  width: 48px;
+}
+
+#page .article-list li a .article-list--content .ttl {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: black;
+}
+
+#page .article-list li a .article-list--arrow {
+  background: #FF8AD2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 8px;
+}
+
+#page .article-list li a .article-list--arrow img {
+  width: 16px;
+}
+
+#page #about_rakuten_music + h2,
+#page #feature-artists > h2,
+#page #price > .l-inner > h1,
+#page #stack-rakutenmusicrank-wrapper > h2,
+#page #cpn_detail + .s-campaign-detail h2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 0px;
+  background: #9957E5;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: white;
+}
+
+#page #cpn_detail + .s-campaign-detail > .l-inner {
+  padding: 0;
+}
+
+#page #stack-rakutenmusicrank {
+  margin-top: 32px;
+}
+
+#page #price > .l-inner {
+  padding: 0;
+}
+
+#page #price > .l-inner > .is-hidden--pc {
+  padding: 0 16px;
+}
+
+#page .feature-artists__list {
+  margin: 24px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px 8px;
+}
+
+#page .feature-artists__list li {
+  width: 100px;
+}
+
+#page .feature-artists__list li figure img {
+  display: block;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #B6B6B6;
+}
+
+#page .feature-artists__list li figure figcaption {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page #sticky-apply-btn {
+  width: 100%;
+  padding: 16px;
+  position: fixed;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  border-top: 1px solid #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  z-index: 99;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page #sticky-apply-btn .trial-btn,
+#page #sticky-apply-btn .iap-store-link,
+#page #sticky-apply-btn > a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 16px;
+  color: white;
+  border-radius: 60px;
+}
+
+#page #sticky-apply-btn .trial-btn,
+#page #sticky-apply-btn .iap-store-link {
+  background: #bf0000;
+}
+
+#page #sticky-apply-btn > a {
+  background: #F558B9;
+}
+
+@media screen and (min-width: 767px) {
+  #page .l-campaign-01 > .btn-apply {
+    width: 500px;
+    margin: 16px auto 32px;
+  }
+  #page .l-campaign-01 > .btn-apply a.trial-btn,
+  #page .l-campaign-01 > .btn-apply a.iap-store-link {
+    font-size: 20px;
+    line-height: 26px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page .l-campaign-01 > .btn-apply a.trial-btn:hover,
+  #page .l-campaign-01 > .btn-apply a.iap-store-link:hover {
+    background: #ff1212;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  #page .l-campaign-01 > .btn-apply .btn-apply--caption {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #sub-header .sub-header--inner {
+    width: 1032px;
+    margin: 0 auto;
+  }
+  #page #sub-header .btn-backtotop,
+  #page #sub-header .sub-header--logo {
+    width: auto;
+  }
+  #page #sub-header .btn-backtotop {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #sub-header .btn-backtotop:hover {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  #page #sub-header .editors {
+    width: 90px;
+  }
+  #page #sub-header .editors img {
+    width: 100%;
+  }
+  #page #about_playlist {
+    padding: 72px 0;
+  }
+  #page #about_playlist .selectedby img:last-child {
+    height: 20px;
+  }
+  #page #about_playlist .playlist-title {
+    width: 600px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page #about_playlist .pic {
+    width: 264px;
+    border-radius: 16px;
+  }
+  #page #about_playlist .pic img {
+    width: 128px;
+  }
+  #page #about_playlist > a {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #about_playlist > a:hover {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  #page #about_playlist > a img {
+    height: 44px;
+  }
+  #page #selected_songs {
+    padding: 72px 0;
+  }
+  #page #selected_songs > h2 {
+    text-align: center;
+  }
+  #page .selected_songs--list .slick-arrow {
+    width: 36px;
+    height: 48px;
+  }
+  #page .selected_songs--list .slick-next {
+    right: 72px;
+  }
+  #page .selected_songs--list .slick-prev {
+    left: 72px;
+  }
+  #page .selected_songs--list .selected_songs--item {
+    margin: 0 16px;
+  }
+  #page .selected_songs--list .selected_songs--item .selected_songs--inner {
+    padding: 32px;
+  }
+  #page .selected_songs--list .selected_songs--item .item-header {
+    width: 100%;
+  }
+  #page .selected_songs--list .selected_songs--item .item-header > div:first-child {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #page .selected_songs--list .selected_songs--item .item-header > div:last-child {
+    width: 246px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 16px;
+  }
+  #page .selected_songs--list .selected_songs--item .item-header--pic {
+    width: 100%;
+  }
+  #page .selected_songs--list .selected_songs--item .btn-playonwebplayer-pc a {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page .selected_songs--list .selected_songs--item .btn-playonwebplayer-pc a:hover {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  #page .selected_songs--list .selected_songs--item .btn-playonwebplayer-pc a img {
+    height: 44px;
+  }
+  #page .selected_songs--list .selected_songs--item .item-header--ttl {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page .selected_songs--list .selected_songs--item .item-header--artist {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page .selected_songs--list .selected_songs--item .item-desctiptions .item-desctiptions--profilepic img {
+    width: 100%;
+  }
+  #page .selected_songs--list .selected_songs--item .item-desctiptions .item-desctiptions--content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page .selected_songs--list .selected_songs--item .item-youtube {
+    text-align: center;
+  }
+  #page .selected_songs--list .selected_songs--item .item-youtube iframe {
+    width: 320px;
+    height: 180px;
+  }
+  #page #campaign-entry {
+    padding: 72px 0;
+  }
+  #page #campaign-entry .trial-btn,
+  #page #campaign-entry .iap-store-link {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #campaign-entry .trial-btn:hover,
+  #page #campaign-entry .iap-store-link:hover {
+    opacity: .8;
+  }
+  #page #campaign-entry .campaign-entry--caption {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #campaign-entry .campaign-entry--caption + a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #campaign-entry .present-provider {
+    width: 608px;
+    padding: 32px;
+  }
+  #page #campaign-entry .present-provider .present-provider--header {
+    width: 276px;
+  }
+  #page #campaign-entry .present-provider .txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #campaign-entry .present-provider figure {
+    width: 300px;
+  }
+  #page #campaign-entry .present-provider figure img {
+    width: 100%;
+  }
+  #page #campaign-entry .present-provider .sns {
+    gap: 16px;
+  }
+  #page #campaign-entry .present-provider .sns li a {
+    padding: 8px 16px;
+    gap: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #campaign-entry .present-provider .sns li a:hover {
+    background: #FF8AD2;
+  }
+  #page .flx-16-32 {
+    gap: 32px;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/kpop/img/bg.jpg) repeat-x center/cover;
+  }
+  #page #anchor-links .anchor-links--pc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0px;
+    gap: 16px;
+  }
+  #page #anchor-links .anchor-links--pc > li > a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 4px solid #F558B9;
+    -webkit-box-shadow: 0px 4px 0px #F558B9;
+            box-shadow: 0px 4px 0px #F558B9;
+    border-radius: 40px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #anchor-links .anchor-links--pc > li > a::after {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 16px;
+    background: url(/assets/campaign/kpop/img/icon_arrow_down_pink.png) no-repeat center/contain;
+  }
+  #page #anchor-links .anchor-links--pc > li > a:hover {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+    -webkit-box-shadow: 0px 2px 0px #F558B9;
+            box-shadow: 0px 2px 0px #F558B9;
+    cursor: pointer;
+  }
+  #page #editor_profile,
+  #page #kpop_playlist {
+    padding: 72px 0;
+  }
+  #page .editor_profile__list {
+    width: 672px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    gap: 32px;
+  }
+  #page .editor_profile__list > li {
+    width: 320px;
+  }
+  #page .editor_profile__list > li > img {
+    width: 128px;
+  }
+  #page .editor_profile__list > li .editor_profile__list__inner {
+    border-radius: 32px;
+    padding: 88px 32px 32px;
+  }
+  #page .editor_profile__list > li.podcast {
+    width: 672px;
+  }
+  #page .editor_profile__list > li.podcast .editor_profile__list__inner {
+    width: 100%;
+  }
+  #page .editor_profile__list > li.podcast h3 img {
+    width: 291px;
+    height: 72px;
+  }
+  #page .editor_profile__list > li.podcast p {
+    text-align: center;
+  }
+  #page .editor_profile__list > li.podcast a {
+    width: auto;
+    padding: 16px 32px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page .editor_profile__list > li.podcast a:hover {
+    background: #0EE196;
+  }
+  #page #cpn_about > div {
+    width: 608px;
+    padding: 32px;
+  }
+  #page #cpn_about > div > h3 img {
+    height: 64px;
+  }
+  #page #cpn_about > div > a {
+    text-align: center;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #cpn_about > div > a:hover {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  #page #cpn_about > div > a img {
+    height: 48px;
+  }
+  #page #cpn_about h3.cpn_about__heading img {
+    width: auto;
+  }
+  #page #cpn_about .cpn_term {
+    width: auto;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #cpn_about .cpn_gift {
+    text-align: center;
+  }
+  #page .article {
+    width: 960px;
+    padding: 32px;
+  }
+  #page .article > h3 img {
+    height: 32px;
+  }
+  #page .article-list {
+    width: 100%;
+  }
+  #page .article-list li a {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-radius: 32px;
+  }
+  #page .article-list li a:hover {
+    cursor: pointer;
+  }
+  #page .article-list li a .article-list--content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 32px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 32px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page .article-list li a .article-list--content:hover {
+    background: #FFEFF9;
+  }
+  #page .article-list li a .article-list--content .pic {
+    width: 200px;
+    border-radius: 16px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #page .article-list li a .article-list--content .pic img {
+    width: 50%;
+  }
+  #page .article-list li a .article-list--content .ttl {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #page .article-list li a .article-list--arrow {
+    padding: 0 16px;
+  }
+  #page .article-list li a .article-list--arrow img {
+    width: 24px;
+  }
+  #page #about_rakuten_music + h2,
+  #page #feature-artists > h2,
+  #page #price > .l-inner > h1,
+  #page #stack-rakutenmusicrank-wrapper > h2 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  #page .feature-artists__list {
+    gap: 36px 24px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 872px;
+    margin: 32px auto;
+  }
+  #page .feature-artists__list li {
+    width: 200px;
+  }
+  #page .feature-artists__list li figure img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  #page .feature-artists__list li figure figcaption {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page #price > .l-inner {
+    width: 100%;
+  }
+  #page #sticky-apply-btn {
+    padding: 24px 0px;
+    gap: 16px;
+  }
+  #page #sticky-apply-btn .trial-btn,
+  #page #sticky-apply-btn .iap-store-link,
+  #page #sticky-apply-btn > a {
+    padding: 16px 32px;
+    font-size: 28px;
+    line-height: 36px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page #sticky-apply-btn .trial-btn:hover,
+  #page #sticky-apply-btn .iap-store-link:hover,
+  #page #sticky-apply-btn > a:hover {
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #page .js-toggle.is-open .js-toggle__panel {
+    max-height: none;
+  }
+}
+/*# sourceMappingURL=style_20230308.css.map */

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HOW TO USE カルーセル 確認用</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: sans-serif; background: #f5f5f5; padding: 24px 0; }
+    .verify-note {
+      max-width: 780px; margin: 0 auto 16px; padding: 12px; background: #fff3cd; border: 1px solid #ffc107;
+      font-size: 14px; border-radius: 4px;
+    }
+    #section-howtouse { background: #fff; padding: 48px 0; }
+    #section-howtouse .bg-light-txt { font-size: 14px; color: #d80000; font-weight: bold; text-align: center; margin: 0 0 8px; }
+    #section-howtouse .ttl-group { text-align: center; margin-bottom: 24px; }
+    #section-howtouse .ttl-group sub { font-size: 16px; font-weight: 900; color: #d80000; }
+    #section-howtouse .ttl-group h2 { font-size: 24px; margin: 8px 0 0; }
+
+    .howtouse-carousel[data-howtouse-carousel] {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      width: 100%;
+      max-width: 780px;
+      margin: 32px auto 0;
+      padding: 0 24px;
+      box-sizing: border-box;
+    }
+    .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-viewport {
+      overflow: hidden !important;
+      flex: 1 1 0;
+      min-width: 0;
+      width: 100%;
+    }
+    .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-track {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      transition: transform 0.35s ease-out;
+      will-change: transform;
+      width: 200%;
+      height: 100%;
+      transform: translateX(calc(-1 * var(--howtouse-index, 0) * 16.666%));
+    }
+    .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-slide {
+      flex: 0 0 16.666% !important;
+      width: 16.666% !important;
+      max-width: none !important;
+      padding: 0 8px;
+      display: flex !important;
+      flex-direction: column !important;
+      flex-wrap: nowrap !important;
+      align-items: center;
+      gap: 16px;
+    }
+    .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-slide .howtouse-img {
+      width: 158px;
+      flex-shrink: 0;
+    }
+    .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-slide .howtouse-img img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-slide .howtouse-txt {
+      width: 230px;
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+      color: #000;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+    }
+    .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-btn {
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      border: none;
+      border-radius: 50%;
+      background: #bf0000;
+      color: #fff;
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.2s;
+    }
+    .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-btn:hover { opacity: 0.9; }
+    .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    @media screen and (max-width: 767px) {
+      .howtouse-carousel[data-howtouse-carousel] { padding: 0 12px; gap: 8px; }
+      .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-track { width: 600%; }
+      .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-slide {
+        flex: 0 0 16.666% !important;
+        width: 16.666% !important;
+      }
+      .howtouse-carousel[data-howtouse-carousel] .howtouse-carousel-btn {
+        width: 32px; height: 32px; font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="verify-note">
+    <strong>確認用HTML</strong> — PC: 3個並び / SP: 1個。左右ボタンで1つずつスライド、3秒で自動スライド。このファイルをブラウザで開いて表示を確認してください。
+  </div>
+
+  <section id="section-howtouse" class="bg-light">
+    <div class="bg-light-txt font-rakuten-b">HOW TO USE</div>
+    <div class="ttl-group">
+      <sub class="font-rakuten-b">HOW TO USE</sub>
+      <h2>達成したミッション<br>ポイントの獲得方法</h2>
+    </div>
+    <div class="howtouse-carousel" data-howtouse-carousel>
+      <button type="button" class="howtouse-carousel-btn howtouse-carousel-prev" aria-label="前へ">‹</button>
+      <div class="howtouse-carousel-viewport">
+        <div class="howtouse-carousel-track">
+          <div class="howtouse-carousel-slide">
+            <div class="howtouse-img"><img loading="lazy" src="assets/reward/img/howtouse_mission_screenshot_01.webp" alt="スクリーンショット"></div>
+            <p class="howtouse-txt">アプリ右上のボタンをタップ。</p>
+          </div>
+          <div class="howtouse-carousel-slide">
+            <div class="howtouse-img"><img loading="lazy" src="assets/reward/img/howtouse_mission_screenshot_02_1.webp" alt="スクリーンショット"></div>
+            <p class="howtouse-txt">ポップアップが表示されたら「移動する」をタップ。</p>
+          </div>
+          <div class="howtouse-carousel-slide">
+            <div class="howtouse-img"><img loading="lazy" src="assets/reward/img/howtouse_mission_screenshot_02.webp" alt="スクリーンショット"></div>
+            <p class="howtouse-txt">「おトク情報」の画面が表示されたら「ミッション」をタップ。</p>
+          </div>
+          <div class="howtouse-carousel-slide">
+            <div class="howtouse-img"><img loading="lazy" src="assets/reward/img/howtouse_mission_screenshot_03.webp" alt="スクリーンショット"></div>
+            <p class="howtouse-txt">ミッション一覧の一番上にある「未獲得ポイントがあります」をタップ。</p>
+          </div>
+          <div class="howtouse-carousel-slide">
+            <div class="howtouse-img"><img loading="lazy" src="assets/reward/img/howtouse_mission_screenshot_04.webp" alt="スクリーンショット"></div>
+            <p class="howtouse-txt">達成されたミッションをタップすると獲得画面が開きます。</p>
+          </div>
+          <div class="howtouse-carousel-slide">
+            <div class="howtouse-img"><img loading="lazy" src="assets/reward/img/howtouse_mission_screenshot_05.webp" alt="スクリーンショット"></div>
+            <p class="howtouse-txt">「ポイント獲得しました!!」と表示されたらポイント獲得完了！</p>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="howtouse-carousel-btn howtouse-carousel-next" aria-label="次へ">›</button>
+    </div>
+  </section>
+
+  <script>
+(function () {
+  'use strict';
+  var TOTAL = 6;
+  var AUTO_MS = 3000;
+
+  function init() {
+    var carousel = document.querySelector('[data-howtouse-carousel]');
+    if (!carousel) return;
+
+    var track = carousel.querySelector('.howtouse-carousel-track');
+    var prevBtn = carousel.querySelector('.howtouse-carousel-prev');
+    var nextBtn = carousel.querySelector('.howtouse-carousel-next');
+    if (!track || !prevBtn || !nextBtn) return;
+
+    var index = 0;
+    var autoTimer = null;
+
+    function setIndex(i) {
+      index = i;
+      if (index < 0) index = TOTAL - 1;
+      if (index >= TOTAL) index = 0;
+      track.style.setProperty('--howtouse-index', String(index));
+      prevBtn.disabled = false;
+      nextBtn.disabled = false;
+    }
+
+    function next() {
+      setIndex(index + 1);
+    }
+
+    function prev() {
+      setIndex(index - 1);
+    }
+
+    function startAuto() {
+      if (autoTimer) clearInterval(autoTimer);
+      autoTimer = setInterval(next, AUTO_MS);
+    }
+
+    function stopAuto() {
+      if (autoTimer) {
+        clearInterval(autoTimer);
+        autoTimer = null;
+      }
+    }
+
+    prevBtn.addEventListener('click', function () {
+      prev();
+      startAuto();
+    });
+    nextBtn.addEventListener('click', function () {
+      next();
+      startAuto();
+    });
+
+    carousel.addEventListener('mouseenter', stopAuto);
+    carousel.addEventListener('mouseleave', startAuto);
+
+    track.style.setProperty('--howtouse-index', '0');
+    startAuto();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+  </script>
+</body>
+</html>

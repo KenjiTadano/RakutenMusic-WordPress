@@ -1,0 +1,47 @@
+#page .heading {
+  padding-top: 34px;
+  margin-bottom: 48px;
+  font-size: 3.4rem;
+}
+
+#page .ccm-page-list:last-of-type {
+  margin-bottom: 48px;
+}
+
+#page .ccm-page-list .l-inner ol {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#page .ccm-page-list .l-inner ol li {
+  width: 48%;
+  margin: 1rem;
+}
+
+#page .ccm-page-list .l-inner ol li a figure img {
+  width: 100%;
+}
+
+#page .ccm-page-list .l-inner ol li a figure:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+}
+
+#page .ccm-page-list .l-inner ol li a h3.ccm-page-list-title {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+  #page .ccm-page-list:last-of-type {
+    margin-bottom: 48px;
+  }
+  #page .ccm-page-list .l-inner ol {
+    display: block;
+  }
+  #page .ccm-page-list .l-inner ol li {
+    width: 100%;
+    margin: 0 0 3rem;
+  }
+}

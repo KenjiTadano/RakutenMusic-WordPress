@@ -1,0 +1,315 @@
+#page .l-breadcrumb {
+  display: none;
+}
+#page .s-campaign-hero + .campaign-code {
+  margin: 32px auto 16px;
+}
+#page .s-campaign-hero + .campaign-code + .btn-apply {
+  width: 300px;
+  margin: 16px auto 32px;
+}
+#page .slick-track {
+  margin: 0 auto;
+}
+#page .slick-dots {
+  bottom: 0;
+}
+#page .slick-dots li {
+  margin: 0;
+}
+#page .slick-dots li button {
+  margin: 0 auto;
+  border: 1px solid #273BC6;
+}
+#page .slick-dots li button::before {
+  content: "";
+}
+#page .slick-dots li.slick-active button {
+  border-color: #273BC6;
+  background-color: #273BC6;
+}
+#page .slick-arrow {
+  top: auto;
+  bottom: -24px;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+#page .slick-prev::before,
+#page .slick-next::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+#page .slick-prev.slick-disabled:before,
+#page .slick-next.slick-disabled:before {
+  opacity: 0;
+}
+#page .slick-prev {
+  left: 24px;
+}
+#page .slick-prev::before {
+  background: url(/assets/campaign/ad/anime/img/slick_arrow_l.svg) no-repeat center/cover;
+}
+#page .slick-next {
+  right: 24px;
+}
+#page .slick-next::before {
+  background: url(/assets/campaign/ad/anime/img/slick_arrow_r.svg) no-repeat center/cover;
+}
+#page a#showModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#page a#showModal span {
+  color: #273BC6;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+#page .modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 9999;
+  padding: 32px;
+}
+#page .modal .modal-content {
+  transform: translateY(20%);
+}
+#page .modal .modal-content h3 {
+  text-align: center;
+  background: #273BC6;
+  padding: 8px;
+  color: white;
+}
+#page .modal .modal-content p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 16px;
+}
+#page button#closeModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 32px auto;
+  border: none;
+  background: no-repeat;
+}
+#page button#closeModal span {
+  text-decoration: underline;
+}
+#page .l-content .campaign-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#page .l-content .campaign-code .campaign-code--code {
+  color: #273BC6;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+}
+#page .l-content .campaign-code .btn-copy-code {
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  border-radius: 32px;
+  background: #273BC6;
+  color: var(--White, #FFF);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  border: none;
+}
+#page .l-content #amine-song-list h2,
+#page .l-content #start-subscribe h2 {
+  display: flex;
+  margin: 32px auto;
+  padding: 12px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  background: linear-gradient(90deg, #6A77DB 0%, #AB66D7 100%);
+  color: var(--White, #FFF);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+#page .l-content #amine-song-list h2 span.sub,
+#page .l-content #start-subscribe h2 span.sub {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+#page .l-content .anime-song-list {
+  min-height: 370px;
+}
+#page .l-content .anime-song-item-group {
+  display: flex;
+  padding: 0 8px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  flex-direction: column;
+}
+#page .l-content .song-item > a {
+  display: flex;
+  width: 300px;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  background: #F7F7F7;
+  color: #000 !important;
+}
+#page .l-content .song-item > a > img {
+  width: 60px !important;
+  height: 60px;
+}
+#page .l-content .song-item > a .song-item-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+#page .l-content .song-item > a .song-item-txt > * {
+  width: 178px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#page .l-content .song-item > a .song-item-txt .song-ttl {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+#page .l-content .song-item > a .song-item-txt .song-artist {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+}
+#page .l-content .start-subscribe-content {
+  margin: 32px auto;
+  display: flex;
+  width: calc(100% - 48px);
+  padding: 24px 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border: 1px solid #273BC6;
+  background: var(--White, #FFF);
+  box-shadow: 8px 8px 0px 0px #273BC6;
+}
+
+@media screen and (min-width: 768px) {
+  #page .s-campaign-hero + .campaign-code {
+    margin: 48px auto 24px;
+  }
+  #page a#showModal span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page .slick-arrow {
+    top: 50%;
+    bottom: 0;
+    transform: translate(0, calc(-50% - 24px));
+  }
+  #page .slick-prev {
+    left: 44px;
+  }
+  #page .slick-next {
+    right: 44px;
+  }
+  #page .slick-slide {
+    padding: 16px;
+  }
+  #page .slick-slide figure img {
+    width: 100%;
+  }
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/ad/anime/img/bg.jpg) no-repeat center top/cover;
+  }
+  #page .l-content .campaign-code .campaign-code--code {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #page .l-content .campaign-code .btn-copy-code {
+    font-size: 16px;
+    line-height: 24px;
+    transition: all 0.2s ease-in;
+  }
+  #page .l-content .campaign-code .btn-copy-code:hover {
+    background: #6922F0;
+    cursor: pointer;
+  }
+  #page .l-content .campaign-code + .btn-apply {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 24px auto 48px;
+  }
+  #page .l-content #amine-song-list h2,
+  #page .l-content #start-subscribe h2 {
+    padding: 16px 0px;
+    font-size: 46px;
+    line-height: 60px;
+    margin: 48px auto;
+  }
+  #page .l-content #amine-song-list h2 span.sub,
+  #page .l-content #start-subscribe h2 span.sub {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page .l-content .song-item > a {
+    padding: 24px;
+    width: 400px;
+    gap: 16px;
+    transition: all 0.2s ease-in;
+  }
+  #page .l-content .song-item > a:hover {
+    background: #fff;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.1);
+  }
+  #page .l-content .song-item > a img {
+    width: 80px !important;
+    height: 80px;
+  }
+  #page .l-content .song-item > a .rank-num {
+    width: 46px;
+    padding-left: 16px;
+  }
+  #page .l-content .song-item > a .song-item-txt .song-ttl {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page .l-content .song-item > a .song-item-txt .song-artist {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  #page .l-content .start-subscribe-content {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 48px;
+  }
+}/*# sourceMappingURL=style.css.map */

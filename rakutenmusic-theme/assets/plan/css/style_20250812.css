@@ -1,0 +1,24 @@
+#page #price h1 {
+  display: none;
+}
+
+/*デザイン変更用*/
+#page .l-content .plan-yearly-group .plan-item.yearly {
+  height: auto;
+  padding: 4px 0;
+}
+
+@media screen and (min-width: 768px) {
+  #page .l-content .plan-yearly-group .plan-item.yearly {
+    width: 148px;
+    height: 100%;
+    padding: 0 0 16px 0;
+  }
+
+  #page .l-content .plan-monthly-group .plan-item.lite,
+  #page .l-content .plan-monthly-group .plan-item.cardmobile {
+    padding-top: 4px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

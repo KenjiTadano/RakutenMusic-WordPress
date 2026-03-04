@@ -1,0 +1,44 @@
+#page ul.campaign-code-steps li.slick-slide {
+  margin: 0 12px;
+}
+
+#page ul.campaign-code-steps li.slick-slide h3 {
+  background: whitesmoke;
+  text-align: center;
+  margin: 16px 0;
+  padding: 0.5em 0;
+}
+
+#page ul.campaign-code-steps li.slick-slide figure + p {
+  margin-top: 0.5em;
+}
+
+#page .slick-dots {
+  margin: 0;
+}
+
+#page .slick-dots li button:before {
+  content: none;
+}
+
+#page .slick-arrow {
+  z-index: 1;
+}
+
+#page .slick-arrow::before {
+  color: black;
+}
+
+#page .slick-prev {
+  left: 0;
+}
+
+#page .slick-next {
+  right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #page ul.campaign-code-steps li.slick-slide figure img {
+    width: 100%;
+  }
+}

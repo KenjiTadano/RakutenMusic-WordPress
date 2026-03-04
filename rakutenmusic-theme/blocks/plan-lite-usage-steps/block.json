@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/plan-lite-usage-steps",
+  "title": "ライトプラン：USAGE STEPS（ご利用の流れ）",
+  "category": "rakutenmusic-plan-lite",
+  "icon": "list-view",
+  "description": "ライトプラン用 ご利用の流れ（新規/プラン変更タブ・CTA）",
+  "keywords": ["楽天", "ミュージック", "ライトプラン", "USAGE STEPS", "利用の流れ"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "render": "file:./render.php"
+}

@@ -1,0 +1,195 @@
+#page #campaign-apply {
+    padding: 40px 0;
+}
+
+#page .melt-img {
+    margin: 0 auto;
+    width: 1072px;
+}
+
+#page .melt-img img {
+    width: 100%;
+}
+
+#page #campaign-apply .l-inner>h1 {
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: black;
+}
+
+#page #campaign-apply .l-inner ol.steps>li {
+    background: white;
+    border: 4px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#page #campaign-apply .l-inner ol.steps>li>h2 {
+    margin: 32px 0 16px;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    line-height: 42px;
+    color: #cd1a1a;
+}
+
+#page #campaign-apply .l-inner ol.steps>li p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #cd1a1a;
+}
+
+#page #campaign-apply .l-inner ol.steps>li p.lead {
+    margin: 16px 0 8px;
+    font-size: 20px;
+    line-height: 26px;
+    color: black;
+    font-weight: bold;
+}
+
+#page #campaign-apply .l-inner ol.steps>li p.small {
+    font-size: 12px;
+    line-height: 16px;
+    color: #686868;
+}
+
+#page #campaign-apply .l-inner .btn-apply {
+    margin: 2.4rem auto;
+}
+
+#page #campaign-apply .l-inner .btn-apply .l-inner {
+    width: 1070px;
+}
+
+#page #campaign-apply .l-inner ol.steps>li>.step2>div {
+    margin: 0 3rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#page #campaign-apply .l-inner ol.steps>li>.step2>div>div {
+    margin: 1.2rem auto;
+}
+
+#page #campaign-apply .l-inner ol.steps>li>.step2>div .song {
+    background: #cd1a1a;
+    margin: 0 auto;
+    padding: 8px 16px;
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+}
+
+#page #campaign-apply .l-inner ol.steps>li>.step2>div>figure.present {
+    margin: 2.4rem auto;
+}
+
+#page #campaign-apply .l-inner ol.steps>li .step2 p {
+    color: black;
+    font-size: 2.4rem;
+    line-height: 4.2rem;
+}
+
+#page #campaign-apply .l-inner ol.steps>li .step2 p span {
+    display: block;
+    color: #cd1a1a;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    #page .s-campaign-hero {
+        padding: 0;
+        background: black
+    }
+    #page .campaign-hero__schedule {
+        position: relative;
+        z-index: 1;
+    }
+    #page #campaign-apply .l-inner>h1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 60px;
+    }
+    #page #campaign-apply .l-inner ol.steps {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #page #campaign-apply .l-inner ol.steps>li {
+        box-sizing: border-box;
+        margin: 40px auto;
+        padding: 40px 0px;
+        width: 100%;
+    }
+    #page #campaign-apply .l-inner ol.steps>li>.step2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #page #campaign-apply .l-inner ol.steps>li>h2 {
+        margin: 0 0 16px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    #page #campaign-apply .l-inner ol.steps>li p {
+        text-align: center;
+    }
+    #page .item-list .item__list {
+        justify-content: center;
+    }
+    #page #campaign-apply .l-inner ol.steps>li>.step2>div>figure.present {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #page .melt-img {
+        margin: 0 auto;
+        width: 100%;
+    }
+    #page #campaign-apply .l-inner ol.steps>li {
+        margin: 30px auto;
+        padding: 0 16px 30px;
+    }
+    #page #campaign-apply .l-inner ol.steps>li>.step2>div>figure {
+        width: 100%;
+        text-align: center;
+    }
+    #page #campaign-apply .l-inner ol.steps>li>.step2>div>figure img:first-child {
+        width: 301px;
+    }
+    #page #campaign-apply .l-inner ol.steps>li>.step2>div>figure img:last-child {
+        width: 320px;
+    }
+    #page #campaign-apply .l-inner .btn-apply .l-inner {
+        width: 100%;
+    }
+    #page #campaign-apply .l-inner ol.steps>li>.step2>div .song {
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+    #page #campaign-apply .l-inner ol.steps>li .step2 p {
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+    #page #campaign-apply .l-inner ol.steps>li .step2 p span {
+        font-size: 2.8rem;
+        line-height: 4.2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #page #campaign-apply .l-inner ol.steps>li>.step2>div>figure img:first-child {
+        width: 100%;
+    }
+    #page #campaign-apply .l-inner ol.steps>li>.step2>div>figure img:last-child {
+        width: 100%;
+    }
+}

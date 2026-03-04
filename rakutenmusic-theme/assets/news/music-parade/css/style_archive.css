@@ -1,0 +1,46 @@
+#page h2.heading.heading--m + .ccm-page-list .l-inner ol {
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+#page h2.heading.heading--m + .ccm-page-list .l-inner ol li {
+  box-shadow: none;
+  width: 100px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-bottom: 4px solid black;
+  border-radius: 0;
+}
+
+#page h2.heading.heading--m + .ccm-page-list .l-inner ol li:hover {
+  transform: none;
+  border-bottom: 4px solid #bf0000;
+}
+
+#page h2.heading.heading--m + .ccm-page-list .l-inner ol li:first-of-type {
+  border-bottom: 4px solid whitesmoke;
+}
+
+#page h2.heading.heading--m + .ccm-page-list .l-inner ol li:first-of-type:hover {
+  border-bottom: 4px solid #bf0000;
+}
+
+#page h2.heading.heading--m + .ccm-page-list .l-inner ol li a h3 {
+  color: black;
+}
+
+#page h2.heading.heading--m + .ccm-page-list .l-inner ol li a figure {
+  display: none;
+}
+
+#page h2.heading.heading--m + .ccm-page-list .l-inner ol li a > div {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #page h2.heading.heading--m + .ccm-page-list .l-inner ol {
+    display: flex;
+    margin: 0 0 8rem;
+  }
+}

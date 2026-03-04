@@ -1,0 +1,303 @@
+#page .s-campaign-hero {
+  padding: 0;
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/group/minshu/img/bg.gif) repeat center top/auto 85.5%;
+  position: relative;
+}
+
+#page .s-campaign-hero:after {
+  content: "";
+  background: #4d4d4d;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+
+#page .s-campaign-hero .campaign-hero__schedule {
+  z-index: 1;
+  position: relative;
+}
+
+#page #campaign-steps {
+  background: whitesmoke;
+}
+
+#page #campaign-steps .l-inner > ol > li {
+  border: 1px solid black;
+  padding: 4rem;
+  margin: 4rem 0;
+  position: relative;
+  background: white;
+}
+
+#page #campaign-steps .l-inner > ol > li:not(:last-child)::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3rem 3rem 0 3rem;
+  border-color: black transparent transparent transparent;
+  position: absolute;
+  bottom: -3rem;
+  left: 50%;
+  margin-left: -3rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .batch {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 20px;
+  right: 20px;
+}
+
+#page #campaign-steps .l-inner > ol > li .batch img {
+  width: 100%;
+}
+
+#page #campaign-steps .l-inner > ol > li > h3 {
+  margin: 0 0 2rem;
+  position: relative;
+}
+
+#page #campaign-steps .l-inner > ol > li > h3::after {
+  content: "";
+  width: 100px;
+  height: 6px;
+  background: black;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  margin-left: -50px;
+}
+
+#page #campaign-steps .l-inner > ol > li > h4 {
+  margin: 4rem 0 2rem;
+}
+
+#page #campaign-steps .l-inner > ol > li p {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#page #campaign-steps .l-inner > ol > li p.lead {
+  margin: 4rem 0 2rem !important;
+}
+
+#page #campaign-steps .l-inner > ol > li .trial-btn {
+  width: 400px;
+  height: 100px;
+  margin: 0 auto;
+  background: #bf0000;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+#page #campaign-steps .l-inner > ol > li .trial-btn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  position: relative;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .trial-btn:hover {
+  background: #ff1212;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#page #campaign-steps .l-inner > ol > li .trial-btn + p {
+  margin: 1.25rem 0 0;
+  line-height: 1.25em;
+}
+
+#page #campaign-steps .l-inner > ol > li .howtoget > div figure {
+  width: 250px;
+  margin: 0 auto;
+}
+
+#page #campaign-steps .l-inner > ol > li .howtoget > div figure img {
+  width: 100%;
+}
+
+#page #campaign-steps .l-inner > ol > li .howtoget > div figure + p {
+  margin-top: 1em;
+}
+
+#page #campaign-steps .l-inner > ol > li .code {
+  display: flex;
+  width: 600px;
+  margin: 1.5rem auto;
+}
+
+#page #campaign-steps .l-inner > ol > li .code > div {
+  padding: 1rem;
+  text-align: center;
+}
+
+#page #campaign-steps .l-inner > ol > li .code > div:first-child {
+  background: #00173d;
+  color: white;
+  border: 2px solid #00173d;
+  width: 40%;
+}
+
+#page #campaign-steps .l-inner > ol > li .code > div:last-child {
+  border: 2px solid #00173d;
+  flex: 1;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps {
+  margin-bottom: 30px !important;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps li {
+  margin: 0 1rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps li h3 {
+  margin: 0;
+  background: #00173d;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps li figure {
+  margin: 1.2rem 0 0.6rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps li figure img {
+  width: 100%;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps li p {
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .code-steps + p {
+  margin: 4rem 0 0;
+}
+
+#page #campaign-steps .l-inner > ol > li .slick-arrow::before {
+  color: black;
+}
+
+#page #campaign-steps .l-inner > ol > li .slick-dots {
+  margin-top: -2rem;
+}
+
+#page #campaign-steps .l-inner > ol > li .slick-dots li {
+  margin: 0;
+}
+
+#page #campaign-steps .l-inner > ol > li .slick-dots li button::before {
+  content: initial;
+}
+
+#page #books-items {
+  padding: 2rem;
+}
+
+#page .s-recommend-list .l-inner .link-books {
+  text-align: center;
+  margin: 3em 0 0;
+}
+
+#page .s-recommend-list .l-inner .link-books a i {
+  margin-left: 0.5em;
+}
+
+#page .item-list {
+  justify-content: space-between;
+}
+
+#page .item-list .item__card__title {
+  color: black;
+}
+
+#page .item-list .item__card figure figcaption a {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#page .item-list .item__card figure figcaption a + p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#page .item-list .item__card figure figcaption p b {
+  color: red;
+}
+
+#page .item-list .item__card__image > a {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  #page h2.heading--m {
+    width: 90%;
+    margin: 2rem auto;
+    line-height: 1.5em;
+  }
+  #page #campaign-steps {
+    padding: 2rem 0;
+  }
+  #page #campaign-steps .l-inner > ol > li {
+    padding: 4rem 2rem;
+  }
+  #page #campaign-steps .l-inner > ol > li .batch {
+    width: 26vw;
+    height: 26vw;
+    top: -4vw;
+    right: 4vw;
+  }
+  #page #campaign-steps .l-inner > ol > li .trial-btn {
+    width: 100%;
+  }
+  #page #campaign-steps .l-inner > ol > li .trial-btn a {
+    font-size: 4.2vw;
+  }
+  #page #campaign-steps .l-inner > ol > li .trial-btn + p {
+    text-align: justify;
+  }
+  #page #campaign-steps .l-inner > ol > li .howtoget > div figure {
+    width: 60%;
+  }
+  #page #campaign-steps .l-inner > ol > li .code {
+    display: block;
+    width: 100%;
+  }
+  #page #campaign-steps .l-inner > ol > li .code > div:first-child, #page #campaign-steps .l-inner > ol > li .code > div:last-child {
+    width: 100%;
+  }
+  #page .slick-arrow {
+    z-index: 1;
+  }
+  #page .slick-prev {
+    left: -1.2rem;
+  }
+  #page .slick-next {
+    right: -1.2rem;
+  }
+  #page .s-recommend-list .l-inner .link-books {
+    text-align: center;
+    margin: 1em 0 0;
+  }
+  #page .item-list .js-toggle__trigger {
+    background: whitesmoke;
+    margin: 2rem 0 0;
+  }
+}

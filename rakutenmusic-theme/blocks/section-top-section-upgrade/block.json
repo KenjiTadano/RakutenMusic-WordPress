@@ -3,11 +3,11 @@
   "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-top-section-upgrade",
   "title": "バンドル：UPGRADE",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-bundle",
   "icon": "chart-bar",
   "description": "バンドルプラン：UPGRADE セクション",
   "keywords": ["楽天", "ミュージック", "バンドル", "アップグレード", "upgrade"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "render": "file:./render.php"
 }

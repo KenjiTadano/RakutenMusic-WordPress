@@ -1,0 +1,41 @@
+#rank-ddt .rank-ddt_cta_btn a.ios-trial-button-disable {
+  background: #ebebeb !important;
+  border: 1px solid #686868;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #686868;
+  font-weight: normal;
+  padding: 15px 0;
+}
+
+#rank-ddt .rank-ddt_cta_btn a.ios-trial-button-disable::after {
+  content: none;
+}
+
+#page #sticky-apply-btn {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page #sticky-apply-btn .btn-apply a {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 36px;
+  padding: 0 16px;
+  height: 36px;
+  border-radius: 60px;
+}
+
+@media screen and (min-width: 767px) {
+  #page #sticky-apply-btn .btn-apply {
+    margin: 0;
+  }
+  #page #sticky-apply-btn .btn-apply a {
+    font-size: 20px;
+    height: auto;
+    padding: 16px 24px;
+  }
+}
+/*# sourceMappingURL=template_trial_button.css.map */

@@ -3,11 +3,11 @@
   "apiVersion": 3,
   "name": "rakutenmusic/rakuten-music-section-top-section-usage-steps",
   "title": "バンドル：ご利用の流れ",
-  "category": "rakutenmusic",
+  "category": "rakutenmusic-bundle",
   "icon": "list-view",
   "description": "バンドルプラン：USAGE STEPS セクション",
   "keywords": ["楽天", "ミュージック", "バンドル", "利用の流れ", "usage steps"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true },
+  "supports": { "inserter": true, "spacing": { "margin": true } },
   "render": "file:./render.php"
 }

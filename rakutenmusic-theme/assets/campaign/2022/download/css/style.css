@@ -1,0 +1,165 @@
+#page .l-header,
+#page .l-footer {
+  display: none;
+}
+
+#page .small {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#page .small small {
+  font-size: 100%;
+}
+
+#page .s-campaign-hero + .text-box {
+  padding: 16px 0;
+}
+
+#page .s-campaign-hero + .text-box .l-inner p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#page .s-campaign-hero + .text-box .l-inner p a {
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #d80000;
+}
+
+#page #campaign-steps {
+  padding: 36px 0;
+  background: #ebebeb;
+}
+
+#page #campaign-steps .l-inner {
+  text-align: center;
+}
+
+#page #campaign-steps .l-inner h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li {
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li h3 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0 0 8px;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li > * {
+  margin: 8px auto;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li figure img {
+  max-width: 192px;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li .campaign-steps--term {
+  font-size: 12px;
+  line-height: 16px;
+  background: #fef0dd;
+  padding: 10px;
+  color: #a35e04;
+}
+
+#page #campaign-steps .l-inner ol.campaign-steps--list > li .campaign-steps--term .bold {
+  font-weight: bold;
+}
+
+#page #campaign-complete {
+  padding: 24px 0;
+  background: #bf0000;
+  text-align: center;
+}
+
+#page #campaign-complete img {
+  max-width: 312px;
+}
+
+#page #renewal-point .l-inner h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  border-top: 4px solid #d80000;
+  border-bottom: 4px solid #d80000;
+  padding: 12px 0;
+  margin: 36px auto 24px;
+}
+
+#page #renewal-point .l-inner .renewal-point--child {
+  text-align: center;
+}
+
+#page #renewal-point .l-inner .renewal-point--child:first-of-type figure img {
+  max-width: 272px;
+}
+
+#page #renewal-point .l-inner .renewal-point--child > * {
+  margin: 24px auto;
+}
+
+#page #renewal-point .l-inner .renewal-point--child p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page #renewal-point .l-inner .renewal-point--child p strong {
+  color: #d80000;
+}
+
+#page #renewal-point .l-inner .renewal-point--lead {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page #renewal-point .l-inner .renewal-point--lead strong {
+  color: #d80000;
+  font-weight: bold;
+}
+
+#page #renewal-point .l-inner .renewal-point--lead,
+#page #renewal-point .l-inner .renewal-point--mission,
+#page #renewal-point .l-inner .renewal-point--mission-icon {
+  margin: 24px auto;
+}
+
+.CampaignButton {
+  margin-top: 8px !important;
+}
+
+a.rex-button.sc-dIsUp.bENKLy.RexButton {
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff !important;
+}
+
+a.rex-button.sc-dIsUp.kTeeJk.RexButton.disabled {
+  color: #047205 !important;
+}
+
+a.rex-button.sc-dIsUp.liYnFe.RexButton.disabled {
+  color: #898989 !important;
+}
+
+.slick-slide {
+  margin: 0 8px;
+}
+/*# sourceMappingURL=style.css.map */

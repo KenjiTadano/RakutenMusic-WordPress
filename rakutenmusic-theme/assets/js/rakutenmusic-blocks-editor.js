@@ -15,7 +15,7 @@
 		var blockName = 'rakutenmusic/rakuten-music-section-' + b.name;
 		registerBlockType(blockName, {
 			title: '[楽天ミュージック] ' + b.title,
-			category: 'rakutenmusic',
+			category: (b.category || 'rakutenmusic-common'),
 			keywords: ['楽天', 'ミュージック'].concat(b.keywords || []),
 			icon: 'align-wide',
 			description: '楽天ミュージック セクション: ' + b.title,

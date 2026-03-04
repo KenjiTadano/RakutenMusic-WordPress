@@ -1,0 +1,283 @@
+@charset "utf-8";
+#page .bc-player-default_default .vjs-big-play-button {
+  top: 50% !important;
+  left: 50% !important;
+  margin-left: -1em !important;
+  margin-top: -1em !important;
+  width: 2em !important;
+  height: 2em !important;
+  line-height: 2em !important;
+  font-size: 3.5em !important;
+}
+#page #playlist-1col {
+  margin: 0 auto;
+  width: 950px;
+}
+#page #playlist-1col ul {
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+  text-align: left;
+}
+#page #playlist-1col ul img {
+  width: 100%;
+}
+#page #playlist-1col ul li {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+  width: 25%;
+}
+#page #playlist-1col ul li p {
+  font-size: medium;
+  line-height: 1.5em;
+  margin: 5px 0;
+  padding: 0;
+  text-align: left;
+}
+#page #playlist-1col ul li p:nth-child(2) {
+  font-weight: bold;
+}
+#page #btn-apply {
+  margin-top: 30px;
+}
+#page #btn-apply > div:hover {
+  margin: 35px auto 10px;
+}
+#page .con-box {
+  width: 700px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+#page .text-box {
+  font-size: 2.0rem;
+}
+#page .text-step {
+  width: 650px;
+  margin: 40px auto;
+  padding: 4px;
+  background: #000;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 2.2rem;
+  text-align: center;
+}
+#page .l-campaign-01 .content-box figure.content-box__image {
+  margin: 0 auto;
+  width: 650px;
+}
+#page .l-campaign-01 .content-box:nth-of-type(1) figure.content-box__image {
+  margin: 0 auto;
+  width: 950px;
+}
+#page .qr-box-pc {
+  display: flex;
+  margin-top: 15px;
+  margin: 24px auto 0;
+  width: 650px;
+}
+#page .qr-box-pc li dl {
+  display: table;
+}
+#page .qr-box-pc li dl > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+#page .qr-box-pc li dl dt {
+  padding: 0 40px;
+}
+#page .about-hulu h2 {
+  background: #e9e8e3 url("https://music.r10s.jp/external/prod/assets/campaign/hulu/img/bg-h2-about-hulu.jpg") no-repeat scroll right center;
+  height: 390px;
+  padding: 0;
+}
+#page .about-hulu h2 span {
+  color: #222222;
+  display: block;
+  font-size: 150%;
+  line-height: 1.4;
+  margin: 0 auto;
+  padding-top: 123px;
+  width: 950px;
+}
+#page .about-hulu ul {
+  margin: 40px auto !important;
+  width: 950px;
+}
+#page .about-hulu ul:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+#page .about-hulu ul li {
+  background: #e8e8e8 none repeat scroll 0 0;
+  float: left;
+  height: 500px;
+  line-height: 1.6;
+  margin-right: 10px !important;
+  text-align: center;
+  width: 310px;
+}
+#page .about-hulu ul li:nth-of-type(3) {
+  margin-right: 0 !important;
+}
+#page .about-hulu ul li .ttl {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px !important;
+}
+#page .about-hulu ul li p img {
+  margin-bottom: 25px;
+}
+#page .rakugo-box {
+  background: url(https://music.r10s.jp/external/prod/assets/campaign/hulu/img/bg-rakugo.png) no-repeat scroll center top, url(https://music.r10s.jp/external/prod/assets/campaign/hulu/img/bg-movie.png) repeat scroll 0 0;
+  padding: 120px 0 20px;
+  width: 950px;
+  margin: 0 auto;
+  text-align: center;
+}
+#page .rakugo-box h2 {
+  background: transparent none repeat scroll 0 0;
+  padding-bottom: 40px;
+  text-align: center;
+}
+#page .rakugo-box div {
+  margin: 0 auto;
+  width: 650px;
+}
+#page .rakugo-box p {
+  background: #ffffff none repeat scroll 0 0;
+  line-height: 1.8;
+  margin: 30px 110px !important;
+  padding: 30px 0;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  #page .bc-player-default_default .vjs-big-play-button {
+    margin-left: -1em !important;
+    margin-top: -1em !important;
+    width: 2em !important;
+    height: 2em !important;
+    line-height: 2em !important;
+    font-size: 3.5em !important;
+  }
+#page .text-box {
+    font-size: unset;
+}
+  #page .text-step {
+    text-align: center;
+    padding: 2vw 7px;
+    font-size: 2rem;
+    margin: 0 auto 4vw;
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: unset;
+  }
+  #page .content-box {
+    width: 100%;
+    padding: 4vw 0;
+  }
+  #page .content-box .l-inner {
+    font-size: 1.3rem;
+  }
+  #page .content-box .l-inner figure.content-box__image {
+    width: 100% !important;
+  }
+  #page .qr-box-sp {
+    display: block;
+    margin: 4vw;
+  }
+  #page .qr-box-sp ul {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  #page .qr-box-sp ul li {
+    display: table-cell;
+    padding: 0 1vw !important;
+  }
+  #page .about-hulu-sp {
+    background: #66aa33 none repeat scroll 0 0;
+    padding-bottom: 1vw;
+  }
+  #page .about-hulu-sp ul li {
+    background: #ffffff none repeat scroll 0 0;
+    margin: 5vw !important;
+    padding: 5vw !important;
+    text-align: center;
+  }
+  #page .about-hulu-sp ul li p {
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  #page .about-hulu-sp ul li p.ttl {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2vw 0 !important;
+    text-align: center;
+  }
+  #page .about-hulu-sp ul li img {
+    width: auto !important;
+  }
+  #page .rakugo-box {
+    background: transparent url("https://music.r10s.jp/external/prod/assets/campaign/hulu/img/bg-movie.png") repeat scroll 0 0/8%;
+    padding: 5vw !important;
+    margin: 5vw 0 !important;
+    width: 100%;
+  }
+  #page .rakugo-box h2 {
+    background: transparent none repeat scroll 0 0;
+    text-align: center;
+    margin: 0 0 4vw !important;
+    padding: 0 !important;
+  }
+  #page .rakugo-box div {
+    width: 100%;
+  }
+  #page .rakugo-box .sp-txt {
+    background: #ffffff none repeat scroll 0 0;
+    font-size: 1.1rem;
+    margin: 4vw 0 0 !important;
+    padding: 4vw !important;
+    line-height: 2rem;
+    text-align: left;
+  }
+  #page #playlist-1col {
+    width: 100%;
+  }
+  #page #playlist-1col ul li {
+    width: 50%;
+  }
+  #page #playlist-1col ul li p {
+    font-size: 1.2rem;
+  }
+  #page .qr-box-pc,
+  #page .about-hulu,
+  #page .rakugo-box .pc-txt,
+  #page .movie-pc {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  #page .qr-box-sp,
+  #page .about-hulu-sp,
+  #page .rakugo-box .sp-txt,
+  #page .movie-sp {
+    display: none;
+  }
+  #page .text-box {
+    font-size: 2.0rem;
+  }
+  #page #HTMLBlock1078 + .text-box .l-inner p strong br {
+    display: none;
+  }
+  #page #HTMLBlock1079 + .text-box .l-inner p strong br {
+    display: none;
+  }
+  #page #HTMLBlock1080 + .text-box .l-inner p strong br {
+    display: none;
+  }
+}

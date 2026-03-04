@@ -1,0 +1,97 @@
+/* Rpush Theme
+   ========================================================================== */
+/* Base
+   ========================================================================== */
+body {
+  background-color: #333;
+}
+
+#page .l-container > * {
+  background: #fff;
+}
+
+#page a {
+  color: #686868;
+}
+
+@media screen and (min-width: 768px) {
+  #page a:hover {
+    color: #ff1212;
+  }
+  #page a:focus {
+    color: #ff1212;
+  }
+  #page a:active {
+    color: #960000;
+  }
+}
+
+/* Header
+   ========================================================================== */
+/* Layout
+--------------------------------------------------------*/
+#page .l-header {
+  background-color: #333;
+  border-color: #4d4d4d;
+}
+
+/* Modules
+--------------------------------------------------------*/
+#page .header--sp__trigger {
+  color: #fff !important;
+}
+
+#page .header-logo__image--color {
+  display: none;
+}
+
+#page .header-logo__image--mono {
+  display: inline;
+}
+
+#page .header-logo .header-newlogo__image--color {
+  display: none !important;
+}
+
+#page .header-logo .header-newlogo__image--mono {
+  display: block !important;
+  background: url("../../../../assets/common/img/newlogo_rakuten_music_mono_sp.svg") no-repeat left center;
+  background-size: 77px 40px;
+}
+
+@media screen and (min-width: 768px) {
+  #page .header-logo .header-newlogo__image--mono {
+    background: url("../../../../assets/common/img/newlogo_rakuten_music_mono.svg") no-repeat left center;
+    background-size: 182px 32px;
+  }
+}
+
+#page .global-nav__item a {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  #page .global-nav__item a {
+    color: #f7f7f7;
+  }
+  #page .global-nav__item a:active {
+    color: #960000;
+  }
+}
+
+#page .global-nav__item .logo-rpush__image .st0 {
+  fill: #bf0000;
+}
+
+/* Navigation
+   ========================================================================== */
+@media screen and (min-width: 768px) {
+  #page .breadcrumb {
+    border-color: #4d4d4d;
+    background-color: #333;
+    color: #fff;
+  }
+  #page .breadcrumb a {
+    color: #fff;
+  }
+}

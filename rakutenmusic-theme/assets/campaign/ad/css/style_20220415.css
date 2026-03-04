@@ -1,0 +1,295 @@
+#page section {
+  padding: 0;
+}
+
+#page h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  padding: 8px 0px;
+  background: #E9D31D;
+}
+
+#page strong {
+  color: #BF0000;
+}
+
+#page .btn-apply {
+  margin: 24px auto;
+}
+
+#page p.lead {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#page .txt-center {
+  text-align: center;
+}
+
+#page section#ad-nav .l-inner::after {
+  content: none;
+}
+
+#page section#ad-nav .l-inner > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 24px auto;
+}
+
+#page section#ad-nav .l-inner > ul > li {
+  width: calc(50% - 8px);
+  border: 1px solid #B6B6B6;
+}
+
+#page section#ad-nav .l-inner > ul > li a {
+  padding: 12px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  color: black;
+}
+
+#page section#ad-nav .l-inner > ul > li a img {
+  width: 80px;
+}
+
+#page section#ad-nav .l-inner > ul > li a p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page section#ad-nav .l-inner > ul > li a::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/assets/campaign/ad/img/icon_chevron_down.png) no-repeat center/cover;
+}
+
+#page section#fv {
+  margin: 24px auto;
+}
+
+#page section#fv .l-inner > p a {
+  color: #BF0000;
+  text-decoration: underline;
+}
+
+#page section#ad-point-steps .l-inner > ol {
+  margin: 24px auto;
+}
+
+#page section#ad-point-steps .l-inner > ol > li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page section#ad-point-steps .l-inner > ol > li:first-child::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 24px;
+  background: #B6B6B6;
+}
+
+#page section#ad-point-steps .l-inner > ol > li div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+#page section#ad-point-steps .l-inner > ol > li > div {
+  padding: 16px;
+  border: 1px solid #B6B6B6;
+  border-radius: 8px;
+}
+
+#page section#ad-point-steps .l-inner > ol > li > div h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #BF0000;
+}
+
+#page section#ad-point-steps .l-inner > ol > li > div p.benefits {
+  width: 100%;
+  padding: 8px;
+  background: #FFF5CC;
+  border-radius: 8px;
+}
+
+#page #newplan-release {
+  margin: 24px auto;
+}
+
+#page #ad-otoku h2 {
+  padding: 8px 16px;
+  margin: 24px auto 16px;
+}
+
+#page #campaign-merit {
+  margin: 24px auto;
+}
+
+#page #campaign-merit .l-inner h2 {
+  padding: 0;
+  background: none;
+}
+
+#page #stack-playback-campaign {
+  margin: 24px auto;
+}
+
+#page #stack-competitive-services strong {
+  color: black;
+}
+
+#page #price {
+  margin: 24px auto;
+}
+
+#page #price .l-inner h1 {
+  display: none;
+}
+
+#page #price .l-inner strong {
+  color: black;
+}
+
+@media screen and (min-width: 767px) {
+  #page .s-campaign-hero {
+    background: url(/assets/campaign/ad/img/bg_20220415.jpg) no-repeat center top/auto 100% #e9d31c;
+  }
+  #page h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #page .btn-apply {
+    margin: 36px auto;
+  }
+  #page section#ad-nav .l-inner > ul {
+    margin: 36px auto;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  #page section#ad-nav .l-inner > ul > li {
+    width: 200px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  #page section#ad-nav .l-inner > ul > li:hover {
+    background: #F7F7F7;
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  #page section#ad-nav .l-inner > ul > li:hover a {
+    color: #BF0000;
+  }
+  #page section#ad-nav .l-inner > ul > li a {
+    padding: 16px 0;
+  }
+  #page section#fv {
+    margin: 36px auto 0;
+  }
+  #page section#fv .l-inner {
+    margin: 36px auto;
+  }
+  #page section#fv .l-inner a:hover {
+    text-decoration: none;
+  }
+  #page section#ad-point-steps .l-inner > ol {
+    width: 483px;
+    margin: 36px auto;
+  }
+  #page section#ad-point-steps .l-inner > ol > li > div {
+    padding: 24px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 24px;
+  }
+  #page section#ad-point-steps .l-inner > ol > li > div h3 {
+    width: 120px;
+    font-size: 36px;
+    line-height: 47px;
+  }
+  #page section#ad-point-steps .l-inner > ol > li > div p.benefits {
+    padding: 7px;
+  }
+  #page section#ad-point-steps .l-inner > ol > li > div > div {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    gap: 8px;
+  }
+  #page #ad-otoku {
+    padding: 0;
+  }
+  #page #ad-otoku h2 {
+    padding: 18px 0 12px;
+  }
+  #page #stack-competitive-services {
+    text-align: center;
+  }
+  #page #campaign-merit {
+    margin: 36px auto;
+  }
+  #page #stack-playback-campaign {
+    margin: 36px auto;
+  }
+  #page #price {
+    margin: 36px auto;
+  }
+}
+/*# sourceMappingURL=style_20220415.css.map */

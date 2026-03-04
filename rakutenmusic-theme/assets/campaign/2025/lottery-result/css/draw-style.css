@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+}
+#page a {
+  color: #ffffff !important;
+}
+.l-content .lottery-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url(/assets/campaign/2025/lottery-result/img/bg.jpg);
+  background-size: cover; /* 画像を横幅いっぱいに表示 */
+  background-position: center; /* 画像を中央に配置 */
+}
+
+/* ローディングバー */
+.loading-bar-container {
+  width: 200px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.loading-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #bf0000;
+  transition: width 0.5s linear;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 12px;
+}
+.modal-content p {
+  font-size: 20px; /* 文字サイズを大きく */
+}
+.close-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #bf0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.draw-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.draw-container img {
+  width: 80% !important;
+  max-width: 500px;
+}
+/* くじ引きボタン */
+.l-content .btn-draw a.draw-btn {
+  display: flex;
+  padding: 12px 24px;
+
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 74px;
+  background: #bf0000;
+}
+.l-content .btn-draw a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 767px) {
+  .l-content .btn-draw {
+    width: 400px;
+    margin: 0 auto;
+    padding: 24px 8px 24px 24px;
+  }
+}
+
+/* 各コインに異なるアニメーション遅延を設定 */
+.coin1 {
+  animation-delay: 0s;
+  position: absolute;
+  top: -18%;
+  left: 10%;
+  animation: rotateCoin01 5s ease-in-out infinite alternate;
+}
+
+.coin2 {
+  animation-delay: 0.7s;
+  position: absolute;
+  top: -20%;
+  left: 80%;
+  animation: rotateCoin02 3s ease-in-out infinite alternate;
+}
+
+.coin3 {
+  animation-delay: 1.4s;
+  position: absolute;
+  top: 105%;
+  left: 70%;
+  animation: rotateCoin03 3s ease-in-out infinite alternate;
+}
+
+.coin4 {
+  animation-delay: 2.1s;
+  position: absolute;
+  top: 97%;
+  left: 15%;
+  animation: rotateCoin04 3s ease-in-out infinite alternate;
+}
+
+@keyframes rotateCoin01 {
+  from {
+    transform: rotate(-40deg) translateY(0px);
+  }
+  to {
+    transform: rotate(-30deg) translateY(20px);
+  }
+}
+@keyframes rotateCoin02 {
+  from {
+    transform: rotate(40deg) translateY(-10px) scale(0.75);
+  }
+  to {
+    transform: rotate(30deg) translateY(0px) scale(0.8);
+  }
+}
+@keyframes rotateCoin03 {
+  from {
+    transform: rotate(150deg) translateY(-10px) scale(1.4);
+  }
+  to {
+    transform: rotate(150deg) translateY(0px) scale(1.4);
+  }
+}
+@keyframes rotateCoin04 {
+  from {
+    transform: rotate(200deg) translateY(-10px) scale(0.75);
+  }
+  to {
+    transform: rotate(210deg) translateY(0px) scale(0.8);
+  }
+}
