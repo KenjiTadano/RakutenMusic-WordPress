@@ -1,9 +1,0 @@
-@charset "utf-8";
-#page .latest-release__banner {
-    opacity: 0;
-}
-@media screen and (max-width:768px){
-#page .latest-release__banner {
-    display: none;
-}
-}
