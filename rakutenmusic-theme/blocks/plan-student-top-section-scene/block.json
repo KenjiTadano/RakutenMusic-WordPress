@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/plan-student-top-section-scene",
+  "title": "学生プラン：SCENE（こんな方におすすめ）",
+  "category": "rakutenmusic-plan-student",
+  "icon": "format-gallery",
+  "description": "学生プラン シーン紹介（通学・勉強など）",
+  "keywords": ["楽天", "ミュージック", "学生プラン", "scene", "シーン"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "render": "file:./render.php"
+}

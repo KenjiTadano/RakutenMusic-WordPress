@@ -22,6 +22,7 @@ $part = get_template_directory() . '/template-parts/header-rakuten-music.html';
 if ( file_exists( $part ) ) {
 	$html = file_get_contents( $part );
 	$html = str_replace( '{{T}}', $t, $html );
+	$html = function_exists( 'rakutenmusic_resolve_assets_in_html' ) ? rakutenmusic_resolve_assets_in_html( $html, $t ) : $html;
 	$html = str_replace( '{{HOME}}', $h, $html );
 	$html = str_replace( '{{FLOATING_CTA_HTML}}', rakutenmusic_render_floating_cta_html( $t, $h ), $html );
 	// ローカル環境ではバナー用 create.js を読まない（CORS エラー回避）

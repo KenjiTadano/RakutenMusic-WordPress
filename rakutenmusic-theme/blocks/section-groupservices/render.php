@@ -10,6 +10,27 @@ if ( ! isset( $block ) || ! $block instanceof WP_Block ) {
 $attrs = $block->attributes ? $block->attributes : array();
 $items = isset( $attrs['items'] ) ? $attrs['items'] : '';
 $theme_uri = get_template_directory_uri();
+$resolve_img_url = function( $img_raw ) use ( $theme_uri ) {
+	if ( ! is_string( $img_raw ) || $img_raw === '' ) {
+		return '';
+	}
+	if ( strpos( $img_raw, '{{T}}' ) === 0 ) {
+		$path = substr( $img_raw, 6 );
+		$rel  = ( strpos( $path, '/assets/' ) === 0 ) ? substr( $path, 8 ) : ltrim( $path, '/' );
+		if ( strpos( $rel, 'assets/' ) === 0 ) {
+			$rel = substr( $rel, 7 );
+		}
+		return function_exists( 'rakutenmusic_asset_url' ) ? rakutenmusic_asset_url( $rel ) : ( $theme_uri . $path );
+	}
+	if ( strpos( $img_raw, '/' ) === 0 && strpos( $img_raw, '//' ) !== 0 ) {
+		$rel = ltrim( $img_raw, '/' );
+		if ( strpos( $rel, 'assets/' ) === 0 ) {
+			return function_exists( 'rakutenmusic_resolve_asset_url' ) ? rakutenmusic_resolve_asset_url( $img_raw ) : ( $theme_uri . $img_raw );
+		}
+		return $theme_uri . $img_raw;
+	}
+	return $img_raw;
+};
 $part_path = get_template_directory() . '/template-parts/sections/section-groupservices.html';
 
 $use_custom = false;
@@ -40,12 +61,7 @@ if ( $use_custom && ! empty( $list ) ) {
 	foreach ( $list as $item ) {
 		$link    = esc_url( isset( $item['link'] ) ? $item['link'] : '#' );
 		$img_raw = isset( $item['imageUrl'] ) ? $item['imageUrl'] : '';
-		$img_src = $img_raw;
-		if ( strpos( $img_src, '{{T}}' ) === 0 ) {
-			$img_src = $theme_uri . substr( $img_src, 6 );
-		} elseif ( is_string( $img_src ) && strpos( $img_src, '/' ) === 0 && strpos( $img_src, '//' ) !== 0 ) {
-			$img_src = $theme_uri . $img_src;
-		}
+		$img_src = $resolve_img_url( $img_raw );
 		$img_src = esc_url( $img_src );
 		$img_alt = esc_attr( isset( $item['imageAlt'] ) ? $item['imageAlt'] : '' );
 		$target  = ( isset( $item['target'] ) && $item['target'] === '_blank' ) ? ' target="_blank" rel="noopener noreferrer"' : '';

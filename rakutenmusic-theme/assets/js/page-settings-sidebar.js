@@ -93,8 +93,7 @@
 		}
 		wp.plugins.registerPlugin( 'rakutenmusic-page-settings', {
 			render: function () {
-				var Panel = getPanelComponent();
-				return wp.element.createElement( Panel );
+				return wp.element.createElement( getPanelComponent() );
 			}
 		} );
 	}

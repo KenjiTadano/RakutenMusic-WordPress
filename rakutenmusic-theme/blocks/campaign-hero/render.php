@@ -8,16 +8,13 @@ if ( ! isset( $block ) || ! $block instanceof WP_Block ) {
 
 $attrs = $block->attributes ? $block->attributes : array();
 
-/**
- * 相対パス（/assets/ または assets/）をテーマのアセットURLに変換
- *
- * @param string $url 画像URL
- * @return string
- */
 $resolve_campaign_hero_asset_url = function( $url ) {
 	$url = trim( (string) $url );
 	if ( $url === '' ) {
 		return '';
+	}
+	if ( function_exists( 'rakutenmusic_resolve_asset_url' ) ) {
+		return rakutenmusic_resolve_asset_url( $url );
 	}
 	if ( preg_match( '#^https?://#i', $url ) || strpos( $url, '//' ) === 0 ) {
 		return $url;
@@ -32,9 +29,18 @@ $resolve_campaign_hero_asset_url = function( $url ) {
 	return $url;
 };
 
+// 画像URLが空のときは block.json と同じデフォルトを使用（https で確実に読み込む）
+$default_pc_url = 'https://music.r10s.jp/external/prod/assets/campaign/2026/annual-plan-campaign/img/ogp.png';
+$default_sp_url = 'https://music.r10s.jp/external/prod/assets/campaign/2026/annual-plan-campaign/img/ogp_sp.png';
 $image_pc_url   = $resolve_campaign_hero_asset_url( isset( $attrs['imagePcUrl'] ) ? $attrs['imagePcUrl'] : '' );
+if ( $image_pc_url === '' ) {
+	$image_pc_url = $default_pc_url;
+}
 $image_pc_alt   = isset( $attrs['imagePcAlt'] ) ? $attrs['imagePcAlt'] : '';
 $image_sp_url   = $resolve_campaign_hero_asset_url( isset( $attrs['imageSpUrl'] ) ? $attrs['imageSpUrl'] : '' );
+if ( $image_sp_url === '' ) {
+	$image_sp_url = $default_sp_url;
+}
 $image_sp_alt   = isset( $attrs['imageSpAlt'] ) ? $attrs['imageSpAlt'] : '';
 $hero_bg_img    = $resolve_campaign_hero_asset_url( isset( $attrs['heroBackgroundImage'] ) ? $attrs['heroBackgroundImage'] : '' );
 $hero_bg_color  = isset( $attrs['heroBackgroundColor'] ) ? $attrs['heroBackgroundColor'] : '#ffcf31';
@@ -85,20 +91,28 @@ if ( $image_sp_alt === '' && $image_sp_url !== '' ) {
 ?>
 <section class="s-campaign-hero" style="<?php echo $hero_style; ?>">
   <div class="l-inner l-inner--sp-full">
-    <figure class="campaign-hero__image">
+    <figure class="campaign-hero__image" style="display:block;margin:0;min-height:200px;background:#f5f5f5;">
       <img
         src="<?php echo esc_url( $image_pc_url ); ?>"
         class="is-hidden--sp"
-        alt="<?php echo esc_attr( $image_pc_alt ); ?>"
+        alt="<?php echo esc_attr( $image_pc_alt ?: 'キャンペーン' ); ?>"
+        width="1200"
+        height="630"
+        loading="eager"
       />
       <img
         src="<?php echo esc_url( $image_sp_url ); ?>"
         class="is-hidden--pc"
-        alt="<?php echo esc_attr( $image_sp_alt ); ?>"
+        alt="<?php echo esc_attr( $image_sp_alt ?: 'キャンペーン' ); ?>"
+        width="750"
+        height="500"
+        loading="eager"
       />
     </figure>
-    <?php if ( $schedule_visible ) : ?>
-    <div class="campaign-hero__schedule" style="<?php echo esc_attr( $schedule_style ); ?>">
+  </div>
+  <?php if ( $schedule_visible ) : ?>
+  <div class="campaign-hero__schedule" style="<?php echo esc_attr( $schedule_style ); ?>">
+    <div class="campaign-hero__schedule-inner">
       <?php if ( $schedule_always_on ) : ?>
         <p><?php esc_html_e( '常時開催', 'rakutenmusic-theme' ); ?></p>
       <?php else : ?>
@@ -111,6 +125,6 @@ if ( $image_sp_alt === '' && $image_sp_url !== '' ) {
         </p>
       <?php endif; ?>
     </div>
-    <?php endif; ?>
   </div>
+  <?php endif; ?>
 </section>

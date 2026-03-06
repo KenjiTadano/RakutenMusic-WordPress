@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/plan-student-overview",
+  "title": "学生プラン：OVERVIEW",
+  "category": "rakutenmusic-plan-student",
+  "icon": "visibility",
+  "description": "学生プラン概要（月額480円・楽天学割・特徴）",
+  "keywords": ["楽天", "ミュージック", "学生プラン", "overview", "概要"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "render": "file:./render.php"
+}

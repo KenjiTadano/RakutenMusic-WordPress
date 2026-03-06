@@ -9,5 +9,5 @@
   "description": "キャンペーン詳細の1つのテーブル（見出し・行の編集・追加・並べ替えが可能）",
   "keywords": ["キャンペーン", "テーブル", "詳細"],
   "textdomain": "rakutenmusic-theme",
-  "supports": { "inserter": true, "spacing": { "margin": true } }
+  "supports": { "inserter": true, "spacing": { "margin": false } }
 }

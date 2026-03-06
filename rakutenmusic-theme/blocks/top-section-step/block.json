@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/top-section-step",
+  "title": "STEP（キャンペーン参加方法）",
+  "category": "rakutenmusic-common",
+  "icon": "list-view",
+  "description": "キャンペーンコード・参加方法セクション（summary-group h3・コード編集・コピーボタン）",
+  "keywords": ["楽天", "ミュージック", "STEP", "キャンペーン", "コード"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "attributes": {
+    "summaryH3": { "type": "string", "default": "キャンペーンコードを入力すると<br><strong>初回30日間無料 → 90日間無料に!</strong>" },
+    "summaryH3FontSize": { "type": "string", "default": "" },
+    "summaryH3Color": { "type": "string", "default": "" },
+    "summaryH3StrongColor": { "type": "string", "default": "" },
+    "summaryH3FontWeight": { "type": "string", "default": "" },
+    "codeText": { "type": "string", "default": "gakusei90" }
+  },
+  "editorScript": "file:./editor.js",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

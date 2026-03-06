@@ -33,9 +33,15 @@
         "rakutenmusic-theme",
       ),
       attributes: {
-        imagePcUrl: { type: "string", default: "" },
+        imagePcUrl: {
+          type: "string",
+          default: "https://music.r10s.jp/external/prod/assets/campaign/2026/annual-plan-campaign/img/ogp.png",
+        },
         imagePcAlt: { type: "string", default: "" },
-        imageSpUrl: { type: "string", default: "" },
+        imageSpUrl: {
+          type: "string",
+          default: "https://music.r10s.jp/external/prod/assets/campaign/2026/annual-plan-campaign/img/ogp_sp.png",
+        },
         imageSpAlt: { type: "string", default: "" },
         heroBackgroundImage: { type: "string", default: "" },
         heroBackgroundColor: { type: "string", default: "#ffcf31" },
@@ -119,9 +125,9 @@
             attrs.scheduleNoteOffsetY.trim() + "px";
         }
         var defaultPc =
-          "//music.r10s.jp/external/prod/assets/campaign/2026/annual-plan-campaign/img/ogp.png";
+          "https://music.r10s.jp/external/prod/assets/campaign/2026/annual-plan-campaign/img/ogp.png";
         var defaultSp =
-          "//music.r10s.jp/external/prod/assets/campaign/2026/annual-plan-campaign/img/ogp_sp.png";
+          "https://music.r10s.jp/external/prod/assets/campaign/2026/annual-plan-campaign/img/ogp_sp.png";
         var imgPc =
           attrs.imagePcUrl && attrs.imagePcUrl.trim()
             ? resolveAssetUrl(attrs.imagePcUrl)
@@ -335,16 +341,21 @@
               { className: "l-inner l-inner--sp-full" },
               el(
                 "figure",
-                { className: "campaign-hero__image" },
+                {
+                  className: "campaign-hero__image",
+                  style: { display: "block", margin: 0, minHeight: "200px", background: "#f5f5f5" },
+                },
                 el("img", {
                   src: imgPc,
-                  alt: attrs.imagePcAlt || "",
+                  alt: attrs.imagePcAlt || "キャンペーン",
                   className: "is-hidden--sp",
+                  style: { display: "block", maxWidth: "100%", height: "auto", marginLeft: "auto", marginRight: "auto" },
                 }),
                 el("img", {
                   src: imgSp,
-                  alt: attrs.imageSpAlt || "",
+                  alt: attrs.imageSpAlt || "キャンペーン",
                   className: "is-hidden--pc",
+                  style: { display: "block", maxWidth: "100%", height: "auto", marginLeft: "auto", marginRight: "auto" },
                 }),
               ),
               attrs.scheduleVisible

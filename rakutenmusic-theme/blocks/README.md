@@ -34,3 +34,17 @@
    - セクションのHTML（`{{T}}` / `{{HOME}}` はそのまま）
 
 以上で「サーバー側の描画」と「エディターでの表示」の両方が有効になります。
+
+## 学生プラン用ブロック（楽天ミュージック - 学生プラン）
+
+| ブロック名 | スラッグ | テンプレート | 説明 |
+|-----------|----------|--------------|------|
+| 学生プラン：アンカーリンク（ページ内リンク） | plan-student-anchor-link-group | anchor-link-group.html | #overview, #usage-steps 等へのスクロールリンク |
+| 学生プラン：OVERVIEW | plan-student-overview | overview.html | 学生プラン概要・楽天学割・注意書き |
+| 学生プラン：SCENE（こんな方におすすめ） | plan-student-top-section-scene | top-section-scene.html | 通学・勉強シーン |
+| 学生プラン：ご利用の流れ | plan-student-usage-steps | usage-steps.html | 新規・プラン変更タブ |
+
+- **登録**: `functions.php` の `rakutenmusic_register_plan_student_blocks()`（init priority 1）
+- **描画**: `render_callback` で `rakutenmusic_render_plan_student_block( $slug )` を呼び出し、`template-parts/plan-student/{$slug}.html` を読み込んで `{{ASSETS}}` / `{{HOME}}` を置換して返す
+- **アセット**: 学生プランブロックが1つでも含まれるページで `rakutenmusic_enqueue_plan_student_assets()` が plan common / plan student CSS・JS（Slick, common.js）を読み込む
+- **エディター**: `get_plan_student_blocks_for_editor()` でメタデータを取得し、インライン登録と `block-editor-early-register.js` で「楽天ミュージック - 学生プラン」カテゴリに表示

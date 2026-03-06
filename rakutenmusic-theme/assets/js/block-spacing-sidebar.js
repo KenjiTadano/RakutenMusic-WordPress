@@ -1,8 +1,7 @@
 /**
  * 全 rakutenmusic ブロックの右サイドバーに「余白」パネル（上余白・下余白）を表示
  * 記事ブロックと同じ SelectControl（なし / 小〜特大）で統一
- * registerBlockType で edit をラップするため、editorScript のないライトプラン等でも確実に表示される
- * 今後新規作成するブロックも name が rakutenmusic/ で始まればデフォルトで余白パネルが表示される（追加実装不要）
+ * editor.BlockEdit で注入するため、JS で registerBlockType するブロック（キャンペーン詳細テーブル等）でも確実に表示される
  */
 (function () {
 	'use strict';
@@ -53,24 +52,31 @@
 		if ( ! blockName || blockName.indexOf( 'rakutenmusic/' ) !== 0 ) {
 			return settings;
 		}
-		var originalEdit = settings.edit;
-		if ( typeof originalEdit !== 'function' ) {
-			return settings;
-		}
-		var el = wp.element.createElement;
-		var Fragment = wp.element.Fragment;
+		// 属性は PHP で付与されるが、JS のみで登録されるブロック用にクライアントでも追加
 		settings.attributes = settings.attributes || {};
 		settings.attributes.spacingTop = settings.attributes.spacingTop || { type: 'string', default: '' };
 		settings.attributes.spacingBottom = settings.attributes.spacingBottom || { type: 'string', default: '' };
-		settings.edit = function ( props ) {
-			return el(
-				Fragment,
-				null,
-				createSpacingPanel( props ),
-				originalEdit( props )
-			);
-		};
+		// コアのマージン UI を出さない（余白パネルのみ使う）
+		settings.supports = settings.supports || {};
+		settings.supports.spacing = settings.supports.spacing || {};
+		settings.supports.spacing.margin = false;
 		return settings;
+	}
+
+	function filterBlockEdit( BlockEdit ) {
+		return function ( props ) {
+			var el = wp.element.createElement;
+			var Fragment = wp.element.Fragment;
+			if ( props.name && props.name.indexOf( 'rakutenmusic/' ) === 0 ) {
+				return el(
+					Fragment,
+					null,
+					createSpacingPanel( props ),
+					el( BlockEdit, props )
+				);
+			}
+			return el( BlockEdit, props );
+		};
 	}
 
 	function init() {
@@ -78,11 +84,17 @@
 			setTimeout( init, 50 );
 			return;
 		}
-		// registerBlockType のみで余白パネルを1回だけ追加（editor.BlockEdit でも追加すると二重表示になるため使用しない）
+		// ブロック種別登録時: 属性・supports を付与（JS のみで登録されるブロック用）
 		wp.hooks.addFilter(
 			'blocks.registerBlockType',
 			'rakutenmusic/block-spacing-register',
 			filterRegisterBlockType
+		);
+		// 選択時: 余白パネルを確実に表示（registerBlockType の実行順に依存しない）
+		wp.hooks.addFilter(
+			'editor.BlockEdit',
+			'rakutenmusic/block-spacing-inspector',
+			filterBlockEdit
 		);
 	}
 

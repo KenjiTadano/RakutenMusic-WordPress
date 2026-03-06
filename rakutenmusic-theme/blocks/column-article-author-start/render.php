@@ -8,8 +8,7 @@ $twitter_href = isset( $attrs['twitterHref'] ) ? $attrs['twitterHref'] : '';
 $facebook_href = isset( $attrs['facebookHref'] ) ? $attrs['facebookHref'] : '';
 $hide_twitter = ! empty( $attrs['hideTwitter'] );
 $hide_facebook = ! empty( $attrs['hideFacebook'] );
-$assets_uri = function_exists( 'rakutenmusic_get_assets_uri' ) ? rakutenmusic_get_assets_uri() : get_template_directory_uri() . '/assets';
-$icon_url = $assets_uri . '/column/img/common/icon.png';
+$icon_url = function_exists( 'rakutenmusic_asset_url' ) ? rakutenmusic_asset_url( 'column/img/common/icon.png' ) : ( get_template_directory_uri() . '/assets/column/img/common/icon.png' );
 ?>
 <div>
 <div class="author-start">

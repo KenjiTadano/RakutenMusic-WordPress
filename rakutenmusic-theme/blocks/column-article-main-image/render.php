@@ -8,9 +8,8 @@ $alt = isset( $attrs['alt'] ) ? $attrs['alt'] : '';
 if ( $url === '' ) {
 	return;
 }
-if ( strpos( $url, '/assets/' ) === 0 ) {
-	$assets_uri = function_exists( 'rakutenmusic_get_assets_uri' ) ? rakutenmusic_get_assets_uri() : get_template_directory_uri() . '/assets';
-	$url = $assets_uri . substr( $url, 7 );
+if ( strpos( $url, '/assets/' ) === 0 || strpos( $url, 'assets/' ) === 0 ) {
+	$url = function_exists( 'rakutenmusic_resolve_asset_url' ) ? rakutenmusic_resolve_asset_url( $url ) : ( get_template_directory_uri() . ( strpos( $url, '/' ) === 0 ? '' : '/' ) . $url );
 }
 ?>
 <div>

@@ -19,20 +19,16 @@ $badge_labels = array(
 	'ranking'   => 'ランキング',
 );
 
-/**
- * /assets/ で始まるパスをテーマの絶対URLに変換（ローカルで相対パス指定したい場合用）
- *
- * @param string $url 画像URLまたはリンクURL
- * @return string
- */
 $resolve_assets_url = function ( $url ) {
 	$url = trim( $url );
 	if ( $url === '' ) {
 		return $url;
 	}
+	if ( function_exists( 'rakutenmusic_resolve_asset_url' ) ) {
+		return rakutenmusic_resolve_asset_url( $url );
+	}
 	if ( strpos( $url, '/assets/' ) === 0 ) {
-		$base = function_exists( 'rakutenmusic_get_assets_uri' ) ? rakutenmusic_get_assets_uri() : get_template_directory_uri() . '/assets';
-		return $base . substr( $url, 7 );
+		return get_template_directory_uri() . $url;
 	}
 	return $url;
 };

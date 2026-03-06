@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rakutenmusic/plan-student-usage-steps",
+  "title": "学生プラン：ご利用の流れ",
+  "category": "rakutenmusic-plan-student",
+  "icon": "list-view",
+  "description": "学生プラン ご利用の流れ（新規・プラン変更）",
+  "keywords": ["楽天", "ミュージック", "学生プラン", "usage", "流れ"],
+  "textdomain": "rakutenmusic-theme",
+  "supports": { "inserter": true, "spacing": { "margin": true } },
+  "render": "file:./render.php"
+}

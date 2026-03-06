@@ -1,7 +1,6 @@
 /**
- * ブロックエディターより先にブロックをレジストリに登録する（リストビューで「非サポート」にならないようにする）
- * 依存は wp-blocks, wp-element のみなので wp-block-editor より先に実行される
- * 詳細な edit は section-blocks-edit.js が後から上書きする
+ * ブロックをレジストリに登録（リストビューで「非サポート」にならないようにする）
+ * ライトプラン・学生プラン・共通は useBlockProps でドラッグ・並べ替え可能に
  * window.rakutenmusicSectionBlocksData を PHP で渡すこと
  */
 (function () {
@@ -12,14 +11,19 @@
 	var rankBlocks = data.rankBlocks || [];
 	var rewardBlocks = data.rewardBlocks || [];
 	var planLiteBlocks = data.planLiteBlocks || [];
+	var planStudentBlocks = data.planStudentBlocks || [];
+	var commonBlocks = data.commonBlocks || [];
 	var columnArticleBlocks = data.columnArticleBlocks || [];
 
 	function run() {
 		var w = window.wp;
 		if (!w || !w.blocks || !w.element) return false;
+		// ドラッグ用に wp.blockEditor.useBlockProps が必要
+		if (!w.blockEditor || !w.blockEditor.useBlockProps) return false;
 
 		var registerBlockType = w.blocks.registerBlockType;
 		var createElement = w.element.createElement;
+		var useBlockProps = w.blockEditor.useBlockProps;
 
 		function minimalEdit(title) {
 			return function () {
@@ -27,6 +31,14 @@
 					className: 'rakutenmusic-block-early-placeholder',
 					style: { padding: '8px', fontSize: '13px', color: '#666' }
 				}, title);
+			};
+		}
+		// ライトプラン・学生プラン・共通・ランク・リワード用（useBlockProps でドラッグ・並べ替え可能）
+		function placeholderEdit(className, title) {
+			return function (props) {
+				var blockProps = useBlockProps ? useBlockProps({ className: className }) : { className: className };
+				var style = { padding: '16px', background: '#f0f0f0', border: '1px dashed #999', borderRadius: '4px', textAlign: 'center', fontSize: '13px' };
+				return createElement('div', Object.assign({}, blockProps, { style: style }), createElement('strong', null, title));
 			};
 		}
 
@@ -48,7 +60,7 @@
 			} catch (err) {}
 		});
 
-		// ランク・リワード・ライトプラン
+		// ランク・リワード（枠・背景付きプレースホルダー）
 		rankBlocks.forEach(function (b) {
 			try {
 				registerBlockType(b.name, {
@@ -60,7 +72,7 @@
 					attributes: {},
 					example: { attributes: {} },
 					supports: { inserter: true },
-					edit: minimalEdit(b.title),
+					edit: placeholderEdit('rakutenmusic-rank-block-placeholder', b.title),
 					save: function () { return null; }
 				});
 			} catch (err) {}
@@ -76,11 +88,12 @@
 					attributes: {},
 					example: { attributes: {} },
 					supports: { inserter: true },
-					edit: minimalEdit(b.title),
+					edit: placeholderEdit('rakutenmusic-reward-block-placeholder', b.title),
 					save: function () { return null; }
 				});
 			} catch (err) {}
 		});
+		// ライトプラン（ライトプラン・学生プラン・共通で同じ見た目）
 		planLiteBlocks.forEach(function (b) {
 			try {
 				registerBlockType(b.name, {
@@ -92,7 +105,39 @@
 					attributes: {},
 					example: { attributes: {} },
 					supports: { inserter: true },
-					edit: minimalEdit(b.title),
+					edit: placeholderEdit('rakutenmusic-plan-lite-block-placeholder', b.title),
+					save: function () { return null; }
+				});
+			} catch (err) {}
+		});
+		planStudentBlocks.forEach(function (b) {
+			try {
+				registerBlockType(b.name, {
+					title: b.title,
+					category: b.category || 'rakutenmusic-plan-student',
+					keywords: (b.keywords || []).concat('楽天', 'ミュージック', '学生プラン'),
+					icon: b.icon || 'align-wide',
+					description: b.description || '',
+					attributes: {},
+					example: { attributes: {} },
+					supports: { inserter: true },
+					edit: placeholderEdit('rakutenmusic-plan-student-block-placeholder', b.title),
+					save: function () { return null; }
+				});
+			} catch (err) {}
+		});
+		commonBlocks.forEach(function (b) {
+			try {
+				registerBlockType(b.name, {
+					title: b.title,
+					category: b.category || 'rakutenmusic-common',
+					keywords: (b.keywords || []).concat('楽天', 'ミュージック'),
+					icon: b.icon || 'align-wide',
+					description: b.description || '',
+					attributes: {},
+					example: { attributes: {} },
+					supports: { inserter: true },
+					edit: placeholderEdit('rakutenmusic-common-block-placeholder', b.title),
 					save: function () { return null; }
 				});
 			} catch (err) {}

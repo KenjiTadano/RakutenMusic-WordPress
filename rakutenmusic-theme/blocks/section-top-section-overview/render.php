@@ -22,8 +22,10 @@ if ( ! file_exists( $part ) ) {
 	return;
 }
 
+$t_uri = get_template_directory_uri();
 $html = file_get_contents( $part );
-$html = str_replace( '{{T}}', get_template_directory_uri(), $html );
+$html = str_replace( '{{T}}', $t_uri, $html );
+$html = function_exists( 'rakutenmusic_resolve_assets_in_html' ) ? rakutenmusic_resolve_assets_in_html( $html, $t_uri ) : $html;
 $html = str_replace( '{{HOME}}', esc_url( home_url( '/' ) ), $html );
 $html = str_replace( '{{APP_STORE_URL}}', $app_store_url, $html );
 $html = str_replace( '{{APP_QR_URL}}', $app_qr_url, $html );

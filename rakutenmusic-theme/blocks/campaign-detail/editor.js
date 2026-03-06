@@ -83,6 +83,7 @@
   });
 
   wp.blocks.registerBlockType('rakutenmusic/campaign-detail-table', {
+    supports: { spacing: { margin: false } },
     attributes: {
       caption: { type: 'string', default: '' },
       rows: {

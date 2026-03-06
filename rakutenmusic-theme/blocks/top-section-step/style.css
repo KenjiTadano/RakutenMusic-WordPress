@@ -1,0 +1,4 @@
+/* summary-group h3 の strong 部分の色（ブロック属性 summaryH3StrongColor で指定） */
+.wp-block-rakutenmusic-top-section-step .summary-group h3 strong {
+	color: var(--summary-h3-strong-color, inherit);
+}

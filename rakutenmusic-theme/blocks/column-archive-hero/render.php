@@ -13,18 +13,18 @@ $desc    = isset( $attrs['description'] ) ? $attrs['description'] : '楽天ミ�
 $top_img = isset( $attrs['topImageUrl'] ) ? trim( $attrs['topImageUrl'] ) : '';
 $btm_img = isset( $attrs['bottomImageUrl'] ) ? trim( $attrs['bottomImageUrl'] ) : '';
 
-$assets_uri = function_exists( 'rakutenmusic_get_assets_uri' ) ? rakutenmusic_get_assets_uri() : get_template_directory_uri() . '/assets';
+$default_img = function_exists( 'rakutenmusic_asset_url' ) ? rakutenmusic_asset_url( 'column/img/common/img_record.png' ) : ( get_template_directory_uri() . '/assets/column/img/common/img_record.png' );
 if ( $top_img === '' ) {
-	$top_img = $assets_uri . '/column/img/common/img_record.png';
+	$top_img = $default_img;
 }
 if ( $btm_img === '' ) {
-	$btm_img = $assets_uri . '/column/img/common/img_record.png';
+	$btm_img = $default_img;
 }
 
 $desc_esc = esc_html( $desc );
 $desc_br  = str_replace( "\n", '<br class="is-pc-hidden" />', $desc_esc );
 
-$bg_url  = $assets_uri . '/column/img/common/bg.png';
+$bg_url  = function_exists( 'rakutenmusic_asset_url' ) ? rakutenmusic_asset_url( 'column/img/common/bg.png' ) : ( get_template_directory_uri() . '/assets/column/img/common/bg.png' );
 $bg_style = 'background-image: url(' . esc_url( $bg_url ) . '); background-color: lightgray; background-position: 50% 50%; background-size: cover; background-repeat: no-repeat;';
 ?>
 <div class="column-archive-hero-block">

@@ -1,35 +1,34 @@
-$(document).ready(function () {
-    let exDisplayed = false; // フラグを初期化
+(function ($) {
+    $(document).ready(function () {
+        var exDisplayed = false;
 
-    $('#usage-steps--new').click(function () {
-        $('.usage-steps-group--new').hide().css('display', 'flex').fadeIn();
-        $('.usage-steps-group--ex').hide();
-        $('.usage-steps-tab button').removeClass('active fade-in-left fade-in-right');
-        $(this).addClass('active fade-in-right');
-    });
-
-    $('#usage-steps--ex').click(function () {
-        $('.usage-steps-group--ex').hide().fadeIn(function () {
-            if (!exDisplayed) {
-                // 初めて表示されたときにのみ実行
-                $('.plan-change').slick({
-                    infinite: false,
-                    autoplay: false,
-                    slidesToShow: 3,
-                    responsive: [
-                        {
-                            breakpoint: 768,
-                            settings: {
-                                slidesToShow: 1,
-                            }
-                        }
-                    ]
-                });
-                exDisplayed = true; // フラグを更新
-            }
+        $('#usage-steps--new').on('click', function () {
+            $('.usage-steps-group--new').hide().css('display', 'flex').fadeIn();
+            $('.usage-steps-group--ex').hide();
+            $('.usage-steps-tab button').removeClass('active fade-in-left fade-in-right');
+            $(this).addClass('active fade-in-right');
         });
-        $('.usage-steps-group--new').hide();
-        $('.usage-steps-tab button').removeClass('active fade-in-left fade-in-right');
-        $(this).addClass('active fade-in-left');
+
+        $('#usage-steps--ex').on('click', function () {
+            $('.usage-steps-group--new').hide();
+            $('.usage-steps-group--ex').hide().fadeIn(function () {
+                if (!exDisplayed) {
+                    $('.plan-change').slick({
+                        infinite: false,
+                        autoplay: false,
+                        slidesToShow: 3,
+                        responsive: [
+                            {
+                                breakpoint: 768,
+                                settings: { slidesToShow: 1 }
+                            }
+                        ]
+                    });
+                    exDisplayed = true;
+                }
+            });
+            $('.usage-steps-tab button').removeClass('active fade-in-left fade-in-right');
+            $(this).addClass('active fade-in-left');
+        });
     });
-});
+})(jQuery);

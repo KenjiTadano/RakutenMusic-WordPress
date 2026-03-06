@@ -9,6 +9,7 @@ $part = get_template_directory() . '/template-parts/footer-rakuten-music.html';
 if ( file_exists( $part ) ) {
 	$html = file_get_contents( $part );
 	$html = str_replace( '{{T}}', $t, $html );
+	$html = function_exists( 'rakutenmusic_resolve_assets_in_html' ) ? rakutenmusic_resolve_assets_in_html( $html, $t ) : $html;
 	$html = str_replace( '{{HOME}}', $h, $html );
 	echo $html;
 }

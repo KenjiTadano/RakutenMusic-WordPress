@@ -10,7 +10,6 @@ if ( ! in_array( $height, $allowed, true ) ) {
 }
 $height_px = (int) $height;
 
-$assets_uri = function_exists( 'rakutenmusic_get_assets_uri' ) ? rakutenmusic_get_assets_uri() : get_template_directory_uri() . '/assets';
-$spacer_url = $assets_uri . '/column/img/spacer.png';
+$spacer_url = function_exists( 'rakutenmusic_asset_url' ) ? rakutenmusic_asset_url( 'column/img/spacer.png' ) : ( get_template_directory_uri() . '/assets/column/img/spacer.png' );
 ?>
 <img src="<?php echo esc_url( $spacer_url ); ?>" alt="" width="1" height="<?php echo (int) $height_px; ?>" class="column-article-spacer" loading="lazy" />

@@ -10,10 +10,8 @@ $link_url = isset( $attrs['linkUrl'] ) ? trim( $attrs['linkUrl'] ) : '#';
 $song_name = isset( $attrs['songName'] ) ? $attrs['songName'] : '';
 $artist_name = isset( $attrs['artistName'] ) ? $attrs['artistName'] : '';
 $description = isset( $attrs['description'] ) ? $attrs['description'] : '';
-$assets_uri = function_exists( 'rakutenmusic_get_assets_uri' ) ? rakutenmusic_get_assets_uri() : get_template_directory_uri() . '/assets';
-
-if ( $image_url !== '' && strpos( $image_url, '/assets/' ) === 0 ) {
-	$image_url = $assets_uri . substr( $image_url, 7 );
+if ( $image_url !== '' && ( strpos( $image_url, '/assets/' ) === 0 || strpos( $image_url, 'assets/' ) === 0 ) ) {
+	$image_url = function_exists( 'rakutenmusic_resolve_asset_url' ) ? rakutenmusic_resolve_asset_url( $image_url ) : ( get_template_directory_uri() . '/assets' . ( strpos( $image_url, '/' ) === 0 ? substr( $image_url, 7 ) : '/' . $image_url ) );
 }
 ?>
 <div class="video-article-block">
